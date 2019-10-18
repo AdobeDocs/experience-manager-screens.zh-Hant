@@ -4,7 +4,7 @@ seo-title: AEM Screens專案角色和責任
 description: 此頁面說明AEM Screens專案角色和責任
 seo-description: 此頁面說明AEM Screens專案角色和責任
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 | *第二天：發佈後支援* |
 | 角色與責任協定 | RA | RA | RA |
 | 第1層支援 | I | I | RA |
-| 第1層支援 | I | C | RA |
-| 第1層支援 | I | RA | C |
+| 第2層支援 | I | C | RA |
+| 第3層支援 | I | RA | C |
 | 內容更新 | RA | I | I |
-| 評估UX的成功，並找出改善的方面 | RA | C | I |
+| 評估UX的成功，並找出改善的方面
