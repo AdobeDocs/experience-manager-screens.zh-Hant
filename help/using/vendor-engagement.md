@@ -4,7 +4,7 @@ seo-title: AEM螢幕的廠商參與
 description: 此頁面說明「AEM螢幕的廠商參與最佳實務指南」
 seo-description: 此頁面說明「AEM螢幕的廠商參與最佳實務指南」
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -24,17 +24,3 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 * 確認所 *有傳送規則的傳送提前期* ，並建立部署計畫，以便從第一個必要安裝的所需安裝日期開始，向後處理所有提前期。
 
 完成所有前述步驟後，我們現在應該有全面的第1 *天部署計畫* ，以便執行。
-
-## 考慮硬體合作夥伴 {#selecting-hardware-partner}
-
-選擇正確的硬體合作夥伴至關重要。 必須考慮下列問題：
-
-1. 服務層級合約的條款為何？
-
-1. 全球涵蓋範圍為何？
-
-1. 24小時支援嗎？
-
-1. 如何管理這些設備？
-
-1. 什麼是主動式監控和警告系統？
