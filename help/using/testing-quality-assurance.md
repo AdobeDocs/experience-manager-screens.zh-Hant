@@ -4,7 +4,7 @@ seo-title: AEM螢幕的測試與品質保證
 description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 seo-description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 translation-type: tm+mt
-source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
+source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
 
 ---
 
@@ -57,7 +57,7 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 1. 監視應用程式錯誤日誌
 1. 管理遠端螢幕擷取
 1. 管理內容下載
-1. 應用程式重新啟動
+1. 管理應用程式重新啟動問題
 
 若要詳細瞭解裝置控 ***制中心***，請參閱 [AEM Screens使用指南中的疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)****。
 
