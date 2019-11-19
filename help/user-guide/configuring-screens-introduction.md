@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
@@ -19,33 +19,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 # 設定和部署AEM畫面 {#configuring-and-deploying-aem-screens}
 
 本頁說明如何在您的裝置上安裝和設定畫面播放器。
-
-## 安裝AEM Screens Player {#installing-aem-screens-player}
-
-AEM Screens播放器適用於Android、Chrome OS、iOS和Windows。
-
-若要下 **載AEM Screens Player**，請造訪 [**AEM 6.5 Player下載頁面**](https://download.macromedia.com/screens/) 。
-
->[!NOTE]
->
->下載最新的播放器(*.exe*)後，請依照播放器上的步驟完成臨機安裝：
->
->1. 長按左上角以開啟管理面板。
->1. 從左側 **動作功能表導覽至** 「設定」，然後在 **Server中輸入AEM例項的位置位址，然後按一下「儲** 存」 ****。
->1. 按一下左 **側動作功能表** 中的「註冊」連結，以及下列步驟以完成裝置註冊程式。
->
-
-
-
-### 其他資源 {#additional-resources}
-
-如需深入資訊，請參閱下列主題：
-
-* 若要下載Android Player，請造 **訪Google Play**。 若要瞭解實作Android Watchdog的相關資訊，請參閱實 [作Android播放器](implementing-android-player.md)。
-
-* 若要實作Chrome OS Player，請參閱 [Chrome Management Console](implementing-chrome-os-player.md) ，以取得詳細資訊。
-
-* 若要設定AEM Screens Windows player，請參閱「 [實作Windows Player](implementing-windows-player.md)」。
 
 ## Server Configuration {#server-configuration}
 
