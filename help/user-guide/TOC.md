@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 6.5 Help
+user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
+source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
 
 ---
 
@@ -22,13 +22,14 @@ source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
    + [第四部分：專案管理與部署](project-management-and-deployment.md)
    + [第5部分：支援考量事項](support-considerations.md)
 + 管理 {#administering}
-   + [設定AEM Screens伺服器組態](configuring-screens-introduction.md)
-   + [設定AEM Screens Player](working-with-screens-player.md)
+   + [畫面伺服器組態](configuring-screens-introduction.md)
    + [設定Dispatcher配置](dispatcher-configurations-aem-screens.md)
-   + [設定ACL](setting-up-acls.md)
+   + [安裝Screens Player](installing-screens-player.md)
+   + [連接Screens Player應用程式](working-with-screens-player.md)
    + [裝置註冊](device-registration.md)
+   + [設定ACL](setting-up-acls.md)
    + [從ContentSync轉換到SmartSync](smartsync.md)
-   + AEM Screens 播放器 {#screens-player}
+   + 安裝客戶端 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome Player做為擴充功能以進行疑難排解](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
