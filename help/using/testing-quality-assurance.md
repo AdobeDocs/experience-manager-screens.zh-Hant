@@ -4,7 +4,7 @@ seo-title: AEM螢幕的測試與品質保證
 description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 seo-description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -20,9 +20,12 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 
 應建立一個核對表，該核對表標識所有先前定義的KPI，並根據這些KPI測量交付項。
 
+>[!NOTE]
+> 此階段也應當做建立安裝與使用指南的工具，稍後可隨附設備，並留在現場供日後參考。
+
 應考慮以下因素：
 
-## 1.機械方面的考慮 {#mechanical-considerations}
+## 1.機械注意事項 {#mechanical-considerations}
 
 建議使用下列機械注意事項：
 
@@ -42,8 +45,6 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 * 播放
 * 資料庫依賴性（先前定義）
 
->[!NOTE]
-> 此階段也應當做建立安裝與使用指南的工具，稍後可隨附設備，並留在現場供日後參考。
 
 ## 3.設備管理注意事項 {#device-management-considerations}
 
@@ -58,8 +59,10 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 1. 管理內容下載
 1. 應用程式重新啟動
 
+若要詳細瞭解裝置控 ***制中心***，請參閱 [AEM Screens使用指南中的疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)****。
+
 >[!CAUTION]
-> 您應使用NPT設備控制中心：
+> 您不應使用Device Control Center來：
 >
 > 1. 安裝新版播放器應用程式
 > 1. 監控系統級資源
