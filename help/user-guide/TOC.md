@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
+source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
    + [裝置註冊](device-registration.md)
    + [設定ACL](setting-up-acls.md)
    + [從ContentSync轉換到SmartSync](smartsync.md)
+   + [從檔案新增專案匯入工具](project-importer.md)
    + 用戶端特定考量事項 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome Player做為擴充功能以進行疑難排解](using-chrome-player-as-an-extension.md)
@@ -49,7 +50,7 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [建立和管理計畫](managing-schedules.md)
       + [管理裝置](managing-devices.md)
       + [頻道指定任務](channel-assignment.md)
-   + 使用產品功能 {#product-features}
+   + 使用核心產品功能 {#product-features}
       + [文字重疊](text-overlay.md)
       + [大量離線更新](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
@@ -63,9 +64,11 @@ source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
       + [多區域版面](multi-zone-layout-aem-screens.md)
       + [視訊轉譯](generating-renditions.md)
       + [使用動態內嵌序列](dynamic-embedded-sequences.md)
-      + [啟動](launches.md)
-      + [從檔案新增專案匯入工具](project-importer.md)
       + [頻道層級大量影像播放持續時間](channel-level-image-playback.md)
+   + 管理內容更新 {#content-updates}
+      + [隨選內容更新](on-demand-content.md)
+      + [內容更新為服務](content-update-as-a-service.md)
+      + [使用啟動更新內容](launches.md)
    + 使用案例範例 {#use-case-examples}
       + [緊急通道](emergency-channel.md)
       + [旅行中心溫度激活](local-temperature-activation.md)
