@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >「更 **新韌體** 」選項僅適用於cordova，例如Android播放器。
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>建議在「生產部 **署」中停用** 「管理員UI」。
 
 您可從AEM Screens播放器的「管理員UI」中，清除頻道和應用程式的快取。
 
