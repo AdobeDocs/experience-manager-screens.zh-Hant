@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,19 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
    >預設情況下，將選中所有框，您必須手動取消選中這些框才能發佈項目中的所有模組。
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **瞭解包含子項對話框**
+
+   上述步驟顯示如何發佈整個內容。 如果您想要使用其他三種替代方案，您必須勾選該特定選項。
+例如，下列影像可讓您僅管理和更新專案中已修改的頁面：
+   ![影像](assets/author-publish-manage.png)
+
+   請依照下列說明了解可用選項：
+
+   1. **僅包含直接子項**:此選項僅允許您管理項目結構中子節點的更新。
+   1. **僅包含已修改的頁面**:此選項僅允許您管理在項目結構中找到更改的修改後頁面的更新。
+   1. **僅包含已更新的頁面**:此選項僅允許管理先前發佈之頁面的更新。
+
 
 1. 從「管 **理出版物** 」精靈 **按一下「發佈」。**
 
