@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -34,13 +34,13 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 當接收到由緊急系統引發的事件時，玩家切換到顯示緊急資訊的頻道。 頻道只播放，直到緊急情況結束為止。
 
-如需實 [**施，請參閱Emergency Channel**](emergency-channel.md) Use Case。
+如需實 [施，請參閱Emergency Channel](emergency-channel.md) Use Case。
 
 * **針對非同步元件啟用定&#x200B;*位(例如視訊、內嵌序列*)**
 
-AEM Screens專案中使用的資產現在可以啟用定位** **。
+現在可以針對AEM Screens專案中使用的資產啟用定位。
 
-若要進一步瞭解如何在AEM Screens專案中啟用資產定位，請參閱「在AEM [**畫面中設定ContextHub**](configuring-context-hub.md)」。
+若要進一步瞭解如何在AEM Screens專案中啟用資產定位，請參閱「在AEM [畫面中設定ContextHub](configuring-context-hub.md)」。
 
 在您為AEM Screens專案設定ContextHub後，請依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
@@ -57,11 +57,11 @@ AEM Screens專案中使用的資產現在可以啟用定位** **。
 * **啟動**
 
 啟動可讓內容作者建立頻道的未來版本。 在啟動的協助下，作者可以預覽啟動中的每個頻道，而且應該可以開始要求檢閱。 批准者群組會收到通知，並可核准或拒絕請求。 到達即時日期時，內容會在裝置中播放。
-如需詳細 [**資訊**](launches.md) ，請參閱啟動。
+如需詳細 [資訊](launches.md) ，請參閱啟動。
 
 * **體驗片段中的離線設定**
 
-您現在可以在設定「畫面」體驗片段時新增離線設定（用戶端程式庫和靜態檔案）。 如需詳細 [**資訊，請參閱使用體驗**](experience-fragments-in-screens.md) 片段。
+您現在可以在設定「畫面」體驗片段時新增離線設定（用戶端程式庫和靜態檔案）。 如需詳細 [資訊，請參閱使用體驗](experience-fragments-in-screens.md) 片段。
 
 ### 已發行的AEM Screens播放器 {#released-aem-screens-players}
 
@@ -73,4 +73,4 @@ AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1已發行下列AEM Screens Pl
 
 #### AEM Screens Player下載 {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱 [**AEM Screens Player下載**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱 [AEM Screens Player下載](https://download.macromedia.com/screens/)。
