@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
+source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 # AEM Screens使用指南 {#user-guide}
 
 + [螢幕簡介](aem-screens-introduction.md)
-+ 概覽 {#overview}
++ 概觀與啟動指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
    + [主要條款](screens-glossary.md)
 + 數位標牌網路基本概念 {#digital-signage-network}
@@ -21,7 +21,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [第3部分：測試、POC、試點和推展](testing-pocs-pilots-rollouts.md)
    + [第四部分：專案管理與部署](project-management-and-deployment.md)
    + [第5部分：支援考量事項](support-considerations.md)
-+ 管理 {#administering}
++ 配置和管理 {#administering}
    + [畫面伺服器組態](configuring-screens-introduction.md)
    + [設定Dispatcher配置](dispatcher-configurations-aem-screens.md)
    + [安裝Screens Player](installing-screens-player.md)
@@ -71,7 +71,8 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
       + [旅行中心溫度激活](local-temperature-activation.md)
       + [酒店預訂激活](hospitality-reservation-activation.md)
       + [零售庫存鎖定](retail-inventory-activation.md)
-+ 開發 {#developing}
+      + [套用轉場效果](applying-transitions.md)
++ 開發人員與API資源 {#developing}
    + [REST API](rest-api.md)
    + [開發AEM畫面的自訂元件](developing-custom-component-tutorial-develop.md)
    + [離線渠道](offline-channels.md)
@@ -79,7 +80,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [建立元件](creating-components.md)
    + [在AEM畫面中設定ContextHub](configuring-context-hub.md)
    + [建立自訂範本多區域版面](creating-custom-templates-multizone-layouts.md)
-+ 疑難排解 {#troubleshooting}
++ 疑難排解和常見問答集 {#troubleshooting}
    + [AEM Screens常見問答集](aem-screens-faqs.md)
    + [設備控制中心故障排除](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
