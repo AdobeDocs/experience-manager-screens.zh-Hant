@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -332,7 +332,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
    1. **僅包含直接子項**:此選項僅允許您管理項目結構中子節點的更新。
    1. **僅包含已修改的頁面**:此選項僅允許您管理在項目結構中找到更改的修改後頁面的更新。
-   1. **僅包含已更新的頁面**:此選項僅允許管理先前發佈之頁面的更新。
+   1. **僅包含已發佈的頁面**:此選項僅允許管理先前發佈之頁面的更新。
 
 
 1. 從「管 **理出版物** 」精靈 **按一下「發佈」。**
