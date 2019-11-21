@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
+source-git-commit: 672c26d9cbbed8e4bd96c19b751395c564522845
 
 ---
 
@@ -14,6 +14,7 @@ source-git-commit: 56b3222d5cdb00291ca167bcfa9b5d9b2aa61ec3
 + [螢幕簡介](aem-screens-introduction.md)
 + 概觀與啟動指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
+   + [螢幕最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [主要條款](screens-glossary.md)
 + 數位標牌網路基本概念 {#digital-signage-network}
    + [第1部分：項目角色和責任](project-roles-responsibilities.md)
