@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 #### 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
-1. 導覽至**Adobe Experience Manager Web Console設定**，透過AEM實例—&gt;槌子圖示—&gt; **Operations** —&gt; **Web Console**。
+1. 透過 **AEM例項** —&gt; hammer圖示—&gt; **Operations** —&gt; **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -57,7 +57,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 1. 導覽至 *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 請確定「預 **設編寫UI** 」模式已設 **為TOUCH**，如下圖所示
 
-或者，您也可以使用*&lt;yourAuthorInstance&gt; *-&gt;* tools（槌子圖示）* -&gt; **Operations** -&gt;** Web Console**執行相同的設定，並搜尋 **WCM編寫UI模式服務**。
+或者，您也可以使用&lt;yourAuthorInstance&gt; *-&gt;*(hammer icon -&gt;** Web Operations) **-** Operations -&gt;搜索WUI創作工具(hammer icon -&gt; **Web Consale Service Service****** cm)執行相同的設定。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -83,7 +83,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 請依照下列步驟來設定 ***DeviceServiceImpl***:
 
-1. 導覽至**Adobe Experience Manager Web Console設定**，透過AEM實例—&gt;槌子圖示—&gt; **Operations** —&gt; **Web Console**。
+1. 透過 **AEM例項** —&gt; hammer圖示—&gt; **Operations** —&gt; **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
 1. **Adobe Experience Manager Web Console設定**開啟。 搜尋裝置服務。 要搜索屬性，請按 **Command+F** ( **Mac)和Control+F(****Windows)** ( **** Windows)。
 
