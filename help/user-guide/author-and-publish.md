@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 * 作者—&gt; localhost:4502
 * Publish 1(pub1)—&gt; localhost:4503
-* Publish(pub2)—&gt; localhost:4504
+* Publish 2(pub2)—&gt; localhost:4504
 
 ## 在作者上設定複製代理 {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. 按一下 **編輯** ，開啟「代理 **** 設定」對話框以輸入詳細資訊。
+
+   >[!NOTE]
+   >
+   >用戶需要檢查「 **啟用** 」以啟用複製代理。 您必須在「預設」、「螢幕」和「反向複製代理」上選中此選項。
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
