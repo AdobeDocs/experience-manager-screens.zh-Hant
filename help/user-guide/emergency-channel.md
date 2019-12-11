@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,20 +50,20 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 選取「 **Channels** 」檔案夾，然後按 **一下「建立** 」以開啟精靈以建立渠道。
 
-   1. 從精靈中選取**順序頻道**，並建立標題為 **MainAdChannel的頻道**。
+   1. 從精 **靈中選取「順序渠道** 」，並建立標題為「 **MainAdChannel**」的渠道。
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **新增內容至序列頻道**
 
    1. 選取渠道(**MainAdChannel**)。
-   1. 按一 **下動作列** 中的「編輯」以開啟編輯器。 將幾個資產拖放至您的渠道。
+   1. 從動 **作列按一下** 「編輯」以開啟編輯器。 將幾個資產拖放至您的渠道。
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **建立緊急通道**
 
    1. 選取「頻 **道** 」檔案夾。
    1. 按一下「 **建立** 」以開啟精靈以建立渠道。
-   1. 從精靈中選取**順序頻道**，並建立名為 **EmergencyChannel的頻道**。
+   1. 從向 **導中選擇Sequence Channel** ，然後建立名為 **EmergencyChannel的渠道**。
    >[!NOTE]
    >
    >通常，您的緊急通道會新增至您預先存在的生產專案。
@@ -73,7 +73,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **新增內容至緊急通道**
 
    1. 選擇頻道(緊&#x200B;**急頻道)**。
-   1. 按一 **下動作列** 中的「編輯」以開啟編輯器。 將您要在緊急狀況期間執行的資產拖放至您的渠道。
+   1. 從動 **作列按一下** 「編輯」以開啟編輯器。 將您要在緊急狀況期間執行的資產拖放至您的渠道。
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **建立位置**
@@ -96,9 +96,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 將「顯示」指派給您的排程並設定優先順序
 
-   1. 選擇排程**(StoreSchedule)**，然後從動作列按一 **下** 「儀表板」。
+   1. 選取排程( **StoreSchedule)** ，然後從動作列按 **一下「儀表板** 」。
 
-   1. 按一 **下「已指派渠道** 」(**ASSIGNED CHANNELS)**面板中的「+指派渠道」(Assign Channel)。
+   1. 從「已 **指派的頻道** 」面板按 **一下「+指派頻道** 」。
 
    1. 從「渠 **道分配** 」對話框：
 
@@ -113,7 +113,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. 按一 **下「已指派渠道** 」(**ASSIGNED CHANNELS)**面板中的「+指派渠道」(Assign Channel)。
+1. 從「已 **指派的頻道** 」面板按 **一下「+指派頻道** 」。
 
 1. 從「渠 **道分配** 」對話框：
 
@@ -131,7 +131,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **將排程指派給每個顯示**
 
-   1. 導覽至每個顯示器，例如 **EmergencyChannel** —&gt; **Locations** —&gt; **Store **—&gt;**StoreFront**。
+   1. 導覽至每個顯示器，例如 **Channel** —&gt; **Locations** —&gt; **Store** —&gt;**** StoreFront緊急處理。
 
    1. 從動 **作按一下** 「控制面板」，以開啟顯示控制面板。
    1. **按一**&#x200B;下……從「指 **派渠道與排程」面板** ，然後按一 **下+指派排程**。
