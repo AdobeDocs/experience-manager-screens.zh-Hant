@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 在此使用案例中，Google Sheet會填入兩間餐廳 **Restaurant1** 和 **Restaurant2的預訂百分比**。 公式會根據Restaurant1和Restaurant2的值套用，並根據公式，值1或2會指派給 **AdTarget** 欄。
 
-如果 **Restaurant1** **Restaurant2的值，則** AdTaget **被指定值***否則，********** AdTarget被指定值為2AdTarget。 Value 1會產 *生Steak food* option（牛排食品），而Value 2會在顯示畫面 *上顯示Thai* food（泰式食品）選項。
+如果值為 **Restaurant1** **Restaurant2，則** AdTaget Taget值被分配為AdTarget值，否則 **AdTarget值會被分配為AdTarget************** 1 &gt; AdTarget的值。 Value 1會產 *生Steak food* option（牛排食品），而Value 2會在顯示畫面 *上顯示Thai* food（泰式食品）選項。
 
 ## 先決條件 {#preconditions}
 
@@ -44,18 +44,18 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **根據需求在「對象」中設定區段**
 
-   1. 導覽至對象中的區段(請參 ***閱步驟2:在「在AEM畫面中設定ContextHub*** 」(** [在AEM Screens](configuring-context-hub.md)**頁面中設定觀眾區隔)，以取得詳細資訊。
+   1. 導覽至對象中的區段(請參 ***閱步驟2:在「在AEM畫面中設定ContextHub*** 」頁 **[](configuring-context-hub.md)** 面中設定「觀眾區段」，以取得詳細資訊)。
 
    1. 選擇「 **工作表A1 1** 」，然後單 **擊編輯**。
 
    1. 選擇比較屬性，然後按一下設定圖示以編輯屬性。
    1. 從屬 **性名稱的下拉式清單中選取** 「Googlesheets/value/1/2 **」**
 
-   1. 從下 **拉式選單中** ，將運算子選取為**equal **
+   1. 從下拉 **式選單中選** 取「運 **算子等於** 」(Operator as equal)
 
    1. 將值 **輸入****為1**
 
-   1. 同樣地，選擇**工作表A1 2 **並按一下「編 **輯」**。
+   1. 同樣地，選擇 **工作表A1 2** ，然後單 **擊編輯**。
 
    1. 選擇比較屬性，然後按一下設定圖示以編輯屬性。
    1. 從屬 **性名稱的下拉式清單中選取** 「Googlesheets/value/1/2 **」**
