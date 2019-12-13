@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 選取**DAM更新資產**模型，然後從動作列按一下「編輯」以開啟**DAM更新資產**視窗。
+1. 選擇「 **DAM更新資產模型** 」，然後從動作列按一下「編輯」以開啟「 **DAM更新資產」視窗** 。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -47,7 +47,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 按一下**DAM更新資產**螢幕左上角的**儲存**。
+1. 按一 **下** 「 **DAM Update Asset」畫面左上角的「** 儲存」。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
@@ -73,11 +73,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 選擇**螢幕更新資產**模型，然後按一下開始工 **作流** ，開啟 **** 運行工作流對話框。
+1. 選擇「 **畫面更新資產** 」模型，然後按一下「開 **始工作流程** 」以開啟「 **執行工作流程** 」對話方塊。
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 在「裝載」中選取所需的 **視訊** ，然後按一下「 **執行」**。
+1. 在「裝載」中選取所要的 **視訊** ，然後按一 **下「執行」**。
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
