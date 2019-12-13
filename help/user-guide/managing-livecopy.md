@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ### 即時副本狀態 {#live-copy-status}
 
-如下圖所示，模式**即時副本狀態**可讓您檢視渠道中所有資產的關係狀態。
+「即 **時複製狀態**」模式（如下圖所示）可讓您檢視渠道中所有資產的關係狀態。
 
 1. 按一 **下「編輯** 」以選擇「即時副本狀態 **** 」，並檢視渠道內容與原始渠道（即時副本從中產生）的關聯。
 
