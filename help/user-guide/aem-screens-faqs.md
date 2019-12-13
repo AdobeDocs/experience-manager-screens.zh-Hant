@@ -6,7 +6,7 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 您必須啟用Apache Sling Referrer Filter Allow Empty。 這是AEM Screens player和AEM Screens伺服器之間最佳化控制通訊協定所需的。
 
 1. 導覽至 **Adobe Experience Manager Web Console設定**
-1. 勾選**allow.empty **選項。
+1. 選中 **allow.empty選項** 。
 1. 按一下&#x200B;**「儲存」**。
 
 ### 3.如果在註冊AEM Screens播放器時，裝置顯示FAILURE，而主控台記錄顯示ENAME_NOT_FOUND錯誤，如何進行疑難排解？ {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
