@@ -6,7 +6,7 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，
 1. 解壓縮並儲存在磁碟上。
 1. 開啟Chrome瀏覽器，然後按一下3點功能表，然後從右上角選取「 **More Tools** —&gt; **Extensions** 」（更多工具—&gt;擴充功能），或直接導覽至 ***chrome://extensions***。
 1. 從右上角 **切換** 「開發人員」模式。
-1. 從左上角按一下「載入已解除封裝的**」，然後載入已解除壓縮的Chrome Player。
+1. 按一下左 **上角的「載入解壓縮** 」，然後載入解壓縮的Chrome Player。
 1. 如果 **副檔名清單中有AEM Screens Chrome Player** plugin，請勾選。
 1. 開啟新的標籤，然後從左上角按 **一下「應用程式** 」圖示，或直接導覽至 ***chrome://apps***。
 1. 按一下「 **AEM Screens** Plugin」以啟動Chrome Player。 依預設，播放器會以全螢幕模式啟動。 按 **Esc** 退出全螢幕模式。
