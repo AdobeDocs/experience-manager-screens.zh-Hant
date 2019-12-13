@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -46,7 +46,7 @@ AEM提供許多其他元件。 您隨時都可以將其他元件（預設未包�
 
 1. 選取您要新增元件的渠道。 例如， **We.Retail In Store** —&gt; **Channels** —&gt; **Idle Channel**。
 
-1. 從動作列按一下**編輯**以開啟編輯器。
+1. 從動 **作列按一下** 「編輯」以開啟編輯器。
 1. 選擇 **設計** 模式。
 1. 選擇右側的整個設計編輯器，然後按一下設定符號以開啟「 **ParSys設計」(ParSys Design** )對話框。
 1. 您可以選取要匯入至AEM Screens專案的元件。 下列範例說明 **將Livefyre元件新增至** AEM Screens專案。
@@ -156,7 +156,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目，等等）。</td>
+   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目等）。</td>
   </tr>
  </tbody>
 </table>
@@ -185,7 +185,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目，等等）。</td>
+   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目等）。</td>
   </tr>
  </tbody>
 </table>
