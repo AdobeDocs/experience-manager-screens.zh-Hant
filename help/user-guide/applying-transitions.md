@@ -6,19 +6,19 @@ seo-description: 請依照本頁面進行，瞭解如何將轉場效果套用至
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # 套用轉場效果 {#applying-transitions}
 
-本節說明如何在頻道中的不 **同資產** （影像和視訊）之間套用Transition元件。
+本節說明如何在不同資產( **影像和視訊)和頻道中內嵌的序列之間套用** Transition元件。
 
 
 >[!CAUTION]
 >
->要詳細瞭解「過渡」元件的屬性，請參閱「過渡 [」](adding-components-to-a-channel.md#transition)。
+>要詳細瞭解過渡元件的屬 **性** ，請參閱 [Transitions](adding-components-to-a-channel.md#transition)。
 
 ## 新增轉場元件至渠道中的資產 {#adding-transition}
 
@@ -51,8 +51,12 @@ source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
    >
    >預設情況下，過渡元件的屬性(如 **Type** )設定為 **Normal** , **Duration** （持續時間） *設定為* 600 ms。  此外，建議不要設定比套用資產長的轉場持續時間。
 
+1. 此外，如果您將內嵌序列元件（包含序列頻道）新增至此頻道編輯器，您可在最後新增轉場元件，讓內容依順序播放，如下圖所示： ****
+
+   ![image3](assets/transitions5.png)
+
 ## 新增轉場元件至頻道中的影片 {#adding-transition-videos}
 
-在視訊之間套用轉場元件時，請一律將 **Type** 設為 **Fade** ，將Sequence Duration **設為****** 1600 ms。
+在視訊之間套用轉場元件時，建議您將 **Type** 設為 **Fade** ，將 **Sequence Duration** 設為 **** 1600 ms。
 
 ![image3](assets/transitions4.png)
