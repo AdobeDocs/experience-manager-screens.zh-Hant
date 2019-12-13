@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 請遵循下列步驟，將頻道指派給顯示器：
 
-1. 導覽至所需的顯示畫面，例如 **DemoProject*** * *—&gt; **Locations** —&gt; **SanJose** —&gt; **** StoreDisplayDesplayComment。
+1. 導覽至所需的顯示，例如 **DemoProject** —&gt; **Locations** —&gt; **SanJose** —&gt; **** StoreDisplayDisplay。
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    或,
 
-   點選／按一下「Dashboard(控制 **板)」** , **然後從** 「CHANNELS ****」面板中按一下「Assign Channel（分配渠道）」****** ** ，開啟「Channel Assignment（渠道分配）」對話框。
+   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板按一 **下+「分配渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Jognment」對話方塊。
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   您可以在**Channel Assignment **對話框中配置以下屬性：
+   可以從「渠道分配」對話框 **配置以下屬** 性：
 
    **頻道角色**:
 
@@ -68,7 +68,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    優先順序用於在多個分配匹配播放條件時對分配進行排序。 值最高的一律優先於值較低的值。 例如，如果有兩個渠道A和B。A的優先順序為1,B的優先順序為2，然後顯示通道B，因為它的優先順序高於A。
 
-   如上所述，**「頻道分配**」對話框中的頻道優先順序設定為數字（最低為1）。 此外，根據遞減優先順序對所分配的頻道進行排序。
+   如上所述，**「頻道分配**」對話框中的頻道優先順序設定為數字（最低為1）。 另外，根據遞減優先順序對所分配的通道進行排序。
 
    **支援的事件**:
 
