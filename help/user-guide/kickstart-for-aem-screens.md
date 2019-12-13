@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 按一 **下「建立** 」以建立新的「畫面」專案（請參閱下圖）。
    1. 從「建 **立畫面** 」專案精靈中選 **取「畫面」** ，然後按一下「 **下一步**」。
 
-   1. 輸入標題為*Test_Project *，然後按一下「建 **立**」。
+   1. 輸入標題為 *Test_Project* ，然後按一 **下Create**。
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    在建立專案後，就會將您帶回「畫面專案」主控台。 您現在可以選取專案。 在項目中有五種類型：應用程式 **、通道、設備**、位置 **、**************&#x200B;位置資料夾和時間表，如下圖所示。
@@ -77,8 +77,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 導覽至您建 *立的Test_Project* ，然後選取「 **Channels** 」檔案夾。
 
-   1. 從動作列按一下**建立**（請參閱下圖）。 嚮導將開啟。
-   1. 選擇「**序列頻道**」，然後按「下 **一步**」。
+   1. 從動 **作列按一下** 「建立」(Create)（請參閱下圖）。 嚮導將開啟。
+   1. 選擇「 **Sequence Channel** 」，然後按 **「Next」**。
 
    1. 輸入「名 **稱** 」和「標題 **」作** 為TestChannel *，然*****&#x200B;後按一下Create Reate。
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    請依照下列步驟，將內容新增至專案中&#x200B;*的頻道*(TestChannel):
 
-   1. 導覽至您 *建立的Test_Project* ，並選取「**頻道**」檔案夾。
+   1. 導覽至您建 *立的Test_Project* ，然後選取「 **Channels** 」檔案夾。
 
-   1. 從動 **作列按一下** 「編輯」(Edit)（請參閱下圖）。 * testChannel*的編輯器隨即開啟。
+   1. 從動 **作列按一下** 「編輯」(Edit)（請參閱下圖）。 TestChannel的編輯 *器隨即開* 啟。
 
    1. 按一下切換動作列左側側面板的圖示，以開啟資產和元件。
    1. 拖放您要新增至渠道的元件。
@@ -115,7 +115,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    請依照下列步驟，為您的專案建立新位置：
 
-   1. 導覽至您建 *立的Test_Project* ，並選取「**位置**」檔案夾。
+   1. 導覽至您建 *立的Test_Project* ，並選取「位置 **」檔案夾** 。
 
    1. 按一 **下動作列** 中加號圖示旁的「建立」(Create)（請參閱下圖）。 嚮導將開啟。
    1. 從向 **導中選擇** 「位置」，然後按一下「 **下一步」**。
@@ -135,8 +135,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 導覽至您要建立顯示畫面的位置(*Test_* Project —&gt; **Locations** —&gt; *TestLocation)* ，如上圖所示，然後選擇 ** TestLocationLocation。
 
-   1. 從動作列按一下**建立**。
-   1. 從「建立」精靈中選取「**顯 **示*** 」，然後按「下 **一步」**。
+   1. 從動 **作列按一下** 「建立」。
+   1. 從「創 **建** 」嚮導中選擇「顯 **示」** ，然後按一下「 **下一步**」。
 
    1. 輸入 **顯示位** 置的名稱 **和標題** (將標題輸入為 *TestDisplay*)。
 
@@ -161,7 +161,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 從Test_Project —&gt; **Schedules** 導覽至Schedules資料夾 ****。
 
-   1. 從動作列按一下**建立**。 嚮導將開啟。
+   1. 從動 **作列按一下** 「建立」。 嚮導將開啟。
    1. 從「創 **建** 」嚮導頁面 **選擇「計畫** 」。
 
    1. 在屬性 **頁面中** ，將名稱 **和標** 題輸入為MorningSchedule ** 。
@@ -187,13 +187,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 將頻道角 **色輸入為***LiveStream*。
 
-   1. 選擇** Channel Path**(*Test_Project* —&gt; *Channels* —&gt; *TestChannel* )(在 **** Channel中)。
+   1. 在Channel Channel中 **選擇Path** (*Test_Project* —&gt; *Channels* —&gt; ****** Test Channel)。
 
    1. 選擇此 **渠道的** 「優先順序」 *為1*。
 
-   1. 選擇「 **支援的事件** 」為「初始載入」**和「 **閒置」畫面**。
+   1. 選擇「支 **援的事件** 」作 **為「初始載** 入」和「 **閒置」畫面**。
 
-   1. 輸入**計畫**，並選擇活動中的 **開始和****活動到**。
+   1. 輸入 **計畫** ，然後選擇活動中的 **開始日期** , **和活動**。
 
    1. 按一下&#x200B;**「儲存」**。
    頻道會建立並新增至面板。
@@ -241,7 +241,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   輸入 **標題** ，然後按一下「** **註冊** 」，即可註冊裝置。
+   輸入 **Title** （標題） **，然後按一下** Register（註冊），設備將被註冊。
 
    按一下 **完成** ，完成設備註冊步驟。
 
