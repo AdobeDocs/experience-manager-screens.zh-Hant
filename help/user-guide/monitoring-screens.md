@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ### 檢視播放器螢幕擷取 {#view-player-screenshot}
 
-您可從**PLAYER的螢幕擷取**面板，從裝置檢視播放器的螢幕擷取。
+您可從「播放器螢幕擷取」面板中，從裝置檢 **視播放器螢幕擷取** 。
 
-按一下「播&#x200B;**放器螢幕擷取」面板右上角的(...**)，並選取「**重新整理螢幕擷取**」以檢視執行中播放器的快照。
+按一下「播&#x200B;**放器螢幕擷取」面板右上角的(...**)，並選取「重新整理螢幕擷取 **** 」以檢視執行中播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ PREFERENCES **** (偏好設定 **)面板可讓使用者變更** Admin UI **、**
 請依照下列步驟來啟用Apache Sling Referrer Filter Allow Empty
 
 1. 導覽至 **Adobe Experience Manager Web Console設定**，即 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
-1. 勾選**allow.empty **選項。
+1. 選中 **allow.empty選項** 。
 1. 按一下&#x200B;**「儲存」**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
