@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -71,11 +71,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
 1. 如果兩 **部電腦上的「註冊代碼** 」都相同，請點選／按一下AEM中的「驗證 **** 」按鈕，如步驟(6)所示。
-1. 設定所要的裝置名稱，然後按一下**註冊*。
+1. 設定所要的裝置名稱，然後按一下「注 **冊」**。
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 點選／按一下**完成**以完成註冊程式。
+1. 點選／按一 **下「完成** 」以完成註冊程式。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
