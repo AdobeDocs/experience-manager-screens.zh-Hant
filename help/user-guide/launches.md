@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. 將「 **啟動標題** 」輸入 **為SummerPromotions** ，您不需要設定**啟動日期**，如下圖所示。 按一下&#x200B;**「建立」**。
+1. 將「 **啟動標題** 」輸入 **為SummerPromotions** ，而您不需要設定 **啟動日期**，如下圖所示。 按一下&#x200B;**「建立」**。
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >從左側導軌選取「**內容樹**」選項，以開啟您建立的啟動。
+   >從左側 **邊欄選取** 「內容樹」選項，以開啟您建立的啟動。
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
