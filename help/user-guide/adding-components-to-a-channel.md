@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ Channel元件具有以下屬性：
 | **協助工具** |
 | ***替代文字*** | 影像的替代文字。 |
 | **順序** |
-| ***持續時間*** | 選擇影像的整個持續時間。 將持續時間設為-1表示內嵌影像將在特定頻道中執行完整長度。 |
+| ***持續時間*** | 預設情況下，持續時間設 *置為8000毫秒*。 如果要更改影像的播放持續時間，請更新「持續時 **間** 」欄位。 |
 
 ### 切換 {#transition}
 
