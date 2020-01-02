@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
@@ -76,6 +76,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
       + [酒店預訂激活](hospitality-reservation-activation.md)
       + [零售庫存鎖定](retail-inventory-activation.md)
       + [套用轉場效果](applying-transitions.md)
+      + [多區域到單區域的過渡](multizone-to-singlezone.md)
+      + [單次使用TakeOver通道](single-use-takeover-channel.md)
 + 開發人員與API資源 {#developing}
    + [REST API](rest-api.md)
    + [開發AEM畫面的自訂元件](developing-custom-component-tutorial-develop.md)
@@ -90,8 +92,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [設備控制中心故障排除](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
-   + [功能套件201809發行說明](screens-release-notes.md)
-   + [功能套件201812發行說明](release-notes-fp-201812.md)
-   + [功能套件201905發行說明](screens-release-notes-fp-201905.md)
-   + [功能套件201907發行說明](release-notes-fp-201907.md)
    + [功能套件201909發行說明](release-notes-fp-201909.md)
+   + [功能套件201907發行說明](release-notes-fp-201907.md)
+   + [功能套件201905發行說明](screens-release-notes-fp-201905.md)
+   + [功能套件201812發行說明](release-notes-fp-201812.md)
+   + [功能套件201809發行說明](screens-release-notes.md)
