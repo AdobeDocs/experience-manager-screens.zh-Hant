@@ -5,16 +5,15 @@ description: 請依照此使用案例來建立單一使用TakeOver頻道。
 seo-description: 請依照此使用案例來建立單一使用TakeOver頻道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
+source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 
 ---
 
 
 # 單次使用TakeOver通道 {#single-use-takeover-channel}
 
-下頁說明了一個使用案例，重點說明如何設定專案，以建立只播放一次的接管渠道。
+下頁展示了一個使用案例，重點說明如何設定專案，以建立在特定時間內只播放一次的Single TakeOver頻道。
 
-供審核。
 
 ## 使用案例說明 {#use-case-description}
 
@@ -40,7 +39,7 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
 **設定頻道和顯示**
 
-1. 建立標題為 **TakeoverLoop的AEM Screens專案**，如下所示。
+1. 建立標題為 **SingleUseTakeOver的AEM Screens專案**，如下所示。
 
    ![資產](assets/single-takeover1.png)
 
@@ -52,8 +51,9 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
    ![資產](assets/single-takeover2.png)
 
-   >[!Note]
-   > 此范 **例中的MainAdChannel** ，會示範連續播放內容的序列頻道。
+
+   >[!NOTE]
+   >此范 **例中的MainAdChannel** ，會示範連續播放內容的序列頻道。
 
    ![資產](assets/single-takeover3.png)
 
