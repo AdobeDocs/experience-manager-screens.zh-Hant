@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -46,9 +46,9 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 您可以設定一個簡單範例，其中代管一個作者和兩個發佈例項：
 
-* 作者—&gt; localhost:4502
-* Publish 1(pub1)—&gt; localhost:4503
-* Publish 2(pub2)—&gt; localhost:4504
+* 作者—> localhost:4502
+* Publish 1(pub1)—> localhost:4503
+* Publish 2(pub2)—> localhost:4504
 
 ## 在作者上設定複製代理 {#setting-replication-agents}
 
@@ -56,7 +56,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 螢幕需要3個複製代理：
 
-1. **預設複製代&#x200B;***理(指定為&#x200B;***Standard Replication Agent**)
+1. **預設複製代&#x200B;***理(指定為***Standard Replication Agent **)
 1. **螢幕複製代理**
 1. **反向複寫代理**
 
@@ -64,7 +64,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 按照以下步驟建立預設複製代理：
 
-1. 導覽至您的AEM例項—&gt; hammer圖示—&gt; **Operations** —&gt; **Configuration**。
+1. 導覽至您的AEM例項—> hammer圖示—> **Operations** —> **Configuration**。
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -103,8 +103,8 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 #### 建立標準複製代理 {#creating-standard-replication-agents}
 
-1. 為pub1建立標準複製代理（應已設定現成可用的預設代理）(例如， *https://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. 為pub2建立標準複製代理。 您可以複製pub1的rep代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。 (例如， *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. 為pub1建立標準複製代理（應已設定現成可用的預設代理）(例如， *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
+1. 為pub2建立標準複製代理。 您可以複製pub1的rep代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 建立螢幕複製代理 {#creating-screens-replication-agents}
 
@@ -143,34 +143,37 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 在每個發佈例項上：
 
-1. 在OSGi控制台中，導航到 **MAIN** —&gt; **Crypto Support** (*https://&lt;host&gt;:&lt;port&gt;/system/console/crypto*)。
+1. 在OSGi控制台中，導航到 **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*)。
 1. 在純文字檔案中鍵入所需的純文字檔案密碼（所有實例都相同） ****
 1. 按一 **下保護**。
 1. 將「受保護的 **文字」值複製** 到記事本或文字編輯器。 此值將用於ActiveMQ的OSGi配置中。
 
 由於每個發佈實例預設具有唯一的加密密鑰，因此您需要在每個發佈實例上執行此步驟，並保存下次配置的唯一密鑰。
 
-*例如*,
+>注意:
+>密碼應以大括弧開頭和結尾。
 
-Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 - `{8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}`
+*例如：*
+
+`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 步驟4:激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
 在每個發佈例項上：
 
-1. 導覽至OSGi config管理 *器https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr*
+1. 導覽至OSGi config管理 *器https://&lt;host>:&lt;port>/system/console/configMgr*
 1. 選擇 **Apache activeMQ Artemis JMS提供程式配置** 。
 1. 更新下列項目：
 
-* ***群集密碼***:（在每個個別實例中使用前一步驟的加密值）
-* ***主題***:{name:'commands'，地址：'com.adobe.cq.screens.commands', maxConsumers:50}
+* ***群集密碼&#x200B;***:（在每個個別實例中使用前一步驟的加密值）
+* ***主題&#x200B;***:{name:&#39;commands&#39;，地址：&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
 
 #### 驗證ActiveMQ Artemis群集 {#verify-activemq-artemis-cluster}
 
 請依照每個「發佈」例項的下列步驟：
 
-1. 導航至「OSGi控制台」 -&gt;「主」&gt;「ActiveMQ Artemis」 `[https://localhost:4505/system/console/mq`。
-1. 驗證並檢查以查看群集資訊&gt;拓撲&gt;節點=2、成員=2下的其他實例的埠。
+1. 導航至「OSGi控制台」 ->「主」>「ActiveMQ Artemis」 `[https://localhost:4505/system/console/mq`。
+1. 驗證並檢查以查看群集資訊>拓撲>節點=2、成員=2下的其他實例的埠。
 1. 發送測試消息(在「Broker Information（代理資訊）」下螢幕頂部)
 1. 在欄位中輸入下列變更：
 
@@ -192,7 +195,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 請遵循每個「發佈」例項的步驟：
 
-1. 導覽至 **OSGi控制台** &gt;設 **定管理員**
+1. 導覽至 **OSGi控制台** >設 **定管理員**
 1. 選取 **Apache Sling Referrer Filter**
 1. 更新設定並 **勾選允許空白**
 
@@ -217,7 +220,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 #### 步驟2:在作者上註冊裝置 {#step-registering-a-device-on-author}
 
-1. 前往或選 `https://localhost:4502/screens.html/content/screens/we-retail` 取您的專案，並導覽至「裝置&gt;裝置管理員」。
+1. 前往或選 `https://localhost:4502/screens.html/content/screens/we-retail` 取您的專案，並導覽至「裝置>裝置管理員」。
 1. 選擇 **註冊設備**。
 1. 按一 **下「裝置註冊** 」以檢視裝置。
 1. 選擇要註冊的設備，然後按一下「 **Register Device（註冊設備）**」。
@@ -251,15 +254,15 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 您也可以從「裝置管理控制台」啟動裝置。 請遵循下列步驟：
 
-1. 導覽至您的畫面專案—&gt; **裝置**。
-1. 從動作列按一下「**裝置管理員**」。
+1. 導覽至您的畫面專案—> **裝置**。
+1. 從動 **作列按一下「裝置管理器** 」。
 1. 選取裝置，然後從動 **作列按一下** 「啟動」，如下圖所示。
 
 ![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->或者，在啟動裝置後，您也可以從動作列按一下「**編輯伺服器URL **」來編輯或更新伺服器URL，如下圖所示，您的變更將傳播至AEM Screens播放器。
+>或者，在啟動裝置後，您也可以按一下動作列中的「編輯伺服器URL」( **Edit server URL** )，編輯或更新伺服器URL，如下圖所示，您的變更將傳播至AEM Screens播放器。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -267,7 +270,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 以下幾點摘要了「發佈檢查」清單：
 
-* *Screens Device User* —— 這會儲存為AEM使用者，並從「工具 **** &gt; **Security** &gt;使用者」啟 **動**。 使用者會在前面加上「畫面」，並加上長的序號字串。
+* *Screens Device User* —— 這會儲存為AEM使用者，並從「工具 **** > **Security** >使用者」啟 **動**。 使用者會在前面加上「畫面」，並加上長的序號字串。
 
 * *專案* - AEM Screens專案。
 * *位置* -設備所連接的位置。
@@ -293,7 +296,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 1. 導覽至您的AEM Screens專案，然後選取「裝 **置** 」檔案夾。
 1. 從動 **作列按一下「裝置管理器** 」。
-1. 選取裝置，然後從動作列按一下「**編輯伺服器URL **」，如下圖所示，您的變更將會傳播至AEM Screens播放器。
+1. 選取裝置，然後按一 **下動作列中的「編輯伺服器URL** 」，如下圖所示，您的變更將會傳播至AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
