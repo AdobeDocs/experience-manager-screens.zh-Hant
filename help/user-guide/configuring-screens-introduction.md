@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 #### 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
-1. 透過 **AEM例項** —&gt; hammer圖示—&gt; **Operations** —&gt; **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -44,7 +44,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. 勾選「允許空白」**選項，如下圖所示。
+1. 勾選「 **允許空白** 」選項，如下圖所示。
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
@@ -54,10 +54,10 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI搭配使用。
 
-1. 導覽至 *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. 導覽至 *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 請確定「預 **設編寫UI** 」模式已設 **為TOUCH**，如下圖所示
 
-或者，您也可以使用&lt;yourAuthorInstance&gt; *-&gt;*(hammer icon -&gt;** Web Operations) **-** Operations -&gt;搜索WUI創作工具(hammer icon -&gt; **Web Consale Service Service****** cm)執行相同的設定。
+或者，您也可以使用&lt;yourAuthorInstance> *->*(hammer icon ->** Web Operations) **-** Operations ->搜索WUI創作工具(hammer icon -> **Web Consale Service Service****** cm)執行相同的設定。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -71,19 +71,19 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-這是AEM Screens Player播放線上頻道的必要項。
+AEM Screens Player必須具備此功能才能播放線上頻道。
 
 #### 密碼限制 {#password-restrictions}
 
-對 ***DeviceServiceImpl進行最新變更***，您不必移除密碼限制。
+對 ***DeviceServiceImpl進行最新變更&#x200B;***，您不必移除密碼限制。
 
-您可以從 ***下列連結設定DeviceServiceImpl*** ，以在為畫面裝置使用者建立密碼時啟用密碼限制：
+您可以從 ***下列連結設定DeviceServiceImpl ***，以在為畫面裝置使用者建立密碼時啟用密碼限制：
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-請依照下列步驟來設定 ***DeviceServiceImpl***:
+請依照下列步驟來設定 ***DeviceServiceImpl ***:
 
-1. 透過 **AEM例項** —&gt; hammer圖示—&gt; **Operations** —&gt; **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
 1. **Adobe Experience Manager Web Console設定**開啟。 搜尋裝置服務。 要搜索屬性，請按 **Command+F** ( **Mac)和Control+F(****Windows)** ( **** Windows)。
 
@@ -95,7 +95,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 #### Java編碼 {#java-encoding}
 
-將 ***Java編碼設為*** Unicode。 例如， *Dfile.encoding=Cp1252* 將無法運作。
+將 ***Java編碼設為&#x200B;***Unicode。 例如，*Dfile.encoding=Cp1252 *將無法運作。
 
 >[!NOTE]
 >
