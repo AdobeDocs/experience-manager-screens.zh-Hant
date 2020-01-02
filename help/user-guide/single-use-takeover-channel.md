@@ -5,7 +5,7 @@ description: 請依照此使用案例來建立單一使用TakeOver頻道。
 seo-description: 請依照此使用案例來建立單一使用TakeOver頻道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
    >[!NOTE]
    >若要瞭解如何指派頻道至顯示器，請參閱頻道 **[指派](channel-assignment.md)**。
 
-1. 從Channel AssignmentSave和&#x200B;**ClickChannel Assignment框中填入欄位(Channel Path**、Priority **和** Supported Events ************)，即Channel Assignment和ClickChinkSave對話框。 現在，您已將 **MainAdChannel指派給您** 的顯示畫面。
+1. 從Channel AssignmentSave和&#x200B;**ClickChannel Assignment框中填入欄位(Channel Path**、Priority **和** Supported Events ************)，即Channel Assignment和ClickChinkSave對話框。 您現在已將 **MainAdChannel指派給您的** 「顯示器」。
 
    ![資產](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 本例中提 **及的** 「排程」中的文字是 *12月31日之後的23:58，也是1月1日之後的00.01*。
 
       ![資產](assets/single-takeover8.png)
+
+      從 **SingleUseTakeOver** —>位置 **—>** LobbyLobby ************ —>主大堂顯示器和點按操作導覽到顯示器，從指定的通道查看其優先順序，如下所示。
+
+      >[!NOTE]
+      >必須將接管渠道的優先順序設定為最高。
+
+      ![資產](assets/single-takeover9.png)
 
       >[!NOTE]
       >您可以提及不同使用案例的排程。 如需詳細資訊，請參閱永久使用案例。
