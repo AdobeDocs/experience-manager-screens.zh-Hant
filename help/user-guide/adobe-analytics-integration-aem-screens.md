@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
 
@@ -22,8 +22,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >只有在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時，才能使用此AEM Screens功能。
 
+>[!NOTE]
 >若要存取其中一個功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
->
+
 本節涵蓋下列主題：
 
 * **綜覽**
@@ -32,7 +33,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 概覽 {#overview}
 
-***AEM Screens運用Adobe Analytics*** ，讓您能夠達成市場上獨一無二的目標——跨通道分析，協助將位置顯示的內容與其他資料來源建立關聯。
+***AEM Screens運用Adobe Analytics ***，讓您能夠達成市場上獨一無二的目標——跨通道分析，協助將位置顯示的內容與其他資料來源建立關聯。
 
 AEM Screens提供與Adobe Analytics的立即可用整合，並提供您播放證明。
 
@@ -69,14 +70,16 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 ## 螢幕分析：啟用流程 {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
-在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics Project** ，以便與AEM Screens搭配使用。
+>
+>在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics Project** ，以便與AEM Screens搭配使用。
 
 ![]()
 
 ### 配置屬性 {#configuring-the-properties}
 
 >[!CAUTION]
-在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics Project** ，以便與AEM Screens搭配使用。
+>
+>在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics Project** ，以便與AEM Screens搭配使用。
 
 下表反白顯示用於設定AEM畫面的Adobe Analytics的屬性及其說明：
 
@@ -88,19 +91,20 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
   </tr>
   <tr>
    <td><strong>Analytics URL</strong></td>
-   <td>從播放器張貼分析資料的URL<br /> </td>
+   <td>從播放器張貼分析資料的URL。 <br>
+   針對開發／階段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API金鑰</strong></td>
-   <td>驗證至Adobe Analytics伺服器（由帳戶管理員提供）的API金鑰</td>
+   <td>API金鑰，可驗證至Adobe Analytics伺服器（由帳戶管理員提供）。</td>
   </tr>
   <tr>
    <td><strong>Analytics專案</strong></td>
-   <td>AEM Screens專案已設定在您的分析上，以接收資料（由帳戶管理員提供）</td>
+   <td>AEM Screens專案已設定在您的分析上，以接收資料（由「帳戶管理員」提供）。</td>
   </tr>
   <tr>
    <td><strong>環境</strong></td>
-   <td><p>舞台或生產環境。</p> <p><em>針對開發／階段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</p> </td>
+   <td><p>舞台或生產環境（選擇舞台或生產）。</p></td>
   </tr>
   <tr>
    <td><strong>Analytics傳送頻率</strong></td>
@@ -110,7 +114,8 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 </table>
 
 >[!NOTE]
-依預設，**Analytics傳送頻率**為15分鐘。
+>
+>依預設， **Analytics傳送頻率** 為15分鐘。
 
 #### 在AEM畫面中使用Adobe Analytics服務 {#using-adobe-analytics-service-in-aem-screens}
 
@@ -119,5 +124,6 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 Analytics事件會離線儲存在indexedDB中，稍後會將其分塊並傳送至雲端。
 
 >[!NOTE]
-若要進一步瞭解事 ***件的Sequencing*** and ***Standard Data Model***，請參閱「為AEM螢幕設 **[定Adobe Analytics」](configuring-adobe-analytics-aem-screens.md)**。
+>
+>若要進一步瞭解事 ***件的Sequencing ***and***Standard Data Model***，請參閱「為AEM螢幕設 **[定Adobe Analytics」](configuring-adobe-analytics-aem-screens.md)**。
 
