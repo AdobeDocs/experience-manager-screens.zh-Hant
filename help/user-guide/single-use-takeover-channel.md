@@ -5,7 +5,7 @@ description: 請依照此使用案例來建立單一使用TakeOver頻道。
 seo-description: 請依照此使用案例來建立單一使用TakeOver頻道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
    * **渠道路徑**:選取TakeOver頻道的路徑
    * **優先順序**:將此頻道的優先順序設定為大於 **MainAdChannel**。 例如，此範例中的優先順序設定為8。
+      >[!NOTE]
+      >優先順序可以是高於正常播放頻道的優先順序值的任何值。
    * **支援的事件**:選擇「 **Idle Screen** (空閒屏 **幕)」和「Timer（計時器）**」。
    * **排程**:輸入您希望此渠道執行顯示的排程文字。 例如，此處的文字可讓內容在12月31日12:00 am之前播放2分鐘，直到12:01 am。
 本例中提 **及的** 「排程」中的文字是 *12月31日之後的23:58，也是1月1日之後的00.01*。
 
       ![資產](assets/single-takeover8.png)
 
-      從 **SingleUseTakeOver** —>位置 **—>** LobbyLobby ************ —>主大堂顯示器和點按操作導覽到顯示器，從指定的通道查看其優先順序，如下所示。
+      從 **SingleUseTakeOver** —> **Locations** —> **Lobby********** —>MainDisplayLobby大堂和ClickDashboard操作欄導覽至顯示，查看已分配的通道及其優先順序，如下所示。
 
       >[!NOTE]
       >必須將接管渠道的優先順序設定為最高。
 
       ![資產](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >您可以提及不同使用案例的排程。 如需詳細資訊，請參閱永久使用案例。
+>[!NOTE]
+>在播放「單次使用TakeOver」頻道後，最佳做法是加以刪除。
