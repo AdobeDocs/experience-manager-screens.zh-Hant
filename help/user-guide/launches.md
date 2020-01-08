@@ -11,13 +11,12 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
 
 # 啟動 {#launches}
-
 
 內容作者可建立頻道的未來版本，稱為 **Launch** ，並進一步設定此次啟動的即時日期，讓內容可在裝置或播放器中即時播放。
 
@@ -33,7 +32,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ### 瞭解寬限期 {#understanding-grace-period}
 
-下列設定可讓管理員設定啟動 ***中所需的寬限期***。
+下列設定可讓管理員設定啟動 ***中所需的寬限期&#x200B;***。
 
 **寬限期**，包括：
 
@@ -61,9 +60,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 如果您想要變更上述設定，請依照下列指示進行：
 
-* 建立 ***sling:OsgiConfig/ nt:file in /apps/system/config*** ，其名稱為 **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** 和content
+* 建立 ***sling:OsgiConfig/ nt:file in /apps/system/config ***，其名稱為**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **和content
 
-   *launches.eventhandler.updatelastmodification=B"false"launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/)*):600"]launches.eventhandler.threadpool.maxsize=I"5"launches.eventhandler.threadpool.priority="MIN"*
+   *launches.eventhandler.updatelastmodification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/)*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`，可讓您在路徑／內容／畫面中設定600 *秒的寬限期*。
 
@@ -80,7 +79,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 請依照下列步驟，將未來的發佈功能實作至您的AEM Screens專案：
 
-1. 導覽至AEM Screens專案中的頻道，例如 **LaunchesDemo** —&gt; **Channels** —&gt; **FutureLaunch**，如下所示。
+1. 導覽至AEM Screens專案中的頻道，例如 **LaunchesDemo** —> **Channels** —> **FutureLaunch**，如下所示。
 
    >[!CAUTION]
    >
@@ -154,12 +153,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    >
    >瞭解「自動促銷」下 **的「啟動」項目**:
 
-   >* **啟動日期**，是指即時日期，即內容在螢幕播放器中依播放器時區播放的日期／時間。
-   >
-   >
+   >    * **啟動日期**，是指即時日期，即內容在螢幕播放器中依播放器時區播放的日期／時間。
    >    * **Production Ready**，可讓頻道升級，並表示啟動已準備就緒可供使用。
-
-   * **範圍**，是指在啟動期間可以推廣的渠道。
+   >    * **範圍**，是指在啟動期間可以推廣的渠道。
 
 
    以下三個選項可用於設定範圍：
@@ -169,7 +165,8 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
    >[!CAUTION]
-   啟動促銷會遵循播放器／裝置的時區，而非伺服器的時區。
+   >
+   >啟動促銷會遵循播放器／裝置的時區，而非伺服器的時區。
 
 1. 按一 **下「儲存並關閉** 」，以返回 **FutureLaunch頻道** 。
 
