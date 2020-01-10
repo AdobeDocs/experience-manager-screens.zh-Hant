@@ -2,10 +2,10 @@
 title: Perpetual TakeOver Channel
 seo-title: Perpetual TakeOver Channel
 description: 請依照此使用案例來建立永久TakeOver頻道。
-seo-description: 請依照此使用案例來建立永久TakeOver Channel。
+seo-description: 請依照本使用案例，設定專案，以建立持續播放特定時間日與時間的永久接管頻道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
 
 ---
 
@@ -40,61 +40,67 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 1. 建立標題為 **PerpetualTakeOver的AEM Screens專案**，如下所示。
 
-   ![資產](assets/single-takeover1.png)
+   ![資產](assets/p_usecase1.png)
 
 1. 在「頻 **道」檔案夾中** ，建立 **MainAdChannel** 。
 
-   ![資產](assets/single-takeover2.png)
+   ![資產](assets/p_usecase2.png)
 
 1. 選取 **MainAdChannel** ，然後從動 **作列按一下「編輯** 」。 將部分資產（影像、視訊、內嵌序列）拖放至您的頻道。
 
-   ![資產](assets/single-takeover2.png)
+   ![資產](assets/p_usecase3.png)
 
 
    >[!NOTE]
    >此范 **例中的MainAdChannel** ，會示範連續播放內容的序列頻道。
 
-   ![資產](assets/single-takeover3.png)
-
-1. 建立 **TakeOver** 頻道，以接管 **MainAdChannel中的內容** ，且只會在特定日期和時間播放。
+1. 建立 **TakeOver** 頻道，以接管 **** MainAdChannel中的內容，並將於每週三下午2:00至4:00播放。
 
 1. 選擇「 **TakeOver** 」，然後從操 **作欄中按一下「Edit** 」（編輯）。 將一些資產拖放至您的渠道。 下列範例將展示新增至此頻道的單一區域影像。
 
-   ![資產](assets/single-takeover4.png)
+   ![資產](assets/p_usecase4.png)
 
-1. 設定頻道的位置和顯示。 例如，會為此專案設 **定下列位置** 「Lobby」（大堂）和 **display mainLobby** Display。
+1. 設定頻道的位置和顯示。 例如，為此項目設 **定了以下位** 置MainLobby **和** display mainLobbyDisplay。
 
-   ![資產](assets/single-takeover5.png)
+   ![資產](assets/p_usecase5.png)
 
 **將頻道指派給顯示**
 
-1. 從「位置」 **資料夾中選取顯** 示MainLobbyDisplay **** (MainLobbyDisplay)。 從動 **作列按一下** 「指定渠道」。
-
-   ![資產](assets/single-takeover6.png)
+1. 從「位置」 **資料夾中選取顯** 示MainLobbyDisplay **** (MainLobbyDisplay)。 從操 **作欄按一下「指定渠道** 」，以開啟「渠道 **** 指定」對話方塊。
 
    >[!NOTE]
    >若要瞭解如何指派頻道至顯示器，請參閱頻道 **[指派](channel-assignment.md)**。
 
-1. 從Channel AssignmentSave和&#x200B;**ClickChannel Assignment框中填入欄位(Channel Path**、Priority **和** Supported Events ************)，即Channel Assignment和ClickChinkSave對話框。 您現在已將 **MainAdChannel指派給您的** 「顯示器」。
+1. 從&#x200B;**Channel AssignmentSave和click to assignTheMainChannel Ad Ad** to your display中，填入Channel Path **、Priority**&#x200B;和Supported Events **(Channel Path、Priority**&#x200B;和Events ************ )欄位（ChannelPrioriorityPoriority,Pority，優先順序和受支援事件）。
 
-   ![資產](assets/single-takeover7.png)
+   * **渠道路徑**:選取MainAdChannel頻道 **的路徑** 。
+   * **優先順序**:將此渠道的優先順序設定為1。
+   * **支援的事件**:選擇「 **初始載入** 」和「 **空閒」螢幕**。
+   ![資產](assets/p_usecase6.png)
 
-1. 從「位置」 **資料夾中** ，選 **取顯示TakeOver** 。 從動 **作列按一下「指定渠道** 」，以指定單一使用接管渠道。
+1. 從「位置」 **資料夾中** ，選 **取顯示TakeOver** 。 從動 **作列按一下「指定渠道** 」，以指定接管渠道。
 
 1. 若要在排 **程時將TakeOver** 頻道指派給您的顯示，並從「頻道指派」對話方塊填入下列欄位，然後按一下「儲 **存******」:
 
-   * **渠道路徑**:選取TakeOver頻道的路徑
+   * **渠道路徑**:選取TakeOver頻道的 **路徑** 。
    * **優先順序**:將此頻道的優先順序設定為大於 **MainAdChannel**。 例如，此範例中的優先順序設定為8。
    * **支援的事件**:選擇「 **Idle Screen** (空閒屏 **幕)」和「Timer（計時器）**」。
-   * **排程**:輸入您希望此渠道執行顯示的排程文字。 例如，此處的文字可讓內容在12月31日12:00 am之前播放2分鐘，直到12:01 am。
-本例中提 **及的** 「排程」中的文字是 *12月31日之後的23:58，也是1月1日之後的00.01*。
+   * **排程**:輸入您希望此渠道執行顯示的排程文字。 例如，此處的文字允許內容在每週三的下午2:00到4:00之間播放。
+此範例中提 **及的** 「排程」中的文字 *是星期三14:00後和16:00前*。
 
-      ![資產](assets/single-takeover8.png)
+      ![資產](assets/p_usecase7.png)
 
-      從 **SingleUseTakeOver** —>位置 **—>** LobbyLobby ************ —>主大堂顯示器和點按操作導覽到顯示器，從指定的通道查看其優先順序，如下所示。
+      從TakeOver **—>** Locations **—** MainLobby **>** MainLobby大堂— **MainLobby DisplayBar導航到分配的優先順序渠道的視圖（如下所示）中的TakeOver****** —> Locations> MainLobbbbbb。
 
       >[!NOTE]
       >必須將接管渠道的優先順序設定為最高。
 
-      ![資產](assets/single-takeover9.png)
+      ![asset](assets/p_usecase8.png)Now, **TakeOver頻道將於下午2:00接管** MainAdChannel **** ，持續2小時，直到每週三下午4:00，並播放其內容，從2020年1月9日到2020年1月31日。
 
+### 範例運算式 {#example-expressions}
+
+下表摘要了一些示例表達式，您可以在將渠道分配給顯示時將其添加到調度中。
+
+| **運算式** | **解釋** |
+|---|---|
+| 12:15後和12:45前 | 該頻道每天下午12:15後播放30分鐘 |
