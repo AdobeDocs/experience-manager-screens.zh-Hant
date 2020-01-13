@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 ---
 
@@ -134,7 +134,7 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 #### 步驟2:驗證發佈拓撲 {#step-verify-publish-topology}
 
-對於任何「發佈」例項，請導覽至 `https://<host>:<port>/system/console/topology`。 您應看到拓撲中表示的每個發佈實例。
+對於任何發佈例項，請導覽至 `https://:/system/console/topology`。 應在「外發拓撲連接器」( **Outgoing topology connectors)下查看拓撲中表示的每個發**&#x200B;布實例。
 
 #### 步驟3:設定ActiveMQ Artemis群集 {#step-setup-activemq-artemis-cluster}
 
@@ -150,12 +150,9 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 由於每個發佈實例預設具有唯一的加密密鑰，因此您需要在每個發佈實例上執行此步驟，並保存下次配置的唯一密鑰。
 
->注意:
+>[!NOTE]
 >密碼應以大括弧開頭和結尾。
-
-*例如：*
-
-`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>例如：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd5919828d1fa0a610e}
 
 #### 步驟4:激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
