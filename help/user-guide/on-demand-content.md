@@ -6,7 +6,7 @@ seo-description: '請依本頁瞭解隨選內容更新。  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -111,9 +111,7 @@ source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
    >
    >等待幾秒／分鐘，讓內容進入發佈執行個體。
 
-1. 在您完成管理出版物工作流程後，您必須觸發作者中的更新離線內容，以便在作者例項上離線建立更新。
-
-   導覽至頻道控制面板，然後按一下「 **更新離線內容」**。 此動作會將相同的命令轉送至發佈例項，以便離線Zip也能在發佈例項上建立。
+1. 在頻 **道儀表板中觸發更新離線內容** ，只會將離線內容推送至製作例項，但不會發佈例項。 步驟1-4是將離線內容推送至發佈例項。
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
