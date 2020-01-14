@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 1. 導航到 `https://<host>:<port>/system/console/configMgr`
 1. 選取 **Apache Sling Oak-Based Discovery Service** Configuration。
-1. 更新拓撲連接器URL:新增所有參與發佈例項的URL，即 `https://localhost:4502/libs/sling/topology/connector`
+1. 更新拓撲連接器URL:新增所有參與發佈例項的URL，其為：
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. 拓撲連接器白名單：適應涵蓋參與發佈實例的IP或子網
 1. 啟 **用自動停止本地環路**
 
@@ -237,7 +239,7 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 **驗證設備**
 
-之前，請執行以下步驟，確認設備ID。 若要驗證，請在CRXDELite中搜尋裝置ID，路徑為 */home/users/screens/{project}/devices*。
+之前，請執行以下步驟，確認設備ID。 若要驗證，請在CRXDELite中搜尋裝置ID，路徑為 */home/users/screens/we-retail/devices*。
 
 按照以下步驟複製設備用戶：
 
@@ -275,11 +277,15 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 * *排程* -如果使用排程，請確定已發佈
 * *位置、計畫和渠道資料夾* -如果相應資源位於資料夾內。
 
-確認檢查清單後，您需要確認渠道中的下列變更／行為：
+請依照下列步驟來驗證作者／發佈行為：
 
-* 發佈裝置設定後，會開啟「畫面播放器」設定，並將它指向「發佈」例項。 此外，您也可以從裝置管理主控台啟動裝置。
-* 在「作者」上更新某些頻道內容並加以發佈，並驗證已更新的頻道現在會顯示在AEM Screens播放器上。
-* 將「畫面」播放器連接至不同的發佈例項並驗證上述行為。
+1. 在作者實例上更新某些頻道內容
+1. 執行 **管理出版物** ，將新變更發佈至所有發佈例項
+1. 按「 **啟動** 」從「裝置管理器」啟 **動裝置**
+1. **從作者例項** URL編輯URL至其中一個發佈例項URL
+1. 驗證AEM Screens播放器上顯示的已更新頻道內容
+1. 使用不同的發佈實例重複這些步驟
+
 
 #### 步驟5:在「管理面板」中指向裝置以發佈例項 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 1. 選取裝置，然後按一 **下動作列中的「編輯伺服器URL** 」，如下圖所示，您的變更將會傳播至AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+「管 **理出版物** 」功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程發佈／取消發佈內容。 若要進一步瞭解此功能，請參 [閱隨選內容更新](on-demand-content.md)。
 
 
