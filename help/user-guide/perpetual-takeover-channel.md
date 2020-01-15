@@ -5,7 +5,7 @@ description: 請依照此使用案例來建立永久TakeOver頻道。
 seo-description: 請依照本使用案例，設定專案，以建立持續播放特定時間日與時間的永久接管頻道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
       >若要進一步瞭解可新增至排程的運算式 **，請參閱下方**&#x200B;的「範例運算式 [](#example-expressions) 」區段。
    * **活動自**:開始日期和時間。
    * **活動到**:結束日期和時間。
-   例如，此處「排程」中 **的文字和「從** 」和「活動到」的 ******** 文字可讓內容在每週三的下午2:00到4:00之間播放。
+
+      例如，此處「排程」中 **的文字和「從** 」和「活動到」的 ******** 文字可讓內容在每週三的下午2:00到4:00之間播放。
 
 
-   ![資產](assets/p_usecase7.png)
+      ![資產](assets/p_usecase7.png)
 
-   從TakeOver **—>** Locations **—** MainLobby **>** MainLobby大堂— **MainLobby DisplayBar導航到分配的優先順序渠道的視圖（如下所示）中的TakeOver****** —> Locations> MainLobbbbbb。
+      從TakeOver **—>** Locations **—** MainLobby **>** MainLobby大堂— **MainLobby DisplayBar導航到分配的優先順序渠道的視圖（如下所示）中的TakeOver****** —> Locations> MainLobbbbbb。
 
-   >[!NOTE]
-   >必須將接管渠道的優先順序設定為最高。
+      >[!NOTE]
+      >必須將接管渠道的優先順序設定為最高。
 
-   ![asset](assets/p_usecase8.png)Now, **TakeOver頻道將於下午2:00接管** MainAdChannel **** ，持續2小時，直到每週三下午4:00，並播放其內容，從2020年1月9日到2020年1月31日。
+      ![asset](assets/p_usecase8.png)Now, **TakeOver頻道將於下午2:00接管** MainAdChannel **** ，持續2小時，直到每週三下午4:00，並播放其內容，從2020年1月9日到2020年1月31日。
 
 ## 範例運算式 {#example-expressions}
 
