@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
@@ -37,7 +37,7 @@ The Health Check framework lows the user to check if two exence configurations a
 1. **允許空的反向連結**
 2. **https**
 
-請依照下列步驟，檢查AEM Screens是否啟用這兩個重要的設定：
+請依照下列步驟，檢查AEM Screens是否已啟用這兩個重要組態：
 
 1. 導覽至 [Adobe Experience Manager Web ConsoleSling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)。
 
@@ -50,7 +50,7 @@ The Health Check framework lows the user to check if two exence configurations a
 
    ![資產](assets/health-check2.png)
 
-   如果其中一個或兩個篩選器都被停用，則會顯示使用者的警報，如下圖所示。
+   如果一個或兩個篩選器都被禁用，則會為用戶顯示警報，如下圖所示。
 
    如果同時禁用了這兩個過濾器，以下警報將顯示：
    ![資產](assets/health-check3.png)
