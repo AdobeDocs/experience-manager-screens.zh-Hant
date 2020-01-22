@@ -4,7 +4,7 @@ seo-title: 使用Chrome Player做為擴充功能
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
 
 ---
 
@@ -19,7 +19,7 @@ ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，
 
 請依照本頁瞭解如何將chrome Player安裝為瀏覽器擴充功能。
 
-1. 按一下這裡下載最新的Chrome Player。
+1. 按一 [下這裡](https://download.macromedia.com/screens/) ，下載最新的Chrome Player。
 
 1. 解壓縮並儲存在磁碟上。
 
