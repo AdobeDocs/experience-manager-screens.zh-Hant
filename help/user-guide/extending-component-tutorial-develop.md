@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 
 ---
 
@@ -33,7 +33,17 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 必備條件 {#prerequisites}
 
+要完成本教學課程，需要以下內容：
+
+1. [AEM 6.4或](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html)[AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Latest Screens Feature Pack
+1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
+1. 當地開發環境
+
+教學課程步驟和螢幕擷取是使用CRXDE-Lite來執行。 [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IDE也可用來完成教學課程。 有關使用IDE與AEM進行開 [發的詳細資訊，請參閱這裡](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)。
+
 ## 專案設定 {#project-setup}
+
+畫面專案的原始碼通常會管理為多模組Maven專案。 為加速教學課程，使用 [AEM Project Archetype 13預先產生專案](https://github.com/adobe/aem-project-archetype)。 如需有關使 [用Maven AEM Project Archetype建立專案的詳細資訊，請參閱這裡](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)。
 
 1. 使用 **CRX套件管理下載並安裝下列套件**`http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -225,7 +235,7 @@ Poster元件可擴充Image元件的方塊外畫面。 Sling的機制 `sling:reso
    </jcr:root>
    ```
 
-   在節點 `sling:hideChildren`上使用 `"[linkURL,size]`屬性 `items` = **"，以確保在對話方塊中隱藏** linkURL **** 和大小欄位。 僅從海報對話方塊移除這些節點是不夠的。 輔助功 `sling:hideResource="{Boolean}true"` 能標籤上的屬性可用來隱藏整個標籤。
+   在節點 `sling:hideChildren`上使用 `"[linkURL,size]`屬性 `items` = **&quot;，以確保在對話方塊中隱藏** linkURL **** 和大小欄位。 僅從海報對話方塊移除這些節點是不夠的。 輔助功 `sling:hideResource="{Boolean}true"` 能標籤上的屬性可用來隱藏整個標籤。
 
    在對話方塊中新增兩個選取欄位，讓作者控制「標題」和「說明」的文字位置和顏色。
 
@@ -267,7 +277,7 @@ Poster元件可擴充Image元件的方塊外畫面。 Sling的機制 `sling:reso
 
    `The h1` 和h2標籤會根據元件屬性顯示「標題」和「說明」: `${properties.jcr:title}` 和 `${properties.jcr:description}`。
 
-   在和標 `h1` 簽周 `h2` 圍是div包裝函式，包含3個具有" `cmp-poster__text`"變數的CSS類別。 值和屬 `textPosition` 性用 `textColor` 於更改根據作者的對話框選擇呈現的CSS類。 在下一節中，會編寫用戶端程式庫的CSS，以在顯示中啟用這些變更。
+   在和標 `h1` 簽周 `h2` 圍是div包裝函式，包含3個具有&quot; `cmp-poster__text`&quot;變數的CSS類別。 值和屬 `textPosition` 性用 `textColor` 於更改根據作者的對話框選擇呈現的CSS類。 在下一節中，會編寫用戶端程式庫的CSS，以在顯示中啟用這些變更。
 
    標誌也包含在元件中，當做覆蓋。 在此範例中，We.Retail標誌的路徑是硬式編碼在DAM中。 視使用案例而定，建立新對話欄位，讓標誌路徑成為動態填入的值，可能更有意義。
 
@@ -496,7 +506,7 @@ AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方
 
 以下視訊顯示完成的元件，以及如何將它新增至「序列」頻道。 接著，「頻道」會新增至「位置」顯示畫面，並最終指派給「畫面」播放器。
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## 完成的程式碼 {#finished-code}
 
