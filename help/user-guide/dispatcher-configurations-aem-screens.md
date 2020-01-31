@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
 
 ---
 
@@ -22,11 +22,15 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 以下頁面提供為AEM Screens專案設定分派程式的准則。
 
+>[!NOTE]
+>如果調度程式可用，則可以通過在調度程式規則中進行過濾來阻止與註冊servlet的連接。
+>如果沒有調度程式，請禁用OSGi元件清單中的註冊servlet。
+
 ## 先決條件 {#pre-requisites}
 
 在您為AEM Screens專案設定分派程式之前，您必須具備Dispatcher的先前知識。
 
-如需詳細資訊，請參 [閱** Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)**。
+有關詳細 [資訊，請參閱Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
@@ -44,7 +48,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 ### 步驟2:設定畫面篩選 {#step-configuring-screens-filters}
 
-若要設定「畫面」篩選，請將下列新增至 ***/篩選***。
+若要設定「畫面」篩選，請將下列新增至 ***/篩選&#x200B;***。
 
 ```
 ## AEM Screens Filters
@@ -66,4 +70,4 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 ### 步驟3:禁用Dispatcher快取 {#step-disabling-dispatcher-cache}
 
-停用 ***/content/screens路徑的Dispatcher快取***。
+停用 ***/content/screens路徑的Dispatcher快取&#x200B;***。
