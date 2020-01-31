@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 >
 >如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
 >
->按一 [下這裡](https://evermeet.cx/ffmpeg/) ，以安裝ffmpeg。
+>按一 [下這裡](https://www.ffmpeg.org/download.html) ，以安裝ffmpeg。
 
 ## 視訊資產 {#video-assets}
 
@@ -107,7 +107,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 請依照下列步驟來疑難排解Google的自動播放政策標幟問題：
 
-1. 導覽至 ***chrome://flags/#autoplay-policy***
+1. 導覽至 ***chrome://flags/#autoplay-policy ***
 1. 將「自 **動播放** 」原則從「 **預設** 」變更 **為不需要使用者手勢**
 
 1. 重新啟動網頁瀏覽器並更新播放器
@@ -149,7 +149,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 **對齊OS x上的時鐘** ：請遵循以下步驟來對齊OSX上的時鐘：
 
 1. 在每 **個OSX方塊上開啟日期** 和時間偏好設定
-1. 檢查**自動設定日期和時間**
+1. 檢查 **自動設定日期和時間**
 1. 將值0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com貼上到下拉菜單中，或只運行 *sudo ntpdate -u -v 0.pool.ntp.org*
 1. 啟動2位以上的播放器
 
