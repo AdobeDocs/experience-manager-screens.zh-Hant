@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 1. 下列範例將展示名為 **CommandSyncDemo的示範專案** ，以及序列頻道 **ChannelLobby**。
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
    頻道包含下列內容，如下圖所示。
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. 在「位置」資料 **夾中** ，建立顯示，如下圖所示。
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. 將channelLobby指 **派給您的** LobbyDisplay ****。
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)
+   >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)。
 
 1. 導覽至「 **裝置** 」檔案夾，然後從動作列按 **一下「裝置管理員** 」以註冊裝置。
 
@@ -59,8 +59,23 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
    >
    >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)
 
-1. 為進行示範，此範例會將chrome裝置和網頁播放器分別展示為兩種裝置。 這兩個裝置都指向相同的顯示。
+1. 為進行示範，此範例會將chrome裝置和Windows播放器分別顯示為兩部裝置。 這兩個裝置都指向相同的顯示。
    ![image1](assets/command-sync6.png)
+
+### 更新頻道設定
+
+1. 導覽至 **ChannelLobby** ，然後按一 **下動作列中的「編輯** 」以更新頻道設定。
+
+1. 選擇整個渠道，如下圖所示。
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. 按一下扳手圖示以開啟「頁 **面** 」對話方塊。
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. 在「策 *略* 」欄位中輸入 **同步關鍵字** 。
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### 設定主版 {#setting-up-master}
 
