@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 1. 從 **CommandSyncDemo** —> **Locations** —> **Lobby** — **Lobby** **** DisplayBar導覽至顯示操控板，從操控板上的Click Addrobard從操作欄中導航。
 您將在 **DEVICES面板中看到這兩種裝置（chrome和windows player）** ，如下圖所示。
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. 從「裝 **置** 」面板中，選取您要設為主版的裝置。 下列範例示範將Chrome裝置設為主版。 按一下「 **設為主裝置」**。
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. 在「設為主設備」 **中輸入IP地址** ，然後按一下「 **保存」**。
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> 您可以將多個裝置設為主裝置。
 
 ### 與Master同步 {#sync-up-master}
 
-1. 將Chrome裝置設為主版後，您就可以同步其他裝置以與主版同步。
-從「設備」面板中選擇其 **它設備** ，然後按一下「同步到主設備 ****」，如下圖所示。
+1. 將Chrome裝置設為主版後，您就可以同步其他裝置（在本例中為Windows播放器），以與主版同步。
+從「 **DEVICES** 」面板中選擇其他設備（在本例中為Windows Player），然後按一下「 **Sync to master device**」（同步到主設備），如下圖所示。
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. 從清單中選擇設備，然後按一下「 **保存**」。
 
+1. 當裝置（Windows播放器）與主版（Chrome播放器）同步後，您就會在「裝置」面板中看到同步的 **裝置** 。
 
-1. 導覽至網 [頁播放器](http://localhost:4502/screens/player.html)。
+   ![image1](assets/command-sync/command-sync14.png)
 
+### 移除或取消與主版同步 {#desync-up-master}
 
-
-
+將設備或設備同步到主設備後，可以取消同步或從該設備中刪除分配。 若要從主裝置移除同步，請選取裝置，然後從「裝置」面板按 **一下** 「 **解除同步** 」。
 
