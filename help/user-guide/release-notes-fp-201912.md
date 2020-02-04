@@ -4,7 +4,7 @@ seo-title: 功能套件201912發行說明
 description: 請依照本頁來取得2020年1月20日發行的AEM Screens Feature Pack 201912的資訊。
 seo-description: 請依照本頁來取得2020年1月20日發行的AEM Screens Feature Pack 201912的資訊。
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -23,8 +23,8 @@ AEM Screens Feature Pack 201912的發行日期為2020年1月21日。
 
 ### 新功能 {#what-s-new}
 
-* **資產播放的命令同步**
-
+* **Command Sync for Asset Playback**Command Sync允許在不同播放器間同步播放。 玩家可以播放不同的內容，但每個資產需要有相同的持續時間。
+要進一步瞭解命令同步以及如何設定主設備和客戶端，請參閱使 [用命令同步](using-command-sync.md)。
 
 * **Health check framework to show status of https and allow empty referrer** The Health Check framework allows the user to check if two nexed configurations(Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service)abed running an AM Scres.
 
