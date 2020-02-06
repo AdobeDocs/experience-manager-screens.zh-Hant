@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
+source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 ---
 
@@ -103,11 +103,24 @@ source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 1. 從清單中選擇設備，然後按一下「 **保存**」。
 
+   >[注意:]
+   > 「同 **步至主設備** 」對話框將顯示主設備清單。 您可以選取想要的偏好設定。
+
 1. 當裝置（Windows播放器）與主版（Chrome播放器）同步後，您就會在「裝置」面板中看到同步的 **裝置** 。
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### 移除或取消與主版同步 {#desync-up-master}
+### 與主版解除同步 {#desync-up-master}
 
-將設備或設備同步到主設備後，可以取消同步或從該設備中刪除分配。 若要從主裝置移除同步，請選取裝置，然後從「裝置」面板按 **一下** 「 **解除同步** 」。
+將設備或設備同步到主設備後，可以從該設備中取消同步分配。 若要從主裝置移除同步，請遵循下列步驟：
 
+1. 導覽至「裝 **置** 」面板並選取裝置。
+
+1. 按一下「 **Desync device(s)** 」（取消同步設備），從主設備使客戶端同步。
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. 按一下 **確認** ，從主設備中取消同步所選設備。
+
+   >[注意:]
+   > 如果您選擇主設備並使用desync選項，則所有連接到主設備的設備都將在一個步驟中取消同步。
