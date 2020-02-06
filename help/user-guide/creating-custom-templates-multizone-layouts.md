@@ -5,7 +5,7 @@ description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範�
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 在 `/apps/<project>/templates/my-custom-layout`
 
-```shell
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   ```shell
+    <?xml version="1.0" encoding="UTF-8"?>
+    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:description="My Custom 3-zones layout "
     jcr:primaryType="cq:Template"
     jcr:title="3-zones layout"
@@ -58,8 +58,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
         </cq:responsive>
         <offline-config/>
     </jcr:content>
-</jcr:root>
-```
+   </jcr:root>
+   ```
 
 1. 在中建立頁面設計 `/apps/settings/wcm/designs/<project>`。
 
@@ -71,12 +71,12 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 在資料 **夾中新增static.css**`/apps/settings/wcm/designs/<project>` 檔案，並將其內容設定為
 
-```shell
-.cq-Screens-channel--multizone.my-CustomLayout {}
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-.cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-```
+   ```shell
+   .cq-Screens-channel--multizone.my-CustomLayout {}
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
+   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
+   ```
 
 ## 將影像插入背景圖層 {#inserting-image}
 
@@ -98,3 +98,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 若要變更背景顏色，請將下列程式碼新增至xml檔案：
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+
