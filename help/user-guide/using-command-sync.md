@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,11 +116,12 @@ source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 1. 導覽至「裝 **置** 」面板並選取裝置。
 
-1. 按一下「 **Desync device(s)** 」（取消同步設備），從主設備使客戶端同步。
+1. 按一下「 **Desync device(s)** 」 ，將客戶端與主設備取消同步。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 按一下 **確認** ，從主設備中取消同步所選設備。
+1. 按一下 **確認** ，將選定設備與主設備取消同步。
 
    >[注意:]
    > 如果您選擇主設備並使用desync選項，則所有連接到主設備的設備都將在一個步驟中取消同步。
+
