@@ -1,10 +1,10 @@
 ---
 title: 功能套件201912發行說明
 seo-title: 功能套件201912發行說明
-description: 請依照本頁來取得2020年1月20日發行的AEM Screens Feature Pack 201912的資訊。
-seo-description: 請依照本頁來取得2020年1月20日發行的AEM Screens Feature Pack 201912的資訊。
+description: 請依照本頁來取得2020年1月31日發行的AEM Screens Feature Pack 201912的資訊。
+seo-description: 請依照本頁來取得2020年1月31日發行的AEM Screens Feature Pack 201912的資訊。
 translation-type: tm+mt
-source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
+source-git-commit: b6a2485ff992eaafb9ef3e5063e8d8ab4e214532
 
 ---
 
@@ -19,7 +19,7 @@ AEM Screens已發行AEM 6.4 Feature Pack 7和AEM 6.5 Feature Pack 3，並提供�
 
 ## Release Date {#release-date}
 
-AEM Screens Feature Pack 201912的發行日期為2020年1月21日。
+AEM Screens Feature Pack 201912的發行日期為2020年1月31日。
 
 ### 新功能 {#what-s-new}
 
