@@ -5,16 +5,55 @@ description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範�
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # 在多區域版面中建立自訂範本 {#creating-custom-templates-multizone}
 
-下列範例展示如何在多區域版面中建立自訂範本。
+本頁面展示如何在多區域版面中建立自訂範本。
 
-例如，以下章節將示範如何使用下列組態，在多區域版面中建立自訂範本：
+## 命名慣例 {#name-terms}
+
+在您瞭解如何建立自訂多區域範本以用於AEM Screens專案之前，先要先瞭解您要建立之範本的版本。
+
+| **版面名稱** | **說明** |
+|---|---|
+| Left20-LandscapeHD3Zone | 指3區橫向版面配置，可讓您建立3個區域，其中區域1為左側水準和垂直螢幕的20%、區域2為水準螢幕的80%、右側垂直螢幕的20%、區域3為水準螢幕的100%，垂直螢幕的80%，寬高比為16:9 |
+| Upper20-PortraitHD2Zone | 指從上方覆蓋20%螢幕的2區縱向範本，長寬比為16:9 |
+| Right20-LandscapeSD3Zone | 指從右側涵蓋20%螢幕的3區範本，長寬比為4:3 |
+
+## 範例使用案例 {#example-use-cases}
+
+## 建立Left20-LandscapeHD3Zone版面 {#landscape-layout-one}
+
+請依照下列章節示範，使用下列設定建立自訂範本：
+
+* **Left20** 是指左側最上方的區域，涵蓋20%的水準和垂直螢幕大小。
+* **橫向** ：指螢幕方向
+* **HD** 將寬高比指定為16:9
+* **3 Zone** (3 Zone)指顯示器的三個區域
+
+## 多區域佈局的可視化表示 {#multi-layout-visual-one}
+
+Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面：
+
+![影像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## 建立Upper20-PortraitHD2Zone版面 {#landscape-layout-two}
+
+請依照下列章節示範，使用下列設定建立自訂範本：
+
+
+
+
+
 
 ![影像](assets/custom-template1.png)
 
