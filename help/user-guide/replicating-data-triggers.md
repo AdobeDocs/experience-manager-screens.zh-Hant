@@ -4,7 +4,7 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: a8ded0c15e0e3cbaf0999da796789991b20d24cb
+source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
 
 ---
 
@@ -23,40 +23,59 @@ source-git-commit: a8ded0c15e0e3cbaf0999da796789991b20d24cb
 
 ## 將資料觸發器複製至發佈伺服器的步驟 {#replicating-data-triggers-publish}
 
-請遵循下列步驟，將資料觸發器複製至發佈伺服器：
+請依照下列步驟，將資料觸發器複製至發佈伺服器。
 
-### 複製ContextHub配置 {#replicating-contexthub-configurations}
+### 步驟1:複製ContextHub配置 {#replicating-contexthub-configurations}
 
-1. 導覽至「 **工具** >部署 **>散發** >發佈代理 ******** http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish」
-1. 按一下「測試連線」按鈕，驗證作者是否可正確與發佈例項通訊
-1. 如果測試失敗，您需要在作者和發佈之間修正複製代理配置
-1. 確定端點URL也指向Distribution Agent中的發佈伺服器URL
-1. 編輯>匯入工具端點
-1. 按一下「散發」標籤
-1. 「選擇添加樹」單選按鈕
-1. 在路徑瀏覽器中，選取專案的設定路徑(例如/conf/screens/settings/cloudsettings/configuration)
-1. 按一下「提交」
+1. 導覽至「 **工具** >部署 **>散發** >發佈代理」 **>****** 「發佈代理」，然後按一下以設定您的發佈代理設定。
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
+
+   >[!Note]
+   >或者，您也可以使用 [連結](http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish) ，直接導覽至畫面，以設定和測試連線。
+
+1. 按一 **下動作列中的「測試連線** 」，驗證作者與發佈例項的通訊，如下圖所示。
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
+
+   >[!Note]
+   >如果測試失敗，您需要在作者和發佈實例之間修正複製代理配置。 如需詳細資 [訊，請參閱Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 疑難排解。
+
+1. 按一 **下上方畫面中的** 「編輯」，並確保「匯入工具端點」欄位中的端點URL **** ，也會指向Distribution agent中的發佈伺服器URL。
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+
+1. 從「 **Distribution Agent** 」螢幕樹中選擇「添加 **」，然後選擇項目的配置路徑，即**`/conf/screens/settings/cloudsettings/configuration)`。
+
+1. 按一下「 **提交」**
 
 ### 複製觀眾 {#replicating-audiences}
 
-1. 導覽至「工具>個人化>觀眾http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html」
-1. 深入探討您的專案資料夾(即/conf/screens/)
-1. 在UI中選取所有對象／區段
-1. 按一下「管理出版物」
-1. 按「下一步」
-1. 按一下「發佈」
+1. 導覽至「工 **具** >個人化 **>觀眾」** ，或 **直接導**[](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html) 覽至連結。
+
+1. 深入探討您的專案資料夾，即 `/conf/screens/`。
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+
+1. 從使用者介面選取所有對象和區段。
+
+1. 按一 **下動作列中的** 「管理出版物」。
+
+1. 按一 **下「下** 一步」 **和「發佈**」。
 
 ### 複製活動 {#replicating-activities}
 
-1. 導覽至「工具>個人化>活動http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html」
-1. 深入探討您的專案資料夾(即/content/campaigns/screens/...)
-1. 在UI中選取所有活動
-1. 按一下「管理出版物」
-1. 按「下一步」
-1. 按一下「發佈」
+1. 導覽至「工 **具** >個人化 **>活動** 」或 **直接導**[](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html) 覽至連結。
 
-> [!Note]
->複製ContextHub組態和觀眾是在專案設定期間完成，同時複製活動，而且每次在頻道內變更目標時都需要複製。
+1. 深入探討您的專案資料夾，即 `/content/campaigns/screens/…`。
+
+1. 從用戶介面中選擇所有活動。
+
+1. 按一 **下動作列中的** 「管理出版物」。
+
+1. 按一 **下「下** 一步」 **和「發佈**」。
+
+   > [!Note]
+   >複製ContextHub組態和觀眾是在專案設定期間完成，同時複製活動，而且每次在頻道內變更目標時都需要複製。
 
 #### 結果 {#result}
 
@@ -65,3 +84,30 @@ source-git-commit: a8ded0c15e0e3cbaf0999da796789991b20d24cb
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
 `/content/campaigns/screens/…`
+
+## 測試連線疑難排解 {#troubleshoot-test}
+
+如果在複製ContextHub配置時測試連線失敗，請依照下列章節疑難排解問題：
+
+1. 導覽至「 **匯入工具端點** 」欄位，並確保端點URL指向Distribution agent中的發佈伺服器URL。
+
+1. 如果您未使用預設憑證，則需要使用不同的管理員密碼來設定散發代理。
+請遵循下列步驟：
+
+   1. 導覽至「工具> **作業** > Web Console**」以 `http://localhost:4502/system/console/configMgr`開啟 **Adobe Experience Manager Web Console畫面**。
+
+   1. 搜尋 **Apache Sling Distribution Transport憑證——使用者憑證式DistributionTransportSecretProvider**
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
+
+   1. 建立設定，方法 **是填入Name**、 **User name** 和 **password**，例如 ** slingTransportSecretProvider。.
+   1. Click **Save**
+
+   1. 使用搜尋您的散發代理的名稱 `Cmd +F`。
+
+   1. 按一下以開啟散發代理程式組態。
+
+   1. 在osgi配置中查找Transport Secret Provider ，並使用進行更新 `"(name=slingTransportSecretProvider)"`。
+
+   1. 按一 **下「儲存** 」並執行測試連線。
+
