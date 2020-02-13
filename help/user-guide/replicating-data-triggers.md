@@ -4,7 +4,7 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
    >[!Note]
    >如果測試失敗，您需要在作者和發佈實例之間修正複製代理配置。 如需詳細資 [訊，請參閱Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 疑難排解。
 
-1. 從「 **Distribution Agent** 」螢幕樹中選擇「添加 **」，然後選擇項目的配置路徑，例如**`/conf/screens/settings/cloudsettings/configuration)`。
+1. 從「 **Distribution Agent** 」螢幕樹中選擇「添加 **」，然後選擇項目的配置路徑，例如**`/conf/screens/settings/cloudsettings/configuration`。
 
 1. 按一下「 **提交」**
 
@@ -51,7 +51,7 @@ source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 1. 深入探討您的專案資料夾，例如 `/conf/screens/`。
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. 從使用者介面選取所有對象和區段。
 
@@ -114,3 +114,6 @@ source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
    1. 按一 **下「儲存** 」，然後從AEM例項的「 **Distribution Agent** 」畫面再次執行測試連線。
 
+   1. 使用者將需要從AEM例項重新造訪 **Distribution Agent** （散發代理）頁面，以將預設URL從更新／取代 `localhost:4503` 至其自己的發佈URL。
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
