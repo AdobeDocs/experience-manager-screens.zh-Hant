@@ -4,7 +4,7 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
 1. 導覽至「工具>部 **署** > **散發** >發 **布代理」**。
 
 1. 從動 **作列按一下** 「編輯」，並確定「匯入工具端點」欄位中的端點URL **** ，也會指向Distribution agent中的發佈伺服器URL。
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. 如果您未使用預設的管理員認證，則需要使用不同的管理員密碼來設定散發代理。
+1. 如果您未使用預設的管理員認證，則需要使用不同的使用者名稱和密碼來設定散發代理。
 請遵循下列步驟：
 
    1. 導覽至「工具> **作業** > **Web Console** 」 `http://localhost:4502/system/console/configMgr`以開啟 **Adobe Experience Manager Web Console畫面**。
