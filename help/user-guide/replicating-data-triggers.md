@@ -4,7 +4,7 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 1. 按一 **下「下** 一步」 **和「發佈**」。
 
-   > [!Note]
-   >複製ContextHub組態和觀眾是在專案設定期間完成，同時複製活動，而且每次在頻道內變更目標時都需要複製。
+> [!Note]
+> **重要&#x200B;**:>複製ContextHub組態和觀眾是在專案設定期間完成，同時複製活動，而且每次在頻道內變更目標時都需要複製。
 
 #### 結果 {#result}
 
@@ -113,7 +113,3 @@ source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
    1. 使用更 `(name=default)` 新 `(name=slingTransportSecretProvider)`。
 
    1. 按一 **下「儲存** 」，然後從AEM例項的「 **Distribution Agent** 」畫面再次執行測試連線。
-
-   1. 使用者將需要從AEM例項重新造訪 **Distribution Agent** （散發代理）頁面，以將預設URL從更新／取代 `localhost:4503` 至其自己的發佈URL。
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
