@@ -4,7 +4,7 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 1. 從「 **Distribution Agent** 」螢幕樹中選擇「添加 **」，然後選擇項目的配置路徑，例如**`/conf/screens/settings/cloudsettings/configuration`。
 
-1. 按一下「 **提交」**
+1. 按一 **下提交**。
 
 ### 複製觀眾 {#replicating-audiences}
 
@@ -71,8 +71,9 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 1. 按一 **下「下** 一步」 **和「發佈**」。
 
-> [!Note]
-> **重要&#x200B;**:>複製ContextHub組態和觀眾是在專案設定期間完成，同時複製活動，而且每次在頻道內變更目標時都需要複製。
+>[!IMPORTANT]
+>
+>複製ContextHub組態和觀眾是在專案設定期間完成，同時複製活動，而且每次在頻道內變更目標時都需要複製。
 
 #### 結果 {#result}
 
@@ -92,10 +93,10 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則需要使用不同的使用者名稱和密碼來設定散發代理。
-請遵循下列步驟：
+
+   請遵循下列步驟：
 
    1. 導覽至「工具> **作業** > **Web Console** 」 `http://localhost:4502/system/console/configMgr`以開啟 **Adobe Experience Manager Web Console畫面**。
-
    1. 搜尋 **Apache Sling Distribution Transport憑證——使用者憑證式DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Click **Save**
-
    1. 使用 `Cmd +F` 來搜尋 **Apache Sling Distribution Agent - Forward Agents Factory** ，以開啟設定並搜尋 **Transport Secret Provider**。
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 使用更 `(name=default)` 新 `(name=slingTransportSecretProvider)`。
-
    1. 按一 **下「儲存** 」，然後從AEM例項的「 **Distribution Agent** 」畫面再次執行測試連線。
