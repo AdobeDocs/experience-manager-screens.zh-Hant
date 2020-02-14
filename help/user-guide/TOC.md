@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
+source-git-commit: 5e352469b657662cd7ddb9af395ae92e28ef6ee1
 
 ---
 
@@ -31,6 +31,7 @@ source-git-commit: cf9fac332484716806884edc5d6815c2bdce9ecb
    + [設定ACL](setting-up-acls.md)
    + [從ContentSync轉換到SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
+   + [將資料觸發器複製至發佈伺服器](replicating-data-triggers.md)
    + 用戶端特定考量事項 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome Player做為擴充功能以進行疑難排解](using-chrome-player-as-an-extension.md)
