@@ -5,7 +5,7 @@ description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範�
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
+source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ## 命名慣例 {#name-terms}
 
-在您瞭解如何建立自訂多區域範本以用於AEM Screens專案之前，先要先瞭解您要建立之範本的版本。
+在您瞭解如何建立自訂多區域範本以用於AEM Screens專案之前，建議您先瞭解您要建立的範本版本。
 
 | **版面名稱** | **說明** |
 |---|---|
@@ -26,9 +26,9 @@ source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ## 範例使用案例 {#example-use-cases}
 
-## 建立Left20-LandscapeHD3Zone版面 {#landscape-layout-one}
+## Left20-LandscapeHD3Zone版面 {#custom-template-one}
 
-請依照下列章節示範，使用下列設定建立自訂範本：
+請依照下節，使用下列組態建立自 *訂範本Left20-LandscapeHD3Zone* :
 
 * **Left20** 是指左側最上方的區域，涵蓋20%的水準和垂直螢幕大小。
 * **橫向** ：指螢幕方向
@@ -41,24 +41,50 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
 
 ![影像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## 建立Left20-LandscapeHD3Zone版面 {#landscape-layout-one}
 
+請依照下列步驟，為AEM Screens專案建立Left20-LandscapeHD3Zone Layout:
 
+1. 建立標題為「自訂範本」的AEM **畫面專案**。
 
+   ![影像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
+1. 從您的 **AEM例項** —>工具—> **CRXDE Lite導覽至CRXDE Lite**。
 
-## 建立Upper20-PortraitHD2Zone版面 {#landscape-layout-two}
+1. 在名為「自訂範本」的 **應用程式** 下建立 **資料夾**。 同樣地，在customtemplate下建立另一 **個名為****模板的資料夾**，如下圖所示。
 
-請依照下列章節示範，使用下列設定建立自訂範本：
+   ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
+   > [!NOTE]
+   > 建議您每次建立、編輯或複製內容至任何節點時，從CRXDE Lite的動作列按一下「全部儲存 **** 」，否則將無法提交更新。
 
+1. 將左側長條範本從複製 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 到 `/apps/customtemplate/template`。
 
+1. 將複製 **的左側列** (`/apps/customtemplate/template`)重新命 **名為my-custom-layout**。
 
+1. 導覽並 `/apps/customtemplate/template/my-custom-layout` 更新屬性 **jcr:description** 至Left20-LandscapeHD3Zone的「 *Template」（範本）和* jcr:title ******&#x200B;至Left20-LandscapeHD3Zone的「Template」（模板）。
 
+1. 從導覽至 **offline-config** 節點， `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` 並將 **jcr:title** 更新 *為Left20-LandscapeHD3Zone*。
 
-![影像](assets/custom-template1.png)
+1. 從導覽至 *my custom-template* 的jcr:content **屬性，並將** cq:cssClass `/apps/customtemplate/template/my-custom-layout/jcr:content`********&#x200B;屬性更新至Aem-My custom-layout的Layout。
 
+1. 參考步驟(4)，在步驟中，您複製左側的範本，您將在下方檢視3個回應式格線 `my-custom-layout/jcr:content`。 在 *cq:cssClass* 屬性中，將自訂css類別新增至每個互動式格線，例如 *my-custom-layout -top-left*, *my-custom-layout -top-right*, ** my-custom-layout -bottomCassing。
+
+   >[!NOTE]
+   >這些自訂類別將用於css中，以設定這些互動式格點的寬度／高度。
+
+   >[!NOTE]
+   > 您可以根據所需的網格總數來添加或刪除自適應網格。 在此範例中，我們展示第一列的2個格點和第二列的1個格點，因此共有3個回應式格點(r1c1、r1c2、r2c1)。
+
+1. 複製 `/libs/settings/wcm/designs/screens` 至 `/apps/settings/wcm/designs/` 自訂範本 **設計並重新命名**
+
+1. 導覽至 `/apps/settings/wcm/designs/custom-template-designs` custom-template-designs的屬 *性jcr:title* ，並將其更新 **為customtemplate-design****的屬性**。
+
+1. 更新內 `/apps/settings/wcm/designs/<project>-designs/static.css` 容以符合下列
 
 ## 使用特定配置建立自定義模板 {#basic-flow-setting}
+
+![影像](assets/custom-template1.png)
 
 請依照下列步驟建立自訂範本。
 
