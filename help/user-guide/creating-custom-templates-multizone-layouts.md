@@ -5,7 +5,7 @@ description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範�
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面：
 
-![影像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![影像](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## 建立Left20-LandscapeHD3Zone版面 {#landscape-layout-one}
 
