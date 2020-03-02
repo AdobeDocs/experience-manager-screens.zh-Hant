@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
    1. 導覽至 **全域** >預 **設** > **ContextHub設定**。
 
-   1. 按一下**「建立>設定容器」, **然後輸入標題為** ContextHubDemo**。
+   1. 按一 **下「建立** >設 **定容器** 」，然後輸入標題為 **ContextHubDemo**。
 
    1. **** 導覽至&#x200B;**「** ContextHubDemo **>** ContentHub商店設定……」以開啟「配 **置」嚮導**。
 
    1. 將Google Sheets **輸入為** Google Sheets **,Google Store Name** as **Google Sheets Store Name,************as Contexthushusonp.Type Store**
 
    1. 按「下一 **步」**
-   1. 輸入您的特定json設定**。**例如，您可以使用下列json進行示範。
+   1. 輸入您的特定json設定。 例如，您可以使用下列json進行示範。
    1. 按一下&#x200B;**「儲存」**。
 
    ```
