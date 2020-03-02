@@ -11,12 +11,12 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# 頻道層級啟動——單一事件播放 {#channel-level-activation-single-event-playback}
+# 通路層級啟動 {#channel-level-activation-single-event-playback}
 
 使用渠道層級啟動涵蓋下列主題：
 
@@ -87,7 +87,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **在「位置」下建立顯示**
 
-   1. 導覽至「 **渠道層級啟動** &gt;位 **置** &gt;地 **區」**。
+   1. 導覽至「 **渠道層級啟動** >位 **置** >地 **區」**。
    1. 選擇「 **地區** 」(Region **)，然後從操作欄中按一下「+建立** 」(Create)。
    1. 從向 **導中選擇** 「顯示」，並建立標題為「區域顯 **示」的顯示。**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    針對 **MainAdChannel:**
 
-   1. 導航至「渠 **道級激活** &gt; **&gt;** &gt; **&gt;********** Display Channel Locations 」區域從操作中按一下Display Channel Click Bar。
+   1. 導航至「渠 **道級激活** > **>** > **>********** Display Channel Locations 」區域從操作中按一下Display Channel Click Bar。
    1. **「渠道分配** 」對話框開啟。
    1. 選擇 **參考渠道**。 依路徑.
-   1. 選擇「通 **道路徑****級激活」** —&gt;「通 ***道*** 」 — ******&gt;「主AdChannel」。
+   1. 選擇「通 **道路徑****級激活」** —>「通 ***道*** 」 — ******>「主AdChannel」。
    1. 渠道 **角色** (Channel Role **)會填**&#x200B;入為mainadchannel。
    1. 選擇「優 **先順序** 」( **Priority**)為1。
    1. 選取「支 **援的事件** 」(Supported Events **)** 為「初始載入 **」(Initial Load)**&#x200B;和「閒置」(Idle)畫面。
@@ -108,14 +108,14 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >您也可以從顯示儀表板通過以下方式來分配渠道： **渠道級激活** —&gt; **位置** —&gt; **Locations** Region — **&gt; Display Display Dashboard和Clicking Adshboard****** brar。 從「已 **指派的頻道與排程** 」面板按 **一下「+指派頻道** 」。
+   >您也可以從顯示儀表板通過以下方式來分配渠道： **渠道級激活** —> **位置** —> **Locations** Region — **> Display Display Dashboard和Clicking Adshboard****** brar。 從「已 **指派的頻道與排程** 」面板按 **一下「+指派頻道** 」。
 
    同樣地，指派頻道 **TargetedSinglePlay** 以進行顯示**:
 
-   1. 導航至「 **渠道級別激活** —&gt;位 **置** —&gt; **地區** — ******** &gt;地區顯示欄」和「從活動中分配渠道激活」。
+   1. 導航至「 **渠道級別激活** —>位 **置** —> **地區** — ******** >地區顯示欄」和「從活動中分配渠道激活」。
    1. **「渠道分配** 」對話框開啟。
    1. 選擇 **參考渠道**。 依路徑.
-   1. 選擇渠 **道路徑****作為渠道級激活*** —&gt; ***渠道*** — ***&gt;目標單***&#x200B;一播放。
+   1. 選擇渠 **道路徑****作為渠道級激活*** —> ***渠道*** — ***>目標單***&#x200B;一播放。
    1. 渠道 **角色** (Channel Role)會填 **入為定位單一播放**。
    1. 將「優 **先順序** 」設 **為2**。
    1. 選擇「受 **支援的事件** 」作 **為「初始載入**」、「空閒 **螢幕」和「計******&#x200B;時器」*，如下圖所示。
