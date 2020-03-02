@@ -4,7 +4,7 @@ seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 1. 選取任何頻道，然後從 **動作列按一下** 「編輯」，以新增或編輯頻道中的內容。
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 1. 按一 **下「編輯** 」以開啟渠道編輯器，並選取您要套用排程的資產。
 
-   ![影像](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![影像](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. 選取資產，然後按一下左上角的「 **設定** （扳手圖示）」以開啟影像的屬性。
 
    按一下「 **啟動** 」標籤。
 
-   ![影像](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![影像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. 您可以使用「活動自」和「活動至」欄位，從日 **期選擇器****指定日期** 。
 
