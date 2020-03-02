@@ -4,7 +4,7 @@ seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 使用此功能，您不僅可以指定開始和結束日期和時間，還可以指定循環模式。
 
-## 單一事件播放 {#single-event-playback}
+## 啟動視窗 {#single-event-playback}
 
 資產層級啟動是透過在存取資產屬性 **時設定** 「啟動」標籤來完成。
 
