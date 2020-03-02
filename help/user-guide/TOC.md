@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -57,12 +57,12 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
       + [大量離線更新](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
       + [使用體驗片段](experience-fragments-in-screens.md)
-      + [資產層計畫](asset-level-scheduling.md)
+      + [資產層級啟動](asset-level-scheduling.md)
+      + [通路層級啟動](channel-level-activation.md)
       + [建立和管理即時副本](managing-livecopy.md)
       + [建立視訊填補工作流程](creating-a-video-padding-workflow.md)
       + [新增元件至渠道](adding-components-to-a-channel.md)
       + [內嵌序列](embedded-sequences.md)
-      + [頻道層級啟動——單一事件播放](channel-level-activation.md)
       + [多區域版面](multi-zone-layout-aem-screens.md)
       + [視訊轉譯](generating-renditions.md)
       + [使用動態內嵌序列](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [建立元件](creating-components.md)
    + [使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)
    + [在AEM畫面中設定ContextHub](configuring-context-hub.md)
-   + [建立自訂範本多區域版面](creating-custom-templates-multizone-layouts.md)
+   + [建立多區域版面的自訂範本](creating-custom-templates-multizone-layouts.md)
 + 疑難排解和常見問答集 {#troubleshooting}
    + [AEM Screens常見問答集](aem-screens-faqs.md)
    + [設備控制中心故障排除](monitoring-screens.md)
