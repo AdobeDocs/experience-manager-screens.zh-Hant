@@ -53,7 +53,7 @@ source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
    >若要詳細瞭解如何
    >
    >* 建立項目，請參 [閱建立新項目](creating-a-screens-project.md)。
-   >* 建立內容並新增至頻道，請參 [閱管理頻道](managing-channels.md)。
+   >* 建立內容並新增至頻道，請參閱管 [理頻道](managing-channels.md)。
 
 
 1. 按一 **下「編輯** 」以開啟渠道編輯器，並選取您要套用排程的資產。
