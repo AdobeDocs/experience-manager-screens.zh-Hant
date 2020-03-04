@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
 
@@ -37,13 +37,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->***頻道路徑***定義頻道的明確參考。
+>***渠道路徑*** (Channel Path)定義對渠道的明確引用。
 >
 >若要進一步瞭解 *Channel Path*，請參 [閱製作畫面中的Channel Assignment](channel-assignment.md) 。
 
 請依照下列步驟，將內嵌序列新增至您的渠道：
 
-1. 選取您要嵌入頁面的渠道。 例如， **We.Retail In-Store** —&gt; **Channels** —&gt;** Idle Channel**。
+1. 選取您要嵌入頁面的渠道。 例如， **We.Retail In-Store** —> **Channels** —> **Idle Channel**。
 
 1. 從動 **作列按一下** 「編輯」，以在編輯器模式中開啟頻道。
 1. 按一下左側列的元件圖示以新增內嵌頁面。 將「內嵌序列」 **拖放至編輯器** 。
@@ -53,12 +53,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 將「計 **量播放策略** 」設 **為正常**。
 
-預設情況下，它設定為 **正常**。 將值設為 **normal***（播放所有項目）*表示子序列將完全在父序列的每個循環上運行。 另一個可能的值是 **Play a single item***(Play a single item)*，而且每個執行只會顯示一個子序列項目（例如，第一個循環的第一個項目、第二個循環的第二個項目等）。
+預設情況下，它設定為 **正常**。 將值設為 **normal** （播放所有項目）表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 **Play a single item** (Play a single item)，而且每個執行中只會顯示一個子項目（例如，第一個循環中的第一個項目、第二個循環中的第二個項目等）。
 
->[!NOTE]
->
->**重要：**
->
+>[!I重要]
 >您必須將頻道（用於內嵌序列）指派給相同的顯示。
 >
 >在前述步驟中新增內嵌序列至渠道後，請遵循下列步驟：
@@ -94,15 +91,15 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 請依照下列步驟，將內嵌序列新增至您的渠道：
 
-1. 選取您要嵌入動態序列的渠道。 例如， **We.Retail In-Store** —&gt; **Channels** —&gt; **Idle Channel**。
+1. 選取您要嵌入動態序列的渠道。 例如， **We.Retail In-Store** —> **Channels** —> **Idle Channel**。
 
 1. 從動 **作列按一下** 「編輯」，以在編輯器模式中開啟頻道。
 1. 按一下左側列的元件圖示，新增動態內嵌序列。 將Dynamic **** **Embedded Sequence **拖放至編輯器。
 
-1. 連按兩下「 **動態** 」**「內嵌序列」**元件，將頁面新增至序列頻道。
+1. 連按兩下「動 **態****內嵌序列** 」元件，將頁面新增至序列頻道。
 
 1. 輸入渠 **道分配職責**。
-1. 將「計 **量播放策略** 」設 **為正常**。 預設情況下，它設定為 **正常**。 將值設為 **normal***（播放所有項目）*表示子序列將完全在父序列的每個循環上運行。 另一個可能的值是 **Play a single item***(Play a single item)*，而且每個執行只會顯示一個子序列項目（例如，第一個循環的第一個項目、第二個循環的第二個項目等）。
+1. 將「計 **量播放策略** 」設 **為正常**。 預設情況下，它設定為 **正常**。 將值設為 **normal** （播放所有項目）表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 **Play a single item** (Play a single item)，而且每個執行中只會顯示一個子項目（例如，第一個循環中的第一個項目、第二個循環中的第二個項目等）。
 
 1. 為序列中 **的嵌入渠道** ，選擇「序列 **** 」頁籤中的「持續時間（毫秒）」。
 
