@@ -4,7 +4,7 @@ seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
    * 日分割
    * 周分割
    * 月分割
+   * 零件組合
 * 啟動多資產
 
 >[!CAUTION]
