@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ## 概覽 {#overview}
 
-***「渠道層級啟動*** 」允許渠道在特定的排程後切換。 單事件頻道在設定排程後取代主頻道並播放特定時間，直到主頻道再次播放其內容。
+***「頻道層級啟動*** 」可讓頻道在特定排程後切換。 單事件頻道在設定排程後取代主頻道並播放特定時間，直到主頻道再次播放其內容。
 
 以下範例針對下列關鍵詞提供解決方案：
 
