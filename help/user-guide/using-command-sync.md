@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
+source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
 
 ---
 
@@ -12,6 +12,9 @@ source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 # 命令同步 {#command-sync}
 
 以下頁介紹如何使用命令同步。 命令同步允許在不同播放器之間同步播放。 玩家可以播放不同的內容，但每個資產需要有相同的持續時間。
+
+>[!IMPORTANT]
+>此功能不支援內嵌序列、動態內嵌序列、應用程式頻道或轉場。
 
 ## 概覽 {#overview}
 
@@ -24,6 +27,9 @@ source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 ## 實作命令同步 {#using-command-sync}
 
 下節說明如何在AEM Screens專案中使用「命令同步」。
+
+>[!NOTE]
+>對於同步播放，要求所有硬體設備具有相同的硬體規格，最好是相同的作業系統。 不建議在不同的硬體和作業系統之間同步。
 
 ### 設定專案 {#setting-up}
 
@@ -79,7 +85,7 @@ source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ### 設定主版 {#setting-up-master}
 
-1. 從 **CommandSyncDemo** —> **Locations** —> **Lobby** — **Lobby** **** DisplayBar導覽至顯示操控板，從操控板上的Click Addrobard從操作欄中導航。
+1. 從 **CommandSyncDemo** —> **Locations** —> **Lobby** — **Lobby Display And****** click on Dashboard on Dashboard on the Action the Locations
 您將在 **DEVICES面板中看到這兩種裝置（chrome和windows player）** ，如下圖所示。
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -110,18 +116,22 @@ source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### 與主版解除同步 {#desync-up-master}
+### 取消與主版同步 {#desync-up-master}
 
-將設備或設備同步到主設備後，可以從該設備中取消同步分配。 若要從主裝置移除同步，請遵循下列步驟：
+將設備或設備同步到主設備後，可以從該設備中取消同步分配。
+
+>[!NOTE]
+>如果您取消同步主設備，它也會取消連結與該主設備關聯的所有客戶端設備。
+
+若要從主裝置移除同步，請遵循下列步驟：
 
 1. 導覽至「裝 **置** 」面板並選取裝置。
 
-1. 按一下「 **Desync device(s)** 」 ，將客戶端與主設備取消同步。
+1. 按一下「 **Desync device(s)** 」 ，將客戶機與主設備取消同步。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 按一下 **確認** ，將選定設備與主設備取消同步。
+1. 按一下 **確認** ，從主設備中取消同步所選設備。
 
    >[注意:]
-   > 如果您選擇主設備並使用desync選項，則所有連接到主設備的設備都將在一個步驟中取消同步。
-
+   > 如果您選擇主設備並使用去同步選項，則所有連接到主設備的設備都將在一個步驟中取消同步。
