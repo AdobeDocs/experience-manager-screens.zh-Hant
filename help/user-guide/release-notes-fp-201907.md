@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 AEM Screens發行AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1，並提供下列詳細資訊。
 
-## 發行日期 {#release-date}
+## Release Date {#release-date}
 
 AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
@@ -36,7 +36,7 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 如需實 [施，請參閱Emergency Channel](emergency-channel.md) Use Case。
 
-* **針對非同步元件啟用定&#x200B;*位(例如視訊、內嵌序列*)**
+* **非同步元件的定位已啟用
 
 現在可以針對AEM Screens專案中使用的資產啟用定位。
 
