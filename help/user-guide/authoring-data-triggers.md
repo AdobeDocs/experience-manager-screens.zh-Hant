@@ -3,7 +3,7 @@ title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
 translation-type: tm+mt
-source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
+source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
 ---
 
@@ -12,13 +12,20 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 本節重點說明如何在您的通道中啟用定位。
 
+>[!IMPORTANT]
+> 支援AEM Screens頻道中資料觸發器的最低版本為AEM 6.4.3 Feature Pack 3。
+
 ## 必備條件 {#prereqs}
 
-在遵循下列步驟以啟用渠道中的定位之前，您必須先瞭解下列主題：
+在遵循下列步驟以啟用頻道中的定位之前，您必須先瞭解在AEM Screens中設定的關鍵詞語 [](configuring-context-hub.md) ，以瞭解在AEM Screens中的ContextHub和定位。
 
-1. 在AEM畫面中設定的關鍵詞語
-1. 設定資料儲存區
-1. 設定受眾細分
+>[!IMPORTANT]
+> 建議您先瞭解並設定ContextHub組態，再在AEM Screens頻道中啟用定位。
+
+請依照下列連結取得詳細資訊：
+
+1. **[設定資料儲存區](configuring-context-hub.md)**
+1. **[設定受眾細分](configuring-context-hub.md)**
 
 完成上述步驟後，您就可以在通道中啟用定位。
 
@@ -30,7 +37,7 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 請依照下列步驟，在您的通道中啟用定位。
 
-1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM畫面頻道中建 **立的DataDrivenRetail** ，來啟用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM畫面頻道中建 **立的DataDrivenRetail***（序列頻道）* ，來啟用定位。
 
 1. 選取渠道 **DataDrivenRetail** ，然後從動作列 **按一下「屬性** 」。
 
@@ -44,19 +51,22 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
    1. 按一 **下儲存並關閉**。
    >[!NOTE]
-   使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
+   >
+   >使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
 1. 從DataDriven Assets > **Channels中導覽並選取** DataDriven Retail **，然後從動作列** 按一下Edit ******** Driven Retail。
 
    >[!NOTE]
-   如果您已正確設定所有項目，您會從編輯器的下拉式清單中看到 **Targeting** （定位）選項，如下圖所示。
+   >
+   >如果您已正確設定所有項目，您會從編輯器的下拉式清單中看到 **Targeting** （定位）選項，如下圖所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
    >[!NOTE]
-   為渠道配置ContextHub配置後，如果您要遵循下列所有使用案例，請務必遵循1到4的前述步驟，對於其他三個順序渠道亦然。
+   >
+   >為渠道配置ContextHub配置後，如果您要遵循下列所有使用案例，請務必遵循1到4的前述步驟，對於其他三個順序渠道亦然。
 
 ### 更多資訊：範例使用案例 {#learn-more-example-use-cases}
 
