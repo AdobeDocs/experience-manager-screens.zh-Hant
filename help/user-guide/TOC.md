@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
    + [將資料觸發器複製至發佈伺服器](replicating-data-triggers.md)
    + 用戶端特定考量事項 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
-      + [使用Chrome Player做為擴充功能以進行疑難排解](using-chrome-player-as-an-extension.md)
+      + [使用Chrome Player做為擴充功能進行疑難排解](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
    + Author Publish {#author-publish}
@@ -68,6 +68,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [使用動態內嵌序列](dynamic-embedded-sequences.md)
       + [頻道層級大量影像播放持續時間](channel-level-image-playback.md)
       + [命令同步](using-command-sync.md)
+      + [使用資料觸發器製作內容](authoring-data-triggers.md)
    + 管理內容更新 {#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
