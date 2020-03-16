@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -38,13 +38,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **填入Google工作表**
 
-   1. 導覽至ContextHubDemo google工作表。
+   1. 導覽至ContextHubDemo Google工作表。
    1. 為3種不同的運動衫新增3欄（紅色、綠色和藍色）及對應值。
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **依需求設定觀眾**
 
-   1. 導覽至對象中的區段(請參 ***閱步驟2:在「在AEM畫面中設定ContextHub*** 」頁 **[](configuring-context-hub.md)** 面中設定「觀眾區段」，以取得詳細資訊)。
+   1. 導覽至對象中的區段(請參 ***閱步驟2:在「在AEM畫面中設定ContextHub*** 」頁 **[](configuring-context-hub.md)**面中設定「觀眾區段」，以取得詳細資訊)。
 
    1. 新增三個 **新區段For_Red**、 **For_Green**&#x200B;和 **For_Blue**。
 
@@ -53,16 +53,16 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 拖放比 **較：屬性** -對編輯器的屬性，然後按一下配置表徵圖以編輯屬性。
    1. 從「 **第一個屬性名稱」的下拉式清單中選取****Googlesheets/value/1/2**
 
-   1. 從下 **拉式選單中** ，選取「運算子」為「大於」**
+   1. 從下 **拉式選** 單中選取「運 **算元** 」為「大於」
 
    1. 選擇數 **據類型** ，作為 **數字**
 
-   1. 從「 **第二個屬性名稱」(****Second Property name)的下拉式清單中，選取Googlesheets/value/1/1**
+   1. 從「 **第二個屬性名稱」(** Second Property name)的下拉式清單中，選取 **Googlesheets/value/1/1**。
 
-   1. 拖放**另一個比較：屬性——對編輯器的屬性**，然後按一下配置表徵圖以編輯屬性。
-   1. 從「 **第一個屬性名稱」的下拉式清單中選取****Googlesheets/value/1/2**
+   1. 拖放另一 **個比較：屬性** -對編輯器的屬性，然後按一下配置表徵圖以編輯屬性。
+   1. 從「 **第一個屬性名稱」(** First Property name)的下拉式清單中，選取 **Googlesheets/value/1/2**。
 
-   1. 從下 **拉式選單中** ，選取「運算子」為「大於」**
+   1. 從下 **拉式選** 單中選取「運 **算元** 」為「大於」
 
    1. 選擇 **資料類型** ，作為 **數字**
 
@@ -87,7 +87,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!CAUTION]
    >
-   >您應該已使用「屬 **性」(Properties** ) **&gt;「個人化」(Personalization** **ContextHub)頁籤來設定ContextHub****** Configurations。
+   >您應該已使用「屬 **性」(Properties** ) **>「個人化」(Personalization** **ContextHub)頁籤來設定ContextHub****** Configurations。
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
