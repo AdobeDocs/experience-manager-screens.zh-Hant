@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
 
 ---
 
@@ -58,9 +58,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
-   ![透過CRX Package manager安裝的螢幕We.Retail執行Ui.Apps和Ui.Content套件](assets/crx-packages.png)
+   ![透過CRX Package Manager安裝的螢幕We.Retail執行Ui.Apps和Ui.Content套件](assets/crx-packages.png)
 
-   透過CRX Package manager安裝的螢幕We.Retail執行Ui.Apps和Ui.Content套件
+   透過CRX Package Manager安裝的螢幕We.Retail執行Ui.Apps和Ui.Content套件
 
 1. screens-weretail-run.ui.apps **套件** ，會在下方安裝程式碼 `/apps/weretail-run`。
 
@@ -68,7 +68,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >在本教學課程中，不編寫Java程式碼。 如果需要更複雜的商業邏輯，可使用核心Java套件來建立和部署後端Java。
+   >在本教程中，不編寫Java代碼。 如果需要更複雜的商業邏輯，可使用核心Java套件來建立和部署後端Java。
 
    ![在CRXDE Lite中呈現ui.apps程式碼](assets/uipps-contents.png)
 
@@ -83,15 +83,15 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    * `/content/screens/we-retail-run`
    此套件包含專案所需的開始內容和設定結構。 **`/conf/we-retail-run`** 包含We.Retail Run專案的所有設定。 **`/content/dam/we-retail-run`** 包括啟動專案的數位資產。 **`/content/screens/we-retail-run`** 包含「畫面」內容結構。 這些路徑下方的內容主要會在AEM中更新。 為了提高環境（本地、開發、舞台、prod）之間的一致性，通常在原始碼控制中保存基本內容結構。
 
-1. **導覽至「AEM畫面&gt; We.Retail Run」專案：**
+1. **導覽至「AEM畫面> We.Retail Run」專案：**
 
-   從「AEM開始功能表&gt;按一下畫面圖示」。 驗證是否可以看到We.Retail Run Project。
+   從「AEM開始功能表>按一下畫面圖示」。 驗證是否可以看到We.Retail Run Project。
 
-   ![我們的"入門"](assets/we-retaiul-run-starter.png)
+   ![我們的&quot;入門&quot;](assets/we-retaiul-run-starter.png)
 
-## 建立Hello world元件 {#hello-world-cmp}
+## 建立Hello World元件 {#hello-world-cmp}
 
-Hello world元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以 [AEM Screens元件範本為基礎：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
+Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以 [AEM Screens元件範本為基礎：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
 AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不一定適用。
 
@@ -154,7 +154,7 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
    </div>
    ```
 
-   以上是Hello world元件的生產標籤。 由 `data-duration` 於元件用於序列頻道，因此包含屬性。 序 `data-duration` 列渠道使用屬性來瞭解序列項目的顯示時間。
+   以上是Hello World元件的生產標籤。 由 `data-duration` 於元件用於序列頻道，因此包含屬性。 序 `data-duration` 列渠道使用屬性來瞭解序列項目的顯示時間。
 
    元件會轉譯 `div` 和標 `h1` 記含文字。 `${properties.message}` 是HTL指令碼的一部分，將輸出名為的JCR屬性的內容 `message`。 稍後將建立一個對話框，允許用戶為屬性文本輸 `message` 入值。
 
@@ -185,7 +185,7 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
    </div>
    ```
 
-   以上是Hello world元件的編輯標籤。 如果已填入對話訊息，第一個區塊會顯示元件的編輯版本。
+   以上是Hello World元件的編輯標籤。 如果已填入對話訊息，第一個區塊會顯示元件的編輯版本。
 
    如果未輸入對話消息，則呈現第二塊。 在此 `cq-placeholder` 情 `data-emptytext` 況下，標籤 ***Hello World*** 會呈現為預留位置。 標籤的字串可以使用i18n進行國際化，以支援在多個地區設定中編寫。
 
@@ -269,7 +269,7 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
 
 AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方式不同。 將會建立兩個用戶端程式庫，一個用於編輯模式，另一個用於預覽／生產。
 
-1. 為Hello world元件的客戶端庫建立資料夾。
+1. 為Hello World元件的客戶端庫建立資料夾。
 
    在下 `/apps/weretail-run/components/content/helloworld`面建立名為的新資料夾 `clientlibs`。
 
@@ -399,7 +399,7 @@ AEM Screens使用靜 [態頁面範本](https://helpx.adobe.com/experience-manage
 
 Hello World元件用於序列通道。 若要測試元件，會建立新的「序列頻道」。
 
-1. 從「AEM開始」功能表導覽至「畫面 **&gt;** We.Retail **Run &gt;」，然後選取「**&#x200B;頻道 ****」。
+1. 從「AEM開始」選單導覽至「畫 **面** > **We.Retail** Run >」，然後選取「 **頻道」**。
 
 1. 按一下「 **建立** 」按鈕
 
@@ -408,11 +408,11 @@ Hello World元件用於序列通道。 若要測試元件，會建立新的「�
 
 1. 在建立嚮導中：
 
-1. 範本步驟——選擇**序列頻道**
+1. 範本步驟——選擇序 **列渠道**
 
    1. 屬性步驟
-   * 「基本標籤&gt;標題=空 **閒頻道」**
-   * 渠道標籤&gt;勾選 **線上渠道**
+   * 「基本標籤>標題=空 **閒頻道」**
+   * 渠道標籤>勾選 **線上渠道**
    ![空閒通道](assets/idle-channel.gif)
 
 1. 開啟閒置頻道的頁面屬性。 更新「設計」欄位，以指 `/apps/settings/wcm/designs/we-retail-run,`向在上一節中建立的設計頁面。
@@ -440,11 +440,89 @@ Hello World元件用於序列通道。 若要測試元件，會建立新的「�
 
    在/apps/settings/wcm/designs/we-retail-run下進行設計設定
 
+## 自訂處理常式的範本 {#custom-handlers}
+
+下節重點說明自訂處理常式的範本，以及該特定專案的pom.xml最低需求。
+
+```java
+   package …;
+
+   import javax.annotation.Nonnull;
+
+   import org.apache.felix.scr.annotations.Component;
+   import org.apache.felix.scr.annotations.Reference;
+   import org.apache.felix.scr.annotations.Service;
+   import org.apache.sling.api.resource.Resource;
+   import org.apache.sling.api.resource.ResourceUtil;
+   import org.apache.sling.api.resource.ValueMap;
+
+   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+
+   @Service(value = OfflineResourceHandler.class)
+   @Component(immediate = true)
+   public class MyCustomHandler extends AbstractResourceHandler 
+   {
+
+    @Reference
+    private …; // OSGi services injection
+
+    /**
+     * The resource types that are handled by the handler.
+     * @return the handled resource types
+     */
+    @Nonnull
+    @Override
+    public String[] getSupportedResourceTypes() {
+        return new String[] { … };
+   }
+
+    /**
+     * Accept the provided resource, visit and traverse it as needed.
+     * @param resource The resource to accept
+     */
+    @Override
+    public void accept(@Nonnull Resource resource) 
+      {
+        ValueMap properties = ResourceUtil.getValueMap(resource);
+        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
+        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
+        …
+        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
+        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
+        …
+      }
+   }
+```
+
+下列程式碼提供pom.xml中該特定專案的最低需求：
+
+```css
+   <dependencies>
+        …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## 整合在一起 {#putting-it-all-together}
 
 以下視訊顯示完成的元件，以及如何將它新增至「序列」頻道。 接著，「頻道」會新增至「位置」顯示畫面，並最終指派給「畫面」播放器。
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## 完成的程式碼 {#finished-code}
 
