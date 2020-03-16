@@ -3,7 +3,7 @@ title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 本節重點說明如何在您的通道中啟用定位。
 
 >[!IMPORTANT]
-> 支援AEM Screens頻道中資料觸發器的最低版本為AEM 6.4.3 Feature Pack 3。
+> 支援AEM Screens頻道中資料觸發器的最低版本為AEM 6.5.3 Feature Pack 3。
 
 ## 必備條件 {#prereqs}
 
@@ -56,7 +56,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 從DataDriven Assets > **Channels中導覽並選取** DataDriven Retail **，然後從動作列** 按一下Edit ******** Driven Retail。
+1. 從DataDriven Assets > **Channels中導覽並選取** DataDriven Retail **，然後從動作列** 按一下Edit ******** Driven Retail。 將資產拖放至渠道編輯器。
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >為渠道配置ContextHub配置後，如果您要遵循下列所有使用案例，請務必遵循1到4的前述步驟，對於其他三個順序渠道亦然。
+1. 按一下 **定位**。
+
+1. 從下 **拉式選單選** 擇「品牌 **」和「活動** 」，然後按一下「開始 **定位」**。
 
 ### 更多資訊：範例使用案例 {#learn-more-example-use-cases}
 
