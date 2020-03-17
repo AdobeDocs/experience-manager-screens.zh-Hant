@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 若要實作適用於AEM畫面的Windows Player，請安裝適用於AEM畫面的Windows Player。
 
-請造訪 [**AEM 6.4播放器下載頁面**](https://download.macromedia.com/screens/) 。
+請造訪 [**AEM 6.4播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
 
 ### 臨機方法 {#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.4播放器下載頁**](https://download.macromedia.com/screens/) 。
+臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.4播放器下載頁&#x200B;**](https://download.macromedia.com/screens/)。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
@@ -102,7 +102,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 1. 啟用Shell Launcher。
 
-   有關詳細信 ***息，請參閱Microsoft windows支援*** 「在 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell Launcher中配置Shell Launcher」一節。
+   有關詳細信 ***息，請參閱Microsoft Windows支援*** 「在 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**Shell Launcher中配置Shell Launcher」一節。
 
 1. 建立非管理使用者（如果您尚未使用）以用於資訊站。 此用戶可以是本地用戶或域用戶。
 1. 從 [AEM Screens Player下載頁面為該Kiosk使用者安裝Windows播放器](https://download.macromedia.com/screens/) 。
@@ -119,13 +119,13 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 Windows Player的預設安裝路徑為：
 
-***C:\Users\&amp;lt;your user&gt;\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 連結中的範例指令碼將啟用和停用自訂殼層。 因此，您可能需要將指令碼拆分為兩行，並啟用／禁用以下適用行：
 
 >[!NOTE]
 >
->在某些Windows環境中， powerShell指令碼可能受到策略（尤其是未簽名的指令碼）的限制。 要運行指令碼，您可能需要暫時禁用並重新啟用此限制以運行指令碼。 開啟PowerShell窗口，然後使用這些命令。
+>在某些Windows環境中， PowerShell指令碼可能受到策略（尤其是未簽名的指令碼）的限制。 要運行指令碼，您可能需要暫時禁用並重新啟用此限制以運行指令碼。 開啟PowerShell窗口，然後使用這些命令。
 >
 >*set-executionpolicy unrestricted* —— 暫時移除限制
 >
