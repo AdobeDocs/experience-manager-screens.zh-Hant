@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -442,7 +442,7 @@ Hello World元件用於序列通道。 若要測試元件，會建立新的「�
 
 ## 自訂處理常式的範本 {#custom-handlers}
 
-下節重點說明自訂處理常式的範本，以及該特定專案的pom.xml最低需求。
+下節將顯示自訂處理常式的範本，以及該特定專案的pom.xml最低需求。
 
 ```java
    package …;
