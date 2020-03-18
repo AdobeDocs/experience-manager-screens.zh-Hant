@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
+source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
 
@@ -442,59 +442,76 @@ Hello World元件用於序列通道。 若要測試元件，會建立新的「�
 
 ## 自訂處理常式的範本 {#custom-handlers}
 
-下節將顯示自訂處理常式的範本，以及該特定專案的pom.xml最低需求。
+如果您的自訂元件使用外部資源(例如資產（影像、視訊、字型、圖示等）、特定資產轉譯或用戶端資料庫（css、js等），則這些不會自動新增至離線設定，因為我們預設只會打包HTML標籤。
+
+為了讓您自訂並最佳化下載至播放器的確切資產，我們提供自訂元件的擴充功能機制，讓自訂元件在「畫面」中顯示其依存性至離線快取邏輯。
+
+下節將展示自訂離線資源處理常式的範本，以及該特定專案的 `pom.xml` 最低需求。
 
 ```java
-   package …;
+package …;
 
-   import javax.annotation.Nonnull;
+import javax.annotation.Nonnull;
 
-   import org.apache.felix.scr.annotations.Component;
-   import org.apache.felix.scr.annotations.Reference;
-   import org.apache.felix.scr.annotations.Service;
-   import org.apache.sling.api.resource.Resource;
-   import org.apache.sling.api.resource.ResourceUtil;
-   import org.apache.sling.api.resource.ValueMap;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
+import org.apache.sling.api.resource.ValueMap;
 
-   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+import com.adobe.cq.screens.visitor.OfflineResourceHandler;
 
-   @Service(value = OfflineResourceHandler.class)
-   @Component(immediate = true)
-   public class MyCustomHandler extends AbstractResourceHandler 
-   {
+@Service(value = OfflineResourceHandler.class)
+@Component(immediate = true)
+public class MyCustomHandler extends AbstractResourceHandler {
 
-    @Reference
-    private …; // OSGi services injection
+ @Reference
+ private …; // OSGi services injection
 
-    /**
-     * The resource types that are handled by the handler.
-     * @return the handled resource types
-     */
-    @Nonnull
-    @Override
-    public String[] getSupportedResourceTypes() {
-        return new String[] { … };
+ /**
+  * The resource types that are handled by the handler.
+  * @return the handled resource types
+  */
+ @Nonnull
+ @Override
+ public String[] getSupportedResourceTypes() {
+     return new String[] { … };
+ }
+
+ /**
+  * Accept the provided resource, visit and traverse it as needed.
+  * @param resource The resource to accept
+  */
+ @Override
+ public void accept(@Nonnull Resource resource) {
+     ValueMap properties = ResourceUtil.getValueMap(resource);
+     
+     /* You can directly add explicit paths for offline caching using the `visit`
+        method of the visitor. */
+     
+     // retrieve a custom property from the component
+     String myCustomRenditionUrl = properties.get("myCustomRenditionUrl", String.class);
+     // adding that exact asset/rendition/path to the offline manifest
+     this.visitor.visit(myCustomRenditionUrl);
+     
+     
+     /* You can delegate handling for dependent resources so they are also added to
+        the offline cache using the `accept` method of the visitor. */
+     
+     // retrieve a referenced dependent resource
+     String referencedResourcePath = properties.get("myOtherResource", String.class);
+     ResourceResolver resolver = resource.getResourceResolver();
+     Resource referencedResource = resolver.getResource(referencedResourcePath);
+     // let the handler for that resource handle it
+     if (referencedResource != null) {
+         this.visitor.accept(referencedResource);
+     }
    }
-
-    /**
-     * Accept the provided resource, visit and traverse it as needed.
-     * @param resource The resource to accept
-     */
-    @Override
-    public void accept(@Nonnull Resource resource) 
-      {
-        ValueMap properties = ResourceUtil.getValueMap(resource);
-        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
-        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
-        …
-        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
-        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
-        …
-      }
-   }
+}
 ```
 
-下列程式碼提供pom.xml中該特定專案的最低需求：
+下列程式碼提供該特定專案 `pom.xml` 的最低需求：
 
 ```css
    <dependencies>
