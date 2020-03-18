@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -93,7 +93,7 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **導覽至渠道控制面板，然後按一**&#x200B;下……在「 **CHANNEL INFORMATION** Panel」中更改屬性。
+1. 導覽至渠道控制面板，然後按一 **下……** 在「 **CHANNEL INFORMATION** Panel」中更改屬性。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -113,3 +113,5 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> 若要進一步瞭解自訂離線資源處理常式的範本，以及該特定專案的最低需求，請參 `pom.xml` 閱「開發AEM畫面的自訂元件」中的「自訂處理常式 [範本」](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)****。
