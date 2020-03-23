@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 使用動態內嵌序列涵蓋下列主題：
 
-* **綜覽**
+* **概覽**
 * **在AEM畫面中使用動態內嵌體驗**
 * **查看結果**
 * **限制用戶和修改ACL**
@@ -56,7 +56,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->若要進一步瞭解頻道指派，請參閱「AEM畫面」文 **[件中「編寫」區段下的「頻道指派](channel-assignment.md)** 」。
+>若要進一步瞭解頻道指派，請參閱「AEM畫面」文 **[件中「編寫」區段下的「頻道指派](channel-assignment.md)**」。
 
 ## 使用動態內嵌序列 {#using-dynamic-embedded-sequence-2}
 
@@ -121,13 +121,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **在每個位置資料夾下建立兩個位置和一個頻道。**
 
-   1. 導覽至 **演示** —&gt;位 **置** —&gt; **地區A**。
-   1. 選擇 **地區A** ，然後從動作列按 **一下「+建立** 」。
+   1. 導覽至 **演示** —>位 **置** —> **地區A**。
+   1. 選擇 **地區A** ，然後從動作列 **按一下「+建立** 」。
    1. 從精 **靈中** ，選擇「 **Title** as **Store 1」（標題為商店1）**。 同樣地，從精靈中建立另一個名為「 **Store 2** 」(將Title（標題） **為「Store 2****」（商店2）的**&#x200B;位置。 在建立商店1和 **商店** 2時，您可 **以將「名稱** 」欄位保留空白 ****。
    1. 重複步驟(b)，現在從精靈中選 **取「序列頻道** 」。 為此頻 **道輸入Title** **as Region A** , **Name** as **region **。
    >[!CAUTION]
    >
-   >請確定在建立渠道地 **區A**&#x200B;時，將 **Title輸入為**Region A **，將** Name輸入為 ********&#x200B;地區A。
+   >請確定在建立渠道 **A**&#x200B;時，輸入 **Title** as **Region A，輸入** Name Name ******** as region。
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -141,7 +141,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **在每個位置下建立顯示和頻道。**
 
-   1. 導覽至 **Demo** —&gt; **Locations** —&gt; **A** — ****&gt; Store 1區域。
+   1. 導覽至 **Demo** —> **Locations** —> **A** — ****> Store 1區域。
    1. 選 **取「商店1** 」，然後從動作列按 **一下「+建立** 」。
    1. 從向 **導中選擇** 「顯示」並建立 **Store1Display。**
    1. 重複步驟(b)，此時從嚮導中選 **擇「序列通道** 」。 輸入 **Store** **1Channel的Title** , **Name** as store **Marked**。
@@ -149,11 +149,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    >
    >當您建立序列頻道時，頻道的 **Title** （標題）可視您的需求，但是，所有本機頻道的 **Name** （名稱）應相同。
    >
-   >在此，在 **A** 和 **Region B** Store **ChareDobe Store 3Store PhidStore Phore 4Store下，與** Region Region B **Store************************** CharenAdChChanererechameshame Shon Shon Shon Shon Shon Shon Phon Phon Cha Phon Shon Phon Phon Shon Phon Shon Pha Shon Shon Ase Shon Shore Pha Pha Phashan Phon Phon B Chan B.
+   >在此，在 **A** 和 **Region B** Store **ChareDobe Store 3Store PhidStore Phore 4Store下，與** Region Region B **Store************************** CharenAdChChareshamechameshan Shon Chan Phon Shon Shon Shon Shon Phon Phon Phon Shon Phon Shon Phon Shon Phon Phon Shon Shon Phon Shon Phon Ashan Phon Phon Phon Phon Phon Ashan B.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   同樣地，在「商店2」**(名稱為「商店」 **)下建立** Store2Display和channel **Store2Channel的顯示** 畫面 ****。
+   同樣地，在「商店2 **」（名稱為「商店」）下，建立** Store2Display **和channel** Store2Channel的 ********&#x200B;顯示。
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **將內容新增至各自位置的頻道。**
 
-   導航至演示 **-** Demo **-** Locations **- &gt;** Region A **-&gt; Click Region And Edit Region****** from the Action 拖放您要新增至渠道的資產。
+   導航至演示 **-** Demo **-** Locations **- >** Region A **-> Click Region And Edit Region****** from the Action 拖放您要新增至渠道的資產。
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   同樣地，導航至 **Demo** -&gt; **Locations** -&gt; **Region B** -&gt; **B Region B** -&gt; **Click Action and Edit action from the** the action to drag the assets and drop to your channel，如下所示：
+   同樣地，導航至 **Demo** -> **Locations** -> **Region B** -> **B Region B** -> **Click Action and Edit action from the** the action to drag the assets and drop to your channel，如下所示：
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -202,10 +202,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **將渠道指派給計畫**
 
-   1. 導覽至 **Demo** —&gt; **Schedules** —&gt; **Ad Schedule** （演示計畫），然後從操作欄 **** 中按一下DashboardAdSchedule。
+   1. 導覽至 **Demo** —> **Schedules** —> **Ad Schedule** （演示計畫），然後從操作欄 **** 中按一下DashboardAdSchedule。
    1. 按一下 **+ 「從已分配的通道****」面板指定通道** ，開啟「通 **** 道分配」對話框。
    1. 選擇 **參考渠道**。 依路徑.
-   1. 選擇 **Channel Path** as **Demo*** —&gt; ***Channels*** — ***&gt; Global*** Zhop。
+   1. 選擇「 **Channel Path** as **Demo** —> ***Channels*** — ***> Global*** Zhop」。
    1. 將渠道角 **色輸入為****GlobalAdSegment**。
    1. 選擇「受 **支援的事件** 」作 **為「初始載入**」、「 **空閒」螢幕**，以及「用戶 ****&#x200B;交互執行」。
    1. 按一下&#x200B;**「儲存」**。
@@ -213,10 +213,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 按一下 **+ 「從已分配的通道****」面板指定通道** ，開啟「通 **** 道分配」對話框。
    1. 選擇 **參考渠道**。 依名稱.
-   1. 輸入渠 **道名稱** ，作為 **地區***.*
+   1. 輸入渠 **道名稱** ，作 **為地區***。
    1. 將渠道角 **色輸入** 「地 **區廣告區段」**。
    1. 按一下&#x200B;**「儲存」**。
-   **依角色為商店指派渠道：**
+   **依角色為商店指派渠道：
 
    1. 按一下 **+ 「從已分配的通道****」面板指定通道** ，開啟「通 **** 道分配」對話框。
    1. 選擇 **參考渠道**。 依名稱.
@@ -245,10 +245,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **將排程指派給每個顯示**
 
-   1. 導覽至每個顯示，例如 **A** —&gt; **Locations** A **—&gt;** Store 1Demo Store ********-&gt; Demo1 Display Store。
+   1. 導覽至每個顯示，例如 **A** —> **Locations** A **—>** Store 1Demo Store ********-> Demo1 Display Store。
    1. 從動 **作按一下** 「控制面板」，以開啟顯示控制面板。
-   1. **按一**&#x200B;下……從「指 **派渠道與排程」面板** ，然後按一 **下+指派排程**。
-   1. 選擇「排程」的路徑(例如，此處， **Demo** —&gt; **Schedules** —&gt;**AdSchedule**)。
+   1. 按一 **下……** 從「指 **派渠道與排程」面板** ，然後按一 **下+指派排程**。
+   1. 選擇「排程」的路徑(例如，此處， **Demo** —> **Schedules** —>**AdSchedule**)。
    1. 按一下&#x200B;**「儲存」**。
 
 ## 查看結果 {#viewing-the-results}
@@ -268,13 +268,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **方案1**:
 
-如果您將顯示路徑指派為 **Demo** —&gt; **Locations** —&gt; **A地區—** &gt;** Store 1** —&gt; **** Store1DisplayDemo，下列內容將會在您的AEM Screens播放器上顯示。
+如果您將顯示路徑指派為 **Demo** —> **Locations** —> **A地區—** >** Store 1** —> **** Store1DisplayDemo，下列內容將會在您的AEM Screens播放器上顯示。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **方案1**:
 
-如果您將顯示路徑指派為 **Demo** —&gt; **Locations** —&gt; **B地區—** &gt;** Store 3** —&gt; **** Store3DisplayDemo，下列內容將會在您的AEM Screens播放器上顯示。
+如果您將顯示路徑指派為 **Adobe** —> **Locations** —> **Region B** —— — ******** Store 3 Display Store — Following Display Store，則會在您的AEM Screens播放器上顯示。
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -309,8 +309,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **建立群組**
 
    1. 導覽至 **Adobe Experience Manager**。
-   1. 按一 **下「工具** —&gt;安 **全性** —&gt; **群組**」。
-   1. 按一 **下「建立群組** 」，然後在 **** ID中輸入Global-Author ****。
+   1. Click **Tools** --> **Security** --> **Groups**.
+   1. 按一 **下「建立群組** 」，然後在 **** ID中輸入「全域作者」 ****。
    1. 按一 **下儲存並關閉**。
    同樣地，請建立其他兩個群 **組，例如Region-Author****和Store-Author**。
 
@@ -319,7 +319,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **建立使用者並新增使用者至群組**
 
    1. 導覽至 **Adobe Experience Manager**。
-   1. 按一 **下「工具** —&gt;安 **全性** —&gt;使 **用者**」。
+   1. Click **Tools** --> **Security** --> **Users**.
    1. 按一 **下「建立使用者** 」，然後在 **** ID中輸入「全域使用者」 ****。
    1. 輸入 **密碼** ，並確認此用戶的密碼。
    1. 按一下「 **組** 」頁籤，並在「選擇組」中輸入組名，例如，輸入 **Global-Author**，將 ******** Global-UserAddited添加到特定組。
@@ -335,7 +335,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **將所有群組新增至參與者**
 
    1. 導覽至 **Adobe Experience Manager**。
-   1. 按一 **下「工具** —&gt;安 **全性** —&gt; **群組**」。
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. 從列 **表中選擇** 「參與者」，然後選擇「 **成員** 」頁籤。
    1. 選擇 **Group** ，如 **Global-Author**、 **Region-Author** 和 **** Store-Author to Contributor。
    1. 按一 **下儲存並關閉**。
@@ -358,16 +358,16 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    請參閱下圖以瞭解步驟：
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   下圖顯示 **User** Store **Global Store** 1,Global StoreA StoreDoreDoreDoreGlobalDoreDoreDoreGlobalDoreDobeDobeDoreADoreGioGioGioDGioGioGionGioGioGionADDionGioGionGioAGioADADion **全域AAAADGinAGion**********************&#x200B;全域DAADADDDDNNNADDNDDNDDADD
+   下圖顯示 **GlobalStore** Store 1AStoreGlobalStoreDore 2StoreDoreGlobalDoreDoreADore **DoreGlobalDoreDobeDobeDoreDobeADDDobeGioDoGioGioGioGionGionGionGion** 全球GioGioDDoDoDoDoGinNNNDoNNDoNNNNNNNNNNNGnNNANNNNNNinNinS ************************&#x200B;全域3NNNinNinAN
 
    ![全域](assets/global.gif)
 
    **針對地區作者：**
 
    1. 導覽至「權 **限** 」標籤。
-   1. 導覽至 ***/content/screens/demo*** ，並僅檢查**閱讀**權限。
+   1. 導覽至 ***/content/screens/demo*** ，並僅檢查「 **Read** 」權限。
    1. 導覽至 ***/content/screens/demo/locations*** ，並僅檢查「 **Read** 」（讀取）權限。
-   1. 導覽至***/content/screens/demo/channels, ***並取消檢查全域**頻道&#x200B;**。***
+   1. 導覽至***/content/screens/demo/channels, ***並取消檢查全域&#x200B;**頻道**。***
    1. 導覽至 ***/content/screens/demo/locations***/****** region-a並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
    請參閱下圖以瞭解步驟：
 
@@ -382,14 +382,14 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 導覽至「權 **限** 」標籤。
    1. 導覽至 ***/content/screens/demo*** ，並僅檢查「 **Read** 」權限。
    1. 導覽至 ***/content/screens/demo/locations*** ，並僅檢查「 **Read** 」（讀取）權限。
-   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域 **頻道的權限** 。
+   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域頻道的 **權限** 。
    1. 導覽至 ***/content/screens/demo/locations/region-a*** ，並僅檢查「 **Read** 」權限。 同樣地，請只勾選 **地區** b的 **「讀取」權限**。
    1. 導覽至 ***/content/screens/demo/locations***/***region-a /store-1*** ，並檢查所有權限。 同樣地，請檢查 **store-2、store-3** 和 **store-4的權限**。
    請參閱下圖以瞭解步驟：
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   下圖顯示， **Store-User** 現在只能訪問4個 **Store 1、** Store 2、 **Prode 23、** GlobalStore 4StoreStore的4個 **************** Store StoreStore，但是沒有訪問The Drection（**Region A* A* A和B Ch Ch Conn Conn Con Chan Chann Chann Chann Channnnnnn Chann）頻道。
+   下圖顯示， **Store-User** 只有4個 **Store 1**、 **Store 22、********************** Store 4Store、Store 4StoreGareGlobalDreagion(Global Dregion Ad A Drigion Ad B Chan)通道的存取範圍。
 
    ![商店](assets/store.gif)
 
