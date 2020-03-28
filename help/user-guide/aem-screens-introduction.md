@@ -76,4 +76,4 @@ AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位
 
 * **AEM Screens 專案的最佳實務指南**
 
-   請遵循 **[AEM Screens專案的最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**，此指南旨在識別實作AEM Screens專案時的常見缺陷。 本材料主要針對「專案角色與責任」、「不同角色的RACI圖表」、「AEM平台設定」以及「支援與監控」。
+   請遵循 [AEM Screens專案的最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) ，此指南旨在識別實作AEM Screens專案時的常見缺陷。 本材料主要針對「專案角色與責任」、「不同角色的RACI圖表」、「AEM平台設定」以及「支援與監控」。
