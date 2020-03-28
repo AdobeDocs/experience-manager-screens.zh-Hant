@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ## 主要條款 {#key-terms}
 
-在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的重要術語。
+在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的關鍵詞。
 
 **品牌** ：指您的高階專案說明。
 
@@ -48,17 +48,34 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 >
 >如需詳細資訊，請參閱 [Google檔案中的「取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key) 」。
 
+
 ## 步驟1:設定資料儲存區 {#step-setting-up-a-data-store}
 
 您可以將資料儲存設定為本地I/O事件或本地資料庫事件。
 
-### 本地I/O事件 {#local-io-event}
+下列資產層級資料觸發器範例會展示本機資料庫事件，此事件會設定資料存放區，例如Excel表單，讓您使用ContextHub組態和AEM Screens頻道的區段路徑。
 
-請依照下列步驟來設定資料儲存區，例如ASCII事件，讓您使用ContextHub組態和區段路徑，以連至AEM Screens頻道。
+在您正確設定Google工作表後，例如，如下所示：
 
-### 本地資料庫事件 {#local-db-event}
+![影像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-請依照下列步驟來設定資料儲存區，例如可讓您使用ContextHub組態和區段路徑至「AEM畫面」頻道的Excel工作表。
+在下列格式中輸入google工作表ID和API金鑰，以檢查連線時，您會檢視下列驗證：
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![影像](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**在AEM中使用Google工作表值&#x200B;**>Google工作表將在ContextHub商店中公開其值，並可在`<store-name>/values/<i>/<j>`，其中`<i>``<j>`和是試算表中的列和欄索引（從0開始）。
+>
+> * /values/0/0點到A1
+> * /values/5/0點到A5
+> * /values/0/5點到E1
+
+
+下列特定範例將Excel工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
+
 
 1. **導覽至ContextHub**
 
@@ -72,7 +89,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
    1. 按一 **下「建立** >設 **定容器** 」，然後輸入標題為 **ContextHubDemo**。
 
-   1. **** 導覽至&#x200B;**「** ContextHubDemo **>** ContentHub商店設定……」以開啟「配 **置」嚮導**。
+   1. **導覽至** 「 **ContextHubDemo** > **ContentHub商店設定……」** 以開啟「配 **置」嚮導**。
 
    1. 將Google Sheets **輸入為** Google Sheets **,Google Store Name** as **Google Sheets Store Name,************as Contexthushusonp.Type Store**
 
@@ -85,14 +102,14 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
    >將程式碼取 *代為您在設定Google工作表時擷* 取的&lt;工作表ID>和&lt;API金鑰> **。
 
    >[!CAUTION]
-   如果您建立Google Sheets會將設定儲存在舊版資料夾以外（例如在您自己的專案資料夾中），則定位將無法立即使用。
-   如果您想要在全域舊式資料夾外設定Google Sheets商店設定，則必須將 **Store Name** （商店名稱）設 **為區段，而** Store Type **（商店類型）******&#x200B;設為Aem.segmentationProduct。 此外，您必須略過如上定義json的程式。
+   如果您建立Google Sheets會將設定儲存在全域資料夾以外（例如在您自己的專案資料夾中），則定位將無法立即使用。
+   如果您想要在全域資料夾外設定Google Sheets商店設定，則必須將 **Store Name** （商店名稱）設 **為區段，而** Store Type **（商店類型）******&#x200B;設為Aem.segmentationZemperation。 此外，您必須略過如上定義json的程式。
 
 1. **在活動中建立品牌**
 
@@ -141,7 +158,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 1. **在觀眾中建立區段**
 
-   1. 從您的AEM例項導覽至「個 **人化** >觀眾 **>** We.Retail ****」。
+   1. 從您的AEM例項導覽至「個人化 **>觀眾** >熒 **幕」******。
 
    1. 按一 **下「建立** >建 **立內容中樞區段」。** 「新 **建ContextHub區段** 」對話方塊隨即開啟。
 
@@ -149,7 +166,7 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 1. **編輯區段**
 
-   1. 選取區 **段工作表A1 1** (在步驟(5)中建立)，然後從動作列按 **一下編輯** 。
+   1. 選取區段 **表單A1 1**，然後從動作列按 **一下編輯** 。
 
    1. 拖放比 **較：屬性** -編輯器的值元件。
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
@@ -172,8 +189,9 @@ source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
    1. 從下拉 **式選單中** ，選 **取「運算子為Equal** 」。
 
    1. 將值 **輸入****為2**。
-   >[!NOTE]
-   上述步驟中套用的規則只是您如何設定區段以實施下列使用案例的範例。
+
+
+
 
 ## 步驟3:在渠道中啟用定位 {#step-enabling-targeting-in-channels}
 
