@@ -4,7 +4,7 @@ seo-title: 直接放置工作流程設定
 description: 此頁面反白顯示「直接位置工作流程設定」。
 seo-description: 此頁面反白顯示「直接位置工作流程設定」。
 translation-type: tm+mt
-source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -29,3 +29,13 @@ source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
 
 ## 設定直接位置工作流程 {#configuring-workflow}
 
+>[!IMPORTANT]
+> 在啟動配置之前，必須安裝 [Demo包](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)。 在安裝套件後，您應該可以從AEM例項—>工具（圖示）—> **Workflow** —> **Workflow Models中檢視並存取它**。
+
+請依照下列步驟來設定直接放置工作流程：
+
+1. 從您的AEM例項導覽至「AEM畫面」，並建立標題為「資產工作流程」的「畫 **面」專案**。
+
+1. 在「頻道」檔案夾 **下建立名為** 「工作流程 **資產」的頻道** 。
+
+1. 
