@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ![影像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-在下列格式中輸入google工作表ID和API金鑰，以檢查連線時，您會檢視下列驗證：
+以下驗證是您在檢查連線時，會以下列格式輸入兩個值( *google sheet ID* 和 *API金鑰* )所檢視的驗證：
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![影像](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**在AEM中使用Google工作表值&#x200B;**>Google工作表將在ContextHub商店中公開其值，並可在`<store-name>/values/<i>/<j>`，其中`<i>``<j>`和是試算表中的列和欄索引（從0開始）。
->
-> * /values/0/0點到A1
-> * /values/5/0點到A5
-> * /values/0/5點到E1
+> 下列特定範例會將Google工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
 
-
-下列特定範例將Excel工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
-
+## 步驟2:將Google工作表連線至AEM例項 {#step-connecting-aem-instance}
 
 1. **導覽至ContextHub**
 
    導覽至您的AEM例項，然後按一下左側邊欄中的工具圖示。 按一 **下Sites** —> **ContextHub**，如下圖所示。
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![影像](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **建立新的ContextHub商店設定**
 
-   1. 導覽至 **全域** >預 **設** > **ContextHub設定**。
+   1. 導覽至名為畫面的設定容 **器**。
 
-   1. 按一 **下「建立** >設 **定容器** 」，然後輸入標題為 **ContextHubDemo**。
+   1. 按一 **下「建立** > **建立設定容器** 」，然後輸入標題為 **ContextHubDemo**。
 
-   1. **導覽至** 「 **ContextHubDemo** > **ContentHub商店設定……」** 以開啟「配 **置」嚮導**。
+      ![影像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. 將Google Sheets **輸入為** Google Sheets **,Google Store Name** as **Google Sheets Store Name,************as Contexthushusonp.Type Store**
+   1. **導覽至** ContextHubDemo **>建立** ContentHubDemo設定中心 **，然後按一下Save**********（儲存）。
 
-   1. 按「下一 **步」**
-   1. 輸入您的特定json設定。 例如，您可以使用下列json進行示範。
-   1. 按一下&#x200B;**「儲存」**。
+      >[!NOTE]
+      > 按一下「 **儲存** 」後，就會出現 **在ContextHub Configuration畫面中** 。
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. 在「 **ContextHub設定** 」畫面中，按一 **下「建立** > **ContentHub商店設定」。**
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. 輸入「 **Google Sheets** 」 **、「Google Sheets**」、「 **Store Title Store Type** Store As **Conthushub.jsontClickNextGoogle Sheets Name」為Google Sheets**************、Store Title Type Store As Conthub.
+      ![影像](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. 輸入您的特定json設定。 例如，您可將下列json用於示範用途，然後按一下「 **Save** 」（儲存），您就會看到名為「 **ContextHub設定中的Google Sheets** 」(Google Sheets)的商店設定。
+
+      >[!IMPORTANT]
+      >請務必以您在設定Google工作表時擷取 *的&lt;工作表ID>**和&lt;API金鑰>*，來取代程式碼。
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >在上述范常式式碼中， **pollInterval** 定義值重新整理的頻率（以毫秒為單位）。
-   >
-   >
-   >將程式碼取 *代為您在設定Google工作表時擷* 取的&lt;工作表ID>和&lt;API金鑰> **。
+      >[!NOTE]
+      在上述范常式式碼中， **pollInterval** 定義值重新整理的頻率（以毫秒為單位）。
+將程式碼取 *代為您在設定Google工作表時擷* 取的&lt;工作表ID>和&lt;API金鑰> **。
 
-   >[!CAUTION]
-   如果您建立Google Sheets會將設定儲存在全域資料夾以外（例如在您自己的專案資料夾中），則定位將無法立即使用。
-   如果您想要在全域資料夾外設定Google Sheets商店設定，則必須將 **Store Name** （商店名稱）設 **為區段，而** Store Type **（商店類型）******&#x200B;設為Aem.segmentationZemperation。 此外，您必須略過如上定義json的程式。
+      >[!CAUTION]
+      如果您建立Google Sheets會將設定儲存在全域資料夾以外（例如在您自己的專案資料夾中），則定位將無法立即使用。
+   >如果您想要在全域資料夾外設定Google Sheets商店設定，則必須將 **Store Name** （商店名稱）設 **為區段，而** Store Type **（商店類型）******&#x200B;設為Aem.segmentationZemperation。 此外，您必須略過如上定義json的程式。
 
 1. **在活動中建立品牌**
 
