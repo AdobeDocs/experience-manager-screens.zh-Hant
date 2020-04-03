@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
+source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 預設情況下，它設定為 **正常**。 將值設為 **normal** （播放所有項目）表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 **Play a single item** (Play a single item)，而且每個執行中只會顯示一個子項目（例如，第一個循環中的第一個項目、第二個循環中的第二個項目等）。
 
->[!I重要]
+>[!IMPORTANT]
 >您必須將頻道（用於內嵌序列）指派給相同的顯示。
 >
 >在前述步驟中新增內嵌序列至渠道後，請遵循下列步驟：
