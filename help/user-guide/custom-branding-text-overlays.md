@@ -5,14 +5,14 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # 文字覆蓋的自訂品牌與樣式 {#creating-custom-branding-styling}
 
-請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
+請依照本頁進行，瞭解如何針對套用至「畫面」頻道中資產的「文字覆蓋」套用自訂品牌和樣式。
 
 ## 建立文字覆蓋的自訂品牌與樣式 {#steps-custom-branding}
 
@@ -27,15 +27,15 @@ source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
    ![影像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >若要瞭解如何在頻道編輯器中新增文字覆蓋至您的資產，請參閱「文字 [覆蓋」](/help/user-guide/text-overlay.md)。
+   >若要瞭解如何在頻道編輯器中將文字覆蓋新增至資產，請參閱「文 [字覆蓋」](/help/user-guide/text-overlay.md)。
 
 1. 從您的AEM例項—>工具—> **CRXDE Lite導覽至CRXDE Lite**。
 
-1. 您必須建立自訂設 `/apps/settings/wcm/designs/<your-project>/`計，例如，在本例中
+1. 您必須建立自訂設 `/apps/settings/wcm/designs/<your-project>/`計，例如，在本例中，導覽至 `/apps/settings/wcm/designs/customstyle/`
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. 導覽至static.css檔案並設定下列css規則。 另請參見下圖。
+1. 導覽至 *static.css檔案* ，並設定下列css規則。 另外，在css規則下方的圖中也顯示為範例。
 
    ```shell
     //global styles
@@ -70,31 +70,31 @@ source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
 
 ## 查看結果 {#viewing-the-result}
 
-完成上述步驟後，您就可以從 *CRXDE Lite***** ，更新statis.css檔案，然後檢視新增至資產的文字版面更新。
+完成上述步驟後，您就可以從 *CRXDE Lite***** ，更新statis.css檔案，然後檢視已新增至資產的文字覆蓋更新。
 
-請依照下列步驟檢視文字版面的更新設計：
+請依照下列步驟，檢視文字覆蓋的更新設計：
 
-1. 導覽至標題為自訂樣式的AEM Screens專案 **** ，以及標題為 **DemoBrand的頻道，然後從動作列按一下「** Edit **** 」（編輯）以開啟編輯器。
+1. 導覽至您的AEM Screens專案，標題為 **customstyle** —> **Channels** —> **DemoBrand**。 選取渠道，然後從動 **作列按一下** 「編輯」以開啟編輯器。
 
 1. 由於您現在已將設計新增至「設計」欄 **位** （如上所述），請按一下「 **Preview** 」（預覽），以檢視包含文字覆蓋的影像上目前的樣式。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. 導覽至CRXDE Lite中的static.css檔案，例如，新增字型。
+1. 導覽至CRXDE *Lite中的static.css* 檔案，並將字型（例如）新增至 `font-family: "Lucida Console", Courier, monospace;` 此檔案，如下所示。
    ![影像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. 儲存變更並重新載入預覽後，您會看到更新文字覆蓋字型，如下圖所示。
+1. 儲存變更並重新載入預覽後，您會看到文字覆蓋字型的更新，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. 此外，您也可以從static.css檔案移除最後兩個程式碼區塊，以移除文字覆蓋周圍的盒裝樣式。
+1. 此外，您也可以從 *static.css檔案移除最後兩個程式碼區塊* ，以移除文字覆蓋周圍的盒裝樣式。
    ![影像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. 您將在預覽中檢視文字覆蓋新增至影像的更新變更，如下所示。
+1. 您將在預覽中檢視更新的變更，將文字覆蓋新增至影像。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-因此，依照上述章節中的步驟，您可以更新新增至資產的文字覆蓋的品牌和自訂樣式。
+參照教學課程，您現在可以更新您的品牌和自訂樣式，以便將文字覆蓋新增至資產。
 
 
 
