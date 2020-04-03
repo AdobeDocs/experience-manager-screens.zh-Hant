@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 在您開始為AEM Screens專案設定「內容中樞設定」之前，您必須先設定Google工作表（以供展示之用）。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets在下列範例中用作擷取值的範例資料庫系統，僅供教育用途。 Adobe不會為生產環境使用Google Sheets背書。
 >
 >如需詳細資訊，請參閱 [Google檔案中的「取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key) 」。
-
 
 ## 步驟1:設定資料儲存區 {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 >[!NOTE]
 > 下列特定範例會將Google工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
 
-## 步驟2:將Google工作表連線至AEM例項 {#step-connecting-aem-instance}
+## 步驟2:設定儲存配置 {#step-setting-store-configurations}
 
 1. **導覽至ContextHub**
 
@@ -123,7 +122,19 @@ source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
       >[!CAUTION]
       如果您建立Google Sheets會將設定儲存在全域資料夾以外（例如在您自己的專案資料夾中），則定位將無法立即使用。
-   >如果您想要在全域資料夾外設定Google Sheets商店設定，則必須將 **Store Name** （商店名稱）設 **為區段，而** Store Type **（商店類型）******&#x200B;設為Aem.segmentationZemperation。 此外，您必須略過如上定義json的程式。
+
+1. **設定商店區段**
+
+   1. 導覽至 **ContentHub商店設定。** 然後在畫面設定容器中建立另一個商店設定，並將 **Title** -contushub **、** Store Name **(如** toreStore Store分段text.segmentation tex.am)設定為 **Title-conthub**********、Store Store類型分段tex.segmentation。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+您必須略過定義json的程式，並將其保留為空白。
+
+## 步驟3:設定品牌和區域 {#setting-brand-area}
 
 1. **在活動中建立品牌**
 
@@ -133,14 +144,14 @@ source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
    1. 從「建 **立頁面** 」精靈中選 **取「品牌」** ，然後按「下一 **步」**
 
-   1. 輸入Title **as** ContextHubDemo **，然後按一** 下Create ****。 您的品牌現在已建立，如下所示。
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. 將標題輸 **入為** ScreensBrand **，然後按一** 下Create ****。 您的品牌現在已建立，如下所示。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   已知問題：
-   若要新增區域，請從URL移除主版，例如
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      已知問題：若要新增區域，請從URL移除主版，例如
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **在品牌中建立區域**
 
@@ -153,7 +164,7 @@ source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
    1. 將標題輸 **入為****GoogleSheets** ，然後按一 **下建立**。
 您的區域將會在活動中建立。
 
-## 步驟2:設定受眾細分 {#step-setting-up-audience-segmentation}
+## 步驟4:設定受眾細分 {#step-setting-up-audience-segmentation}
 
 在您設定資料儲存區並定義品牌後，請依照下列步驟設定受眾區段。
 
@@ -194,7 +205,7 @@ source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 
 
-## 步驟3:在渠道中啟用定位 {#step-enabling-targeting-in-channels}
+## 在渠道中啟用定位 {#step-enabling-targeting-in-channels}
 
 請依照下列步驟，在您的通道中啟用定位。
 
