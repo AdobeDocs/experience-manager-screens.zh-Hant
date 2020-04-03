@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,39 +134,10 @@ source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
       >[!NOTE]
 您必須略過定義json的程式，並將其保留為空白。
 
-## 步驟3:設定品牌和區域 {#setting-brand-area}
 
-1. **在活動中建立品牌**
+## 步驟3:設定觀眾 {#setting-up-audience}
 
-   1. 從您的AEM例項導覽至「個人化 **>活動」****。**
-
-   1. 按一 **下「建立** >建 **立品牌」**
-
-   1. 從「建 **立頁面** 」精靈中選 **取「品牌」** ，然後按「下一 **步」**
-
-   1. 將標題輸 **入為** ScreensBrand **，然後按一** 下Create ****。 您的品牌現在已建立，如下所示。
-
-      ![影像](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      已知問題：若要新增區域，請從URL移除主版，例如
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **在品牌中建立區域**
-
-   請依照下列步驟，在品牌中建立區域：
-
-   1. 按一 **下「建立** 」，然 **後按一下「建立」**
-
-   1. 從「 **建立頁面** 」精靈中選 **取「區域** 」，然後按「下一步」
-
-   1. 將標題輸 **入為****GoogleSheets** ，然後按一 **下建立**。
-您的區域將會在活動中建立。
-
-## 步驟4:設定受眾細分 {#step-setting-up-audience-segmentation}
-
-在您設定資料儲存區並定義品牌後，請依照下列步驟設定受眾區段。
+待定：添加屬性
 
 1. **在觀眾中建立區段**
 
@@ -174,17 +145,38 @@ source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
    1. 按一 **下「建立** >建 **立內容中樞區段」。** 「新 **建ContextHub區段** 」對話方塊隨即開啟。
 
-   1. 將「標 **題** 」輸入 **為SheetA1 1** ，然後單 **擊建立**。 同樣地，請建立另一個名為 **SheetA2 2的區段**。
+   1. 將Title輸 **入為****TargetValue1** ，然後按一 **下Create**。 同樣地，請建立另一個名為 **TargetValue2的區段**。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## 步驟4:設定受眾細分 {#step-setting-up-audience-segmentation}
+
+待定以新增編輯
+
+在您設定資料儲存區並定義活動（品牌和區域）後，請依照下列步驟設定受眾區段：
+
+1. **在觀眾中建立區段**
+
+   1. 從您的AEM例項導覽至「個人化 **>觀眾** >熒 **幕」******。
+
+   1. 按一 **下「建立** >建 **立內容中樞區段」。** 「新 **建ContextHub區段** 」對話方塊隨即開啟。
+
+   1. 將Title輸 **入為****TargetValue1** ，然後按一 **下Create**。 同樣地，請建立另一個名為 **TargetValue2的區段**。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **編輯區段**
 
-   1. 選取區段 **表單A1 1**，然後從動作列按 **一下編輯** 。
+   1. 選取區段 **TargetValue1**，然後從動作列按 **一下「編輯** 」。
 
    1. 拖放比 **較：屬性** -編輯器的值元件。
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
    1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
 
-   1. 從下拉 **式選單中** ，選 **取「運算子為Equal** 」。
+   1. 從下拉 **式選單中選** 取「運 **算子等於** 」(Operator as equal)。
 
    1. 將值輸 **入** 1 ****。
    >[!NOTE]
@@ -192,7 +184,7 @@ source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   同樣地，請將屬性值編輯 **為工作表A1 2**。
+   同樣地，請編輯屬性值 **至TargetValue2**。
 
    1. 拖放比 **較：屬性** -編輯器的值元件。
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
@@ -204,6 +196,55 @@ source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 
 
+## 步驟5:設定品牌和區域 {#setting-brand-area}
+
+請依照下列步驟，在您的活動和品牌下方建立品牌：
+
+1. **在活動中建立品牌**
+
+   1. 從您的AEM例項導覽至「個人化 **>活** 動」 ****。
+
+   1. 按一 **下「建立** > **建立品牌**」。
+
+   1. 從「建 **立頁面** 」精靈中選 **取「品牌」** ，然後按一 **下「下一步**」。
+
+   1. 將標題輸 **入為** ScreensBrand **，然後按一** 下Create ****。 您的品牌現在已建立，如下所示。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      已知問題：若要新增區域，請從URL移除主版，例如
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **在品牌中建立區域**
+
+   請依照下列步驟，在品牌中建立區域：
+
+   1. 按一 **下「建立** 」，然 **後按一下「建立區域**」。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. 從「 **建立頁面** 」精靈中選 **取「區域** 」，然後按「 **下一步**」。
+
+   1. 將標題輸 **入為** ScreensValue **，然後按一** 下Create ****。
+您的品牌中會建立一個區域。
+
+## 步驟6:設定活動 {#step-setting-up-activity}
+
+請依照下列步驟，在品牌中建立區域：
+
+1. 導覽至 **ScreensValue** （在前一步驟中建立），然後按一下「 **建立** > **建立活動**」。
+
+1. 將打 **開配置活動嚮導** 。 輸入「標 **題** 」作 **為targetvalueecheck** , **「名稱** 」作 ****&#x200B;為targetvaluecheck。 從下拉 **式清單中選取「定位引擎** 」 **為ContextHub(AEM)** ，然後按一下「下 **一步**」。
+
+1. 按一 **下「設定活動** 」精靈 **中的「新增體驗」**。
+
+1. 從中 ****，選擇 **TargetValue1** 和Add Experience ******************** Add Experience Add Experience InterExperienceAddiences(ValueecNameHeck)，作為ValueecadienceAudiences的HeckHeclig。
+
+1. 同樣地，從 ******Value** 2中選擇 **TargetValue2，然後按一下TargetValue2** ，並按一下 **Title Experience as ValuecheckNameHeckAs As Adobjects************** Valuecheck2Adobjects。
+
+1. Click **Next** and then **Save**.
 
 ## 在渠道中啟用定位 {#step-enabling-targeting-in-channels}
 
