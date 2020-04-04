@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 您必須略過定義json的程式，並將其保留為空白。
 
 
-## 步驟3:設定觀眾 {#setting-up-audience}
-
-待定：添加屬性
+## 步驟3:在觀眾中設定區段 {#setting-up-audience}
 
 1. **在觀眾中建立區段**
 
@@ -145,58 +143,20 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
    1. 按一 **下「建立** >建 **立內容中樞區段」。** 「新 **建ContextHub區段** 」對話方塊隨即開啟。
 
-   1. 將Title輸 **入為****TargetValue1** ，然後按一 **下Create**。 同樣地，請建立另一個名為 **TargetValue2的區段**。
+   1. 將標題輸 **入為** Higherthan50 **，然後按一** 下Create ****。 同樣地，請建立另一個標題為 **Loberthan50的區段**。
 
-      ![影像](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![影像](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. 選取區段 **Higherthan50** ，然後從動 **作列按一下「屬性** 」。
+      ![影像](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. 從「區段 **屬性** 」中選取「個 **人化」標籤**。 將ContextHub路徑設 **置為** ，將ContextHub路徑設 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` 置為Segments路徑 **，然後按一下「儲** 存 `/conf/screens/settings/wcm/segments`****&#x200B;縮圖」，如下圖所示。
 
-## 步驟4:設定受眾細分 {#step-setting-up-audience-segmentation}
+      ![影像](/help/user-guide/assets/context-hub/context-hub13.png)
 
-待定以新增編輯
+   1. 同樣地，也可 **以設定Lowerthan** 50 **區段的ContextHub路徑和Segments路徑(ContextHub Path** ) **** 。
 
-在您設定資料儲存區並定義活動（品牌和區域）後，請依照下列步驟設定受眾區段：
-
-1. **在觀眾中建立區段**
-
-   1. 從您的AEM例項導覽至「個人化 **>觀眾** >熒 **幕」******。
-
-   1. 按一 **下「建立** >建 **立內容中樞區段」。** 「新 **建ContextHub區段** 」對話方塊隨即開啟。
-
-   1. 將Title輸 **入為****TargetValue1** ，然後按一 **下Create**。 同樣地，請建立另一個名為 **TargetValue2的區段**。
-
-      ![影像](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **編輯區段**
-
-   1. 選取區段 **TargetValue1**，然後從動作列按 **一下「編輯** 」。
-
-   1. 拖放比 **較：屬性** -編輯器的值元件。
-   1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
-   1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
-
-   1. 從下拉 **式選單中選** 取「運 **算子等於** 」(Operator as equal)。
-
-   1. 將值輸 **入** 1 ****。
-   >[!NOTE]
-   AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   同樣地，請編輯屬性值 **至TargetValue2**。
-
-   1. 拖放比 **較：屬性** -編輯器的值元件。
-   1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
-   1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
-
-   1. 從下拉 **式選單中** ，選 **取「運算子為Equal** 」。
-
-   1. 將值 **輸入****為2**。
-
-
-
-## 步驟5:設定品牌和區域 {#setting-brand-area}
+## 步驟4:設定品牌和區域 {#setting-brand-area}
 
 請依照下列步驟，在您的活動和品牌下方建立品牌：
 
@@ -230,21 +190,64 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    1. 將標題輸 **入為** ScreensValue **，然後按一** 下Create ****。
 您的品牌中會建立一個區域。
 
-## 步驟6:設定活動 {#step-setting-up-activity}
+## 步驟5:在活動中建立區段 {#step-setting-up-audience-segmentation}
 
-請依照下列步驟，在品牌中建立區域：
+設定資料儲存區並定義活動（品牌和區域）後，請依照下列步驟在活動中建立區段。
 
-1. 導覽至 **ScreensValue** （在前一步驟中建立），然後按一下「 **建立** > **建立活動**」。
+1. **在活動中建立區段**
 
-1. 將打 **開配置活動嚮導** 。 輸入「標 **題** 」作 **為targetvalueecheck** , **「名稱** 」作 ****&#x200B;為targetvaluecheck。 從下拉 **式清單中選取「定位引擎** 」 **為ContextHub(AEM)** ，然後按一下「下 **一步**」。
+   1. 從您的AEM例項導覽至「個人化 **>活動****ScreensBrand** > ******** Value」畫面。
 
-1. 按一 **下「設定活動** 」精靈 **中的「新增體驗」**。
+   1. 按一 **下「建立** > **建立活動」。** 將打 **開配置活動嚮導** 。
 
-1. 從中 ****，選擇 **TargetValue1** 和Add Experience ******************** Add Experience Add Experience InterExperienceAddiences(ValueecNameHeck)，作為ValueecadienceAudiences的HeckHeclig。
+   1. 輸入 **Title** as **ValueCheck50** , **Name** as **** valuecheck50。 從下拉 **式清單中選取「定位引擎** 」 **為ContextHub(AEM)** ，然後按一下「下 **一步**」。
 
-1. 同樣地，從 ******Value** 2中選擇 **TargetValue2，然後按一下TargetValue2** ，並按一下 **Title Experience as ValuecheckNameHeckAs As Adobjects************** Valuecheck2Adobjects。
+      ![影像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. 按一 **下「設定活動** 」精靈 **中的「新增體驗」**。
+
+   1. 從「 **Javerthan** 500 **** 」和「Higherthan 500 **」中** ，選擇Higherthan500 **和「Higherclick Erthyn 50Name**************」，然後進入Chigherthan50Audiences。 按一下「 **確定**」。
+
+   1. 從「 **受眾**」中，將 **Lowerthan500** Audiences和 **Lowerclick Experience輸入為小於055LowerclickName的Oracle****************** Audiences，小於5LowerJoudeAudiences。 按一下「 **確定**」。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **ValueCheck50活動現在已建立** ，並已加以設定。
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## 步驟5:編輯區段 {#editing-audience-segmentation}
+
+1. **編輯區段**
+
+   1. 
+      1. 從您的AEM實例導覽至 **Activities** > **Activity** ScreensBrand **>********** ValueScreens >ValueCheck Alignmential(ValueCheck 500)。
+   1. 選取區段 **ValueCheck50**，然後從動作列按 **一下「編輯** 」。
+
+   1. 拖放比 **較：屬性** -編輯器的值元件。
+   1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
+   1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
+
+   1. 從下拉 **式選單中選** 取「運 **算子等於** 」(Operator as equal)。
+
+   1. 將值輸 **入** 1 ****。
+   >[!NOTE]
+   AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   同樣地，請編輯屬性值 **至TargetValue2**。
+
+   1. 拖放比 **較：屬性** -編輯器的值元件。
+   1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
+   1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
+
+   1. 從下拉 **式選單中** ，選 **取「運算子為Equal** 」。
+
+   1. 將值 **輸入****為2**。
+
+
+
 
 ## 在渠道中啟用定位 {#step-enabling-targeting-in-channels}
 
