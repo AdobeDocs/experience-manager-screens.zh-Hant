@@ -5,7 +5,7 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 請依照下列步驟，為文字覆蓋建立自訂品牌和樣式：
 
-1. 建立標題為自訂樣式的AEM Screens專 **案** ，以及標題為 **** DemoBrand的頻道，如下圖所示。
+1. 建立AEM Screens專案。 此範例會建立名為 **customstyle** 的專案和名為 **** DemoBrand的頻道，以展示其功能，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 1. 導覽至 *static.css檔案* ，並設定下列css規則。 另外，在css規則下方的圖中也顯示為範例。
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![影像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 1. 按一 **下「儲存並關閉** 」以更新設計路徑。
 
+### 更新ACL {#updating-acls}
+
+您必須更新這些設計的ACL，以便播放器下載。
+
+1. 導覽至使用者，然後選 `screens-<project>-devices group` 擇並授予其自訂設計路徑的讀取權限。
+
+1. 提供 `screens-<project>-administrators` 此路徑的群組讀取和修改權限。
 
 ## 查看結果 {#viewing-the-result}
 
