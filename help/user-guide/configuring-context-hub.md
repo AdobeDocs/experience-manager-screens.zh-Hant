@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -216,36 +216,39 @@ source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
       ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 步驟5:編輯區段 {#editing-audience-segmentation}
+## 步驟5:編輯觀眾中的區段{#editing-audience-segmentation}
 
 1. **編輯區段**
 
-   1. 
-      1. 從您的AEM實例導覽至 **Activities** > **Activity** ScreensBrand **>********** ValueScreens >ValueCheck Alignmential(ValueCheck 500)。
-   1. 選取區段 **ValueCheck50**，然後從動作列按 **一下「編輯** 」。
+   1. 從您的AEM例項導覽至「個人化 **>觀眾** >熒 **幕」******。
+
+   1. 選取區段 **Higherthan50**，然後從動作列按 **一下「編** 輯」。
 
    1. 拖放比 **較：屬性** -編輯器的值元件。
+
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
+
    1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
 
-   1. 從下拉 **式選單中選** 取「運 **算子等於** 」(Operator as equal)。
+   1. 從下 **拉式選** 單中，選 **取「運算子大於** 」。
 
-   1. 將值輸 **入** 1 ****。
+   1. 將「值 **」輸入** 「 **50」**。
    >[!NOTE]
    AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   同樣地，請編輯屬性值 **至TargetValue2**。
+   同樣地，請將屬性值編輯為 **Lowerthan50**。
 
    1. 拖放比 **較：屬性** -編輯器的值元件。
+
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
+
    1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
 
-   1. 從下拉 **式選單中** ，選 **取「運算子為Equal** 」。
+   1. 從下 **拉式選** 單中，選 **取「運算子** 」為「小於」。
 
-   1. 將值 **輸入****為2**。
-
+   1. 將「值 **」輸入** 「 **50」**。
 
 
 
