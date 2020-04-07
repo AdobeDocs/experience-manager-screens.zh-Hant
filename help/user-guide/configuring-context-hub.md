@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -230,13 +230,18 @@ source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
    1. 從「 **屬性名稱」(Property name)的下拉式清單中選取** Googlesheets/value/1/0 ****。
 
+      >[!NOTE]
+googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2和欄：
+
+      ![影像](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. 從下 **拉式選** 單中，選 **取「運算子大於** 」。
 
-   1. 將「值 **」輸入** 「 **50」**。
+   1. 將值 **輸入****為70**。
    >[!NOTE]
    AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
 
    同樣地，請將屬性值編輯為 **Lowerthan50**。
 
