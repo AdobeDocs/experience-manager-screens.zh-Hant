@@ -5,7 +5,7 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. 導覽至 *static.css檔案* ，並設定下列css規則。 另外，在css規則下方的圖中也顯示為範例。
+1. 建 *立static.css* 檔案並設定下列css規則。 另外，在css規則下方的圖中也顯示為範例。
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
    ![影像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. 按一 **下「儲存並關閉** 」以更新設計路徑。
+
+>[!IMPORTANT]
+> 您可以選擇覆蓋現有的「畫面」範本，依預設插入您自己的設計，或完全建立您自己的範本。 請參閱以下步驟以取得詳細資訊。
+
+1. 若要覆蓋現有的「畫面」範本，以依預設插入您自己的設計：
+
+   1. 覆蓋 `/libs/screens/core/templates/sequencechannel` 於 `/apps/screens/core/templates/sequencechannel`。
+   1. 修改 *中的cq:designPath*`/apps/screens/core/templates/sequencechannel/jcr:content` 屬性，以指向新設計。
+
+1. 要完全建立自己的模板，請執行以下操作：
+   1. 複製 `/libs/screens/core/templates/sequencechannel` 至 `/apps/customstyle/templates/styled-sequencechannel`。
+   1. 修改 *中的cq:designPath*`/apps/customstyle/templates/styled-sequencechannel/jcr:content` 屬性，以指向新設計。
+
 
 ### 更新ACL {#updating-acls}
 
