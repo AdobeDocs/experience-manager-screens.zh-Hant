@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ## 主要條款 {#key-terms}
 
-在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的關鍵詞。
+在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的重要術語。
 
 **品牌** ：指您的高階專案說明。
 
@@ -150,7 +150,7 @@ source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
    1. 選取區段 **Higherthan50** ，然後從動 **作列按一下「屬性** 」。
       ![影像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 從「區段 **屬性** 」中選取「個 **人化」標籤**。 將ContextHub路徑設 **置為** ，將ContextHub路徑設 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` 置為Segments路徑 **，然後按一下「儲** 存 `/conf/screens/settings/wcm/segments`****&#x200B;縮圖」，如下圖所示。
+   1. 從「區段 **屬性** 」中選取「個 **人化」標籤**。 將ContextHub路徑設 **置為** ，將ContextHub路徑設 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 置為Segments路徑 **，然後按一下「儲** 存 `/conf/screens/settings/wcm/segments`****&#x200B;縮圖」，如下圖所示。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -238,11 +238,11 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
    1. 從下 **拉式選** 單中，選 **取「運算子大於** 」。
 
    1. 將值 **輸入****為70**。
-   >[!NOTE]
-   AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
 
-   ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
 
+      ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
    同樣地，請將屬性值編輯為 **Lowerthan50**。
 
    1. 拖放比 **較：屬性** -編輯器的值元件。
@@ -261,11 +261,11 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
 
 請依照下列步驟，在您的通道中啟用定位。
 
-1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM畫面頻道中建 **立的DataDrivenRetail** ，來啟用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM畫面頻道中建 **立的DataDrivenChannel** ，來啟用定位。
 
-1. 選取渠道 **DataDrivenRetail** ，然後從動作列 **按一下「屬性** 」。
+1. 選取渠道 **TargetChannel** ，然後從 **動作列按一下「屬性** 」。
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![影像](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. 選擇「個 **人化** 」標籤以設定ContextHub組態。
 
@@ -274,20 +274,18 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
    1. 選擇「路徑 **」** 段作為「會議 **」** >「零售」 **>「零售」>「****************** WcmSegments」>「AldSignments」>「ChickSelectSelectLight」。
 
    1. 按一 **下儲存並關閉**。
-   >[!NOTE]
-   使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
 
-1. 從DataDriven Assets > **Channels中導覽並選取** DataDriven Retail **，然後從動作列** 按一下Edit ******** Driven Retail。
+      ![影像](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   如果您已正確設定所有項目，您會從編輯器的下拉式清單中看到 **Targeting** （定位）選項，如下圖所示。
+   1. 導覽並選取 **TargetChannel** 頻道，然後從動作 **列按一下「編輯** 」。
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      如果您已正確設定所有項目，您會從編輯器的下拉式清單中看到 **Targeting** （定位）選項，如下圖所示。
 
-   >[!NOTE]
-   為渠道配置ContextHub配置後，如果您要遵循下列所有使用案例，請務必遵循1到4的前述步驟，對於其他三個順序渠道亦然。
+      ![影像](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## 更多資訊：範例使用案例 {#learn-more-example-use-cases}
 
