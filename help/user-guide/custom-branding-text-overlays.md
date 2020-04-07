@@ -5,7 +5,7 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -85,7 +85,7 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
    1. 覆蓋 `/libs/screens/core/templates/sequencechannel` 於 `/apps/screens/core/templates/sequencechannel`。
    1. 修改 *中的cq:designPath*`/apps/screens/core/templates/sequencechannel/jcr:content` 屬性，以指向新設計。
 
-1. 要完全建立自己的模板，請執行以下操作：
+1. 要完全建立您自己的模板，請執行以下操作：
    1. 複製 `/libs/screens/core/templates/sequencechannel` 至 `/apps/customstyle/templates/styled-sequencechannel`。
    1. 修改 *中的cq:designPath*`/apps/customstyle/templates/styled-sequencechannel/jcr:content` 屬性，以指向新設計。
 
