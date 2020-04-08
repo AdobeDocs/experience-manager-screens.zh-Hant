@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 下節將說明如何使用ACL分離項目，以便讓每個個人或團隊處理自己的項目。
 
-身為AEM管理員，您需要確保專案的團隊成員不會干擾其他專案，而且每個使用者都會根據專案需求指派特定角色。
+身為AEM管理員，您需要確保專案的團隊成員不會干擾其他專案，而且每個使用者都會根據專案需求獲得特定角色。
 
 ## 設定權限 {#setting-up-permissions}
 
 以下步驟概括了為項目設定ACL的過程：
 
-1. 登入AEM並導覽至「工 **具** &gt;安 **全性**」。
+1. 登入AEM並導覽至「工 **具** >安 **全性**」。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -83,7 +83,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 例如，您可以建立下列專案特定群組：
 
 * 畫面專案管理員
-* 畫面專案營運商（註冊播放器，以及管理位置和裝置）
+* 畫面專案營運商（註冊播放器，並管理位置和裝置）
 * 畫面專案使用者（處理頻道、排程和頻道指派）
 
 下表匯總了AEM Screens專案的說明和權限群組：
@@ -131,7 +131,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
     </ul> </td>
   </tr>
   <tr>
-   <td>螢幕播放<br /><em>器螢幕——我們——零售裝置</em></td>
+   <td>畫面播放器<br /> - <em>畫面-&lt;專案&gt;-裝置</em></td>
    <td>將所有播放器和所有播放器／裝置自動分組為參與者的成員。</td>
    <td><p> 投稿人成員</p> </td>
   </tr>
