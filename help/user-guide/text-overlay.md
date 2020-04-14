@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
+source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 
 ---
 
@@ -22,8 +22,8 @@ source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 * **概覽**
 * **使用文字覆蓋**
-* **必備條件**
 * **瞭解文字覆蓋屬性**
+* **在文字覆蓋中使用ContextHub值**
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. 如本頁「使用文字覆蓋」區段所述，將影像和文字覆蓋 **元件新增至影像** 。
+1. 如本頁「使用文字覆蓋」區段所述，將影像和文字覆蓋 [元件新增至影像](/help/user-guide/text-overlay.md#using-text-overlay) 。
 
 1. 按一下「 **設定** （扳手圖示）」以開啟「 **影像** 」對話方塊。
 
