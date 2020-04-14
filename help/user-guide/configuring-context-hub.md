@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ## 主要條款 {#key-terms}
 
-在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的重要術語。
+在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的關鍵詞。
 
 **品牌** ：指您的高階專案說明。
 
@@ -269,9 +269,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
 
 1. 選擇「個 **人化** 」標籤以設定ContextHub組態。
 
-   1. 選擇ContextHub路徑 **,** 作為libs **>** settings **> Default Settings** > Default Zetings ****************> Configurations Journations CloudSelectLoudLouds。
-
-   1. 選擇「路徑 **」** 段作為「會議 **」** >「零售」 **>「零售」>「****************** WcmSegments」>「AldSignments」>「ChickSelectSelectLight」。
+   1. 將ContextHub路 **徑設為** , `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 並將 **Segments路徑設為「儲存**`/conf/screens/settings/wcm/segments`****&#x200B;縮合」。
 
    1. 按一 **下儲存並關閉**。
 
