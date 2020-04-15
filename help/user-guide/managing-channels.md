@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 | 1x2 拆分畫面頻道 | 允許在兩個區域中檢視資產（水準分割）。 |
 | 2X1分割螢幕頻道 | 允許在兩個區域（垂直分割）中檢視資產。 |
 | 2x2 拆分畫面頻道 | 允許在四個區域中檢視資產（在矩陣中水準和垂直分割）。 |
-| 2 至 3 拆分畫面頻道 | 允許在兩個區域（水準分割）中檢視資產，其中一個區域比另一個區域大。 |
+| 2 至 3 拆分畫面頻道 | 允許在兩個區域（水準分割）中查看資產，其中一個區域比另一個區域大。 |
 | 左或右L列分割螢幕色版 | 可讓內容作者在適當大小的區域中檢視不同類型的資產。 |
 
 >[!NOTE]
@@ -68,9 +68,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >您可以使用上述的範本選項（例如1x2、2x2或2到3個分割螢幕色版）來建立不同的區域。
 
-***重要***:
-
-在您建立內容並新增至頻道後，下一步是建立位置，然後建立顯示。 此外，您還需要將該頻道指派給顯示器。 請參閱本節結尾的下列資源，以進一步瞭解。
+>[!IMPORTANT]
+> 在您建立內容並新增至頻道後，下一步是建立位置，然後建立顯示。 此外，您還需要將該頻道指派給顯示器。 請參閱本節結尾的下列資源，以進一步瞭解。
 
 ## 使用渠道 {#working-with-channels}
 
@@ -78,7 +77,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->按一下左側的圖示，以選取項目。 例如，按一下渠道圖示並執行下列動作，如下圖所示。
+>選擇渠道，如下圖所示。
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,16 +85,18 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 若要新增或編輯頻道中的內容，請遵循下列步驟：
 
-1. 按一下您要編輯的渠道（如上圖所示）。
+1. 選取您要編輯的渠道（如上圖所示）。
 1. 按一 **下動作** 列左上角的「編輯」，以編輯頻道屬性。 編輯器隨即開啟，可讓您將資產／元件新增至您要發佈的渠道。
 
 >[!NOTE]
 >
->您可以新增元件至渠道。 如需詳細 **[資訊，請參閱新增元件至渠道](adding-components-to-a-channel.md)** 。
+>您可以新增元件至渠道。 如需詳細 **[資訊，請參閱新增元件至渠道](adding-components-to-a-channel.md)**。
 
 ![demochannel1](assets/demochannel1.gif)
 
-**上傳視訊至頻道** ：請依照下列步驟將視訊上傳至您的頻道：
+**上傳影片至頻道**
+
+請依照下列步驟，將影片上傳至您的頻道：
 
 1. 選取您要上傳視訊的頻道。
 1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
@@ -118,7 +119,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 若要檢視渠道的控制面板，請遵循下列步驟：
 
-1. 按一下您要編輯的渠道。
+1. 選取您要編輯的渠道。
 1. 從動 **作列按一下** 「控制面板」，以檢視控制面板。 「頻 **道資訊**」、「已指&#x200B;**派的顯示**」和「待 **** 定啟動」面板隨即開啟，如下圖所示：
 
 ![控制面板](assets/dashboard.gif)
@@ -127,7 +128,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 「頻道資訊」面板會說明頻道屬性以及頻道的預覽。 此外，它還提供有關頻道是離線還是線上的資訊。
 
-按一下「頻道&#x200B;**資訊」動作列中的(...****** )，以檢視屬性、編輯內容，或更新頻道的快取（離線內容）。
+按一下&#x200B;**CHANNEL INFORMATION**(CHANNEL INFORMATION **)動作列中的(...** )，以檢視屬性、編輯內容，或更新頻道的快取（離線內容）。
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -143,13 +144,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 請依照下列步驟，讓渠道上線：
 
-1. 以 **TestProject** —&gt; **Channels** —&gt; **TestChannel的身分導覽至渠道**。
+1. 以 **TestProject** —> **Channels** —> **TestChannel的身分導覽至渠道**。
 
    選取渠道。
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   從動 **作列按一下** 「控制面板」，以檢視播放器的狀態。 **頻道資訊**面板提供有關頻道是線上還是離線的資訊。
+   從動 **作列按一下** 「控制面板」，以檢視播放器的狀態。 「頻 **道資訊** 」面板提供有關頻道是線上還是離線的資訊。
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -169,7 +170,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->如果您想要再次將頻道設定為離線，請從「 **Properties** 」（屬性）標籤(如步驟(3)所示)中取消勾選「Developer mode」（開發人員模式）選項，然後從「 **CHANNEL INFORMATION** 」面板按一下「 **Update Offline Content**」（更新離線內容），如下圖所示。
+>如果您想要再次將頻道設定為離線，請從「 **Properties** 」（屬性）標籤(如步驟(3)所示)取消勾選「Developer mode」（開發人員模式）選項，然後從「 **CHANNEL INFORMATION** 」面板按一下「 **Update Offline Content**」（更新離線內容），如下圖所示。
 
 ![dashboard2](assets/dashboard2.gif)
 
