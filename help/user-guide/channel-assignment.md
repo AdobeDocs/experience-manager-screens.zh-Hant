@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
 
    或,
 
-   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板中按一下+ **「指定渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Regant」對話方塊。
+   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板按一 **下+「分配渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Jognment」對話方塊。
 
    ![影像](/help/user-guide/assets/channel-assign1.png)
 
@@ -96,6 +96,9 @@ source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
    >[!NOTE]
    >預設會選取此選項。
 * **在序列結尾**:當啟動新排程或收到更新時，您可以選擇等待整個序列到達其結束，而在所需序列之前，您會回圈到第1個元素，您會重新整理或播放新內容
+
+   >[!NOTE]
+   >使用第二個或第三個選項可能導致指派上定義的排程時間稍微延遲，因為播放器會等候項目或序列結束（在指定時間之後）再重新整理。 延遲將視項目的播放持續時間而定。
 
 #### 計劃 {#schedule-channel}
 
