@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
+source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
    或,
 
-   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板按一 **下+「分配渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Jognment」對話方塊。
+   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板中按一下+ **「指定渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Regant」對話方塊。
 
    ![影像](/help/user-guide/assets/channel-assign1.png)
 
@@ -88,12 +88,13 @@ source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 > 此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
 
 身為內容作者，您應該可以指定頻道中斷的時間，以便選擇切斷非關鍵內容，但可以選擇在由於排程而中斷播放之前，先讓重要內容完全播放。
-在「渠道分配」對話框中設定中斷方法時，可 **使用以下選項** :
+
+從「頻道分配」對話框中選擇以下選項之一，以設定中 **斷方法** :
 
 * **立即**:每當排程啟動或收到更新時，您就可以切斷播放並立即重新整理或播放新內容
 * **在目前項目的結尾**:當啟動新排程或收到更新時，您可以選擇等候序列中的目前項目結束播放，且必須等到您重新整理或播放新內容後
    >[!NOTE]
-   >這是選取的預設選項。
+   >預設會選取此選項。
 * **在序列結尾**:當啟動新排程或收到更新時，您可以選擇等待整個序列到達其結束，而在所需序列之前，您會回圈到第1個元素，您會重新整理或播放新內容
 
 #### 計劃 {#schedule-channel}
