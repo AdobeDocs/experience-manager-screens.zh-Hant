@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -120,7 +120,7 @@ source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 若要檢視渠道的控制面板，請遵循下列步驟：
 
 1. 選取您要編輯的渠道。
-1. 從動 **作列按一下** 「控制面板」，以檢視控制面板。 「頻 **道資訊**」、「已指&#x200B;**派的顯示**」和「待 **** 定啟動」面板隨即開啟，如下圖所示：
+1. 從動 **作列按一下** 「控制面板」，以檢視控制面板。 「CHANNEL **INFORMATION**」(**頻道資訊)、「ASSIGNED**」（指派的顯示）和「 **PENDING LAUNCHES** 」（待定啟動）面板隨即開啟，如下圖所示：
 
 ![控制面板](assets/dashboard.gif)
 
@@ -131,6 +131,28 @@ source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 按一下&#x200B;**CHANNEL INFORMATION**(CHANNEL INFORMATION **)動作列中的(...** )，以檢視屬性、編輯內容，或更新頻道的快取（離線內容）。
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### 檢視資訊清單 {#view-manifest}
+
+您可從渠道控制面板檢視資訊清單。
+
+>[重要]
+> 此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
+
+請依照下列步驟，從頻道控制面板啟用此選項：
+1. **將渠道設為離線**
+   1. 選擇渠道，然後從操 **作欄** 中選擇「屬性」
+   1. 導覽至「 **Channel** 」索引標籤，並確定您已取消勾選「 **開發人員模式」（強制channel to be online）選項**
+   1. 按一 **下儲存並關閉**
+1. **更新離線內容**
+   1. 選取渠道，然後從動 **作列選取** 「儀表板」
+   1. 導覽至「 **頻道資訊** 」面板，然後按 *一下……*
+   1. 按一下「 **更新離線內容」**
+
+現在，您應該可以從「頻道」控 **制面板的「頻道資訊****** 」面板中看到「檢視資訊清單」選項。
+
+![image1](assets/channel-one.png)
+
 
 ### 線上和離線通道 {#online-and-offline-channels}
 
