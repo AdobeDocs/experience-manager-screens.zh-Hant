@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ### 瞭解寬限期 {#understanding-grace-period}
 
-下列設定可讓管理員設定 ***寬限期***，這是日後發佈所需的。
+The following setup allows the admin to configure the ***Grace Period***, required in future publish.
 
 **寬限期**，包括：
 
@@ -177,43 +177,43 @@ source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 請依照下列步驟編輯啟動屬性：
 
-1. 導覽至渠道(**FutureLaunch**)並選取渠道，如下圖所示。 從左側 **邊欄開** 「參照」邊欄。
+1. 導覽至渠道 **FutureLaunch**（即待定啟動） ** ，然後選取渠道，如下圖所示。
 
-   >[!NOTE]
-   >
-   >從左側 **邊欄選取** 「內容樹」選項，以開啟您建立的啟動。
+   ![影像](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. 按一下 **動作列** 中的「控制面板」，您就會從頻道控制面板看 **到「待定啟動** 」面板。
 
-1. 導覽至「 **啟動** 」，然後選取您建立&#x200B;**的啟動(SummerPromotions**)。 按一 **下編輯屬性**。
+   ![影像](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. 從「待定啟動」面板中選取啟動並按一下任何 **所需動作** 。
 
-1. 啟動「夏季 **促銷** 」對話方塊隨即開啟。 填入下列欄位：
+   ![影像](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. 例如，您按一下「啟 **動屬性** 」以編輯啟動 **SummerPromotions的屬性**。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. 您可以編輯「 **啟動標題** 」並填入下列欄位：
 
    * 選擇啟 **動日期**
    * 檢查生 **產就緒**
    * 從范 **圍中選擇「升級** 」批准 **頁**
-   >[!NOTE]
-   >
-   >瞭解「自動促銷」下 **的「啟動」項目**:
+   **瞭解「自動促銷」下的「啟動」項目：**
 
-   >    * **啟動日期**，是指即時日期，即內容在螢幕播放器中依播放器時區播放的日期／時間。
-   >    * **Production Ready**，可讓頻道升級，並表示啟動已準備就緒可供使用。
-   >    * **範圍**，是指在啟動期間可以推廣的渠道。
-
-
+   * **啟動日期**，是指即時日期，即內容在螢幕播放器中依播放器時區播放的日期／時間。
+   * **Production Ready**，可讓頻道升級，並表示啟動已準備就緒可供使用。
+   * **範圍**，是指在啟動期間可以推廣的渠道。
    以下三個選項可用於設定範圍：
-   1. **促銷完整啟動**:啟動的所有頻道都會在設定的即時日期進行促銷。
-   1. **升級修改的頁面**:只會升級已編輯的啟動資源。 建議在不需要啟動檢視時使用此選項。 它可讓啟動頻道中的修改升級。
-   1. **促銷已核准的頁面**:只有已核准的頁面才會在設定的即時日期升級。
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >啟動促銷會遵循播放器／裝置的時區，而非伺服器的時區。
+   * **促銷完整啟動**:啟動的所有頻道都會在設定的即時日期進行促銷。
+   * **升級修改的頁面**:只會升級已編輯的啟動資源。 建議在不需要啟動檢視時使用此選項。 它可讓啟動頻道中的修改升級。
+   * **促銷已核准的頁面**:只有已核准的頁面才會在設定的即時日期升級。
+
+      >[!CAUTION]
+      >
+      >啟動促銷會遵循播放器／裝置的時區，而非伺服器的時區。
+
+
 
 1. 按一 **下「儲存並關閉** 」，以返回 **FutureLaunch頻道** 。
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
