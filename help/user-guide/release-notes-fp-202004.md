@@ -4,7 +4,7 @@ seo-title: 功能套件202004發行說明
 description: 請依照本頁來取得2020年4月15日發行的AEM Screens Feature Pack 202004的資訊。
 seo-description: 請依照本頁來取得2020年4月15日發行的AEM Screens Feature Pack 202004的資訊。
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -25,12 +25,15 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月15日。
 
 * **播放中斷策略選項**
 
-   身為作者，您現在可以指定頻道中斷與否，讓內容作者可以選擇切斷非關鍵內容，但可以選擇讓重要內容在因為排程而中斷播放之前完全播放。
+   身為內容作者，您應該可以指定頻道中斷的時間，以便選擇切斷非關鍵內容，但可以選擇在由於排程而中斷播放之前，先讓重要內容完全播放。
 
+   請參閱「中斷方 **[法](/help/user-guide/channel-assignment.md#interruption-method-channel)**」一節，以進一步瞭解在「AEM畫面」專案中實作此功能的&#x200B;****「頻道指派」對話方塊可用選項。
 
-* **啟動**
+* **畫面啟動**
 
    內容作者的使用者體驗流程已改善，並減少了使用未來發佈的點按次數。
+
+   如需詳細 **[資訊，請參閱使用Screens Launch的內容更新](launches.md)**。
 
 * **頻道控制面板**
 
@@ -39,11 +42,15 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月15日。
 
 * **檢視資訊清單**
 
-   您可從渠道控制面板檢視資訊清單。
+   您現在可以從頻道控制面板檢視資訊清單檔案。
+
+   請參閱 **[檢視資訊清單](/help/user-guide/managing-channels.md#view-manifest)**。
 
 * **文字重疊**
 
-   在將測試新增至文字覆蓋功能時，字型大小現在會更精確並更新。
+   在將測試新增至文字覆蓋功能時，字型大小會更精確並改善。
+
+   請參閱「 **[文字覆蓋](text-overlay.md)**」，透過提供覆蓋在影像上方的標題或描述，在序列頻道中建立引人入勝的體驗。
 
 * **命令同步的改進**
 
