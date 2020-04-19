@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -75,27 +75,30 @@ source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 1. **建立畫面啟動**
 1. **編輯畫面啟動以設定即時日期和範圍**
 
-### 建立未來發佈 {#creating-a-launch}
+### 建立畫面啟動 {#creating-a-launch}
 
 請依照下列步驟，將啟動功能實作至您的AEM Screens專案：
 
-1. 導覽至AEM Screens專案中的序列頻道，例如 **LaunchesDemo** —> **Channels** —> **FutureLaunch**，如下所示。
+1. 在您的AEM Screens專案中建立序列頻道，例如 **LaunchesDemo** —> **Channels** —> **FutureLaunch**，如下所示。
 
    >[!CAUTION]
    >
    >您必須從AEM Screens專案中預先存在的頻道建立啟動。
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![影像](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. 選取渠道 **FutureLaunch** ，然後從動作 **列按一下「建立啟動** 」。
 
-1. 「建 **立啟動** 」精靈隨即開啟。 您可以選取精靈中已顯示的頻道，或按一下「 **+新增頁面」** ，以選取您要建立啟動的「畫面」頻道。
+   ![影像](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >下列範例將示範在精靈中建立現有頻道的啟動。
+1. 「建 **立啟動** 」精靈隨即開啟。 您可以選取精靈中已顯示的頻道，或按一下「 **+新增頻道」** ，新增您要建立啟動的頻道。
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### 使用現有渠道 {#existing-channel-launch}
+
+1. 選取「建立啟動」精靈中已存 **在的渠道** ，然後按一 **下Next**。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. 選取渠道，然後從動 **作列按** 「下一步」。
 
@@ -124,6 +127,49 @@ source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    按一 **下** 「完成」 **，可讓您導覽回** FutureLaunch頻道。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### 使用「新增渠道」選項 {#add-channel-launch}
+
+1. 按一 **下「+新增渠道** 」，新增您要建立啟動的渠道。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >如果您 **嘗試選取多個頻道或資料夾來新增啟動，「選取** 」選項將會停用。
+
+1. 導覽至您要建立啟動的渠道，然後按一下「選 **取」**。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. 現在，您可以選取您新增的渠道來建立啟動，然後按一下「下 **一步**」。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. 將「 **啟動標題** 」輸入 **為SummerPromotions** ，而您不需要設定 **啟動日期**，如下圖所示。 按一下 **建立**。
+
+   >[!NOTE]
+   >
+   >*啟用或勾選* 「繼承來 **源頁面即時資料」選項** ，可讓頻道在啟動時建立為即時副本。 如果在原始渠道中進行任何變更，這些變更會自動套用至啟動渠道。
+   >
+   >
+   >*停用或取消勾選* 「繼 **承來源頁面即時資料** 」，可讓頻道在啟動時複製，而不需任何即時關係。 因此，如果對原始渠道進行任何變更，這些變更不會套用至啟動渠道。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >您可以在此步驟中設定即時啟動日期，或在啟動建立後編輯其屬性時稍後加以設定。
+
+1. 您會看到啟動已建立。 您可以按一下「 **開啟** 」，在編輯器中檢視頁面，或按一下「完成 **** 」，以返回您的專案。
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   按一 **下** 「完成」 **，可讓您導覽回** FutureLaunch頻道。
+
+   ![影像](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### 編輯啟動屬性以設定即時日期和範圍 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
