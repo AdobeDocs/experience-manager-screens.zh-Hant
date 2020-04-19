@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Adobe Experience Manager畫面說明
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + 管理內容更新 {#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
-      + [使用啟動更新內容](launches.md)
+      + [使用畫面啟動來更新內容](launches.md)
    + 使用案例範例 {#use-case-examples}
       + [緊急通道](emergency-channel.md)
       + [旅行中心溫度激活](local-temperature-activation.md)
