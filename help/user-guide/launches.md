@@ -1,6 +1,6 @@
 ---
-title: 啟動
-seo-title: 啟動
+title: 使用畫面啟動來更新內容
+seo-title: 使用畫面啟動來更新內容
 description: 內容作者可建立頻道的未來版本，稱為「啟動」，並進一步設定此次啟動的即時日期，讓內容可在裝置或播放器中即時顯示。
 seo-description: 內容作者可建立頻道的未來版本，稱為「啟動」，並進一步設定此次啟動的即時日期，讓內容可在裝置或播放器中即時顯示。
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -11,28 +11,28 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# 啟動 {#launches}
+# 使用畫面啟動來更新內容 {#launches}
 
-內容作者可建立頻道的未來版本，稱為 **Launch** ，並進一步設定此次啟動的即時日期，讓內容可在裝置或播放器中即時播放。
+內容製作者可建立頻道的未來版本，稱為「畫面啟動 **** 」，並進一步設定此次啟動的即時日期，讓內容可在裝置或播放器中即時顯示。
 
-在啟動的協助下，作者可以預覽啟動中的每個頻道，而且應該可以開始要求檢閱。 批准者群組會收到通知，並可核准或拒絕請求。 到達即時日期時，內容會在裝置中播放。
+在未來發佈的協助下，作者可以預覽啟動中的每個管道，並可以開始要求檢閱。 批准者群組會收到通知，並可核准或拒絕請求。 到達即時日期時，內容會在裝置中播放。
 
 例如，如果作者想要建立c1、c2（頻道）的未來版本，則會建立啟動並設定即時日期（例如，11月10日上午8:00）。 內容中的任何更新都會送出供您檢閱。 核准後即可上線（11月10日上午8:00），此次啟動會在裝置或播放器上播放內容。
 
 ## 需求 {#requirements}
 
-在AEM Screens專案中開始實施啟動之前，請務必瞭解寬限期的概念及其相關性。
+在AEM Screens專案中開始實作未來發佈之前，請務必瞭解寬限期的概念及其相關性。
 
 下節說明寬限期，以及如何立即設定寬限期。 您也可以下載範例測試設定，以瞭解其使用情形。
 
 ### 瞭解寬限期 {#understanding-grace-period}
 
-下列設定可讓管理員設定啟動 ***中所需的寬限期&#x200B;***。
+下列設定可讓管理員設定 ***寬限期***，這是日後發佈所需的。
 
 **寬限期**，包括：
 
@@ -60,7 +60,7 @@ source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 如果您想要變更上述設定，請依照下列指示進行：
 
-* 建立 ***sling:OsgiConfig/ nt:file in /apps/system/config ***，其名稱為**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **和content
+* 建立 ***sling:OsgiConfig/ nt:file in /apps/system/config*** ，其名稱為 **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** 和content
 
    *launches.eventhandler.updatelastmodification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/)*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
@@ -68,14 +68,14 @@ source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 這表示當您為資源的任何啟動設定即時日期時 **，促銷會以此偏移開始。 例如，如果即時日期設為11月24日，9:00 AM且寬限期為600秒，促銷工作將於11月24日8:50 AM開始。
 
-## 使用啟動 {#using-launches}
+## 使用畫面啟動 {#using-launches}
 
 請依照下列章節，在您的AEM Screens專案中實作啟動。 本節涵蓋下列主題：
 
-1. **建立啟動**
-1. **編輯啟動以設定即時日期和範圍**
+1. **建立畫面啟動**
+1. **編輯畫面啟動以設定即時日期和範圍**
 
-### 建立啟動 {#creating-a-launch}
+### 建立未來發佈 {#creating-a-launch}
 
 請依照下列步驟，將未來的發佈功能實作至您的AEM Screens專案：
 
@@ -103,7 +103,7 @@ source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. 將「 **啟動標題** 」輸入 **為SummerPromotions** ，而您不需要設定 **啟動日期**，如下圖所示。 按一下&#x200B;**「建立」**。
+1. 將「 **啟動標題** 」輸入 **為SummerPromotions** ，而您不需要設定 **啟動日期**，如下圖所示。 按一下 **建立**。
 
    >[!NOTE]
    >
