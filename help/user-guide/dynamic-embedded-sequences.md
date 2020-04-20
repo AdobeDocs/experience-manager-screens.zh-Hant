@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
+source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
 
@@ -216,7 +216,7 @@ source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
    1. 輸入渠 **道名稱** ，作 **為地區***。
    1. 將渠道角 **色輸入** 「地 **區廣告區段」**。
    1. 按一下&#x200B;**「儲存」**。
-   **依角色為商店指派渠道：
+   **依角色為商店指派渠道：**
 
    1. 按一下 **+ 「從已分配的通道****」面板指定通道** ，開啟「通 **** 道分配」對話框。
    1. 選擇 **參考渠道**。 依名稱.
@@ -268,7 +268,7 @@ source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 **方案1**:
 
-如果您將顯示路徑指派為 **Demo** —> **Locations** —> **A地區—** >** Store 1** —> **** Store1DisplayDemo，下列內容將會在您的AEM Screens播放器上顯示。
+如果您將顯示路徑指派為 **A** —> **Locations** —> **Region A ——** Store 1Display Store ********— Following Accont，則AEM Screens player上將會顯示顯示該顯示路徑。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -354,7 +354,7 @@ source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
    1. 導覽至「權 **限** 」標籤
    1. 導覽至 ***/content/screens/demo*** ，並檢查所有權限
    1. 導覽至 ***/content/screens/demo/locations*** ，並檢查所有權限
-   1. 導覽至 ***/content/screens/demo/locations***/****** region-a並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
+   1. 導覽至 ***/content/screens/demo/locations/region-a*** ，並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
    請參閱下圖以瞭解步驟：
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -367,7 +367,7 @@ source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
    1. 導覽至「權 **限** 」標籤。
    1. 導覽至 ***/content/screens/demo*** ，並僅檢查「 **Read** 」權限。
    1. 導覽至 ***/content/screens/demo/locations*** ，並僅檢查「 **Read** 」（讀取）權限。
-   1. 導覽至***/content/screens/demo/channels, ***並取消檢查全域&#x200B;**頻道**。***
+   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域頻道的 **權限** 。
    1. 導覽至 ***/content/screens/demo/locations***/****** region-a並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
    請參閱下圖以瞭解步驟：
 
@@ -382,7 +382,7 @@ source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
    1. 導覽至「權 **限** 」標籤。
    1. 導覽至 ***/content/screens/demo*** ，並僅檢查「 **Read** 」權限。
    1. 導覽至 ***/content/screens/demo/locations*** ，並僅檢查「 **Read** 」（讀取）權限。
-   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域頻道的 **權限** 。
+   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域 **頻道的權限** 。
    1. 導覽至 ***/content/screens/demo/locations/region-a*** ，並僅檢查「 **Read** 」權限。 同樣地，請只勾選 **地區** b的 **「讀取」權限**。
    1. 導覽至 ***/content/screens/demo/locations***/***region-a /store-1*** ，並檢查所有權限。 同樣地，請檢查 **store-2、store-3** 和 **store-4的權限**。
    請參閱下圖以瞭解步驟：
