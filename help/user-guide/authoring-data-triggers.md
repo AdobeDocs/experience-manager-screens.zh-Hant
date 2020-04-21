@@ -3,7 +3,7 @@ title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 選擇「個 **人化** 」標籤以設定ContextHub組態。
+1. 選擇「 **個人化** 」標籤以設定ContextHub組態，並選取「ContextHub」和「區段」路徑。
 
    1. 選擇ContextHub路徑 **,** 作為libs **>** settings **> Default Settings** > Default Zetings ****************> Configurations Journations CloudSelectLoudLouds。
 
