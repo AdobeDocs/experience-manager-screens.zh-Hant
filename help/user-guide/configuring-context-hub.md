@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
    1. 輸入「 **Google Sheets** 」 **、「Google Sheets**」、「 **Store Title Store Type** Store As **Conthushub.jsontClickNextGoogle Sheets Name」為Google Sheets**************、Store Title Type Store As Conthub.
 
+      >[!CAUTION]
+      >如果您使用Adobe Experience Manager(AEM)6.4，請將 **Configuration Title** （設定標題）輸入 **googlesheets** ，將 **Store Type** ( **** contexthub.jsonp-generic Exprience)輸入。
+
       ![影像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >在AEM 6.4中，將「 **Configuration** Title **」（設定標題）輸** 入為Googlessheets **，將「** Store Type **」（儲存類型）輸**&#x200B;入為contexthub.generic-jsonpJonp。
+
 
    1. 輸入您的特定json設定。 例如，您可將下列json用於示範用途，然後按一下「 **Save** 」（儲存），您就會看到名為「 **ContextHub設定中的Google Sheets** 」(Google Sheets)的商店設定。
 
