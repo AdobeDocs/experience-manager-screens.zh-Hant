@@ -11,62 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # 使用畫面啟動來更新內容 {#launches}
 
-內容製作者可建立頻道的未來版本，稱為「畫面啟動 **** 」，並進一步設定此次啟動的即時日期，讓內容可在裝置或播放器中即時顯示。
+內容作者可建立頻道的未來版本，稱為「畫面啟動 **** 」，並進一步設定此次啟動的即時日期。 這可讓內容在指定的即時日期在裝置或播放器中即時顯示。
 
-在未來發佈的協助下，作者可以預覽啟動中的每個管道，並可以開始要求檢閱。 批准者群組會收到通知，並可核准或拒絕請求。 到達即時日期時，內容會在裝置中播放。
+在「畫面啟動」 **的協助下**，作者可以預覽啟動中的每個頻道，並且應該可以開始要求檢閱。 批准者群組會收到通知，並可核准或拒絕請求。 到達即時日期時，內容會在裝置中播放。
 
 例如，如果作者想要建立c1、c2（頻道）的未來版本，則會建立啟動並設定即時日期（例如，11月10日上午8:00）。 內容中的任何更新都會送出供您檢閱。 核准後即可上線（11月10日上午8:00），此次啟動會在裝置或播放器上播放內容。
 
 ## 需求 {#requirements}
 
-在AEM Screens專案中開始實作未來發佈之前，請務必瞭解寬限期的概念及其相關性。
+在AEM Screens專案中開始運用「畫面啟動」之前，請務必瞭解「寬限期」的概念及其相關性。
 
-下節說明寬限期，以及如何立即設定寬限期。 您也可以下載範例測試設定，以瞭解其使用情形。
+在播放器的設定即時日期上執行體驗，包括：
+
+* 啟動的促銷（通常需要幾秒鐘）
+
+* 發佈資源以發佈例項（通常需要幾分鐘的時間，視需要發佈的頻道或資產大小而定）
+
+* 更新離線內容完成所花的時間（通常需要幾分鐘）
+
+* 播放器從發佈例項下載內容所花的時間（通常需要幾分鐘的時間，視n/w頻寬和需要下載的資產大小而定）
+
+* 伺服器與播放器的任何時間差異
 
 ### 瞭解寬限期 {#understanding-grace-period}
 
-The following setup allows the admin to configure the ***Grace Period***, required in future publish.
+為了讓播放器能夠在設定的即時日期開始播放內容，我們需要在即時日期之前開始前述的活動。
 
-**寬限期**，包括：
-
-* 推廣發射
-* 發佈資源以發佈例項
-* 裝置從發佈例項下載內容所花的時間，以及伺服器與播放器的任何時間差異
+如果即時日期是 *11月24日、9:00 AM* 、寬限期是 *24小時*，則上述動作順序將從（即11月23日、9:00 AM伺服器時間）開始。 這可讓24小時時間完成上述所有動作，而內容將傳達給播放器。 播放器會瞭解這是啟動內容，因此內容不會立即播放，但播放器會將此內容儲存為未來版本，並會在播放器時區的設定即時日期開始播放。
 
 例如，假設伺服器在PST中，裝置在EST中，此時最大時差為3小時，並假設促銷需要1分鐘，而從作者發佈需要10分鐘，而播放器通常可在10-15分鐘內下載資源。 然後寬限期=時間差（3小時）+提升啟動（1分鐘）的時間+發佈啟動（10分鐘）的時間+在播放器下載（10-15分鐘）+緩衝區（安全，例如30分鐘）= 3小時56分鐘= 14160秒。 因此，當我們排程任何即時啟動時，促銷活動會以此偏移提前開始。 在上述等式中，大部分項目不需要太多時間，只要我們知道伺服器和任何播放器的最大時間差，我們就可對此偏移量使用適當的猜測。
 
-### 設定現成可用的寬限期 {#configuring-out-of-the-box-grace-period}
-
-現成可用，啟動的寬限期會設為24小時，這表示當我們針對 */content/screens下的資源設定啟動的即時日期時*，促銷會從此偏移開始。 例如，如果liveDate設為11月24日，9:00 AM且寬限期為24小時，促銷工作將於11月23日09:00 AM開始。
-
-### 下載配置 {#downloading-configurations}
-
-下載下列測試設定：
-
-[取得檔案](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->上述設定在此測試設定中的寬限期為600秒。
+>現成可用，螢幕啟動的寬限期會設為24小時，這表示當我們針對 */content/screens下的資源設定即時啟動日期時*，促銷會從此偏移開始。
 
-#### 更新配置 {#updating-the-configurations}
+### 更新現成可用的寬限期 {#updating-out-of-the-box-grace-period}
 
-如果您想要變更上述設定，請依照下列指示進行：
+本節說明如何將現成可用的寬限期更新為10分鐘：
 
-* 建立 ***sling:OsgiConfig/ nt:file in /apps/system/config*** ，其名稱為 **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** 和content
+1. 導覽至CRXDE Lite，然後導覽至 `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`。
+2. 按一下右鍵並複製檔案。
+3. 導覽至 `/apps/system/config` 並按一下滑鼠右鍵並貼上。
+4. 連按兩下 `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` 以在CRXDE Lite的編輯器中開啟檔案。 它必須將路徑／內容／畫面/ *顯示為* 86400的寬限期。 將該值變更 **為600**。
 
-   *launches.eventhandler.updatelastmodification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/)*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+現在，文字檔案中的內容看起來應該類似：
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`，可讓您在路徑／內容／畫面中設定600 *秒的寬限期*。
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-這表示當您為資源的任何啟動設定即時日期時 **，促銷會以此偏移開始。 例如，如果即時日期設為11月24日，9:00 AM且寬限期為600秒，促銷工作將於11月24日8:50 AM開始。
+由於您已在上例中將寬限期設為10分鐘，當您在 */content/screens下為資源的任何啟動設定即時日期時*，促銷將以此偏移開始。
+
+例如，如果即時日期設為11月24日、9:00 AM且寬限期為600秒，促銷工作將於11月24日上午8:50開始。
 
 ## 使用畫面啟動 {#using-launches}
 
