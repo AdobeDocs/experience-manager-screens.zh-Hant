@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 完成後，按一下「 **儲存** 」以返回 **FutureLaunch頻道** 。
 
-### 手動提升畫面啟動{#promote-the-screens-launch-manually}
+### 手動升級畫面啟動{#promote-the-screens-launch-manually}
 
 您可以使用「待定啟動」面板的「 **提升啟動** 」選項 **手動提升啟動** 。
 
