@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 使用畫面啟動 {#using-launches}
 
-請依照下列章節，在您的AEM Screens專案中實作「畫面啟動」。
+本節將示範如何在您的AEM Screens專案中實作「畫面啟動」。
 
 ### 建立畫面啟動 {#creating-a-launch}
 
@@ -104,8 +104,6 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    >[!NOTE]
    >您可以使 **用「+新增渠道** 」選項來新增另一個您要為其建立啟動的渠道。
-
-   ![影像](/help/user-guide/assets/launches-images/launches-13.png)
 
    若要使 **用「新增渠道** 」選項，請導覽至您要為其建立啟動的渠道，然後按一下「選 **取」**。
 
@@ -173,13 +171,13 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![影像](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### 編輯畫面啟動以新增或移除頻道 {#editing-the-screens-launch-to-add-or-remove-channels}
+### 編輯畫面啟動以新增或移除頻道 {#editing-the-screens-launch-to-add-or-remove-channels}
 
-建立啟動後，您可以使用「編輯啟動」動作，新增或移除頻道至現 **有啟動** 。
+建立啟動後，您可以使用「編輯啟動」選項，新增或移除頻道至現 **有的啟動** 。
 
 完成後，按一下「 **儲存** 」以返回 **FutureLaunch頻道** 。
 
-#### 手動提升畫面啟動{#promote-the-screens-launch-manually}
+### 手動提升畫面啟動{#promote-the-screens-launch-manually}
 
 您可以使用「待定啟動」面板的「 **提升啟動** 」選項 **手動提升啟動** 。
 
@@ -196,11 +194,10 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 1. 在「升 **級啟動** 」精靈中按 **一下「下一步** 」。
 1. 按一 **下「** Promote」（升級）以升級啟動。
 
+### 刪除畫面啟動 {#deleting-the-screens-launch}
 
-#### 刪除畫面啟動 {#deleting-the-screens-launch}
-
-您可以使用「刪除啟動」 **動作刪除啟動** 。
+您可以使用「待定啟動」面 **板中的「刪除啟動** 」選項 **來刪除啟動** 。
 
 >[注意]
->此動作也會刪除所有子系的巢狀啟動。
+>此動作也會刪除所有子系（巢狀啟動）。
 
