@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager畫面說明
 translation-type: tm+mt
-source-git-commit: 4126b06f33216d2b2e10cbcd9b16333a347f791b
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -54,14 +54,14 @@ source-git-commit: 4126b06f33216d2b2e10cbcd9b16333a347f791b
       + [頻道指定任務](channel-assignment.md)
    + 使用核心產品功能 {#product-features}
       + [文字重疊](text-overlay.md)
-      + [Bulk Offline Update](bulk-offline-update.md)
+      + [大量離線更新](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
       + [使用體驗片段](experience-fragments-in-screens.md)
       + [資產層級啟動](asset-level-scheduling.md)
       + [通路層級啟動](channel-level-activation.md)
       + [建立和管理即時副本](managing-livecopy.md)
       + [建立視訊填補工作流程](creating-a-video-padding-workflow.md)
-      + [Adding Components to a Channel](adding-components-to-a-channel.md)
+      + [新增元件至渠道](adding-components-to-a-channel.md)
       + [內嵌序列](embedded-sequences.md)
       + [多區域版面](multi-zone-layout-aem-screens.md)
       + [視訊轉譯](generating-renditions.md)
@@ -81,7 +81,7 @@ source-git-commit: 4126b06f33216d2b2e10cbcd9b16333a347f791b
       + [套用轉場效果](applying-transitions.md)
       + [多區域到單區域的過渡](multizone-to-singlezone.md)
       + [單次使用TakeOver通道](single-use-takeover-channel.md)
-      + [Perpetual Use TakeOver Channel](perpetual-takeover-channel.md)
+      + [永久使用TakeOver Channel](perpetual-takeover-channel.md)
 + 開發人員與API資源 {#developing}
    + [REST API](rest-api.md)
    + [開發AEM畫面的自訂元件](developing-custom-component-tutorial-develop.md)
