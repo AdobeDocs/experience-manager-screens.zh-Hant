@@ -1,10 +1,10 @@
 ---
 title: 功能套件202004發行說明
 seo-title: 功能套件202004發行說明
-description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
-seo-description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
+description: 請依照本頁取得2020年4月28日發行的AEM Screens Feature Pack 202004的資訊。
+seo-description: 請依照本頁取得2020年4月28日發行的AEM Screens Feature Pack 202004的資訊。
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
 
 AEM Screens已發行AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4，並提供下列詳細資訊。
 
-## Release Date {#release-date}
+## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
+AEM Screens Feature Pack 202004的發行日期為2020年4月28日。
 
 ### 新功能 {#what-s-new}
 
