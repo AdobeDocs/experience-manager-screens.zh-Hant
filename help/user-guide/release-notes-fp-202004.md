@@ -1,10 +1,10 @@
 ---
 title: 功能套件202004發行說明
 seo-title: 功能套件202004發行說明
-description: 請依照本頁取得2020年4月28日發行的AEM Screens Feature Pack 202004的資訊。
-seo-description: 請依照本頁取得2020年4月28日發行的AEM Screens Feature Pack 202004的資訊。
+description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
+seo-description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
 
 ---
 
@@ -15,11 +15,19 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 >
 >建議您升級至最新版的Adobe Experience Manager(AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
-AEM Screens已發行AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4，並提供下列詳細資訊。
+## 可用性 {#availability}
+
+AEM Screens已發行AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4。
+
+您可從待審連結下載AEM Screens 6.4.8或AEM Screens 6.5.4版本的最新功能 *套件*。
+
+>[!NOTE]
+>請參 [閱How to Work With Packages](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) ，瞭解軟體包如何啟用儲存庫內容的導入和導出，以及如何從Package Manager或Package Share訪問和／或維護軟體包。
+
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 202004的發行日期為2020年4月28日。
+AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
 ### 新功能 {#what-s-new}
 
