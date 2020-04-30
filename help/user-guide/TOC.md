@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager畫面說明
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
    + [螢幕最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [主要條款](screens-glossary.md)
 + 數位標牌網路基本概念 {#digital-signage-network}
-   + [第1部分：項目角色和責任](project-roles-responsibilities.md)
-   + [第二部分：項目範圍時的注意事項](project-considerations.md)
-   + [第3部分：測試、POC、試點和推展](testing-pocs-pilots-rollouts.md)
-   + [第四部分：專案管理與部署](project-management-and-deployment.md)
-   + [第5部分：支援考量事項](support-considerations.md)
+   + [第1部分： 項目角色和責任](project-roles-responsibilities.md)
+   + [第二部分： 項目範圍時的注意事項](project-considerations.md)
+   + [第3部分： 測試、POC、試點和推展](testing-pocs-pilots-rollouts.md)
+   + [第四部分： 專案管理與部署](project-management-and-deployment.md)
+   + [第5部分： 支援考量事項](support-considerations.md)
 + 配置和管理 {#administering}
    + [畫面伺服器組態](configuring-screens-introduction.md)
    + [設定Dispatcher配置](dispatcher-configurations-aem-screens.md)
@@ -65,7 +65,7 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
       + [內嵌序列](embedded-sequences.md)
       + [多區域版面](multi-zone-layout-aem-screens.md)
       + [視訊轉譯](generating-renditions.md)
-      + [使用動態內嵌序列](dynamic-embedded-sequences.md)
+      + [動態內嵌序列](dynamic-embedded-sequences.md)
       + [頻道層級大量影像播放持續時間](channel-level-image-playback.md)
       + [命令同步](using-command-sync.md)
       + [使用資料觸發器製作內容](authoring-data-triggers.md)
