@@ -4,7 +4,7 @@ seo-title: 功能套件202004發行說明
 description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
 seo-description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
 * **頻道控制面板**
 
-   更新渠道儀表板和離線對話方塊中的指示以讀取……「更新離線內容」取代「更新快取」一詞
+   反映「頻道資訊」面板中頻道控制面板 **中的指示** 更新。
 
 
 * **檢視資訊清單**
@@ -64,6 +64,8 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
    在此功能套件版本中，資產變更間的命令同步延遲已得到改善。
 
+   有關詳細 **[資訊，請參閱命令同步](using-command-sync.md)**。
+
 ### 已發行的AEM Screens播放器 {#released-aem-screens-players}
 
 AEM Screens已針對AEM Screens發行的AEM Screens Players發佈AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4:
@@ -72,6 +74,6 @@ AEM Screens已針對AEM Screens發行的AEM Screens Players發佈AEM 6.4 Feature
 * Windows
 * Android
 
-#### AEM Screens Player下載 {#aem-screens-player-downloads}
+#### AEM Screens Player下載  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱 [**AEM Screens Player下載&#x200B;**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱 **[AEM Screens Player下載](https://download.macromedia.com/screens/)**。
