@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
+source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 要完成本教學課程，需要以下內容：
 
-1. [AEM 6.5或](https://helpx.adobe.com/experience-manager/6-4/release-notes.html)[AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Latest Screens Feature Pack
+1. [AEM 6.5或](https://helpx.adobe.com/tw/experience-manager/6-4/release-notes.html)[AEM 6.3](https://helpx.adobe.com/tw/experience-manager/6-3/release-notes.html) + Latest Screens Feature Pack
 
 1. [AEM Screens 播放器](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. 當地開發環境
@@ -91,7 +91,7 @@ source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ## 建立Hello World元件 {#hello-world-cmp}
 
-Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以 [AEM Screens元件範本為基礎：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
+Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以 [AEM Screens元件範本為基礎： https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
 AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不一定適用。
 
@@ -135,8 +135,8 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
 
    畫面元件需要兩種不同的轉譯，視使 [用的製作模式](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) 而定：
 
-   1. **生產**:預覽或發佈模式(wcmmode=disabled)
-   1. **編輯**:用於所有其他製作模式，例如編輯、設計、腳手架、開發人員……
+   1. **生產**: 預覽或發佈模式(wcmmode=disabled)
+   1. **編輯**: 用於所有其他製作模式，例如編輯、設計、腳手架、開發人員……
    `helloworld.html`當做交換機，檢查哪個編寫模式目前處於活動狀態並重新導向至另一個HTL指令碼。 畫面元件使用的常見慣例是使用「編輯」 `edit.html` 模式的指令碼和「生 `production.html` 產」模式的指令碼。
 
 1. 在名為的下方建立檔 `/apps/weretail-run/components/content/helloworld` 案 `production.html.`
@@ -367,7 +367,7 @@ AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方
 
    上述樣式會將訊息置於畫面中央，但只會顯示在生產模式中。
 
-第三個clientlibrary類別：可用 `cq.screens.components.edit` 於將僅編輯的特定樣式添加到元件中。
+第三個clientlibrary類別： `cq.screens.components.edit` 可用來新增僅限編輯的特定樣式至元件。
 
 | Clientlib類別 | 使用狀況 |
 |---|---|
