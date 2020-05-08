@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+workflow-type: tm+mt
+source-wordcount: '1531'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +51,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 >
 >如需詳細資訊，請參閱 [Google檔案中的「取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key) 」。
 
-## 步驟1:設定資料儲存區 {#step-setting-up-a-data-store}
+## 步驟1: 設定資料儲存區 {#step-setting-up-a-data-store}
 
 您可以將資料儲存設定為本地I/O事件或本地資料庫事件。
 
@@ -67,7 +70,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 >[!NOTE]
 > 下列特定範例會將Google工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
 
-## 步驟2:設定儲存配置 {#step-setting-store-configurations}
+## 步驟2: 設定儲存配置 {#step-setting-store-configurations}
 
 1. **導覽至ContextHub**
 
@@ -91,6 +94,20 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
    1. 在「 **ContextHub設定** 」畫面中，按一 **下「建立** > **ContentHub商店設定」。**
 
       ![影像](/help/user-guide/assets/context-hub/context-hub5.png)
+
+      >[!CAUTION]
+      >作為AEM 6.5 Feature Pack 4或AEM 6.4 Feature Pack 8的一部分，客戶應更新 `/conf/screens/settings/cloudsettings` 為 `sling:Folder`。
+      >請遵循下列步驟：
+      >
+      >1. 導覽至CRXDE Lite，然後導覽至 `/conf/screens/settings/cloudsettings`。
+      >1. 檢查是否 `cloudsettings jcr:primaryType` 已進入 `sling:Folder`。 如果未 `jcr:primaryType` 在中， `sling:folder`請繼續下一步。
+      > 1. 按一下右鍵並 `/conf/screens/settings` 建立名稱為 *cloudsettings1的新節點* ，並且Type ********** as sling:FolderSave the changes。
+      >1. 將下面的所有節點移 `/conf/screens/settings/cloudsettings` 動到 `cloudsettings1`。
+      >1. 刪除 `cloudsettings` 並儲存。
+      >1. 重新命 `cloudsettings1` 名為 `cloudsettings` 並儲存。
+      >1. 您現在應該注意到/conf/screens/settings/cloudsettings `jcr:primaryType` 為 `sling:Folder`。
+您應依照作者的這些步驟進行，並在升級前後發佈。
+
 
    1. 輸入「 **Google Sheets** 」 **、「Google Sheets**」、「 **Store Title Store Type** Store As **Conthushub.jsontClickNextGoogle Sheets Name」為Google Sheets**************、Store Title Type Store As Conthub.
 
@@ -141,7 +158,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 您必須略過定義json的程式，並將其保留為空白。
 
 
-## 步驟3:在觀眾中設定區段 {#setting-up-audience}
+## 步驟3: 在觀眾中設定區段 {#setting-up-audience}
 
 1. **在觀眾中建立區段**
 
@@ -162,7 +179,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
    1. 同樣地，也可 **以設定Lowerthan** 50 **區段的ContextHub路徑和Segments路徑(ContextHub Path** ) **** 。
 
-## 步驟4:設定品牌和區域 {#setting-brand-area}
+## 步驟4: 設定品牌和區域 {#setting-brand-area}
 
 請依照下列步驟，在您的活動和品牌下方建立品牌：
 
@@ -180,8 +197,9 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 
       >[!CAUTION]
-      已知問題：若要新增區域，請從URL移除主版，例如
-      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      已知問題：
+若要新增區域，請從URL移除主版，例如
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **在品牌中建立區域**
 
@@ -196,7 +214,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
    1. 將標題輸 **入為** ScreensValue **，然後按一** 下Create ****。
 您的品牌中會建立一個區域。
 
-## 步驟5:在活動中建立區段 {#step-setting-up-audience-segmentation}
+## 步驟5: 在活動中建立區段 {#step-setting-up-audience-segmentation}
 
 設定資料儲存區並定義活動（品牌和區域）後，請依照下列步驟在活動中建立區段。
 
@@ -222,7 +240,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
       ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 步驟5:編輯觀眾中的區段{#editing-audience-segmentation}
+## 步驟5: 編輯觀眾中的區段{#editing-audience-segmentation}
 
 1. **編輯區段**
 
@@ -230,7 +248,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
    1. 選取區段 **Higherthan50**，然後從動作列按 **一下「編** 輯」。
 
-   1. 拖放比 **較：屬性** -編輯器的值元件。
+   1. 拖放比 **較： 屬性** -編輯器的值元件。
 
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
 
@@ -251,7 +269,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
       ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
    同樣地，請將屬性值編輯為 **Lowerthan50**。
 
-   1. 拖放比 **較：屬性** -編輯器的值元件。
+   1. 拖放比 **較： 屬性** -編輯器的值元件。
 
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
 
@@ -277,7 +295,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
 
    1. 將ContextHub路 **徑設為** , `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 並將 **Segments路徑設為「儲存**`/conf/screens/settings/wcm/segments`****&#x200B;縮合」。
 
-   1. 按一 **下儲存並關閉**。
+   1. Click **Save &amp; Close**.
 
       >[!NOTE]
       使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
@@ -291,7 +309,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
 
       ![影像](/help/user-guide/assets/context-hub/context-hub21.png)
 
-## 更多資訊：範例使用案例 {#learn-more-example-use-cases}
+## 更多資訊： 範例使用案例 {#learn-more-example-use-cases}
 
 在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
