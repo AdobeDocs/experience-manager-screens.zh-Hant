@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,10 @@ ht-degree: 0%
 
    1. 導覽至 **Zones** —> **Channels**—>**MultiZone**。
    1. 選擇「 **MultiZone** 」(多區域 **)頻道，然後從操** 作欄按一下「編輯」以開啟編輯器。
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **將影像新增至頻道**
 
-   若要在所有三個區域中播放單一影像或視訊，只需在色版編輯器中拖放影像，如下所示。
-
-   ![new1-1](assets/new1-1.gif)
+   若要在所有三個區域中播放單一影像或視訊，只需在色版編輯器中拖放影像即可。
 
 ### 在一或多個區域中使用排序的內容 {#using-sequenced-content-in-one-or-more-zones}
 
@@ -118,7 +115,7 @@ ht-degree: 0%
    1. 選擇其中一個區域中的嵌入序列。
    1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
-   同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
+   同樣地，將 **Zone2添加到** editor中的另一個嵌入序列元件。
 
    ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
