@@ -1,8 +1,8 @@
 ---
 title: 多區域版面
 seo-title: 多區域版面
-description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依照本頁進一步瞭解。
-seo-description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依照本頁進一步瞭解。
+description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依本頁瞭解詳細資訊。
+seo-description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依本頁瞭解詳細資訊。
 uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **建立渠道**
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫 **面」**。 或者，您也可以直接前往： `http://localhost:4502/screens.html/content/screens`。
+1. 依序選取Adobe Experience Manager連結（左上）和「畫 **面」**。 或者，您也可以直接前往： `http://localhost:4502/screens.html/content/screens`.
 1. 導覽至「 **Channels** 」檔案夾，然後按 **一下動作列中的「** 建立」。
 
 1. 從「 **建立精靈」中選取「左L列分割畫面色** 道」 **** 。
@@ -64,7 +67,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **新增內容至頻道**
 
-   1. 導覽至 **Zones** —&gt; **Channels**—&gt;**MultiZone**。
+   1. 導覽至 **Zones** —> **Channels**—>**MultiZone**。
    1. 選擇「 **MultiZone** 」(多區域 **)頻道，然後從操** 作欄按一下「編輯」以開啟編輯器。
    ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
@@ -80,43 +83,51 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **建立渠道資料夾**
 
-   1. 導航至「 **區域** 」 —&gt;「多 **區域** 」 —&gt;「通道」 **，然後從操****** 作欄中按一下「建立」。
+   1. 導航至「 **區域** 」 —>「多 **區域** 」 —>「通道」 **，然後從操****** 作欄中按一下「建立」。
    1. 從「建 **立」精靈中選取「頻道資料夾** 」，然後按一下「下 **一步******」。
    1. 輸入標題為 **EmbeddedChannels** ，然後單 **擊Create**。
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **新增兩個渠道至渠道資料夾**
 
-   1. 導覽至「 **Zones** —&gt; **Channels** —&gt; **EmbeddedChannels** 」 ，然後從操作欄 **** 中按一下「建立Create Channels」。
-   1. 從「 **Create****** （建立）」嚮導中選擇「Sequence Channel（序列渠道）」以建立名為** Zone1**的渠道。
+   1. 導覽至「 **Zones** —> **Channels** —> **EmbeddedChannels** 」 ，然後從操作欄 **** 中按一下「建立Create Channels」。
+   1. 從「 **建立** 」精靈中選取「順序渠道」，以建立名為「 **Zone1」的渠道******。
    1. 選擇 **Zone1** ，然後從操作欄 **中按一下Edit** （編輯）以開啟編輯器。
    1. 將幾張影像拖放至此頻道。
    同樣地，在EmbeddedChannels資料夾中建立另一個名 **為Zone2** 的 **序列渠道** 。
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
+   新增至 **Zone1序列頻道編輯器的影像** ，如下所示：
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+
+   新增至 **Zone2序列頻道編輯器的影像** ，如下所示：
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+
 1. **將嵌入序列／元件添加到主通道（多區域）**
 
-   1. 導覽至 **Zones** —&gt; **Channels** —&gt; **MultiZone**。
+   1. 導覽至 **Zones** —> **Channels** —> **MultiZone**。
    1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
-   1. 將「嵌入序 **列」(Embedded Sequence** )元件拖放到兩個區域，如下圖所示。
-   ![新](assets/new.gif)
+   1. 將「嵌入序 **列」元件拖放到** 其中兩個區域。
 
 1. **將內容新增至所有三個區域**
 
-   1. 導覽至 **Zones** —&gt; **Channels** —&gt; **MultiZone**。
+   1. 導覽至 **Zones** —> **Channels** —> **MultiZone**。
    1. 選擇其中一個區域中的嵌入序列。
-   1. 按一 **下編輯器中** 其中一個內嵌序列的「設定（扳手）」圖示。
-   1. 選擇通道路徑 **為Zones** —&gt; **Channels** —&gt; **EmbeddedChannels** —&gt; **** Zone1Zone，如下圖所示。
-   同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。 此外，將影像新增至底部的第三個區域，如下所示。
+   1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
+   1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
+   同樣地，將 **Zone2添加到** editor中的另一個嵌入序列元件。
 
-   ![new2-1](assets/new2-1.gif)
+   ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 #### 查看結果 {#viewing-the-result}
 
 使用上述步驟實施多區域版面後，會顯示下列輸出，如下圖所示。
 
-Screens Player中的下列輸出會在三個不同區域顯示內容。 左側和右側區域（兩者都使用內嵌序列做為元件）顯示影像順序，下方區域則顯示靜態影像。
+Screens Player中的下列輸出會在三個不同區域顯示內容。 左側和右側區域（兩者都使用內嵌序列做為元件）顯示影像順序，而下方區域則顯示靜態影像。
 
-![new2-2](assets/new2-2.gif)
+![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+
 
