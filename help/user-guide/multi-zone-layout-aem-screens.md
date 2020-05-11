@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
    1. 選擇其中一個區域中的嵌入序列。
    1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
-   同樣地，將 **Zone2添加到** editor中的另一個嵌入序列元件。
+   同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
 
    ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
@@ -126,7 +126,10 @@ ht-degree: 0%
 
 使用上述步驟實施多區域版面後，會顯示下列輸出，如下圖所示。
 
-Screens Player中的下列輸出會在三個不同區域顯示內容。 左側和右側區域（兩者都使用內嵌序列做為元件）顯示影像順序，而下方區域則顯示靜態影像。
+按一下 **頻道編輯器** 「預覽」，檢視下列輸出，以在兩個不同區域顯示內容。 左側和右側區域（兩者都使用嵌入序列作為元件）。
+
+>[!NOTE]
+>如果您嘗試在「畫面播放器」中檢視內容，請務必按一下「頻道控制面板 **中的更新離線內容** 」。
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
