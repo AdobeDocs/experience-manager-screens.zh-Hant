@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
    1. 選擇其中一個區域中的嵌入序列。
    1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
-   1. 同樣地，將 **Zone2添加到** editor中的另一個嵌入序列元件。
+   1. 同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
@@ -176,7 +176,7 @@ ht-degree: 0%
    >[!NOTE]
    >如果您嘗試在「畫面播放器」中檢視內容，請務必按一下「頻道控制面板 **中的更新離線內容** 」。
 
-#### 查看結果 {#viewing-the-result}
+### 查看結果 {#viewing-the-result}
 
 使用上述步驟實作多區域版面後，會顯示下列輸出。
 
