@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
+source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 0%
 
 ---
 
@@ -35,18 +35,18 @@ ht-degree: 1%
 
 根據專案需求，有時您需要一個通道中的多個區域，並將它們作為一個完整單元進行編輯。 例如，產品序列，其相關社交媒體摘要會在單一頻道的三個獨立區域中執行。
 
-## 建立多區域版面 {#creating-multi-zone-layout}
-
-建立渠道時，您可以使用不同的範本，以便在渠道中建立區域。 您可以新增單一影像、視訊或內嵌頻道，讓多個資產可以在序列中顯示。
 
 ### 必備條件 {#prerequisites}
 
-開始實作此功能之前，請確定您已準備好專案，做為開始實作多區域版面的先決條件。 例如，
+在開始實作此功能之前，請確定您對以下方面的概念性知識：
 
-* 建立標題為「區域」的AEM Screens專 **案**
-* 在「位置」( **Locations** )下建立標 **題為**「多區域顯示」(MultiZoneDisplay)的顯示。
+* [建立AEM Screens專案](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [建立顯示](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [指派頻道至顯示](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-建立名為「區域中的 **MultiZone** 」 **專案的渠道** 。 請遵循下列步驟：
+## 建立多區域版面 {#creating-multi-zone-layout}
+
+建立渠道時，您可以使用不同的範本，以便在渠道中建立區域。 您可以新增單一影像、視訊或內嵌頻道，讓多個資產可以在序列中顯示。
 
 **建立渠道**
 
@@ -65,20 +65,18 @@ ht-degree: 1%
 
 1. **新增內容至頻道**
 
-   1. 導覽至 **Zones** —> **Channels**—>**MultiZone**。
+   1. 導覽至 **Zones** —> **Channels**—> **MultiZone**。
    1. 選擇「 **MultiZone** 」(多區域 **)頻道，然後從操** 作欄按一下「編輯」以開啟編輯器。
 
 1. **將影像新增至頻道**
 
    若要在兩個區域中播放單一影像或視訊，只需將影像拖放至頻道編輯器中的每個區域，如下圖所示：
 
-   MultiZone-img3
-
    ![影像](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### 在一或多個區域中使用排序的內容 {#using-sequenced-content-in-one-or-more-zones}
 
-如果您希望區域在兩個不同區域中顯示影像或內容以及靜態影像的序列，請遵循以下步驟瞭解詳細資訊。
+如果您希望區域在兩個不同區域中顯示影像和視頻的序列，請遵循以下步驟瞭解詳細資訊。
 
 1. **建立渠道資料夾**
 
@@ -101,7 +99,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   新增至 **Zone2序列頻道編輯器的視訊** ，如下所示：
+   將視訊新增至 **Zone2序列頻道的編輯器** ，如下圖所示：
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -110,16 +108,12 @@ ht-degree: 1%
    1. 導覽至 **Zones** —> **Channels** —> **MultiZone**。
    1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
    1. 將「嵌入序 **列」元件拖放到** 其中兩個區域。
-
-1. **將內容新增至所有三個區域**
-
-   1. 導覽至 **Zones** —> **Channels** —> **MultiZone**。
    1. 選擇其中一個區域中的嵌入序列。
    1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
-   同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
+   1. 同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
 
-   ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### 建立位置和顯示 {#creating-location}
 
@@ -152,12 +146,14 @@ ht-degree: 1%
    1. 按一下&#x200B;**「儲存」**。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. 同樣地，您必須使用步驟(2)將其他兩個嵌入通道(**Zone1** 和 **Zone2**)指派給此顯示。
+   1. 同樣地，您必須將其他兩個嵌入通道(**Zone1****和Zone2**)分配給此顯示。
    1. 在您將所有三個頻道指派給 **Lobby** display後，您就可以從顯示控制面板檢視指派的頻道。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-img8.png)
-   >[!I重要]
-   > 一旦將主通道(在本例中為 **MultiZone**)指定給顯示器，則必須將其他兩個嵌入通道 **Zone1** 和 **** Zone2也指定給同一顯示器。
+
+
+      >[!I重要]
+      > 一旦將主通道(在本例中為 **MultiZone**)指定給顯示器，則必須將其他兩個嵌入通道 **Zone1** 和 **** Zone2也指定給同一顯示器。
 
 ### 註冊設備 {#registering-device}
 
@@ -169,21 +165,22 @@ ht-degree: 1%
    1. 選擇「 **Devices** （設備）」資料夾，然後從操 **作欄中按一下「Device Manager** （設備管理器）」。
    1. 按一 **下「裝置註冊** 」，然後從清單中選取待審裝置。
       >[!NOTE]
-      > 裝置的「標題」必須符合「裝置註冊」標&#x200B;**簽中顯示的裝** 置Token(Token **欄位)** 。
+      > 裝置的標題必須符合「裝置註冊」標籤中顯&#x200B;**示的裝置Token** ( **Token欄位)** 。
    1. 如果標題符合裝置Token，請選取裝置，然後從動作列按一 **下「註冊裝置** 」。
-   1. 如果註冊代碼與「畫面播放器」註冊標籤中的代碼相符，請按一下 **動作列的** 「驗證」。
+   1. 如果註冊代碼與「Screens player **Device Registration** 」（畫面播放器裝置註冊）標籤中的代碼相符 **，請按一下** 動作列中的「Validate」（驗證）。
       ![影像](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. 將「標 **題** 」輸 **入為Chrome-Device1** ，然後按一 **下「註冊**」。
    1. 選擇 **指定顯示** ，然後選擇設備配置的路徑。
+   >[!NOTE]
+   >如果您嘗試在「畫面播放器」中檢視內容，請務必按一下「頻道控制面板 **中的更新離線內容** 」。
 
 #### 查看結果 {#viewing-the-result}
 
-使用上述步驟實施多區域版面後，會顯示下列輸出，如下圖所示。
+使用上述步驟實作多區域版面後，會顯示下列輸出。
 
 勾選「畫面播放器」以檢視顯示兩個不同區域內內容的輸出。 左側和右側區域（兩者都使用嵌入序列作為元件）。
 
->[!NOTE]
->如果您嘗試在「畫面播放器」中檢視內容，請務必按一下「頻道控制面板 **中的更新離線內容** 」。
+左區域是序列頻道，右區域包含視訊。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
