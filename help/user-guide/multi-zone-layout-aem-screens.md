@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ ht-degree: 0%
    1. 從「 **建立** 」精靈中選取「順序渠道」，以建立名為「 **Zone1」的渠道******。
    1. 選擇 **Zone1** ，然後從操作欄 **中按一下Edit** （編輯）以開啟編輯器。
    1. 將幾張影像拖放至此頻道。
-   同樣地，在EmbeddedChannels資料夾中建立另一個名 **為Zone2** 的 **序列渠道** 。
+   1. 同樣地，在EmbeddedChannels資料夾中建立另一個名 **為Zone2** 的 **序列渠道** 。
+   1. 將視訊拖放至此頻道。
+   下圖顯示了通道 **Zone1** 和 **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   將視訊新增至 **Zone2序列頻道的編輯器** ，如下圖所示：
+   新增至 **Zone2序列頻道編輯器的視訊** ，如下所示：
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,11 +109,11 @@ ht-degree: 0%
 
    1. 導覽至 **Zones** —> **Channels** —> **MultiZone**。
    1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
-   1. 將「嵌入序 **列」元件拖放到** 其中兩個區域。
+   1. 將「嵌入序列」( **Embedded Sequence** )元件拖放到兩個區域。
    1. 選擇其中一個區域中的嵌入序列。
    1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
-   1. 同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
+   1. 同樣地，將 **Zone2添加到** editor中的另一個嵌入序列元件。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
