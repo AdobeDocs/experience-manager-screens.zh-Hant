@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
@@ -115,7 +115,7 @@ ht-degree: 1%
 
    1. 導覽至 **Zones** —> **Channels** —> **MultiZone**。
    1. 選擇其中一個區域中的嵌入序列。
-   1. 按一 **下編輯器中** 其中一個內嵌序列的「設定（扳手）」圖示。
+   1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
    同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
 
@@ -151,7 +151,7 @@ ht-degree: 1%
    1. 將支援的 **事件設定為** 「初始 **負載」、「**&#x200B;空閒螢幕 **」和「******&#x200B;計時器」。
    1. 按一下&#x200B;**「儲存」**。
 
-      ![影像](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![影像](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. 同樣地，您必須使用步驟(2)將其他兩個嵌入通道(**Zone1** 和 **Zone2**)指派給此顯示。
    1. 在您將所有三個頻道指派給 **Lobby** display後，您就可以從顯示控制面板檢視指派的頻道。
 
@@ -169,7 +169,7 @@ ht-degree: 1%
    1. 選擇「 **Devices** （設備）」資料夾，然後從操 **作欄中按一下「Device Manager** （設備管理器）」。
    1. 按一 **下「裝置註冊** 」，然後從清單中選取待審裝置。
       >[!NOTE]
-      > 裝置的「標題」必須符合「裝置註冊」標&#x200B;**簽中顯示的裝置** Token(Token **欄位)** 。
+      > 裝置的「標題」必須符合「裝置註冊」標&#x200B;**簽中顯示的裝** 置Token(Token **欄位)** 。
    1. 如果標題符合裝置Token，請選取裝置，然後從動作列按一 **下「註冊裝置** 」。
    1. 如果註冊代碼與「畫面播放器」註冊標籤中的代碼相符，請按一下 **動作列的** 「驗證」。
       ![影像](/help/user-guide/assets/multi-zone/multizone-img6.png)
