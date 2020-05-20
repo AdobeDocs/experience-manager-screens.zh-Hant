@@ -4,7 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager畫面說明
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 3%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [連接畫面播放器](working-with-screens-player.md)
    + [裝置註冊](device-registration.md)
    + [設定ACL](setting-up-acls.md)
+   + [AEM Screens安全性檢查清單](security-checklist.md)
    + [從ContentSync轉換到SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器複製至發佈伺服器](replicating-data-triggers.md)
