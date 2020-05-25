@@ -5,7 +5,10 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
+source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -59,6 +62,7 @@ source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![影像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. 將路徑複製到您的專案中，此時路徑為 `/apps/settings/wcm/designs/customstyle`。
