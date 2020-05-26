@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 必備條件 {#prerequisites}
 
-在開始實作此功能之前，請確定您對以下方面的概念性知識：
+開始實作此功能之前，請確定您已具備以下概念性知識：
 
 * [建立AEM Screens專案](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [建立顯示](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 在一或多個區域中使用單一資產 {#using-single-assets-in-one-or-more-zones}
 
-您可以在所有三個不同的區域中使用單一資產，例如影像或視訊。 請依照下列步驟進行實施：
+您可以在所有個別區域中使用單一資產，例如影像或視訊。 請依照下列步驟進行實施：
 
 1. **新增內容至頻道**
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ### 在一或多個區域中使用排序的內容 {#using-sequenced-content-in-one-or-more-zones}
 
-如果您希望區域在兩個不同區域中顯示影像和視頻的序列，請遵循以下步驟瞭解詳細資訊。
+如果您希望區域在不同區域中顯示影像和視頻的序列，請遵循以下步驟瞭解詳細資訊。
 
 1. **建立渠道資料夾**
 
@@ -111,7 +111,7 @@ ht-degree: 0%
    1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
    1. 將「嵌入序列」( **Embedded Sequence** )元件拖放到兩個區域。
    1. 選擇其中一個區域中的嵌入序列。
-   1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
+   1. 按一 **下編輯器中** 其中一個內嵌序列的「設定（扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
    1. 同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
    1. 從「創 **建** 」嚮導中選擇「顯 **示」** ，然後按一下「 **下一步**」。
    1. 將標題輸 **入為** Lobby **，然後按一下** 建立 ****。
 
-### 將頻道指派給顯示 {#channel-channel}
+### 指派渠道至顯示 {#channel-channel}
 
 您必須將頻道指派給顯示，才能檢視內容。 請依照下列步驟，將頻道指派給顯示器。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
    1. 將「標 **題** 」輸 **入為Chrome-Device1** ，然後按一 **下「註冊**」。
    1. 選擇 **指定顯示** ，然後選擇設備配置的路徑。
    >[!NOTE]
-   >如果您嘗試在「畫面播放器」中檢視內容，請務必按一下「頻道控制面板 **中的更新離線內容** 」。
+   >如果您嘗試在「畫面」播放器中檢視內容，請務必從頻道控制面板按一下「 **Update Offline Content** 」（更新離線內容），以取得指派給顯示器的每個頻道。
 
 ### 查看結果 {#viewing-the-result}
 
