@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 1%
 
 ---
@@ -71,11 +71,9 @@ DemoProject **將會新增** 至您的AEM畫面。
 
 1. **導覽至We.Retail中的「網站」頁面**
 
-   1. 導覽至「網站」並選 **擇「We.Retail In-Store** -> **United States** ->英文&#x200B;**,****** Select EquipmentPage」，將此作為螢幕頻道的體驗片段。
+   1. 導覽至「網站」並選取「 **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** 」，然後選取此頁面，將其當做您的「畫面」頻道的體驗片段。
 
    1. 從動 **作列按一下** 「編輯」，以開啟您要用作「畫面」頻道體驗片段的頁面。
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **重新使用內容**
 
