@@ -10,7 +10,10 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +55,7 @@ SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
 >
 >如果您已安裝AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，則可以啟用SmartSync for assets，以改善磁碟空間使用。 要啟用SmartSync，請按照以下章節從ContentSync轉換到SmartSync，從而啟用SmartSync。
 >
->SmartSync適用於支援伺服器AEM 6.4.3 FP3的Screens Player。
+>SmartSync適用於支援的伺服器AEM 6.4.3 FP3的Screens Player。
 >
 >請參閱「 [AEM Screens Player Downloads](https://download.macromedia.com/screens/) 」（AEM畫面播放器下載）以下載最新的播放器。 下表說明每個平台所需的最低播放器版本：
 
@@ -74,11 +77,11 @@ SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
    >
    >首次使用SmartSync之前，必須清除所有內容快取。
 
-1. 透過 **AEM例項** —&gt; hammer圖示—&gt; **Operations** —&gt; **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console設定**開啟。 搜尋 *offlinecontentservices*。
+1. **Adobe Experience Manager Web Console設定**開啟。 搜尋offlinecontentservice **。
 
    若要搜尋 **Screens Offline Content** Service **，請按** Command+F **(尋找** Mac)和 **F(F)****** Control+F（針對WindowsWindows）屬性。
 
