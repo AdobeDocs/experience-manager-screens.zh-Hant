@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -81,13 +81,13 @@ SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console設定**開啟。 搜尋offlinecontentservice **。
+1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋offlinecontentservice **。
 
    若要搜尋 **Screens Offline Content** Service **，請按** Command+F **(尋找** Mac)和 **F(F)****** Control+F（針對WindowsWindows）屬性。
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. 按一 **下「儲存** 」以啟用「畫面 **** 離線內容服務」屬性，因此可針對AEM畫面使用SmartSync。
-1. 啟用SmartSync後，您必須導覽至您的專案，然後按一下「 **Update Offline Content***（從動作列）* 」，如下圖所示。
+1. 啟用SmartSync後，您必須導覽至您的專案，然後按一下「 **Update Offline Content***（從動作列）」* ，如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
