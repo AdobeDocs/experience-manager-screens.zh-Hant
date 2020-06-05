@@ -5,7 +5,10 @@ description: 安裝Screens Player
 seo-description: 安裝Screens Player
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+source-git-commit: 6d123b844831dd5c07261bcadd170029f972ee7d
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ## 可用畫面播放器 {#available-players}
 
-AEM Screens播放器適用於Android、Chrome OS、iOS和Windows。
+AEM Screens播放器適用於Android、Chrome OS和Windows。
 
 若要下 **載AEM Screens Player**，請造訪 [AEM 6.5 Player下載頁面](https://download.macromedia.com/screens/) 。
 
