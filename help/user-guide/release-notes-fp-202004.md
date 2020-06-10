@@ -4,10 +4,10 @@ seo-title: 功能套件202004發行說明
 description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
 seo-description: 請依照本頁取得2020年4月20日發行的AEM Screens Feature Pack 202004的資訊。
 translation-type: tm+mt
-source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '392'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 2%
 
 AEM Screens已發行AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4。
 
-您可以使用Adobe ID從 [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) ，下載AEM Screens 6.4.8或AEM Screens 6.5.4版的最新功能套件。
-
->[!NOTE]
->請參 [閱How to Work With Packages](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) ，瞭解軟體包如何啟用儲存庫內容的導入和導出，以及如何從Package Manager或Package Share訪問和／或維護軟體包。
-
+您可以使用Adobe ID從「軟體散發入口網站」下載AEM Screens 6.4.8或AEM Screens 6.5.4版的最 [新功能套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) 。 導覽至 **Adobe Experience Manager** 標籤，並搜尋 **Screens** ，以取得最新的功能套件。
 
 ## 發行日期 {#release-date}
 
