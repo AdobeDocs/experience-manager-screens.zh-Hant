@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 * **概覽**
 * **在AEM畫面中使用體驗片段**
-* **從主版頁面傳播變更**
+* **將更改傳播到頁面**
 
 ## 概覽 {#overview}
 
@@ -163,7 +163,7 @@ DemoProject **將會新增** 至您的AEM畫面。
 您會從您的頻道中 **的** 「網站」頁面（體驗片段的即時副本）檢視內容，如下圖所示：\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## 從主版頁面傳播變更 {#propagating-changes-from-the-master-page}
+## 將更改傳播到頁面 {#propagating-changes-from-the-master-page}
 
 ***即時副本*** 是指由同步動作（如轉出組態所定義）維護的復本（來源）。
 
