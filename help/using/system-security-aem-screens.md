@@ -4,12 +4,18 @@ seo-title: AEM畫面的安全性檢查清單
 description: 此頁面說明AEM畫面的安全性檢查清單
 seo-description: 此頁面說明AEM畫面的安全性檢查清單
 translation-type: tm+mt
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 1%
 
 ---
 
 
 # AEM畫面的系統安全性考量 {#security-checklist}
+
+>[!IMPORTANT]
+>這是內部Git資源。
 
 本頁反白顯示「AEM畫面的系統安全性考量」。
 
