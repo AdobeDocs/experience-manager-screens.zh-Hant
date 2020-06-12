@@ -2,7 +2,7 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -55,7 +55,7 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並儲�
 
 下表概述了網路連接關鍵資料：
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >該資訊允許您查看網路中請求和下載網際網路源的每台設備的使用情況。 因此，每個請求都會加總並延長下載時間。
