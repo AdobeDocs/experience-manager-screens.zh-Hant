@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%
@@ -132,7 +132,7 @@ ht-degree: 0%
 1. 更新拓撲連接器URL: 新增所有參與發佈例項的URL，其為：
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. 允許拓撲連接器清單： 適應涵蓋參與發佈實例的IP或子網
+1. **拓撲連接器白名單**: 適應涵蓋參與發佈實例的IP或子網
 1. 啟 **用自動停止本地環路**
 
 每個發佈實例的配置應相同，而自動停止本地循環可防止無限循環。
