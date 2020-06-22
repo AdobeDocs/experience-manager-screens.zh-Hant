@@ -2,9 +2,9 @@
 title: 行動網路設定
 description: 該頁介紹了移動網路設定
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,18 @@ Adobe AEM Screens Player也可以使用至少執行3G網路的行動／行動網
 此SetUp可讓AEM Screen Users擁有絕佳的彈性，因為不需要固定線路就能連線AEM Screens。
 
 
-## 設定直接接入網路的要求 {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**疑難排解提示&#x200B;**>如果AEM畫面未正確連線，且未顯示預期的內容：
+>
+>1. 如果Internet路由器防火牆有任何限制，請檢查該防火牆 `TCP/IP Port 80/443`。
+>1. 請確定允許所有需要的埠並重試。
+
+
+
+
+## 設定行動網路設定的需求 {#requirements-direct}
 
 5.5中所述的網路設定可以在邏輯上分成三個塊。 WAN/Outer World/Internet連接塊（此處為移動資料連接）、內部LAN/區域網路以及由活動網路元件分隔的可選LAN子部分。
 為提供最佳效能，必須確保兩節皆符合建議的最低標準。
@@ -41,7 +52,7 @@ AEM Screens為數位標牌使用者提供了重大優勢。 它會下載並本�
 ·我預期會變更多少內容，平均檔案大小為何？
 作為後續行動，所需的資料套件必須至少：
 資料封裝容量=用戶端數目*（內容檔案數目*平均檔案大小）請確定有足夠的緩衝區。
-注意： 對於媒體檔案的初始上傳，例如整合新播放器時，必須預期資料量會增加，下載時間會增加，並反映在上述假設中。
+注意： 對於媒體檔案的初始上傳，例如整合新播放器時，必須預期資料量會較高，而且下載時間會較長，並反映在上述假設中。
 經驗證，4G網路具有「良好」的覆蓋範圍和無限資料，應該與此網路設定中最常見的安裝相匹配
 
 
