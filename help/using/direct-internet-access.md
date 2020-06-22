@@ -2,9 +2,9 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ AEM Screens通訊的標準埠包括：
 此組態也包含任何網際網路服務供應商(ISP)及其網際網路連線所提供的網際網路存取功能。 大部分的ISP都提供網際網路路由器，涵蓋網際網路調制解調器、網路交換機、WIFI存取點、防火牆和其他網路功能（視製造商和機型而定）。
 
 >[!NOTE]
->**疑難排解提示&#x200B;**>如果AEM Screens無法正確連線並顯示預期的內容：
+>**疑難排解提示&#x200B;**>如果AEM畫面未正確連線，且未顯示預期的內容：
 >
 >1. 如果Internet路由器防火牆有任何限制，請檢查該防火牆 `TCP/IP Port 80/443`。
 >1. 請確定允許所有需要的埠並重試。
