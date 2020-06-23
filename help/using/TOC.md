@@ -5,7 +5,7 @@ getting-started-title: AEM Screens最佳實務指南
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
+source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 76%
@@ -36,7 +36,7 @@ ht-degree: 76%
 + 部署簡介 {#deployment-brief}
    + [AEM 平台組態](aem-platform-configurations.md)
    + [專案分類與實作](project-taxonomy-implementation.md)
-   + 管理網路流量 {#manage-network-traffic}
+   + 網路流量管理 {#manage-network-traffic}
       + [直連網際網路（有線／無線）](/help/using/direct-internet-network.md)
       + [直接行動網路](/help/using/mobile-network.md)
       + [具有移動資料路由器和活動網路元件的移動網路](/help/using/mobile-network-router.md)
