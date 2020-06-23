@@ -4,15 +4,15 @@ seo-title: 標準網路設定簡介
 description: 此頁介紹標準網路設定
 seo-description: 此頁介紹標準網路設定
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# 標準網路設定簡介 {#intro-standard-networks}
+# 管理網路流量 {#managing-network-traffic}
 
 網路設定可以有各種結構。 本節概述在環境中部署的網路結構。 有些不同的設定，有時從頭開始實作。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 代理伺服器的優勢在於，它的快取可以為所有用戶服務。 如果經常要求一或多個網際網路網站，這些網站可能會位於Proxy的快取中，這將改善使用者的回應時間。 Proxy也可記錄其互動，這有助於疑難排解。
 
-## 瞭解網路設定 {#network-setups}
+## 瞭解標準網路設定 {#network-setups}
 
 要實施網路設定，您必須參考以下具有優勢和部署詳細資訊的方案。
 
