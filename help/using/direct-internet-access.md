@@ -2,9 +2,9 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,7 @@ AEM Screens通訊的標準埠包括：
 1. 確保「Network Adapter Setting（網路適配器設定）」與「Router Setting（路由器設定）」匹配，並檢查是否未到達網路中的「Maximum of available IP addresses（最大可用IP地址數量）」。
 
 1. 檢查路由器是否正確連接到ISP廣域網（Internet鏈路）。這通常也可以使用標準路由器上的信號LED來標識。
-1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並據以註冊
-1. 開始AEM Screens。
+1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並依此註冊。 開始AEM Screens。
 
    >[!NOTE]
    >**疑難排解提示**
@@ -62,7 +61,9 @@ AEM Screens通訊的標準埠包括：
 
 ### 廣域網 {#wan-connection}
 
-除了網路連線外，網際網路連線的效能是提供足夠的頻寬，讓AEM Screens順暢地運作。 詳細說明，「足夠」取決於連線的AEM螢幕數量，以及網路內其他消費者的使用情形，例如智慧型手機、平板電腦、收銀機、電腦或來賓WIFI網路。
+除了網路連線外，網際網路連線的效能是提供足夠的頻寬，讓AEM Screens順暢地運作。
+
+*足夠* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓WIFI網路。
 
 >[!NOTE]
 >所有設備都可同時訪問網際網路連接，而頻寬通常在向網路添加更多消費者／電腦時線性下降。
@@ -83,9 +84,10 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 例如，在正常作業中，定義的播放清單在一天中不會經常變更，當所有檔案都儲存在播放器上後，這可提供接近網路獨立作業。
 對於與感測器或其他觸發器互動較多且內容動態的使用案例，快速可靠的網路連線是立即進行螢幕反應以確保最佳客戶體驗的關鍵。
 
-下表概述了網路連接關鍵資料：
+下表概述了網路連接關鍵資料。
+
+>[!NOTE]
+>該資訊允許您查看網路中請求和下載網際網路源的每台設備的使用情況。 每個請求都會加總並延長下載時間。
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->該資訊允許您查看網路中請求和下載網際網路源的每台設備的使用情況。 因此，每個請求都會加總並延長下載時間。
