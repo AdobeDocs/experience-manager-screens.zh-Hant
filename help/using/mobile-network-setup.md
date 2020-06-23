@@ -2,9 +2,9 @@
 title: 直接行動網路
 description: 本頁介紹直接移動網路設定
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來
 
 
 1. 確保網路適配器設定與路由器設定匹配。
-1. 檢查路由器是否正確連接到ISP廣域網（Internet鏈路）。這通常也可以使用標準路由器上的信號LED來標識。
+
+1. 檢查路由器是否正確連接到ISP廣域網（Internet鏈路）。此外，還可使用標準路由器上的信號指示燈來標識。
 
 1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並依此註冊。 開始AEM Screens。
 
@@ -84,7 +85,7 @@ AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來
 * 預期會變更多少個內容，平均檔案大小為何？
 
 >[!NOTE]
->所需的資料包至少必須是：
+>所需的資料包必須至少：
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
