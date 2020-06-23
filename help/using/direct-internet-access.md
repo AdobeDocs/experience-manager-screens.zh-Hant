@@ -2,7 +2,7 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -72,7 +72,7 @@ AEM Screens通訊的標準埠包括：
 區域網路(LAN)的效能除了網路連線能力外，還提供足夠的頻寬，讓AEM畫面順暢運作。
 
 LAN網路通常至少與100 MBit/s網路匹配，因此有足夠的頻寬將許多效能良好的設備連接到系統。
-如果設想使用WIFI解決方案將AEM畫面連接至網際網路連結，建議您至少使用IEEE 802.11g等現代WIFI標準。 此標準支援高達54 Mbit的連接。 任何 *較新的* 「標準」（例如802.11h-n）都能提供更佳的品質。
+如果設想使用WIFI解決方案將AEM畫面連接至網際網路連結，建議您至少使用IEEE 802.11g等現代WIFI標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」（例如802.11h-n）都能提供更佳的品質。
 
 >[!NOTE]
 >如果需要WIFI中繼器，我們強烈建議使用Mesh WIFI存取點技術，例如Google Nest Mesh WIFI或類似技術。 其他WiFi重複技術最終導致整個網路的頻寬大量丟失。
