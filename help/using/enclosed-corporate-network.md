@@ -2,15 +2,15 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# 封閉的公司網路 {#enclosed-corporate-networks}
+# 封閉的公司網路（有線／無線） {#enclosed-corporate-networks}
 
 附屬公司網路設定適用於小型，大型和企業企業。 理論上可能更複雜，但邏輯設定如下圖所示。
 
