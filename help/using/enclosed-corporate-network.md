@@ -2,9 +2,9 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ AEM Screens為數位標牌使用者提供了重大優勢。 它會下載並本�
 
 下表提供了對網路連接關鍵資料對預期效能和潛在等待時間的影響的良好概述。
 
-所有資訊都必須視為網路中每個裝置在要求和下載網際網路來源時的耗用量。 因此，每個請求都會加總並延長下載時間。
+>[!NOTE]
+>所有資訊都必須視為網路中每個裝置在要求和下載網際網路來源時的耗用量。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/enclosed-network-download.png)
