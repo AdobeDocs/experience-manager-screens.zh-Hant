@@ -4,9 +4,9 @@ seo-title: 標準網路設定簡介
 description: 此頁介紹標準網路設定
 seo-description: 此頁介紹標準網路設定
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 
 網路設定有三種主要類型：
 
-1. [直接網際網路存取](/help/using/direct-internet-access.md)
-1. [直接行動網路](/help/using/mobile-network-setup.md)
-1. [具有移動資料路由器和活動網路元件的移動網路](/help/using/mobile-network-setup-router.md)
-1. [封閉的公司網路](/help/using/enclosed-corporate-network.md)
+1. [直連網際網路（有線／無線）](/help/using/direct-internet-network.md)
+1. [直接行動網路](/help/using/mobile-network.md)
+1. [具有移動資料路由器和活動網路元件的移動網路](/help/using/mobile-network-router.md)
+1. [封閉的公司網路（有線／無線）](/help/using/enclosed-corporate-network.md)
 
 下表列出了各種網路設定的優缺點：
 
