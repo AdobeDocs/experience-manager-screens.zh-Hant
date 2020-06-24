@@ -1,12 +1,10 @@
 ---
 title: 標準網路設定簡介
-seo-title: 標準網路設定簡介
 description: 此頁介紹標準網路設定
-seo-description: 此頁介紹標準網路設定
 translation-type: tm+mt
-source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
