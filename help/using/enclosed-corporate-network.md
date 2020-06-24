@@ -2,9 +2,9 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ ht-degree: 0%
 
 ### 其他公司網路詳情 {#other-networks}
 
-通常，公司網路中確實有連接的設備負載，可能被分成各種子網路，並可能有冗餘或多路復用的Internet連接，以提供足夠的效能，用於數千次併發訪問。
-上述架構已簡化，在大多數情況下都適合客戶端的環境。
-如果設想使用WiFI解決方案將螢幕連接到Internet Link ，建議使用IEEE 802.11g等現代WIFI標準作為最低標準。 此標準支援高達54 Mbps的連接。 任何像802.11h-n這樣的「較新」標準都具有較高的品質。 如果需要WIFI中繼器，我們強烈建議使用Mesh WIFI存取點技術，例如Google Nest Mesh WIFI或類似技術。
+通常，公司網路中連接了大量設備，可能被分成各種子網路，並可能有冗餘或多路復用的Internet連接，以提供足夠的效能，用於數千次併發訪問。
+此架構已簡化，在大多數情況下適合客戶端的可用環境。
+
+如果設想使用WIFI解決方案將螢幕連線至網際網路連結，建議您至少使用現代WIFI `IEEE 802.11g` 標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」 `802.11h-n` 都能提供更佳的品質。 如果需要WIFI中繼器，我們強烈建議使用Mesh WIFI存取點技術，例如Google Nest Mesh WIFI或類似技術。
 其他WiFi重複技術最終導致整個網路的頻寬大量丟失。
 
 ## 下載媒體和資產 {#download}
