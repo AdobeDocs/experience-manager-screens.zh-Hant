@@ -2,9 +2,9 @@
 title: 直接行動網路
 description: 本頁介紹直接移動網路設定
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,14 @@ AEM Screens Player也可以使用至少在3G網路上執行的行動或行動網
 
 1. 請確定每個AEM Screen播放器都已連線至Routers Network。
 
-1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
+1. 在您的系統瀏覽器中呼叫URL，以測試網際網路連線。
 
    >[!NOTE]
    >如果您收到錯誤訊息，請檢查網路設定，並交叉檢查是否有足夠的網路連結，且作業系統防火牆已設定為允許使用已設定的AEM Screens通訊埠進行網路存取。
 
 1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並註冊。 開始AEM Screens。
 
-## 設定行動網路設定的需求 {#requirements-direct}
+## 設定直接移動網路 {#requirements-direct}
 
 網路設定可以在邏輯上分成兩個塊：
 
