@@ -2,9 +2,9 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    >1. 確保允許所有必需的埠。
 
 
-## 建立封閉式公司網路的要求 {#requirements-enclosed-networks}
+## 設定封閉的公司網路 {#requirements-enclosed-networks}
 
 封閉的公司網路設定可在邏輯上分成兩個塊：
 
