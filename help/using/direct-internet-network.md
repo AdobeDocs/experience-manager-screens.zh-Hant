@@ -2,9 +2,9 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,6 @@ Direct Internet Network包含可存取網際網路的入口存取點，以便存
 
 AEM Screens通訊的標準埠包括：
 * `http (TCP Port 80)`
-
    <br>或,</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -32,7 +31,7 @@ AEM Screens通訊的標準埠包括：
 請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
 
 1. 請確定每個AEM Screen播放器都已連線至Routers Network。
-1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
+1. 在您的系統瀏覽器中呼叫URL，以測試網際網路連線。
 
    >[!NOTE]
    >如果收到錯誤，請檢查網路設定。正常網路連接基本上有兩個選項：
@@ -53,7 +52,7 @@ AEM Screens通訊的標準埠包括：
    >1. 確保允許所有必需的埠。
 
 
-## 設定直接接入網路的要求 {#requirements-direct}
+## 設定直接訪問網路 {#requirements-direct}
 
 Direct Internet Network邏輯上分為兩個塊：
 
@@ -63,7 +62,7 @@ Direct Internet Network邏輯上分為兩個塊：
 
 ### 廣域網 {#wan-connection}
 
-除了網路的可達性外，網際網路連線的效能是提供足夠的頻寬，以運作AEM畫面。
+除了網路的可達性外，網際網路連線的效能是提供足夠的頻寬來運作AEM畫面。
 
 *足夠* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
 
