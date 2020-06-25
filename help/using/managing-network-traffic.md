@@ -2,7 +2,7 @@
 title: 管理網路流量
 description: 該頁介紹標準網路設定以及如何管理網路流量。
 translation-type: tm+mt
-source-git-commit: d27abdfd92336279bf2c6abe4d2ae38b6e9077bf
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
