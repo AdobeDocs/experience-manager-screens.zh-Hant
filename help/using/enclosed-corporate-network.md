@@ -2,7 +2,7 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
 
 1. 請確定每個AEM Screen播放器都已連線至Routers Network。
-1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
+1. 在您的系統瀏覽器中呼叫URL，以測試網際網路連線。
 
    >[!NOTE]
    >如果收到錯誤，請檢查網路設定。正常網路連接基本上有兩個選項：
