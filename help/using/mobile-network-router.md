@@ -2,9 +2,9 @@
 title: 具有移動資料路由器和活動網路元件的移動網路
 description: 本頁介紹具有移動資料路由器和活動網路元件的移動網路
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 # 具有移動資料路由器和活動網路元件的移動網路 {#mobile-network-setup}
 
-Adobe AEM Screens Player也可使用至少執行3G網路的行動或行動網路連線。
+Adobe AEM Screens Player也可以使用至少執行3G網路的行動或行動網路連線。
 
-在「AEM畫面」中，必要的內容會實際下載至播放器控制器或電腦，並正確儲存在基礎作業系統中。 因此，給定的頻寬只影響初始下載時間，而絲毫不影響顯示系統效能。
+在AEM Screens中，必要的內容會實際下載至播放器控制器或電腦，並正確儲存在基礎作業系統中。 因此，給定的頻寬只影響初始下載時間，而絲毫不影響顯示系統效能。
 
 此設定的好處是，移動路由器可以放在最佳位置，以確保最佳的可用網路覆蓋。 這通常處於高開的位置，盡可能少地圍繞混凝土或金屬結構。
 此SetUp可讓AEM Screen使用者靈活彈性，因為不需要固定線路即可連線至AEM Screens。
 
-下圖顯示了具有移動資料路由器和活動網路元件配置的移動網路，並包含通過使用自己的3/4/5G資料鏈路的直接Internet Access對任何AEM螢幕控制器進行Internet訪問。
+下圖顯示了具有移動資料路由器和活動網路元件配置的移動網路，並包含通過使用自己的3/4/5G資料鏈路進行直接網際網路訪問的任何AEM螢幕控制器的Internet訪問。
 
 ![](/help/using/assets/mobile-network-1.png)
 
 ## 將AEM Screens Player與行動網路與行動資料路由器和作用中網路元件連接 {#connecting-aem-screens-players}
 
-請依照下列步驟，在此設定中連線AEM Screen Player:
+請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
 
 此設定包含使用專屬3/4/5G資料連結，透過直接網際網路存取任何AEM畫面控制器的網際網路存取。
 
 1. 請確定行動資料路由器已正確連接至行動資料網路，如作業系統中所指，且每個AEM螢幕播放器都已連接至路由器網路。
 1. 在您的系統瀏覽器中呼叫URL，以測試網際網路連線。
    >[!NOTE]
-   >如果收到錯誤消息，請檢查網路設定。正常網路連接基本上有兩個選項：
+   >如果收到錯誤，請檢查網路設定。正常網路連接基本上有兩個選項：
    >* DHCP
    >* 手動IP配置
 
@@ -44,10 +44,9 @@ Adobe AEM Screens Player也可使用至少執行3G網路的行動或行動網路
 
    >[!NOTE]
    >**疑難排解提示**
-   >如果AEM畫面未正確連線，且未顯示預期的內容：
+   >如果AEM畫面未正確連線，且預期的內容未顯示：
    >
    >1. 如果Internet路由器防火牆有任何限制，請檢查該防火牆 `TCP/IP Port 80/443`。
-   >1. 確保允許所有需要的埠。
 
 
 
@@ -61,21 +60,19 @@ Adobe AEM Screens Player也可使用至少執行3G網路的行動或行動網路
 
 ### 行動網際網路連線 {#mobile-internet-connection}
 
-除了已描述的網路連線能力外，網際網路連線的效能還提供足夠的頻寬，讓AEM Screens順暢地運作。
+除了已描述的網路連線能力外，網際網路連線的效能還能提供足夠的頻寬，讓AEM Screens順暢地運作。
 
-*足夠* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓WIFI網路。
+*足夠* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
 請記住，所有裝置都可同時存取網際網路連線，而且頻寬通常會線性降低，同時增加更多消費者／電腦至網路。
 除了具體的理論網路連接外，還必須確保移動路由器的覆蓋範圍至少是「良好」的。 此外，基本的每月計畫還必須涵蓋足夠的資料容量和足夠的頻寬，以便為連接的LAN內的所有連接客戶端服務。
-資料網路提供標準頻寬，包括：
 
-**3G**
-* 42 Mbps
+下表重點介紹了資料網路及其標準頻寬：
 
-**4G**
-* 150 Mbps
-
-**5G**
-* 1000 Mbps-10000 Mbps
+| 資料網路 | 頻寬 |
+|--- |--- |
+| 3G | 42 Mbps |
+| 4G | 150 Mbps |
+| 5G | 1000 - 10000 Mbps |
 
 在考慮應使用哪個資料網路時，建議您回答以下問題：
 
@@ -84,7 +81,7 @@ Adobe AEM Screens Player也可使用至少執行3G網路的行動或行動網路
 * 預期會變更多少個內容，平均檔案大小為何？
 
 >[!NOTE]
->所需的資料包必須至少：
+>所需的資料包至少必須是：
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
@@ -97,7 +94,7 @@ Adobe AEM Screens Player也可使用至少執行3G網路的行動或行動網路
 
 例如，網路元件至少應符合100 Mbps標準，並與Internet訪問／路由器規範提供的頻寬相匹配。
 
-如果設想使用WIFI解決方案將螢幕連接到Internet Link，建議至少使用IEEE 802.11g等現代WIFI標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」（例如802.11h-n）都能提供更佳的品質。 如果需要WIFI中繼器，我們強烈建議使用Mesh WIFI存取點技術，例如Google Nest Mesh WIFI或類似技術。
+如果設想使用Wi-Fi解決方案將螢幕連接到Internet Link ，建議至少使用IEEE 802.11g等現代Wi-Fi標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」（例如802.11h-n）都能提供更佳的品質。 如果需要Wi-Fi中繼器，我們強烈建議使用Mesh Wi-Fi接入點技術，例如Google Nest Mesh Wi-Fi或類似技術。
 
 ## 下載媒體和資產 {#download}
 
