@@ -2,9 +2,9 @@
 title: 具有移動資料路由器和活動網路元件的移動網路
 description: 本頁介紹具有移動資料路由器和活動網路元件的移動網路
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe AEM Screens Player也可以使用至少執行3G網路的行動或行動網
 
 
 
-## 使用移動資料路由器和活動網路元件設定移動網路的要求 {#requirements-direct}
+## 使用移動資料路由器和活動網路元件設定移動網路 {#requirements-direct}
 
 網路設定可以在邏輯上分成兩個塊：
 
