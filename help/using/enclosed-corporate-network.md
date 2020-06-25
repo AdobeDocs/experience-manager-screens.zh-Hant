@@ -2,9 +2,9 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,33 @@ ht-degree: 0%
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+
+## 將AEM Screens Player連線至Direct Internet Access {#connecting-aem-screens-players}
+
+請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
+
+1. 請確定每個AEM Screen播放器都已連線至Routers Network。
+1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
+
+   >[!NOTE]
+   >如果收到錯誤，請檢查網路設定。正常網路連接基本上有兩個選項：
+   >* DHCP
+   >* 手動IP配置
+
+
+1. 請確定「Network Adapter Setting（網路適配器設定）」與「Router Settings（路由器設定）」匹配，並檢查網路中是否未達到最大可用IP地址數。
+
+1. 檢查路由器是否正確連接到ISP廣域網（Internet鏈路）。 此外，還可使用標準路由器上的信號LED來識別。
+1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並註冊。 開始AEM Screens。
+
+   >[!NOTE]
+   >**疑難排解提示**
+   >如果AEM畫面未正確連線，且預期的內容未顯示：
+   >
+   >1. 如果Internet路由器防火牆有任何限制，請檢查該防火牆 `TCP/IP Port 80/443`。
+   >1. 確保允許所有必需的埠。
+
+
 ## 建立封閉式公司網路的要求 {#requirements-enclosed-networks}
 
 封閉的公司網路設定可在邏輯上分成兩個塊：
@@ -26,7 +53,7 @@ ht-degree: 0%
 ### 廣域網 {#wan-connection}
 
 除了網路連線外，網際網路連線的效能是提供足夠的頻寬，讓AEM Screens順暢地運作。
-*足夠的頻寬* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓WIFI網路。
+*足夠的頻寬* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
 
 >[!NOTE]
 >所有設備都可同時訪問網際網路連接，而頻寬通常在您向網路添加更多消費者或電腦時線性減少。
@@ -44,8 +71,8 @@ ht-degree: 0%
 通常，公司網路中連接了大量設備，可能被分成各種子網路，並可能有冗餘或多路復用的Internet連接，以提供足夠的效能，用於數千次併發訪問。
 此架構已簡化，在大多數情況下適合客戶端的可用環境。
 
-如果設想使用WIFI解決方案將螢幕連線至網際網路連結，建議您至少使用現代WIFI `IEEE 802.11g` 標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」 `802.11h-n` 都能提供更佳的品質。 如果需要WIFI中繼器，我們強烈建議使用Mesh WIFI存取點技術，例如Google Nest Mesh WIFI或類似技術。
-其他WiFi重複技術最終導致整個網路的頻寬大量丟失。
+如果設想使用Wi-Fi解決方案將螢幕連接到Internet Link，建議使用現代Wi-Fi標準， `IEEE 802.11g` 如最低標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」 `802.11h-n` 都能提供更佳的品質。 如果需要Wi-Fi中繼器，我們強烈建議使用Mesh Wi-Fi接入點技術，例如Google Nest Mesh Wi-Fi或類似技術。
+其他Wi-Fi重複技術最終導致整個網路的頻寬嚴重丟失。
 
 ## 下載媒體和資產 {#download}
 
