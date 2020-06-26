@@ -2,9 +2,9 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ### 廣域網 {#wan-connection}
 
-除了網路連線外，網際網路連線的效能是提供足夠的頻寬，讓AEM Screens順暢地運作。
+除了網路連線的效能外，網際網路連線還必須提供足夠的頻寬，以順暢地執行AEM Screens內容更新。
 *足夠的頻寬* ，視連線的AEM螢幕數量以及網路內其他消費者（例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路）的使用情況而定。
 
 >[!NOTE]
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ### 區域網路 {#lan-connection}
 
-區域網路(LAN)除了具備網路連線能力外，其效能還可提供足夠的頻寬，讓AEM畫面順暢運作。
+區域網路(LAN)的效能除了網路連線能力外，還必須提供足夠的頻寬，以順暢地執行AEM Screens內容更新。
 
 企業組織內的LAN網路通常至少為1000 MBit/秒網路，因此有足夠的頻寬將許多效能良好的設備連接到系統。 使用其他活動網路元件時，必須確保所有元件都符合網路頻寬要求。
 
-例如，網路元件至少應符合1000 Mbps標準，並與Internet訪問／路由器規範提供的頻寬相匹配。
+例如，網路元件至少應符合100 Mbps標準，並與Internet訪問／路由器規範提供的頻寬相匹配。
 
 ### 其他公司網路詳情 {#other-networks}
 
