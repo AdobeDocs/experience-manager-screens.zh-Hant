@@ -2,9 +2,9 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,11 @@ ht-degree: 0%
 Direct Internet Network包含可存取網際網路的入口存取點，以便存取AEM Screens所需的AEM Cloud服務。
 
 AEM Screens通訊的標準埠包括：
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
+
    <br>或,</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`，如果您的特定使用案例不需要該等級的安全性。
 
 埠可能因您專用AEM組態設定的組態而異。 在此SetUp中，所有設備都直接連接到您的Internet路由器，如下圖所示。
 
@@ -30,8 +31,8 @@ AEM Screens通訊的標準埠包括：
 
 請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
 
-1. 請確定每個AEM Screen播放器都已連線至Routers Network。
-1. 在您的系統瀏覽器中呼叫URL，以測試網際網路連線。
+1. 請確定每個AEM螢幕播放器都已連線至路由器的網路。
+1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
 
    >[!NOTE]
    >如果收到錯誤，請檢查網路設定。正常網路連接基本上有兩個選項：
