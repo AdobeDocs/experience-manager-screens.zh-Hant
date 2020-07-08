@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -156,8 +156,9 @@ ht-degree: 0%
 由於每個發佈實例預設具有唯一的加密密鑰，因此您需要在每個發佈實例上執行此步驟，並保存下次配置的唯一密鑰。
 
 >[!NOTE]
->密碼應以大括弧開頭和結尾。
->例如：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd5919828d1fa0a610e}
+>
+>密碼應以大括弧開頭和結尾。 例如：
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 步驟4: 激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
