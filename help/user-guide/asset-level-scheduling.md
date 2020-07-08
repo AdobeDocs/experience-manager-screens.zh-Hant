@@ -4,7 +4,10 @@ seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 0%
 
 ---
 
@@ -103,6 +106,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 
 >[!NOTE]
+>
 >您也可以使 _用軍事時間_ （即14:00）來取代 *am/pm* （即2:00 pm）。
 
 ### 周分割 {#week-parting}
@@ -126,6 +130,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 | 蒙杜 | 資產在頻道中從星期一到星期四播放 |
 
 >[!NOTE]
+>
 >您也可以使 _用完整記號_ （即週一、週三、週五），而不 _使用簡寫記號_ （即Mon、Wed、Fri）。
 
 
