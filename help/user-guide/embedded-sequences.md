@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 0%
 
 ---
 
@@ -56,6 +59,7 @@ source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 預設情況下，它設定為 **正常**。 將值設為 **normal** （播放所有項目）表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 **Play a single item** (Play a single item)，而且每個執行中只會顯示一個子項目（例如，第一個循環中的第一個項目、第二個循環中的第二個項目等）。
 
 >[!IMPORTANT]
+>
 >您必須將頻道（用於內嵌序列）指派給相同的顯示。
 >
 >在前述步驟中新增內嵌序列至渠道後，請遵循下列步驟：
@@ -63,14 +67,17 @@ source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 >1. 導覽至顯示，然後從「位置」檔案夾選 **取顯** 示。
 >1. 從動作列 **按一下** 「控制面板」，以導覽至顯示控制面板。
 >1. 從「已 **指派的頻道** 」和「已排程」面板選取「+指派頻道」 **，以開啟「頻道** 指派」對話方塊 ****。
+
    >
    >
 1. 在渠道路徑中選擇您（用於嵌入序列）的渠道 **路徑**。
 >1. 請確定「優 **先順序** 」低於主渠道。
+
    >
    >
 1. 您不得選擇任何支 **援的事件**。
 >1. 完成 **後** ，按一下「儲存」。
+
 >
 
 
