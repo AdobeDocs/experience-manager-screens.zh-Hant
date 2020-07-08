@@ -4,7 +4,10 @@ seo-title: AEM螢幕的測試與品質保證
 description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 seo-description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 translation-type: tm+mt
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +24,12 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 應建立一個核對表，該核對表標識所有先前定義的KPI，並根據這些KPI測量交付項。
 
 >[!NOTE]
-> 此階段也應當做建立安裝與使用指南的工具，稍後可隨附設備，並留在現場供日後參考。
+>
+>此階段也應當做建立安裝與使用指南的工具，稍後可隨附設備，並留在現場供日後參考。
 
 應考慮以下因素：
 
-## 1.機械注意事項 {#mechanical-considerations}
+## 1. 機械注意事項 {#mechanical-considerations}
 
 建議使用下列機械注意事項：
 
@@ -36,7 +40,7 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 * 電纜管理
 * 設備聯網
 
-## 2.軟體考量事項 {#software-considerations}
+## 2. 軟體考量事項 {#software-considerations}
 
 建議使用下列軟體考量事項：
 
@@ -46,7 +50,7 @@ source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 * 資料庫依賴性（先前定義）
 
 
-## 3.設備管理注意事項 {#device-management-considerations}
+## 3. 設備管理注意事項 {#device-management-considerations}
 
 
 AEM Screens包含Device Control Center模組，可讓您管理Screens播放器應用程式端點。
@@ -62,6 +66,7 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 若要詳細瞭解裝置控 ***制中心***，請參閱 [AEM Screens使用指南中的疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)****。
 
 >[!CAUTION]
+>
 > 您不應使用Device Control Center來：
 >
 > 1. 安裝新版播放器應用程式
@@ -72,6 +77,7 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 
 
 >[!NOTE]
+>
 > Adobe建議所有部署應使用專用的第三方裝置管理平台。
 
 選擇的特定平台取決於多個因素，包括目 ***標作業系統******、項目需*** 求 ******&#x200B;和端點數。
