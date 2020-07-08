@@ -2,7 +2,7 @@
 title: 直接行動網路
 description: 本頁介紹直接移動網路設定
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -30,7 +30,7 @@ AEM Screens Player也可以使用至少在3G網路上執行的行動或行動網
 
 1. 請確定每個AEM Screen播放器都已連線至Routers Network。
 
-1. 在您的系統瀏覽器中呼叫URL，以測試網際網路連線。
+1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
 
    >[!NOTE]
    >如果您收到錯誤訊息，請檢查網路設定，並交叉檢查是否有足夠的網路連結，且作業系統防火牆已設定為允許使用已設定的AEM Screens通訊埠進行網路存取。
@@ -69,9 +69,11 @@ AEM Screens Player也可以使用至少在3G網路上執行的行動或行動網
 
 
 >[!IMPORTANT]
+>
 >對於媒體檔案的初始上傳，例如整合新播放器時，必須預期資料量會增加，下載時間也會增加，並反映在上述假設中。4G網路應符合此網路設定中最常見的安裝方式 **** ,且覆蓋率良好且資料不限。
 
 >[!NOTE]
+>
 >具備良好網路涵蓋率的最低3G計畫，應可為AEM Screens播放器提供可接受的下載效能。 如果在特定位置僅有公平的覆蓋範圍，則應考慮將整個網路設定切換到具有移動資料路由器和活動網路元件的 [移動網路](/help/using/mobile-network-router.md)。
 
 
@@ -92,6 +94,7 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 下表概述了網路連接關鍵資料。
 
 >[!NOTE]
+>
 >所有資訊都是指網路中每個設備在請求和下載網際網路源時的消耗。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/download-times-mobile.png)
