@@ -4,7 +4,7 @@ seo-title: AEM Screens專案角色和責任
 description: 此頁面說明AEM Screens專案角色和責任
 seo-description: 此頁面說明AEM Screens專案角色和責任
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 4%
@@ -23,6 +23,7 @@ ht-degree: 4%
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > 這些職位中的許多職位可能是內部的，也可能是外包的，具體取決於每個項目的設定方式。
 
 ## 定義角色 {#roles}
@@ -83,7 +84,7 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 
 >[!NOTE]
 >
-> 若要詳細瞭解數位標牌專案的不同角色和責任以及目標受眾，請造訪專 **[案角色和責任](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**。
+>若要詳細瞭解數位標牌專案的不同角色和責任以及目標受眾，請造訪專 **[案角色和責任](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**。
 
 
 ## 專案階段 {#project-stages}
@@ -98,7 +99,7 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 
 >[!NOTE]
 >
-> 雖然本指南主要強調&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但要執行一個成功的數位告示牌專案，必須注意全部三個階段。關注專案管理與部 **[署的其他影片](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**，以瞭解專案前制、專案開始和專案進展。
+>雖然本指南主要強調&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但要執行一個成功的數位告示牌專案，必須注意全部三個階段。關注專案管理與部 **[署的其他影片](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**，以瞭解專案前制、專案開始和專案進展。
 
 ## RACI圖表 {#raci-chart}
 
@@ -106,7 +107,7 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 
 >[!NOTE]
 >
-> 此圖表並非完全遵循，而是提供AEM Screens專案中常見工作與考量的範例。
+>此圖表並非完全遵循，而是提供AEM Screens專案中常見工作與考量的範例。
 
 ### RACI定義 {#raci-definitions}
 
@@ -175,7 +176,7 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 
 >[!NOTE]
 >
-> 角色在第二天變更（發佈後支援）。
+>角色在第二天變更（發佈後支援）。
 
 * **作者**: 內容管理+策略
 
