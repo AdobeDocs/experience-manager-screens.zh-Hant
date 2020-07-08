@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -17,6 +17,7 @@ ht-degree: 2%
 以下頁介紹如何使用命令同步。 命令同步允許在不同播放器之間同步播放。 玩家可以播放不同的內容，但每個資產需要有相同的持續時間。
 
 >[!IMPORTANT]
+>
 >此功能不支援內嵌序列、動態內嵌序列、應用程式頻道或轉場。
 
 ## 概覽 {#overview}
@@ -32,6 +33,7 @@ ht-degree: 2%
 下節說明如何在AEM Screens專案中使用「命令同步」。
 
 >[!NOTE]
+>
 >對於同步播放，要求所有硬體設備具有相同的硬體規格，最好是相同的作業系統。 不建議在不同的硬體和作業系統之間同步。
 
 ### 設定專案 {#setting-up}
@@ -101,7 +103,8 @@ ht-degree: 2%
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> 您可以將多個裝置設為主裝置。
+>
+>您可以將多個裝置設為主裝置。
 
 ### 與Master同步 {#sync-up-master}
 
@@ -124,6 +127,7 @@ ht-degree: 2%
 將設備或設備同步到主設備後，可以從該設備中取消同步分配。
 
 >[!NOTE]
+>
 >如果您取消同步主設備，它也會取消連結與該主設備關聯的所有客戶端設備。
 
 若要從主裝置移除同步，請遵循下列步驟：
