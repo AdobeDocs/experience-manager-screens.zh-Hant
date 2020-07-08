@@ -4,7 +4,10 @@ seo-title: 原型
 description: 本頁面說明AEM Screens專案的原型
 seo-description: 此頁面說明AEM Screens專案的原型
 translation-type: tm+mt
-source-git-commit: 750ee1552065932e65c6709037a6a3feaa4e342c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -30,4 +33,5 @@ source-git-commit: 750ee1552065932e65c6709037a6a3feaa4e342c
 >[!NOTE]
 >
 > 在UX設計階段，確認擷取的資料可充分支援UI設計。
+>
 > 例如，並非所有決策者都熟悉其產品資料庫的資料結構。 他們可以在其UX解決方案上選擇不是資料層中主欄位的描述符。 及早找出可能需要控制資料的地方，並將資料傳達給用戶端，以避免日後出現誤解。 如果用戶端決定在開發開始後擴充或變更UI標籤，則需要付出更多努力來配合變更。
