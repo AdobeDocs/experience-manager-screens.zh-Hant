@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 在您建立畫面專案後，請依照下列步驟為畫面專案建立新的頻道：
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接前往： `https://localhost:4502/screens.html/content/screens`。
+1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接前往： `https://localhost:4502/screens.html/content/screens`.
 1. 導覽至「畫面」專案，然後按一下「 **頻道」**。
 1. 按一 **下動作列** 中加號圖示旁的「建立」。 將會開啟精靈(如&#x200B;*需詳細資訊，請參閱頻道類型*)。
 
@@ -69,6 +72,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 >您可以使用上述的範本選項（例如1x2、2x2或2到3個分割螢幕色版）來建立不同的區域。
 
 >[!IMPORTANT]
+>
 > 在您建立內容並新增至頻道後，下一步是建立位置，然後建立顯示。 此外，您還需要將該頻道指派給顯示器。 請參閱本節結尾的下列資源，以進一步瞭解。
 
 ## 使用渠道 {#working-with-channels}
@@ -143,7 +147,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 1. **將渠道設為離線**
    1. 選擇渠道，然後從操 **作欄** 中選擇「屬性」
    1. 導覽至「 **Channel** 」索引標籤，並確定您已取消勾選「 **開發人員模式」（強制channel to be online）選項**
-   1. 按一 **下儲存並關閉**
+   1. Click **Save &amp; Close**
 1. **更新離線內容**
    1. 選取渠道，然後從動 **作列選取** 「儀表板」
    1. 導覽至「 **頻道資訊** 」面板，然後按 *一下……*
@@ -210,7 +214,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
   <tr>
    <td>線上通路的變更</td>
    <td>自動更新內容</td>
-   <td><p>在「裝置：推播設定」</p> <p>或,</p> <p>裝置上更新的 <strong><i>內容：重新啟動</i></strong></p> </td>
+   <td><p>在「裝置： 推播設定」</p> <p>或,</p> <p>裝置上更新的 <strong><i>內容： 重新啟動</i></strong></p> </td>
   </tr>
   <tr>
    <td>離線頻道中的變更，但不會觸發頻道的「推播內容」（無離線封裝重新建立）</td>
@@ -220,7 +224,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
   <tr>
    <td>離線頻道和頻道「推播內容」的變更會觸發（新的離線套件）</td>
    <td>自動更新內容</td>
-   <td><p>裝置上更新的 <strong><i>內容：推送設定</i></strong></p> <p>或,</p> <p>裝置上更新的 <strong><i>內容：重新啟動</i></strong></p> </td>
+   <td><p>裝置上更新的 <strong><i>內容： 推送設定</i></strong></p> <p>或,</p> <p>裝置上更新的 <strong><i>內容： 重新啟動</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>設定中的變更</p>
@@ -231,7 +235,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
      <li>頻道指派（角色、事件、排程）</li>
     </ul> </td>
    <td>自動更新設定</td>
-   <td><p>裝置上的設定已 <strong><i>更新：推送設定</i></strong></p> <p>或,</p> <p>裝置上的設定已 <strong><i>更新：重新啟動</i></strong></p> </td>
+   <td><p>裝置上的設定已 <strong><i>更新： 推送設定</i></strong></p> <p>或,</p> <p>裝置上的設定已 <strong><i>更新： 重新啟動</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -250,6 +254,7 @@ source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 >
 >* [建立和管理位置](managing-locations.md)
 >* [建立和管理顯示](managing-displays.md)
+
 >
 
 
