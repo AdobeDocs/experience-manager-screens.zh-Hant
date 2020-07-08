@@ -11,7 +11,10 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +41,9 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 
 ### 常用選項 {#common-options}
 
-* *類型*:要使用的更新處理常式類型
-* *路徑*:資源路徑
-* *[targetRootDirectory]*:zip檔案中的目標檔案夾
+* *類型*: 要使用的更新處理常式類型
+* *路徑*: 資源路徑
+* *[targetRootDirectory]*: zip檔案中的目標檔案夾
 
 <table>
  <tbody>
@@ -52,17 +55,17 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
   <tr>
    <td>頻道</td> 
    <td>收集渠道</td> 
-   <td>擴充功能：要收集的資源擴展<br /> [pathSuffix="]:要添加到通道路徑的尾碼<br /> </td> 
+   <td>擴充功能： 要收集的資源擴展<br /> [pathSuffix="]: 要添加到通道路徑的尾碼<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
    <td>收集指定的用戶端程式庫</td> 
-   <td>[extension="]:可以是css或js，只收集前者，或僅收集後者</td> 
+   <td>[extension="]: 可以是css或js，只收集前者，或僅收集後者</td> 
   </tr>
   <tr>
    <td>assetrenditions</td> 
    <td>收集資產轉譯</td> 
-   <td>[轉譯=[]:要收集的轉譯清單。 預設為原始轉譯</td> 
+   <td>[轉譯=[]: 要收集的轉譯清單。 預設為原始轉譯</td> 
   </tr>
   <tr>
    <td>複製</td> 
@@ -97,7 +100,7 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. 導覽至渠道屬性，並確定「渠道」標籤下的核取方塊已 **停用** 。 按一 **下儲存並關閉**。
+1. 導覽至渠道屬性，並確定「渠道」標籤下的核取方塊已 **停用** 。 Click **Save &amp; Close**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
@@ -114,4 +117,5 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
-> 若要進一步瞭解自訂離線資源處理常式的範本，以及該特定專案的最低需求，請參 `pom.xml` 閱「開發AEM畫面的自訂元件」中的「自訂處理常式 [範本」](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)****。
+>
+>若要進一步瞭解自訂離線資源處理常式的範本，以及該特定專案的最低需求，請參 `pom.xml` 閱「開發AEM畫面的自訂元件」中的「自訂處理常式 [範本」](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)****。
