@@ -11,7 +11,10 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,8 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 >[!CAUTION]
 >
->只有在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時，才能使用此AEM Screens功能。\
+>只有在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時，才能使用此AEM Screens功能。
+>
 >若要存取其中一個功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
 本節涵蓋下列主題：
@@ -30,7 +34,7 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ## Adobe Analytics與AEM畫面的排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-排序 ******程式從啟動Adobe Analytics服務的資料儲存服務開始。 渠道內容會以薪資傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 這些事件將保存到索引資料庫中，並進一步放入對象儲存中。 管理員根據調度設定，從對象儲存中剪下資料，並進一步在塊儲存中傳輸資料。 它嘗試在連線時傳送最大資料量。
+排序 ****** 程式從啟動Adobe Analytics服務的資料儲存服務開始。 渠道內容會以薪資傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 這些事件將保存到索引資料庫中，並進一步放入對象儲存中。 管理員根據調度設定，從對象儲存中剪下資料，並進一步在塊儲存中傳輸資料。 它嘗試在連線時傳送最大資料量。
 
 ### 順序圖 {#sequencing-diagram}
 
@@ -132,7 +136,7 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
    <td>recommended</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>事件子類型（建立、更新、刪除、發佈等）-使用者動作的其他詳細資訊</td> 
+   <td>事件子類型（建立、更新、刪除、發佈等） -使用者動作的其他詳細資訊</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -272,7 +276,7 @@ source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
   <tr>
    <td> </td> 
    <td>作業系統版本</td> 
-   <td>source.os.version</td> 
+   <td>source.os_version</td> 
    <td>必要（含執行）</td> 
    <td>字串</td> 
    <td> </td> 
