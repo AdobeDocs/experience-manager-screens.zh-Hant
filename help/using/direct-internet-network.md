@@ -2,9 +2,9 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,12 @@ Direct Internet Network邏輯上分為兩個塊：
 
 ### 廣域網 {#wan-connection}
 
-除了網路的可達性外，網際網路連線的效能是提供足夠的頻寬來運作AEM畫面。
+除了網路的可達性外，網際網路連線的效能是提供足夠的頻寬，以運作AEM畫面。
 
 *足夠* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
 
 >[!NOTE]
+>
 >上述所有裝置都可同時存取網際網路連線，而且當您新增更多消費者或電腦至網路時，頻寬會線性降低。
 
 ### 區域網路 {#lan-connection}
@@ -78,6 +79,7 @@ LAN網路通常至少與100 Mbps網路匹配，因此有足夠的頻寬將許多
 如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議您至少使用現代Wi-Fi `IEEE 802.11g` 標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」 `802.11h-n` 都能提供更佳的品質。
 
 >[!NOTE]
+>
 >如果需要Wi-Fi Repeater，強烈建議使用Mesh Wi-Fi接入點，如Google Nest Mesh Wi-Fi或類似的接入點。 其他Wi-Fi重複技術最終導致整個網路的頻寬嚴重丟失。
 
 ## 下載媒體和資產 {#download}
@@ -91,6 +93,7 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 下表概述了網路連接關鍵資料。
 
 >[!NOTE]
+>
 >該資訊允許您查看請求和下載網際網路源的網路中每個設備的使用情況。 每個請求都會加總並延長下載時間。
 
 ![](/help/assets/download-times-direct.png)
