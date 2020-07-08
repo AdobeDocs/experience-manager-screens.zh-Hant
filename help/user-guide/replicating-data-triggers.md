@@ -4,7 +4,10 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 請依照下列步驟，將資料觸發器複製至發佈伺服器。
 
-### 步驟1:複製ContextHub配置 {#replicating-contexthub-configurations}
+### 步驟1: 複製ContextHub配置 {#replicating-contexthub-configurations}
 
 1. 導覽至「 **工具** >部署 **>散發** >發佈代理」 **>****** 「發佈代理」，然後按一下以設定您的發佈代理設定。
 
@@ -59,7 +62,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 1. 按一 **下「下** 一步」 **和「發佈**」。
 
-### 複製活動 {#replicating-activities}
+### 複製活動  {#replicating-activities}
 
 1. 導覽至您的AEM例項>個人 **化** >活 **動** ，或 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 直接導覽。
 
@@ -87,9 +90,9 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 如果在複製ContextHub配置時測試連線失敗，請依照下列章節疑難排解問題：
 
-1. 導覽至「工具>部 **署** > **散發** >發 **布代理」**。
+1. 導覽至「工具>部 **署** >散發 **>發** 布代理」 ****。
 
-1. 從動 **作列按一下** 「編輯」，並確定「匯入工具端點」欄位中的端點URL **** ，也會指向Distribution agent中的發佈伺服器URL。
+1. 從動 **作列按一下** 「編輯」，並確定「匯入工具端點」欄位中的端點URL **** ，也會指向Distribution Agent中的發佈伺服器URL。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則需要使用不同的使用者名稱和密碼來設定散發代理。
