@@ -5,7 +5,7 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -82,6 +82,7 @@ ht-degree: 1%
 1. 按一 **下「儲存並關閉** 」以更新設計路徑。
 
 >[!IMPORTANT]
+>
 > 您可以選擇覆蓋現有的「畫面」範本，依預設插入您自己的設計，或完全建立您自己的範本。 請參閱以下步驟以取得詳細資訊。
 
 1. 若要覆蓋現有的「畫面」範本，以依預設插入您自己的設計：
