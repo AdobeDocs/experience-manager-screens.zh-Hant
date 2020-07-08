@@ -2,7 +2,7 @@
 title: 具有移動資料路由器和活動網路元件的移動網路
 description: 本頁介紹具有移動資料路由器和活動網路元件的移動網路
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe AEM Screens Player也可以使用至少執行3G網路的行動或行動網
 此設定的好處是，移動路由器可以放在最佳位置，以確保最佳的可用網路覆蓋。 這通常處於高開的位置，盡可能少地圍繞混凝土或金屬建築。
 此設定可讓AEM Screen使用者靈活彈性，因為不需要固定線路即可連線至AEM Screens。 這對短暫或行動裝置的設定特別有趣。
 
-下圖顯示了具有移動資料路由器和活動網路元件配置的移動網路，並包含通過使用自己的3/4/5G資料鏈路進行直接網際網路訪問的任何AEM螢幕控制器的Internet訪問。
+下圖顯示了具有移動資料路由器和活動網路元件配置的移動網路，並包含通過使用自己的3/4/5G資料鏈路進行直接網際網路訪問任何AEM螢幕控制器的網際網路訪問。
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -81,10 +81,12 @@ Adobe AEM Screens Player也可以使用至少執行3G網路的行動或行動網
 * 預期會變更多少個內容，平均檔案大小為何？
 
 >[!NOTE]
+>
 >所需的資料包至少必須是：
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >例如，在整合新播放器時，若要初次上傳媒體檔案，則必須預期資料量會增加，下載時間會增加，並反映在上述假設中。 4G網路的覆蓋範圍 *良好* ，資料不受限制，應與此網路設定中最常見的安裝相匹配。
 
 
@@ -104,6 +106,7 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 下表提供了對網路連接關鍵資料對預期效能和潛在等待時間的影響的良好概述。
 
 >[!NOTE]
+>
 >所有資訊都是指網路中每個設備在請求和下載網際網路源時的消耗。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/mobile-router-download.png)
