@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 0%
 
 ---
 
@@ -70,6 +73,7 @@ source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
    >
    >
 * [管理渠道](managing-channels.md)
+
 >
 
 
@@ -99,6 +103,7 @@ source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
    1. 導覽至「 **渠道層級啟動** >位 **置** >地 **區」**。
    1. 選擇「 **地區** 」(Region **)，然後從操作欄中按一下「+建立** 」(Create)。
    1. 從向 **導中選擇** 「顯示」，並建立標題為「區域顯 **示」的顯示。**
+
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **指定要顯示的渠道**
@@ -113,6 +118,7 @@ source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
    1. 選擇「優 **先順序** 」( **Priority**)為1。
    1. 選取「支 **援的事件** 」(Supported Events **)** 為「初始載入 **」(Initial Load)**&#x200B;和「閒置」(Idle)畫面。
    1. 按一下&#x200B;**「儲存」**。
+
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
@@ -130,6 +136,7 @@ source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
    1. 選擇「受 **支援的事件** 」作 **為「初始載入**」、「空閒 **螢幕」和「計******&#x200B;時器」*，如下圖所示。
    1. 選擇有效日 **期** ，從2018年11月27日 **11:59 pm開始，有效到2018年11月** 28日12:05 am。
    1. 按一下&#x200B;**「儲存」**。
+
    >[!CAUTION]
    您必須將 **TargetedSinglePlay頻道的優先順序設** 定在高於 **MainAdSegment頻道** 的位置。
 
