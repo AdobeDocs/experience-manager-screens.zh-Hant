@@ -4,7 +4,10 @@ seo-title: 直接放置工作流程設定
 description: 此頁面反白顯示「直接位置工作流程設定」。
 seo-description: 此頁面反白顯示「直接位置工作流程設定」。
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
@@ -25,12 +28,14 @@ source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 或者，身為內容作者，您可以手動按一下「 **更新離線內容」**。
 
 >[!NOTE]
-> 若要瞭解如何使用大量離線更新，請參閱「 [內容更新為服務」](/help/user-guide/content-update-as-a-service.md)。
+>
+>若要瞭解如何使用大量離線更新，請參閱「 [內容更新為服務」](/help/user-guide/content-update-as-a-service.md)。
 
 ## 設定直接位置工作流程 {#configuring-workflow}
 
 >[!IMPORTANT]
-> 在啟動配置之前，必須安裝 [Demo包](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)。 在安裝套件後，您應該可以從AEM例項—>工具（圖示）—> **Workflow** —> **Workflow Models中檢視並存取它**。
+>
+>在啟動配置之前，必須安裝 [Demo包](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)。 在安裝套件後，您應該可以從AEM例項—>工具（圖示）—> **Workflow** —> **Workflow Models中檢視並存取它**。
 
 請依照下列步驟來設定直接放置工作流程：
 
