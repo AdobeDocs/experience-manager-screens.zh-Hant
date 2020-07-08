@@ -4,7 +4,10 @@ seo-title: '[!UICONTROL AEM Screens] 專案的最佳實務指南'
 description: 本頁為 AEM Screens 的介紹區段
 seo-description: 本頁提供 AEM Screens 的簡介
 translation-type: tm+mt
-source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -32,13 +35,13 @@ AEM Screens 可讓您建立:
 
 >[!NOTE]
 >
->如要詳細了解 AEM Screens 專案開發與管理的不同功能，請參閱 **[AEM Screens 使用手冊](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**。
+>如要詳細了解 AEM Screens 專案開發與管理的不同功能，請參閱 **[AEM Screens 使用手冊](https://helpx.adobe.com/tw/experience-manager/6-5/screens/user-guide.html)**。
 
 ## AEM Sites 與 AEM Screens {#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> 如果您的實作團隊已有使用 AEM Sites 應用程式的經驗，請務必了解 AEM Sites 和 AEM Screens 的差異。
+>如果您的實作團隊已有使用 AEM Sites 應用程式的經驗，請務必了解 AEM Sites 和 AEM Screens 的差異。
 
 AEM Screens 提供統一的製作/播放平台，將內容部署至公共空間的數位看板裝置。雖然體驗製作者應努力維持網路和場地內頻道一致，但請注意其中的一些差異。
 
@@ -56,6 +59,6 @@ AEM Screens 提供框架，將內容部署至實體裝置。可將內容指派�
 
 AEM Sites必須先格式化，才能放入「畫面中的頻道」中，才能用於其所要的顯示裝置尺寸。
 
-> [!NOTE]
+>[!NOTE]
 >
-> 許多 AEM Sites 元件與 AEM Screens 不相容。AEM Screens 隨附許多專屬現成的元件，讓您無需自訂即可打造數位體驗。如專案需求許可，請盡可能使用 AEM Screens 的內建功能。
+>許多 AEM Sites 元件與 AEM Screens 不相容。AEM Screens 隨附許多專屬現成的元件，讓您無需自訂即可打造數位體驗。如專案需求許可，請盡可能使用 AEM Screens 的內建功能。
