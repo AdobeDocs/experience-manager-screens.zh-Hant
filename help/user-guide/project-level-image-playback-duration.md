@@ -5,7 +5,10 @@ description: '此功能可讓您在專案層級定義影像播放持續時間。
 seo-description: '此功能可讓您在專案層級定義影像播放持續時間。 '
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -40,6 +43,7 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
 
 
 >[!NOTE]
+>
 >如果您想要更新影像或頻道層級的播放持續時間，請參閱頻 [道層級影像播放持續時間](channel-level-image-playback.md)。
 
 請依照下列步驟瞭解如何更新專案層級的影像播放持續時間：
