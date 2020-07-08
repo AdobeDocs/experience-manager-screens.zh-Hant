@@ -2,7 +2,7 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -56,6 +56,7 @@ ht-degree: 0%
 *足夠的頻寬* ，視連線的AEM螢幕數量以及網路內其他消費者（例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路）的使用情況而定。
 
 >[!NOTE]
+>
 >所有設備都可同時訪問網際網路連接，當您向網路添加更多消費者或電腦時，頻寬會線性下降。
 
 ### 區域網路 {#lan-connection}
@@ -85,6 +86,7 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 下表概述了網路連接關鍵資料。
 
 >[!NOTE]
+>
 >該資訊允許您查看請求和下載網際網路源的網路中每個設備的使用情況。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/enclosed-network-download.png)
