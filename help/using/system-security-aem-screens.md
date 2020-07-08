@@ -4,7 +4,7 @@ seo-title: AEM畫面的安全性檢查清單
 description: 此頁面說明AEM畫面的安全性檢查清單
 seo-description: 此頁面說明AEM畫面的安全性檢查清單
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,6 +15,7 @@ ht-degree: 1%
 # AEM畫面的系統安全性考量 {#security-checklist}
 
 >[!IMPORTANT]
+>
 >這是內部Git資源。
 
 本頁反白顯示「AEM畫面的系統安全性考量」。
@@ -77,7 +78,9 @@ AEM Server是否安全？
 因此，建議將設備置於不可觸及的位置，優選在固定容器中，並固定電纜。 還禁用任何IR遠程埠。
 
 如果設備作業系統未定期更新，則作業系統可能會暴露在安全漏洞中，並允許通過網路進行遠程攻擊。
+
 >[!NOTE]
+>
 >建議使用具備適當遠程更新和控制功能的設備（遠程案頭、MDM解決方案等）進行檢測。 此外，建議您使用專用網路，例如不接觸公用WIFI。
 
 
