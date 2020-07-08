@@ -3,7 +3,10 @@ title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
@@ -13,14 +16,16 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 本節重點說明如何在您的通道中啟用定位。
 
 >[!IMPORTANT]
-> 支援AEM Screens頻道中資料觸發器的最低版本為AEM 6.5.3 Feature Pack 3。
+>
+>支援AEM Screens頻道中資料觸發器的最低版本為AEM 6.5.3 Feature Pack 3。
 
 ## 必備條件 {#prereqs}
 
 在遵循下列步驟以啟用頻道中的定位之前，您必須先瞭解在AEM Screens中設定的關鍵詞語 [](configuring-context-hub.md) ，以瞭解在AEM Screens中的ContextHub和定位。
 
 >[!IMPORTANT]
-> 建議您先瞭解並設定ContextHub組態，再在AEM Screens頻道中啟用定位。
+>
+>建議您先瞭解並設定ContextHub組態，再在AEM Screens頻道中啟用定位。
 
 請依照下列連結取得詳細資訊：
 
@@ -49,7 +54,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
    1. 選擇「路徑 **」** 段作為「會議 **」** >「零售」 **>「零售」>「****************** WcmSegments」>「AldSignments」>「ChickSelectSelectLight」。
 
-   1. 按一 **下儲存並關閉**。
+   1. Click **Save &amp; Close**.
    >[!NOTE]
    >
    >使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
@@ -68,7 +73,7 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 1. 從下 **拉式選單選** 擇「品牌 **」和「活動** 」，然後按一下「開始 **定位」**。
 
-### 更多資訊：範例使用案例 {#learn-more-example-use-cases}
+### 更多資訊： 範例使用案例 {#learn-more-example-use-cases}
 
 在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
