@@ -5,7 +5,10 @@ description: 請依照此使用案例來建立單一使用TakeOver頻道。
 seo-description: 請依照此使用案例來建立單一使用TakeOver頻道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +66,7 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
    ![資產](assets/single-takeover4.png)
 
-1. 設定頻道的位置和顯示。 例如，會為此專案設 **定下列位置** 「Lobby」（大堂）和 **display mainLobby** Display。
+1. 設定頻道的位置和顯示。 例如，會為此專案設 **定下列位置** 「Lobby」（大堂）和 **display MainLobby** Display。
 
    ![資產](assets/single-takeover5.png)
 
@@ -84,12 +87,13 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 1. 若要在排 **程時將TakeOver** 頻道指派給您的顯示，並從「頻道指派」對話方塊填入下列欄位，然後按一下「儲 **存******」:
 
-   * **渠道路徑**:選取TakeOver頻道的路徑
-   * **優先順序**:將此頻道的優先順序設定為大於 **MainAdChannel**。 例如，此範例中的優先順序設定為8。
+   * **渠道路徑**: 選取TakeOver頻道的路徑
+   * **優先順序**: 將此頻道的優先順序設定為大於 **MainAdChannel**。 例如，此範例中的優先順序設定為8。
+
       >[!NOTE]
       >優先順序可以是高於正常播放頻道的優先順序值的任何值。
-   * **支援的事件**:選擇「 **Idle Screen** (空閒屏 **幕)」和「Timer（計時器）**」。
-   * **排程**:輸入您希望此渠道執行顯示的排程文字。 例如，此處的文字可讓內容在12月31日12:00 am之前播放2分鐘，直到12:01 am。
+   * **支援的事件**: 選擇「 **Idle Screen** (空閒屏 **幕)」和「Timer（計時器）**」。
+   * **排程**: 輸入您希望此渠道執行顯示的排程文字。 例如，此處的文字可讓內容在12月31日12:00 am之前播放2分鐘，直到12:01 am。
 本例中提 **及的** 「排程」中的文字是 *12月31日之後的23:58，也是1月1日之後的00.01*。
 
       ![資產](assets/single-takeover8.png)
@@ -102,4 +106,5 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
       ![資產](assets/single-takeover9.png)
 
 >[!NOTE]
->在播放「單次使用TakeOver」頻道後，最佳做法是加以刪除。
+>
+>在播放「單次使用TakeOver」頻道後，請刪除該頻道，這是最佳實務。
