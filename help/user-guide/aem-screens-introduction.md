@@ -11,7 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
+source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 5%
 
 ---
 
@@ -65,8 +68,8 @@ AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位
 請參閱下列教學課程和資源以瞭解Adobe Experience Manager 6.5:
 
 * **Adobe Experience Manager快速入門：** 探索Adobe Experience Manager的快速入門文章和教學影片。
-* **AEM 6.5教學課程與影片**:AEM 6.5發行後，將提供一系列教學課程和影片，其中著重說明AEM Sites、Assets、Forms、Screens和Foundation的新功能和更新功能。
-* **AEM Core Concepts**:概述AEM結構化的核心概念，以及如何在此基礎上開發，包括瞭解JCR、Sling、OSGi、dispatcher、workflows和MSM。
+* **AEM 6.5教學課程與影片**: AEM 6.5發行後，將提供一系列教學課程和影片，其中著重說明AEM Sites、Assets、Forms、Screens和Foundation的新功能和更新功能。
+* **AEM Core Concepts**: 概述AEM結構化的核心概念，以及如何在此基礎上開發，包括瞭解JCR、Sling、OSGi、dispatcher、workflows和MSM。
 
 ## 其他資源 {#additional-resources}
 
@@ -77,3 +80,7 @@ AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位
 * **AEM Screens 專案的最佳實務指南**
 
    請遵循 **[AEM Screens專案的最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**，此指南旨在識別實作AEM Screens專案時的常見缺陷。 本材料主要針對「專案角色與責任」、「不同角色的RACI圖表」、「AEM平台設定」以及「支援與監控」。
+
+* **全新Adobe客戶支援體驗**
+
+   請依 **[照客戶一取得企業說明](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**，以進一步瞭解管理控制台支援票證。
