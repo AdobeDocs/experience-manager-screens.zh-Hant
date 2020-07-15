@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 您可以從「裝置儀表板」（可透過AEM製作例項存取）設定裝置的偏好設定。
 
-1. 從您的專案導覽至裝置控制面板，例如 ***Test Project*** —&gt;裝 ***置***。
+1. 從您的專案導覽至裝置控制面板，例如 ***Test Project*** —>裝 ***置***。
 
    從操 **作欄中** ，選 **擇「設備和設備管理器** 」。
 
@@ -45,29 +48,43 @@ source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ### 管理員UI {#the-admin-ui}
 
-從偏好 **設定面板啟用** 「管理員UI」可讓使用者從「畫面播放器」開啟管理設定。 此外，如果您在裝置儀表板中停用此選項，使用者便無法從播放器開啟管理員UI。
+從偏好 **設定面板啟用** 「管理員UI」可讓使用者從「畫面播放器」開啟管理員設定。 此外，如果您在裝置儀表板中停用此選項，使用者便無法從播放器開啟管理員UI。
 
 若要從「螢幕」播放器檢視管理員UI，請長按左上角的長按鍵以開啟「管理」功能表、啟用觸控功能的AEM Screens播放器，或使用滑鼠。 它會在註冊完成並載入頻道後顯示資訊。
 
 >[!NOTE]
 >
->此外，您還可以檢視AEM Screens player應用程式的正常運作時間，以檢查應用程式的狀況。
+>此外，您還可以檢視AEM Screens Player應用程式的正常運作時間，以檢查應用程式的狀況。
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-如果從側面菜單中選 **擇「配置** 」選項，則還可以從此對話框重置「韌體 **」、「首**&#x200B;選項 ******** 」或「至工廠」。
+#### 訪問配置菜單選項 {#configuration-options}
 
-此外，您也可以在「最大編號」中指定AEM Screens播放器要保留的最大記錄 **檔數。 要保存的日誌檔案**。 請參閱下方的螢幕擷取，以取得詳細資訊。
+如果從側面菜單中選擇「配置」( **Configuration** )選項，則可以更新配置，如下圖所示：
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+「配置」菜單允許您修改以下設定：
+
+* 從此 **對話框重置**「韌體」、「首選項 **」**&#x200B;或「至工廠 **** 」。
+
+* 指定AEM Screens播放器在「最大編號」中保留的最大記錄 **檔數。 要保存的日誌檔案**。
+
+* 啟用或停用 **Screens播放器的**「管理 **功能表」**、「頻道切換器」 **和「活動UI** 」。
+
+   如果從「 **設定」選單啟用「活動UI******** 」,AEM Screens播放器會在播放器的右上角顯示同步的訊息，如下圖所示。
+
+   ![影像](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >「更 **新韌體** 」選項僅適用於cordova，例如Android播放器。
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >建議在「生產部 **署」中停用** 「管理員UI」。
+
+#### 存取內容快取功能表選項 {#content-cache-options}
 
 您可從AEM Screens播放器的「管理員UI」中，清除頻道和應用程式的快取。
 
@@ -173,7 +190,7 @@ AEM Screens Player有兩種更新類型：
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840x2160(4K)</td>
-   <td>DVI、HDMI<br /> 乙太網／無線<br /> ,2個USB</td>
+   <td>DVI、HDMI<br /> 乙太網／無線<br /> 、2個USB</td>
    <td>
     <ul>
      <li>單一來源動態內容</li>
