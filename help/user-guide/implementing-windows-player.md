@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +27,11 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 若要實作適用於AEM畫面的Windows Player，請安裝適用於AEM畫面的Windows Player。
 
-請造訪 [**AEM 6.4播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
+請造訪 [**AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
 
 ### 臨機方法 {#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.4播放器下載頁&#x200B;**](https://download.macromedia.com/screens/)。
+臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
@@ -42,7 +45,7 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 >
 >如果狀 **態為****UNECRISTERED**，您可以使用 **Token** 來註冊裝置。
 
-### 批量伺服器配置：使用一個配置註冊多個Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### 批量伺服器配置： 使用一個配置註冊多個Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 在安裝Windows播放器後，您可以使用一個配置註冊多個播放器。
 
