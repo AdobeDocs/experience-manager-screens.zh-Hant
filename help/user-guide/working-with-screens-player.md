@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 * 啟用或停用 **Screens播放器的**「管理 **功能表」**、「頻道切換器」 **和「活動UI** 」。
 
-   如果從「 **設定」選單啟用「活動UI******** 」,AEM Screens播放器會在播放器的右上角顯示同步的訊息，如下圖所示。
+   如果從「 **設定」選單啟用「活動UI** 」,AEM Screens播放器會在播放器的右上角顯示 ****** player活動通知，如下圖所示。
 
    ![影像](/help/user-guide/assets/activity_ui.png)
 
