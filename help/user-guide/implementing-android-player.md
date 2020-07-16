@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +29,11 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 若要實作適用於AEM畫面的Android Player，請安裝適用於AEM畫面的Android Player。
 
-請造訪 [**AEM 6.4播放器下載頁面**](https://download.macromedia.com/screens/) 。
+請造訪 [**AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
 
 ### 臨機方法 {#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Android Player(*.exe*)。 請造 [**訪AEM 6.4播放器下載頁**](https://download.macromedia.com/screens/) 。
+臨機方法可讓您安裝最新的Android Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
@@ -61,13 +64,13 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 請依照下列步驟，使用製造商的金鑰簽署Android應用程式：
 
-1. 從Google play或 [AEM Screens Player下載頁面下載應用程式](https://download.macromedia.com/screens/) 。
+1. 從Google Play或 [AEM Screens Player下載頁面下載應用程式](https://download.macromedia.com/screens/) 。
 1. 從製造商取得平台金鑰以取得 *pk8* 和 *pem* 檔案
 
-1. 使用尋找~/Library/Android/sdk/build-tools -name "apksigner"，在android sdk中找到apksigner工具
-1. &lt;pathto&gt; /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
+1. 使用尋找~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;，在android sdk中找到apksigner工具
+1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
 1. 在Android sdk中尋找郵遞區號對齊工具的路徑
-1. &lt;pathto&gt; /zipalign -fv 4 aemscreensplayer.apk aemscreensalfixed.apk
+1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalfixed.apk
 1. 使用 ***adb安裝將aemscreensaldium*** .apk安裝到設備
 
 ## Android Watchdog實作 {#android-watchdog-implementation}
