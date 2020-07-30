@@ -6,7 +6,7 @@ seo-description: 請依照本頁面進行，瞭解如何將轉場效果套用至
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >預設情況下，過渡元件(如 **Type** )的屬性設定為 **Fade** , **Duration** （持續時間） *設定為* 1600 ms。  此外，建議不要設定比套用資產長的轉場持續時間。
 
