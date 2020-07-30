@@ -5,7 +5,7 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -41,26 +41,26 @@ ht-degree: 1%
 1. 建 *立static.css* 檔案並設定下列css規則。 另外，在css規則下方的圖中也顯示為範例。
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 您可以選擇覆蓋現有的「畫面」範本，依預設插入您自己的設計，或完全建立您自己的範本。 請參閱以下步驟以取得詳細資訊。
+>您可以選擇覆蓋現有的「畫面」範本，依預設插入您自己的設計，或完全建立您自己的範本。 請參閱以下步驟以取得詳細資訊。
 
 1. 若要覆蓋現有的「畫面」範本，以依預設插入您自己的設計：
 
