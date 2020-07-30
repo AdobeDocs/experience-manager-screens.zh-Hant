@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1809'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 本節將介紹以下主題：
 
 * 概覽
-* 啟動視窗
+* 啟用時間
 * 將頻道層級啟動當成單一事件播放
 * 處理渠道中資產的週期
    * 日分割
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 一 ***次只執行一次的單一事件渠道*** ,
 * 為主 ***序列頻道內發生的單一播放事件*** ，設定排程和優先順序
 
-## 啟動視窗 {#using-channel-level-activation}
+## 啟用時間 {#using-channel-level-activation}
 
 下節將說明如何在AEM Screens專案的頻道內建立單一事件播放。
 
