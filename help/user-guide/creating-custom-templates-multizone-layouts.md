@@ -5,7 +5,10 @@ description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範�
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +25,8 @@ source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
    您必須決定是否針對自訂版面的不同區域使用固定像素大小，或是您想要使用百分比建立自訂版面。
 
-   > [!NOTE]
-   > 使用百分比來設定自訂版面的區域的好處，可讓您在各種螢幕大小上重複使用範本。
+   >[!NOTE]
+   >使用百分比來設定自訂版面的區域的好處，可讓您在各種螢幕大小上重複使用範本。
 
 1. **命名慣例**:
 
@@ -35,8 +38,8 @@ source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
    | Upper20-PortraitHD2Zone | 指從上方覆蓋20%螢幕的2區縱向範本，長寬比為16:9 |
    | Right20-LandscapeSD3Zone | 指從右側涵蓋20%螢幕的3區範本，長寬比為4:3 |
 
-   > [!IMPORTANT]
-   > 在自訂版面中定義的區域可能不符合整個版面的整體外觀比例。 本檔案中遵循的命名慣例會指定自訂版面的整體外觀比例。
+   >[!IMPORTANT]
+   >在自訂版面中定義的區域可能不符合整個版面的整體外觀比例。 本檔案中遵循的命名慣例會指定自訂版面的整體外觀比例。
 
 ## 範例使用案例Left20-LandscapeHD3Zone版面配置 {#custom-template-one}
 
@@ -67,8 +70,8 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
-   > [!NOTE]
-   > 建議您每次建立、編輯或複製內容至任何節點時，從CRXDE Lite的動作列按一下「全部儲存 **** 」，否則將無法提交更新。
+   >[!NOTE]
+   >建議您每次建立、編輯或複製內容至任何節點時，從CRXDE Lite的動作列按一下「全部儲存 **** 」，否則將無法提交更新。
 
 1. 將左側長條範本從複製 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 到 `/apps/customtemplate/template`。
 
@@ -97,7 +100,7 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
    >這些自訂類別將用於css中，以設定這些互動式格點的寬度／高度。
 
    >[!NOTE]
-   > 您可以根據所需的網格總數來添加或刪除自適應網格。 在此範例中，我們展示第一列的2個格點和第二列的1個格點，因此共有3個回應式格點(r1c1、r1c2、r2c1)。
+   >您可以根據所需的網格總數來添加或刪除自適應網格。 在此範例中，我們展示第一列的2個格點和第二列的1個格點，因此共有3個回應式格點(r1c1、r1c2、r2c1)。
 
 1. 復 `/libs/settings/wcm/designs/screens` 制復 `/apps/settings/wcm/designs/` 制並將複製的設計重 **新命名為自訂範本設計**。
 
@@ -126,12 +129,12 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
    ```
 
    >[!NOTE]
-   > 您可以更新百分比以符合自訂範本的需求。
+   >您可以更新百分比以符合自訂範本的需求。
 
 1. 導覽至 `/apps/<project>/templates/my-custom-layout/jcr:content` 並更新屬 *性cq:designPath* ，以載 `/apps/settings/wcm/designs/customtemplate-designs` 入static.css中設定的樣式
 
    >[!NOTE]
-   > 建議您輸入所有樣式，而非複製或貼上，這會造成空格造成css樣式問題。
+   >建議您輸入所有樣式，而非複製或貼上，這會造成空格造成css樣式問題。
 
 ## 查看結果 {#viewing-result}
 
@@ -149,7 +152,7 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 將影像插入背景圖層 {#inserting-image}
+## 將影像插入背景圖層  {#inserting-image}
 
 您可以將影像插入版面中做為背景圖層：
 
