@@ -6,7 +6,10 @@ seo-description: '請依本頁瞭解隨選內容更新。  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 本節說明管理出版物的隨選內容。
 
-## 管理出版物：將內容更新從作者傳送至裝置發佈 {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## 管理出版物： 將內容更新從作者傳送至裝置發佈 {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
 您可以從AEM Screens發佈和取消發佈內容。 「管理出版物」功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程發佈／取消發佈內容。
 
@@ -28,7 +31,7 @@ source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. 將打 **開「管理出版物** 」嚮導。 您可以選取「 **動作** 」，也可以排程目前或之後的發佈時間。 按一 **下「下一步**」。
+1. The **Manage Publication** wizard opens. 您可以選取「 **動作** 」，也可以排程目前或之後的發佈時間。 按一下&#x200B;**下一步**。
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -52,9 +55,12 @@ source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
    請依照下列說明了解可用選項：
 
-   1. **僅包含直接子項**:此選項僅允許您管理項目結構中子節點的更新。
-   1. **僅包含已修改的頁面**:此選項僅允許您管理在項目結構中找到更改的修改後頁面的更新。
-   1. **僅包含已發佈的頁面**:此選項僅允許管理先前發佈之頁面的更新。
+   1. **僅包含直接子項**:
+此選項僅允許您管理項目結構中子節點的更新。
+   1. **僅包含已修改的頁面**:
+此選項僅允許您管理在項目結構中找到更改的修改後頁面的更新。
+   1. **僅包含已發佈的頁面**:
+此選項僅允許管理先前發佈之頁面的更新。
 
 
 1. 從「管 **理出版物** 」精靈 **按一下「發佈」。**
@@ -70,8 +76,8 @@ source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
    >    1. 如果作者在管理出版物工作流程中按一下「發佈」按鈕後，未完成復製程式（內容仍在上傳至發佈例項），工作流程將無法運作。 ****
 
 
-   > [!CAUTION]
-   > 如果您是作者或內容製作者，想要查看附加至作者例項的裝置中的變更，請按一下「從頻道儀表板更新離線內容 **** 」，或選取專案。 在這種情況下，更新離線內容只會在作者實例中執行。
+   >[!CAUTION]
+   >如果您是作者或內容製作者，想要查看附加至作者例項的裝置中的變更，請按一下「從頻道儀表板更新離線內容 **** 」，或選取專案。 在這種情況下，更新離線內容只會在作者實例中執行。
 
 1. 導覽至專案，然後從動作 **列按一下「更新離線內容** 」。 此動作會將相同的命令轉送至發佈例項，以便離線Zip也能在發佈例項上建立。
 
@@ -99,7 +105,7 @@ source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. 將打 **開「管理出版物** 」嚮導。 您可以選取「 **動作** 」，也可以排程目前或之後的發佈時間。 按一 **下「下一步**」。
+1. The **Manage Publication** wizard opens. 您可以選取「 **動作** 」，也可以排程目前或之後的發佈時間。 按一下&#x200B;**下一步**。
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
