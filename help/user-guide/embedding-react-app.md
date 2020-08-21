@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >此原型會建立最小的Adobe Experience manager專案，做為您自己SPA專案的起點。 使用此原型時必須提供的屬性允許根據需要命名此項目的所有部分。
+   >此原型會建立最小的Adobe Experience Manager專案，做為您自己SPA專案的起點。 使用此原型時必須提供的屬性允許根據需要命名此項目的所有部分。
 
 1. 請依照讀我檔案的指示建立AEM SPA編輯器原型專案：
 
@@ -97,7 +100,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 在AEM畫面中設定Adobe Analytics。
 
-   請參閱[使用AEM Screens設定Adobe Analytics(configuring-adobe-analytics-aem-screens.md)以瞭解如何在Adobe Analytics中使用AEM Screens執行排序，以及使用離線Adobe Analytics傳送自訂事件。
+   請參閱「 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 」，瞭解如何在Adobe Analytics中使用AEM Screens執行排序，以及使用離線Adobe Analytics傳送自訂事件。
 
 1. 在您選擇的IDE/編輯器中編輯您的反應應用程式（尤其是要開始發出事件的文字元件或其他元件）。
 1. 在您要擷取元件的點按事件或其他事件上，使用標準資料模型新增分析資訊。
