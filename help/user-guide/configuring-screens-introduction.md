@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
@@ -37,9 +40,9 @@ The Health Check framework lows the user to check if two exence configurations a
 1. **允許空的反向連結**
 2. **https**
 
-請依照下列步驟，檢查AEM Screens是否已啟用這兩個重要組態：
+請依照下列步驟，檢查AEM Screens是否啟用這兩個重要的設定：
 
-1. 導覽至 [Adobe Experience Manager Web ConsoleSling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)。
+1. 導覽至 [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)。
 
    ![資產](assets/health-check1.png)
 
@@ -106,7 +109,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 1. 導覽至 *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 請確定「預 **設編寫UI** 」模式已設 **為TOUCH**，如下圖所示
 
-或者，您也可以使用&lt;yourAuthorInstance> *->*(hammer icon ->** Web Operations) **-** Operations ->搜索WUI創作工具(hammer icon -> **Web Consale Service Service****** cm)執行相同的設定。
+或者，您也可以使用&lt;yourAuthorInstance> *->*(hammer icon ->** Web Operations) **-********** Operations-CM WebConsole搜索WUI創作工具，執行相同的設定。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,19 +121,19 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 在生產中執行AEM會使 **用NOSAMPLECONTENT** 執行模式。 從&#x200B;*RemovetheX-Frame-Options=SAMEORIGIN* （在其他回應標題區段中）
 
-`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
+`https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
 這是AEM Screens Player播放線上頻道的必要項。
 
 #### 密碼限制 {#password-restrictions}
 
-對 ***DeviceServiceImpl進行最新變更&#x200B;***，您不必移除密碼限制。
+對 ***DeviceServiceImpl進行最新變更***，您不必移除密碼限制。
 
-您可以從 ***下列連結設定DeviceServiceImpl ***，以在為畫面裝置使用者建立密碼時啟用密碼限制：
+您可以從 ***下列連結設定DeviceServiceImpl*** ，以在為畫面裝置使用者建立密碼時啟用密碼限制：
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-請依照下列步驟來設定 ***DeviceServiceImpl ***:
+請依照下列步驟來設定 ***DeviceServiceImpl***:
 
 1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
@@ -144,7 +147,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 #### Java編碼 {#java-encoding}
 
-將 ***Java編碼設為&#x200B;***Unicode。 例如，*Dfile.encoding=Cp1252 *將無法運作。
+將 ***Java編碼設為*** Unicode。 例如， *Dfile.encoding=Cp1252* 將無法運作。
 
 >[!NOTE]
 >
