@@ -4,9 +4,9 @@ seo-title: 複製資料觸發器至發佈伺服器
 description: 將資料觸發器複製至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -28,20 +28,22 @@ ht-degree: 2%
 
 請依照下列步驟，將資料觸發器複製至發佈伺服器。
 
-### 步驟1: 複製ContextHub配置 {#replicating-contexthub-configurations}
+### 步驟1:複製ContextHub配置 {#replicating-contexthub-configurations}
 
 1. 導覽至「 **工具** >部署 **>散發** >發佈代理」 **>****** 「發佈代理」，然後按一下以設定您的發佈代理設定。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >或者，您也可以使 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 用導覽至畫面，以設定和測試連線。
 
 1. 按一 **下動作列中的「測試連線** 」，驗證作者與發佈例項的通訊，如下圖所示。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >如果測試失敗，您需要在作者和發佈實例之間修正複製代理配置。 如需詳細資 [訊，請參閱Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 疑難排解。
 
 1. 從「 **Distribution Agent** 」螢幕樹中選擇「添加 **」，然後選擇項目的配置路徑，例如**`/conf/screens/settings/cloudsettings/configuration`。
