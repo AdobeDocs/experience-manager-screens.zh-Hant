@@ -1,8 +1,8 @@
 ---
 title: 多區域版面
 seo-title: 多區域版面
-description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依本頁瞭解詳細資訊。
-seo-description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依本頁瞭解詳細資訊。
+description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依照本頁進一步瞭解。
+seo-description: 多區域版面可讓您建立多個區域內容，並使用多種資產，例如視訊、影像和文字，這些資產可結合在單一畫面中。 請依照本頁進一步瞭解。
 uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 依序選取Adobe Experience Manager連結（左上）和「畫 **面」**。 或者，您也可以直接前往： `http://localhost:4502/screens.html/content/screens`.
 1. 導覽至「 **Channels** 」檔案夾，然後按 **一下動作列中的「** 建立」。
 
-1. 從「 **建立」精靈中選取** 1x2「分割 **畫面頻道** 」。
+1. 從「 **建立精靈」中選取** 1x2「分割 **畫面頻道** 」。
 
 1. 按一下「 **Next** (下一步 **)」 ，然後將標題** 輸入為 **「** MultiZone（多區域）」。
 
@@ -83,6 +83,7 @@ ht-degree: 0%
    1. 導航至「 **區域** 」 —>「多 **區域** 」 —>「通道」 **，然後從操****** 作欄中按一下「建立」。
    1. 從「建 **立」精靈中選取「頻道資料夾** 」，然後按一下「下 **一步******」。
    1. 輸入標題為 **EmbeddedChannels** ，然後單 **擊Create**。
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **新增兩個渠道至渠道資料夾**
@@ -93,6 +94,7 @@ ht-degree: 0%
    1. 將幾張影像拖放至此頻道。
    1. 同樣地，在EmbeddedChannels資料夾中建立另一個名 **為Zone2** 的 **序列渠道** 。
    1. 將視訊拖放至此頻道。
+
    下圖顯示了通道 **Zone1** 和 **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -111,7 +113,7 @@ ht-degree: 0%
    1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
    1. 將「嵌入序列」( **Embedded Sequence** )元件拖放到兩個區域。
    1. 選擇其中一個區域中的嵌入序列。
-   1. 按一 **下編輯器中** 其中一個內嵌序列的「設定（扳手）」圖示。
+   1. 在編輯器 **中，按一下其中一個內嵌序列的「設定** （扳手）」圖示。
    1. 選擇通道路徑 **為Zones** —> **Channels** —> **EmbeddedChannels** —> **** Zone1Zone，如下圖所示。
    1. 同樣地，將 **Zone2添加到** editor中另一個嵌入序列元件。
 
@@ -154,7 +156,8 @@ ht-degree: 0%
       ![影像](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!I重要]
+      >[!IMPORTANT]
+      >
       > 一旦將主通道(在本例中為 **MultiZone**)指定給顯示器，則必須將其他兩個嵌入通道 **Zone1** 和 **** Zone2也指定給同一顯示器。
 
 ### 註冊設備 {#registering-device}
@@ -166,6 +169,7 @@ ht-degree: 0%
    1. 導覽至 **Zones** —> **Devices** 資料夾。
    1. 選擇「 **Devices** （設備）」資料夾，然後從操 **作欄中按一下「Device Manager** （設備管理器）」。
    1. 按一 **下「裝置註冊** 」，然後從清單中選取待審裝置。
+
       >[!NOTE]
       > 裝置的標題必須符合「裝置註冊」標籤中顯&#x200B;**示的裝置Token** ( **Token欄位)** 。
    1. 如果標題符合裝置Token，請選取裝置，然後從動作列按一 **下「註冊裝置** 」。
@@ -173,6 +177,7 @@ ht-degree: 0%
       ![影像](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. 將「標 **題** 」輸 **入為Chrome-Device1** ，然後按一 **下「註冊**」。
    1. 選擇 **指定顯示** ，然後選擇設備配置的路徑。
+
    >[!NOTE]
    >如果您嘗試在「畫面」播放器中檢視內容，請務必從頻道控制面板按一下「 **Update Offline Content** 」（更新離線內容），以取得指派給顯示器的每個頻道。
 
