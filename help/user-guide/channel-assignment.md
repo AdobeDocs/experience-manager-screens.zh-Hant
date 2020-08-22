@@ -3,9 +3,9 @@ title: 頻道指定任務
 seo-title: 頻道指定任務
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 3%
 
 請遵循下列步驟，將頻道指派給顯示器：
 
->[!I重要]
+>[!IMPORTANT]
+>
 >下列Adobe Experience 6.5.5 Screens Feature Pack版本及更高版本的頻道指派對話方塊不同。 如需詳細 [資訊，請參閱渠道](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) 指派。
 
 1. 導覽至所需的顯示，例如 **DemoProject** —> **Locations** —> **SanJose** —> **** StoreDisplayDisplay。
@@ -35,7 +36,7 @@ ht-degree: 3%
 
    或,
 
-   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板中按一下+ **「指定渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Regant」對話方塊。
+   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板按一 **下+「分配渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Jognment」對話方塊。
 
    ![影像](/help/user-guide/assets/channel-assign1.png)
 
@@ -93,7 +94,8 @@ ht-degree: 3%
 
 #### 中斷方法 {#interruption-method-channel}
 
->[重要]
+>[!IMPORTANT]
+>
 > 此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
 
 身為內容作者，您應該可以指定頻道中斷的時間，以便選擇切斷非關鍵內容，但可以選擇在由於排程而中斷播放之前，先讓重要內容完全播放。
