@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 2%
 | 1x2 拆分畫面頻道 | 允許在兩個區域中檢視資產（水準分割）。 |
 | 2X1分割螢幕頻道 | 允許在兩個區域（垂直分割）中檢視資產。 |
 | 2x2 拆分畫面頻道 | 允許在四個區域中檢視資產（在矩陣中水準和垂直分割）。 |
-| 2 至 3 拆分畫面頻道 | 允許在兩個區域（水準分割）中查看資產，其中一個區域比另一個區域大。 |
+| 2 至 3 拆分畫面頻道 | 允許在兩個區域（水準分割）中檢視資產，其中一個區域比另一個區域大。 |
 | 左或右L列分割螢幕色版 | 可讓內容作者在適當大小的區域中檢視不同類型的資產。 |
 
 >[!NOTE]
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您可以新增元件至渠道。 如需詳細 **[資訊，請參閱新增元件至渠道](adding-components-to-a-channel.md)**。
+>您可以新增元件至渠道。 如需詳細 **[資訊，請參閱新增元件至渠道](adding-components-to-a-channel.md)** 。
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ ht-degree: 2%
 
 您可從渠道控制面板檢視資訊清單。
 
->[重要]
-> 此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
+>[!IMPORTANT]
+>
+>此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
 
 請依照下列步驟，從頻道控制面板啟用此選項：
 1. **將渠道設為離線**
@@ -153,7 +154,7 @@ ht-degree: 2%
    1. 導覽至「 **頻道資訊** 」面板，然後按 *一下……*
    1. 按一下「 **更新離線內容」**
 
-現在，您應該可以從「頻道」控 **制面板的「頻道資訊****** 」面板中看到「檢視資訊清單」選項。
+現在，您應該可以從「頻道」控 **制面板的** 「頻道資訊 **** 」面板中看到「檢視資訊清單」選項。
 
 ![image1](assets/channel-one.png)
 
@@ -196,7 +197,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您想要再次將頻道設定為離線，請從「 **Properties** 」（屬性）標籤(如步驟(3)所示)取消勾選「Developer mode」（開發人員模式）選項，然後從「 **CHANNEL INFORMATION** 」面板按一下「 **Update Offline Content**」（更新離線內容），如下圖所示。
+>如果您想要再次將頻道設定為離線，請從「 **Properties** 」（屬性）標籤(如步驟(3)所示)中取消勾選「Developer mode」（開發人員模式）選項，然後從「 **CHANNEL INFORMATION** 」面板按一下「 **Update Offline Content**」（更新離線內容），如下圖所示。
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -214,7 +215,7 @@ ht-degree: 2%
   <tr>
    <td>線上通路的變更</td>
    <td>自動更新內容</td>
-   <td><p>在「裝置： 推播設定」</p> <p>或,</p> <p>裝置上更新的 <strong><i>內容： 重新啟動</i></strong></p> </td>
+   <td><p>在「裝置：推播設定」</p> <p>或,</p> <p>裝置上更新的 <strong><i>內容：重新啟動</i></strong></p> </td>
   </tr>
   <tr>
    <td>離線頻道中的變更，但不會觸發頻道的「推播內容」（無離線封裝重新建立）</td>
@@ -224,7 +225,7 @@ ht-degree: 2%
   <tr>
    <td>離線頻道和頻道「推播內容」的變更會觸發（新的離線套件）</td>
    <td>自動更新內容</td>
-   <td><p>裝置上更新的 <strong><i>內容： 推送設定</i></strong></p> <p>或,</p> <p>裝置上更新的 <strong><i>內容： 重新啟動</i></strong></p> </td>
+   <td><p>裝置上更新的 <strong><i>內容：推送設定</i></strong></p> <p>或,</p> <p>裝置上更新的 <strong><i>內容：重新啟動</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>設定中的變更</p>
@@ -235,7 +236,7 @@ ht-degree: 2%
      <li>頻道指派（角色、事件、排程）</li>
     </ul> </td>
    <td>自動更新設定</td>
-   <td><p>裝置上的設定已 <strong><i>更新： 推送設定</i></strong></p> <p>或,</p> <p>裝置上的設定已 <strong><i>更新： 重新啟動</i></strong></p> </td>
+   <td><p>裝置上的設定已 <strong><i>更新：推送設定</i></strong></p> <p>或,</p> <p>裝置上的設定已 <strong><i>更新：重新啟動</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
