@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Adobe Experience Manager畫面說明
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 3%
    + [螢幕最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [主要條款](screens-glossary.md)
 + 數位標牌網路基本概念 {#digital-signage-network}
-   + [第1部分： 項目角色和責任](project-roles-responsibilities.md)
-   + [第二部分： 項目範圍時的注意事項](project-considerations.md)
-   + [第3部分： 測試、POC、試點和推展](testing-pocs-pilots-rollouts.md)
-   + [第四部分： 專案管理與部署](project-management-and-deployment.md)
-   + [第5部分： 支援考量事項](support-considerations.md)
+   + [第1部分：項目角色和責任](project-roles-responsibilities.md)
+   + [第二部分：項目範圍時的注意事項](project-considerations.md)
+   + [第3部分：測試、POC、試點和推展](testing-pocs-pilots-rollouts.md)
+   + [第四部分：專案管理與部署](project-management-and-deployment.md)
+   + [第5部分：支援考量事項](support-considerations.md)
 + 配置和管理 {#administering}
    + [畫面伺服器組態](configuring-screens-introduction.md)
    + [設定Dispatcher配置](dispatcher-configurations-aem-screens.md)
@@ -56,7 +56,9 @@ ht-degree: 3%
       + [建立和管理位置](managing-locations.md)
       + [建立和管理計畫](managing-schedules.md)
       + [管理裝置](managing-devices.md)
-      + [頻道指定任務](channel-assignment.md)
+      + 指派渠道 {#assigning-channels}
+         + [渠道分配：AEM 6.5.5 Screens FP和更新版本](channel-assignment.md)
+         + [渠道分配：舊版FP](channel-assignment.md)
    + 使用核心產品功能 {#product-features}
       + [文字重疊](text-overlay.md)
       + [大量離線更新](bulk-offline-update.md)
