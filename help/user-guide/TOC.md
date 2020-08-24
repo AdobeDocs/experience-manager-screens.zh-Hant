@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Experience Manager畫面說明
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
+source-git-commit: 0f8712e8afb806fbf4136880f44b629a5a52b5ec
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 3%
@@ -57,7 +57,7 @@ ht-degree: 3%
       + [建立和管理計畫](managing-schedules.md)
       + [管理裝置](managing-devices.md)
       + 指派渠道 {#assigning-channels}
-         + [渠道分配：AEM 6.5.5 Screens FP和更新版本](channel-assignment.md)
+         + [渠道分配：AEM 6.5.5 Screens FP和更新版本](channel-assignment-latest-fp.md)
          + [渠道分配：舊版FP](channel-assignment.md)
    + 使用核心產品功能 {#product-features}
       + [文字重疊](text-overlay.md)
