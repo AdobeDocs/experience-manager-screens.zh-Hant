@@ -2,10 +2,10 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '633'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 1%
 
 語音辨識功能可讓AEM Screens頻道中由語音互動驅動的內容變更。
 
-內容作者可以將顯示設為啟用語音。 這允許根據顯示器註冊的所有播放器理解語音。 您必須啟用「顯示」的語音識別，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
+內容作者可以將顯示設為啟用語音。 這項功能的目的是讓客戶運用語音作為與顯示器互動的方式。 一些類似的使用案例包括在商店中尋找產品建議、在用餐者和餐廳訂購功能表項目。 此功能可提高使用者的協助功能，並可大幅提升客戶體驗。
+
 
 >[!NOTE]
 >播放器硬體必須支援語音輸入，例如麥克風。
@@ -26,6 +27,9 @@ ht-degree: 1%
 
 ## 實施語音識別 {#implementing}
 
+
+若要在AEM Screens專案中實作語音識別，您必須啟用「顯示」的語音識別，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
+
 以下章節說明如何在AEM Screens專案中啟用和使用「語音辨識」功能。
 
 ### 設定專案 {#setting-up}
@@ -34,19 +38,27 @@ ht-degree: 1%
 
 1. 下列範例展示名為 **VoiceDemo** 的示範專案，以及3種 **Main**、 **ColdDrinks**&#x200B;和 **** HotDrinks，如下圖所示。
 
+   ![影像](assets/voice-recognition/vr-1.png)
+
    >[!NOTE]
    >
    >如要瞭解如何建立頻道或新增內容至頻道，請參閱建立 [和管理頻道](/help/user-guide/managing-channels.md)
 
 1. 導覽至每個頻道並新增內容。 例如，導覽至 **VoiceDemo** —> **Channels** —> **Main** ，然後選取頻道。 按一 **下動作列的** 「編輯」以開啟編輯器，並視需要新增內容（影像／視訊）。 同樣地，您也可將內容 **加入ColdDrinks** 和 **HotDrinks頻道** 。
 
-   頻道現在包含下列內容，如下圖所示。
+   頻道現在包含資產（影像），如下圖所示。
 
    **主要**:
 
+   ![影像](assets/voice-recognition/vr-4.png)
+
    **ColdDrinks**:
 
+   ![影像](assets/voice-recognition/vr-3.png)
+
    **熱飲**:
+
+   ![影像](assets/voice-recognition/vr-2.png)
 
 ### 設定渠道的標籤 {#setting-tags}
 
@@ -58,10 +70,27 @@ ht-degree: 1%
 
 1. 從動 **作列按一下** 「屬性」。
 
+   ![影像](assets/voice-recognition/vr-5.png)
+
 1. 導覽至「 **基本** 」索引標籤，並從「標籤」欄位中選取已有的標籤 **** ，或建立新標籤。
+
+   您可以輸入新的標籤名稱來建立新標籤，如下圖所示：
+
+   ![影像](assets/voice-recognition/vr-6.png)
+
+   或,
+
+   您可以事先從AEM例項建立專案的標籤，並選取這些標籤。
+
+   請依照下列步驟建立標籤：
+
+   1. 導覽至您的AEM例項。
+   1. 按一下工具—>標 **記**。
+      ![影像](assets/voice-recognition/vr-7.png)
 
 1. 完成 **後，按一下「儲存** 並關閉」。
 
+同樣地，在 **HotDrinks頻道中新增** 名為 **hot的標題，在ColdDrinks** tag頻道中新增 **cold****** 。
 
 ### 將頻道指派給顯示 {#channel-assignment}
 
