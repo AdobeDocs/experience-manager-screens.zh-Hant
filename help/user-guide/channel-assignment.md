@@ -3,10 +3,10 @@ title: 頻道指定任務
 seo-title: 頻道指定任務
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 3%
+source-wordcount: '1215'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 1. 導覽至所需的顯示，例如 **DemoProject** —> **Locations** —> **SanJose** —> **** StoreDisplayDisplay。
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![影像](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. 點選／按一 **下動作列中的** 「指定頻道」
 
