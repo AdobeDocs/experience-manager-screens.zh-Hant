@@ -3,10 +3,10 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 1%
+source-wordcount: '895'
+ht-degree: 2%
 
 ---
 
@@ -23,20 +23,59 @@ ht-degree: 1%
 >[!NOTE]
 >您可以指派多個頻道至顯示器。
 
+
 ## 指派渠道 {#assign-a-channel-new-release}
 
-請遵循下列步驟，將頻道指派給顯示器：
+請依照下列章節建立AEM Screens專案，並指派頻道至顯示器。
 
-1. 導覽至所需的顯示，例如 **DemoProject** —> **Locations** —> **SanJose** —> **** StoreDisplayDisplay。
+### 建立AEM畫面專案和頻道 {#creating-project}
 
+請依照下列步驟來設定專案和渠道：
 
-1. 從動作列點選/ **按一下** 「指派頻道」
+1. 建立標題為「 **DemoScreens」的AEM Screens專案**。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >請參閱「 [建立和管理專案](creating-a-screens-project.md) 」以瞭解如何建立AEM Screens專案。
+
+1. 在「頻道」資料夾中建立名 **為** 「食堂」 **的序列頻道** 。
+
+1. 選取頻道，然後從動 **作列按一下** 「編輯」，將內容新增至頻道。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   例如， **Cafeteria** 頻道現在會顯示下列影像：
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. 建立標題為 **SanJose** 的位置，以及顯示為 **Lobby**。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### 將頻道指派給顯示 {#assigning-channel-to-display}
+
+完成專案設定後，您必須將頻道指派給顯示器，才能檢視內容。
+
+1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
+
+1. 從動作列點選/ **按一下** 「指派渠道」。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或,
 
-   點選／按一下「儀表板 **」，然後從「已分配渠道和計畫」面板中按一下「指定渠道** 」(+ Assign Channel **)，以開啟「渠道分配」(Channel Assignment)********** 對話框。
+   點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程 **」面板按一下「** +指派頻道 **** 」。
 
-1. 從「設定」選項中，您可以依路徑或依名稱選擇渠道，輸入渠道角色、優先順序、支援的事件。
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. 「渠 **道分配** 」對話框開啟。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. 從「設 **定** 」選項中，您可以依路徑或依名稱選擇渠道，輸入渠道角色、優先順序、支援的事件和中斷方法。 此外，您也可以從此對話方塊啟用吸引工具提示選項。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道屬性。
@@ -45,7 +84,9 @@ ht-degree: 1%
 
 1. 設定好 **偏好設定後** ，按一下「儲存」。
 
-## 從渠道分配瞭解渠道屬性 {#channel-properties}
+### 在Chrome Player中檢視內容 {#viewing-content-output}
+
+### 從渠道分配瞭解渠道屬性 {#channel-properties}
 
 ### Reference Channel {#ref-channel}
 
