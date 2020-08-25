@@ -3,9 +3,9 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -73,18 +73,18 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 從「設 **定** 」選項中，您可以依路徑或依名稱選擇渠道，輸入渠道角色、優先順序、支援的事件和中斷方法。 此外，您也可以從此對話方塊啟用吸引工具提示選項。
+1. 從「設 **置** 」選項中 **，可以按路徑或名稱選擇渠道，輸入渠道角色、優先順序**、 **Priority**、 ******** Events和Supported Ching Methods等方法。 此外，您也可以從此對話 **方塊啟用** 「吸引力」工具提示。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道屬性。
+   >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道指派屬性。
 
 1. 從「計 **划** 」選項中，選擇「參考時區 **」、「**&#x200B;激活窗口 **」和「******重複計畫」。
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道屬性。
+   >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道指派屬性。
 
 1. 設定好 **偏好設定後** ，按一下「儲存」。
 
@@ -96,7 +96,9 @@ ht-degree: 2%
 
 在您選擇的播放器上，您將檢視下列輸出：
 
-### 從渠道分配瞭解渠道屬性 {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### 從渠道分配對話框瞭解渠道屬性 {#channel-properties}
 
 從「渠道分配」對話框的「 **設定** 」選項 **中設定以下屬性** 。
 
@@ -185,18 +187,27 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 
 此範例說明餐廳如何使用DayParting來展示其每日的早餐、午餐和晚餐菜單。
 
-在這裡，我們將每天分為三個不同的時段，讓頻道內容在一天中的指定時間播放。 The will set the following properties of the Recurrence Schedule to play the content as as this use case.
+在此，我們將每天分割為不同的時段，讓頻道內容在一天中的指定時間播放。 根據此使用案例，設定「定期排程」的下列屬性以播放內容。
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
 | 早餐 | 每日 | 6:00 AM | 11:00 AM |
-| 早餐 | 每日 | 11:02 AM | 3:00 PM |
-| 早餐 | 每日 | 下午3:01 | 8:00 PM |
+| 午餐 | 每日 | 11:02 AM | 3:00 PM |
+| 晚餐 | 每日 | 下午3:01 | 8:00 PM |
 
 #### 在一週中的某一天播放內容 {#playing-content-on-a-particular-day-of-the-week}
 
-此範例顯示賭場中的DayParting：在賭場中，每週末從8:00 pm到10:00進行即時活動，而晚餐選單在10:00 pm到1:00 am提供特惠。
+此範例顯示在賭場中實作的DayParting，該賭場每週末從8:00 pm到10:00 pm都會進行即時活動，而且晚上10:00到1:00 am之後，晚餐功能表會提供特惠。
 
+| **名稱** | **重複** | **啟動** | **結束** |
+|---|---|---|---|
+| 週末 | 每週 | 8:00 PM | 10:00 PM |
+| 特殊 | 每日 | 10:00 PM | 1:00 AM |
+
+**週末**
+
+
+**特殊**
 
 #### 播放特定月份／月的內容 {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 
 此範例顯示商店的DayParting，該商店在12月的月份會以相同的排程顯示其冬季系列。 但由於B頻道的優先順序設定為2，所以在那一週；頻道B會播放其內容，而非頻道A。
 
+## 時間軸檢視 {#timeline-view}
+
+在將渠道指派給顯示並設定定期排程後，您就可以從「已指派的渠道與排程」面板 **檢視時間軸** 。
+
+請依照下列步驟導覽至時間軸檢視：
 
 
 
