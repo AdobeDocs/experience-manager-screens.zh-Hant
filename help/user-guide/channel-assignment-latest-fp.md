@@ -3,9 +3,9 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 2%
 
 ---
@@ -187,7 +187,7 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 
 此範例說明餐廳如何使用DayParting來展示其每日的早餐、午餐和晚餐菜單。
 
-在此，我們將每天分割為不同的時段，讓頻道內容在一天中的指定時間播放。 根據此使用案例，設定「定期排程」的下列屬性以播放內容。
+在此，我們將每天分割為不同的時段，讓頻道內容在一天中的指定時間播放。 根據此使用案例，為渠道設定下列「定期排程」屬性以播放內容。
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
