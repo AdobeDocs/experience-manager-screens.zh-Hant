@@ -2,9 +2,9 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: a1322709f4c9b682233364f72553b40585b46031
+source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -27,15 +27,13 @@ ht-degree: 3%
 
 內容作者可以將顯示設為啟用語音。 這項功能的目的是讓客戶運用語音作為與顯示器互動的方式。 一些類似的使用案例包括在商店中尋找產品建議、在用餐者和餐廳訂購功能表項目。 此功能可提高使用者的協助功能，並可大幅提升客戶體驗。
 
-
 >[!NOTE]
 >播放器硬體必須支援語音輸入，例如麥克風。
 
->[!IMPORTANT]
-> 語音識別功能僅適用於Chrome和電子播放器。
-
 ## 實施語音識別 {#implementing}
 
+>[!IMPORTANT]
+> 語音識別功能僅適用於Chrome和電子播放器。
 
 若要在AEM Screens專案中實作語音識別，您必須啟用「顯示」的語音識別，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
 
@@ -105,11 +103,15 @@ ht-degree: 3%
 1. 按一下工具—>標 **記**。
    ![影像](assets/voice-recognition/vr-7.png)
 1. 按一下 **建立** —>創 **建命名空間**。
-   ![影像](assets/voice-recognition/vr-7.png)
-1. 輸入專案名稱，例如： **VoiceDemo** ，然後按一下「建立」。
+   ![影像](assets/voice-recognition/vr-tag3.png)
+1. 輸入專案名稱，例如： **VoiceDemo** ，然後按一 **下Create**。
+   ![影像](assets/voice-recognition/vr-tag2.png)
 1. 選取 **VoiceDemo專案** ，然後從動作列按 **一下「建立標籤** 」。
-1. 按一 **下提交**。
+   ![影像](assets/voice-recognition/vr-tag4.png)
+1. 輸入標籤的名稱，然後按一下「 **提交**」。
+   ![影像](assets/voice-recognition/vr-tag5.png)
 
+現在，您可以在AEM Screens專案中使用這些標籤。
 
 ### 為顯示器分配頻道並啟用語音識別 {#channel-assignment}
 
@@ -151,6 +153,10 @@ ht-degree: 3%
 >請參閱「 [裝置註冊](device-registration.md) 」以瞭解如何在AEM Screens播放器上註冊裝置。
 
 此範例將展示Chrome Player的輸出。
+
+主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
+
+同樣地，如果您使用關鍵字 **cold** ，例如 *I wold wold wold to great socd*，頻道會開始播放 **** ColdDrinks頻道的內容。
 
 ![新影像](assets/voice-recognition/voice-video.gif)
 
