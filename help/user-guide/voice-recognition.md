@@ -2,10 +2,10 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 1%
+source-wordcount: '847'
+ht-degree: 3%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 1. 導覽至「 **基本** 」索引標籤，並從「標籤」欄位中選取已有的標籤 **** ，或建立新標籤。
 
-   您可以輸入新的標籤名稱來建立新標籤，如下圖所示：
+   您可以輸入新的標籤名稱並按鍵，以建立新的標 `return` 簽，如下圖所示：
 
    ![影像](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ ht-degree: 1%
 
 1. 在指派渠道時，請為每個渠道設定下列屬性。
 
-   * 主要
-   * 熱飲
-   * ColdDrinks
+   | **頻道名稱** | **優先順序** | **支援的事件** |
+   |---|---|---|
+   | 主要 | 2 | 初始載入、空閒螢幕、計時器 |
+   | 熱飲 | 1 | 使用者互動 |
+   | ColdDrinks | 1 | 使用者互動 |
 
    >[!NOTE]
    >
