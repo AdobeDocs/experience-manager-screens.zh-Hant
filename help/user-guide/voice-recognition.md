@@ -2,15 +2,22 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
 
 # AEM畫面中的語音識別 {#voice-recognition}
+
+>[重要]
+>**重要隱私權資訊**
+>使用語音識別功能時，請遵循您所在地區的所有適用法律與道德准則（包括但不限於向使用者顯示播放器使用語音識別）。 Adobe Inc.不會接收、儲存或處理任何語音相關資訊。 AEM Screens播放器會使用瀏覽引擎內建的標準網頁語音API。 在幕後，您的語音波形會傳送至Google的伺服器，以從語音轉換為文字，而播放器會比對設定的關鍵字。
+>
+>如需詳細 [資訊，請參閱網頁語音API的Google隱私權白皮書](https://www.google.com/chrome/privacy/whitepaper.html#speech) 。
+
 
 ## 概覽 {#overview}
 
@@ -80,30 +87,44 @@ ht-degree: 2%
 
    或,
 
-   您可以事先從AEM例項建立專案的標籤，並選取這些標籤。
+   您可以事先從AEM例項建立專案的標籤，並選取這些標籤。 遵循「建立標籤」中說明的步驟後 [](#creating-tags)，您就可從位置選取標籤並將其新增至您的渠道，如下圖所示：
 
-   請依照下列步驟建立標籤：
-
-   1. 導覽至您的AEM例項。
-   1. 按一下工具—>標 **記**。
-      ![影像](assets/voice-recognition/vr-7.png)
+   ![影像](assets/voice-recognition/vr-tag1.png)
 
 1. 完成 **後，按一下「儲存** 並關閉」。
 
-同樣地，在 **HotDrinks頻道中新增** 名為 **hot的標題，在ColdDrinks** tag頻道中新增 **cold****** 。
+同樣地，將標題為 **hot的標籤** ，新增 **至HotDrinks頻道** 。
 
-### 將頻道指派給顯示 {#channel-assignment}
+#### 建立標籤 {#creating-tags}
+
+請依照下列步驟建立標籤：
+
+1. 導覽至您的AEM例項。
+1. 按一下工具—>標 **記**。
+   ![影像](assets/voice-recognition/vr-7.png)
+1. 按一下 **建立** —>創 **建命名空間**。
+   ![影像](assets/voice-recognition/vr-7.png)
+1. 輸入專案名稱，例如： **VoiceDemo** ，然後按一下「建立」。
+1. 選取 **VoiceDemo專案** ，然後從動作列按 **一下「建立標籤** 」。
+1. 按一 **下提交**。
+
+
+### 為顯示器分配頻道並啟用語音識別 {#channel-assignment}
 
 1. 在「位置」資料 **夾中** ，建立顯示，如下圖所示。
 
+   ![影像](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)。
 
 1. 將頻道Main **、** ColdDrinks **和** HotDrinks指派給您的LobbyDisplay **(大******&#x200B;堂展示)。
 
+1. 在指派渠道時，請為每個渠道設定下列屬性。
 
-1. 將下列屬性設為每個頻道。
+   * 主要
+   * 熱飲
+   * ColdDrinks
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ ht-degree: 2%
 
 1. 導覽至「顯 **示** 」索引標籤，並在「內容」下啟用 **「語音** 」 **選項**。
 
-   >[!NOTE]
+   ![影像](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >必須從顯示器中啟用語音識別功能。
 
-## 在Chrome Player中檢視內容 {#viewing-content}
+#### 在Chrome Player中檢視內容 {#viewing-content}
 
 完成上述步驟後，您就可以註冊您的chrome裝置並檢視輸出。
 
-請遵循下列步驟：
+>[!NOTE]
+>請參閱「 [裝置註冊](device-registration.md) 」以瞭解如何在AEM Screens播放器上註冊裝置。
 
-1. 導覽至「 **裝置** 」檔案夾，然後從動作列按 **一下「裝置管理員** 」以註冊裝置。
+此範例將展示Chrome Player的輸出。
+
+![新影像](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
