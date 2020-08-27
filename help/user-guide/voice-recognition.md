@@ -2,9 +2,9 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -96,11 +96,10 @@ ht-degree: 3%
 
    ![影像](assets/voice-recognition/vr-tag1.png)
 
+1. 同樣地，將標題為 **hot的標籤** ，新增 **至HotDrinks頻道** 。
+
 1. 完成 **後，按一下「儲存** 並關閉」。
 
-同樣地，將標題為 **hot的標籤** ，新增 **至HotDrinks頻道** 。
-
-如果您使用「分割畫面頻道」做為範本，請確定您同時將標籤(**hot****和cold**)新增至您的頻道屬性。
 
 ### 建立標籤 {#creating-tags}
 
@@ -276,7 +275,7 @@ ht-degree: 3%
 
 此範例將展示Chrome Player的輸出。
 
-The **Main** channel is playing its content，但是當您搭配使用關鍵字 **hot** 和 **cold** ，例如 ****** I wold wit to see the menu for hot和cold beverages, the contents of the splitScreensChannel.
+The **Main** channel is playing its content，但是當您搭配使用關鍵字 **hot** 和 **cold** ，例如 ****** I wold wit to see the menu for hot和cold beverages, the contents of the SplitScreenChannel.
 
 
 
