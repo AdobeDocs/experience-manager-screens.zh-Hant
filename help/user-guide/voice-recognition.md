@@ -2,9 +2,9 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,6 @@ ht-degree: 3%
    ![影像](assets/voice-recognition/vr-tag3.png)
 
 1. 輸入專案名稱，例如 **VoiceDemo** ，然後按一 **下Create**。
-   ![影像](assets/voice-recognition/vr-tag2.png)
 
 1. 選取 **VoiceDemo專案** ，然後從動作列按 **一下「建立標籤** 」。
    ![影像](assets/voice-recognition/vr-tag4.png)
