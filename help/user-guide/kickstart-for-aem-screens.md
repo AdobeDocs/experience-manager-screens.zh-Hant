@@ -2,52 +2,56 @@
 title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
-seo-description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 0%
 
 ---
 
 
 # Kickstart指南 {#kickstart-guide}
 
-本節是AEM Screens的動畫開頭，並說明如何達成基本動作。 它會逐步帶您設定基本的數位招牌體驗，包括內容／資產，以及發佈至螢幕播放器。 如需深入瞭解螢幕開發的所有元件，請參閱頁面結尾的資源。
+本節是AEM Screens的動畫開頭，並說明如何達成基本動作。 它會逐步帶您設定基本的數位招牌體驗，包括內容／資產，以及發佈至螢幕播放器。
 
 ## 在5分鐘內建立數位標牌體驗 {#creating-a-digital-signage-experience-in-minutes}
 
 下列步驟可讓您建立「畫面」的範例專案，並將內容發佈至「畫面播放器」。
 
-1. 若要下載 **AEM Screens Player**，請按一 [下這裡](https://download.macromedia.com/screens/)。
+若要下載 **AEM Screens Player**，請按一 [下這裡](https://download.macromedia.com/screens/)。
 
-   AEM Screens也可在 **Google Play中使用**。
 
-   如需Chrome OS Player的實作，請參閱 [Chrome管理控制台](implementing-chrome-os-player.md) ，以取得詳細資訊。
+如需Chrome OS Player的實作，請參閱 [Chrome管理控制台](implementing-chrome-os-player.md) ，以取得詳細資訊。
 
-   如需詳 [細資訊，請參閱安裝和設定畫面](configuring-screens-introduction.md) 。
+如需在裝置上安裝和設定畫面播放器的資訊，請參 [閱安裝和設定畫面](configuring-screens-introduction.md) ，以取得詳細資訊。
 
-   >[!NOTE]
-   >
-   >**OSGI設定**
-   >
-   >
-   >您必須啟用空的反向連結，以允許裝置將資料張貼至伺服器。 例如，如果停用空的反向連結屬性，裝置就無法將螢幕擷取張貼回去。 目前，部分功能僅在OSGI config中啟用Apache Sling Referrer Filter Allow Empty時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
-   >
-   >
-   >請依照下列步驟來啟用 ***Apache Sling Referrer Filter Allow Empty***:
-   >
-   >
-   >
-   >    1. 導覽至 **Adobe Experience Manager Web Console設定**，即 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
-   >    1. 選中 **allow.empty選項** 。
-   >    1. 按一下&#x200B;**「儲存」**。
+>[!NOTE]
+>**OSGI設定**
+>您必須啟用空的反向連結，以允許裝置將資料張貼至伺服器。 例如，如果停用空的反向連結屬性，裝置就無法將螢幕擷取張貼回去。 目前，部分功能僅在OSGI Config中啟用Apache Sling Referrer Filter Allow Empty時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
+>
+>
+>請依照下列步驟來啟用 ***Apache Sling Referrer Filter Allow Empty***:
 
+
+## 允許空的反向連結請求 {#allow-empty-referrer-requests}
+
+1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+
+   ![影像](assets/config/empty-ref1.png)
+
+1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋sling referrer。
+
+   若要搜尋sling referrer屬性，請按 **Command+F** for **Mac** , **Control+F** for **** Windows。
+
+1. 勾選「 **允許空白** 」選項，如下圖所示。
+
+   ![影像](assets/config/empty-ref2.png)
+
+1. 按一 **下「儲存** 」以啟用Apache Sling Referrer Filter Allow Empty。
+
+
+## 教學課程 {#tutorial}
 
 1. **建立新專案**
 
@@ -57,6 +61,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 從「建 **立畫面** 」專案精靈中選 **取「畫面」** ，然後按一下「 **下一步**」。
 
    1. 輸入標題為 *Test_Project* ，然後按一 **下Create**。
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    在建立專案後，就會將您帶回「畫面專案」主控台。 您現在可以選取專案。 在項目中有五種類型：應用程式 **、通道、設備**、位置 **、**************&#x200B;位置資料夾和時間表，如下圖所示。
@@ -81,6 +86,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 選擇「 **Sequence Channel** 」，然後按 **「Next」**。
 
    1. 輸入「名 **稱** 」和「標題 **」作** 為TestChannel *，然*****&#x200B;後按一下Create Reate。
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    TestChannel *會建立* ，並新增至您的頻道資料夾，如下圖所示。
@@ -101,6 +107,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. 按一下切換動作列左側側面板的圖示，以開啟資產和元件。
    1. 拖放您要新增至渠道的元件。
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    在此範例中，編輯器會顯示新增至頻道的影像。
@@ -121,6 +128,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 從向 **導中選擇** 「位置」，然後按一下「 **下一步」**。
 
    1. 輸入您所 **在位置的名稱****和標題** (將標題輸入為 *TestLocation*)，然後按一下 **** CreateLocation。
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    TestLocation *會建立* ，並新增至您的 **Locations資料** 夾。
@@ -133,7 +141,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ***顯示*** ，代表在一或多個螢幕上執行的數位體驗。
 
-   1. 導覽至您要建立顯示畫面的位置(*Test_* Project —&gt; **Locations** —&gt; *TestLocation)* ，如上圖所示，然後選擇 ** TestLocationLocation。
+   1. 導覽至您要建立顯示畫面的位置(*Test_* Project —> **Locations** —> *TestLocation)* ，如上圖所示，然後選擇 ** TestLocationLocation。
 
    1. 從動 **作列按一下** 「建立」。
    1. 從「創 **建** 」嚮導中選擇「顯 **示」** ，然後按一下「 **下一步**」。
@@ -146,7 +154,8 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
       1. 選擇「 **水準設備數** 」為1。
       1. 選擇「 **Number of Devices Pregitally** （垂直裝置數）」為1。
-   1. 按一下&#x200B;**「建立」**。
+   1. 按一下&#x200B;**建立**。
+
    新的顯示(*TestDisplay*)會新增至您的 *TestLocation位置*，如下圖所示。
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
@@ -159,7 +168,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    >
    >只有在您已安裝AEM 6.3 Sites Feature Pack 1時，才能使用此畫面功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
-   1. 從Test_Project —&gt; **Schedules** 導覽至Schedules資料夾 ****。
+   1. 從Test_Project —> **Schedules** 導覽至Schedules資料夾 ****。
 
    1. 從動 **作列按一下** 「建立」。 嚮導將開啟。
    1. 從「創 **建** 」嚮導頁面 **選擇「計畫** 」。
@@ -167,6 +176,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 在屬性 **頁面中** ，將名稱 **和標** 題輸入為MorningSchedule ** 。
 
    1. 按一 **下「建立** 」，排程就會新增至「排程 **** 」資料夾，如下圖所示。
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    此外，請選取排程(*MorningSchedule*)，然後從動作列按一下「 **儀表板** 」以檢視排程控制面板。 您可以使用控制面板來檢視／變更排程的屬性、指派渠道，以及檢視指派的顯示。
@@ -177,7 +187,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 1. **指派渠道**
 
-   1. 從 *Test_Dest* —&gt; **Project Locations** — *—&gt;*** TestDisplay位置導覽至顯示。
+   1. 從 *Test_Dest* —> **Project Locations** — *—>*** TestDisplay位置導覽至顯示。
 
    1. 選取 *TestDisplay* ，然後從動作列點選／按一下**Assign Channel ** *或*,
 
@@ -187,7 +197,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. 將頻道角 **色輸入為***LiveStream*。
 
-   1. 在Channel Channel中 **選擇Path** (*Test_Project* —&gt; *Channels* —&gt; ****** Test Channel)。
+   1. 在Channel Channel中 **選擇Path** (*Test_Project* —> *Channels* —> ****** Test Channel)。
 
    1. 選擇此 **渠道的** 「優先順序」 *為1*。
 
@@ -196,6 +206,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    1. 輸入 **計畫** ，然後選擇活動中的 **開始日期** , **和活動**。
 
    1. 按一下&#x200B;**「儲存」**。
+
    頻道會建立並新增至面板。
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -204,13 +215,14 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 1. **新增排程至渠道**
 
-   1. 從 *Test_Dest* —&gt; **Project Locations** — *—&gt;*** TestDisplay位置導覽至顯示。
+   1. 從 *Test_Dest* —> **Project Locations** — *—>*** TestDisplay位置導覽至顯示。
 
    1. 按一 **下「控制面板** 」，然後從「已指派的頻道與排程」面板中，選取右上角的「指派排程」(Assign Schedule ******** )，如上圖所示。 **「計劃分配** 」對話框開啟。
 
-   1. 選擇您建立排程的路徑( *Test_Project* —&gt; **Schedules** —&gt; *MorningSchedule*)。
+   1. 選擇您建立排程的路徑( *Test_Project* —> **Schedules** —> *MorningSchedule*)。
 
    1. 按一 **下「儲存** 」，將排程新增至您的渠道。
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **註冊設備**
@@ -225,10 +237,11 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. 啟動個別的瀏覽器視窗。
    1. 使用網頁瀏覽器前往「畫面 *播放器* 」, `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` 或啟動AEM Screens應用程式。 當您開啟裝置時，會注意到裝置的狀態為未註冊。
-   1. 從AEM儀表板，導覽至 *Test_Project* —&gt;裝 **置**
+   1. 從AEM儀表板，導覽至 *Test_Project* —>裝 **置**
 
    1. 從動 **作列按一下「裝置管理器** 」。
    1. 按一 **下「裝置註冊** 」，您就會看到待審裝置，如下圖所示。
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    選擇要註冊的設備，然後按一下「 **Register Device（註冊設備）**」。
@@ -267,6 +280,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    1. 按一下 **指派**。
    1. 按一下 **完成** ，完成該過程，現在已分配設備。
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    顯示控制面板隨即開啟，您將會看到與指派的頻道和排程相關的所有資訊，以及裝置設定詳細資訊。
