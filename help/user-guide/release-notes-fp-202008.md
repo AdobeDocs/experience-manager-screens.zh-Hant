@@ -2,9 +2,9 @@
 title: 功能套件202008發行說明
 description: 本頁說明Feature Pack 202008的發行說明。
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ AEM Screens已發行AEM 6.5 Feature Pack 5。
 
 AEM Screens Feature Pack 202008的發行日期為2020年8月31日。
 
-### 新功能 {#what-s-new}
+### 新功能 {#what-is-new}
 
 * **排程控制面板上的時間軸檢視**
 
@@ -48,18 +48,16 @@ AEM Screens Feature Pack 202008的發行日期為2020年8月31日。
 
    如需詳 [細資訊](voice-recognition.md) ，請參閱語音辨識。
 
-* **在作者／發佈模式下更新裝置偏好設定**
-
 ### 已發行的AEM Screens播放器 {#released-aem-screens-players}
 
-針對AEM Screens發行的AEM 6.5 Feature Pack 5發行下列AEM Screens Player:
+針對AEM Screens發行的AEM 6.5 Feature Pack 5發行下列AEM Screens Player。
+
+>[!IMPORTANT]
+>如果您已安裝AEM Service Pack 6.5.5，您可能會在「畫面」播放器中遇到複製問題。 安 [裝cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) ，以修正問題。
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->如果您已安裝AEM Service Pack 6.5.5，您可能會在「畫面」播放器中遇到複製問題。 安 [裝cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) ，以修正問題。
 
 #### AEM Screens Player下載  {#aem-screens-player-downloads}
 
