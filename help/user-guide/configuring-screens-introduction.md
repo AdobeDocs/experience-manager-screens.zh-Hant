@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -72,25 +72,24 @@ The Health Check framework lows the user to check if two exence configurations a
 
 1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![影像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋sling referrer。
 
    若要搜尋sling referrer屬性，請按 **Command+F** for **Mac** , **Control+F** for **** Windows。
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. 勾選「 **允許空白** 」選項，如下圖所示。
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![影像](assets/config/empty-ref2.png)
 
 1. 按一 **下「儲存** 」以啟用Apache Sling Referrer Filter Allow Empty。
+
 
 #### 基於Apache Felix Jetty的HTTP服務 {#allow-apache-felix-service}
 
 1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![影像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋以Apache Felix Jetty為基礎的HTTP服務。
 
@@ -98,7 +97,7 @@ The Health Check framework lows the user to check if two exence configurations a
 
 1. 勾選「 **啟用HTTP** 」選項，如下圖所示。
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![影像](assets/config/config-1.png)
 
 1. 按一 **下「儲存** 」以啟用 *http服務* 。
 
