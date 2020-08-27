@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,27 @@ ht-degree: 0%
 
 若要實作適用於AEM畫面的Android Player，請安裝適用於AEM畫面的Android Player。
 
-請造訪 [**AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
+請造訪 [**AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
+
+### 設定AEM Screens 6.5.5功能套件及更新版本的環境 {#fp-environment-setup}
+
+如果您使用AEM Screens 6.5.5 Feature Pack，則必須為Android Player設定環境。
+
+請遵循下列步驟：
+
+1. 導覽至 **Adobe Experience Manager Web Console使用設定**`http://localhost:4502/system/console/configMgr`。
+
+1. 搜尋 *Adobe Granite Token驗證處理常式*。
+
+1. 將登入 **Token Cookie的SameSite屬性從****Lax設為****None**。
+   ![影像](/help/user-guide/assets/granite-updates.png)
+
+1. 按一下&#x200B;**「儲存」**。
+
 
 ### 臨機方法 {#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Android Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
+臨機方法可讓您安裝最新的Android Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
