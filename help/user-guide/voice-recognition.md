@@ -2,10 +2,10 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
+source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 2%
+source-wordcount: '1581'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 2%
 >如需詳細 [資訊，請參閱網頁語音API的Google隱私權白皮書](https://www.google.com/chrome/privacy/whitepaper.html#speech) 。
 
 
-## 概覽 {#overview}
 
 語音辨識功能可讓AEM Screens頻道中由語音互動驅動的內容變更。
 
@@ -39,14 +38,12 @@ ht-degree: 2%
 
 以下章節說明如何在AEM Screens專案中啟用和使用「語音辨識」功能。
 
-### 設定專案 {#setting-up}
-
 您可以使用下列兩個範本來設定專案：
 
 * [順序頻道](#sequence-channel)
 * [分割畫面頻道](#split-channel)
 
-#### 使用序列渠道作為模板 {#sequence-channel}
+## 使用序列渠道作為模板 {#sequence-channel}
 
 在使用語音識別功能之前，請確定您有專案和頻道，並為專案設定內容。
 
@@ -73,33 +70,6 @@ ht-degree: 2%
    **熱飲**:
 
    ![影像](assets/voice-recognition/vr-2.png)
-
-#### 使用分割畫面頻道做為範本 {#split-channel}
-
-在使用語音識別功能之前，請確定您有專案和頻道，並為專案設定內容。
-
-1. 下面的示例展示了名為 **VoiceDemo** 和3個序列通道 **Main**、 **ColdDrinks和** HotDrinks ******** , SplitChannelDemo的項目，如下圖所示。
-
-
-
-   >[!NOTE]
-   >
-   >如要瞭解如何建立頻道或新增內容至頻道，請參閱建立 [和管理頻道](/help/user-guide/managing-channels.md)
-
-1. 導覽至每個頻道並新增內容。 例如，導覽至 **VoiceDemo** —> **Channels** —> **Main** ，然後選取頻道。 按一 **下動作列的** 「編輯」以開啟編輯器，並視需要新增內容（影像／視訊）。 同樣地，您也可將內容 **加入ColdDrinks** 和 **HotDrinks頻道** 。
-
-   頻道現在包含資產（影像），如下圖所示。
-
-   **主要**:
-
-
-
-   **ColdDrinks**:
-
-
-   **熱飲**:
-
-1. 導覽至 **SplitChannel** 並新增內容。 拖放兩個內嵌的序列，並新增 **ColdDrinks** 和 **HotDrinks** 頻道的路徑，如下圖所示。
 
 
 ### 設定渠道的標籤 {#setting-tags}
@@ -132,7 +102,7 @@ ht-degree: 2%
 
 如果您使用「分割畫面頻道」做為範本，請確定您同時將標籤(**hot****和cold**)新增至您的頻道屬性。
 
-#### 建立標籤 {#creating-tags}
+### 建立標籤 {#creating-tags}
 
 請依照下列步驟建立標籤：
 
@@ -191,8 +161,6 @@ ht-degree: 2%
 
 此範例將展示Chrome Player的輸出。
 
-#### 針對循序渠道 {#sequential-output}
-
 主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
 
 同樣地，如果您使用關鍵字 **cold** ，例如 *I wold wold wold to great socd*，頻道會開始播放 **** ColdDrinks頻道的內容。
@@ -200,12 +168,117 @@ ht-degree: 2%
 ![新影像](assets/voice-recognition/voice-video.gif)
 
 
-#### 針對分割畫面頻道 {#split-screen-output}
+## 使用分割畫面頻道做為範本 {#split-channel}
+
+在使用語音識別功能之前，請確定您有專案和頻道，並為專案設定內容。
+
+1. 下面的示範項目名為 **VoiceDemo** ,3個序列通道 **Main**、 **ColdDrinks**、 **HotDrinks和****** HotScreen飲料，一個12 SplitScreenShreptScreen拆分通道如下圖所示。
+
+   ![影像](assets/voice-recognition/vr-emb-1.png)
+
+   >[!NOTE]
+   >
+   >如要瞭解如何建立頻道或新增內容至頻道，請參閱建立 [和管理頻道](/help/user-guide/managing-channels.md)
+
+1. 導覽至每個頻道並新增內容。 例如，導覽至 **VoiceDemo** —> **Channels** —> **Main** ，然後選取頻道。 按一 **下動作列的** 「編輯」以開啟編輯器，並視需要新增內容（影像／視訊）。 同樣地，您也可將內容 **加入ColdDrinks** 和 **HotDrinks頻道** 。
+
+   頻道現在包含資產（影像），如下圖所示。
+
+   **主要**:
+
+   ![影像](assets/voice-recognition/vr-emb-3.png)
 
 
-主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
+   **ColdDrinks**:
+   ![影像](assets/voice-recognition/vr-3.png)
 
-同樣地，如果您使用關鍵字 **cold** ，例如 *I wold wold wold to great socd*，頻道會開始播放 **** ColdDrinks頻道的內容。
+   **熱飲**:
+
+   ![影像](assets/voice-recognition/vr-2.png)
+
+1. 導覽至 **SplitScreen** ，然後拖放兩個內嵌的序列，並新增路徑至 **ColdDrinks** 和 **HotDrinks** 頻道，如下圖所示。
+   ![影像](assets/voice-recognition/vr-emb-6.png)
+
+
+### 設定渠道的標籤 {#setting-tags-split}
+
+在將內容新增至頻道後，您必須導覽至每個頻道，並新增適當的標籤，以觸發語音辨識。
+
+請依照下列步驟，將標籤新增至您的渠道：
+
+1. 導覽至每個頻道並新增內容。 例如，導覽至 **VoiceDemo** —> **Channels** —> **Main** ，然後選取頻道。
+
+1. 從動 **作列按一下** 「屬性」。
+
+   ![影像](assets/voice-recognition/vr-5.png)
+
+1. 導覽至「 **基本** 」索引標籤，並從「標籤」欄位中選取已有的標籤 **** ，或建立新標籤。
+
+   您可以輸入新的標籤名稱並按鍵，以建立新的標 `return` 簽，如下圖所示：
+
+   ![影像](assets/voice-recognition/vr-6.png)
+
+   或,
+
+   您可以事先從AEM例項建立專案的標籤，並選取這些標籤。 遵循「建立標籤」中說明的步驟後 [](#creating-tags)，您就可從位置選取標籤並將其新增至您的渠道，如下圖所示：
+
+   ![影像](assets/voice-recognition/vr-tag1.png)
+
+1. 同樣地，將標題為 **hot的標籤** ，新增 **至HotDrinks頻道** 。
+
+1. 將兩個標籤(**hot** 和cold **)新增至** SplitScreen頻道 **** 屬性。
+
+   ![影像](assets/voice-recognition/vr-emb-7.png)
+
+
+1. 完成 **後，按一下「儲存** 並關閉」。
+
+### 為顯示器分配頻道並啟用語音識別 {#channel-assignment-split}
+
+1. 在「位置」資料 **夾中** ，建立顯示，如下圖所示。
+
+   ![影像](assets/voice-recognition/vr-loc.png)
+
+   >[!NOTE]
+   >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)。
+
+1. 將channelsMain **、** ColdDrinks **、** HotDrinks **和********** Split ScreptScreen指派給您的大堂展示。
+
+1. 在指派渠道時，請為每個渠道設定下列屬性。
+
+   | **頻道名稱** | **優先順序** | **支援的事件** |
+   |---|---|---|
+   | 主要 | 2 | 初始載入、空閒螢幕、計時器 |
+   | 熱飲 | 1 | 使用者互動 |
+   | ColdDrinks | 1 | 使用者互動 |
+   | SplitScreen | 1 | 使用者互動 |
+
+   >[!NOTE]
+   >
+   >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)。
+
+1. 將頻道指派給顯示器後，請導覽至「大 **堂** 」顯示器並選取顯示器。 從操 **作欄中** ，選擇屬性。
+
+1. 導覽至「顯 **示** 」索引標籤，並在「內容」下啟用 **「語音** 」 **選項**。
+
+   ![影像](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
+   >必須從顯示器中啟用語音識別功能。
+
+
+### 在Chrome Player中檢視內容 {#viewing-content-split}
+
+完成上述步驟後，您就可以註冊您的chrome裝置以檢視輸出。
+
+>[!NOTE]
+>請參閱「 [裝置註冊](device-registration.md) 」以瞭解如何在AEM Screens播放器上註冊裝置。
+
+此範例將展示Chrome Player的輸出。
+
+The **Main** channel is playing its content，但是當您搭配使用關鍵字 **hot** 和 **cold** ，例如 ****** I wold wit to see the menu for hot和cold beverages, the contents of the splitScreensChannel.
+
+
 
 
 
