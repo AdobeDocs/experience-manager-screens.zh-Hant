@@ -2,10 +2,10 @@
 title: 功能套件202008發行說明
 description: 本頁說明Feature Pack 202008的發行說明。
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,23 @@ AEM Screens Feature Pack 202008的發行日期為2020年8月31日。
 
 * **排程控制面板上的時間軸檢視**
 
+   「時間軸檢視」可讓使用者從顯示控制面板檢視指派給頻道的排程。
+
+   如需詳 [細資訊，請參閱時間軸檢視](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) 。
+
 * **週期排程**
 
+   「定期排程」可讓您設定渠道的循環排程。 您為渠道設定多個週期性排程。
+
+   如需詳 [細資訊，請參閱](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 「定期排程」。
+
 * **AEM畫面的語音識別功能**
+
+   語音辨識功能可讓AEM Screens頻道中由語音互動驅動的內容變更。
+
+   內容作者可以將顯示設為啟用語音。 這項功能的目的是讓客戶運用語音作為與顯示器互動的方式。
+
+   如需詳 [細資訊](voice-recognition.md) ，請參閱語音辨識。
 
 * **在作者／發佈模式下更新裝置偏好設定**
 
@@ -40,7 +54,7 @@ AEM Screens Feature Pack 202008的發行日期為2020年8月31日。
 
 針對AEM Screens發行的AEM 6.5 Feature Pack 5發行下列AEM Screens Player:
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
