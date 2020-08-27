@@ -2,10 +2,10 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1215'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,13 @@ ht-degree: 3%
 
 ### 設定專案 {#setting-up}
 
+您可以使用下列兩個範本來設定專案：
+
+* [順序頻道](#sequence-channel)
+* [分割畫面頻道](#split-channel)
+
+#### 使用序列渠道作為模板 {#sequence-channel}
+
 在使用語音識別功能之前，請確定您有專案和頻道，並為專案設定內容。
 
 1. 下列範例展示名為 **VoiceDemo** 的示範專案，以及3種 **Main**、 **ColdDrinks**&#x200B;和 **** HotDrinks，如下圖所示。
@@ -66,6 +73,34 @@ ht-degree: 3%
    **熱飲**:
 
    ![影像](assets/voice-recognition/vr-2.png)
+
+#### 使用分割畫面頻道做為範本 {#split-channel}
+
+在使用語音識別功能之前，請確定您有專案和頻道，並為專案設定內容。
+
+1. 下面的示例展示了名為 **VoiceDemo** 和3個序列通道 **Main**、 **ColdDrinks和** HotDrinks ******** , SplitChannelDemo的項目，如下圖所示。
+
+
+
+   >[!NOTE]
+   >
+   >如要瞭解如何建立頻道或新增內容至頻道，請參閱建立 [和管理頻道](/help/user-guide/managing-channels.md)
+
+1. 導覽至每個頻道並新增內容。 例如，導覽至 **VoiceDemo** —> **Channels** —> **Main** ，然後選取頻道。 按一 **下動作列的** 「編輯」以開啟編輯器，並視需要新增內容（影像／視訊）。 同樣地，您也可將內容 **加入ColdDrinks** 和 **HotDrinks頻道** 。
+
+   頻道現在包含資產（影像），如下圖所示。
+
+   **主要**:
+
+
+
+   **ColdDrinks**:
+
+
+   **熱飲**:
+
+1. 導覽至 **SplitChannel** 並新增內容。 拖放兩個內嵌的序列，並新增 **ColdDrinks** 和 **HotDrinks** 頻道的路徑，如下圖所示。
+
 
 ### 設定渠道的標籤 {#setting-tags}
 
@@ -94,6 +129,8 @@ ht-degree: 3%
 1. 完成 **後，按一下「儲存** 並關閉」。
 
 同樣地，將標題為 **hot的標籤** ，新增 **至HotDrinks頻道** 。
+
+如果您使用「分割畫面頻道」做為範本，請確定您同時將標籤(**hot****和cold**)新增至您的頻道屬性。
 
 #### 建立標籤 {#creating-tags}
 
@@ -145,14 +182,16 @@ ht-degree: 3%
    >[!IMPORTANT]
    >必須從顯示器中啟用語音識別功能。
 
-#### 在Chrome Player中檢視內容 {#viewing-content}
+### 在Chrome Player中檢視內容 {#viewing-content}
 
-完成上述步驟後，您就可以註冊您的chrome裝置並檢視輸出。
+完成上述步驟後，您就可以註冊您的chrome裝置以檢視輸出。
 
 >[!NOTE]
 >請參閱「 [裝置註冊](device-registration.md) 」以瞭解如何在AEM Screens播放器上註冊裝置。
 
 此範例將展示Chrome Player的輸出。
+
+#### 針對循序渠道 {#sequential-output}
 
 主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
 
@@ -161,10 +200,12 @@ ht-degree: 3%
 ![新影像](assets/voice-recognition/voice-video.gif)
 
 
+#### 針對分割畫面頻道 {#split-screen-output}
 
 
+主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
 
-
+同樣地，如果您使用關鍵字 **cold** ，例如 *I wold wold wold to great socd*，頻道會開始播放 **** ColdDrinks頻道的內容。
 
 
 
