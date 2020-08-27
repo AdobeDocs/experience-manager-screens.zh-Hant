@@ -3,9 +3,9 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 設定顯示後，您必須指派頻道給顯示，才能檢視您的內容。
 
-此頁面顯示如何指派渠道給您的顯示。
+本頁顯示如何指派渠道給您的顯示、瞭解渠道屬性和DayParting。
 
 >[!NOTE]
 >您可以指派多個頻道至顯示器。
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 ### 將頻道指派給顯示 {#assigning-channel-to-display}
 
-完成專案設定後，您必須將頻道指派給顯示器，才能檢視內容。
+專案設定完成後，您必須將頻道指派給顯示器，才能檢視內容。
 
 1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
    或,
 
-   點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程 **」面板按一下「** +指派頻道 **** 」。
+   從動作列點選/ **按一下** 「儀表板」，然後從「已指派的頻道與排程」面板按一 **下+「指派頻道」****** 。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 從「設 **置** 」選項中 **，可以按路徑或名稱選擇渠道，輸入渠道角色、優先順序**、 **Priority**、 ******** Events和Supported Ching Methods等方法。 此外，您也可以從此對話 **方塊啟用** 「吸引力」工具提示。
+1. 從「設 **定** 」選項中，您可以 **按路徑選擇渠道** , **或按名稱進入Channel Name**、Channel Role、 **************** ChannelPriorityEvents、Ching Repority Adjusted Chiraction Alignment。 此外，您也可以從此對話方塊啟用吸引工具提示。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ ht-degree: 3%
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### 從渠道分配對話框瞭解渠道屬性 {#channel-properties}
+## 時間軸檢視 {#timeline-view}
+
+在將渠道指派給顯示並設定定期排程後，您就可以從「已指派的渠道與排程」面板 **檢視時間軸** 。
+
+請依照下列步驟導覽至時間軸檢視：
+
+1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
+
+1. 從動作列點選/ **按一下** 「指派渠道」。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   或,
+
+   點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程」面板按一下「時間軸 **」(Timeline****** )。
+
+1. 待定影像（待修正）
+
+## 從渠道分配對話框瞭解渠道屬性 {#channel-properties}
 
 從「渠道分配」對話框的「 **設定** 」選項 **中設定以下屬性** 。
 
 ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### 選取頻道 {#select-channel}
+### 選取頻道 {#select-channel}
 
 選擇渠道可讓您根據渠道名稱或渠道路徑提供所需渠道的參考。
 
@@ -112,25 +130,25 @@ ht-degree: 3%
 
 * **按名稱**:您可以輸入渠道的名稱，該名稱將依據上下文解析為實際渠道。 此功能可讓您建立頻道的本機版本，以動態解析特定位置的內容。 例如，某個頻道的名 *稱是當天的交易*，實際內容在兩個城市中會有所不同，但您在所有顯示器上仍具有理智的頻道角色。
 
-#### 頻道角色 {#role-channel}
+### 頻道角色 {#role-channel}
 
 渠道角色定義顯示的上下文。 角色由各種動作定位，且與實際執行角色的通道無關。
 
-#### 優先順序 {#priority-channel}
+### 優先順序 {#priority-channel}
 
 優先順序用於在多個分配匹配播放條件時對分配進行排序。 值最高的一律優先於值較低的值。 例如，如果有兩個渠道A和B。A的優先順序為1,B的優先順序為2，然後顯示通道B，因為它的優先順序高於A。
 
 >[!NOTE]
 >如上所述，在「渠道分配」對話框中，渠道的優先順序設 **置為數字** （最低為1）。 此外，根據遞減優先順序對所分配的頻道進行排序。
 
-#### 支援的事件 {#supported-events-channel}
+### 支援的事件 {#supported-events-channel}
 
 * **初始載入**:在播放器啟動時載入頻道。 它可與排程組合指派給多個渠道
 * **空閒螢幕**:當畫面閒置時載入。 它可與排程組合指派給多個渠道
 * **計時器**:需要在提供計畫時進行設定
 * **使用者互動**:如果螢幕上有使用者互動（觸控）在閒置頻道中，播放器會切換至指定頻道，並會在觸碰螢幕時載入
 
-#### 中斷方法 {#interruption-method-channel}
+### 中斷方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ ht-degree: 3%
 
 從「渠道分配」對話框的「 **計畫** 」選項 **中設定以下屬性** 。
 
-
-#### 參照時區 {#reference-timezone}
+### 參照時區 {#reference-timezone}
 
 「參考時區」可讓您選取內容顯示的時區。
 
-#### 啟用時間 {#activation-window}
+### 啟用時間 {#activation-window}
 
 「啟動」視窗可讓您選擇「開始 **日期** 」和「 **結束日期** 」來顯示您的內容。
 
-#### 週期排程 {#recurrence-schedule}
+### 週期排程 {#recurrence-schedule}
 
 「定期排程」可讓您設定內容的循環排程。 按一下 **+新增排程** ，將定期排程新增至渠道。
 
@@ -211,23 +228,4 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 >[!NOTE]
 >
 >此外，您可以為每 ***個頻道*** 定義「優先順序」。 例如，如果針對同一天和時間或同一月設定了兩個頻道，則會先播放優先順序較高的頻道。 優先順序的最小值可以設定為0。
-
-## 時間軸檢視 {#timeline-view}
-
-在將渠道指派給顯示並設定定期排程後，您就可以從「已指派的渠道與排程」面板 **檢視時間軸** 。
-
-請依照下列步驟導覽至時間軸檢視：
-
-1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
-
-1. 從動作列點選/ **按一下** 「指派渠道」。
-
-   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   或,
-
-   點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程」面板按一下「時間軸 **」(Timeline****** )。
-
-1. 待定影像（待修正）
-
 
