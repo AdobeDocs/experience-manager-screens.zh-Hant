@@ -3,10 +3,10 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 2%
+source-wordcount: '1480'
+ht-degree: 3%
 
 ---
 
@@ -80,8 +80,8 @@ ht-degree: 2%
    >[!NOTE]
    >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道指派屬性。
 
-1. 從「計 **划** 」選項中，選擇「參考時區 **」、「**&#x200B;激活窗口 **」和「******重複計畫」。
-   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. 從「參 **考時區** 」選項中，選擇「參考時區 **」、「**&#x200B;激活窗口 **」和「******重複計畫」。
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道指派屬性。
@@ -152,6 +152,7 @@ ht-degree: 2%
 
 從「渠道分配」對話框的「 **計畫** 」選項 **中設定以下屬性** 。
 
+
 #### 參照時區 {#reference-timezone}
 
 「參考時區」可讓您選取內容顯示的時區。
@@ -163,6 +164,9 @@ ht-degree: 2%
 #### 週期排程 {#recurrence-schedule}
 
 「定期排程」可讓您設定內容的循環排程。 按一下 **+新增排程** ，將定期排程新增至渠道。
+
+![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >您可以新增多個循環計畫至渠道。
@@ -204,25 +208,9 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 | 週末 | 每週 | 8:00 PM | 10:00 PM |
 | 特殊 | 每日 | 10:00 PM | 1:00 AM |
 
-**週末**
-
-
-**特殊**
-
-#### 播放特定月份／月的內容 {#playing-content-for-a-particular-month-months}
-
-此範例顯示商店的DayParting，該商店顯示其夏季系列（從6月到8月）和秋季系列（從9月到10月底）。
-
-在此，您將依月份建立DayParting，讓頻道內容依年度指定月份播放。
-
-
 >[!NOTE]
 >
 >此外，您可以為每 ***個頻道*** 定義「優先順序」。 例如，如果針對同一天和時間或同一月設定了兩個頻道，則會先播放優先順序較高的頻道。 優先順序的最小值可以設定為0。
-
-#### 播放具有相同優先順序的頻道內容 {#playing-content-for-channels-with-same-priority}
-
-此範例顯示商店的DayParting，該商店在12月的月份會以相同的排程顯示其冬季系列。 但由於B頻道的優先順序設定為2，所以在那一週；頻道B會播放其內容，而非頻道A。
 
 ## 時間軸檢視 {#timeline-view}
 
@@ -230,5 +218,16 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 
 請依照下列步驟導覽至時間軸檢視：
 
+1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
+
+1. 從動作列點選/ **按一下** 「指派渠道」。
+
+   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   或,
+
+   點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程」面板按一下「時間軸 **」(Timeline****** )。
+
+1. 待定影像（待修正）
 
 
