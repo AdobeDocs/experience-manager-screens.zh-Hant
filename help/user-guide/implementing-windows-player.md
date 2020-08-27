@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,21 @@ ht-degree: 1%
 若要實作適用於AEM畫面的Windows Player，請安裝適用於AEM畫面的Windows Player。
 
 請造訪 [**AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
+
+### 設定AEM Screens 6.5.5功能套件及更新版本的環境 {#fp-environment-setup}
+
+如果您使用AEM Screens 6.5.5 Feature Pack，您必須為Windows Player設定環境。
+
+請遵循下列步驟：
+
+1. 導覽至 **Adobe Experience Manager Web Console使用設定**`http://localhost:4502/system/console/configMgr`。
+
+1. 搜尋 *Adobe Granite Token驗證處理常式*。
+
+1. 將登入 **Token Cookie的SameSite屬性從****Lax設為****None**。
+   ![影像](/help/user-guide/assets/granite-updates.png)
+
+1. 按一下&#x200B;**「儲存」**。
 
 ### 臨機方法 {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ ht-degree: 1%
 
 1. 以管理員身份運行PowerShell指令碼。
 1. 重新啟動並登入Kiosk使用者，播放器應用程式應該會立即啟動。
-
-### 設定AEM Screens 6.5.5功能套件及更新版本的環境 {#fp-environment-setup}
-
-如果您使用AEM Screens 6.5.5 Feature Pack，您必須為Windows Player設定環境。
-
-請遵循下列步驟：
-
-1. 導覽至 **Adobe Experience Manager Web Console使用** Configuration `http://localhost:4502/system/console/configMgr`。
-
-1. 搜尋 *Adobe Granite Token驗證處理常式*。
-
-1. 將登入 **Token Cookie的SameSite屬性從****Lax設為****None**。
-   ![影像](/help/user-guide/assets/granite-updates.png)
-
-1. 按一下&#x200B;**「儲存」**。
 
 ### 疑難排解 {#troubleshooting}
 
