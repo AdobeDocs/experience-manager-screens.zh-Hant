@@ -3,9 +3,9 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 3%
 
 ---
@@ -170,6 +170,8 @@ ht-degree: 3%
 
 從「渠道分配」對話框的「 **計畫** 」選項 **中設定以下屬性** 。
 
+![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### 參照時區 {#reference-timezone}
 
 「參考時區」可讓您選取內容顯示的時區。
@@ -182,9 +184,6 @@ ht-degree: 3%
 
 「定期排程」可讓您設定內容的循環排程。 按一下 **+新增排程** ，將定期排程新增至渠道。
 
-![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >您可以新增多個循環計畫至渠道。
 >週期計畫引入 *DayParting*，可讓您設定具有在一天中特定時間執行多個渠道的全域計畫，並一次對所有顯示重新使用該設定。
@@ -194,9 +193,9 @@ ht-degree: 3%
 * **名稱**:定期排程的標題。
 * **重複**:選擇計畫是運行 **Daily**、 **Weekly**、 **Monthly******&#x200B;還是Yearly Really Really。
 * **開始**:排程的開始時間。
-* **結束**:排程的結束時間。 您可以將它設為：
-* **時間**:排程將在指定時間結束。
-* **持續時間**:排程會以小時或分鐘為單位，在特定時段內執行。
+* **結束**:排程的結束時間。 您可以依時間或持續時間來設定。
+   * **時間**:排程將在指定時間結束。
+   * **持續時間**:排程會以小時或分鐘為單位，在特定時段內執行。
 
 ### DayParting {#dayparting}
 
