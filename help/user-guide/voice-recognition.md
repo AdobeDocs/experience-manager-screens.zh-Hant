@@ -2,9 +2,9 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 ## 實施語音識別 {#implementing}
 
 >[!IMPORTANT]
-> 語音識別功能僅適用於Chrome和電子播放器。
+> 語音識別功能僅適用於Chrome OS和電子播放器。
 
 若要在AEM Screens專案中實作語音識別，您必須啟用「顯示」的語音識別，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
 
@@ -106,14 +106,19 @@ ht-degree: 3%
 請依照下列步驟建立標籤：
 
 1. 導覽至您的AEM例項。
+
 1. 按一下工具—>標 **記**。
    ![影像](assets/voice-recognition/vr-7.png)
+
 1. 按一下 **建立** —>創 **建命名空間**。
    ![影像](assets/voice-recognition/vr-tag3.png)
-1. 輸入專案名稱，例如： **VoiceDemo** ，然後按一 **下Create**。
+
+1. 輸入專案名稱，例如 **VoiceDemo** ，然後按一 **下Create**。
    ![影像](assets/voice-recognition/vr-tag2.png)
+
 1. 選取 **VoiceDemo專案** ，然後從動作列按 **一下「建立標籤** 」。
    ![影像](assets/voice-recognition/vr-tag4.png)
+
 1. 輸入標籤的名稱，然後按一下「 **提交**」。
    ![影像](assets/voice-recognition/vr-tag5.png)
 
