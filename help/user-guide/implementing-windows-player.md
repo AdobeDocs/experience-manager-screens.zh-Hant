@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 若要實作適用於AEM畫面的Windows Player，請安裝適用於AEM畫面的Windows Player。
 
-請造訪 [**AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
+請造訪 [**AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
 
 ### 臨機方法 {#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面&#x200B;**](https://download.macromedia.com/screens/)。
+臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >如果狀 **態為****UNECRISTERED**，您可以使用 **Token** 來註冊裝置。
 
-### 批量伺服器配置： 使用一個配置註冊多個Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### 批量伺服器配置：使用一個配置註冊多個Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 在安裝Windows播放器後，您可以使用一個配置註冊多個播放器。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 啟用Shell Launcher。
 
-   有關詳細信 ***息，請參閱Microsoft Windows支援*** 「在 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**Shell Launcher中配置Shell Launcher」一節。
+   有關詳細信 ***息，請參閱Microsoft Windows支援*** 「在 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell Launcher中配置Shell Launcher」一節。
 
 1. 建立非管理使用者（如果您尚未使用）以用於資訊站。 此用戶可以是本地用戶或域用戶。
 1. 從 [AEM Screens Player下載頁面為該Kiosk使用者安裝Windows播放器](https://download.macromedia.com/screens/) 。
@@ -115,6 +115,21 @@ ht-degree: 0%
 
 1. 以管理員身份運行PowerShell指令碼。
 1. 重新啟動並登入Kiosk使用者，播放器應用程式應該會立即啟動。
+
+### 設定AEM Screens 6.5.5功能套件及更新版本的環境 {#fp-environment-setup}
+
+如果您使用AEM Screens 6.5.5 Feature Pack，您必須為Windows Player設定環境。
+
+請遵循下列步驟：
+
+1. 導覽至 **Adobe Experience Manager Web Console使用** Configuration `http://localhost:4502/system/console/configMgr`。
+
+1. 搜尋 *Adobe Granite Token驗證處理常式*。
+
+1. 將登入 **Token Cookie的SameSite屬性從****Lax設為****None**。
+   ![影像](/help/user-guide/assets/granite-updates.png)
+
+1. 按一下&#x200B;**「儲存」**。
 
 ### 疑難排解 {#troubleshooting}
 
