@@ -2,9 +2,9 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1570'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,12 @@ ht-degree: 3%
 
 此範例將展示Chrome Player的輸出。
 
-The **Main** channel is playing its content，但是當您搭配使用關鍵字 **hot** 和 **cold** ，例如 ****** I wold wit to see the menu for hot和cold beverages, the contents of the SplitScreenChannel.
+The **Main** channel is playing its content，但是當您搭配使用關鍵字 **hot** 和 **cold** ，例如 ****** I wold wit to see the menu for hot和cold beverages, the contents of the SplitScreenChannel. 如果您回 *到主功能表*，它會切換回主頻道。
+
+![新影像](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 
