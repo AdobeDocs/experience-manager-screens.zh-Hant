@@ -3,18 +3,11 @@ title: AEM畫面的Dispatcher Configurations
 seo-title: AEM畫面的Dispatcher Configurations
 description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 seo-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
-uuid: ec5219b7-73f9-4026-99e5-e4a02201b128
-contentOwner: jsyal
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-content-type: reference
-topic-tags: administering
-discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 7%
+source-wordcount: '227'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +34,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 請依照下列步驟，為AEM Screens專案設定分派程式。
 
-### 步驟1: 配置客戶端標題 {#step-configuring-client-headers}
+### 步驟1:配置客戶端標題 {#step-configuring-client-headers}
 
 將下列內容新增至 `/clientheaders`區段：
 
@@ -51,7 +44,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 **X-REQUEST-COMMAND**
 
-### 步驟2: 設定畫面篩選 {#step-configuring-screens-filters}
+### 步驟2:設定畫面篩選 {#step-configuring-screens-filters}
 
 若要設定「畫面」篩選，請將下列新增至 ***/篩選***。
 
@@ -59,20 +52,56 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 ## AEM Screens Filters
 ## # Login, Ping and Device Configurations
 /0200 { /type "allow" /method "POST" /url "/libs/granite/core/content/login.validate/j_security_check" }
-/0201 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
-/0202 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
-/0203 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
+/0201 { /type "allow" /method "GET" /url "/libs/granite/csrf/token.json" }
+/0202 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
+/0203 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
+/0204 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
 ## # Device Dashboard Configurations
-/0204 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
-/0205 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
-/0206 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
-/0207 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
+/0210 { /type "allow" /method '(GET|POST)' /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
+/0211 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
+/0212 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
+/0213 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
 ## # Content Configurations
-/0208 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
-/0209 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*/jcr:content/*/offline-config_*.zip" }
-/0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
+/0220 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
+/0221 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*/jcr:content/*/offline-config_*.zip" }
+/0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 步驟3: 禁用Dispatcher快取 {#step-disabling-dispatcher-cache}
+### 步驟3:禁用Dispatcher快取 {#step-disabling-dispatcher-cache}
 
 停用 ***/content/screens路徑的Dispatcher快取***。
+
+畫面播放器使用已驗證的作業，因此分派器不會快取任何畫面播放器的要求 `channels/assets`。
+
+若要啟用資產的快取，以便從分派器快取中提供資產，您必須：
+
+* 新增 `/allowAuthorization 1` 至區 `/cache` 段
+* 將下列規則新增至 `/rule`的區段 `/cache`
+
+```xml
+/0000
+    {
+        /glob "*"
+        /type "allow"
+    }   
+
+/0001
+    {
+        # Disable Dispatcher Cache for Screens channels
+        /glob "/content/screens/*.html"
+        /type "deny" 
+    }
+
+/0002
+    {
+    # Disable Dispatcher Cache for Screens offline manifests
+    /glob "/content/screens/*.json"
+    /type "deny"
+    }
+
+/0003
+    { # Disable Dispatcher Cache for Screens devices json 
+    /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+```
