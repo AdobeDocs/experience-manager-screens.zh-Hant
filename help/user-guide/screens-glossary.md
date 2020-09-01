@@ -3,15 +3,11 @@ title: 字彙表
 seo-title: 字彙表
 description: 請依照本頁瞭解與AEM Screens相關的關鍵詞語。
 seo-description: 請依照本頁瞭解與AEM Screens相關的關鍵詞語。
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
 translation-type: tm+mt
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +15,8 @@ source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 # 字彙表 {#glossary}
 
 **應用程式頻道** 「應用程式頻道」顯示由開發人員建立的應用程式，以顯示互動式內容。
+
+**吸引回圈** ：當顯示器具有可存在的兩個或多個狀態 *時，吸引回圈被定義為* home *或* idle state。 它的作用是 *吸引客戶* ，並鼓勵他們參與展示，通常是透過觸碰螢幕，但也可能是與產品互動。
 
 **裝置** A裝置可執行播放器軟體，以產生視覺化輸出。 它可控制顯示常用內容或體驗的裁切、縮放、翻譯部分。 螢幕配置綁定到顯示器，但可以在出現技術缺陷時替換。
 
