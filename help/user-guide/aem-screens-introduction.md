@@ -2,19 +2,11 @@
 title: 什麼是AEM Screens?
 seo-title: 什麼是AEM Screens?
 description: 此頁面是AEM Screens的簡介。AEM Screens是數位標牌解決方案，可讓您發佈動態和互動式數位體驗和互動，其中包含不同螢幕類型，並搭配完整的數位行銷平台。 它提供畫面架構的概觀，以及專案開發中涉及的各種角色。
-seo-description: 此頁面是AEM Screens的簡介。AEM Screens是數位標牌解決方案，可讓您發佈動態和互動式數位體驗和互動，其中包含不同螢幕類型，並搭配完整的數位行銷平台。 它提供畫面架構的概觀，以及專案開發中涉及的各種角色。
-uuid: 25e20ed0-6089-44fb-ac65-2ad48111d18b
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
-docset: aem65
 translation-type: tm+mt
-source-git-commit: 11d9100b2aeb361a8b1aaaf2806272809f35a938
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 5%
+source-wordcount: '577'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +19,7 @@ ht-degree: 5%
 
 ## 概覽 {#overview}
 
-**AEM Screens** 建立在 ****** AEM Sites的穩固基礎之上，可讓行銷人員和IT人員建立和管理多種數位螢幕上的體驗，進而影響建立品牌和推動需求的店內／場內目標。 AEM Screens與Sites的整合可讓您重複使用現有的內容，並有效提供連貫一致的客戶解決方案。 這提供簡化的工作流程，以建立具高成本效益和可用性的專屬數位體驗。 它進一步有助於影響品牌認知和影響決策，進而提升購買和參與度。
+**AEM Screens** 是以 ****** AEM Sites的穩固基礎為基礎，可讓行銷人員和IT人員建立和管理多種數位螢幕上的體驗，進而影響建立品牌和推動需求的店內／場內目標。 AEM Screens與Sites的整合可讓您重複使用現有的內容，並有效提供連貫一致的客戶解決方案。 這提供簡化的工作流程，以建立具高成本效益和可用性的專屬數位體驗。 它進一步有助於影響品牌認知和影響決策，進而提升購買和參與度。
 
 AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位選單板、產品建議、背景生活方式影像，以擴充客戶互動，並將統一且有用的品牌體驗提供至實體場所，例如商店、飯店、銀行、醫療保健和教育機構等——從相同的AEM平台。 螢幕提供許多獨特的應用程式，例如互動式顯示、路徑尋找、品牌推廣，以及根據客戶和員工部署的網域為您的環境增添氛圍。
 
@@ -39,7 +31,7 @@ AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位
 
 下圖顯示AEM Screens播放器的一般架構：
 
-![chlimage_1-29](assets/chlimage_1-29.png)
+![chlimage_1-21](assets/chlimage_1-29.png)
 
 ### 在5分鐘內建立數位標牌體驗 {#create-a-digital-signage-experience-in-minutes}
 
@@ -57,19 +49,6 @@ AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位
 
 ![chlimage_1-30](assets/chlimage_1-30.png)
 
->[!NOTE]
->
->*此外，要根據角色查看不同的責任，請按一下上述角色。*
-
-## 先決條件知識 {#pre-requisite-knowledge}
-
-在您開始使用AEM Screens處理數位招牌專案之前，Adobe Experience Manager(AEM)知識是必要的，在處理AEM Screens專案之前，應先完成。
-
-請參閱下列教學課程和資源以瞭解Adobe Experience Manager 6.5:
-
-* **Adobe Experience Manager快速入門：** 探索Adobe Experience Manager的快速入門文章和教學影片。
-* **AEM 6.5教學課程與影片**: AEM 6.5發行後，將提供一系列教學課程和影片，其中著重說明AEM Sites、Assets、Forms、Screens和Foundation的新功能和更新功能。
-* **AEM Core Concepts**: 概述AEM結構化的核心概念，以及如何在此基礎上開發，包括瞭解JCR、Sling、OSGi、dispatcher、workflows和MSM。
 
 ## 其他資源 {#additional-resources}
 
@@ -79,8 +58,8 @@ AEM Screens是功能強大的網路解決方案，可讓您建立專屬的數位
 
 * **AEM Screens 專案的最佳實務指南**
 
-   請遵循 **[AEM Screens專案的最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**，此指南旨在識別實作AEM Screens專案時的常見缺陷。 本材料主要針對「專案角色與責任」、「不同角色的RACI圖表」、「AEM平台設定」以及「支援與監控」。
+   請遵循 **[AEM Screens專案的最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)** ，此指南旨在識別實作AEM Screens專案時的常見缺陷。 本材料主要針對「專案角色與責任」、「不同角色的RACI圖表」、「AEM平台設定」以及「支援與監控」。
 
 * **全新Adobe客戶支援體驗**
 
-   請依 **[照客戶一取得企業說明](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)**，以進一步瞭解管理控制台支援票證。
+   請依 **[照客戶一取得企業說明](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** ，進一步瞭解Admin Console支援票證。
