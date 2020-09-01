@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Experience Manager畫面說明
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 3%
@@ -76,6 +76,7 @@ ht-degree: 3%
       + [頻道層級大量影像播放持續時間](channel-level-image-playback.md)
       + [命令同步](using-command-sync.md)
       + [使用資料觸發器製作內容](authoring-data-triggers.md)
+      + [語音識別](voice-recognition.md)
    + 管理內容更新 {#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
@@ -89,7 +90,6 @@ ht-degree: 3%
       + [多區域到單區域的過渡](multizone-to-singlezone.md)
       + [單次使用TakeOver通道](single-use-takeover-channel.md)
       + [永久使用TakeOver Channel](perpetual-takeover-channel.md)
-      + [語音識別](voice-recognition.md)
 + 開發人員與API資源 {#developing}
    + [REST API](rest-api.md)
    + [開發AEM畫面的自訂元件](developing-custom-component-tutorial-develop.md)
