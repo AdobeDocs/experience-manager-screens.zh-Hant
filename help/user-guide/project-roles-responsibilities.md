@@ -2,27 +2,22 @@
 title: '"第1部分：項目角色和責任」'
 seo-title: '"第1部分：項目角色和責任」'
 description: 請遵循本教學課程，進一步瞭解數位標牌專案在銷售和專案生命週期中所需的角色、責任和時間線。
-seo-description: 請遵循本教學課程，進一步瞭解數位標牌專案在銷售和專案生命週期中所需的角色、責任和時間線。
-uuid: 871e75c1-9922-4292-8156-aa3ee8a87617
-contentOwner: jsyal
-content-type: reference
-topic-tags: digital-signage-networks-basics
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 860beb87-3686-488e-9bca-a590e78a751c
-docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 1%
 
 ---
 
 
 # 第1部分：項目角色和責任 {#part-project-roles-and-responsibilities}
 
-本頁重點介紹5個部分系列的第1部分，旨在幫助團隊成員更好地瞭解數字招牌項目在銷售和項目生命週期中所需要的角色、責任和時間線。
+本頁重點介紹5個部分系列的第1部分，旨在幫助團隊成員更好地瞭解數字招牌項目在銷售和項目生命週期中所需的角色、責任和時間線。
 
 ## 概覽 {#overview}
 
-以下教學課程涵蓋Adobe、AEM實作者和AV整合商的專案角色與責任。 您可以導覽至後續幾集，以取得如何成功開發AEM Screens商機的完整概觀，並定位部署以取得長期成功。
+以下教學課程涵蓋Adobe、AEM實作者和A/V高階整合商的專案角色與責任。 您可以導覽至後續幾集，以取得如何成功開發AEM Screens商機的完整概觀，並定位部署以取得長期成功。
 
 有3個主要組通過交付流程參與：
 
@@ -36,7 +31,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 數位標牌項目涉及的角色摘要 {#summary-of-roles-involved-in-a-digital-signage-project}
 
-與Adobe、AEM實施者和AV Integrator合作定義應用程式使用案例參數，將推動軟體開發範圍。 這可確保採用分階段的方法，以在整個專案中識別的效能基準和成功度量來建立。
+與Adobe、AEM實施者和A/V Integrator合作定義應用程式使用案例參數，將推動軟體開發範圍。 這可確保採用分階段的方法，以在整個專案中識別的效能基準和成功度量來建立。
 
 ### Adobe {#adobe}
 
@@ -60,12 +55,12 @@ AEM實施人員通常會分階段部署自訂功能，並隨時隨地部署。 �
 
 ### 第1部分：項目角色和責任
 
->[!VIDEO](https://video.tv.adobe.com/v/28375?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *瞭解Adobe、AV整合商和AEM實作者的角色和責任。*
 
 ## 下一步 {#the-next-step}
 
-在您瞭解實施數位標牌專案的專案角色和責任後，請遵循下一個教學課程，深入探討在開發AEM Screens商機時，專案所涉及的主題，例如測試和售前考量。
+一旦您瞭解在實施數位標牌專案中的專案角色和責任，請遵循下一個教學課程，深入探討在開發AEM Screens商機時，專案會涵蓋的主題包括測試和售前考量。
 
 導覽至 **[第2部份：「項目」時的考慮事項](project-considerations.md)** ，請參閱「範圍」以取得詳細資訊。
