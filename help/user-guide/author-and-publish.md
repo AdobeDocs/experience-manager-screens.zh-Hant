@@ -4,9 +4,9 @@ seo-title: 在AEM畫面中設定作者和發佈
 description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
 seo-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,9 @@ ht-degree: 0%
 >[!NOTE]
 >
 >只有在您已安裝AEM 6.4 Screens Feature Pack 2時，才能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
+
+>[!I重要]
+>如果要將多個發佈實例與調度程式一起使用，則必須更新調度程式中的dispatcher.any檔案。 如需詳 [細資訊，請參閱啟用](dispatcher-configurations-aem-screens.md#enable-sticky-session) 「嚴格作業」。
 
 ## 設定作者和發佈例項 {#configuring-author-and-publish-instances}
 
