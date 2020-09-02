@@ -2,10 +2,10 @@
 title: 功能套件202008發行說明
 description: 本頁說明Feature Pack 202008的發行說明。
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 3%
+source-wordcount: '328'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ AEM Screens已發行AEM 6.5 Feature Pack 5。
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 202008的發行日期為2020年8月31日。
+AEM Screens Feature Pack 202008的發行日期為2020年9月03日。
 
 ### 新功能 {#what-is-new}
 
@@ -47,6 +47,14 @@ AEM Screens Feature Pack 202008的發行日期為2020年8月31日。
    內容作者可以將顯示設為啟用語音。 這項功能的目的是讓客戶運用語音作為與顯示器互動的方式。
 
    如需詳 [細資訊](voice-recognition.md) ，請參閱語音辨識。
+
+### 已知問題與修正 {#known-issues}
+
+如果您使用AEM Screens 6.5.5 Feature Pack，您必須為Windows或Android播放器設定環境。
+
+* 如需詳 [細資訊，請參閱實作Windows 10 Player](implementing-windows-player.md#fp-environment-setup) 。
+
+* 如需詳 [細資訊，請參閱實作Android Player](implementing-android-player.md#fp-environment-setup) 。
 
 ### 已發行的AEM Screens播放器 {#released-aem-screens-players}
 
