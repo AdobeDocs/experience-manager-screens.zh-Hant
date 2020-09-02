@@ -2,10 +2,10 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 2%
+source-wordcount: '1125'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    或,
 
-   您可以建立三個順 **序頻道** Main **、** ColdDrinks **和** HotDrinks，以及一個額外的1x2分割螢幕頻道 **** SplitScreenChannel，如下圖所示。
+   您可以建立三個順 **序頻道Main**、 **ColdDrinks**&#x200B;和 **HotDrinks**，以及一個額外的1x2分割畫面頻道 **** SplitScreen，如下圖所示。
 
    ![影像](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ ht-degree: 2%
 
    或,
 
-   您可以事先從AEM例項建立專案的標籤，並選取這些標籤。 遵循「建立標籤」中說明的步驟後 [](#creating-tags)，您就可從位置選取標籤並將其新增至您的渠道，如下圖所示：
+   您也可以事先從您的AEM例項建立專案的標籤，並選取這些標籤。 遵循「建立標籤」中說明的步驟後 [](#creating-tags)，您就可從位置選取標籤並將其新增至您的渠道，如下圖所示：
 
    ![影像](assets/voice-recognition/vr-tag1.png)
 
 1. 同樣地，將標題為 **hot的標籤** ，新增 **至HotDrinks頻道** 。
 
-1. 如果您使用分割畫面頻道，請將兩個標籤(**hot****和cold**)新增至 **** SplitScreen頻道屬性。
+1. 如果您使用「分割畫面」頻道，請將兩個標籤(**hot** and **cold**)新增至 **SplitScreen** 頻道屬性，如下圖所示。
 
    ![影像](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 1. 導覽至您的AEM例項。
 
-1. 按一下工具—>標 **記**。
+1. 按一下工具表徵圖—> **標籤**。
    ![影像](assets/voice-recognition/vr-7.png)
 
 1. 按一下 **建立** —>創 **建命名空間**。
@@ -139,7 +139,7 @@ ht-degree: 2%
    >[!NOTE]
    >若要瞭解如何指派渠道給顯示，請參閱建立 [和管理顯示](/help/user-guide/managing-displays.md)。
 
-1. 將頻道Main **、** ColdDrinks **和** HotDrinks指派給您的LobbyDisplay **(大******&#x200B;堂展示)。
+1. 將頻道Main **、** ColdDrinks **和** HotDrinks指派給您的LobbyDisplay **(大******&#x200B;堂展示)。 此外，如果您正在專案中使 **用SplitScreen** （分割畫面）頻道，請務必將它指派給顯示器。
 
    >[!NOTE]
    >如果您已建立分割畫面色版，請將 **SplitScreen** 色版指派給您的顯示器。
@@ -151,6 +151,7 @@ ht-degree: 2%
    | 主要 | 2 | 初始載入、空閒螢幕、計時器 |
    | 熱飲 | 1 | 使用者互動 |
    | ColdDrinks | 1 | 使用者互動 |
+   | SplitScreen | 1 | 使用者互動 |
 
    >[!NOTE]
    >
@@ -172,25 +173,15 @@ ht-degree: 2%
 >[!NOTE]
 >請參閱「 [裝置註冊](device-registration.md) 」以瞭解如何在AEM Screens播放器上註冊裝置。
 
-此範例將展示Chrome Player的輸出。
+**序列頻道的所需輸出**
 
 主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
 
 同樣地，如果您使用關鍵字 **cold** ，例如 *I wold wold wold to great socd*，頻道會開始播放 **** ColdDrinks頻道的內容。
 
-![新影像](assets/voice-recognition/voice-video.gif)
-
-此範例將展示Chrome Player的輸出。
+**分割畫面色版所需的輸出**
 
 The **Main** channel is playing its content，但是當您搭配使用關鍵字 **hot** 和 **cold** ，例如 ****** I wold wit to see the menu for hot和cold beverages, the contents of the SplitScreenChannel. 如果您回 *到主功能表*，它會切換回主頻道。
-
-![新影像](assets/voice-recognition/vr-video-2.gif)
-
-
-
-
-
-
 
 
 
