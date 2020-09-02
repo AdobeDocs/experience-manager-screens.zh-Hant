@@ -2,9 +2,9 @@
 title: 功能套件202008發行說明
 description: 本頁說明Feature Pack 202008的發行說明。
 translation-type: tm+mt
-source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -59,9 +59,6 @@ AEM Screens Feature Pack 202008的發行日期為2020年9月03日。
 ### 已發行的AEM Screens播放器 {#released-aem-screens-players}
 
 針對AEM Screens發行的AEM 6.5 Feature Pack 5發行下列AEM Screens Player。
-
->[!IMPORTANT]
->如果您已安裝AEM Service Pack 6.5.5，您可能會在「畫面」播放器中遇到複製問題。 安 [裝cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) ，以修正問題。
 
 * Chrome OS
 * Windows
