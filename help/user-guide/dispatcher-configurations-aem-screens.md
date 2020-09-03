@@ -4,9 +4,9 @@ seo-title: AEM畫面的Dispatcher Configurations
 description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 seo-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '251'
 ht-degree: 5%
 
 ---
@@ -33,6 +33,21 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 ## 設定 Dispatcher {#configuring-dispatcher}
 
 請依照下列步驟，為AEM Screens專案設定分派程式。
+
+### 啟用嚴格作業 {#enable-sticky-session}
+
+如果任何人想要將多個發佈實例與dispatcher一起使用，則必須更新其dispatcher.any檔案。
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### 步驟1:配置客戶端標題 {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 若要啟用資產的快取，以便從分派器快取中提供資產，您必須：
 
 * 新增 `/allowAuthorization 1` 至區 `/cache` 段
-* 將下列規則新增至 `/rule`的區段 `/cache`
+* 將下列規則新增至 `/rules` 的區段 `/cache`
 
 ```xml
 /0000
