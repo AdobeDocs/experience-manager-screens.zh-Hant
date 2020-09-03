@@ -4,9 +4,9 @@ seo-title: 字彙表
 description: 請依照本頁瞭解與AEM Screens相關的關鍵詞語。
 seo-description: 請依照本頁瞭解與AEM Screens相關的關鍵詞語。
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **應用程式頻道** 「應用程式頻道」顯示由開發人員建立的應用程式，以顯示互動式內容。
 
 **吸引回圈** ：當顯示器具有可存在的兩個或多個狀態 *時，吸引回圈被定義為* home *或* idle state。 它的作用是 *吸引客戶* ，並鼓勵他們參與展示，通常是透過觸碰螢幕，但也可能是與產品互動。
+
+**DayParting** DayParting是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您根據需求，在一天、一週或月內排程DayParting的渠道。
 
 **裝置** A裝置可執行播放器軟體，以產生視覺化輸出。 它可控制顯示常用內容或體驗的裁切、縮放、翻譯部分。 螢幕配置綁定到顯示器，但可以在出現技術缺陷時替換。
 
