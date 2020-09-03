@@ -1,11 +1,11 @@
 ---
 title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
-description: 請依照本頁瞭解渠道指派和日分割。
+description: 請依照本頁來瞭解渠道指派和DayParting。
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1472'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 設定顯示後，您必須指派頻道給顯示，才能檢視您的內容。
 
-本頁顯示如何指派渠道給您的顯示、瞭解渠道屬性和日分割。
+本頁顯示如何指派渠道給您的顯示、瞭解渠道屬性和DayParting。
 
 >[!NOTE]
 >您可以指派多個頻道至顯示器。
@@ -108,13 +108,11 @@ ht-degree: 2%
 
 1. 從動作列點選/ **按一下** 「指派渠道」。
 
-   ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    或,
 
    點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程」面板按一下「時間軸 **」(Timeline****** )。
 
-1. 待定影像（待修正）
+   ![影像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## 從渠道分配對話框瞭解渠道屬性 {#channel-properties}
 
@@ -182,7 +180,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >您可以新增多個循環計畫至渠道。
->「定期排 *程」引入日分割*，可讓您設定具有在一天中特定時間執行多個頻道的全域排程，並一次對所有顯示重複使用該設定。
+>週期計畫引入 *DayParting*，可讓您設定具有在一天中特定時間執行多個渠道的全域計畫，並一次對所有顯示重新使用該設定。
 
 您可以設定下列選項：
 
@@ -193,15 +191,15 @@ ht-degree: 2%
    * **時間**:排程將在指定時間結束。
    * **持續時間**:排程會以小時或分鐘為單位，在特定時段內執行。
 
-### 日分割 {#dayparting}
+### DayParting {#dayparting}
 
-日分割是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您依需求，在一天、一週或月內排程日分割的渠道。
+DayParting是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您根據需求，在一天、一週或月內排程DayParting的渠道。
 
-下列範例說明三種不同情況下渠道中的日分割：
+下列範例說明在三種不同情況下的渠道中的DayParting:
 
 #### 在分成多個時段的一天中播放內容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-此範例說明餐廳如何使用日分割功能來展示其每日的早餐、午餐和晚餐菜單。
+此範例說明餐廳如何使用DayParting來展示其每日的早餐、午餐和晚餐菜單。
 
 在此，我們將每天分割為不同的時段，讓頻道內容在一天中的指定時間播放。 根據此使用案例，為渠道設定下列「定期排程」屬性以播放內容。
 
@@ -213,7 +211,7 @@ ht-degree: 2%
 
 #### 在一週中的某一天播放內容 {#playing-content-on-a-particular-day-of-the-week}
 
-此範例顯示在賭場中實作的日分割，該賭場在每個週末從8:00 pm到10:00 pm進行即時活動，而且晚上10:00到1:00 am之後晚餐功能表提供特惠。
+此範例顯示在賭場中實作的DayParting，該賭場每週末從8:00 pm到10:00 pm都會進行即時活動，而且晚上10:00到1:00 am之後，晚餐功能表會提供特惠。
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
