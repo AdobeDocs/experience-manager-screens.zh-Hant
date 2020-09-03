@@ -3,9 +3,9 @@ title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁來瞭解渠道指派和DayParting。
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
