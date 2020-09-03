@@ -2,9 +2,9 @@
 title: 功能套件202008發行說明
 description: 本頁說明Feature Pack 202008的發行說明。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,9 @@ AEM Screens Feature Pack 202008的發行日期為2020年9月03日。
 
 ### 已知問題與修正 {#known-issues}
 
-如果您使用AEM Screens 6.5.5 Feature Pack，您必須為Windows或Android播放器設定環境。
+如果您使用AEM Screens 6.5.5 Service Pack，您必須為Windows或Android播放器設定環境。
+
+將 **Adobe Experience Manager Web Console的登入Token Cookie的****SameSite屬性從** Lax **設為** None，從 **** Adobe Experience Manager Web主控台設定所有AEM作者和發佈例項上的SameSite屬性。
 
 * 如需詳 [細資訊，請參閱實作Windows 10 Player](implementing-windows-player.md#fp-environment-setup) 。
 
