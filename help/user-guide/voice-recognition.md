@@ -2,9 +2,9 @@
 title: AEM畫面中的語音識別
 description: 此頁面說明AEM Screens中的語音識別功能。
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 若要在AEM Screens專案中實作語音識別，您必須啟用「顯示」的語音識別，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
 
-以下章節說明如何在AEM Screens專案中啟用和使用「語音辨識」功能。
+以下章節說明如何在AEM Screens專案中啟用和使用語音識別功能。
 
 ## 以全螢幕或分割螢幕頻道切換器檢視內容 {#sequence-channel}
 
@@ -177,7 +177,7 @@ ht-degree: 3%
 
 主頻 **道正在播放其內容，但當您使用關鍵字詞語時（例如，我想喝熱飲）** ，頻道會開始播放 ********** HotDrinks頻道的內容。
 
-同樣地，如果您使用關鍵字 **cold** ，例如 *I wold wold wold to great socd*，頻道會開始播放 **** ColdDrinks頻道的內容。
+同樣地，如果您使用關鍵字 **cold** ，例如 *I wold would to greas cold*，頻道會開始播放 **** ColdDrinks頻道的內容。
 
 **分割畫面色版所需的輸出**
 
