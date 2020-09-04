@@ -2,10 +2,10 @@
 title: 功能套件202008發行說明
 description: 本頁說明Feature Pack 202008的發行說明。
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 AEM Screens已發行AEM 6.5 Feature Pack 5。
 
-您可以使用Adobe ID從「軟體散發入口網站」下載AEM Screens 6.5.5 [版本的最新功能套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) 。 導覽至 **Adobe Experience Manager** 標籤，並搜尋 **Screens** ，以取得最新的功能套件。
+您可以使用Adobe ID從「軟體散發入口網站」下載AEM Screens 6.5.5 [版本的最新功能套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 。 導覽至 **Adobe Experience Manager** 標籤，並搜尋 **Screens** ，以取得最新的功能套件。
 
 ## 發行日期 {#release-date}
 
