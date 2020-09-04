@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -33,7 +33,8 @@ ht-degree: 1%
 
 ### 設定AEM Screens 6.5.5 Service Pack的環境 {#fp-environment-setup}
 
-如果您使用AEM Screens 6.5.5 Service Pack，則必須為Android Player設定環境。
+>[!NOTE]
+>如果您使用AEM Screens 6.5.5 Service Pack，則必須為Android Player設定環境。
 
 將 **Adobe Experience Manager Web Console的登入Token Cookie的****SameSite屬性從** Lax **設為** None，從 **** Adobe Experience Manager Web主控台設定所有AEM作者和發佈例項上的SameSite屬性。
 
