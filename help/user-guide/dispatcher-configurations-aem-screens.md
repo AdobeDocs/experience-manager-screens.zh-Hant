@@ -4,9 +4,9 @@ seo-title: AEM畫面的Dispatcher Configurations
 description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 seo-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 ### 啟用嚴格作業 {#enable-sticky-session}
 
-如果任何人想要將多個發佈實例與dispatcher一起使用，則必須更新其dispatcher.any檔案。
+如果您想要搭配使用多個發佈執行個體與分派程式，則必須更新檔 `dispatcher.any` 案。
 
 ```xml
 /stickyConnections {
