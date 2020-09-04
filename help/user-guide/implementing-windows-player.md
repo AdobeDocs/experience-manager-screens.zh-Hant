@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 1%
@@ -34,7 +34,8 @@ ht-degree: 1%
 
 ### 設定AEM Screens 6.5.5 Service Pack的環境 {#fp-environment-setup}
 
-如果您使用AEM Screens 6.5.5 Service Pack，您必須為Windows Player設定環境。
+>[!NOTE]
+>如果您使用AEM Screens 6.5.5 Service Pack，您必須為Windows Player設定環境。
 
 將 **Adobe Experience Manager Web Console的登入Token Cookie的****SameSite屬性從** Lax **設為** None，從 **** Adobe Experience Manager Web主控台設定所有AEM作者和發佈例項上的SameSite屬性。
 
