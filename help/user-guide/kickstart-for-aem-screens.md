@@ -3,9 +3,9 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 ## 教學課程 {#tutorial}
 
-### 建立新的AEM畫面專案 {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 第一個步驟是建立新的AEM畫面專案。
 
@@ -64,7 +64,7 @@ ht-degree: 1%
    >建立專案後，就會回到「畫面專案」首頁。 您現在可以選取專案。 在項目中，有5個不同的資料夾，名為 **「應用程式」、「渠道**」、「設 **備**」、「位置」 ************&#x200B;和「計畫」。
 
 
-### 建立新渠道 {#creating-channel}
+### 建立渠道 {#creating-channel}
 
 一旦您的專案就位後，您就需要建立新的管道來管理內容。
 
@@ -91,73 +91,62 @@ TestChannel *會建立* ，並新增至您的頻道資料夾，如下圖所示�
 
 請依照下列步驟，將內容新增至專案中&#x200B;*的頻道*(TestChannel):
 
-1. 導覽至您建 *立的Test_Project* ，然後選取「 **Channels** 」檔案夾。
+1. 導覽至您建 *立的DemoProject* ，然後選取「 **Channels** 」檔案夾。
 
 1. 從動 **作列按一下** 「編輯」(Edit)（請參閱下圖）。 TestChannel的編輯 *器隨即開* 啟。
+
+   ![影像](assets/kickstart/demo-6.png)
 
 1. 按一下切換動作列左側側面板的圖示，以開啟資產和元件。
 
 1. 拖放您要新增至渠道的元件。
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![影像](assets/kickstart/demo-7.png)
 
-在此範例中，編輯器會顯示新增至頻道的影像。
+### 建立位置 {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+當您的渠道到位後，您需要建立位置。
 
-### 建立新位置 {#creating-location}
-
-一旦您的渠道就位後，您就需要建立您的位置。
-
-***位置*** ，將您的各種數位標牌體驗加以區隔，並根據不同螢幕的位置，包含顯示器的組態。
+>[!NOTE]
+>***位置*** ，將您的各種數位標牌體驗加以區隔，並根據不同螢幕的位置，包含顯示器的組態。
 
 請依照下列步驟，為您的專案建立新位置：
 
-1. 導覽至您建 *立的Test_Project* ，並選取「位置 **」檔案夾** 。
+1. 導覽至您建 *立的DemoProject* ，並選取「位置 **」檔案夾** 。
 
-1. 按一 **下動作列** 中加號圖示旁的「建立」(Create)（請參閱下圖）。 嚮導將開啟。
+1. 從動 **作列按一下** 「+建立」。
+
 1. 從向 **導中選擇** 「位置」，然後按一下「 **下一步」**。
 
-1. 輸入您所 **在位置的名稱****和標題** (將標題輸入為 *TestLocation*)，然後按一下 **** CreateLocation。
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. 輸入您 **所在位置的** 「名稱」(輸入標題為 *TestLocation*)，然後按一下「 **建立**」。
 
 TestLocation *會建立* ，並新增至您的 **Locations資料** 夾。
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### 建立TestLocation的新顯示 {#creating-display}
+### 建立位置顯示 {#creating-display}
 
 在建立位置後，您需要為位置建立新的顯示。
 
-***顯示*** ，代表在一或多個螢幕上執行的數位體驗。
+>[!NOTE]
+>***顯示*** ，代表在一或多個螢幕上執行的數位體驗。
 
-1. 導覽至您要建立顯示畫面的位置(*Test_* Project —> **Locations** —> *TestLocation)* ，如上圖所示，然後選擇 ** TestLocationLocation。
+1. 導覽至 **TestLocation** ，然後選取它。
 
 1. 從動 **作列按一下** 「建立」。
+
 1. 從「創 **建** 」嚮導中選擇「顯 **示」** ，然後按一下「 **下一步**」。
 
-1. 輸入 **顯示位** 置的名稱 **和標題** (將標題輸入為 *TestDisplay*)。
+1. 輸入 **Title** (*LobbyDisplay*)。
 
-1. 在「顯 **示** 」標籤下，選擇「版面」的詳細資訊。
-
-   1. 選擇「 **Resolution** (解析 **度)」為「Full HD**（全高清）」。
-
-   1. 選擇「 **水準設備數** 」為1。
-
-   1. 選擇「 **Number of Devices Pregitally** （垂直裝置數）」為1。
-
-   1. 按一下&#x200B;**建立**。
+1. 按一下&#x200B;**建立**。
 
 新的顯示(*TestDisplay*)會新增至您的 *TestLocation位置*，如下圖所示。
-
-![chlimage_1-12](assets/chlimage_1-12.png)
 
 ### 指派渠道 {#assigning-channel}
 
 1. 從 *Test_Dest* —> **Project Locations** — *—>*** TestDisplay位置導覽至顯示。
 
-1. 選取 *TestDisplay* ，然後從動作列點選／按一下**Assign Channel ** *或*,
+1. 選取 *TestDisplay* ，然後從動作列點選／按 **一下Assign Channel** , *或*,
 
 1. 按一 **下「儀表板** 」，然後從「已指派的頻道與排程」面板中，選取右上角的「指派頻道 ******** 」，如下圖所示。 **「渠道分配** 」對話框開啟。
 
@@ -177,7 +166,7 @@ TestLocation *會建立* ，並新增至您的 **Locations資料** 夾。
 
 頻道會建立並新增至面板。
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### 註冊設備 {#registering-device}
 
@@ -192,6 +181,6 @@ TestLocation *會建立* ，並新增至您的 **Locations資料** 夾。
 
 在您新增上述設定後，播放器應自動顯示裝置上顯示的預設頻道。
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 請參 [閱AEM Screens Player](working-with-screens-player.md) ，以取得AEM Screens播放器的詳細資訊。
