@@ -1,8 +1,8 @@
 ---
 title: 建立和管理顯示
 seo-title: 管理顯示
-description: 請依照本頁瞭解如何建立新的顯示和裝置設定。 此外，還可瞭解顯示控制面板。
-seo-description: 請依照本頁瞭解如何建立新的顯示和裝置設定。 此外，還可瞭解顯示控制面板。
+description: 請依照本頁瞭解如何建立新的顯示和裝置設定。 此外，瞭解顯示控制面板。
+seo-description: 請依照本頁瞭解如何建立新的顯示和裝置設定。 此外，瞭解顯示控制面板。
 uuid: dfde0740-5c8b-4e6c-bc83-bf8fbb31a16a
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 在「顯 **示** 」標籤下，選擇「版面」的詳細資訊。 選擇所需的 **解析度** (例如， **全高清**)。 此外，您還可以水準和垂直選擇裝置數。
 
-1. 按一下&#x200B;**「建立」**。
+1. 按一下&#x200B;**建立**。
 
 顯示(*StoreDisplay*)會建立並新增至&#x200B;*位置(SanJose*)。
 
@@ -110,33 +113,28 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 「顯 **示資訊** 」面板提供顯示屬性。
 
-按一下****顯示資訊**面板右上角的**(...)，以檢視屬性並預覽顯示。
+按一下「顯&#x200B;**示資訊」(** DISPLAY INFORMATION **** )面板右上角的(...)，查看屬性並預覽顯示。
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### 查看屬性 {#viewing-properties}
 
 按一 **下「屬性** 」以檢視或變更顯示的屬性。
 
-此外，您也可以在「顯示」標籤下的「**閒置逾時**屬性」中調整互動頻道的事件計時器 **值** 。 預設值設為 *300秒*。
+此外，您還可以在「顯示」標籤下的「閒置逾時 **」屬性中，調整互動式頻道的** 事件計時器值 **** 。 預設值設為 *300秒*。
 
 使 **用CRXDE Lite**，存取 **idleTimeout** 屬性，即 `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` 。
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### 指派的頻道面板 {#assigned-channels-panel}
 
 「指 **派的頻道** 」面板會顯示指派給此裝置的頻道。
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### 裝置面板 {#devices-panel}
 
 「 **DEVICES** Panel（設備面板）」提供有關設備配置的資訊。
 
-按一下****裝置**面板右上角的**(...)，以新增裝置設定和更新裝置。
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+按一下「裝&#x200B;**置**」面板右上角的(... **** )，以新增裝置設定和更新裝置。
 
 此外，按一下裝置組態以檢視屬性、指派裝置或完全刪除裝置。
 
