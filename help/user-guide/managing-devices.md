@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->在指定裝置之前，您必須先註冊它。 如需詳細資訊，請參閱 [裝置註冊](device-registration.md)。
+>在指定裝置之前，您必須先註冊它。 如需詳細資訊，請參 [閱裝置註冊](device-registration.md)。
 
 ## 設備分配 {#device-assignment}
 
@@ -49,7 +52,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 點選／按一下「 **完成** 」以完成指派程式。
 
-   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    顯示儀表板在「設備」面板中顯示指 **定的設** 備。
 
