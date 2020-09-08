@@ -3,9 +3,9 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -168,7 +168,8 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
 1. 從「設 **定** 」選項中，選擇「路徑」和「支援的渠道 **」作為「初始負載** 和空閒螢幕 **」**********&#x200B;的「路徑」和「支援的事件」。
 
-   >[注意]
+   >[!NOTE]
+   >
    >預設 **情況下，Channel Role**、Priority **和** Increption Methods **(通道角色、優先順序和中斷方法** )都會填入。 如需 [頻道指派屬性的詳細資訊](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) ，請參閱頻道屬性一節。
 
    ![影像](assets/kickstart/demo-assign3.png)
