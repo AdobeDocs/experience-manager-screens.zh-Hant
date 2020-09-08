@@ -3,10 +3,10 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 1%
+source-wordcount: '1316'
+ht-degree: 2%
 
 ---
 
@@ -205,22 +205,51 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
 1. 從動作列點選/ **按一下「Device Manager** 」（裝置管理器）。
 
+   ![影像](assets/kickstart/demo-register1.png)
+
 1. 點選／按一下右 **上方的「Device Registration** （裝置註冊）」。
 
 1. 選擇所需的設備並點選／按一下「 **Register Device（註冊設備）**」。
 
+   ![影像](assets/kickstart/demo-register2.png)
+
 1. 等待裝置傳送其註冊碼，並同時從您的Chrome裝置 **檢查註冊碼** 。
+   ![影像](assets/kickstart/demo-register3.png)
 
 1. 如果兩 **部電腦的註冊代碼** ，請點選／按一下「在AEM中 **驗證** 」。
 
-1. 設定所要的裝置名稱，然後按一下「注 **冊」**。
+1. 將所要的名稱設 **定為裝置的ChromeDeviceforDemo** ，然後按一下「 **註冊」**。
+
+   ![影像](assets/kickstart/demo-register4.png)
+
+1. 從「 **Device Registration Successful** 」(設備注 **冊成功)對話框中按一下「Assign Display** 」（指定顯示）。
+
+   ![影像](assets/kickstart/demo-register5.png)
+
+1. 選擇要顯示的路徑為「 **Screens** — **> Locations** — **>********** Lobby DisplayJown DesplayAdjectAssignSignDemo」。
+
+   ![影像](assets/kickstart/demo-device6.png)
+
+1. 成功分配設備後，您將看到以下確認資訊。
+
+   ![影像](assets/kickstart/demo-register8.png)
 
 1. 點選／按一 **下「完成** 」以完成註冊程式。
 
+1. 您應可從顯示控制面板檢視已註冊的裝置。
+
+   ![影像](assets/kickstart/demo-register9.png)
 
 ### 在Chrome Player中檢視內容 {#viewing-content-output}
 
-此範例將展示Chrome Player的輸出。 將頻道指派給顯示器後，您必須將裝置註冊到播放器。
+您頻道中的所有資產現在都會在您的Chrome裝置上播放。
+
+恭喜您現在正在播放AEM Screens頻道的內容！
+
+![影像](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
