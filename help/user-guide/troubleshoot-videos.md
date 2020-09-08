@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ## 視訊資產 {#video-assets}
 
-如果您在視訊下未看到來源屬性，可能是視訊未轉碼。 如果視訊已正確轉碼，則會顯示在儀表板中，如下圖所示。
+如果您在視訊下未看到來源屬性，可能是視訊未轉碼。 如果視訊已正確轉碼，則會顯示在控制面板中，如下圖所示。
 
 檢查ffmpeg是否已安裝並且視訊設定檔。
 
@@ -78,9 +81,9 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 1. 選取視訊並開啟「編 **輯** 」對話方塊。 開啟「描 **述檔** 」標籤。
 
-   選取不同的描述檔（至少應該有「High Quality H.264」描述檔）。
+   >[!注意
+   >選取不同的描述檔（至少應該有「High Quality H.264」描述檔）。
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### 在Web Player中檢查視訊 {#checking-the-video-in-the-web-player}
 
@@ -92,7 +95,7 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 1. 導覽至工 *作流程模型管理*，即 `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`。
 1. 選取「畫 **面更新資產** 」模型。
-1. 從操 **作欄中按一下「啟動工作流** 」(Start Workflow **)，開啟「** 運行工作流」(Run Workflow)對話框。
+1. 從操 **作欄按一下「啟動工作流** 」(Start Workflow **)，開啟「運行** 工作流」(Run Workflow)對話框。
 
 1. 在「裝載」中選取您的視 **訊資產**。
 1. 按一 **下Run**。
@@ -107,7 +110,7 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 請依照下列步驟來疑難排解Google的自動播放政策標幟問題：
 
-1. 導覽至 ***chrome://flags/#autoplay-policy ***
+1. 導覽至 ***chrome://flags/#autoplay-policy***
 1. 將「自 **動播放** 」原則從「 **預設** 」變更 **為不需要使用者手勢**
 
 1. 重新啟動網頁瀏覽器並更新播放器
@@ -140,13 +143,12 @@ source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 1. 開啟其配置對話框。
 1. 編輯策 **略** ，並新增絕對。
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->玩家的作業系統必須有相同的時鐘。
+   >[!NOTE]
+   >玩家的作業系統必須有相同的時鐘。
 
-**對齊OS x上的時鐘** ：請遵循以下步驟來對齊OSX上的時鐘：
+**對齊OS X上的時鐘** ：請遵循以下步驟來對齊OSX上的時鐘：
 
 1. 在每 **個OSX方塊上開啟日期** 和時間偏好設定
 1. 檢查 **自動設定日期和時間**
