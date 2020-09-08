@@ -3,9 +3,9 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
@@ -81,9 +81,9 @@ ht-degree: 2%
 
    ![影像](assets/kickstart/demo-4.png)
 
-TestChannel *會建立* ，並新增至您的頻道資料夾，如下圖所示。
+   TestChannel *會建立* ，並新增至您的頻道資料夾，如下圖所示。
 
-![影像](assets/kickstart/demo-5.png)
+   ![影像](assets/kickstart/demo-5.png)
 
 ### 新增內容至頻道 {#adding-content}
 
@@ -144,9 +144,9 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
    ![影像](assets/kickstart/demo-disp3.png)
 
-現在會將名為 **TestDisplay** 的新顯示新增至您的 **TestLocation**，如下圖所示。
+   現在會將名為 **TestDisplay** 的新顯示新增至您的 **TestLocation**，如下圖所示。
 
-![影像](assets/kickstart/demo-disp4.png)
+   ![影像](assets/kickstart/demo-disp4.png)
 
 ### 指派渠道 {#assigning-channel}
 
@@ -182,7 +182,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
 1. 設定好 **偏好設定後** ，按一下「儲存」。
 
-### 註冊設備並將設備分配給顯示器{#registering-device}
+### 註冊設備並將設備分配給顯示器 {#registering-device}
 
 您必須使用AEM儀表板註冊裝置。
 
@@ -244,7 +244,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
 您頻道中的所有資產現在都會在您的Chrome裝置上播放。
 
-恭喜您現在正在播放AEM Screens頻道的內容！
+恭喜您現在正在AEM Screens頻道中播放內容！
 
 ![影像](assets/kickstart/demo-video-screens.gif)
 
