@@ -3,9 +3,9 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!NOTE]
 >開始處理專案詳細資訊之前，請確定您已安裝最新的功能套件。 您可以使用Adobe ID從「軟體散發入口網站」下載AEM Screens 6.5.5 [版本的最新功能套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 。
 
-## 在5分鐘內建立數位標牌體驗 {#creating-a-digital-signage-experience-in-minutes}
+## 必備條件 {#prerequisites}
 
 請依照下列步驟建立AEM Screens的範例專案，並進一步將內容發佈至Screens播放器。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 1. 按一 **下「儲存** 」以啟用Apache Sling Referrer Filter Allow Empty。
 
 
-## 教學課程 {#tutorial}
+## 在5分鐘內建立數位標牌體驗 {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
 1. 從動 **作列按一下** 「建立」。
 
+   ![影像](assets/kickstart/demo-disp1.png)
+
 1. 從「創 **建** 」嚮導中選擇「顯 **示」** ，然後按一下「 **下一步**」。
+
+   ![影像](assets/kickstart/demo-disp2.png)
 
 1. 將標題輸 **入為** LobbyDisplay **，然後單** 擊Create ****。
 
+   ![影像](assets/kickstart/demo-disp3.png)
+
 現在會將名為 **TestDisplay** 的新顯示新增至您的 **TestLocation**，如下圖所示。
+
+![影像](assets/kickstart/demo-disp4.png)
 
 ### 指派渠道 {#assigning-channel}
 
