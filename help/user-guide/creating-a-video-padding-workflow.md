@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 本節涵蓋下列主題：
 
-* **綜覽**
+* **概覽**
 * **必備條件**
 * **建立視訊填補工作流程**
    * **建立工作流程**
@@ -56,11 +59,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 請依照下列步驟，為您的視訊建立工作流程：
 
-1. 導覽至您的AEM例項，然後從側欄按一下工具。 選擇「 **工作流** 」(Workflow **)** —&gt;「模型」(Models)以建立新模型。
+1. 導覽至您的AEM例項，然後從側欄按一下工具。 選擇「 **工作流** 」(Workflow **)** —>「模型」(Models)以建立新模型。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 按一下「 **模型** 」(Models **)—&gt;「創** 建 **」(Create**)—&gt;「建立模型」(Create Model)。 在「 **Workflow** Add Model Alignment」（工作流模型添加標題）中，輸入 **VideoRendition**(作為VideoRendition **)和****** Name（名稱）。 按一 **下「完成** 」(Done)以新增工作流程模型。
+1. 按一下「 **模型** 」(Models **)—>「創** 建 **」(Create**)—>「建立模型」(Create Model)。 在「 **Workflow** Add Model Alignment」（工作流模型添加標題）中，輸入 **VideoRendition**(作為VideoRendition **)和****** Name（名稱）。 按一 **下「完成** 」(Done)以新增工作流程模型。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -68,7 +71,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. 將**命令行**元件拖放到工作流中。
+1. 將命令行元件 **拖放到工作流** 中。
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -78,7 +81,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 選擇「 **參數** 」頁籤，以輸入「命令行——步 **驟屬性」對話框中的欄位** 。
 
-   在 **Mime類型** (如 ***video/mp4***)中輸入格式，並輸入命令(***/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp4**)，在「命令」欄位中啟動 **工作流** 。
+   在 **Mime類型** (如 ***video/mp4***)中輸入格式，並輸入命令(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp4**)，在「命令」欄位中啟動 **工作流** 。
 
    請參閱以下注 **意事項中****的** Mime類型和命令。
 
@@ -88,7 +91,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. 在 **Payload** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)中選擇資產路徑，然後輸入**Title **(as ***RunVideo***)並按一下 **** RunRunCrossroads。
+1. 在 **Payload** (as ***/content/dam/peyenda-crossroads01_512kb 2.mp4***)中選擇資產的路徑(as/content/dam/peyedyda-crossroads)，然後輸入 **Title** as ********** Run VideoAdodes並點選Jastronsruns。
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -96,7 +99,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 請依照下列步驟，在您的AEM Screens專案中使用工作流程：
 
-1. 導覽至AEM Screens專案(**TestVideoRendition** —&gt; **Channels** —&gt;**VideoRendition**)。
+1. 導覽至AEM Screens專案(**TestVideoRendition** —> **Channels** —>**VideoRendition**)。
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
