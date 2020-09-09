@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 2%
@@ -107,7 +107,6 @@ ht-degree: 2%
 1. 在「 **資產** 」下方選取「影片」，並拖放所需影片。
 
 >[!NOTE]
->
 >如果您在頻道中上傳視訊時遇到問題，請參閱疑難排 [解視訊](troubleshoot-videos.md)。
 
 ### 查看屬性 {#viewing-properties}
@@ -145,6 +144,7 @@ ht-degree: 2%
 >此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
 
 請依照下列步驟，從頻道控制面板啟用此選項：
+
 1. **將渠道設為離線**
    1. 選擇渠道，然後從操 **作欄** 中選擇「屬性」
    1. 導覽至「 **Channel** 」索引標籤，並確定您已取消勾選「 **開發人員模式」（強制channel to be online）選項**
