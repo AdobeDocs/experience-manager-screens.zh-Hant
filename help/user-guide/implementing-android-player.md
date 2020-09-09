@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ### 使用製造商金鑰的Android標誌 {#signage-of-android-apks-using-manufacturer-keys}
 
-若要存取Android的某些特權API，例如 *PowerManager* 或 *HDMIControlServices*，您必須使用製造商的金鑰來簽署android apk。
+若要存取Android的某些特權API，例如 *PowerManager* 或 *HDMIControlServices*，您必須使用製造商的金鑰簽署android apk。
 
 >[!CAUTION]
 >
