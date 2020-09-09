@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +33,7 @@ AEM Screens提供可用於「畫面」專案的不同AEM元件。
 
 若要檢視您的「畫面」專案的預設元件，請遵循下列步驟：
 
-1. 選取渠道。 例如， **We.Retail In Store** —&gt; **Channels** —&gt; **Idle Channel**。
+1. 選取渠道。 例如， **We.Retail In Store** —> **Channels** —> **Idle Channel**。
 
 1. 按一 **下動作列** 中的「編輯」，以開啟AEM編輯器。
 1. 按一下 **側列的** +圖示以開啟元件。
@@ -44,12 +47,12 @@ AEM提供許多其他元件。 您隨時都可以將其他元件（預設未包�
 
 下列範例顯示將Livefyre元件新增至AEM Screens專案：
 
-1. 選取您要新增元件的渠道。 例如， **We.Retail In Store** —&gt; **Channels** —&gt; **Idle Channel**。
+1. 選取您要新增元件的渠道。 例如， **We.Retail In Store** —> **Channels** —> **Idle Channel**。
 
-1. 從動 **作列按一下** 「編輯」以開啟編輯器。
+1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
 1. 選擇 **設計** 模式。
 1. 選擇右側的整個設計編輯器，然後按一下設定符號以開啟「 **ParSys設計」(ParSys Design** )對話框。
-1. 您可以選取要匯入至AEM Screens專案的元件。 下列範例說明 **將Livefyre元件新增至** AEM Screens專案。
+1. 您可以選取要匯入至AEM Screens專案的元件。 下列範例顯示AEM Screens專 **案中Livefyre** 元件的新增。
 
 ![adding_components](assets/adding_components.gif)
 
@@ -74,9 +77,9 @@ AEM提供許多其他元件。 您隨時都可以將其他元件（預設未包�
 | **屬性** | **說明** |
 |---|---|
 | ***應用程式路徑*** | 選擇應用程式所在的絕對路徑。 |
-| ***持續時間 (毫秒)*** | 選擇應用程式的持續時間。 依預設，持續時間會設為-1，這表示元素會永遠執行（即單頁應用程式）。 設定持續時間值&gt;0時，會顯示指定持續時間的元素，然後移至下一個時間。 |
+| ***持續時間 (毫秒)*** | 選擇應用程式的持續時間。 依預設，持續時間會設為-1，這表示元素會永遠執行（即單頁應用程式）。 設定持續時間值>0時，會顯示指定持續時間的元素，然後移至下一個時間。 |
 
-以下示例說明如何嵌入應用程式元件及其屬性的預覽：
+下列範例說明如何內嵌應用程式元件及其屬性的預覽：
 
 ![添加元件應用程式](assets/adding_componentsapplication.gif)
 
@@ -156,7 +159,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目等）。</td>
+   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目，等等）。</td>
   </tr>
  </tbody>
 </table>
@@ -185,7 +188,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目等）。</td>
+   <td>設為原 <strong>始</strong> 或 <strong>單一</strong>。 將值設為原 <strong>始</strong> ，表示子序列將在父序列的每個循環上完全運行。 另一個可能的值是 <strong>單</strong> ，且每個執行只會顯示一個子系的項目（例如，第一個循環上的第一個項目、第二個循環上的第二個項目，等等）。</td>
   </tr>
  </tbody>
 </table>
@@ -209,7 +212,7 @@ Channel元件具有以下屬性：
 
 >[!NOTE]
 >
->您 **從此元件添加的客戶端****Libaries和靜態檔案除了已配置的** Client端Libaries和從體驗片段的屬性添加的靜態檔案外 ********，還包括。
+>您 **從此元件新增的用戶端程式庫** 、靜態檔案，除了已設定的 **** Client-side Libraries和從體驗片段的PropertiesAdjust中新增的靜態檔 ********&#x200B;案外。
 
 ### 影像 {#image}
 
@@ -295,13 +298,13 @@ Channel元件具有以下屬性：
    <td>在轉場可開始時說明的時間戳記。</td>
   </tr>
   <tr>
-   <td><strong><em>排程</em></strong></td>
+   <td><strong><em>計劃</em></strong></td>
    <td>新增預先定義的排程。</td>
   </tr>
  </tbody>
 </table>
 
-### Video {#video}
+### 影片 {#video}
 
 「視訊」元件可讓您將視訊新增至您的「畫面」專案。
 
@@ -322,7 +325,7 @@ Channel元件具有以下屬性：
    <td>選擇視訊的持續時間。 依預設，持續時間會設為-1，表示元素會永遠執行。 設定持續時間值&gt;0時，會顯示指定持續時間的元素，然後移至下一個時間。<br /> </td>
   </tr>
   <tr>
-   <td><em><strong>演算</strong></em></td>
+   <td><em><strong>轉譯</strong></em></td>
    <td><p>如果視訊外觀比例不符合螢幕大小，您可將演算調整為包含 <strong>或</strong><strong>封面</strong>。</p> <p><em>Contain</em> （包含）：表示顯示完整視訊，且遺失區域以黑色邊框填入。</p> <p><em>封面</em> ：指影片會覆蓋整個視訊區，但溢位於側邊的部分會隱藏。</p> </td>
   </tr>
   <tr>
