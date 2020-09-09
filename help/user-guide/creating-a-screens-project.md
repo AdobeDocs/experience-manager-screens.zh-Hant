@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +22,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 選取Adobe Experience Manager連結（左上），然後選擇「畫面」，即可使用「AEM畫面」。
 
-或者，您也可以直接前往： `http://localhost:4502/screens.html/content/screens`![chlimage_1-14](assets/chlimage_1-14.png)
+或者，您也可以直接前往： `http://localhost:4502/screens.html/content/screens`
+![chlimage_1-14](assets/chlimage_1-14.png)
 
 不同的專案可能是不同的品牌、部署、客戶等。
 
@@ -29,14 +33,14 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >**導覽提示：**
 >
->您也可以使用游標鍵來瀏覽AEM中的不同檔案夾。 此外，在您選取特定實體後，按一下空格鍵即可編輯或檢視該特定資料夾的屬性。
+>您也可以使用游標鍵來瀏覽AEM中的不同檔案夾。 此外，在您選取特定實體後，點擊空格列可編輯或檢視該特定資料夾的屬性。
 
 ## 建立新畫面專案 {#creating-a-new-screens-project}
 
 請依照下列步驟建立新的畫面專案：
 
 1. 從AEM **儀表板** 選取「畫面」。
-1. 按一下「建立 **—&gt;建立專案** **」，就會 **** 開啟「建立畫面專案」精靈。
+1. 將會 **開啟「建立** —>創 **建項目** 」和「 **** 建立螢幕項目」嚮導。
 
 1. 選取「畫 **面** 」範本，然後按一 **下「下一步**」。
 
@@ -78,7 +82,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 選取您的專案，然後按一 **下動作列** 中加號圖示旁的「建立」。
 1. 將打 **開「建立** 」嚮導，並選擇相應的選項。
-1. 按一 **下「下一步**」。
+1. 按一下&#x200B;**下一步**。
 1. 輸入屬性，然後按一下「 **建立**」。
 
 下列步驟將說明如何在 **DemoProject中，將應用程式資料夾建立至您** 的 *「應用程式」*&#x200B;首頁。
