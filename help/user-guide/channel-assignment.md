@@ -3,7 +3,7 @@ title: 頻道指定任務
 seo-title: 頻道指定任務
 description: 請依照本頁瞭解渠道指派和日分割。
 translation-type: tm+mt
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 4%
@@ -35,7 +35,7 @@ ht-degree: 4%
 
    或,
 
-   點選／按一 **下「儀表板** 」，然後從「已分配渠道」面板按一 **下+「分配渠道」，以開啟「已分配渠道」********** 的「Channel Assignment Jognment」對話方塊。
+   點選／按一 **下「儀表板** 」，然後從「已指派的渠道 **」面板中按一下「指派渠道」，以開啟「渠道指********** 派」對話方塊。
 
    ![影像](/help/user-guide/assets/channel-assign1.png)
 
