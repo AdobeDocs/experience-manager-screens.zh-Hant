@@ -10,7 +10,10 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: a60de02a19004dd4d971612496f65285ded55716
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 1%
 
 ---
 
@@ -58,6 +61,7 @@ source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![透過CRX Package Manager安裝的螢幕We.Retail執行Ui.Apps和Ui.Content套件](assets/crx-packages.png)
 
    透過CRX Package Manager安裝的螢幕We.Retail執行Ui.Apps和Ui.Content套件
@@ -68,7 +72,7 @@ source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
    >[!NOTE]
    >
-   >在本教程中，不編寫Java代碼。 如果需要更複雜的商業邏輯，可使用核心Java套件來建立和部署後端Java。
+   >在本教學課程中，不編寫Java程式碼。 如果需要更複雜的商業邏輯，可使用核心Java套件來建立和部署後端Java。
 
    ![在CRXDE Lite中呈現ui.apps程式碼](assets/uipps-contents.png)
 
@@ -81,6 +85,7 @@ source-git-commit: a60de02a19004dd4d971612496f65285ded55716
    * `/conf/we-retail-run`
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
+
    此套件包含專案所需的開始內容和設定結構。 **`/conf/we-retail-run`** 包含We.Retail Run專案的所有設定。 **`/content/dam/we-retail-run`** 包括啟動專案的數位資產。 **`/content/screens/we-retail-run`** 包含「畫面」內容結構。 這些路徑下方的內容主要會在AEM中更新。 為了提高環境（本地、開發、舞台、prod）之間的一致性，通常在原始碼控制中保存基本內容結構。
 
 1. **導覽至「AEM畫面> We.Retail Run」專案：**
@@ -91,11 +96,11 @@ source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ## 建立Hello World元件 {#hello-world-cmp}
 
-Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以 [AEM Screens元件範本為基礎： https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
+Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以 [AEM Screens元件範本為基礎：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
 AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不一定適用。
 
-* 大部分的「螢幕」元件需要在目標數位標牌裝置上以全螢幕執行
+* 大部分的「螢幕」元件需要在目標數位標牌裝置上全螢幕執行
 * 大部分的「畫面」元件必須可內嵌在序列頻道中，才能產生投影片
 * 撰寫應允許編輯序列頻道中的個別元件，因此不需要全螢幕呈現
 
@@ -135,8 +140,9 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
 
    畫面元件需要兩種不同的轉譯，視使 [用的製作模式](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) 而定：
 
-   1. **生產**: 預覽或發佈模式(wcmmode=disabled)
-   1. **編輯**: 用於所有其他製作模式，例如編輯、設計、腳手架、開發人員……
+   1. **生產**:預覽或發佈模式(wcmmode=disabled)
+   1. **編輯**:用於所有其他製作模式，例如編輯、設計、腳手架、開發人員……
+
    `helloworld.html`當做交換機，檢查哪個編寫模式目前處於活動狀態並重新導向至另一個HTL指令碼。 畫面元件使用的常見慣例是使用「編輯」 `edit.html` 模式的指令碼和「生 `production.html` 產」模式的指令碼。
 
 1. 在名為的下方建立檔 `/apps/weretail-run/components/content/helloworld` 案 `production.html.`
@@ -195,6 +201,7 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
 
    1. 從以下位置複製對話框： `/libs/screens/core/components/content/image/cq:dialog`
    1. 將對話方塊貼在下方 `/apps/weretail-run/components/content/helloworld`
+
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
 1. **更新「Hello World」對話框以包含消息的頁籤。**
@@ -284,6 +291,7 @@ AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方
    * `allowProxy` | 布林函數 | `true`
 
    * `categories`|字串[] | `cq.screens.components`
+
    ![/apps/weretail-run/components/content/helloworld/clientlibs/shared的屬性](assets/2018-05-03_at_1026pm.png)
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared的屬性
@@ -399,11 +407,12 @@ AEM Screens使用靜 [態頁面範本](https://helpx.adobe.com/experience-manage
 
 Hello World元件用於序列通道。 若要測試元件，會建立新的「序列頻道」。
 
-1. 從「AEM開始」選單導覽至「畫 **面** > **We.Retail** Run >」，然後選取「 **頻道」**。
+1. 從「AEM開始」功能表導覽至「畫面 **>** We.Retail **Run >」，然後選取「**&#x200B;頻道 ****」。
 
 1. 按一下「 **建立** 」按鈕
 
    1. 選擇 **建立實體**
+
    ![2018-04-30_at_5_18pm](assets/2018-04-30_at_5_18pm.png)
 
 1. 在建立嚮導中：
@@ -413,6 +422,7 @@ Hello World元件用於序列通道。 若要測試元件，會建立新的「�
    1. 屬性步驟
    * 「基本標籤>標題=空 **閒頻道」**
    * 渠道標籤>勾選 **線上渠道**
+
    ![空閒通道](assets/idle-channel.gif)
 
 1. 開啟閒置頻道的頁面屬性。 更新「設計」欄位，以指 `/apps/settings/wcm/designs/we-retail-run,`向在上一節中建立的設計頁面。
@@ -428,6 +438,7 @@ Hello World元件用於序列通道。 若要測試元件，會建立新的「�
    1. 按一下 **Parsys中的** 「扳手圖示」，以設定允許的元件
 
    1. 選取「 **畫面** 」群組和「 **We.Retail Run —— 內容」群組** 。
+
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
 1. 將頁面模式切換為「 **編輯」**。 Hello World元件現在可以新增至頁面，並與其他序列頻道元件結合。
