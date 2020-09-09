@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ The Health Check framework lows the user to check if two exence configurations a
    ![資產](assets/health-check1.png)
 
 
-2. 按一下「執 **行所選健康檢查** 」以運行上述兩個屬性的驗證。
+2. 按一下「執 **行所選健康檢查** 」對上面列出的兩個屬性運行驗證。
 
    如果同時啟用了這兩個篩選器，則 **Screens Configuration Health Service** （螢幕配置健康服務）將 **Result** 顯示為 **OK** ，並且兩個配置均為啟用。
 
@@ -108,7 +108,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 1. 導覽至 *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 請確定「預 **設編寫UI** 」模式已設 **為TOUCH**，如下圖所示
 
-或者，您也可以使用&lt;yourAuthorInstance> *->*(hammer icon ->** Web Operations) **-********** Operations-CM WebConsole搜索WUI創作工具，執行相同的設定。
+或者，您也可以使用AuthorInstance *->* tools（hammer圖示）-> **Operations** -> **Web Console** ，並搜尋 **** WCM Authoring UI Mode Service Achignation。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 #### NOSAMPLECONTENT執行模式中的AEM {#aem-in-nosamplecontent-runmode}
 
-在生產中執行AEM會使 **用NOSAMPLECONTENT** 執行模式。 從&#x200B;*RemovetheX-Frame-Options=SAMEORIGIN* （在其他回應標題區段中）
+在生產中執行AEM會使 **用NOSAMPLECONTENT** 執行模式。 將 *X-Frame-Options=SAMEORIGIN* （在其他回應標題區段中）的標題從
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
@@ -136,7 +136,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
-1. **Adobe Experience Manager Web Console設定**開啟。 搜尋裝置服務。 要搜索屬性，請按 **Command+F** ( **Mac)和Control+F(****Windows)** ( **** Windows)。
+1. **Adobe Experience Manager Web Console設定**開啟。 搜尋裝 *置服務*。 要搜索屬性，請按 **Command+F** ( **Mac)和Control+F(****Windows)** ( **** Windows)。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
