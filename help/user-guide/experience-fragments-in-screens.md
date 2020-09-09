@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
@@ -35,8 +35,7 @@ ht-degree: 1%
 ## 在AEM畫面中使用體驗片段 {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
->下列範例使用 **We.Retail** 做為示範專案，將體驗片段從「網站」頁面運用至 **** AEM Screens專案。
+>下列範例使用 **We.Retail** 做為示範專案，將體驗片段從「網站 **** 」頁面運用至AEM Screens專案。
 
 例如，下列工作流程示範在網站中使用We.Retail的體驗片段。 您可以選擇網頁，並將AEM Screens頻道中的該內容運用在其中一個專案中。
 
@@ -79,6 +78,7 @@ DemoProject **將會新增** 至您的AEM畫面。
 
    1. 選取您要加入渠道的片段。
    1. 按一下右側的最後一個圖示，開啟「轉 **換為體驗片段** 」對話方塊。
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **建立體驗片段**
@@ -91,21 +91,23 @@ DemoProject **將會新增** 至您的AEM畫面。
    1. 將「片段 **標題」輸入** 「 **畫面片段」**。
 
    1. 按一下核取標籤，完成新體驗片段的建立。
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **建立體驗片段的即時副本**
 
    1. 導覽至AEM首頁。
    1. 選取 **Experience Fragments** ，然後反白標示 **ScreensFragment** ，然後按一下「 **變數」作為即時副本**，如下圖所示：
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. 從「建立即時副本」精靈中選取** ScreensFragment ****** ，然後按一 **下Next**。
+   c.從「建立 **即時副本** 」精靈 **選取「畫面片段** 」，然後按一下「 **下一步**」。
 
-   d. 輸入「標 **題** 」和「 **名稱** 」為「 **畫面**」。
+   d.輸入「標 **題** 」和「 **名稱** 」為「 **畫面**」。
 
-   e. 按一 **下「建立** 」以建立即時副本。
+   e.按一 **下「建立** 」以建立即時副本。
 
-   f. 按一 **下「完成** 」以返回 **ScreensFragment** 頁面。
+   f.按一 **下「完成** 」以返回 **ScreensFragment** 頁面。
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -118,6 +120,7 @@ DemoProject **將會新增** 至您的AEM畫面。
    1. 導覽至 **ScreensFragment** （您在前述步驟中建立），然後從動作列按 **一下「屬性** 」。
 
    1. 選擇「 **離線配置** 」頁籤，如下圖所示。
+
    您可以將用戶 **端程式庫** （java和css）和 **** 靜態檔案新增至體驗片段。
 
    下列範例顯示在體驗片段中加入用戶端程式庫和靜態檔案中的字型。  ![片段](assets/fragment.gif)
@@ -129,21 +132,22 @@ DemoProject **將會新增** 至您的AEM畫面。
 
    1. 按一下側面頁籤中的元件表徵圖。
    1. 將體驗片段 **拖放至您** 的頻道。
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. 選取 **Experience Fragment** （體驗片段）元件，並選取左上角（扳手）圖示以開啟「 **體驗片段** 」對話方塊。
+   e.選取 **Experience Fragment** （體驗片段）元件，並選取左上角（扳手）圖示以開啟「 **體驗片段** 」對話方塊。
 
-   f. 選取您 **在Path中** Step 3中建立之片段的「畫面 *」* 即時 **副本**。
+   f.選取您 **在Path中** Step 3中建立之片段的「畫面 *」* 即時 **副本**。
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. 選取您 **在** Experience Fragment中於步驟3中建立之片段的「畫面 *」即時* 副本 ****。
+   f.選取您 **在** Experience Fragment中於步驟3中建立之片段的「畫面 *」即時* 副本 ****。
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. 在「持續時間」中輸 **入毫秒**。
+   h.在「持續時間」中輸 **入毫秒**。
 
-   i. 從「體 **驗片段」對話方塊中** ，選取「離線設定 **** 」，以定義用戶端程式庫和靜態檔案。
+   i.從「體 **驗片段」對話方塊中** ，選取「離線設定 **** 」，以定義用戶端程式庫和靜態檔案。
 
    >[!NOTE]
    >
@@ -151,7 +155,7 @@ DemoProject **將會新增** 至您的AEM畫面。
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. 按一下核取標籤以完成程式。
+   j.按一下核取標籤以完成程式。
 
 ### 驗證結果 {#validating-the-result}
 
@@ -171,7 +175,7 @@ DemoProject **將會新增** 至您的AEM畫面。
 
 >[!NOTE]
 >
->如需即時副本的詳細資訊，請參閱重複使用內容： 多網站管理員和即時副本。
+>如需即時副本的詳細資訊，請參閱重複使用內容：多網站管理員和即時副本。
 
 請依照下列步驟，將變更從主頻道傳播至您的目的地頻道：
 
