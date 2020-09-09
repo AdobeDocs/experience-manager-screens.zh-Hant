@@ -3,10 +3,10 @@ title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 必備條件 {#prereqs}
 
-在遵循下列步驟以啟用頻道中的定位之前，您必須先瞭解在AEM Screens中設定的關鍵詞語 [](configuring-context-hub.md) ，以瞭解在AEM Screens中的ContextHub和定位。
+在遵循下列步驟以啟用渠道中的定位之前，您必須先瞭解在AEM Screens中設定的 [Key Terms](configuring-context-hub.md) ，以瞭解AEM Screens中的ContextHub和定位。
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    1. 選擇「路徑 **」** 段作為「會議 **」** >「零售」 **>「零售」>「****************** WcmSegments」>「AldSignments」>「ChickSelectSelectLight」。
 
-   1. Click **Save &amp; Close**.
+   1. 按一下&#x200B;**「儲存並關閉」**。
    >[!NOTE]
    >
    >使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
@@ -73,11 +73,10 @@ ht-degree: 0%
 
 1. 從下 **拉式選單選** 擇「品牌 **」和「活動** 」，然後按一下「開始 **定位」**。
 
-### 更多資訊： 範例使用案例 {#learn-more-example-use-cases}
+### 更多資訊：範例使用案例 {#learn-more-example-use-cases}
 
 在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
 1. **[零售庫存鎖定](retail-inventory-activation.md)**
 1. **[旅行中心溫度激活](local-temperature-activation.md)**
 1. **[酒店預訂激活](hospitality-reservation-activation.md)**
-
