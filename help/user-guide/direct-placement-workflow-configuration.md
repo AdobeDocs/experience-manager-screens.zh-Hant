@@ -4,7 +4,7 @@ seo-title: 直接放置工作流程設定
 description: 此頁面反白顯示「直接位置工作流程設定」。
 seo-description: 此頁面反白顯示「直接位置工作流程設定」。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -43,4 +43,3 @@ ht-degree: 0%
 
 1. 在「頻道」檔案夾 **下建立名為** 「工作流程 **資產」的頻道** 。
 
-1. 
