@@ -4,9 +4,9 @@ seo-title: 在AEM畫面中設定作者和發佈
 description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
 seo-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 在每個發佈例項上：
 
-1. 在OSGi控制台中，導航到 **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*)。
+1. 在OSGi控制台中，導航 **到MAIN** —> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`)。
 1. 在純文字檔案中鍵入所需的純文字檔案密碼（所有實例都相同） ****
 1. 按一 **下保護**。
 1. 將「受保護的 **文字」值複製** 到記事本或文字編輯器。 此值將用於ActiveMQ的OSGi配置中。
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 在每個發佈例項上：
 
-1. 導覽至OSGi Config管理 *器https://&lt;host>:&lt;port>/system/console/configMgr*
+1. 導覽至OSGi Config管理員 `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. 選擇 **Apache ActiveMQ Artemis JMS提供程式配置** 。
 1. 更新下列項目：
 
@@ -172,18 +172,18 @@ ht-degree: 0%
 
 請依照每個「發佈」例項的下列步驟：
 
-1. 導航至「OSGi控制台」 ->「主」>「ActiveMQ Artemis」 `[https://localhost:4505/system/console/mq`。
+1. 導航至「OSGi控制台」 ->「主」>「ActiveMQ Artemis」 `https://localhost:4505/system/console/mq`。
 1. 驗證並檢查以查看群集資訊>拓撲>節點=2、成員=2下的其他實例的埠。
 1. 發送測試消息(在「Broker Information（代理資訊）」下螢幕頂部)
 1. 在欄位中輸入下列變更：
 
    1. **目標**:/com.adobe.cq.screens/devTestTopic
    1. **文字**:Hello World
-   1. 檢視每個例項的error.log，以查看訊息是否已在叢集中傳送及接收
+   1. 檢視每個例項的error.log，以查看消息是否在群集中發送和接收
 
 >[!NOTE]
 >
->導覽至OSGI主控台時，在前一步驟中儲存組態後可能需要幾秒鐘的時間。 您也可以檢查error.log以取得詳細資訊。
+>在前述步驟中儲存設定後，導覽至OSGi主控台可能需要幾秒鐘的時間。 您也可以檢查error.log以取得詳細資訊。
 
 例如，在成功配置ActiveMQ Artemis伺服器時，將顯示以下映像。
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
 ### 設定作者和發佈例項 {#configuring-author-and-publish-instance}
 
-設定發佈主題後，您必須設定作者和發佈例項，才能檢視實作的實際結果：
+在設定發佈拓撲後，您需要配置作者和發佈實例，以查看實施的實際結果：
 
 >[!NOTE]
 >
@@ -224,12 +224,12 @@ ht-degree: 0%
 1. 選擇 **註冊設備**。
 1. 按一 **下「裝置註冊** 」以檢視裝置。
 1. 選擇要註冊的設備，然後按一下「 **Register Device（註冊設備）**」。
-1. 驗證註冊代碼，然後按一下「 **驗證**」。
+1. 驗證註冊代碼，然後按一下「 **驗證」**。
 1. 輸入裝置的標題，然後按一下「 **註冊**」。
 
 #### 步驟3:將設備指派給顯示 {#step-assigning-the-device-to-display}
 
-1. 在前一 **步驟的對話方塊中** ，按一下「指定顯示」(Assign Display)。
+1. 從上 **一步驟的對話方塊按一下** 「指定顯示」(Assign Display)。
 1. 從「位置」檔案夾中選取渠道的顯 **示路徑** 。
 1. 按一下 **指派**。
 1. 按一下 **完成** ，完成該過程，現在已分配設備。
@@ -240,7 +240,7 @@ ht-degree: 0%
 
 **驗證設備**
 
-之前，請執行以下步驟，確認設備ID。 若要驗證，請在CRXDELite中搜尋裝置ID，路徑為 */home/users/screens/we-retail/devices*。
+之前，請執行以下步驟，確認設備ID。 若要驗證，請在CRXDE Lite中搜尋裝置ID，路徑為 */home/users/screens/we-retail/devices*。
 
 按照以下步驟複製設備用戶：
 
@@ -304,6 +304,6 @@ ht-degree: 0%
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-「管 **理出版物** 」功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程發佈／取消發佈內容。 若要進一步瞭解此功能，請參 [閱隨選內容更新](on-demand-content.md)。
+「管 **理出版物** 」功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程來發佈／取消發佈內容。 若要進一步瞭解此功能，請參 [閱隨選內容更新](on-demand-content.md)。
 
 
