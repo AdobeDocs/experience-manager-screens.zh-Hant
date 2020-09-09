@@ -3,9 +3,9 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 2%
 
 ---
@@ -187,7 +187,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 您必須使用AEM儀表板註冊裝置。
 
 >[!IMPORTANT]
->ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，而不需實際的Chrome Player裝置。 如需安裝，請遵循下列步驟：
+>Chrome OS Player可在開發人員模式下安裝為Chrome Browser外掛程式，而不需實際的Chrome Player裝置。 如需安裝，請遵循下列步驟：
 >
 >1. 按一 [下這裡](https://download.macromedia.com/screens/) ，下載最新的Chrome Player。
 >1. 解壓縮並儲存在磁碟上。
@@ -199,7 +199,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 >1. 按一下「 **AEM Screens** Plugin」以啟動Chrome Player。 依預設，播放器會以全螢幕模式啟動。 按 **Esc** 退出全螢幕模式。
 
 
-在您的ChromeOS播放器開啟後，請依照下列步驟註冊Chrome裝置。
+在您的Chrome OS播放器開啟後，請依照下列步驟註冊Chrome裝置。
 
 1. 從您的AEM例 **項導覽** 至專案的「裝置」檔案夾。
 
@@ -242,7 +242,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
 ### 在Chrome Player中檢視內容 {#viewing-content-output}
 
-您頻道中的所有資產現在都會在您的Chrome裝置上播放。
+您頻道中的所有資產現在都會在Chrome OS播放器上播放。
 
 恭喜您現在正在AEM Screens頻道中播放內容！
 
