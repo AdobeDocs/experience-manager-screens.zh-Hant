@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---
@@ -22,35 +22,22 @@ ht-degree: 2%
 
 選取Adobe Experience Manager連結（左上），然後選擇「畫面」，即可使用「AEM畫面」。
 
-或者，您也可以直接前往： `http://localhost:4502/screens.html/content/screens`
-![chlimage_1-14](assets/chlimage_1-14.png)
+或者，您也可以直接導覽至： `http://localhost:4502/screens.html/content/screens`
 
-不同的專案可能是不同的品牌、部署、客戶等。
-
-![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
->
 >**導覽提示：**
->
 >您也可以使用游標鍵來瀏覽AEM中的不同檔案夾。 此外，在您選取特定實體後，點擊空格列可編輯或檢視該特定資料夾的屬性。
 
 ## 建立新畫面專案 {#creating-a-new-screens-project}
 
 請依照下列步驟建立新的畫面專案：
 
-1. 從AEM **儀表板** 選取「畫面」。
-1. 將會 **開啟「建立** —>創 **建項目** 」和「 **** 建立螢幕項目」嚮導。
+1. 從您的 **AEM例項選取** 「畫面」。
 
-1. 選取「畫 **面** 」範本，然後按一 **下「下一步**」。
+1. 按一下「 **建立畫面專案」**。
 
-1. 視需要輸入屬&#x200B;**性** (標題 **和名稱**)，然後單 **擊建立**。
-
-![player1](assets/player1.gif)
-
->[!NOTE]
->
->預設情況下，初始結構將包含 **Schedules**、Locations **、Applications**、 **Channels********** 、Channels Master Pages，但如果需要，可以手動調整此結構。 如果可用的選項與您的專案無關，您可以移除這些選項。
+1. 輸入標題為 **TestProject** ，然後按 **一下Create**。
 
 專案會建立，並帶您回到畫面專案主控台。 您現在可以選取專案。
 
@@ -59,22 +46,26 @@ ht-degree: 2%
 * **排程**
 * **位置**
 * **應用程式**
-* **頻道**
 * **裝置**
+* **頻道**
 
-![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png)
+![player1](assets/create-project.gif)
 
-### 查看屬性 {#viewing-properties}
+>[!NOTE]
+>
+>預設情況下，初始結構將包含 **Schedules**、Locations **、Applications**、 **Channels********** 、Channels Master Pages，但如果需要，可以手動調整此結構。 如果可用的選項與您的專案無關，您可以移除這些選項。
 
-建立「畫面」專案後，按一下 **動作列上的** 「屬性」，以編輯現有「AEM畫面」專案的屬性。
 
-![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
+## 查看屬性 {#viewing-properties}
 
-下列選項可讓您編輯／變更 *DemoProject的屬性*。
+建立「畫面」專案後，請選取專案，然後按一下「從動作列 **中** 」(Properties from action bar)以編輯專案的屬性。
 
-![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
+下列選項可讓您編輯／變更 **TestScreens的屬性**。
 
-### 建立自訂資料夾 {#creating-a-custom-folder}
+![影像](assets/create-project2.png)
+
+
+## 建立自訂資料夾 {#creating-a-custom-folder}
 
 您也可以在您的專案中，在 **Schedules**、Locations **、Applications**、 **Channels中建立您自己的自訂資料夾，**&#x200B;並在Master Pages中建立您自己的Schedules、Locations ******** 、Applications Channels、Master Pages。
 
@@ -85,12 +76,11 @@ ht-degree: 2%
 1. 按一下&#x200B;**下一步**。
 1. 輸入屬性，然後按一下「 **建立**」。
 
-下列步驟將說明如何在 **DemoProject中，將應用程式資料夾建立至您** 的 *「應用程式」*&#x200B;首頁。
+下列步驟顯示如何在TestScreens中建立應用程式資料 **夾至** 「應用程 **式」首頁**。
 
-![player2-1](assets/player2-1.gif)
+![player2-1](assets/create-project3.gif)
 
 ### 後續步驟 {#the-next-steps}
 
 在您建立自己的專案後，請參 [閱「渠道管理](managing-channels.md) 」以建立和管理渠道中的內容。
 
-此外，您還可以建立自己的排程、應用程式、位置或裝置。
