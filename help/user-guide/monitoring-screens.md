@@ -11,7 +11,10 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 請依照下列步驟導覽至裝置控制面板：
 
-1. 從您的專案導覽至裝置控制面板，例如 ***Test Project*** —&gt;裝 ***置***。
+1. 從您的專案導覽至裝置控制面板，例如 ***Test Project*** —>裝 ***置***。
 
    從操 **作欄中** ，選 **擇「設備和設備管理器** 」。
 
@@ -60,9 +63,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-此外，按一下 **清除快取** 和 **更新** ，分別清除設備的快取並更新 [](screens-glossary.md) 韌體版本。
+此外，按一下 **清除快取** 和 **更新** ，分別清除設備的快取和更新 [](screens-glossary.md) 韌體版本。
 
-**此外，按一下**...從「裝置詳細資訊」面板的右上角 **重新啟動** ，或重新整理您播放器的狀態。
+此外，按一下 **...** 從「裝置詳細資訊」面板的右上角 **重新啟動** ，或重新整理您播放器的狀態。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -72,7 +75,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-此外，按一&#x200B;**下「裝置資訊」面板右上角的**(...)，以檢視屬性或更新裝置。
+此外，按一&#x200B;**下「裝置資訊」面板右上角的**(...)以檢視屬性或更新裝置。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -97,7 +100,6 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 PREFERENCES **** (偏好設定 **)面板可讓使用者變更** Admin UI **、** Channel Switcher **，以及裝置的** 遠端除錯偏好設定。
 
 >[!NOTE]
->
 >若要進一步瞭解這些選項，請參閱「 [AEM Screens Player](working-with-screens-player.md)」。
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -113,25 +115,21 @@ PREFERENCES **** (偏好設定 **)面板可讓使用者變更** Admin UI **、**
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >您可以選取下列任一「記錄檔」層級：
->
 >* **停用**
 >* **偵錯**
 >* **資訊**
 >* **警告**
 >* **錯誤**
->
-
 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## 疑難排解OSGI設定 {#troubleshoot-osgi-settings}
+## 疑難排解OSGi設定 {#troubleshoot-osgi-settings}
 
 您必須啟用空的反向連結，以允許裝置將資料張貼至伺服器。 例如，如果停用空的反向連結屬性，裝置就無法將螢幕擷取張貼回去。
 
-目前，部分功能僅在OSGI config中啟用 *Apache Sling Referrer Filter Allow Empty* 時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
+目前，部分功能僅在OSGi組態中啟用 *Apache Sling Referrer Filter Allow Empty* 時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
 
 請依照下列步驟來啟用Apache Sling Referrer Filter Allow Empty
 
@@ -150,12 +148,12 @@ AEM提供內建的監控功能：
 * *心率* （每5秒），以指出AEM Screens Player已運作。
 * *來自* Player的螢幕擷取，顯示Player中目前顯示的內容。
 * Player上 *安裝的AEM Screens Player Firmware* version。
-* *播放器上的可用儲存空間* 。
+* *Player上的可用儲存空間* 。
 
 使用第三方軟體進行遠程監控的建議：
 
 * 播放器上的CPU使用量。
-* 檢查AEM Screens player程式是否正在執行。
+* 檢查AEM Screens Player程式是否正在執行。
 * Player的遠程重啟／重新啟動。
 * 即時通知。
 
