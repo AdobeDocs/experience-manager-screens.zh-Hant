@@ -5,9 +5,9 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
    >[!NOTE]
    >若要瞭解如何在頻道編輯器中將文字覆蓋新增至資產，請參閱「文 [字覆蓋」](/help/user-guide/text-overlay.md)。
 
-1. 從您的AEM例項—>工具—> **CRXDE Lite導覽至CRXDE Lite**。
+1. 從您的AEM例項—> tools —> **CRXDE Lite導覽至CRXDE Lite**。
 
 1. 您必須建立自訂設 `/apps/settings/wcm/designs/<your-project>/`計，例如，在本例中，導覽至 `/apps/settings/wcm/designs/customstyle/`
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 您必須更新這些設計的ACL，以便播放器下載。
 
-1. 導覽至使用者，然後選 `screens-<project>-devices group` 擇並授予其自訂設計路徑的讀取權限。
+1. 導覽至使用者管理員，並選 `screens-<project>-devices group` 擇自訂設計路徑的讀取權限。
 
 1. 提供 `screens-<project>-administrators` 此路徑的群組讀取和修改權限。
 
