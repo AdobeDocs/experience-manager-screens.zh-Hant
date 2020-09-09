@@ -11,12 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
 
-# 頻道層級大量影像播放持續時間{#channel-level-bulk-image-playback-duration}
+# 頻道層級大量影像播放持續時間 {#channel-level-bulk-image-playback-duration}
 
 ## 概覽 {#overview}
 
@@ -26,11 +29,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 開始實作此功能之前，請確定您已將專案設定為開始實作此功能的先決條件。 例如，
 
-1. 建立AEM Screens專案(在此範例中為 **ChannelLevelPlayback**)
+1. 建立AEM Screens專案範例， **ChannelLevelPlayback**。
 
-1. 在「頻道」檔案夾 **下建立序列頻道** ，做 **為PlaybackChannel**
+1. 在「頻道」檔案夾下 **建立序列頻道** ，做 **為PlaybackChannel** 。
 
-1. 將內容新增至 **PlaybackChannel**
+1. 新增內容至 **PlaybackChannel**。
 
 ## 編輯頻道層級影像播放持續時間指派 {#editing-channel-level-image-playback-duration-assignment}
 
@@ -59,7 +62,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 1. **頁面** 」對話方塊。
 
    >[!NOTE]
-   >
    >依預設，頻道中的影像會設為8秒的播放持續時間。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
