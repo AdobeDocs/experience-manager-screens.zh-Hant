@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ ht-degree: 0%
 您可以新增內嵌的序列至渠道。 內嵌序列是另一個包含影像或視訊等資產的頻道。 新增內嵌序列可讓使用者透過頻道路徑將序列新 ***增至頻道***。
 
 >[!NOTE]
->
 >***渠道路徑*** (Channel Path)定義對渠道的明確引用。
->
 >若要進一步瞭解 *Channel Path*，請參 [閱製作畫面中的Channel Assignment](channel-assignment.md) 。
 
 請依照下列步驟，將內嵌序列新增至您的渠道：
@@ -101,7 +99,7 @@ ht-degree: 0%
 1. 選取您要嵌入動態序列的渠道。 例如， **We.Retail In-Store** —> **Channels** —> **Idle Channel**。
 
 1. 從動 **作列按一下** 「編輯」，以在編輯器模式中開啟頻道。
-1. 按一下左側列的元件圖示，新增動態內嵌序列。 將Dynamic **** **Embedded Sequence **拖放至編輯器。
+1. 按一下左側列的元件圖示，新增動態內嵌序列。 將「動態內嵌 **序列****** 」拖放至編輯器。
 
 1. 連按兩下「動 **態****內嵌序列** 」元件，將頁面新增至序列頻道。
 
