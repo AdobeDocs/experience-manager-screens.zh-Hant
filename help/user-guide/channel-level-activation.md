@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 1%
 * 啟用時間
 * 將頻道層級啟動當成單一事件播放
 * 處理渠道中資產的週期
-   * 日分割
-   * 周分割
-   * 月分割
+   * DayParting
+   * WeekParting
+   * MonthParting
    * 零件組合
 * 將頻道層級啟動當成單一事件播放
 
@@ -115,7 +115,7 @@ ht-degree: 1%
    1. 選擇 **參考渠道**。 依路徑.
    1. 選擇「通 **道路徑****級激活」** —>「通 ***道*** 」 — ******>「主AdChannel」。
    1. 渠道 **角色** (Channel Role **)會填**&#x200B;入為mainadchannel。
-   1. 選擇「優 **先順序** 」( **Priority**)為1。
+   1. 選擇「優 **先順序** 」( **Priority)為1**。
    1. 選取「支 **援的事件** 」(Supported Events **)** 為「初始載入 **」(Initial Load)**&#x200B;和「閒置」(Idle)畫面。
    1. 按一下&#x200B;**「儲存」**。
 
@@ -154,13 +154,10 @@ ht-degree: 1%
 播放器會顯示 **MainAdChannel** ，並在晚上11:59（如排程中所設定）時， **TargetedSinglePlay** 頻道會顯示其內容，直到上午12:05，然後 **** MainAdChannel將會再次繼續播放其內容。
 
 >[!NOTE]
-若要瞭解AEM Screen Player，請參閱下列資源：
-* [AEM Screens Player下載](https://download.macromedia.com/screens/)
-* [使用AEM Screens Player](working-with-screens-player.md)
+若要瞭解AEM Screen Player，請參閱下列資源：[AEM Screens Player下載](https://download.macromedia.com/screens/)[使用AEM Screens Player](working-with-screens-player.md)
 
 
-
-## 處理渠道中資產的週期{#handling-recurrence-in-assets}
+## 處理渠道中資產的週期 {#handling-recurrence-in-assets}
 
 您可以依需求，排程渠道中的資產，以特定間隔依每日、每週或每月重複。
 
@@ -194,7 +191,7 @@ ht-degree: 1%
 >[!NOTE]
 您也可以使 _用軍事時間_ （即14:00）來取代 *am/pm* （即2:00 pm）。
 
-### 周分割 {#week-parting}
+### WeekParting {#week-parting}
 
 1. 選取渠道，然後從動作列 **按一下** 「控制面板」，以開啟渠道控制面板。
 
@@ -205,7 +202,7 @@ ht-degree: 1%
 
 1. 在「排程」中輸 **入運算式** ，您的資產就會以特定的日期和時間間隔顯示。
 
-#### 周分割的範例運算式 {#example-two}
+#### WeekParting的範例運算式 {#example-two}
 
 下表摘要了一些示例表達式，您可以在將渠道分配給顯示時將其添加到調度中。
 
@@ -221,7 +218,7 @@ ht-degree: 1%
 您也可以使 _用軍事時間_ （即14:00）來取代 *am/pm* （即2:00 pm）。
 
 
-### 月分割 {#month-parting}
+### MonthParting {#month-parting}
 
 1. 選取渠道，然後從動作列 **按一下** 「控制面板」，以開啟渠道控制面板。
 
@@ -232,7 +229,7 @@ ht-degree: 1%
 
 1. 在「排程」中輸 **入運算式** ，您的資產就會以特定的日期和時間間隔顯示。
 
-#### 月分型的範例運算式 {#example-three}
+#### MonthParting的範例運算式 {#example-three}
 
 下表摘要了一些示例表達式，您可以在將渠道分配給顯示時將其添加到調度中。
 
