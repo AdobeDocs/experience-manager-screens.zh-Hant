@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 8%
@@ -268,7 +268,7 @@ ht-degree: 8%
    <td> </td> 
    <td>裝置</td> 
    <td>source.device</td> 
-   <td>必要（含執行）</td> 
+   <td>必要的例外</td> 
    <td>字串</td> 
    <td> </td> 
    <td>播放器名稱</td> 
@@ -277,7 +277,7 @@ ht-degree: 8%
    <td> </td> 
    <td>作業系統版本</td> 
    <td>source.os_version</td> 
-   <td>必要（含執行）</td> 
+   <td>必要的例外</td> 
    <td>字串</td> 
    <td> </td> 
    <td>O/S版本</td> 
