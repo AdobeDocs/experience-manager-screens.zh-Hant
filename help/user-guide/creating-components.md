@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 2%
 
 ---
 
@@ -52,5 +55,5 @@ AEM元件可用來封存、格式化和轉譯網頁上提供的內容。
 
 >[!NOTE]
 >
->若要開發自訂元件，請使用*** [AEM Screens範例元件範本](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
+>若要開發自訂元件，請使用***[AEM Screens範例元件範本](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
 
