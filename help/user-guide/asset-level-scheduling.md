@@ -4,9 +4,9 @@ seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 * 啟用時間
 * 單一事件播放
 * 處理資產中的定期
-   * 日分割
-   * 周分割
-   * 月分割
+   * DayParting
+   * WeekParting
+   * MonthParting
    * 零件組合
 * 啟動多資產
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 >
 >您也可以使 _用軍事時間_ （即14:00）來取代 *am/pm* （即2:00 pm）。
 
-### 周分割 {#week-parting}
+### WeekParting {#week-parting}
 
 1. 選取資產，然後按一下「 **設定** （扳手圖示）」以開啟屬性對話方塊。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. 在「排程」中輸 **入運算式** ，您的資產就會以特定的日期和時間間隔顯示。
 
-#### 周分割的範例運算式 {#example-two}
+#### WeekParting的範例運算式 {#example-two}
 
 下表摘要了一些示例表達式，您可以在將渠道分配給顯示時將其添加到調度中。
 
@@ -131,10 +131,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以使 _用完整記號_ （即週一、週三、週五），而不 _使用簡寫記號_ （即Mon、Wed、Fri）。
+>您也可以使 _用完整_ （即週一、週三、週五），而不 _使用簡寫_ （即Mon、Wed、Fri）。
 
 
-### 月分割 {#month-parting}
+### MonthParting {#month-parting}
 
 1. 選取資產，然後按一下「 **設定** （扳手圖示）」以開啟屬性對話方塊。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 1. 在「排程」中輸 **入運算式** ，您的資產就會以特定的日期和時間間隔顯示。
 
-#### 月分型的範例運算式 {#example-three}
+#### MonthParting的範例運算式 {#example-three}
 
 下表摘要了一些示例表達式，您可以在將渠道分配給顯示時將其添加到調度中。
 
