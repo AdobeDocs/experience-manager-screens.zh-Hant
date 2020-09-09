@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 主要條款 {#key-terms}
 
-在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的關鍵詞。
+在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的重要術語。
 
 **品牌** ：指您的高階專案說明。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 >
 >如需詳細資訊，請參閱 [Google檔案中的「取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key) 」。
 
-## 步驟1: 設定資料儲存區 {#step-setting-up-a-data-store}
+## 步驟1:設定資料儲存區 {#step-setting-up-a-data-store}
 
 您可以將資料儲存設定為本地I/O事件或本地資料庫事件。
 
@@ -61,16 +61,16 @@ ht-degree: 1%
 
 ![影像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-以下驗證是您在檢查連線時，會以下列格式輸入兩個值( *google sheet ID* 和 *API金鑰* )所檢視的驗證：
+以下驗證是您在檢查連線時，會以下列格式輸入兩個值( *google工作表ID* 和 *API金鑰* )所檢視的驗證：
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![影像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> 下列特定範例會將Google工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
+>下列特定範例會將Google工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
 
-## 步驟2: 設定儲存配置 {#step-setting-store-configurations}
+## 步驟2:設定儲存配置 {#step-setting-store-configurations}
 
 1. **導覽至ContextHub**
 
@@ -113,7 +113,7 @@ ht-degree: 1%
    1. 輸入「 **Google Sheets** 」 **、「Google Sheets**」、「 **Store Title Store Type** Store As **Conthushub.jsontClickNextGoogle Sheets Name」為Google Sheets**************、Store Title Type Store As Conthub.
 
       >[!CAUTION]
-      >如果您使用Adobe Experience Manager(AEM)6.4，請將 **Configuration Title** （設定標題）輸入 **googlesheets** ，將 **Store Type** ( **** contexthub.jsonp-generic Exprience)輸入。
+      >如果您使用Adobe Experience Manager(AEM)6.4，請將 **Configuration Title** （設定標題）輸入 **googlesheets** ，將 **Store Type** ( **** contexthub.jsonp-generic Exprip)輸入。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub6.png)
 
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 1. **設定商店區段**
 
-   1. 導覽至 **ContentHub商店設定。** 然後在畫面設定容器中建立另一個商店設定，並將 **Title** -contushub **、** Store Name **(如** toreStore Store分段text.segmentation tex.am)設定為 **Title-conthub**********、Store Store類型分段tex.segmentation。
+   1. 導覽至 **ContentHub商店設定。** 然後在畫面設定容器中建立另一個商店設定，並將 **Title** -contushub **、** Store Name **(如** toreStore Store分段text.segmentation tex.am.segmentation the ************ Title-conthub.
 
       ![影像](/help/user-guide/assets/context-hub/context-hub7.png)
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 您必須略過定義json的程式，並將其保留為空白。
 
 
-## 步驟3: 在觀眾中設定區段 {#setting-up-audience}
+## 步驟3:在觀眾中設定區段 {#setting-up-audience}
 
 1. **在觀眾中建立區段**
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 
    1. 同樣地，也可 **以設定Lowerthan** 50 **區段的ContextHub路徑和Segments路徑(ContextHub Path** ) **** 。
 
-## 步驟4: 設定品牌和區域 {#setting-brand-area}
+## 步驟4:設定品牌和區域 {#setting-brand-area}
 
 請依照下列步驟，在您的活動和品牌下方建立品牌：
 
@@ -198,8 +198,7 @@ ht-degree: 1%
 
 
       >[!CAUTION]
-      已知問題：
-若要新增區域，請從URL移除主版，例如
+      已知問題：若要新增區域，請從URL移除主版，例如
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **在品牌中建立區域**
@@ -215,7 +214,7 @@ ht-degree: 1%
    1. 將標題輸 **入為** ScreensValue **，然後按一** 下Create ****。
 您的品牌中會建立一個區域。
 
-## 步驟5: 在活動中建立區段 {#step-setting-up-audience-segmentation}
+## 步驟5:在活動中建立區段 {#step-setting-up-audience-segmentation}
 
 設定資料儲存區並定義活動（品牌和區域）後，請依照下列步驟在活動中建立區段。
 
@@ -231,9 +230,9 @@ ht-degree: 1%
 
    1. 按一 **下「設定活動** 」精靈 **中的「新增體驗」**。
 
-   1. 從「 **Javerthan** 500 **** 」和「Higherthan 500 **」中** ，選擇Higherthan500 **和「Higherclick Erthyn 50Name**************」，然後進入Chigherthan50Audiences。 按一下「 **確定**」。
+   1. 從「 **Javerthan** 500 **** 」和「Higherthan 500 **」中** ，選擇Higherthan500 **和「Higherclick Erthyn 50Name**************」，然後進入Chigherthan50Audiences。 Click **Ok**.
 
-   1. 從「 **受眾**」中，將 **Lowerthan500** Audiences和 **Lowerclick Experience輸入為小於055LowerclickName的Oracle****************** Audiences，小於5LowerJoudeAudiences。 按一下「 **確定**」。
+   1. 從「 **受眾**」中，將 **Lowerthan500** Audiences和 **Lowerclick Experience輸入為小於055LowerclickName的Oracle****************** Audiences，小於5LowerJoudAudiences。 Click **Ok**.
 
       ![影像](/help/user-guide/assets/context-hub/context-hub15.png)
 
@@ -241,7 +240,7 @@ ht-degree: 1%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 步驟5: 編輯觀眾中的區段{#editing-audience-segmentation}
+## 步驟5:編輯觀眾中的區段{#editing-audience-segmentation}
 
 1. **編輯區段**
 
@@ -249,7 +248,7 @@ ht-degree: 1%
 
    1. 選取區段 **Higherthan50**，然後從動作列按 **一下「編** 輯」。
 
-   1. 拖放比 **較： 屬性** -編輯器的值元件。
+   1. 拖放比 **較：屬性** -編輯器的值元件。
 
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
 
@@ -270,7 +269,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
       ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
    同樣地，請將屬性值編輯為 **Lowerthan50**。
 
-   1. 拖放比 **較： 屬性** -編輯器的值元件。
+   1. 拖放比 **較：屬性** -編輯器的值元件。
 
    1. 按一下扳手圖示以開啟「 **比較屬性與值** 」對話方塊。
 
@@ -296,7 +295,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
 
    1. 將ContextHub路 **徑設為** , `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 並將 **Segments路徑設為「儲存**`/conf/screens/settings/wcm/segments`****&#x200B;縮合」。
 
-   1. Click **Save &amp; Close**.
+   1. 按一下&#x200B;**「儲存並關閉」**。
 
       >[!NOTE]
       使用ContextHub和區段路徑，您最初在此儲存上下文中心組態和區段。
@@ -310,7 +309,7 @@ googlesheets/ **value/1/0** ，是指在下圖的google工作表中填入的列2
 
       ![影像](/help/user-guide/assets/context-hub/context-hub21.png)
 
-## 更多資訊： 範例使用案例 {#learn-more-example-use-cases}
+## 更多資訊：範例使用案例 {#learn-more-example-use-cases}
 
 在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
