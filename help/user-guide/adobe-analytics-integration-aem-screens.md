@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -71,11 +71,11 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## 螢幕分析： 啟用流程 {#screens-analytics-enablement-flow}
+## 螢幕分析：啟用流程 {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics Project** ，以便與AEM Screens搭配使用。
+>在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics專案** ，以便與AEM Screens搭配使用。
 
 ![]()
 
@@ -83,7 +83,7 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 
 >[!CAUTION]
 >
->在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics Project** ，以便與AEM Screens搭配使用。
+>在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得 **Analytics API金鑰****和Analytics專案** ，以便與AEM Screens搭配使用。
 
 下表反白顯示用於設定AEM畫面的Adobe Analytics的屬性及其說明：
 
@@ -123,7 +123,7 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 
 #### 在AEM畫面中使用Adobe Analytics服務 {#using-adobe-analytics-service-in-aem-screens}
 
-此藍本會透過來自韌體和儀器畫面核心元件中分析服務的REST呼叫來叫用Analytics API，以明確建立和傳送特定於特定使用案例的事件，同時允許從自訂開發頻道傳送任何自訂訊息至Analytics的擴充性。
+此案例會透過來自韌體和儀器畫面核心元件中分析服務的REST呼叫來叫用Analytics API，以明確建立和傳送特定使用案例的事件，同時允許擴充性，讓任何自訂訊息都可從自訂開發的頻道傳送至Analytics。
 
 Analytics事件會離線儲存在indexedDB中，稍後會將其分塊並傳送至雲端。
 
