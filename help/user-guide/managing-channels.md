@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1343'
 ht-degree: 2%
 
 ---
@@ -32,16 +32,25 @@ ht-degree: 2%
 
 ## 建立新渠道 {#creating-a-new-channel}
 
-在您建立畫面專案後，請依照下列步驟為畫面專案建立新的頻道：
+在您為AEM Screens建立專案後，請依照下列步驟為專案建立新的頻道：
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接前往： `https://localhost:4502/screens.html/content/screens`.
-1. 導覽至「畫面」專案，然後按一下「 **頻道」**。
-1. 按一 **下動作列** 中加號圖示旁的「建立」。 將會開啟精靈(如&#x200B;*需詳細資訊，請參閱頻道類型*)。
+1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接導覽至： `https://localhost:4502/screens.html/content/screens`.
 
-1. 從嚮導中選擇模板，然後按一下「下 **一步**」。
-1. 輸入「標題」和「標 **簽」、「更多標**&#x200B;題」和「說明」 **、**「開啟／關閉時間」和 ********「虛名URL」的屬性。
+1. 導覽至您的「畫面」專案，然後選取「 **頻道** 」檔案夾。
 
-1. 按一 **下「建立** 」，就會建立渠道並新增至您的渠道資料夾。
+1. 從動 **作列按一下** 「建立」。
+
+   ![demochannel](assets/create-channel1.png)
+
+1. 從「建 **立」精靈中選取「序列渠道** 」範本，然後按一下「下 **一步******」。
+
+   ![demochannel](assets/create-channel2.png)
+
+1. 將標題輸入為 **ScreensChannel** ，然後按 **一下Create**。
+
+   ![demochannel](assets/create-project4.png)
+
+1. 「序列」頻道現在會新增至您的「頻 **道** 」檔案夾。
 
 ### 頻道類型 {#channel-types}
 
@@ -62,14 +71,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >「分割畫面」頻道會將顯示畫面分割為多個區域，讓您可以同時並排播放多個體驗。 體驗可以是靜態資產／文字或內嵌的序列。
-
-下列範例顯示如何建立「畫面」專案(*DemoProject*)的「序列頻道(*ChannelOne*)」。
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->您可以使用上述的範本選項（例如1x2、2x2或2到3個分割螢幕色版）來建立不同的區域。
 
 >[!IMPORTANT]
 >
