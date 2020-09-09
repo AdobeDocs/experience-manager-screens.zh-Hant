@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +59,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 >[!NOTE]
 >
->若要進一步瞭解頻道指派，請參閱「AEM畫面」文 **[件中「編寫」區段下的「頻道指派](channel-assignment.md)**」。
+>若要進一步瞭解頻道指派，請參閱「AEM畫面」文 **[件中「編寫」區段下的「頻道指派](channel-assignment.md)** 」。
 
 ## 使用動態內嵌序列 {#using-dynamic-embedded-sequence-2}
 
@@ -87,6 +90,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 >
 >* **[建立和管理專案](creating-a-screens-project.md)**
 >* **[管理渠道](managing-channels.md)**
+
 >
 
 
@@ -116,15 +120,15 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >要瞭解如何建立位置，請參閱創 **[建和管理位置](managing-locations.md)**。
 
 1. **在每個位置資料夾下建立兩個位置和一個頻道。**
 
    1. 導覽至 **演示** —>位 **置** —> **地區A**。
    1. 選擇 **地區A** ，然後從動作列 **按一下「+建立** 」。
-   1. 從精 **靈中** ，選擇「 **Title** as **Store 1」（標題為商店1）**。 同樣地，從精靈中建立另一個名為「 **Store 2** 」(將Title（標題） **為「Store 2****」（商店2）的**&#x200B;位置。 在建立商店1和 **商店** 2時，您可 **以將「名稱** 」欄位保留空白 ****。
-   1. 重複步驟(b)，現在從精靈中選 **取「序列頻道** 」。 為此頻 **道輸入Title** **as Region A** , **Name** as **region **。
+   1. 從精 **靈中** ，選擇「 **Title** as **Store 1」（標題為商店1）**。 同樣地，從精靈中建立另一個名為「 **Store 2** 」(將Title（標題） **為「Store 2****」（商店2）的**&#x200B;位置。 在建立商店1和 **商店** 2時，您可將「名 **稱」欄位保留為空******。
+   1. 重複步驟(b)，現在從精靈中選 **取「序列頻道** 」。 輸入「地 **區A** 」和「地區A名稱」, **作** 為此渠 **道的地** 區Title **** 渠道。
+
    >[!CAUTION]
    >
    >請確定在建立渠道 **A**&#x200B;時，輸入 **Title** as **Region A，輸入** Name Name ******** as region。
@@ -135,7 +139,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
    >[!CAUTION]
    >
-   >請確定您可以針對「地區A」和「地區B」中建立的頻道，使 **用相同** 的名 **稱做為** 地區 ****。
+   >請確定您可以針對「地區A」和「地區B」中建立的頻道，使 **用相同的名稱** ，做 **為地** 區 ****。
 
    ![screen_shot_2018-09-13at24408pm](assets/screen_shot_2018-09-13at24408pm.png)
 
@@ -145,10 +149,10 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 選 **取「商店1** 」，然後從動作列按 **一下「+建立** 」。
    1. 從向 **導中選擇** 「顯示」並建立 **Store1Display。**
    1. 重複步驟(b)，此時從嚮導中選 **擇「序列通道** 」。 輸入 **Store** **1Channel的Title** , **Name** as store **Marked**。
+
    >[!CAUTION]
    >
    >當您建立序列頻道時，頻道的 **Title** （標題）可視您的需求，但是，所有本機頻道的 **Name** （名稱）應相同。
-   >
    >在此，在 **A** 和 **Region B** Store **ChareDobe Store 3Store PhidStore Phore 4Store下，與** Region Region B **Store************************** CharenAdChChareshamechameshan Shon Chan Phon Shon Shon Shon Shon Phon Phon Phon Shon Phon Shon Phon Shon Phon Phon Shon Shon Phon Shon Phon Ashan Phon Phon Phon Phon Phon Ashan B.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -156,7 +160,6 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    同樣地，在「商店2 **」（名稱為「商店」）下，建立** Store2Display **和channel** Store2Channel的 ********&#x200B;顯示。
 
    >[!NOTE]
-   >
    >請確定您可以對在「商店1」和「商店2」中建立的頻道使 **用相同的名稱** ，以做為商店 ********。
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -176,7 +179,6 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    導航至演示 **-** Demo **-** Locations **- >** Region A **-> Click Region And Edit Region****** from the Action 拖放您要新增至渠道的資產。
 
    >[!NOTE]
-   >
    >您可以使用上 ***述「資源」區段的******* Resources.zip檔案，將影像當做頻道內容的資產使用。
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -209,6 +211,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 將渠道角 **色輸入為****GlobalAdSegment**。
    1. 選擇「受 **支援的事件** 」作 **為「初始載入**」、「 **空閒」螢幕**，以及「用戶 ****&#x200B;交互執行」。
    1. 按一下&#x200B;**「儲存」**。
+
    **按角色為地區分配渠道：**
 
    1. 按一下 **+ 「從已分配的通道****」面板指定通道** ，開啟「通 **** 道分配」對話框。
@@ -216,6 +219,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 輸入渠 **道名稱** ，作 **為地區***。
    1. 將渠道角 **色輸入** 「地 **區廣告區段」**。
    1. 按一下&#x200B;**「儲存」**。
+
    **依角色為商店指派渠道：**
 
    1. 按一下 **+ 「從已分配的通道****」面板指定通道** ，開啟「通 **** 道分配」對話框。
@@ -223,6 +227,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 輸入渠 **道名稱** ，作為 **商店**。
    1. 輸入渠 **道角色** ，作 **為StoreAdSegment**。
    1. 按一下&#x200B;**「儲存」**。
+
    下圖依路徑和角色顯示指派的頻道。
 
    ![screen_shot_2018-09-12at21429pm](assets/screen_shot_2018-09-12at21429pm.png)
@@ -310,8 +315,9 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
    1. 導覽至 **Adobe Experience Manager**。
    1. Click **Tools** --> **Security** --> **Groups**.
-   1. 按一 **下「建立群組** 」，然後在 **** ID中輸入「全域作者」 ****。
-   1. 按一 **下儲存並關閉**。
+   1. 按一 **下「建立群組** 」，然後在 **** ID中輸入Global-Author ****。
+   1. 按一下&#x200B;**「儲存並關閉」**。
+
    同樣地，請建立其他兩個群 **組，例如Region-Author****和Store-Author**。
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
@@ -323,11 +329,11 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 按一 **下「建立使用者** 」，然後在 **** ID中輸入「全域使用者」 ****。
    1. 輸入 **密碼** ，並確認此用戶的密碼。
    1. 按一下「 **組** 」頁籤，並在「選擇組」中輸入組名，例如，輸入 **Global-Author**，將 ******** Global-UserAddited添加到特定組。
-   1. 按一 **下儲存並關閉**。
+   1. 按一下&#x200B;**「儲存並關閉」**。
+
    同樣地，請建立其他兩個使用者， **例如Region-User****和** Store-User **，並分別將這些使用者新增至** Region-Author **和** Store-Author。
 
    >[!NOTE]
-   >
    >在群組中新增使用者，然後指派權限給每個特定使用者群組是最佳做法。
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
@@ -338,13 +344,14 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. Click **Tools** --> **Security** --> **Groups**.
    1. 從列 **表中選擇** 「參與者」，然後選擇「 **成員** 」頁籤。
    1. 選擇 **Group** ，如 **Global-Author**、 **Region-Author** 和 **** Store-Author to Contributor。
-   1. 按一 **下儲存並關閉**。
+   1. 按一下&#x200B;**「儲存並關閉」**。
 
 1. **存取每個群組的權限**
 
    1. 導覽至「使 *用者* 」，然後使用此UI修改不同群組的權限。
    1. 搜尋「全 **域作者」** ，然後按一 **下「權限** 」標籤，如下圖所示。
    1. 同樣地，您也可以存取「地 **區——作者」****和「商店——作者」的權限**。
+
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **修改每個群組的權限**
@@ -355,10 +362,11 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 導覽至 ***/content/screens/demo*** ，並檢查所有權限
    1. 導覽至 ***/content/screens/demo/locations*** ，並檢查所有權限
    1. 導覽至 ***/content/screens/demo/locations/region-a*** ，並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
+
    請參閱下圖以瞭解步驟：
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   下圖顯示 **GlobalStore** Store 1AStoreGlobalStoreDore 2StoreDoreGlobalDoreDoreADore **DoreGlobalDoreDobeDobeDoreDobeADDDobeGioDoGioGioGioGionGionGionGion** 全球GioGioDDoDoDoDoGinNNNDoNNDoNNNNNNNNNNNGnNNANNNNNNinNinS ************************&#x200B;全域3NNNinNinAN
+   下圖顯示 **User** Store **Global Store** 1,Global StoreA StoreDoreDoreDoreGlobalDoreDoreDoreGlobalDoreDobeDobeDoreADoreGioGioDGioGioDGioGionGioGioGionDDion **Gro An An GrioninDDDDD Grionion AnNN AnGinN** N **NNNAN** NinininNininADNNNNA **************** 4
 
    ![全域](assets/global.gif)
 
@@ -367,13 +375,14 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 導覽至「權 **限** 」標籤。
    1. 導覽至 ***/content/screens/demo*** ，並僅檢查「 **Read** 」權限。
    1. 導覽至 ***/content/screens/demo/locations*** ，並僅檢查「 **Read** 」（讀取）權限。
-   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域頻道的 **權限** 。
-   1. 導覽至 ***/content/screens/demo/locations***/****** region-a並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
+   1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域 **頻道的權限** 。
+   1. 導覽至 ***/content/screens/demo/locations***/***region-a*** ，並檢查所有權限。 同樣地，請檢查 **地區b的權限**。
+
    請參閱下圖以瞭解步驟：
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   下面的圖片顯示，現在Region-User可以同時訪問 **A** 和 **B** Region Store **Store****************** Store 3StoreStore 3D And Store 4StoreDoreDores Add Global Channel的4個JayGigidAA PhotinPis。
+   下面的圖片顯示，現在Region-User可以同時訪問 **A** 和 **B** Region Store **Store****************** Store 3StoreStore 3D And Store 4StoreDoreDores 4StoreJut Does不會訪問GlobalChe Chinal Chinanal Chananal Channel
 
    ![地區](assets/region.gif)
 
@@ -385,6 +394,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
    1. 導覽至 ***/content/screens/demo/channels*** ，並取消檢查全域 **頻道的權限** 。
    1. 導覽至 ***/content/screens/demo/locations/region-a*** ，並僅檢查「 **Read** 」權限。 同樣地，請只勾選 **地區** b的 **「讀取」權限**。
    1. 導覽至 ***/content/screens/demo/locations***/***region-a /store-1*** ，並檢查所有權限。 同樣地，請檢查 **store-2、store-3** 和 **store-4的權限**。
+
    請參閱下圖以瞭解步驟：
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
