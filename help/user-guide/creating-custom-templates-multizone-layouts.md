@@ -5,9 +5,9 @@ description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範�
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
 
 1. 導覽至 `/apps/settings/wcm/designs/custom-template-designs` 並建立檔案static.css。
 
-1. 將內容複製至static.css檔案：
+1. 將內容複製至 `static.css` 檔案：
 
    ```shell
        /*my-custom-layout styles*/
