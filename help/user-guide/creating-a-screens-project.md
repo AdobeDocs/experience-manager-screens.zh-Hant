@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 專案會建立，並帶您回到畫面專案主控台。 您現在可以選取專案。
 
-在項目中，有四種資料夾，如下圖所示：
+在項目中，有五種資料夾，如下圖所示：
 
 * **排程**
 * **位置**
