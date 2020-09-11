@@ -4,7 +4,7 @@ seo-title: AEM畫面的安全性檢查清單
 description: 此頁面說明AEM畫面的安全性檢查清單
 seo-description: 此頁面說明AEM畫面的安全性檢查清單
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,7 +15,6 @@ ht-degree: 1%
 # AEM畫面的系統安全性考量 {#security-checklist}
 
 >[!IMPORTANT]
->
 >這是內部Git資源。
 
 本頁反白顯示「AEM畫面的系統安全性考量」。
@@ -98,7 +97,7 @@ AEM Server是否安全？
    1. 裝置並模擬憑證用戶端
 
 >[!IMPORTANT]
->即使裝置已受損，您仍可輕鬆撤銷其認證，以便其無法再連線至AEM。
+>即使裝置已受到危害，您仍可輕鬆撤銷其認證，以便其無法再連線至AEM。
 
 
 
