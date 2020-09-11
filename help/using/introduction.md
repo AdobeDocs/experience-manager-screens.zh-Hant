@@ -4,17 +4,17 @@ seo-title: '[!UICONTROL AEM Screens] 專案的最佳實務指南'
 description: 本頁為 AEM Screens 的介紹區段
 seo-description: 本頁提供 AEM Screens 的簡介
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
 
 # AEM Screens 簡介 {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** 是數位看板解決方案，可讓您製作、發佈和播放動態和互動式的數位體驗，其中包含不同類型的場地內顯示螢幕，並結合全方位的全通路數位行銷策略。
+**AEM(Adobe Experience Manager)Screens** （數位招牌解決方案）可讓您製作、發佈和播放動態與互動式數位體驗，其中包含不同類型的場內顯示螢幕，並搭配全方位的數位行銷策略。
 
 AEM Screens 可讓您建立:
 
@@ -53,12 +53,11 @@ AEM Screens 提供統一的製作/播放平台，將內容部署至公共空間�
 
 * **媒體重複播放分段**: 為每個播放器裝置設定自己的重複播放區段，確保可以在整體數位體驗中輕鬆製作、發佈和播放本地化內容。內嵌序列頻道包含的媒體資產已加入上一個重複播放區段，並提供機會為每個位置群組鎖定媒體重複播放的目標區段。
 
-* **互動式體驗**: 您可以使用 AEM 和 SPA 編輯器，在 Screens 頻道中製作和提供可觸控的 Kiosk 應用程式。最佳實務是套用一致全通路設計屬性、用於重設體驗的閒置計時器，並使用清楚的行動呼籲，說明應用程式可執行的任務。登陸頁面應具有關鍵數位元素，用於傳達價值、吸引使用者靠近螢幕，並提示使用者進行互動。
+* **互動式體驗**: 您可以使用 AEM 和 SPA 編輯器，在 Screens 頻道中製作和提供可觸控的 Kiosk 應用程式。這是套用一致的全通道設計屬性、閒置計時器來重設體驗以及明確要求應用程式可執行哪些工作的最佳實務。 登陸頁面應具有關鍵數位元素，用於傳達價值、吸引使用者靠近螢幕，並提示使用者進行互動。
 
 AEM Screens 提供框架，將內容部署至實體裝置。可將內容指派至 Screens 中的頻道，其中包含媒體內容或觸控式螢幕應用程式。在此架構中，AEM Sites應用程式可以透過「頻道」以內容形式提供。
 
 AEM Sites必須先格式化，才能放入「畫面中的頻道」中，才能用於其所要的顯示裝置尺寸。
 
 >[!NOTE]
->
 >許多 AEM Sites 元件與 AEM Screens 不相容。AEM Screens 隨附許多專屬現成的元件，讓您無需自訂即可打造數位體驗。如專案需求許可，請盡可能使用 AEM Screens 的內建功能。
