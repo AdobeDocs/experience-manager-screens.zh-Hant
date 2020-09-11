@@ -4,7 +4,10 @@ seo-title: 資料觸發器
 description: 該頁介紹資料觸發器
 seo-description: 該頁介紹資料觸發器
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
