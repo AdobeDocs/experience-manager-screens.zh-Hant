@@ -2,7 +2,7 @@
 title: 封閉的公司網路
 description: 封閉的公司網路
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -86,7 +86,6 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 下表概述了網路連接關鍵資料。
 
 >[!NOTE]
->
 >該資訊允許您查看請求和下載網際網路源的網路中每個設備的使用情況。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/enclosed-network-download.png)
