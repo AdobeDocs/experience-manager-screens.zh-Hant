@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 
 1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
 
-1. **Adobe Experience Manager Web Console設定**開啟。 搜尋裝 *置服務*。 要搜索屬性，請按 **Command+F** ( **Mac)和Control+F(****Windows)** ( **** Windows)。
+1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋裝 *置服務*。 要搜索屬性，請按 **Command+F** for macOS和 **Control+F** for Microsoft Windows。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 將 ***Java編碼設為*** Unicode。 例如， *Dfile.encoding=Cp1252* 將無法運作。
 
 >[!NOTE]
->
 >**建議：**
->
 >建議在生產使用中，將HTTPS用於AEM Screens Server。
 
 
