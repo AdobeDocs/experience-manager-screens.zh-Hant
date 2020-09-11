@@ -1,18 +1,20 @@
 ---
-title: 項目範圍時的注意事項
-seo-title: 項目範圍時的注意事項
+title: 限定範圍專案的考量
+seo-title: 限定範圍專案的考量
 description: 該頁說明了項目範圍時的注意事項
 seo-description: 該頁說明了項目範圍時的注意事項
 translation-type: tm+mt
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 4%
 
 ---
 
 
-# 項目範圍時的注意事項 {#pre-sales-considerations}
+# 限定範圍專案的考量 {#pre-sales-considerations}
 
 >[!NOTE]
->
 >此活動的一般利益相關者是行銷／商業策略師。
 
 此階段包括完全定義項目範圍所需的所有售前和發現工作。 在零天期間完成的工作為專案的其他部份設定基調，並影響所建立應用程式的整體成功。
@@ -32,4 +34,4 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 >
 >盡快識別應用程式所需的資料，以及資料的來源。 雖然在實作期間會進行更深入的探索，但在 *Zero* （零時）期間會花點時間，瞭解客戶端打算使用哪些資料、目前儲存該資料的位置，以及建立的應用程式如何存取這些資料。 事先通知開發團隊未來可能面臨的挑戰，有助於讓實作更順利。
 
-有關詳細資訊，請參 [閱有關「項目範圍](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) 」的視訊教學課程。
+有關詳細資訊，請參 [閱有關「項目範圍」的視頻教程](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) 。
