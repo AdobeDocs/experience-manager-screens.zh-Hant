@@ -4,7 +4,10 @@ seo-title: 適用於 [!UICONTROL AEM螢幕的數位標牌基本概念]
 description: 本指南說明數位標牌專案的基本概念
 seo-description: 本指南說明數位標牌專案的基本概念
 translation-type: tm+mt
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
 
    硬體定義哪些硬體元件最適合您的數位招牌專案實施：
    * 裝置是否有足夠的儲存空間，以離線執行各種體驗？
-   * 我們是否允許使用視頻電纜類型和長度？ 此裝置是否支援所需的解析度（HD、FullHD、4K等）和視訊轉碼器（h.264、h.265等）
+   * 我們是否允許使用視頻電纜類型和長度？ 此裝置是否支援所需的解析度（HD、FullHD、4K等） 和視訊轉碼器（h.264、h.265等）
    * 物理銅線的使用
    * 螢幕大小
    * 畫面數
@@ -75,7 +78,7 @@ source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
       * 發送／接收串列命令（觸點關閉、PLC等）
       * 傳入的資料會在螢幕上傳送(RSS)或觸發內容
       * RFID/NFC/藍芽/iBeacon
-      * 外部服務（天氣、交通等）
+      * 外部服務（天氣、流量）
 
 1. **環境**
 
@@ -94,5 +97,5 @@ source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
    * 是否需要詳細的安裝指南／使用手冊？
    * 我們在出貨前是否已設定（程式設計）裝置？
    * 我們是否需要擷取每個序號以用於追蹤？
-   * 是否有備用電源要求（不間斷電源）?
+   * 是否有備份電源要求（未中斷的電源）?
    * 系統更新如何部署？ 如何遠程監控設備？ 是否需要MDM解決方案？
