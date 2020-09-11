@@ -4,7 +4,10 @@ seo-title: AEM畫面的線框
 description: 此頁面說明AEM Screens專案的線框
 seo-description: 此頁面說明AEM Screens專案的線框
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
@@ -12,7 +15,6 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 # 線框 {#wireframes}
 
 >[!NOTE]
->
 >此活動的一般利益相關者是行銷／商業策略師。
 
 線框圖是我們要提供的預期數位體驗的視覺呈現。
