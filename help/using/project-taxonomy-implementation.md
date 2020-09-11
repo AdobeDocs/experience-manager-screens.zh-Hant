@@ -4,7 +4,10 @@ seo-title: '項目分類法 '
 description: 此頁介紹項目分類法
 seo-description: 該頁介紹項目分類法
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 0%
 
 ---
 
@@ -55,5 +58,4 @@ AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使�
 * [在AEM Screens播放器中檢視內容](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->
 >此外，您也可以將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。 如需詳 [細資訊，請從「檔案」中](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) 「新增專案匯入工具」。
