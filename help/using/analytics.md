@@ -1,10 +1,13 @@
 ---
-title: 使用AEM Screens分析
-seo-title: 使用AEM Screens分析
+title: 含AEM畫面的Analytics
+seo-title: 含AEM畫面的Analytics
 description: 此頁面說明Analytics與AEM畫面
 seo-description: 此頁面說明AEM畫面的分析
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 0%
 
 ---
 
@@ -24,5 +27,5 @@ AEM Screens提供本機擷取每個播放器裝置執行之每個可追蹤事件
 在回饋循環使用案例中，我們不關心視覺化報表或控制面板，而是想要定義AEM可針對內容修改執行的規則。 透過使用和處理特定時段的所有Screens播放器事件資料，我們可以定義一個規則來評估image1與image2的效能。 透過結合銷售資料與播放資料，AEM可判斷image1對銷售的影響大得多，並自動指示所有播放器使用image1。
 
 使用分析的第二個使用案例是透過報告和儀表板處理播放事件和使用資料以供人類使用。
-我們可能會使用這些資料來建立互動式體驗的熱圖，以決定我們應用程式中偏好的歷程圖。 我們也可以選擇建立控制面板，以圖形化方式解釋消費者與應用程式互動的次數。
+我們可能會使用這些資料來建立互動式體驗的熱度圖，以決定我們應用程式中偏好的歷程圖。 我們也可以選擇建立控制面板，以圖形化方式解釋消費者與應用程式互動的次數。
 
