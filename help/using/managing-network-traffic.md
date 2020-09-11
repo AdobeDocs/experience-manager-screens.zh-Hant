@@ -2,7 +2,7 @@
 title: 管理網路流量
 description: 該頁介紹標準網路設定以及如何管理網路流量。
 translation-type: tm+mt
-source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -17,9 +17,7 @@ ht-degree: 0%
 本指南重點介紹代理伺服器，然後介紹在不同組織內設定的各種網路結構。
 
 >[!NOTE]
->
 >**AEM Screens網路需求**
->
 >AEM Screens會以雲端服務的形式直接與AEM通訊，因此需要在兩個節點之間建立穩定的連線。 對於商業Internet訪問，防火牆是絕對必備的，作為客戶，您必須瞭解在這些防火牆和其他與IT安全相關的網路元件中需要開啟哪些通信埠。
 
 ## 代理伺服器概述 {#proxy-servers}
