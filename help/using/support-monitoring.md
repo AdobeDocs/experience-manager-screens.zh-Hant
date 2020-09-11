@@ -4,7 +4,10 @@ seo-title: AEM畫面支援監控
 description: 此頁面說明「AEM畫面支援監控最佳實務指南」
 seo-description: 此頁面說明「AEM畫面支援監控最佳實務指南」
 translation-type: tm+mt
-source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +30,7 @@ source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
    * 檢 *查預覽* ，查看頻道是否顯示黑幕
    * 在您的筆 *記型電腦上註冊本機Chrome播放器* （做為擴充功能）至該顯示器，並查看是否顯示黑幕。
    * 按一下滑鼠右鍵並檢查並檢查適 *用的記錄檔*。
+
    此外，如果本機播放器上沒有發生此情況，但僅在裝置上發生：
 
    * 檢查 *該裝置上可能有問題的媒體類型* （正在使用中），並確認內容是否已成功在本機下載（管理UI清除頻道快取）。
