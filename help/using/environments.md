@@ -4,7 +4,10 @@ seo-title: '[!UICONTROL AEM畫面環境]'
 description: 本頁面說明AEM Screens專案的環境。
 seo-description: 本頁反白顯示AEM Screens專案的環境。
 translation-type: tm+mt
-source-git-commit: 0d91aa653508969cf1f4ccfba23a570e22e6414c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
