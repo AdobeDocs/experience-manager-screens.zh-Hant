@@ -4,7 +4,7 @@ seo-title: AEM 平台組態
 description: 此頁面說明AEM平台設定
 seo-description: 此頁面說明AEM平台設定
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。使用 AEM 的 Dispatcher 也有助於保護您的 AEM 伺服器不受攻擊。因此，您可以搭配使用 Dispatcher 與企業級 Web 伺服器，以提高 AEM 例項的安全性。
 
-請參閱「 **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**」（針對AEM Screens專案重點說明設定dispatcher的准則）。
+請參閱「 **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** 」（針對AEM Screens專案重點說明設定dispatcher的准則）。
 
 ## 安裝FFMpeg和視訊轉譯 {#installing-ffmpeg}
 
