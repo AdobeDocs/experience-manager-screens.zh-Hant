@@ -4,7 +4,10 @@ seo-title: 轉換至AEM畫面平台
 description: 本頁說明轉換至平台
 seo-description: 本頁說明轉換至平台
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 3%
 
 ---
 
@@ -17,15 +20,15 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 隨著我們的專案從策略願景發展為具有框架的現實，我們現在應該開始準備在AEM中實際建立可部署的Screens專案所需的工作。
 
-這包括將平台特定配置映射到原型建立階段中定義的鬆散定義需求。
+這包括將平台特定組態對應至原型建立階段中定義的鬆散定義需求。
 
 範例包括使用方式與時機：
 
 * **建立內容群組的體驗片段** (Experience Fragments)
 * **建立文字變化** 的內容片段
 * **Context Hub** ，用於建立外部資料儲存區，SPA則用於互動式體驗
-* **OSGI服務** ，用於網路警報
-* **Creative cloud採購的資產連結** （英文）
+* **OSGi服務** ，用於網路警報
+* **Creative Cloud採購的資產連結** （英文）
 * **用於資產分配的網路資料夾** (Network Folders)
 * **文字覆蓋** ，以處理即時資料
 * **顯示** /頻道群組的排程
