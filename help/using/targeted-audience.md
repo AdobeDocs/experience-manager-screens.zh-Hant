@@ -4,7 +4,7 @@ seo-title: AEM畫面的Target對象
 description: 此頁面說明AEM畫面最佳實務指南的目標對象
 seo-description: 此頁面說明AEM畫面最佳實務指南的目標對象
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 ---
 
 
-# Target Audience {#target-audience}
+# 目標對象 {#target-audience}
 
 身為經驗豐富的 AEM 實作者，您可能會看到這些角色被稱為&#x200B;*「作者」*、*「開發人員」*&#x200B;和&#x200B;*「IT/技術人員」*。
 
@@ -23,7 +23,6 @@ ht-degree: 5%
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->
 >這些職位中的許多職位可能是內部的，也可能是外包的，具體取決於每個項目的設定方式。
 
 ## 定義角色 {#roles}
@@ -69,5 +68,4 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 專案經理通常會為您的AEM Screens部署管理整個部署。 專案經理是整個指定專案實施的指導人員，並履行主要職責，例如設定時間表、處理團隊需求和通訊、解決挑戰，以及確保達成目標。
 
 >[!NOTE]
->
 >若要詳細瞭解數位標牌專案的不同角色和責任以及目標受眾，請造訪專 **[案角色和責任](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**。
