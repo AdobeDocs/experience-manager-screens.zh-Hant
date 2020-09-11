@@ -4,18 +4,21 @@ seo-title: AEM螢幕的歷程圖
 description: 此頁面說明AEM畫面的歷程圖
 seo-description: 此頁面說明AEM畫面的歷程圖
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
 
-# UX歷程圖 {#journey-map}
+# UX 旅程圖 {#journey-map}
 
 >[!NOTE]
 >
 >此活動的一般利益相關者是行銷／商業策略師。
 
-User Experience Jouney map旨在提供使用者體驗網路所傳送之數位內容的方式與原因。
+「使用者體驗歷程地圖」旨在讓使用者瞭解透過網路傳送的數位內容的體驗方式及原因。
 
 ## 建立UX歷程地圖 {#building-map}
 
@@ -28,5 +31,4 @@ UX歷程地圖是視覺化訪客如何在實體空間中移動、他們可能遇
 我們鼓勵專案領導者和主要利害關係人可嘗試將數位元素實際放置在商店歷程的各個部分，以及實際可能提供的數位體驗。
 
 >[!NOTE]
->
 > 在試點期間開始收集分析，協助商業團隊根據他們嘗試達到的特定度量來驗證解決方案是否成功。 瞭解試運行情況有助於業務團隊確定需要進行哪些改進。
