@@ -4,7 +4,7 @@ seo-title: AEM螢幕的測試與品質保證
 description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 seo-description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,7 +15,6 @@ ht-degree: 2%
 # 測試與品質保證 {#testing-quality}
 
 >[!NOTE]
->
 >此活動的一般利益相關者是A/V整合商。
 
 隨著我們越來越接近數位標牌網路的實際部署，我們應制定測試和QA計畫，以處理網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
@@ -29,7 +28,7 @@ ht-degree: 2%
 
 應考慮以下因素：
 
-## 1. 機械注意事項 {#mechanical-considerations}
+## 1.機械注意事項 {#mechanical-considerations}
 
 建議使用下列機械注意事項：
 
@@ -40,7 +39,7 @@ ht-degree: 2%
 * 電纜管理
 * 設備聯網
 
-## 2. 軟體考量事項 {#software-considerations}
+## 2.軟體考量事項 {#software-considerations}
 
 建議使用下列軟體考量事項：
 
@@ -50,8 +49,7 @@ ht-degree: 2%
 * 資料庫依賴性（先前定義）
 
 
-## 3. 設備管理注意事項 {#device-management-considerations}
-
+## 3.設備管理注意事項 {#device-management-considerations}
 
 AEM Screens包含Device Control Center模組，可讓您管理Screens播放器應用程式端點。
 
@@ -68,7 +66,6 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 >[!CAUTION]
 >
 > 您不應使用Device Control Center來：
->
 > 1. 安裝新版播放器應用程式
 > 1. 監控系統級資源
 > 1. 疑難排解系統級錯誤
