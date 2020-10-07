@@ -6,9 +6,9 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,23 @@ ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，
 1. 導覽至開發 **人員選項**
 1. 啟用 **保持清醒**
 
-### 4.如何啟用Windows播放器的視窗模式？
+### 4.如何啟用Windows播放器的視窗模式？{#enable-player}
 
 Windows Player中沒有窗口模式。 一律為全螢幕模式。
+
+### 5.如何疑難排解Screens播放器是否持續傳送要求登入要求？{#requests-login}
+
+請依照下列步驟，疑難排解持續傳送要求至和 `/content/screens/svc.json` 下列 `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. 當AEM Screens播放器啟動時，會提出要求 `/content/screens/svc.json`，當播放器收到回應中的404狀態代碼時，播放器會啟動驗證要求，以針對發佈例項 `/libs/granite/core/content/login.validate/j_security_check` 進行驗證。 如果發佈例項中有自訂錯誤處理常式，請務必在或上傳回匿名使用者的404狀態 `/content/screens/svc.json` 代碼 `/content/screens/svc.ping.json`。
+
+1. 檢查您的調度器配置是否允許在部分中使用這些 `/filters` 請求。 如需詳 [細資訊，請參閱設定畫面篩選](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 。
+
+1. 檢查您的調度程式重寫規則是否將任何螢幕路徑重寫到其他路徑。
+
+1. 檢查您的作者 `/etc/map` 或發佈例 *項和畫面路徑是否符合***`sling:match` 規則，並在內部重新導向至不同路徑。 解析／中的確切URL`system/console/jcrresolver` ，有助於識別 *publish* 實例是否將這些URL重寫到任何其他路徑。
+
+1. 檢查您是否有造成內部重寫的任何Apache Sling Resource Resolver Factory組態。
 
 ## 一般疑難排解提示 {#general-troubleshooting-tips}
 
