@@ -6,9 +6,9 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
+source-git-commit: 7f897f969e7ca9c9c478b885cf716303bbbe5049
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -133,15 +133,16 @@ Windows Player中沒有窗口模式。 一律為全螢幕模式。
 
 請依照下列步驟，疑難排解持續傳送要求至和 `/content/screens/svc.json` 下列 `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. 當AEM Screens播放器啟動時，會提出要求 `/content/screens/svc.json`，當播放器收到回應中的404狀態代碼時，播放器會啟動驗證要求，以針對發佈例項 `/libs/granite/core/content/login.validate/j_security_check` 進行驗證。 如果發佈例項中有自訂錯誤處理常式，請務必在或上傳回匿名使用者的404狀態 `/content/screens/svc.json` 代碼 `/content/screens/svc.ping.json`。
+1. 當AEM Screens播放器啟動時，會提出要求 `/content/screens/svc.json`，當播放器收到回應中的404狀態代碼時，播放器會針對發佈例項啟動驗證要求， `/libs/granite/core/content/login.validate/j_security_check` 以進行 *驗證* 。 如果發佈例項中有自訂錯誤處理常式，請務必在或上傳回匿名使用者的404狀態 `/content/screens/svc.json` 代碼 `/content/screens/svc.ping.json`。
 
-1. 檢查您的調度器配置是否允許在部分中使用這些 `/filters` 請求。 如需詳 [細資訊，請參閱設定畫面篩選](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 。
+1. 檢查您的調度器配置是否允許在部分中使用這些 `/filters` 請求。
+如需詳 [細資訊，請參閱設定畫面篩選](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 。
 
 1. 檢查您的調度程式重寫規則是否將任何螢幕路徑重寫到其他路徑。
 
-1. 檢查您的作者 `/etc/map` 或發佈例 *項和畫面路徑是否符合***`sling:match` 規則，並在內部重新導向至不同路徑。 解析／中的確切URL`system/console/jcrresolver` ，有助於識別 *publish* 實例是否將這些URL重寫到任何其他路徑。
+1. 檢查您的作者 `/etc/map` 或發佈例 *項和畫面路徑是否符合***`sling:match` 規則，並在內部重新導向至不同路徑。 解析中的確切URL `/system/console/jcrresolver` 有助於識別 *publish* 實例是否將這些URL重寫到任何其他路徑。
 
-1. 檢查您是否有造成內部重寫的任何Apache Sling Resource Resolver Factory組態。
+1. 檢查Apache Sling Resource Resolver Factory組態是否造成內部重寫。
 
 ## 一般疑難排解提示 {#general-troubleshooting-tips}
 
