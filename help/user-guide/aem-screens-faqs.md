@@ -6,7 +6,7 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 0%
@@ -129,7 +129,7 @@ ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，
 
 Windows Player中沒有窗口模式。 一律為全螢幕模式。
 
-### 5.如何疑難排解Screens播放器是否持續傳送要求登入要求？{#requests-login}
+### 5.如何疑難排解AEM Screens播放器是否持續傳送登入要求？{#requests-login}
 
 請依照下列步驟，疑難排解持續傳送要求至和 `/content/screens/svc.json` 下列 `/libs/granite/core/content/login.validate/j_security_check`:
 
