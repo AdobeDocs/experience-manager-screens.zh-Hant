@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ ht-degree: 1%
 ![影像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >下列特定範例會將Google工作表顯示為資料存放區，當值高於100或小於50時，會觸發資產變更。
 
 ## 步驟2:設定儲存配置 {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ ht-degree: 1%
       ![影像](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >作為AEM 6.5 Feature Pack 4或AEM 6.4 Feature Pack 8的一部分，客戶應更新 `/conf/screens/settings/cloudsettings` 為 `sling:Folder`。
-      > 
+      >
       >請遵循下列步驟：
       >
       >1. 導覽至CRXDE Lite，然後導覽至 `/conf/screens/settings/cloudsettings`。
       >1. 檢查是否 `cloudsettings jcr:primaryType` 已進入 `sling:Folder`。 如果未 `jcr:primaryType` 在中， `sling:folder`請繼續下一步。
-      > 1. 按一下右鍵並 `/conf/screens/settings` 建立名稱為 *cloudsettings1的新節點* ，並且Type ********** as sling:FolderSave the changes。
+      >1. 按一下右鍵並 `/conf/screens/settings` 建立名稱為 *cloudsettings1的新節點* ，並且Type ********** as sling:FolderSave the changes。
       >1. 將下面的所有節點移 `/conf/screens/settings/cloudsettings` 動到 `cloudsettings1`。
       >1. 刪除 `cloudsettings` 並儲存。
       >1. 重新命 `cloudsettings1` 名為 `cloudsettings` 並儲存。
       >1. 您現在應該注意到/conf/screens/settings/cloudsettings `jcr:primaryType` 為 `sling:Folder`。
-您應依照作者的這些步驟進行，並在升級前後發佈。
 
+      >
+      >您應依照作者的這些步驟進行，並在升級前後發佈。
 
    1. 輸入「 **Google Sheets** 」 **、「Google Sheets**」、「 **Store Title Store Type** Store As **Conthushub.jsontClickNextGoogle Sheets Name」為Google Sheets**************、Store Title Type Store As Conthub.
 
@@ -116,8 +119,6 @@ ht-degree: 1%
       >如果您使用Adobe Experience Manager(AEM)6.4，請將 **Configuration Title** （設定標題）輸入 **googlesheets** ，將 **Store Type** ( **** contexthub.jsonp-generic Exprip)輸入。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. 輸入您的特定json設定。 例如，您可將下列json用於示範用途，然後按一下「 **Save** 」（儲存），您就會看到名為「 **ContextHub設定中的Google Sheets** 」(Google Sheets)的商店設定。
 
@@ -142,10 +143,11 @@ ht-degree: 1%
 
       >[!NOTE]
       在上述范常式式碼中， **pollInterval** 定義值重新整理的頻率（以毫秒為單位）。
-將程式碼取 *代為您在設定Google工作表時擷* 取的&lt;工作表ID>和&lt;API金鑰> **。
+      將程式碼取 *代為您在設定Google工作表時擷* 取的&lt;工作表ID>和&lt;API金鑰> **。
 
       >[!CAUTION]
       如果您建立Google Sheets會將設定儲存在全域資料夾以外（例如在您自己的專案資料夾中），則定位將無法立即使用。
+
 
 1. **設定商店區段**
 
