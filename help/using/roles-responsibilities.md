@@ -4,7 +4,7 @@ seo-title: AEM Screens專案角色和責任
 description: 此頁面說明AEM Screens專案角色和責任
 seo-description: 此頁面說明AEM Screens專案角色和責任
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 4%
@@ -92,14 +92,14 @@ AV整合商負責與最終客戶進行發現，以定義確定項目範圍的要
 為支援成功的數位標牌部署，通常將專案分為3個階段。  這些階段通常稱為 **Days**。 這些日期不是常值日，而是專案每個主要階段的指定。
 
 1. 第一個階段稱為「零 *日」*。 此階段包括完全定義項目範圍所需的所有售前和發現工作。
-
 1. 第二個階段， *第一天*，是指部署工作中包含的所有活動。
-
 1. 第三階段和最後階 *段第二天* ，將所有持續的操作和支援要素作為整個解決方案的一部分。
 
 >[!NOTE]
 >
->雖然本指南主要強調&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但要執行一個成功的數位告示牌專案，必須注意全部三個階段。關注專案管理與部 **[署的其他影片](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** ，以瞭解專案前制、專案開始和專案進展。
+>雖然本指南主要強調&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但要執行一個成功的數位告示牌專案，必須注意全部三個階段。
+>
+>關注專案管理與部 **[署的其他影片](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** ，以瞭解專案前制、專案開始和專案進展。
 
 ## RACI圖表 {#raci-chart}
 
