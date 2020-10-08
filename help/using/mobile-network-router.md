@@ -2,7 +2,7 @@
 title: 具有移動資料路由器和活動網路元件的移動網路
 description: 本頁介紹具有移動資料路由器和活動網路元件的移動網路
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -80,7 +80,8 @@ Adobe AEM Screens Player也可以使用至少執行3G網路的行動或行動網
 >[!NOTE]
 >
 >所需的資料包至少必須是：
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +108,3 @@ AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本�
 >所有資訊都是指網路中每個設備在請求和下載網際網路源時的消耗。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
