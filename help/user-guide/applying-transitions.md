@@ -6,7 +6,7 @@ seo-description: 請依照本頁面進行，瞭解如何將轉場效果套用至
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 >
 >**必備條件**
 >
-> 建立AEM Screens專案 **TestProject**&#x200B;與頻道 **TestTransition**。 此外，請設定位置和顯示器以檢視輸出。
+>建立AEM Screens專案 **TestProject** ，其中包含頻道 **TestTransition**。 此外，請設定位置和顯示器以檢視輸出。
 
 1. 導覽至Channel **TestTransition** ，然後從動作 **列按一下「編輯** 」。
 
