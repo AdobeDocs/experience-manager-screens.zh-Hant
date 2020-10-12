@@ -6,7 +6,7 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -136,7 +136,8 @@ Windows Player中沒有窗口模式。 一律為全螢幕模式。
 1. 當AEM Screens播放器啟動時，會要求 `/content/screens/svc.json`。 當播放器在回應中取得404狀態碼時，會針對發佈例項啟動 `/libs/granite/core/content/login.validate/j_security_check` 驗證 *要求* 。 如果 *publish* instance中有自訂錯誤處理常式，請務必傳回或上匿名使用者的404狀態 `/content/screens/svc.json` 碼 `/content/screens/svc.ping.json`。
 
 1. 檢查您的調度器配置是否允許在中使用這些請求 `/filters`。
-如需詳 [細資訊，請參閱設定畫面篩選](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 。
+
+   如需詳 [細資訊，請參閱設定畫面篩選](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 。
 
 1. 檢查您的調度程式重寫規則是否將任何螢幕路徑重寫到其他路徑。
 
