@@ -3,17 +3,10 @@ title: 建立和管理渠道
 seo-title: 管理頻道
 description: 請依照本頁來瞭解如何建立和管理渠道。 此外，也說明頻道儀表板以及編輯頻道內容。
 seo-description: 請依照本頁來瞭解如何建立和管理渠道。 此外，也說明頻道儀表板以及編輯頻道內容。
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1326'
 ht-degree: 2%
 
 ---
@@ -21,9 +14,9 @@ ht-degree: 2%
 
 # 建立和管理渠道 {#creating-and-managing-channels}
 
-頻道會顯示一系列內容並顯示影像和視訊，但也可以顯示網站或單頁應用程式。
+頻道會顯示一系列內容（影像和視訊），也會顯示網站或單頁應用程式。
 
-本頁顯示如何建立和管理畫面的頻道。
+此頁面顯示如何建立和管理AEM畫面的頻道。
 
 **先決條件**:
 
@@ -34,7 +27,7 @@ ht-degree: 2%
 
 在您為AEM Screens建立專案後，請依照下列步驟為專案建立新的頻道：
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接導覽至： `https://localhost:4502/screens.html/content/screens`.
+1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接導覽至 `https://localhost:4502/screens.html/content/screens`。
 
 1. 導覽至您的「畫面」專案，然後選取「 **頻道** 」檔案夾。
 
@@ -80,9 +73,6 @@ ht-degree: 2%
 
 您可以編輯、檢視屬性和控制面板、複製、預覽和刪除渠道。
 
->[!NOTE]
->
->選擇渠道，如下圖所示。
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ ht-degree: 2%
 1. 按一 **下動作** 列左上角的「編輯」，以編輯頻道屬性。 編輯器隨即開啟，可讓您將資產／元件新增至您要發佈的渠道。
 
 >[!NOTE]
->
 >您可以新增元件至渠道。 如需詳細 **[資訊，請參閱新增元件至渠道](adding-components-to-a-channel.md)** 。
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ ht-degree: 2%
 您可從渠道控制面板檢視資訊清單。
 
 >[!IMPORTANT]
->
 >此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
 
 請依照下列步驟，從頻道控制面板啟用此選項：
@@ -155,7 +143,7 @@ ht-degree: 2%
    1. 導覽至「 **頻道資訊** 」面板，然後按 *一下……*
    1. 按一下「 **更新離線內容」**
 
-現在，您應該可以從「頻道」控 **制面板的** 「頻道資訊 **** 」面板中看到「檢視資訊清單」選項。
+您應該會在「頻 **道」控制面板** 的「頻道資訊 **** 」面板中看到「檢視資訊清單」選項。
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ ht-degree: 2%
 ### 線上和離線通道 {#online-and-offline-channels}
 
 >[!NOTE]
->
->依預設，當您建立渠道時，渠道為「離線」。
+>依預設，當您建立渠道時，會是「離線」。
 
 當您建立渠道時，可將其定義為線上或離線渠道。
 
@@ -197,7 +184,6 @@ ht-degree: 2%
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >如果您想要再次將頻道設定為離線，請從「 **Properties** 」（屬性）標籤(如步驟(3)所示)中取消勾選「Developer mode」（開發人員模式）選項，然後從「 **CHANNEL INFORMATION** 」面板按一下「 **Update Offline Content**」（更新離線內容），如下圖所示。
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,8 +237,7 @@ ht-degree: 2%
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
->若要瞭解如何在位置中建立顯示，請參閱：
+>要瞭解如何在位置中建立顯示，請參閱：
 >
 >* [建立和管理位置](managing-locations.md)
 >* [建立和管理顯示](managing-displays.md)
