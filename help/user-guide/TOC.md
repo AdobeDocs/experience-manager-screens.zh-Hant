@@ -3,12 +3,13 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
-user-guide-description: 了解如何使用 AEM Screens 來發佈包含不同螢幕類型的互動式數位體驗。
+breadcrumb-title: AEM Screens 指南
+user-guide-description: 瞭解如何使用數位標牌解決方案，讓您發佈動態互動式數位體驗和互動。
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 8%
+source-wordcount: '421'
+ht-degree: 5%
 
 ---
 
