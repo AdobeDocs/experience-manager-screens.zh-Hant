@@ -1,9 +1,16 @@
 ---
-source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
+source-git-commit: 1583b8388b2feede75a8d18d555eafd09c5a2c11
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 # Adobe Experience Manager畫面檔案
+
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-screens.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 這是Adobe Experience Manager Screens檔案的儲存庫。
 
