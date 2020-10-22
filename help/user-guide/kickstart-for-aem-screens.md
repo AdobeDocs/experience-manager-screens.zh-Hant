@@ -3,9 +3,9 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 2%
 
 # Kickstart指南 {#kickstart-guide}
 
-本節是AEM Screens的啟動，並示範如何設定和執行AEM Screens專案。 它會逐步引導您設定基本的數位標牌體驗，並將資產和／或視訊等內容新增至每個頻道，並進一步將內容發佈至AEM Screens播放器。
+「AEM畫面的啟動」示範如何設定及執行AEM畫面專案。 它會逐步引導您設定基本的數位標牌體驗，並將資產和／或視訊等內容新增至每個頻道，並進一步將內容發佈至AEM Screens播放器。
 
 >[!NOTE]
->開始處理專案詳細資訊之前，請確定您已安裝最新的功能套件。 您可以使用Adobe ID從「軟體散發入口網站」下載AEM Screens 6.5.5 [版本的最新功能套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 。
+>開始處理專案詳細資訊之前，請確定您已安裝最新的AEM畫面功能套件。 您可以使用Adobe ID從軟體散 [發入口網站下載最新的功能](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 套件。
 
 ## 必備條件 {#prerequisites}
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >**OSGi配置設定**
->您必須啟用空的反向連結，以允許裝置將資料張貼至伺服器。 例如，如果停用空的反向連結屬性，裝置就無法將螢幕擷取張貼回去。 目前，部分功能僅在OSGi設定中啟用Apache Sling Referrer Filter Allow Empty時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
+>您必須啟用空的反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空的反向連結屬性，裝置就無法將螢幕擷取張貼回去。 目前，部分功能僅在OSGi設定中啟用Apache Sling Referrer Filter Allow Empty時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
 >請依照下列步驟來啟用 ***Apache Sling Referrer Filter Allow Empty***:
 
 
@@ -47,12 +47,11 @@ ht-degree: 2%
 
 1. 按一 **下「儲存** 」以啟用Apache Sling Referrer Filter Allow Empty。
 
-
 ## 在5分鐘內建立數位標牌體驗 {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-第一個步驟是建立新的AEM畫面專案。
+第一個步驟是建立AEM Screens專案。
 
 1. 導覽至您的Adobe Experience Manager(AEM)例項，然後按一下「畫 **面」**。 或者，您也可以直接從導覽 `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`。
 
@@ -63,35 +62,34 @@ ht-degree: 2%
    >[!NOTE]
    >建立專案後，就會回到「畫面專案」首頁。 您現在可以選取專案。 在項目中，有5個不同的資料夾，名為 **「應用程式」、「渠道**」、「設 **備**」、「位置」 ************&#x200B;和「計畫」。
 
-
 ### 建立渠道 {#creating-channel}
 
-一旦您的專案就位後，您就需要建立新的管道來管理內容。
+建立AEM Screens專案後，您需要建立新的管道來管理內容。
 
 請依照下列步驟，為您的專案建立新的管道：
 
-1. 建立專案後，請選取 **DemoScreens** 專案，然後選取 **Channels資料夾**，如下圖所示。 從動 **作列按一下** 「+建立」。
+1. 建立專案後，請選取 **DemoScreens** 專案，然後選取 **Channels** 資料夾，如下圖所示。 從動 **作列按一下** 「+建立」。
 
    ![影像](assets/kickstart/demo-2.png)
 
 1. 從嚮導中 **選擇「序列渠道** 」，然後按一下「 **下一步」**。
    ![影像](assets/kickstart/demo-3.png)
 
-1. 將標題輸 **入為** TestChannel *，然後按一* 下Create ****。
+1. 將標題輸 **入為** TestChannel **，然後按一** 下Create ****。
 
    ![影像](assets/kickstart/demo-4.png)
 
-   TestChannel *會建立* ，並新增至您的頻道資料夾，如下圖所示。
+   現 **在會將TestChannel** 新增至您的頻道資料夾，如下圖所示。
 
    ![影像](assets/kickstart/demo-5.png)
 
 ### 新增內容至頻道 {#adding-content}
 
-在您的頻道就位後，您需要將內容新增至頻道，讓螢幕播放器顯示。
+在您的頻道就位後，您需要將AEM Screens播放器將會顯示的內容新增至頻道。
 
-請依照下列步驟，將內容新增至專案中&#x200B;*的頻道*(TestChannel):
+請依照下列步驟，將內容新增至專案中&#x200B;**的頻道**(TestChannel):
 
-1. 導覽至您建 **立的DemoProject** ，然後選取「 **Channels** 」檔案夾。
+1. 導覽至您建 **立的DemoProject** ，並從「頻道 **」檔案夾選取「測** 試頻道 **** 」。
 
 1. 從動 **作列按一下** 「編輯」(Edit)（請參閱下圖）。 TestChannel的編輯 **器隨即開** 啟。
 
@@ -118,7 +116,7 @@ ht-degree: 2%
 
 1. 從向 **導中選擇** 「位置」，然後按一下「 **下一步」**。
 
-1. 輸入您 **所在位置的** 「名稱」(輸入標題為 *TestLocation*)，然後按一下「 **建立**」。
+1. 輸入您 **所在位置的** 「名稱」(輸入標題為 **TestLocation**)，然後按一下「 **建立**」。
 
 TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
@@ -128,7 +126,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 在建立位置後，您需要為位置建立新的顯示。
 
 >[!NOTE]
->***顯示*** ，代表在一或多個螢幕上執行的數位體驗。
+>***Display*** 代表在一或多個螢幕上執行的數位體驗。
 
 1. 導覽至 **TestLocation** ，然後選取它。
 
@@ -234,9 +232,7 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 
    ![影像](assets/kickstart/demo-register8.png)
 
-1. 點選／按一 **下「完成** 」以完成註冊程式。
-
-1. 您應可從顯示控制面板檢視已註冊的裝置。
+1. 點選／按一 **下「完成** 」以完成註冊程式。 您應可從顯示控制面板檢視已註冊的裝置。
 
    ![影像](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ TestLocation **會建立** ，並新增至您的 **Locations資料** 夾。
 恭喜您現在正在AEM Screens頻道中播放內容！
 
 ![影像](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
