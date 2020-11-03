@@ -5,9 +5,9 @@ description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用�
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 文字覆蓋的自訂品牌與樣式 {#creating-custom-branding-styling}
 
-請依照本頁進行，瞭解如何針對套用至「畫面」頻道中資產的「文字覆蓋」套用自訂品牌和樣式。
+請依照本頁面進行，瞭解如何針對套用至AEM畫面頻道中資產的「文字覆蓋」套用自訂品牌和樣式。
 
 ## 建立文字覆蓋的自訂品牌與樣式 {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ ht-degree: 1%
 
 1. 按一 **下「儲存並關閉** 」以更新設計路徑。
 
->[!IMPORTANT]
->
->您可以選擇覆蓋現有的「畫面」範本，依預設插入您自己的設計，或完全建立您自己的範本。 請參閱以下步驟以取得詳細資訊。
+   >[!IMPORTANT]
+   >您可以選擇覆蓋現有的「畫面」範本，依預設插入您自己的設計，或完全建立您自己的範本。 請參閱以下步驟以取得詳細資訊。
 
 1. 若要覆蓋現有的「畫面」範本，以依預設插入您自己的設計：
 
@@ -129,7 +128,7 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-參照教學課程，您現在可以更新您的品牌和自訂樣式，以便將文字覆蓋新增至資產。
+   現在，您已準備好更新您的品牌及自訂樣式，以便將文字覆蓋新增至資產。
 
 
 
