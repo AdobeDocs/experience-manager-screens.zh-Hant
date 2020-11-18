@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 1. 取得本機電腦的IP位址。
 
    >[!NOTE]
-   >對於 **終端機** 中的Mac和 **Windows** `ifconfig` type命令。
+   >在電腦的「終端機」中，鍵入以下命令：
+   >**Mac** use命令 `ifconfig`
+   >**Windows**，使用命令 `ipconfig`
 
 1. 從「終端機介面」，導覽至解壓縮安裝程式資料夾的相同目錄，並驗證localhost是否正常運作。
 
