@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
+source-git-commit: 5275a4ff79404e946d5aa0806fc705ab3bce2fcd
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 請依照Samsung裝置上的下列步驟，在裝置上完成AEM Screens播放器的安裝：
 
 1. 前往您的Samsung裝置，並指向您的localhost伺服器。
-1. 從「 **設定」中選取** 「URL啟動器設 **** 定」，然後輸入localhost伺服器的IP位址。
+1. 選擇 **URL Launcher Settings** （URL啟動器設定），然後輸入localhost伺服器的IP地址。
 1. 安裝Web應用程式。
 1. 從「開 **發人員** 」模式 **中選擇「遠端」**。
-1. AEM Screens Player現在應會自動安裝在您的Samsung裝置上。
+1. AEM Screens Player現在應會自動在您的Samsung裝置上啟動安裝。
 
 
