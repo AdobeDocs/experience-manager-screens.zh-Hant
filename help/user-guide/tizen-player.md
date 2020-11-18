@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 取得本機電腦的IP位址。
 
    >[!NOTE]
-   >通過鍵入以下命令，可以從電腦的終端獲取IP地址：
+   >您可以使用下列命令從您電腦的終端機取得IP位址：
    >* **Mac**: `ifconfig`
    >* **Windows**: `ipconfig`
 
