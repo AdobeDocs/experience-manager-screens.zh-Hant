@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%
@@ -36,11 +36,11 @@ ht-degree: 1%
 >[!NOTE]
 >如果您使用AEM Screens 6.5.5 Service Pack，則必須為Android Player設定環境。
 
-將 **Adobe Experience Manager Web Console的登入Token Cookie的****SameSite屬性從** Lax **設為** None，從 **** Adobe Experience Manager Web主控台設定所有AEM作者和發佈例項上的SameSite屬性。
+將 **Adobe Experience Manager Web Console ConfigurationCookies on all AEM author的登入Token Cookie** (從 **Lax** 登入Cookie)的SameSite屬性設為「無」(None ******** )。
 
 請遵循下列步驟：
 
-1. 導覽至 **Adobe Experience Manager Web Console使用設定**`http://localhost:4502/system/console/configMgr`。
+1. 使用導 **覽至Adobe Experience Manager Web Console設定**`http://localhost:4502/system/console/configMgr`。
 
 1. 搜尋 *Adobe Granite Token驗證處理常式*。
 
