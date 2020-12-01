@@ -28,7 +28,7 @@ ht-degree: 2%
 
 應考慮以下因素：
 
-## 1.機械注意事項 {#mechanical-considerations}
+## 1.機械注意事項{#mechanical-considerations}
 
 建議使用下列機械注意事項：
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 * 電纜管理
 * 設備聯網
 
-## 2.軟體考量事項 {#software-considerations}
+## 2.軟體注意事項{#software-considerations}
 
 建議使用下列軟體考量事項：
 
@@ -49,11 +49,11 @@ ht-degree: 2%
 * 資料庫依賴性（先前定義）
 
 
-## 3.設備管理注意事項 {#device-management-considerations}
+## 3.設備管理注意事項{#device-management-considerations}
 
 AEM Screens包含Device Control Center模組，可讓您管理Screens播放器應用程式端點。
 
-這是指任何已 ** 安裝Screens player應用程式且已註冊至AEM例項的播放器硬體裝置。
+這是指已安裝Screens player應用程式且已註冊至AEM例項的任何&#x200B;*player*硬體裝置。
 此模組允許您：
 
 1. 監視播放器應用程式錯誤日誌
@@ -61,7 +61,7 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 1. 管理內容下載
 1. 管理應用程式重新啟動問題
 
-若要詳細瞭解裝置控 ***制中心***，請參閱 [AEM Screens使用指南中的疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)****。
+若要詳細瞭解&#x200B;***裝置控制中心***，請參閱&#x200B;**AEM Screens使用指南**&#x200B;中的[疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)。
 
 >[!CAUTION]
 >
@@ -77,12 +77,12 @@ AEM Screens包含Device Control Center模組，可讓您管理Screens播放器�
 >
 > Adobe建議所有部署應使用專用的第三方裝置管理平台。
 
-選擇的特定平台取決於多個因素，包括目 ***標作業系統******、項目需*** 求 ******&#x200B;和端點數。
+選擇的特定平台取決於多種因素，包括&#x200B;***目標作業系統***、***項目要求***&#x200B;和&#x200B;***端點數***。
 
 例如：
 
 * Google Chrome裝置管理
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42齒輪
 * 專屬AV整合器中介軟體
