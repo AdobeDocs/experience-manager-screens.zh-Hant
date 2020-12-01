@@ -11,6 +11,9 @@ topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
 source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
@@ -21,27 +24,27 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 身為AEM管理員，您需要確保專案的團隊成員不會干擾其他專案，而且每個使用者都會根據專案需求獲得特定角色。
 
-## 設定權限 {#setting-up-permissions}
+## 設定權限{#setting-up-permissions}
 
 以下步驟概括了為項目設定ACL的過程：
 
-1. 登入AEM並導覽至「工 **具** >安 **全性**」。
+1. 登入AEM並導覽至&#x200B;**Tools** > **Security**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 按一 **下「群組** 」並輸入ID（例如Acme）。
+1. 按一下「**群組**」並輸入ID（例如Acme）。
 
-   或者，使用此連結 `http://localhost:4502/libs/granite/security/content/groupadmin.html`。
+   或者，使用此連結`http://localhost:4502/libs/granite/security/content/groupadmin.html`。
 
-   隨後，按一下「 **保存」**。
+   隨後，按一下&#x200B;**保存**。
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 從清單 **中選取** 「參與者」，然後按兩下它。
+1. 從清單中選擇&#x200B;**參與者** ，然後按兩下它。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 將 **Acme** （您建立的專案）新增至 **「新增成員至群組」**。 按一下&#x200B;**「儲存」**。
+1. 將&#x200B;**Acme**（您建立的項目）添加到&#x200B;**向組添加成員**。 按一下&#x200B;**「儲存」**。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -49,13 +52,13 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
    >
    >如果您希望專案團隊成員註冊播放器（包括為每個播放器建立使用者），請尋找群組使用者管理員，並將ACME群組新增至使用者管理員
 
-1. 將要處理 **Acme** Project的所有使用者新增至 **Acme** 群組。
+1. 將&#x200B;**Acme**&#x200B;專案的所有使用者新增至&#x200B;**Acme**&#x200B;群組。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 使用此項設定群組 **Acme** 的權限 `(http://localhost:4502/useradmin)`。
+1. 使用此`(http://localhost:4502/useradmin)`設定群組&#x200B;**Acme**&#x200B;的權限。
 
-   選取群組 **Acme** ，然後按一下 **權限**。
+   選擇組&#x200B;**Acme**，然後按一下&#x200B;**權限**。
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -76,14 +79,14 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 >
 >在某些情況下，您可以將作者功能（例如管理資產和建立渠道）與管理功能（例如註冊播放器）分開。 在這種情況下，請建立兩個群組，並將作者群組新增至參與者，並將管理員群組新增至參與者和使用者管理員。
 
-### 建立群組 {#creating-groups}
+### 建立組{#creating-groups}
 
 建立新專案時，也應建立指派基本權限集的預設使用者群組。 您應將權限延伸至我們對AEM畫面擁有的典型角色。
 
 例如，您可以建立下列專案特定群組：
 
 * 畫面專案管理員
-* 畫面專案營運商（註冊播放器，並管理位置和裝置）
+* 畫面專案營運商（註冊播放器，以及管理位置和裝置）
 * 畫面專案使用者（處理頻道、排程和頻道指派）
 
 下表匯總了AEM Screens專案的說明和權限群組：
@@ -96,7 +99,7 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
    <td><strong>權限</strong></td>
   </tr>
   <tr>
-   <td>畫面管理員<br /> 畫 <em>面管理員</em></td>
+   <td>畫面管理員<br /> <em>畫面管理員</em></td>
    <td>AEM Screens功能的管理員層級存取</td>
    <td>
     <ul>
@@ -109,7 +112,7 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
     </ul> </td>
   </tr>
   <tr>
-   <td>畫面使用者<br /> 畫 <em>面使用者</em></td>
+   <td>畫面使用者<br /> <em>畫面使用者</em></td>
    <td>建立和更新頻道和排程，並指派至AEM畫面中的位置</td>
    <td>
     <ul>
@@ -120,7 +123,7 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
     </ul> </td>
   </tr>
   <tr>
-   <td>畫面營運商<br /> 畫 <em>面營運商</em></td>
+   <td>Screens Operators<br /> <em>screens-operators</em></td>
    <td>在AEM Screens中建立和更新位置結構並註冊播放器</td>
    <td>
     <ul>
@@ -131,7 +134,7 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
     </ul> </td>
   </tr>
   <tr>
-   <td>畫面播放器<br /> - <em>畫面-&lt;專案&gt;-裝置</em></td>
+   <td>畫面播放器<br /> <em>screens-&lt;project&gt;-devices</em></td>
    <td>將所有播放器和所有播放器／裝置自動分組為參與者的成員。</td>
    <td><p> 投稿人成員</p> </td>
   </tr>
