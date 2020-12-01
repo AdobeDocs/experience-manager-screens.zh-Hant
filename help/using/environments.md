@@ -1,6 +1,6 @@
 ---
-title: '[!UICONTROL AEM畫面環境]'
-seo-title: '[!UICONTROL AEM畫面環境]'
+title: '[!UICONTROL AEM Screens]的環境'
+seo-title: '[!UICONTROL AEM Screens]的環境'
 description: 本頁面說明AEM Screens專案的環境。
 seo-description: 本頁反白顯示AEM Screens專案的環境。
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 環境 {#environments}
 
-請事先決定用戶端有哪些AEM環境，以及您將要使用哪些AEM環境，以進行開 *發* 和 *部署*。
+預先決定用戶端要使用和將要使用的AEM環境，包括&#x200B;*development*&#x200B;和&#x200B;*deployment*。
 
 >[!NOTE]
 >
