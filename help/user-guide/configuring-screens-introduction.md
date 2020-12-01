@@ -19,11 +19,11 @@ ht-degree: 0%
 ---
 
 
-# 設定和部署AEM畫面 {#configuring-and-deploying-aem-screens}
+# 設定和部署AEM畫面{#configuring-and-deploying-aem-screens}
 
 本頁說明如何在您的裝置上安裝和設定畫面播放器。
 
-## Server Configuration {#server-configuration}
+## 伺服器配置{#server-configuration}
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ The Health Check framework lows the user to check if two exence configurations a
 
 請依照下列步驟，檢查AEM Screens是否啟用這兩個重要的設定：
 
-1. 導覽至 [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)。
+1. 導覽至[Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)。
 
    ![資產](assets/health-check1.png)
 
 
-2. 按一下「執 **行所選健康檢查** 」對上面列出的兩個屬性運行驗證。
+2. 按一下&#x200B;**執行所選健康檢查**&#x200B;以運行上述兩個屬性的驗證。
 
-   如果同時啟用了這兩個篩選器，則 **Screens Configuration Health Service** （螢幕配置健康服務）將 **Result** 顯示為 **OK** ，並且兩個配置均為啟用。
+   如果同時啟用了這兩個篩選器，則&#x200B;**Screens Configuration Health Service**&#x200B;將&#x200B;**Result**&#x200B;顯示為&#x200B;**OK**，並且兩個配置都啟用。
 
    ![資產](assets/health-check2.png)
 
@@ -60,55 +60,55 @@ The Health Check framework lows the user to check if two exence configurations a
 
 >[!NOTE]
 >
->* 若要啟用 **Apache Sling Referrer Filter**，請參閱 [Allow Empty Referrer Requests](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)。
->* 若要啟用 **HTTP服務** ，請參閱 [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)。
+>* 若要啟用&#x200B;**Apache Sling Referrer Filter**，請參閱[Allow Empty Referrer Requests](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)。
+>* 要啟用&#x200B;**HTTP**&#x200B;服務，請參閱[Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)。
 
 
 ### 必備條件 {#prerequisites}
 
 下列關鍵點可協助您設定和AEM伺服器以便準備好用於AEM畫面。
 
-#### 允許空的反向連結請求 {#allow-empty-referrer-requests}
+#### 允許空的反向連結請求{#allow-empty-referrer-requests}
 
-1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過AEM實例—>槌子圖示—>**操作** —> **Web控制台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**。
 
    ![影像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋sling referrer。
+1. **Adobe Experience Manager Web Console設** 定開啟。搜尋sling referrer。
 
-   若要搜尋sling referrer屬性，請按 **Command+F** for **Mac** , **Control+F** for **** Windows。
+   若要搜尋sling referrer屬性，請按&#x200B;**Command+F**&#x200B;以取得&#x200B;**Mac**&#x200B;和&#x200B;**Control+F**&#x200B;取得&#x200B;**Windows**。
 
-1. 勾選「 **允許空白** 」選項，如下圖所示。
+1. 選中&#x200B;**允許空**&#x200B;選項，如下圖所示。
 
    ![影像](assets/config/empty-ref2.png)
 
-1. 按一 **下「儲存** 」以啟用Apache Sling Referrer Filter Allow Empty。
+1. 按一下&#x200B;**Save**&#x200B;以啟用Apache Sling Referrer Filter Allow Empty。
 
 
-#### 基於Apache Felix Jetty的HTTP服務 {#allow-apache-felix-service}
+#### 基於Apache Felix Jetty的HTTP服務{#allow-apache-felix-service}
 
-1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過AEM實例—>槌子圖示—>**操作** —> **Web控制台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**。
 
    ![影像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋以Apache Felix Jetty為基礎的HTTP服務。
+1. **Adobe Experience Manager Web Console設** 定開啟。搜尋以Apache Felix Jetty為基礎的HTTP服務。
 
-   要搜索此屬性，請 **按Command+F** ( **Mac** )和 **Control+F(****** Windows)。
+   要搜索此屬性，請按&#x200B;**Command+F**&#x200B;鍵（對於&#x200B;**Mac**），按&#x200B;**Control+F**&#x200B;鍵（對於&#x200B;**Windows**）。
 
-1. 勾選「 **啟用HTTP** 」選項，如下圖所示。
+1. 選中&#x200B;**ENABLE HTTP**&#x200B;選項，如下圖所示。
 
    ![影像](assets/config/config-1.png)
 
-1. 按一 **下「儲存** 」以啟用 *http服務* 。
+1. 按一下&#x200B;**保存**&#x200B;以啟用&#x200B;*http*&#x200B;服務。
 
-#### 為AEM螢幕啟用Touch UI {#enable-touch-ui-for-aem-screens}
+#### 為AEM Screens {#enable-touch-ui-for-aem-screens}啟用Touch UI
 
 AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI搭配使用。
 
-1. 導覽至 *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
-1. 請確定「預 **設編寫UI** 」模式已設 **為TOUCH**，如下圖所示
+1. 導覽至&#x200B;*&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. 請確定&#x200B;**預設編寫UI模式**&#x200B;已設為&#x200B;**TOUCH**，如下圖所示
 
-或者，您也可以使用AuthorInstance *->* tools（hammer圖示）-> **Operations** -> **Web Console** ，並搜尋 **** WCM Authoring UI Mode Service Achignation。
+或者，您也可以使用AuthorInstance *->*&#x200B;工具（槌子圖示）-> **Operations** -> **Web Console**&#x200B;執行相同的設定，並搜尋&#x200B;**WCM編寫UI模式服務**。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -116,37 +116,37 @@ AEM Screens需要TOUCH UI，無法與Adobe Experience Manager(AEM)的CLASSIC UI�
 >
 >您隨時都可以使用使用者偏好設定，為特定使用者啟用Classic UI。
 
-#### NOSAMPLECONTENT執行模式中的AEM {#aem-in-nosamplecontent-runmode}
+#### NOSAMPLECONTENT執行模式{#aem-in-nosamplecontent-runmode}中的AEM
 
-在生產中執行AEM會使 **用NOSAMPLECONTENT** 執行模式。 將 *X-Frame-Options=SAMEORIGIN* （在其他回應標題區段中）的標題從
+在生產中執行AEM使用&#x200B;**NOSAMPLECONTENT**&#x200B;執行模式。 將&#x200B;*X-Frame-Options=SAMEORIGIN*&#x200B;標題（在其他回應標題區段中）從
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
 這是AEM Screens Player播放線上頻道的必要項。
 
-#### 密碼限制 {#password-restrictions}
+#### 密碼限制{#password-restrictions}
 
-對 ***DeviceServiceImpl進行最新變更***，您不必移除密碼限制。
+對&#x200B;***DeviceServiceImpl***&#x200B;進行最新變更後，您不必移除密碼限制。
 
-您可以從 ***下列連結設定DeviceServiceImpl*** ，以在為畫面裝置使用者建立密碼時啟用密碼限制：
+您可以從以下連結配置&#x200B;***DeviceServiceImpl***，以在為螢幕設備用戶建立密碼時啟用密碼限制：
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-請依照下列步驟來設定 ***DeviceServiceImpl***:
+請依照下列步驟配置&#x200B;***DeviceServiceImpl***:
 
-1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過AEM實例—>槌子圖示—>**操作** —> **Web控制台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**。
 
-1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋裝 *置服務*。 要搜索屬性，請按 **Command+F** for macOS和 **Control+F** for Microsoft Windows。
+1. **Adobe Experience Manager Web Console設** 定開啟。搜索&#x200B;*deviceservice*。 要搜索屬性，請按&#x200B;**Command+F**（適用於macOS）和&#x200B;**Control+F**（適用於Microsoft Windows）。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher Configuration {#dispatcher-configuration}
 
-若要瞭解如何為AEM Screens專案設定分派程式，請參閱「為AEM Screens專案 [設定Dispatcher」](dispatcher-configurations-aem-screens.md)。
+若要瞭解如何為AEM Screens專案設定分派程式，請參閱[ Configuring Dispatcher for an AEM Screens專案](dispatcher-configurations-aem-screens.md)。
 
-#### Java編碼 {#java-encoding}
+#### Java編碼{#java-encoding}
 
-將 ***Java編碼設為*** Unicode。 例如， *Dfile.encoding=Cp1252* 將無法運作。
+將&#x200B;***Java encoding***&#x200B;設為Unicode。 例如，*Dfile.encoding=Cp1252*&#x200B;將無法運作。
 
 >[!NOTE]
 >**建議：**
