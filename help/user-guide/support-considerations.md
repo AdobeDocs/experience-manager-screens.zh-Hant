@@ -12,11 +12,14 @@ discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
 
-# 第5部分：支援考量事項 {#part-support-considerations}
+# 第5部分：支援考量事項{#part-support-considerations}
 
 本頁重點介紹5個部分系列的結尾部分，旨在幫助團隊成員瞭解如何解決硬體、軟體和連接問題。 此階段探討現場支援的成本估計和架構。 此外，還說明如何管理SLA參數、運營預算和NOC交件。
 
@@ -28,6 +31,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >* 將專案部署至現場
 >* 驗證安裝技術人員與NOC（網路運營中心）之間的設備連接和操作
+
 >
 >
 在第2天開始之前，應該對持續的生命週期預算進行規劃。
@@ -39,7 +43,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 * 確定跨網路重新調解問題的最佳方法。
 * 推動AEM實施者與AV整合商在建立第2天支援計畫時的一致性
 
-## 第2天支援中的主要考慮事項摘要 {#summary-of-key-considerations-involved-in-day-support}
+## 第2天支援{#summary-of-key-considerations-involved-in-day-support}中涉及的主要考慮事項摘要
 
 以下是第2天支援的一些主要考量事項：
 
@@ -53,17 +57,17 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 * 有些螢幕製造商可獨立於媒體播放器來監控螢幕，而有些則需要外部裝置。
 * AV整合商運用多種技術，因此解決方案仍具有彈性，以最佳方式滿足客戶端的需求。
 
-## 第5部分：支援考量事項教學課程影片 {#part-video-tutorial-on-support-considerations}
+## 第5部分：支援注意事項視頻教程{#part-video-tutorial-on-support-considerations}
 
 請依照本結論教學課程，以下是5個部分的系列教學課程，其中著重說明如何確保從實施到操作支援的協調及順暢過渡。 另外，它也說明AEM實施者必須如何與AV Integrator搭配運作，以確保定義為「第2天支援計畫」一部分的適當支援指令碼。
 
 ### 專案考量事項
 
->[!VIDEO](https://video.tv.adobe.com/v/28383?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/28383)
 
-*瞭解如何解決硬體、軟體和連線性問題。 探索現場支援的成本估計和框架。*
+*瞭解如何解決硬體、軟體和連線性問題。瞭解現場支援的成本估計和框架。*
 
-## 結論 {#conclusion}
+## 結論{#conclusion}
 
 這5部分系列著重於確保專案成功的關鍵考量因素。 如需實作詳細資訊，請參閱「AEM Screens使用指南」的其他章節。
 
