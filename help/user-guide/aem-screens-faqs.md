@@ -6,9 +6,9 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
+source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 # AEM Screens常見問答集{#aem-screens-faqs}
 
 以下章節提供與AEM Screens專案相關之常見常見問答集的解答。
+
+## 空白畫面問題{#blank-screen}
+
+>[!NOTE]
+>列出的必要檢查，應由主要支援或客戶端支援在提出問題前先試用：
+
+### 1.對於任何面對黑幕或非播放內容的客戶，First aid疑難排解步驟為何？{#troubleshooting-blank-screen}
+
+* 檢查頻道預覽是否正在運作。
+* 檢查顯示預覽是否正在工作
+* 嘗試將播放器註冊為筆記型電腦上的瀏覽器擴充功能，並檢查這是否正常運作。
+* 當播放器在您的系統上執行時，導覽至`http://localhost:24502`。 檢查所有內容是否都正確下載。
+* 檢查資產是否已建立適當的轉譯，以及正在播放正確的轉譯。
+* 檢查是否有任何排程內容，以及時間是否正確。 檢查玩家設定的時間是否正確。
+* 檢查播放器主控台記錄檔並檢查是否有錯誤？ 按一下右鍵並檢查以查看控制台日誌。 如果使用Windows播放器，請按`CTRL + ALT +I`開啟dev console以查看日誌。
 
 ## 通道管理{#channel-management}
 
