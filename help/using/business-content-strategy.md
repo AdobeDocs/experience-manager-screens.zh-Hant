@@ -1,15 +1,18 @@
 ---
-title: 適用於 [!UICONTROL AEM螢幕的商業內容策略]
-seo-title: 適用於 [!UICONTROL AEM螢幕的商業內容策略]
+title: '[!UICONTROL AEM Screens]的商業內容策略'
+seo-title: '[!UICONTROL AEM Screens]的商業內容策略'
 description: 本指南說明業務內容策略
 seo-description: 本指南說明業務內容策略
 translation-type: tm+mt
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
 
-# 商業內容策略 {#business-content}
+# 業務內容策略{#business-content}
 
 >[!NOTE]
 >
@@ -42,7 +45,7 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
    >
    >在售前階段，您必須開始提出問題，不僅要問要分享哪些內容，還要問內容資料目前位於何處，以及如何運用在「畫面」專案中。 您必須嘗試在實作期間深入探究內容，但必須事先確定哪些資料可用及格式。
 
-## 重要考量事項 {#important-considerations}
+## 重要注意事項{#important-considerations}
 
 請遵循以下內容資料的重要考量事項：
 
