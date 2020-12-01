@@ -11,11 +11,14 @@ topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 translation-type: tm+mt
 source-git-commit: 7748c921aab25f779a9850455188c7fc6cef9f25
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 2%
 
 ---
 
 
-# 功能套件201809發行說明 {#release-notes-for-feature-pack}
+# 功能套件201809發行說明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -29,18 +32,18 @@ AEM Screens Feature Pack 201809的發行日期為2018年10月1日。
 
 ### 新功能 {#what-s-new}
 
-* **Adobe Analytics播放證明報告**:請參閱「 [Adobe Analytics與AEM Screens整合」](adobe-analytics-integration-aem-screens.md) ，瞭解更多資訊。
+* **Adobe Analytics播放證明報告**:請參閱「 [Adobe Analytics與AEM Screens整合」以](adobe-analytics-integration-aem-screens.md) 瞭解詳細資訊。
 
-* **Adobe Analytics讓播放器可快取並傳送播放事件至Adobe Analytics**:請參閱「使 [用AEM畫面設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 」以瞭解更多資訊。
+* **Adobe Analytics讓播放器可快取並傳送播放事件至Adobe Analytics**:請參閱「使 [用AEM Screens設定Adobe Analytics」以](configuring-adobe-analytics-aem-screens.md) 瞭解詳細資訊。
 
-* **大量更新離線內容**:可讓您大量更新所有頻道，並避免瀏覽至特定頻道和更新內容的麻煩。 請參閱大量 [離線更新](bulk-offline-update.md) ，瞭解更多資訊。
+* **大量更新離線內容**:可讓您大量更新所有頻道，並避免瀏覽至特定頻道和更新內容的麻煩。請參閱[大量離線更新](bulk-offline-update.md)以瞭解詳細資訊。
 
 * **大量發佈渠道以發佈例項**
-* **增強的播放器記錄機制**:您可以指定AEM Screens播放器的最大記錄檔數。 如需詳細資 [訊，請參閱「使用AEM Screens Player](working-with-screens-player.md) 」。
+* **增強的播放器記錄機制**:您可以指定AEM Screens播放器的最大記錄檔數。如需詳細資訊，請參閱「使用AEM Screens Player[」。](working-with-screens-player.md)
 
 * **作者／發佈部署（強化）**
 
-### 已發行的AEM Screens播放器 {#released-aem-screens-players}
+### 已發行的AEM畫面播放器{#released-aem-screens-players}
 
 AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4已發行下列AEM Screens Player:
 
@@ -49,6 +52,6 @@ AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4已發行下列AEM Screens Pl
 * Android
 * iOS
 
-#### AEM Screens Player下載 {#aem-screens-player-downloads}
+#### AEM Screens Player下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱 [AEM Screens Player下載](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱[AEM Screens Player Downloads](https://download.macromedia.com/screens/)。
