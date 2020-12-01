@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# 功能套件202011發行說明 {#release-notes-for-feature-pack}
+# 功能套件202011版本注意事項{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >建議您升級至最新版的Adobe Experience Manager(AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 AEM Screens已發行AEM 6.5 Feature Pack 6。
 
-您可以使用Adobe ID從「軟體散發入口網站」下載AEM Screens 6.5.6 [版本的最新功能套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 。 導覽至 **Adobe Experience Manager** 標籤，並搜尋 **Screens** ，以取得最新的功能套件。
+您可以使用Adobe ID從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.6版的最新功能套件。 導覽至「**Adobe Experience Manager**」標籤，並搜尋「**畫面**」以取得最新的功能套件。
 
 ## 發行日期 {#release-date}
 
@@ -29,14 +29,14 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
 * **內容指派報表**
 
-   「內容指派報表」功能可讓AEM Screens管理員或作者匯出可能為試算表格式的「 *內容指派報表* 」。
-Refer to **Content Assignment Report** for more details.
+   「內容指派報表」功能可讓AEM Screens管理員或作者匯出&#x200B;*內容指派報表*，該報表可能為試算表格式。
+如需詳細資訊，請參閱**內容指派報表**。
 
 
 * **Tizen Player**
 
    AEM Screens 6.5.6版本的最新功能套件已推出稱為Tizen Player的新播放器。
-如需詳細 **資訊，請參閱實作Tizen Player** 。
+如需詳細資訊，請參閱**實作Tizen Player**。
 
 * **從「裝置管理員」搜尋功能**
 
@@ -46,11 +46,11 @@ Refer to **Content Assignment Report** for more details.
 
    此發行的預設ping間隔現在設定為30秒。
 
-### 已知問題與修正 {#known-issues}
+### 已知問題和修正{#known-issues}
 
 
 
-### 已發行的AEM Screens播放器 {#released-aem-screens-players}
+### 已發行的AEM畫面播放器{#released-aem-screens-players}
 
 已針對發行的AEM畫面發行下列AEM畫面播放器
 
@@ -58,6 +58,6 @@ Refer to **Content Assignment Report** for more details.
 * Windows
 * Android
 
-#### AEM Screens Player下載  {#aem-screens-player-downloads}
+#### AEM Screens Player下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱 **[AEM Screens Player下載](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;**[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**。
