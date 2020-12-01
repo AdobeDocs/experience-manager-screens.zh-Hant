@@ -19,7 +19,7 @@ ht-degree: 8%
 ---
 
 
-# 使用AEM畫面設定Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
+# 使用AEM Screens {#configuring-adobe-analytics-with-aem-screens}設定Adobe Analytics
 
 >[!CAUTION]
 >
@@ -32,17 +32,17 @@ ht-degree: 8%
 * **Adobe Analytics與AEM畫面的排序**
 * **使用離線Adobe Analytics傳送自訂事件**
 
-## Adobe Analytics與AEM畫面的排序 {#sequencing-in-adobe-analytics-with-aem-screens}
+## 在Adobe Analytics中搭配AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}排序
 
-排序 ****** 程式從啟動Adobe Analytics服務的資料儲存服務開始。 渠道內容會以薪資傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 這些事件將保存到索引資料庫中，並進一步放入對象儲存中。 管理員根據調度設定，從對象儲存中剪下資料，並進一步在塊儲存中傳輸資料。 它嘗試在連線時傳送最大資料量。
+***排序程式***&#x200B;從啟動Adobe Analytics服務的資料儲存服務開始。 渠道內容會以薪資傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 這些事件將保存到索引資料庫中，並進一步放入對象儲存中。 管理員根據調度設定，從對象儲存中剪下資料，並進一步在塊儲存中傳輸資料。 它嘗試在連線時傳送最大資料量。
 
-### 順序圖 {#sequencing-diagram}
+### 序列圖{#sequencing-diagram}
 
 下列順序圖說明Adobe Analytics與AEM畫面的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用離線Adobe Analytics傳送自訂事件 {#sending-custom-events-using-offline-adobe-analytics}
+## 使用離線Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}傳送自訂事件
 
 下表摘要了事件的標準資料模型。 它會列出所有傳送至Adobe Analytics的欄位：
 
@@ -109,7 +109,7 @@ ht-degree: 8%
    <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>主要類別（案頭、行動、網路、程式、SDK、服務、生態系統）-事件類型分組——我們 <strong>傳送Player</strong></td> 
+   <td>主要類別（案頭、行動、網路、程式、SDK、服務、生態系統）-事件類型分組- <strong>我們傳送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
