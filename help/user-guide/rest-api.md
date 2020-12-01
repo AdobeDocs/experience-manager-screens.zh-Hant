@@ -11,17 +11,20 @@ topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
 
 # REST API{#rest-apis}
 
-AEM Screens提供遵循Siren規格的簡單REST風格 [API](https://github.com/kevinswiber/siren) 。 它允許導航內容結構，並向環境中的設備發送命令。
+AEM Screens提供遵循[Siren](https://github.com/kevinswiber/siren)規格的簡單REST風格API。 它允許導航內容結構，並向環境中的設備發送命令。
 
-API可從http://localhost:4502/api/screens.json存 [*取*](http://localhost:4502/api/screens.json)。
+API可從&#x200B;[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)存取。
 
-## 導覽內容結構 {#navigating-content-structure}
+## 導覽內容結構{#navigating-content-structure}
 
 API呼叫傳回的JSON會列出與目前資源相關的實體。 在列出的自連結後，這些實體中的每個實體都可作為REST資源再次訪問。
 
@@ -99,11 +102,11 @@ GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json H
 Host: http://localhost:4502
 ```
 
-## 在資源上執行操作 {#executing-actions-on-the-resource}
+## 在資源{#executing-actions-on-the-resource}上執行操作
 
 API呼叫傳回的JSON可包含資源上可用動作的清單。
 
-例如，顯示器列出了 *broadcast-command* （廣播命令）操作，該操作允許向分配給該顯示器的所有設備發送命令。
+例如，顯示器列出了&#x200B;*broadcast-command*&#x200B;操作，該操作允許向分配給該顯示器的所有設備發送命令。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -116,7 +119,7 @@ Host: http://localhost:4502
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
-***結果：***
+***結果:***
 
 ```xml
 {
