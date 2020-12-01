@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# 直連網際網路（有線／無線） {#direct-internet-access}
+# 直連網路（有線／無線）{#direct-internet-access}
 
 Direct Internet Network包含可存取網際網路的入口存取點，以便存取AEM Screens所需的AEM Cloud服務。
 
@@ -49,11 +49,11 @@ AEM Screens通訊的標準埠包括：
    >**疑難排解提示**
    >如果AEM畫面未正確連線，且預期的內容未顯示：
    >
-   >1. 如果Internet路由器防火牆有任何限制，請檢查該防火牆 `TCP/IP Port 80/443`。
+   >1. 如果`TCP/IP Port 80/443`有任何限制，請檢查您的Internet路由器防火牆。
    >1. 確保允許所有必需的埠。
 
 
-## 設定直接訪問網路 {#requirements-direct}
+## 設定直接訪問網路{#requirements-direct}
 
 Direct Internet Network邏輯上分為兩個塊：
 
@@ -61,28 +61,28 @@ Direct Internet Network邏輯上分為兩個塊：
 
 * 區域網路
 
-### 廣域網 {#wan-connection}
+### 廣域網{#wan-connection}
 
 除了網路的可達性外，網際網路連線的效能是提供足夠的頻寬，以運作AEM畫面。
 
-*足夠* ，視連線的AEM螢幕數量以及網路內其他消費者的使用情況而定，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
+*充* 分依賴連線的AEM畫面數量，以及網路內其他消費者的使用情形，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
 
 >[!NOTE]
 >
 >上述所有裝置都可同時存取網際網路連線，而且當您新增更多消費者或電腦至網路時，頻寬會線性降低。
 
-### 區域網路 {#lan-connection}
+### 區域網路{#lan-connection}
 
 區域網路(LAN)的效能，除了網路的可達性外，還提供足夠的頻寬，以運作AEM畫面。
 
 LAN網路通常至少與100 Mbps網路匹配，因此有足夠的頻寬將許多效能良好的設備連接到系統。
-如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議您至少使用現代Wi-Fi `IEEE 802.11g` 標準。 此標準支援高達54 Mbps的連接。 任何 *較新的* 「標準」 `802.11h-n` 都能提供更佳的品質。
+如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議您至少使用例如`IEEE 802.11g`等現代Wi-Fi標準。 此標準支援高達54 Mbps的連接。 任何&#x200B;*較新的*&#x200B;標準（例如`802.11h-n`）都有較佳的品質。
 
 >[!NOTE]
 >
 >如果需要Wi-Fi Repeater，強烈建議使用Mesh Wi-Fi接入點，如Google Nest Mesh Wi-Fi或類似的接入點。 其他Wi-Fi重複技術最終導致整個網路的頻寬嚴重丟失。
 
-## 下載媒體和資產 {#download}
+## 下載媒體和資產{#download}
 
 AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本機儲存所有必要的媒體檔案，例如影像和視訊。 當特定顯示器上顯示新內容時，會發生主要網路流量。
 
