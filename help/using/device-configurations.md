@@ -5,17 +5,20 @@ description: 本頁介紹設備規格
 seo-description: 本頁介紹設備規格
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
 
-# 設備配置 {#device-configurations}
+# 裝置組態 {#device-configurations}
 
 >[!NOTE]
 >
 >此活動的一般利益相關者是A/V整合商。
 
-根據在零天期間收集到的 *資訊*，在開始開發之前確認下列資訊：
+根據在&#x200B;*Day Zero*&#x200B;期間收集到的資訊，在開始開發之前確認下列資訊：
 
 * 使用的螢幕方向、尺寸和解析度為何？
 
