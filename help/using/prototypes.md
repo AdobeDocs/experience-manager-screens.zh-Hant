@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# 用戶體驗原型建立 {#prototypes}
+# 用戶體驗原型製作{#prototypes}
 
 >[!NOTE]
 >
