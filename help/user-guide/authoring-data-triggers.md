@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# 使用資料觸發器製作內容 {#authoring-with-data-triggers}
+# 使用資料觸發器製作{#authoring-with-data-triggers}
 
 本節重點說明如何在您的通道中啟用定位。
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 必備條件 {#prereqs}
 
-在遵循下列步驟以啟用渠道中的定位之前，您必須先瞭解在AEM Screens中設定的 [Key Terms](configuring-context-hub.md) ，以瞭解AEM Screens中的ContextHub和定位。
+在遵循下列步驟以啟用頻道中的定位之前，您必須先瞭解瞭解瞭解AEM Screens中ContextHub和Targeting的[ Key Terms in Configuring in AEM Screens](configuring-context-hub.md)。
 
 >[!IMPORTANT]
 >
@@ -34,25 +34,25 @@ ht-degree: 1%
 
 完成上述步驟後，您就可以在通道中啟用定位。
 
-## 使用資料觸發器製作內容概觀 {#author-targeting}
+## 使用資料觸發器製作內容概述{#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM畫面頻道中啟用定位 {#enabling-targeting}
+## 在AEM畫面頻道{#enabling-targeting}中啟用定位
 
 請依照下列步驟，在您的通道中啟用定位。
 
-1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM畫面頻道中建 **立的DataDrivenRetail***（序列頻道）* ，來啟用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM Screens頻道中建立的&#x200B;**DataDrivenRetail** *（序列頻道）*&#x200B;啟用定位。
 
-1. 選取渠道 **DataDrivenRetail** ，然後從動作列 **按一下「屬性** 」。
+1. 選擇渠道&#x200B;**DataDrivenRetail**，然後從操作欄中按一下「屬性」。****
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 選擇「 **個人化** 」標籤以設定ContextHub組態，並選取「ContextHub」和「區段」路徑。
+1. 選擇&#x200B;**個人化**&#x200B;標籤以設定ContextHub組態，並選擇ContextHub和Segments路徑。
 
-   1. 選擇ContextHub路徑 **,** 作為libs **>** settings **> Default Settings** > Default Zetings ****************> Configurations Journations CloudSelectLoudLouds。
+   1. 選擇&#x200B;**ContextHub路徑**&#x200B;作為&#x200B;**libs** > **settings** > **cloudsettings** > **default** > **ContextHub配置**&#x200B;並按一下&#x200B;**選擇**。
 
-   1. 選擇「路徑 **」** 段作為「會議 **」** >「零售」 **>「零售」>「****************** WcmSegments」>「AldSignments」>「ChickSelectSelectLight」。
+   1. 選擇&#x200B;**區段路徑**&#x200B;作為&#x200B;**conf** > **We.Retail** > **settings** > **wcm**>區段&#x200B;**，然後按一下**&#x200B;選擇&#x200B;**。**
 
    1. 按一下&#x200B;**「儲存並關閉」**。
    >[!NOTE]
@@ -61,19 +61,19 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 從DataDriven Assets > **Channels中導覽並選取** DataDriven Retail **，然後從動作列** 按一下Edit ******** Driven Retail。 將資產拖放至渠道編輯器。
+1. 從&#x200B;**DataDrivenAssets** > **Channels**&#x200B;導覽並選取&#x200B;**DataDrivenRetail**，然後從動作列按一下&#x200B;**Edit**。 將資產拖放至渠道編輯器。
 
    >[!NOTE]
    >
-   >如果您已正確設定所有項目，您會從編輯器的下拉式清單中看到 **Targeting** （定位）選項，如下圖所示。
+   >如果您已正確設定所有項目，您會從編輯器的下拉式清單中看到&#x200B;**定位**&#x200B;選項，如下圖所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 按一下 **定位**。
+1. 按一下「**定位**」。
 
-1. 從下 **拉式選單選** 擇「品牌 **」和「活動** 」，然後按一下「開始 **定位」**。
+1. 從下拉式選單中選擇&#x200B;**品牌**&#x200B;和&#x200B;**活動**，然後按一下「開始定位&#x200B;**」。**
 
-### 更多資訊：範例使用案例 {#learn-more-example-use-cases}
+### 更多資訊：範例使用案例{#learn-more-example-use-cases}
 
 在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
