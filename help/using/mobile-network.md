@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# 直接行動網路 {#mobile-network-setup}
+# 直接移動網路{#mobile-network-setup}
 
 AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來連線。
 
@@ -24,7 +24,7 @@ AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來
 
 ![](/help/using/assets/direct-mobile-1.png)
 
-## 將AEM Screens Player連線至Direct Mobile網路 {#connecting-aem-screens-players}
+## 將AEM Screens Player連線至Direct Mobile Network {#connecting-aem-screens-players}
 
 請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
 
@@ -37,7 +37,7 @@ AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來
 
 1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並註冊。 開始AEM Screens。
 
-## 設定直接移動網路 {#requirements-direct}
+## 設定直接移動網路{#requirements-direct}
 
 網路設定可以在邏輯上分成兩個塊：
 
@@ -45,7 +45,7 @@ AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來
 
 * 區域網路
 
-### 行動網際網路連線 {#mobile-internet-connection}
+### 行動網際網路連線{#mobile-internet-connection}
 
 除了網路連線外，網際網路連線的效能也提供足夠的頻寬，讓AEM畫面順暢運作。
 
@@ -69,19 +69,19 @@ AEM Screens Player也可以使用執行至少3G網路的行動或行動網路來
 
 
 >[!IMPORTANT]
->對於媒體檔案的初始上傳，例如整合新播放器時，必須預期資料量會增加，下載時間會增加，並反映在上述假設中。 4G網路的覆蓋範圍 *廣* ，數 *據不限* ，應與此網路設定中最常見的安裝相匹配。
+>對於媒體檔案的初始上傳，例如整合新播放器時，必須預期資料量會增加，下載時間會增加，並反映在上述假設中。 具有&#x200B;*良好*&#x200B;涵蓋範圍和&#x200B;*無限制*&#x200B;資料的4G網路應與此網路設定中最常見的安裝相匹配。
 
 >[!NOTE]
->具備良好網路涵蓋率的最低3G計畫，應可為AEM Screens播放器提供可接受的下載效能。 如果在特定位置僅有公平的覆蓋範圍，則應考慮將整個網路設定切換到具有移動資料路由器和活動網路元件的 [移動網路](/help/using/mobile-network-router.md)。
+>具備良好網路涵蓋率的最低3G計畫，應可為AEM Screens播放器提供可接受的下載效能。 如果在特定位置僅有公平的覆蓋範圍，則應考慮將整個網路設定切換到[移動網路（帶移動資料路由器和活動網路元件）](/help/using/mobile-network-router.md)。
 
 
-### 區域網路 {#lan-connection}
+### 區域網路{#lan-connection}
 
 區域網路(LAN)的效能考量，除了網路連線能力外，還是要提供足夠的頻寬，以順暢地執行AEM畫面。 對於LAN網路速度的建議是至少以100 Mbps網路啟動，以便有足夠的頻寬將許多效能良好的設備連接到系統。
 
 在使用其他活動網路元件時，必須確保所有元件都符合網路頻寬要求。 例如，網路元件至少應符合100 Mbps標準，並與Internet訪問或路由器規範提供的頻寬相匹配。 否則，總頻寬將受到網路鏈中最薄弱的鏈路的限制。
 
-## 下載媒體和資產 {#download}
+## 下載媒體和資產{#download}
 
 AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本機儲存所有必要的媒體檔案，例如影像和視訊。 當特定顯示器上顯示新內容時，會發生主要網路流量。
 
