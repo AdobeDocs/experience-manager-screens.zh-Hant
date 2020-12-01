@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 9%
+source-wordcount: '431'
+ht-degree: 10%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 9%
       + [使用Chrome Player做為擴充功能進行疑難排解](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + 作者發佈{#author-publish}
       + [作者——發佈架構概觀](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 9%
       + [命令同步](using-command-sync.md)
       + [使用資料觸發器製作內容](authoring-data-triggers.md)
       + [語音識別](voice-recognition.md)
+      + [內容指派報表](content-assignment-report.md)
    + 管理內容更新{#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 9%
    + [設備控制中心故障排除](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [功能套件202011發行說明](release-notes-fp-202011.md)
    + [功能套件202008發行說明](release-notes-fp-202008.md)
    + [功能套件202004發行說明](release-notes-fp-202004.md)
    + [功能套件202001發行說明](release-notes-fp-202001.md)
