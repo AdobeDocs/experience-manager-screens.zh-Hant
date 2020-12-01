@@ -6,11 +6,14 @@ seo-description: 請依本頁瞭解影像播放持續時間。
 contentOwner: jsyal
 translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 1%
 
 ---
 
 
-# 影像播放持續時間 {#image-playback-duration}
+# 影像播放持續時間{#image-playback-duration}
 
 ## 概覽 {#overview}
 
@@ -20,25 +23,25 @@ source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
 開始實作此功能之前，請確定您已將專案設定為開始實作此功能的先決條件。 例如，
 
-1. 建立AEM Screens專案(在此範例中為 **ChannelLevelPlayback**)
+1. 建立AEM Screens專案（在此範例中，**ChannelLevelPlayback**）
 
-1. 在「頻道」檔案夾 **下建立序列頻道** ，做 **為PlaybackChannel**
+1. 在&#x200B;**Channels**&#x200B;資料夾下，建立序列頻道為&#x200B;**PlaybackChannel**
 
-1. 將內容新增至 **PlaybackChannel**
+1. 將內容新增至&#x200B;**PlaybackChannel**
 
-## 編輯頻道層級影像播放持續時間指派 {#editing-channel-level-image-playback-duration-assignment}
+## 編輯頻道層級影像播放持續時間指派{#editing-channel-level-image-playback-duration-assignment}
 
 下節說明如何編輯AEM Screens頻道中內容的播放持續時間。
 
-### 更新頻道中影像的播放持續時間 {#updating-the-playback-duration-for-images-in-a-channel}
+### 更新頻道{#updating-the-playback-duration-for-images-in-a-channel}中影像的播放時長
 
 請依照下列步驟瞭解如何更新頻道層級影像播放持續時間指派：
 
-1. 導覽至序列頻道 **PlaybackChannel**。
+1. 導覽至序列頻道&#x200B;**PlaybackChannel**。
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 按一 **下動作列** 中的「編輯」以開啟編輯器。
+1. 按一下操作欄中的&#x200B;**編輯**&#x200B;以開啟編輯器。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -50,7 +53,7 @@ source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **頁面** 」對話方塊。
+1. **「頁** 面」對話框開啟。
 
    >[!NOTE]
    >
@@ -58,11 +61,11 @@ source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   編輯 **持續時間** (從8000(ms)到3000(ms)，即3秒)。 按一下「頁面」對話方塊右上角的核取 **標籤** ，以儲存您所做的變更。
+   編輯&#x200B;**持續時間**&#x200B;從8000(ms)到3000(ms)，即3秒。 按一下&#x200B;**Page**&#x200B;對話方塊右上角的核取標籤，以儲存變更。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### 查看結果 {#viewing-the-result}
+### 查看結果{#viewing-the-result}
 
 一旦更新頻道播放持續時間（在此範例中，所有三張影像）後，您會注意到影像現在會播放3秒，而非8秒（預設值）。
 
