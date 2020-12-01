@@ -19,13 +19,13 @@ ht-degree: 1%
 ---
 
 
-# 離線渠道 {#offline-channels}
+# 離線頻道{#offline-channels}
 
-Screens播放器運用 ***ContentSync技術，為頻道提供離線支*** 援。
+Screens播放器運用&#x200B;***ContentSync***&#x200B;技術，提供頻道的離線支援。
 
 播放器使用本機http伺服器來提供解壓縮的內容。
 
-當頻道設定為線上上 *執行*，播放器會存取AEM伺服器來提供頻道資源，但當頻道設定為離線執行時 **，播放器會從本機http伺服器提供頻道資源。
+當頻道設定為執行&#x200B;*online*&#x200B;時，播放器會存取AEM伺服器以提供頻道資源，但當頻道設定為執行&#x200B;*offline*&#x200B;時，播放器會從本機http伺服器提供頻道資源。
 
 流程的工作流如下：
 
@@ -35,15 +35,15 @@ Screens播放器運用 ***ContentSync技術，為頻道提供離線支*** 援。
 1. 下載zip並解壓縮至本機
 1. 顯示內容的本機副本
 
-## 更新處理常式 {#update-handlers}
+## 更新處理程式{#update-handlers}
 
-ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所有必要頁面和資產。 AEM Screens使用下列更新處理常式：
+***ContentSync***&#x200B;使用更新處理常式來剖析和收集特定專案的所有必要頁面和資產。 AEM Screens使用下列更新處理常式：
 
-### 常用選項 {#common-options}
+### 常用選項{#common-options}
 
-* *類型*: 要使用的更新處理常式類型
-* *路徑*: 資源路徑
-* *[targetRootDirectory]*: zip檔案中的目標檔案夾
+* *類型*:要使用的更新處理常式類型
+* *路徑*:資源路徑
+* *[targetRootDirectory]*:zip檔案中的目標檔案夾
 
 <table>
  <tbody>
@@ -55,17 +55,17 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
   <tr>
    <td>頻道</td> 
    <td>收集渠道</td> 
-   <td>擴充功能： 要收集的資源擴展<br /> [pathSuffix="]: 要添加到通道路徑的尾碼<br /> </td> 
+   <td>擴充功能：資源的擴展，以收集<br /> [pathSuffix="]:要添加到頻道路徑的尾碼<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
    <td>收集指定的用戶端程式庫</td> 
-   <td>[extension="]: 可以是css或js，只收集前者，或僅收集後者</td> 
+   <td>[extension="]:可以是css或js，只收集前者，或僅收集後者</td> 
   </tr>
   <tr>
    <td>assetrenditions</td> 
    <td>收集資產轉譯</td> 
-   <td>[轉譯=[]]: 要收集的轉譯清單。 預設為原始轉譯</td> 
+   <td>[轉譯=[]:要收集的轉譯清單。 預設為原始轉譯</td> 
   </tr>
   <tr>
    <td>複製</td> 
@@ -75,7 +75,7 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
  </tbody>
 </table>
 
-### 測試ContentSync配置 {#testing-contentsync-configuration}
+### 測試ContentSync配置{#testing-contentsync-configuration}
 
 請依照下列步驟測試ContentSync設定：
 
@@ -88,7 +88,7 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 1. 在解壓縮的資料夾中啟動本地伺服器
 1. 開啟您的開始頁面並檢查您的應用程式狀態
 
-## 啟用渠道的離線設定 {#enabling-offline-config-for-a-channel}
+## 為渠道{#enabling-offline-config-for-a-channel}啟用離線配置
 
 請依照下列步驟，為頻道啟用離線設定：
 
@@ -96,19 +96,19 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. 導覽至渠道控制面板，然後按一 **下……** 在「 **CHANNEL INFORMATION** Panel」中更改屬性。
+1. 導覽至頻道控制面板，然後按一下&#x200B;**...** CHANNEL INFORMATION **面板中的**&#x200B;以變更屬性。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. 導覽至渠道屬性，並確定「渠道」標籤下的核取方塊已 **停用** 。 Click **Save &amp; Close**.
+1. 導覽至頻道屬性，並確保在&#x200B;**頻道**&#x200B;標籤下停用核取方塊。 按一下&#x200B;**「儲存並關閉」**。
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   在將內容正確部署至裝置之前，請按一下「 **更新離線內容」**。
+   在將內容正確部署至裝置之前，請按一下「更新離線內容」。****
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   「屬 **性** 」下的「離 **** 線」狀態也會隨之更新。
+   **PROPERTIES**&#x200B;下的&#x200B;**Offline**&#x200B;狀態也會隨之更新。
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
@@ -118,4 +118,4 @@ ContentSync ****** 使用更新處理常式來剖析和收集特定專案的所�
 
 >[!NOTE]
 >
->若要進一步瞭解自訂離線資源處理常式的範本，以及該特定專案的最低需求，請參 `pom.xml` 閱「開發AEM畫面的自訂元件」中的「自訂處理常式 [範本」](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)****。
+>若要進一步瞭解自訂離線資源處理常式的範本，以及該特定專案的`pom.xml`最低需求，請參閱&#x200B;**開發AEM Screens**&#x200B;中的[自訂處理常式範本](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)。
