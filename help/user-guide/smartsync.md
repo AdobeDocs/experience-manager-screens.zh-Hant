@@ -30,14 +30,14 @@ SmartSync是AEM Screens使用的最新機制。 它可取代目前用來快取�
 
 **在伺服器端**:
 
-* 頻道的內容（包括資產）會快取至 */var/contentsync*。
+* 頻道的內容（包括資產）會快取在&#x200B;*/var/contentsync*&#x200B;中。
 * 快取通過描述顯示器的可用內容的清單公開給播放器。
 
 **在用戶端**:
 
 * 播放器會根據上述產生的資訊清單更新其內容。
 
-### 使用SmartSync的優點 {#benefits-of-using-smartsync}
+### 使用SmartSync的優點{#benefits-of-using-smartsync}
 
 SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
 
@@ -57,7 +57,7 @@ SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
 >
 >SmartSync適用於支援的伺服器AEM 6.4.3 FP3的Screens Player。
 >
->請參閱「 [AEM Screens Player Downloads](https://download.macromedia.com/screens/) 」（AEM畫面播放器下載）以下載最新的播放器。 下表說明每個平台所需的最低播放器版本：
+>請參閱[AEM Screens Player Downloads](https://download.macromedia.com/screens/)以下載最新的播放器。 下表說明每個平台所需的最低播放器版本：
 
 | **平台** | **最低支援播放器版本** |
 |---|---|
@@ -69,7 +69,7 @@ SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
 
 1. 從ContentSync遷移到SmartSync需要在激活SmartSync之前清除ContentSync快取。
 
-   使用連結https://localhost:4502/libs/cq/contentsync/content/console.html從您的例項導覽至ContentSync主控台 ****** ，然後按一下 **清除快取**，如下圖所示：
+   使用連結&#x200B;***https://localhost:4502/libs/cq/contentsync/content/console.html***&#x200B;從您的例項導覽至ContentSync主控台，然後按一下「清除快取」，如下圖所示：****
 
    ![clear_contensync_cache](assets/clear_contesync_cache.png)
 
@@ -77,17 +77,17 @@ SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
    >
    >首次使用SmartSync之前，必須清除所有內容快取。
 
-1. 透過 **AEM例項** —> hammer圖示—> **Operations** —> **Web Console導覽至Adobe Experience Manager Web Console Configuration**。
+1. 透過AEM實例—>槌子圖示—>**操作** —> **Web控制台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**。
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console設定隨即開啟** 。 搜尋offlinecontentservice **。
+1. **Adobe Experience Manager Web Console設** 定開啟。搜索&#x200B;*offlinecontentservice*。
 
-   若要搜尋 **Screens Offline Content** Service **，請按** Command+F **(尋找** Mac)和 **F(F)****** Control+F（針對WindowsWindows）屬性。
+   要搜索&#x200B;**螢幕離線內容服務**&#x200B;屬性，請按&#x200B;**Command+F**&#x200B;表示&#x200B;**Mac**，按&#x200B;**Control+F**&#x200B;表示&#x200B;**Windows**。
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 按一 **下「儲存** 」以啟用「畫面 **** 離線內容服務」屬性，因此可針對AEM畫面使用SmartSync。
-1. 啟用SmartSync後，您必須導覽至您的專案，然後按一下「 **Update Offline Content***（從動作列）」* ，如下圖所示。
+1. 按一下「**儲存**」以啟用「畫面離線內容服務&#x200B;**」屬性，因此可針對AEM畫面使用SmartSync。**
+1. 啟用SmartSync後，必須導航到項目，然後按一下&#x200B;**更新離線內容** *（從操作欄）,* ，如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
