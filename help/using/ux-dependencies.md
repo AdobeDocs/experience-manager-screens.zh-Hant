@@ -1,21 +1,24 @@
 ---
-title: AEM畫面的UX相 [!UICONTROL 依性]
-seo-title: AEM畫面的UX相 [!UICONTROL 依性]
-description: 本指南說明AEM畫面的UX相 [!UICONTROL 依性]
-seo-description: 本指南說明AEM畫面的UX相 [!UICONTROL 依性]
+title: '[!UICONTROL AEM Screens]的UX相依性'
+seo-title: '[!UICONTROL AEM Screens]的UX相依性'
+description: 本指南說明[!UICONTROL AEM Screens]的UX相依性
+seo-description: 本指南說明[!UICONTROL AEM Screens]的UX相依性
 translation-type: tm+mt
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
 
-# UX相依性 {#ux-dependencies}
+# UX 相依性 {#ux-dependencies}
 
 >[!NOTE]
 >
 >此活動的一般利益相關者是行銷／商業策略師。
 
-「UX相依性」定義了內容策略的制定位置和方式，使內容更具影響力。
+「UX相依性」定義了內容策略的制定位置和方式，因此內容最具影響力。
 
 定義硬體內容策略時應考慮以下問題：
 
