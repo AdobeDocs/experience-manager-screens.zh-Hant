@@ -12,74 +12,78 @@ discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
 
-# 酒店預訂激活 {#hospitality-reservation-activation}
+# 酒店預訂激活{#hospitality-reservation-activation}
 
 下列使用案例說明如何根據Google工作表中填入的值啟用醫院預訂。
 
 ## 說明 {#description}
 
-在此使用案例中，Google Sheet會填入兩間餐廳 **Restaurant1** 和 **Restaurant2的預訂百分比**。 公式會根據Restaurant1和Restaurant2的值套用，並根據公式，值1或2會指派給 **AdTarget** 欄。
+在此使用案例中，Google Sheet會填入兩間餐廳&#x200B;**Restaurant1**&#x200B;和&#x200B;**Restaurant2**&#x200B;的預訂百分比。 公式根據Restaurant1和Restaurant2的值套用，並根據公式將值1或2指派給&#x200B;**AdTarget**&#x200B;欄。
 
-如果值為 **Restaurant1** **Restaurant2，則** AdTaget Taget值被分配為AdTarget值，否則 **AdTarget值會被分配為AdTarget************** 1 &gt; AdTarget的值。 Value 1會產 *生Steak food* option（牛排食品），而Value 2會在顯示畫面 *上顯示Thai* food（泰式食品）選項。
+如果&#x200B;**Restaurant1**>**Restaurant2**&#x200B;的值，則&#x200B;**AdTaget**&#x200B;被指派值&#x200B;**1**&#x200B;否則&#x200B;**AdTarget**&#x200B;被指派值&#x200B;**2**... 值1生成&#x200B;*牛排食品*&#x200B;選項，值2在顯示屏上顯示&#x200B;*泰式食品*&#x200B;選項。
 
-## 先決條件 {#preconditions}
+## 先決條件{#preconditions}
 
-在開始實作保留啟動之前，您必須瞭解如何在AEM Screens專案中設定 ***Data Store***、 ***Audience Segmentation******和Enable Targeting for Channels*** 。
+在開始實作保留啟動之前，您必須瞭解如何在AEM Screens專案中設定&#x200B;***Data Store***、***Audience Segmentation***&#x200B;和&#x200B;***Enable Targeting for Channels***。
 
-如需詳細 [資訊，請參閱「在AEM畫面中設定ContextHub](configuring-context-hub.md) 」。
+如需詳細資訊，請參閱「在AEM Screens[中設定ContextHub」。](configuring-context-hub.md)
 
-## 基本流程 {#basic-flow}
+## 基本流{#basic-flow}
 
 請依照下列步驟，為您的AEM Screens專案實作酒店預訂啟動使用案例：
 
 1. **填入Google工作表並新增公式。**
 
-   例如，將公式套用至第三欄 **AdTarget**，如下圖所示。
+   例如，將公式套用至第三欄&#x200B;**AdTarget**，如下圖所示。
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
 1. **根據需求在「對象」中設定區段**
 
-   1. 導覽至對象中的區段(請參 ***閱步驟2:在「在AEM畫面中設定ContextHub*** 」頁 **[](configuring-context-hub.md)** 面中設定「觀眾區段」，以取得詳細資訊)。
+   1. 導覽至對象中的區段(請參閱&#x200B;***步驟2:在&#x200B;**[「在AEM Screens](configuring-context-hub.md)**頁面中設定ContextHub」中設定「觀眾區隔」，以取得詳細資訊)。***
 
-   1. 選擇「 **工作表A1 1** 」，然後單 **擊編輯**。
-
-   1. 選擇比較屬性，然後按一下設定圖示以編輯屬性。
-   1. 從屬 **性名稱的下拉式清單中選取** 「Googlesheets/value/1/2 **」**
-
-   1. 從下拉 **式選單中選** 取「運 **算子等於** 」(Operator as equal)
-
-   1. 將值 **輸入****為1**
-
-   1. 同樣地，選擇 **工作表A1 2** ，然後單 **擊編輯**。
+   1. 選擇&#x200B;**工作表A1 1**，然後按一下&#x200B;**編輯**。
 
    1. 選擇比較屬性，然後按一下設定圖示以編輯屬性。
-   1. 從屬 **性名稱的下拉式清單中選取** 「Googlesheets/value/1/2 **」**
+   1. 從&#x200B;**屬性名稱**&#x200B;的下拉式清單中選擇&#x200B;**googlessheets/value/1/2**
 
-   1. 將運算 **元選** 為 **2**
+   1. 從下拉菜單中選擇&#x200B;**Operator**&#x200B;作為&#x200B;**equal**
 
-1. 導覽並選取您的頻道()，然後從動作 **列按一下** 「編輯」。 在下列範例中 **,DataDrivenRestaurant**，會使用循序頻道來展示功能。
+   1. 將&#x200B;**值**&#x200B;輸入為&#x200B;**1**
+
+   1. 同樣，選擇&#x200B;**工作表A1 2**&#x200B;並按一下&#x200B;**編輯**。
+
+   1. 選擇比較屬性，然後按一下設定圖示以編輯屬性。
+   1. 從&#x200B;**屬性名稱**&#x200B;的下拉式清單中選擇&#x200B;**googlessheets/value/1/2**
+
+   1. 選擇&#x200B;**運算子**&#x200B;作為&#x200B;**2**
+
+1. 導覽並選取您的頻道()，然後從動作列按一下「編輯&#x200B;**」。**&#x200B;在以下範例中，**DataDrivenRestaurant**&#x200B;會使用循序頻道來展示功能。
 
    >[!NOTE]
    >
-   >您的頻道應已擁有預設影像，且應依「在AEM畫面中設定ContextHub」中所述，預先 [設定觀眾](configuring-context-hub.md)。
+   >您的頻道應已有預設影像，且應依[在AEM Screens](configuring-context-hub.md)中設定ContextHub中所述預先設定觀眾。
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >您應該已使用「屬 **性」(Properties** ) **&gt;「個人化」(Personalization** **ContextHub)頁籤來設定ContextHub****** Configurations。
+   >您應使用渠道&#x200B;**屬性** —> **個人化**&#x200B;標籤設定&#x200B;**ContextHub** **配置**。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. 從編 **輯器中選取** 「定位」，然後從下拉式選單中選取「品牌 **」和「活動** 」，然後按一下「 ********&#x200B;開始定位」。
+1. 從編輯器中選擇&#x200B;**Targeting**，然後從下拉式選單中選擇&#x200B;**Brand**&#x200B;和&#x200B;**Activity**，然後按一下「開始定位&#x200B;**」。**
 1. **勾選預覽**
 
-   1. 按一下「 **預覽」。** 此外，請開啟您的Google工作表並更新其值。
-   1. 更新 **Restaurant1和****Restaurant2欄中的值** 。 如果 **Restaurant1** &gt; **Restaurant2,** 您應該可以檢視牛排食品的影像，否則，您的螢幕上會 **** 顯示泰式食品的影像。
-   ![result5](assets/result5.gif)
+   1. 按一下「預覽」。**** 此外，請開啟您的Google工作表並更新其值。
+   1. 更新&#x200B;**Restaurant1**&#x200B;和&#x200B;**Restaurant2**&#x200B;欄中的值。 如果&#x200B;**Restaurant1** > **Restaurant2,**&#x200B;您應該能夠檢視&#x200B;*Steak*&#x200B;食品的影像，則螢幕上會顯示&#x200B;*Thai*&#x200B;食品影像。
+
+   ![結果5](assets/result5.gif)
 
