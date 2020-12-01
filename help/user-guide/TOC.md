@@ -4,30 +4,30 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
-user-guide-description: 瞭解如何使用數位標牌解決方案，讓您發佈動態互動式數位體驗和互動。
+user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 translation-type: tm+mt
 source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 
-# AEM Screens使用指南 {#user-guide}
+# AEM Screens使用指南{#user-guide}
 
 + [螢幕簡介](aem-screens-introduction.md)
-+ 概觀與啟動指南 {#overview}
++ 概述和啟動指南{#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
    + [螢幕最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [主要條款](screens-glossary.md)
-+ 數位標牌網路基本概念 {#digital-signage-network}
++ 數位標牌網路基本概念{#digital-signage-network}
    + [第1部分：項目角色和責任](project-roles-responsibilities.md)
    + [第二部分：項目範圍時的注意事項](project-considerations.md)
    + [第3部分：測試、POC、試點和推展](testing-pocs-pilots-rollouts.md)
    + [第四部分：專案管理與部署](project-management-and-deployment.md)
    + [第5部分：支援考量事項](support-considerations.md)
-+ 配置和管理 {#administering}
++ 配置和管理{#administering}
    + [畫面伺服器組態](configuring-screens-introduction.md)
    + [設定Dispatcher配置](dispatcher-configurations-aem-screens.md)
    + [安裝Screens Player](installing-screens-player.md)
@@ -38,29 +38,29 @@ ht-degree: 5%
    + [從ContentSync轉換到SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器複製至發佈伺服器](replicating-data-triggers.md)
-   + 用戶端特定考量事項 {#installing-client}
+   + 客戶端特定考量事項{#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome Player做為擴充功能進行疑難排解](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
-   + Author Publish {#author-publish}
+   + 作者發佈{#author-publish}
       + [作者——發佈架構概觀](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
-   + Analytics與AEM Screens整合 {#analytics-integration}
+   + Analytics與AEM Screens {#analytics-integration}的整合
       + [Adobe Analytics整合](adobe-analytics-integration-aem-screens.md)
       + [使用AEM畫面設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
-+ 編寫和使用案例範例 {#authoring}
-   + 設定畫面專案 {#setting-up-projects}
++ 編寫和使用案例示例{#authoring}
+   + 設定畫面專案{#setting-up-projects}
       + [建立和管理專案](creating-a-screens-project.md)
       + [建立和管理渠道](managing-channels.md)
       + [建立和管理顯示](managing-displays.md)
       + [建立和管理位置](managing-locations.md)
       + [建立和管理計畫](managing-schedules.md)
       + [管理裝置](managing-devices.md)
-      + 指派渠道 {#assigning-channels}
+      + 分配通道{#assigning-channels}
          + [頻道指定任務](channel-assignment-latest-fp.md)
          + [渠道分配：舊版AEM Screens功能套件](channel-assignment.md)
-   + 使用核心產品功能 {#product-features}
+   + 使用核心產品功能{#product-features}
       + [文字重疊](text-overlay.md)
       + [大量離線更新](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
@@ -78,11 +78,11 @@ ht-degree: 5%
       + [命令同步](using-command-sync.md)
       + [使用資料觸發器製作內容](authoring-data-triggers.md)
       + [語音識別](voice-recognition.md)
-   + 管理內容更新 {#content-updates}
+   + 管理內容更新{#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
       + [使用畫面啟動來更新內容](launches.md)
-   + 使用案例範例 {#use-case-examples}
+   + 使用案例範例{#use-case-examples}
       + [緊急通道](emergency-channel.md)
       + [旅行中心溫度激活](local-temperature-activation.md)
       + [酒店預訂激活](hospitality-reservation-activation.md)
@@ -91,7 +91,7 @@ ht-degree: 5%
       + [多區域到單區域的過渡](multizone-to-singlezone.md)
       + [單次使用TakeOver通道](single-use-takeover-channel.md)
       + [永久使用TakeOver Channel](perpetual-takeover-channel.md)
-+ 開發人員與API資源 {#developing}
++ 開發人員與API資源{#developing}
    + [REST API](rest-api.md)
    + [開發AEM畫面的自訂元件](developing-custom-component-tutorial-develop.md)
    + [離線渠道](offline-channels.md)
@@ -101,7 +101,7 @@ ht-degree: 5%
    + [在AEM畫面中設定ContextHub](configuring-context-hub.md)
    + [建立多區域版面的自訂範本](creating-custom-templates-multizone-layouts.md)
    + [為文字覆蓋套用自訂品牌和樣式](custom-branding-text-overlays.md)
-+ 疑難排解和常見問答集 {#troubleshooting}
++ 疑難排解和常見問答集{#troubleshooting}
    + [AEM Screens常見問答集](aem-screens-faqs.md)
    + [設備控制中心故障排除](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
