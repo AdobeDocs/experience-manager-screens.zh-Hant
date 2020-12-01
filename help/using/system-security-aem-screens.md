@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# AEM畫面的系統安全性考量 {#security-checklist}
+# AEM Screens {#security-checklist}的系統安全性考量
 
 >[!IMPORTANT]
 >這是內部Git資源。
@@ -20,12 +20,12 @@ ht-degree: 1%
 本頁反白顯示「AEM畫面的系統安全性考量」。
 
 
-## AEM畫面安全性白皮書 {#white-paper}
+## AEM Screens安全性白皮書{#white-paper}
 
 本節將介紹白皮書。 （待定白皮書附件）
 
 
-## AEM Screens安全性的常見問答集 {#faqs-screens}
+## AEM Screens Security {#faqs-screens}的常見問答集
 
 下列常見問答集假設使用HTTPS做為播放器與AEM Server之間的通訊協定的已驗證、已註冊的播放器架構。
 
