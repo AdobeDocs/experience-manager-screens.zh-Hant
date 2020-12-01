@@ -26,101 +26,101 @@ ht-degree: 2%
 >您可以指派多個頻道至顯示器。
 
 
-## 指派渠道 {#assign-a-channel-new-release}
+## 分配通道{#assign-a-channel-new-release}
 
 請依照下列章節建立AEM Screens專案，並指派頻道至顯示器。
 
-### 建立AEM畫面專案和頻道 {#creating-project}
+### 建立AEM Screens專案和頻道{#creating-project}
 
 請依照下列步驟來設定專案和渠道：
 
-1. 建立標題為「 **DemoScreens」的AEM Screens專案**。
+1. 建立標題為&#x200B;**DemoScreens**&#x200B;的AEM Screens專案。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >請參閱「 [建立和管理專案](creating-a-screens-project.md) 」以瞭解如何建立AEM Screens專案。
+   >請參閱[建立和管理專案](creating-a-screens-project.md)以瞭解如何建立AEM Screens專案。
 
-1. 在「頻道」資料夾中建立名 **為** 「食堂」 **的序列頻道** 。
+1. 在&#x200B;**Channels**&#x200B;資料夾中建立名為&#x200B;**Cafeteria**&#x200B;的序列頻道。
 
-1. 選取頻道，然後從動 **作列按一下** 「編輯」，將內容新增至頻道。
+1. 選擇頻道，然後從動作列按一下「編輯」，將內容新增至頻道。****
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   例如， **Cafeteria** 頻道現在會顯示下列影像：
+   例如，**Cafeteria**&#x200B;頻道現在會顯示下列影像：
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. 建立標題為 **SanJose** 的位置，以及顯示為 **Lobby**。
+1. 建立標題為&#x200B;**SanJose**&#x200B;的位置，並建立標題為&#x200B;**Lobby**&#x200B;的顯示。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### 將頻道指派給顯示 {#assigning-channel-to-display}
+### 為顯示指定頻道{#assigning-channel-to-display}
 
 專案設定完成後，您必須將頻道指派給顯示器，才能檢視內容。
 
-1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
+1. 導覽至所需的顯示畫面，例如&#x200B;**DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**。
 
-1. 從動作列點選/ **按一下** 「指派渠道」。
+1. 從動作列點選／按一下「指定頻道&#x200B;**」。**
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或,
 
-   從動作列點選/ **按一下** 「儀表板」，然後從「已指派的頻道與排程」面板按一 **下+「指派頻道」****** 。
+   從動作列點選／按一下「**儀表板**」，然後從「已指派的頻道與排程」面板按一下「**+指定頻道**」。****
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. 「渠 **道分配** 」對話框開啟。
+1. 將開啟&#x200B;**通道分配**&#x200B;對話框。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 從「設 **定** 」選項中，您可以 **按路徑選擇渠道** , **或按名稱進入Channel Name**、Channel Role、 **************** ChannelPriorityEvents、Ching Repority Adjusted Chiraction Alignment。 此外，您也可以從此對話方塊啟用吸引工具提示。
+1. 從&#x200B;**Settings**&#x200B;選項中，可以按路徑&#x200B;**或**&#x200B;按名稱&#x200B;**選擇渠道**，輸入「渠道角色&#x200B;**、** Priority **、**&#x200B;支援的事件&#x200B;**和**&#x200B;中斷方法&#x200B;**。**&#x200B;此外，您也可以從此對話方塊啟用吸引工具提示。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道指派屬性。
+   >請參閱[頻道屬性](#channel-properties)一節，以進一步瞭解頻道指派屬性。
 
-1. 從「計 **划** 」選項中，選 **擇「激活窗口** 」和「 **定期計畫**」。
+1. 從&#x200B;**Schedule**&#x200B;選項中，選擇&#x200B;**激活窗口**&#x200B;和&#x200B;**Recurreance Schedule**。
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >請參閱 [渠道屬性](#channel-properties) ，以進一步瞭解渠道指派屬性。
+   >請參閱[頻道屬性](#channel-properties)一節，以進一步瞭解頻道指派屬性。
 
-1. 設定好 **偏好設定後** ，按一下「儲存」。
+1. 在配置首選項後，按一下「保存」。****
 
-### 在Chrome Player中檢視內容 {#viewing-content-output}
+### 在Chrome Player中檢視內容{#viewing-content-output}
 
 此範例將展示Chrome Player的輸出。 將頻道指派給顯示器後，您必須將裝置註冊到播放器。
 
-請參閱「 [裝置註冊](device-registration.md) 」以瞭解如何在AEM Screens播放器上註冊裝置。
+請參閱[裝置註冊](device-registration.md)以瞭解如何在AEM Screens播放器上註冊裝置。
 
 在您選擇的播放器上，您將檢視下列輸出：
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## 時間軸檢視 {#timeline-view}
+## 時間軸檢視{#timeline-view}
 
-在將渠道指派給顯示並設定定期排程後，您就可以從「已指派的渠道與排程」面板 **檢視時間軸** 。
+在將頻道指派給顯示器並設定定期排程後，您就可以從&#x200B;**ASSIGNED CHANNELS &amp; SCHEDULES**&#x200B;面板檢視時間軸。
 
 請依照下列步驟導覽至時間軸檢視：
 
-1. 導覽至所需的顯示畫面，例如 **Screens** —> **Locations** —> **Jose** — **** Lobby Demo。
+1. 導覽至所需的顯示畫面，例如&#x200B;**DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**。
 
-1. 從動作列點選/ **按一下** 「指派渠道」。
+1. 從動作列點選／按一下「指定頻道&#x200B;**」。**
 
    或,
 
-   點選／按一 **下「控制面板** 」，然後從「已指派的頻道與排程」面板按一下「時間軸 **」(Timeline****** )。
+   點選／按一下「**儀表板**」，然後從「已指派頻道與排程」面板按一下「**時間軸**」。****
 
    ![影像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## 從渠道分配對話框瞭解渠道屬性 {#channel-properties}
+## 瞭解渠道分配對話框中的渠道屬性{#channel-properties}
 
-從「渠道分配」對話框的「 **設定** 」選項 **中設定以下屬性** 。
+從&#x200B;**渠道分配**&#x200B;對話框中的&#x200B;**設定**&#x200B;選項設定以下屬性。
 
 ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 * **依路徑**:您可使用渠道的絕對路徑提供明確的參照。
 
-* **按名稱**:您可以輸入渠道的名稱，該名稱將依據上下文解析為實際渠道。 此功能可讓您建立頻道的本機版本，以動態解析特定位置的內容。 例如，某個頻道的名 *稱是當天的交易*，實際內容在兩個城市中會有所不同，但您在所有顯示器上仍具有理智的頻道角色。
+* **按名稱**:您可以輸入渠道的名稱，該名稱將依據上下文解析為實際渠道。此功能可讓您建立頻道的本機版本，以動態解析特定位置的內容。 例如，名稱為&#x200B;*的頻道會處理day*，其中實際內容在兩個城市中會有所不同，但您在所有顯示器上仍具有正常的頻道角色。
 
 ### 頻道角色 {#role-channel}
 
@@ -142,12 +142,12 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如上所述，在「渠道分配」對話框中，渠道的優先順序設 **置為數字** （最低為1）。 此外，根據遞減優先順序對所分配的頻道進行排序。
+>如上所述，在&#x200B;**頻道分配**&#x200B;對話方塊中，頻道的優先順序設為數字（最低為1）。 此外，根據遞減優先順序對所分配的頻道進行排序。
 
 ### 支援的事件 {#supported-events-channel}
 
-* **初始載入**:在播放器啟動時載入頻道。 它可與排程組合指派給多個渠道
-* **空閒螢幕**:當畫面閒置時載入。 它可與排程組合指派給多個渠道
+* **初始載入**:在播放器啟動時載入頻道。它可與排程組合指派給多個渠道
+* **空閒螢幕**:當畫面閒置時載入。它可與排程組合指派給多個渠道
 * **計時器**:需要在提供計畫時進行設定
 * **使用者互動**:如果螢幕上有使用者互動（觸控）在閒置頻道中，播放器會切換至指定頻道，並會在觸碰螢幕時載入
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
 身為內容作者，您應該可以指定頻道中斷的時間，以便選擇切斷非關鍵內容，但可以選擇在由於排程而中斷播放之前，先讓重要內容完全播放。
 
-從「頻道分配」對話框中選擇以下選項之一，以設定中 **斷方法** :
+從&#x200B;**通道分配**&#x200B;對話框中選擇以下用於設定中斷方法的選項之一：
 
 * **立即**:每當排程啟動或收到更新時，您就可以切斷播放並立即重新整理或播放新內容
 * **在目前項目的結尾**:當啟動新排程或收到更新時，您可以選擇等候序列中的目前項目結束播放，且必須等到您重新整理或播放新內容後
@@ -171,28 +171,28 @@ ht-degree: 2%
    >[!NOTE]
    >使用第二個或第三個選項可能導致指派上定義的排程時間稍微延遲，因為播放器會等候項目或序列結束（在指定時間之後）再重新整理。 延遲將視項目的播放持續時間而定。
 
-從「渠道分配」對話框的「 **計畫** 」選項 **中設定以下屬性** 。
+從&#x200B;**渠道分配**&#x200B;對話框中的&#x200B;**計畫**&#x200B;選項設定以下屬性。
 
 ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### 啟用時間 {#activation-window}
 
-「啟動」視窗可讓您選擇「開始 **日期** 」和「 **結束日期** 」來顯示您的內容。
+「啟動」視窗可讓您選擇&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**&#x200B;來顯示您的內容。
 
 ### 週期排程 {#recurrence-schedule}
 
-「定期排程」可讓您設定內容的循環排程。 按一下 **+新增排程** ，將定期排程新增至渠道。
+「定期排程」可讓您設定內容的循環排程。 按一下&#x200B;**+新增排程**，將定期排程新增至您的頻道。
 
 >[!NOTE]
 >您可以新增多個循環計畫至渠道。
->週期計畫引入 *DayParting*，可讓您設定具有在一天中特定時間執行多個渠道的全域計畫，並一次對所有顯示重新使用該設定。
+>定期排程引入&#x200B;*DayParting*，可讓您設定在一天中特定時間執行多個頻道的全域排程，並一次將該設定重新用於所有顯示。
 
 您可以設定下列選項：
 
 * **名稱**:定期排程的標題。
-* **重複**:選擇計畫是運行 **Daily**、 **Weekly**、 **Monthly******&#x200B;還是Yearly Really Really。
+* **重複**:選擇計畫是運行 **Daily**、 **Weekly**、 **Monthly** ****&#x200B;還是Yearly Really Really。
 * **開始**:排程的開始時間。
-* **結束**:排程的結束時間。 您可以依時間或持續時間來設定。
+* **結束**:排程的結束時間。您可以依時間或持續時間來設定。
    * **時間**:排程將在指定時間結束。
    * **持續時間**:排程會以小時或分鐘為單位，在特定時段內執行。
 
@@ -202,7 +202,7 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 
 下列範例說明在三種不同情況下的渠道中的DayParting:
 
-#### 在分成多個時段的一天中播放內容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### 在分成多個時段的單日播放內容{#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 此範例說明餐廳如何使用DayParting來展示其每日的早餐、午餐和晚餐菜單。
 
@@ -214,7 +214,7 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 | 午餐 | 每日 | 11:00 AM | 3:00 PM |
 | 晚餐 | 每日 | 3:00 PM | 8:00 PM |
 
-#### 在一週中的某一天播放內容 {#playing-content-on-a-particular-day-of-the-week}
+#### 在一週中的某一天播放內容{#playing-content-on-a-particular-day-of-the-week}
 
 此範例顯示在賭場中實作的DayParting，該賭場每週末從8:00 pm到10:00 pm都會進行即時活動，而且晚上10:00到1:00 am之後，晚餐功能表會提供特惠。
 
@@ -225,4 +225,4 @@ DayParting是指將一天分割為時段，並指定在所需時間播放的內�
 
 >[!NOTE]
 >
->此外，您可以為每 ***個頻道*** 定義「優先順序」。 例如，如果針對同一天和時間或同一月設定了兩個頻道，則會先播放優先順序較高的頻道。 優先順序的最小值可以設定為0。
+>此外，您可以為每個通道定義&#x200B;***Priority***。 例如，如果針對同一天和時間或同一月設定了兩個頻道，則會先播放優先順序較高的頻道。 優先順序的最小值可以設定為0。
