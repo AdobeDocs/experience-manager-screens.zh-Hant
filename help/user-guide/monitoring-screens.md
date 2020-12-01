@@ -19,21 +19,21 @@ ht-degree: 2%
 ---
 
 
-# 設備控制中心故障排除 {#troubleshooting-device-control-center}
+# 設備控制中心{#troubleshooting-device-control-center}故障排除
 
 您可以使用「裝置」控制面板來監視和疑難排解螢幕播放器活動與裝置的效能。 本頁提供如何監視和疑難排解Screens播放器和已指派裝置的效能問題的資訊。
 
-## 從設備控制中心監視和故障排除 {#monitor-and-troubleshoot-from-device-control-center}
+## 從設備控制中心{#monitor-and-troubleshoot-from-device-control-center}監視和故障排除
 
 您可以使用「裝置儀表板」來監視活動，並因此疑難排解您的Screens播放器。
 
-### 裝置儀表板 {#device-dashboard}
+### 裝置控制面板{#device-dashboard}
 
 請依照下列步驟導覽至裝置控制面板：
 
-1. 從您的專案導覽至裝置控制面板，例如 ***Test Project*** —>裝 ***置***。
+1. 從您的專案導覽至裝置儀表板，例如&#x200B;***測試專案*** —> ***裝置***。
 
-   從操 **作欄中** ，選 **擇「設備和設備管理器** 」。
+   從操作欄中選擇&#x200B;**設備**&#x200B;和&#x200B;**設備管理器**。
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 選取裝置(**NewTestDevice**)，然後從動作列按 **一下「儀表板** 」。
+1. 選擇設備(**NewTestDevice**)，然後從操作欄中按一下&#x200B;**儀表板**。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -49,67 +49,67 @@ ht-degree: 2%
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 
-### 監視設備活動 {#monitor-device-activity}
+### 監視設備活動{#monitor-device-activity}
 
-「活 **動** 」面板會顯示畫面播放器的上次ping及時間戳記。 最後一個ping命令與設備上次聯繫伺服器的時間相對應。
+**Activity**&#x200B;面板會顯示時間戳記對畫面播放器的最後一個ping。 最後一個ping命令與設備上次聯繫伺服器的時間相對應。
 
 ![chlimage_1](assets/chlimage_1.png)
 
-此外，按一 **下「活動****** 」面板右上角的「收集記錄檔」，以檢視您播放器的記錄檔。
+此外，按一下&#x200B;**Activity**&#x200B;面板右上角的「收集記錄檔」，以檢視您播放器的記錄檔。****
 
-### 更新裝置詳細資訊 {#update-device-details}
+### 更新設備詳細資訊{#update-device-details}
 
-檢查「 **Device Details** （裝置詳細資訊）」面板，以檢視裝置的IP、儲存空間使用情況、韌體版本，以及播放器的正常運作時間。
+檢查&#x200B;**Device Details**&#x200B;面板，以檢視裝置的裝置IP、儲存空間使用情況、韌體版本和播放器正常運作時間。
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-此外，按一下 **清除快取** 和 **更新** ，分別清除設備的快取和更新 [](screens-glossary.md) 韌體版本。
+此外，按一下「清除快取&#x200B;**和**&#x200B;更新&#x200B;**」以清除設備的快取，並分別從此面板更新[韌體](screens-glossary.md)版本。**
 
-此外，按一下 **...** 從「裝置詳細資訊」面板的右上角 **重新啟動** ，或重新整理您播放器的狀態。
+此外，按一下&#x200B;**...**&#x200B;從&#x200B;**Device Details**&#x200B;面板的右上角，重新啟動或重新整理播放器的狀態。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### 更新裝置資訊 {#update-device-information}
+### 更新設備資訊{#update-device-information}
 
-檢查 **DEVICE INFORMATION** （裝置資訊）面板，以檢視組態更新、裝置型號、裝置作業系統和殼層資訊。
+檢查&#x200B;**設備資訊**&#x200B;面板以查看配置更新、設備型號、設備作業系統和shell資訊。
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-此外，按一&#x200B;**下「裝置資訊」面板右上角的**(...)以檢視屬性或更新裝置。
+此外，按一下(**...**)，檢視屬性或更新裝置。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-按一下 **屬性** ，查看設 **** 備屬性對話框。 您可以編輯裝置標題，或選擇「手動」或「自動」的 **配置更** 新 **選項**。
+按一下&#x200B;**屬性**&#x200B;以查看&#x200B;**設備屬性**&#x200B;對話框。 您可以編輯設備標題或選擇配置更新選項，如&#x200B;**Manual**&#x200B;或&#x200B;**Automatic**。
 
 >[!NOTE]
 >
->若要進一步瞭解與裝置自動或手動更新相關的事件，請參閱「管理頻道」中「裝置儀表板」的「自動與手動更新 ***」*** 一節 [](managing-channels.md)。
+>若要進一步瞭解與裝置自動或手動更新相關的事件，請參閱[管理頻道](managing-channels.md)中「裝置儀表板」的「自動與手動更新」一節。******
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
-### 檢視播放器螢幕擷取 {#view-player-screenshot}
+### 檢視播放器螢幕擷取{#view-player-screenshot}
 
-您可從「播放器螢幕擷取」面板中，從裝置檢 **視播放器螢幕擷取** 。
+您可以從&#x200B;**播放器螢幕擷取**&#x200B;面板檢視裝置的播放器螢幕擷取。
 
-按一下「播&#x200B;**放器螢幕擷取」面板右上角的(...**)，並選取「重新整理螢幕擷取 **** 」以檢視執行中播放器的快照。
+按一下(**...**)，並選取&#x200B;**重新整理螢幕擷取**&#x200B;來檢視執行中播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
-### 管理偏好設定 {#manage-preferences}
+### 管理首選項{#manage-preferences}
 
-PREFERENCES **** (偏好設定 **)面板可讓使用者變更** Admin UI **、** Channel Switcher **，以及裝置的** 遠端除錯偏好設定。
+**PREFERENCES**&#x200B;面板允許用戶更改設備&#x200B;**管理UI**、**通道切換器**&#x200B;和&#x200B;**遠程調試**&#x200B;的首選項。
 
 >[!NOTE]
->若要進一步瞭解這些選項，請參閱「 [AEM Screens Player](working-with-screens-player.md)」。
+>若要進一步瞭解這些選項，請參閱[AEM Screens Player](working-with-screens-player.md)。
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-此外，按一 **下右上角的** 「設定」，以更新裝置偏好設定。 您可以更新下列偏好設定：
+此外，按一下右上角的「設定」****&#x200B;以更新裝置偏好設定。 您可以更新下列偏好設定：
 
 * **伺服器 URL**
 * **解析度**
 * **重新開機排程**
-* **Max No. 要保存的日誌檔案**
+* **Max No.保存的日誌檔案數**
 * **記錄層級**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -125,16 +125,16 @@ PREFERENCES **** (偏好設定 **)面板可讓使用者變更** Admin UI **、**
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## 疑難排解OSGi設定 {#troubleshoot-osgi-settings}
+## 疑難排解OSGi設定{#troubleshoot-osgi-settings}
 
 您必須啟用空的反向連結，以允許裝置將資料張貼至伺服器。 例如，如果停用空的反向連結屬性，裝置就無法將螢幕擷取張貼回去。
 
-目前，部分功能僅在OSGi組態中啟用 *Apache Sling Referrer Filter Allow Empty* 時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
+目前，部分功能僅在OSGi組態中啟用&#x200B;*Apache Sling Referrer Filter Allow Empty*&#x200B;時才可用。 控制面板可能會顯示警告，指出安全性設定可能會使部分功能無法運作。
 
 請依照下列步驟來啟用Apache Sling Referrer Filter Allow Empty
 
-1. 導覽至 **Adobe Experience Manager Web Console設定**，即 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
-1. 選中 **allow.empty選項** 。
+1. 導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**，即`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
+1. 選中&#x200B;**allow.empty**&#x200B;選項。
 1. 按一下&#x200B;**「儲存」**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
@@ -145,10 +145,10 @@ PREFERENCES **** (偏好設定 **)面板可讓使用者變更** Admin UI **、**
 
 AEM提供內建的監控功能：
 
-* *心率* （每5秒），以指出AEM Screens Player已運作。
-* *來自* Player的螢幕擷取，顯示Player中目前顯示的內容。
-* Player上 *安裝的AEM Screens Player Firmware* version。
-* *Player上的可用儲存空間* 。
+* *「* Heartbeavery 5 seconds」（心動5秒）以指出AEM Screens Player正在運作。
+* *播* 放器的螢幕分鏡，顯示播放器上目前顯示的內容。
+* Player上安裝的&#x200B;*AEM Screens Player Firmware*&#x200B;版本。
+* *播放器* 上的免費儲存空格。
 
 使用第三方軟體進行遠程監控的建議：
 
@@ -161,4 +161,4 @@ AEM提供內建的監控功能：
 
 #### 其他資源 {#additional-resources}
 
-請參 [閱視訊播放設定和疑難排解](troubleshoot-videos.md) ，以除錯和疑難排解頻道中播放的視訊。
+請參閱[視訊播放設定和疑難排解](troubleshoot-videos.md)，以除錯和疑難排解頻道中播放的視訊。
