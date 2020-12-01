@@ -27,46 +27,47 @@ ht-degree: 1%
 
 若要實作適用於AEM畫面的Windows Player，請安裝適用於AEM畫面的Windows Player。
 
-請造訪 [**AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
+請造訪&#x200B;[**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)頁面。
 
 >[!NOTE]
 >Windows Player中沒有窗口模式。 一律為全螢幕模式。
 
-### 設定AEM Screens 6.5.5 Service Pack的環境 {#fp-environment-setup}
+### 設定AEM Screens 6.5.5 Service Pack {#fp-environment-setup}的環境
 
 >[!NOTE]
 >如果您使用AEM Screens 6.5.5 Service Pack，您必須為Windows Player設定環境。
 
-將 **Adobe Experience Manager Web Console的登入Token Cookie的****SameSite屬性從** Lax **設為** None，從 **** Adobe Experience Manager Web主控台設定所有AEM作者和發佈例項上的SameSite屬性。
+從&#x200B;**Adobe Experience Manager Web Console將login-token Cookie**&#x200B;的&#x200B;**SameSite屬性從** Lax **設定為** None **在所有AEM作者和發佈例項上進行Configuration**。
 
 請遵循下列步驟：
 
-1. 導覽至 **Adobe Experience Manager Web Console使用設定**`http://localhost:4502/system/console/configMgr`。
+1. 導覽至&#x200B;**Adobe Experience Manager Web Console
+使用`http://localhost:4502/system/console/configMgr`的Configuration**。
 
-1. 搜尋 *Adobe Granite Token驗證處理常式*。
+1. 搜尋&#x200B;*Adobe Granite Token驗證處理常式*。
 
-1. 將登入 **Token Cookie的SameSite屬性從****Lax設為****None**。
+1. 將login-token Cookies的&#x200B;**SameSite屬性從** Lax **設為** None **。**
    ![影像](/help/user-guide/assets/granite-updates.png)
 
 1. 按一下&#x200B;**「儲存」**。
 
-### 臨機方法 {#ad-hoc-method}
+### 臨機方法{#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造 [**訪AEM 6.5播放器下載頁面**](https://download.macromedia.com/screens/) 。
+臨機方法可讓您安裝最新的Windows Player(*.exe*)。 請造訪&#x200B;[**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)頁面。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
 1. 長按左上角以開啟管理面板。
-1. 從左 **側動作功能表導覽至** 「設定」，然後輸入您要連線至的AEM例項的位置（位址），然後按一下「 **儲存」**。
-1. 從左側的 **動作功能表導** 覽至「裝置註冊 **** 」連結，以檢查裝置註冊程式的狀態。
+1. 從左側動作功能表導覽至&#x200B;**Configuration**，然後輸入您要連線至的AEM例項位置（位址），然後按一下「儲存&#x200B;**a3/>」。**
+1. 從左側操作菜單導航到&#x200B;**設備****註冊**&#x200B;連結，以檢查設備註冊過程的狀態。
 
 >[!NOTE]
 >
->如果「 **狀態** 」為「已注 **冊**」，您會注意到 **「裝置id** 」欄位將會填入。
+>如果&#x200B;**State**&#x200B;是&#x200B;**REGISTERED**，您會注意到&#x200B;**Device id**&#x200B;欄位將會填入。
 >
->如果狀 **態為****UNECRISTERED**，您可以使用 **Token** 來註冊裝置。
+>如果&#x200B;**State**&#x200B;是&#x200B;**UNECROVERED**，則可使用&#x200B;**Token**&#x200B;註冊裝置。
 
-### 批量伺服器配置：使用一個配置註冊多個Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### 批量伺服器配置：使用一個配置{#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}註冊多個Windows 10播放器
 
 在安裝Windows播放器後，您可以使用一個配置註冊多個播放器。
 
@@ -81,10 +82,10 @@ ht-degree: 1%
 請依照下列步驟來設定Windows 10 Player:
 
 1. 安裝Windows Player。
-1. 在 ***%appdata%\com.adobe.aem.screens.player\config.json下尋找設定檔案***。
+1. 在&#x200B;***%appdata%\com.aem.screens.player\config.json***&#x200B;下尋找設定檔案。
 1. 使用下列資訊更新設定JSON，然後將相同資料夾複製到播放器所在的所有系統。
 
-### 策略屬性 {#policy-attributes}
+### 策略屬性{#policy-attributes}
 
 下表匯總了策略屬性，其中包含範例策略JSON以供參考：
 
@@ -97,7 +98,7 @@ ht-degree: 1%
 | enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定後，請考慮在生產中設定為false。 |
 | enableActivityUI | 啟用以顯示活動的進度，例如下載和同步。 啟用疑難排解功能，並在完全設定後在生產中停用。 |
 
-#### 範例原則JSON檔案 {#example-policy-json-file}
+#### 原則JSON檔案範例{#example-policy-json-file}
 
 ```
 {
@@ -110,7 +111,7 @@ ht-degree: 1%
 }
 ```
 
-## 啟用Kiosk模式 {#enabling-kiosk-mode}
+## 啟用Kiosk模式{#enabling-kiosk-mode}
 
 當您部署Windows播放器時，請務必啟用Kiosk模式，以便其他應用程式或工作列不會出現在Windows案頭上。
 
@@ -126,11 +127,11 @@ ht-degree: 1%
 
 1. 啟用Shell Launcher。
 
-   有關詳細信 ***息，請參閱Microsoft Windows支援*** 「在 **[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell Launcher中配置Shell Launcher」一節。
+   有關詳細資訊，請參閱Microsoft Windows支援的「在&#x200B;**[殼啟動程式](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**&#x200B;頁中配置殼啟動程式&#x200B;***部分。***
 
 1. 建立非管理使用者（如果您尚未使用）以用於資訊站。 此用戶可以是本地用戶或域用戶。
-1. 從 [AEM Screens Player下載頁面為該Kiosk使用者安裝Windows播放器](https://download.macromedia.com/screens/) 。
-1. 如需詳 [細資訊，請參閱「使用Shell Launcher建立Windows 10kiosk](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) 」以修改PowerShell指令碼。
+1. 從[AEM Screens Player Downloads](https://download.macromedia.com/screens/)頁面為該Kiosk使用者安裝Windows播放器。
+1. 如需詳細資訊，請參閱[使用Shell Launcher建立Windows 10 kiosk](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher)以修改PowerShell指令碼。
 
    修改PowerShell指令碼，將用戶名替換為您建立的用戶名。 確保應用程式執行檔的路徑正確。 這會將自訂shell設為kiosk使用者的Windows播放器應用程式，並將其他使用者的預設值設為explorer.exe。
 
@@ -143,7 +144,7 @@ ht-degree: 1%
 
 Windows Player的預設安裝路徑為：
 
-***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt；您的使用者>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 連結中的範例指令碼將啟用和停用自訂殼層。 因此，您可能需要將指令碼拆分為兩行，並啟用／禁用以下適用行：
 
@@ -151,9 +152,9 @@ Windows Player的預設安裝路徑為：
 >
 >在某些Windows環境中， PowerShell指令碼可能受到策略（尤其是未簽名的指令碼）的限制。 要運行指令碼，您可能需要暫時禁用並重新啟用此限制以運行指令碼。 開啟PowerShell窗口，然後使用這些命令。
 >
->*set-executionpolicy unrestricted* —— 暫時移除限制
+>*set-executionpolicy unrestricted* - to timperially remove restrictions
 >
->*set-executionpolicy restricted* —— 在執行指令碼後重新啟用限制
+>*set-executionpolicy restricted* - to re-enable restriction after running the script
 
 ```
 # Remove the new custom shells.
