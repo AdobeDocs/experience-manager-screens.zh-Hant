@@ -16,11 +16,11 @@ ht-degree: 0%
 
 請依照下列步驟，為AEM畫面實作Tizen Player:
 
-1. 導覽至 [**AEM 6.5 Player下載頁面**](https://download.macromedia.com/screens/) ，以下載Tizen Player。
+1. 導覽至&#x200B;[**AEM 6.5 Player下載**](https://download.macromedia.com/screens/)頁面以下載Tizen Player。
 
 1. 從本機電腦安裝Tizen播放器(.zip)檔案。
 
-## 設定本地伺服器並解壓Zip檔案 {#setting-local-server}
+## 設定本地伺服器並解壓Zip檔案{#setting-local-server}
 
 請依照下列步驟來設定本機伺服器並複製解壓縮的檔案：
 
@@ -32,21 +32,21 @@ ht-degree: 0%
 
 1. Tizen播放器會從本機伺服器下載安裝程式。
 
-1. 將兩個提取的檔案（如和） `AEMScreensPlayer.wgt` 復 `sssp_config.xml` 制到本地伺服器的根目錄中。
+1. 將兩個提取的檔案（如`AEMScreensPlayer.wgt`和`sssp_config.xml`）複製到本地伺服器的根目錄。
 
-### 在Samsung裝置上設定更新 {#config-updates}
+### 在Samsung設備上配置更新{#config-updates}
 
 請依照Samsung裝置上的下列步驟，在裝置上完成AEM Screens播放器的安裝：
 
 1. 請至您的Samsung裝置。
 
-1. 使用裝 **置的遠端按一下「首頁** 」按鈕，然後選取「 **URL啟動器設定」**。
+1. 使用設備的遠程設備按一下&#x200B;**Home**&#x200B;按鈕，然後選擇&#x200B;**URL Launcher Settings**。
 
 1. 輸入localhost伺服器的IP地址。
 
-1. 從「開 **發人員** 」模式 **中選擇「遠端」**。
+1. 從&#x200B;**開發人員模式**&#x200B;中選擇&#x200B;**Remote**。
 
-1. 從裝置 **的遠端按一下「首頁** 」按鈕，然後選取「 **URL啟動器」**。
+1. 按一下設備遠程中的&#x200B;**Home**&#x200B;按鈕，然後選擇&#x200B;**URL Launcher**。
 
 1. AEM Screens Player現在應會自動在您的Samsung裝置上安裝和啟動。
 
