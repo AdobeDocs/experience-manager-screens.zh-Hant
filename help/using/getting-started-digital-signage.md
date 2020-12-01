@@ -1,6 +1,6 @@
 ---
-title: 適用於 [!UICONTROL AEM螢幕的數位標牌基本概念]
-seo-title: 適用於 [!UICONTROL AEM螢幕的數位標牌基本概念]
+title: '[!UICONTROL AEM Screens]的數位標牌基本概念'
+seo-title: '[!UICONTROL AEM Screens]的數位標牌基本概念'
 description: 本指南說明數位標牌專案的基本概念
 seo-description: 本指南說明數位標牌專案的基本概念
 translation-type: tm+mt
@@ -12,15 +12,15 @@ ht-degree: 2%
 ---
 
 
-# 數位標牌專案的基本概念 {#basics-digital-signage}
+# 數位標牌專案的基本概念{#basics-digital-signage}
 
 在深入探討AEM Screens實作最佳實務之前，請務必將專案視為數位標牌專案，而非傳統的軟體開發。
 
 本節提供在AEM Screens專案實作之前，關鍵要素的建議。
 
-## 數位標牌的關鍵要素 {#key-elements}
+## 數位招牌的關鍵要素{#key-elements}
 
-數 *位標牌專案* 「關鍵元素」包括：
+數字標牌項目中的&#x200B;*關鍵元素*&#x200B;是：
 
 ![](/help/assets/Elements-Revised.png)
 
