@@ -2,10 +2,10 @@
 title: 功能套件202011發行說明
 description: 本頁說明Feature Pack 202011的發行說明。
 translation-type: tm+mt
-source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
+source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '260'
+ht-degree: 4%
 
 ---
 
@@ -30,13 +30,13 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 * **內容指派報表**
 
    「內容指派報表」功能可讓AEM Screens管理員或作者匯出&#x200B;*內容指派報表*，該報表可能為試算表格式。
-如需詳細資訊，請參閱**內容指派報表**。
+如需詳細資訊，請參閱[內容指派報表](/help/user-guide/content-assignment-report.md)。
 
 
 * **Tizen Player**
 
    AEM Screens 6.5.6版本的最新功能套件已推出稱為Tizen Player的新播放器。
-如需詳細資訊，請參閱**實作Tizen Player**。
+如需詳細資訊，請參閱[實作Tizen Player](/help/user-guide/tizen-player.md)。
 
 * **從「裝置管理員」搜尋功能**
 
@@ -46,17 +46,15 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
    此發行的預設ping間隔現在設定為30秒。
 
-### 已知問題和修正{#known-issues}
-
-
-
 ### 已發行的AEM畫面播放器{#released-aem-screens-players}
 
-已針對發行的AEM畫面發行下列AEM畫面播放器
+AEM 6.5 Feature Pack 6已發行下列AEM Screens Player:
 
 * Chrome OS
 * Windows
 * Android
+* 蒂岑
+* Linux
 
 #### AEM Screens Player下載{#aem-screens-player-downloads}
 
