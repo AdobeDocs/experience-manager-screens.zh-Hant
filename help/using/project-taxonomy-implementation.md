@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# 項目分類法 {#project-taxonomy}
+# 項目分類法{#project-taxonomy}
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 * **排程**
 * **預覽內容**
 
-要瞭解這些術語，請參閱詞 [匯表](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html)。
+要瞭解這些術語，請參閱[辭彙表](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html)。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 0%
 >* 文字設定檔案，自動將每個播放器指向AEM的特定例項
 
 
-## 實作AEM畫面專案 {#creating-a-project}
+## 實作AEM畫面專案{#creating-a-project}
 
 AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使用者體驗。 作者會建立和檢視內容，並透過設定、部署和整合AEM Screens的可用區段，提供易於使用的圖形使用者介面。
 
@@ -58,4 +58,4 @@ AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使�
 * [在AEM Screens播放器中檢視內容](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->此外，您也可以將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。 如需詳 [細資訊，請從「檔案」中](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) 「新增專案匯入工具」。
+>此外，您也可以將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。 如需詳細資訊，請從File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html)追蹤[New Project Importer。
