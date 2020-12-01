@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# 體驗片段啟動：OmniChannel體驗 {#experience-fragments-activation}
+# 體驗片段啟動：OmniChannel體驗{#experience-fragments-activation}
 
-## 使用案例說明 {#use-case-description}
+## 使用案例說明{#use-case-description}
 
 「體驗片段」是一組或多個元件，包括頁面內參照的內容和版面。
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >**必備條件
->您必須具備「體驗片段」的基本知識，以及如何在AEM Screens專案中使用「體驗片段」。 See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>您必須具備「體驗片段」的基本知識，以及如何在AEM Screens專案中使用「體驗片段」。 請參閱[使用體驗片段](/help/user-guide/experience-fragments-in-screens.md)
 
-### 設定示範專案 {#demo-project-setup}
+### 設定示範專案{#demo-project-setup}
 
-在您的AEM畫面中建立標題為 **DemoProject** 的專案和標題為 **** TestChannel的序列頻道，如下圖所示。
+在您的AEM畫面中建立標題為&#x200B;**DemoProject**&#x200B;的專案，以及標題為&#x200B;**TestChannel**&#x200B;的序列頻道，如下圖所示。
 
-### 在AEM Screens專案中實作體驗片段 {#experience-fragments-implementation}
+### 在AEM Screens專案{#experience-fragments-implementation}中實作體驗片段
 
-在您建立體驗片段並運用在AEM Screens專案後， **DemoProject** ，您現在可以根據您的需求來增強體驗片段。
+在您建立體驗片段並運用在AEM Screens專案中後，**DemoProject**&#x200B;您現在可以根據您的需求來增強體驗片段。
 
-### 增加文字大小 {#increasing-text-size}
+### 增加文本大小{#increasing-text-size}
 
 
 
