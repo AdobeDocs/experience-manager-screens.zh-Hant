@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 本節涵蓋下列主題：
 
-* **綜覽**
+* **概覽**
 * **設定電子郵件設定**
 * **電子郵件通知**
 * **範例使用案例**
@@ -38,52 +41,52 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ***AEM Screens Notifications Service***，可讓管理員在AEM Screens播放器在可設定的時段內未ping通時收到電子郵件。
 
-此服務可在OSGi web控制台中配置。
+此服務可在OSGi Web控制台中配置。
 
-## 設定電子郵件設定 {#configuring-email-settings}
+## 配置電子郵件設定{#configuring-email-settings}
 
 請依照下列步驟來設定電子郵件通知設定：
 
-1. 開啟 **Adobe Experience Manager Web Console設定**。
-1. 開啟 **畫面裝置電子郵件監控服務**。
+1. 開啟&#x200B;**Adobe Experience Manager Web Console Configuration**。
+1. 開啟&#x200B;**螢幕設備電子郵件監視服務**。
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. 定義下列欄位以設定電子郵件的設定：
+1. 定義下列欄位，以設定電子郵件的設定：
 
-   **裝置路徑** ：輸入您要監視之畫面專案的路徑。 路徑通常是 `/home/users/screens/<Name of your project>`。
+   **設** 備路徑輸入要監視的螢幕項目的路徑。路徑通常為`/home/users/screens/<Name of your project>`。
 
-   例如，如果您的專案是 **We.Retail**，您會以 ***/home/users/screens/we-retail的形式使用專案路徑***。
+   例如，如果您的專案是&#x200B;**We.Retail**，您會將專案路徑使用為&#x200B;***/home/users/screens/we-retail***。
 
    >[!NOTE]
    >
    >指定裝置使用者所在的專案路徑。
 
-   **排程頻率** ：指定此螢幕應傳送電子郵件的時間（例如，5:00 pm或17:00）或頻率（例如，1）。
+   **排** 程頻率指定此螢幕應傳送電子郵件的時間（例如，下午5:00或17:00）或頻率（例如，1）。
 
-   **Ping超時** ：這指定設備在其後應被視為不可訪問的間隔（分鐘）。
+   **Ping超** 時這指定設備在其後被認為不可訪問的間隔（以分鐘為單位）。
 
-   **SMTP伺服器** ：指定用於發送電子郵件的SMTP伺服器。
+   **SMTP服** 務器指定用於發送電子郵件的SMTP伺服器。
 
-   **SMTP埠** ：輸入SMTP埠。
+   **SMTP端** 口輸入SMTP埠。
 
-   **使用TLS** 傳輸層安全性(TLS)可以使用與SMTP伺服器的安全通信。
+   **使用** TLST傳輸層安全性(TLS)可以使用與SMTP伺服器的安全通信。
 
    建議使用TLS來確保與公司郵件伺服器的安全連接。 請洽詢您的郵件管理員，以取得適當的值。
 
-   **username** 指定傳送電子郵件的使用者名稱。
+   **使** 用者名稱指定傳送電子郵件的使用者名稱。
 
-   **密碼** ：指定傳送電子郵件的密碼。
+   **密** 碼指定傳送電子郵件的密碼。
 
-   **收件者** ：指定收件者的電子郵件地址。
+   **收** 件者指定收件者的電子郵件地址。
 
    >[!NOTE]
    >
    >您只能輸入一個電子郵件地址。 若要傳送大量電子郵件，請與相關使用者建立群組或散發清單。
 
-1. 按一 **下「儲存** 」，以透過電子郵件為您的AEM Screens裝置設定螢幕活動。
+1. 按一下「**儲存**」，以透過電子郵件為您的AEM Screens裝置設定螢幕活動。
 
-## Email Notification {#email-notification}
+## 電子郵件通知{#email-notification}
 
 一旦您設定了電子郵件通知的設定，您就會收到一封電子郵件通知，其中包含實際裝置的連結，該連結會報告為閒置。
 
@@ -91,7 +94,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 只有在至少有一個裝置未因指定的ping逾時而ping通，且仍未在產生電子郵件時ping通時，才會傳送電子郵件。
 
-### 範例使用案例 {#example-use-cases}
+### 範例使用案例{#example-use-cases}
 
 以下範例說明從「畫面裝置電子郵件監視服務」設定屬性時需參考的少數案例。
 
