@@ -24,19 +24,19 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 >
 >如果沒有調度程式，請禁用OSGi元件清單中的註冊servlet。
 
-## 先決條件 {#pre-requisites}
+## 先決條件{#pre-requisites}
 
 在您為AEM Screens專案設定分派程式之前，您必須具備Dispatcher的先前知識。
 
-有關詳細 [資訊，請參閱Configuring Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
+有關詳細資訊，請參閱[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
 請依照下列步驟，為AEM Screens專案設定分派程式。
 
-### 啟用嚴格作業 {#enable-sticky-session}
+### 啟用粘滯會話{#enable-sticky-session}
 
-如果您想要搭配使用多個發佈執行個體與分派程式，則必須更新檔 `dispatcher.any` 案。
+如果要將多個發佈實例與調度程式一起使用，則必須更新`dispatcher.any`檔案。
 
 ```xml
 /stickyConnections {
@@ -49,9 +49,9 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 }
 ```
 
-### 步驟1:配置客戶端標題 {#step-configuring-client-headers}
+### 步驟1:配置客戶端標題{#step-configuring-client-headers}
 
-將下列內容新增至 `/clientheaders`區段：
+將下列內容新增至`/clientheaders`區段：
 
 **X-Requested-With**
 
@@ -59,9 +59,9 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 **X-REQUEST-COMMAND**
 
-### 步驟2:設定畫面篩選 {#step-configuring-screens-filters}
+### 步驟2:配置螢幕過濾器{#step-configuring-screens-filters}
 
-若要設定「畫面」篩選，請將下列新增至 ***/篩選***。
+若要設定「畫面」篩選，請將下列項目新增至&#x200B;***/filter***。
 
 ```
 ## AEM Screens Filters
@@ -82,16 +82,16 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 步驟3:禁用Dispatcher快取 {#step-disabling-dispatcher-cache}
+### 步驟3:禁用Dispatcher快取{#step-disabling-dispatcher-cache}
 
-停用 ***/content/screens路徑的Dispatcher快取***。
+停用&#x200B;***/content/screens path***&#x200B;的Dispatcher caching。
 
-畫面播放器使用已驗證的作業，因此分派器不會快取任何畫面播放器的要求 `channels/assets`。
+畫面播放器使用已驗證的作業，因此分派器不會快取任何畫面播放器對`channels/assets`的要求。
 
 若要啟用資產的快取，以便從分派器快取中提供資產，您必須：
 
-* 新增 `/allowAuthorization 1` 至區 `/cache` 段
-* 將下列規則新增至 `/rules` 的區段 `/cache`
+* 在`/cache`節中添加`/allowAuthorization 1`
+* 將下列規則新增至`/cache`的`/rules`區段
 
 ```xml
 /0000
