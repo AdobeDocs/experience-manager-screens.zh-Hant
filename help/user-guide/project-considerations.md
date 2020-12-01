@@ -12,11 +12,14 @@ discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 0%
 
 ---
 
 
-# Part 2: Considerations as Projects are Scoped {#part-considerations-as-projects-are-scoped}
+# 第二部分：項目範圍{#part-considerations-as-projects-are-scoped}的注意事項
 
 本頁重點說明5個部分系列的第2部分，旨在協助團隊成員進一步瞭解開發成功AEM Screens部署的售前方面。
 
@@ -37,15 +40,15 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >必須定義內容策略，以考慮應用程式如何運用軟體、硬體和連線資源，以成功提供預期價值。
 
-## 數位標牌中的項目注意事項摘要 {#summary-of-project-considerations-in-a-digital-signage}
+## 數字標牌中的項目注意事項摘要{#summary-of-project-considerations-in-a-digital-signage}
 
 在開發內容策略時，有幾個考量因素，包括I/O圖層、資產類型、觀眾區隔和日部分排程需求。
 
-### I/O層 {#i-o-layers}
+### I/O層{#i-o-layers}
 
 I/O根據感測受眾鄰近度來驅動內容的條件式播放。 例如，當感測器檢測到接近度時，內容播放可從「吸引」或被動內容變更為「吸引」或互動播放。 在需要根據人口統計資料來提供內容的應用程式中，這特別有用。
 
-### 內容資產類型 {#content-asset-types}
+### 內容資產類型{#content-asset-types}
 
 以下是瞭解「內容資產」相關終端客戶意圖的要點：
 
@@ -58,34 +61,34 @@ I/O根據感測受眾鄰近度來驅動內容的條件式播放。 例如，當�
 * 是否需要多螢幕視訊牆，如果需要，則需要何種組態？
 * 內容是否與營運或廣告收入掛鈎，需要故障切換策略以防止停機？
 
-### 受眾細分，日部分 {#audience-segmentation-day-parts}
+### 受眾細分，日部分{#audience-segmentation-day-parts}
 
 加入日部分策略可讓終端客戶在適當的時間劃分其內容，並將訊息鎖定在適當的對象。 這對廣告或零售網路特別有效，因為許多內容提供者構成整個播放清單。
 
-### 業務運營要求 {#business-operations-requirements}
+### 業務運營要求{#business-operations-requirements}
 
 在「內容策略」對話中定義業務運營也很重要。 正式化最終客戶端的支援要求將有助於管理部署後的期望值，確保適當衡量支援工作。
 
-### A/V要求 {#a-v-requirements}
+### A/V要求{#a-v-requirements}
 
 裝載場景還需要定義，設備訪問服務的相關注意事項也需要定義。 這不僅會影響初始安裝的人工和設備建議，還將決定持續的服務和支援需求。
 
-### 現場準備 {#site-readiness}
+### 站點就緒{#site-readiness}
 
 售前流程的最後一個步驟是確定現場就緒性。 透過擷取網站、專案和進度詳細資訊的網站調查，可協助您做到。 現場就緒性基本上可以在安裝之前捕獲某個位置的當前狀態，在技術人員到達之前調用客戶準備或計畫解決的任何項目。 通常，這包括電力、資料、家具去除和灰塵消除等項目。
 
-## 第二部分：關於項目範圍時考慮事項的視頻教程 {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## 第二部分：項目範圍{#part-video-tutorial-on-considerations-as-projects-are-scoped}時考慮事項的視頻教程
 
 請依照下列教學課程來瞭解內容策略、I/O層、資產類型、受眾細分、日期部分、業務運營需求和網站就緒性考量事項。
 
 ### 限定範圍專案的考量
 
->[!VIDEO](https://video.tv.adobe.com/v/28380?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/28380)
 
 *瞭解內容策略、I/O層、資產類型、受眾細分、日部分、業務運營要求和站點就緒性考慮事項。*
 
-## 下一步 {#the-next-step}
+## 下一步{#the-next-step}
 
 一旦您瞭解專案發現期間所識別的元素以及相關人員的意見，以評估專案並準備適當的設計，您就需要瞭解整個專案計畫中涉及的關鍵術語，例如專案週期、硬體測試相關動作、概念證明、試點和推展。
 
-導覽至「 **[測試」、「POC」、「試點與推展」](testing-pocs-pilots-rollouts.md)** ，以取得更多詳細資訊。
+如需詳細資訊，請導覽至&#x200B;**[測試、POC、試點與推展](testing-pocs-pilots-rollouts.md)**。
