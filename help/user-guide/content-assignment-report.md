@@ -2,9 +2,9 @@
 title: 內容指派報表
 description: 本頁說明「內容指派報表」的下載與使用。
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -20,34 +20,21 @@ ht-degree: 2%
 
 「內容指派報表」不僅可預覽選取的AEM Screens專案中的所有頻道、資產、顯示和裝置，還提供專案的高階結構。
 
-### 使用內容分配報表{#downloading-content-assignment-report-fp}
 
-#### 設定項目{#setting-up-project}
+### 先決條件{#pre-reqs}
 
-請依照下列步驟，從AEM Screens專案下載「內容指派報表」:
+在您下載「內容指派報表」之前，請確定您已設定包含頻道、位置和裝置的AEM畫面專案。
+如需詳細資訊，請參閱下列資源：
 
-1. 建立標題為&#x200B;**DemoScreens**&#x200B;的AEM畫面。
+1. [建立和管理專案](/help/user-guide/creating-a-screens-project.md)
+1. [建立和管理渠道](/help/user-guide/managing-channels.md)
+1. [建立和管理位置](/help/user-guide/managing-locations.md)
+1. [建立和管理顯示](/help/user-guide/managing-displays.md)
+1. [建立設備](/help/user-guide/managing-devices.md)
+1. [指派渠道](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![影像](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. 在&#x200B;**DemoScreens**&#x200B;中建立兩個序列頻道，例如&#x200B;**ChannelOne**&#x200B;和&#x200B;**ChannelTwo**。
-
-   ![影像](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. 選擇&#x200B;**ChannelOne**，然後從操作欄中按一下&#x200B;**編輯**。 新增很少的資產（影像／視訊）至此頻道。 同樣地，將資產新增至&#x200B;**ChannelTwo**。
-
-1. 導覽至&#x200B;**DemoScreens** —> **Locations**&#x200B;的「位置」檔案夾，並建立三個不同位置，標題為&#x200B;**SanJose**、**Dublin**&#x200B;和&#x200B;**SanFrancisco**。
-
-   ![影像](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. 導覽至每個位置，並為每個位置建立顯示，例如&#x200B;**SanJoseMain**，位於&#x200B;**SanJose**&#x200B;位置下，**DublinMain**&#x200B;位置下，以及&#x200B;**SanFranciscoMain**&#x200B;在&#x200B;**SanFrancisco**&#x200B;位置下。****
-
-1. 為每個顯示器指定設備。
-
-   >[!NOTE]
-   >要瞭解如何將通道分配給顯示器，請參閱[通道分配](/help/user-guide/channel-assignment.md)。
-
-#### 下載內容分配報表{#downloading-content-assignment-report}
+## 下載內容分配報表{#downloading-content-assignment-report-fp}
 
 一旦您設定了AEM Screens專案，並指派顯示給前述步驟所示的每個位置，您就可以下載「內容指派報表」。
 
@@ -64,8 +51,4 @@ ht-degree: 2%
 
    >[!NOTE]
    >下載的試算表包含四欄，例如&#x200B;**Channels**、**Assets**、**Displays**&#x200B;和&#x200B;**Devices**，可用來進一步調查與AEM Screens專案相關的這四個實體。
-
-
-
-
 
