@@ -2,10 +2,10 @@
 title: 功能套件202011發行說明
 description: 本頁說明Feature Pack 202011的發行說明。
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
 * **內容指派報表**
 
-   「內容指派報表」功能可讓AEM Screens管理員或作者匯出&#x200B;*內容指派報表*，該報表可能為試算表格式。
+   「內容指派報表」功能可讓AEM Screens管理員或作者以試算表格式匯出&#x200B;*內容指派報表*。
 如需詳細資訊，請參閱[內容指派報表](/help/user-guide/content-assignment-report.md)。
 
 
