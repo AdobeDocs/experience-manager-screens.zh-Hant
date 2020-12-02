@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,29 @@ ht-degree: 1%
    此外，您還可以按一下「完成&#x200B;**」來檢視顯示控制面板。**
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### 從設備管理器{#search-device}搜索設備
+
+在您將裝置註冊到播放器後，您就可以從「裝置管理員」UI檢視所有裝置。
+
+1. 從您的AEM Screens專案導覽至「裝置管理員UI」，例如&#x200B;**DemoScreens** —> **Devices**。
+
+1. 選擇&#x200B;**Devices**&#x200B;資料夾，然後從操作欄按一下&#x200B;**Device Manager**。
+
+1. 將顯示已註冊設備的清單。
+
+1. 如果您有一長串已註冊的裝置清單，現在可以使用動作列中的搜尋圖示進行搜尋，或只要按一下`/`（正斜線）來叫用搜尋功能。
+
+#### 搜尋功能限制{#limitations}
+
+* 使用者將可搜尋裝置ID或裝置名稱中的任何字詞。 請務必將裝置名稱儲存為多個字詞，例如「Boston Store Lobby」，而非「BostonStoreLobby」。
+
+* 在前一種情況下，它允許搜索「boston」、「store」、「lobby」，但在後一種情況下，搜索「boston」不會顯示結果。
+
+* 萬用字元，`*`支援搜尋。 如果您想要尋找名稱以&#x200B;**boston**&#x200B;開頭的所有裝置，則可使用&#x200B;**boston***。
+
+1. 如果裝置名稱為&#x200B;**BostonStoreLobby**，且搜尋&#x200B;**boston**&#x200B;將不會傳回結果，但&#x200B;**boston***將傳回結果。
+
 
 ## 設備註冊限制{#limitations-on-device-registration}
 
