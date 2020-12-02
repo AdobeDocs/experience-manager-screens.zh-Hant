@@ -2,10 +2,10 @@
 title: 功能套件202011發行說明
 description: 本頁說明Feature Pack 202011的發行說明。
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 AEM Screens已發行AEM 6.5 Feature Pack 6。
 
-您可以使用Adobe ID從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.6版的最新功能套件。 導覽至「**Adobe Experience Manager**」標籤，並搜尋「**畫面**」以取得最新的功能套件。
+您可以使用Adobe ID從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.6版的最新功能套件。 導覽至「**Adobe Experience Manager**」標籤，並搜尋「**畫面**」，以取得最新的功能套件，標題為「**AEM 6.5 Screens FP6**」。
 
 ## 發行日期 {#release-date}
 
@@ -41,10 +41,11 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 * **從「裝置管理員」搜尋功能**
 
    Device Manager UI現在提供新的搜尋功能，以及AEM Screens 6.5.6版的最新功能套件。
+有關詳細資訊，請參閱[從設備管理器中搜索設備。](/help/user-guide/device-registration.md#search-device)
 
 * **預設Ping間隔**
 
-   此發行的預設ping間隔現在設定為30秒。
+   此發行中的預設ping間隔現在設定為30秒。
 
 ### 已發行的AEM畫面播放器{#released-aem-screens-players}
 
