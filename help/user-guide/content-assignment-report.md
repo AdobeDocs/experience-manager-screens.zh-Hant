@@ -2,9 +2,9 @@
 title: 內容指派報表
 description: 本頁說明「內容指派報表」的下載與使用。
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -45,10 +45,14 @@ ht-degree: 2%
 
 1. 導覽至您的AEM Screens專案，然後選取專案&#x200B;**DemoScreens**。
 
-1. 從動作列按一下「內容指派報表」。 ****&#x200B;應將Excel表單下載到本機電腦。
+1. 從動作列按一下「內容指派報表」。****
 
    ![影像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >下載的試算表包含四欄，例如&#x200B;**Channels**、**Assets**、**Displays**&#x200B;和&#x200B;**Devices**，可用來進一步調查與AEM Screens專案相關的這四個實體。
+
+1. Excel工作表會下載至您的本機電腦，其前置名稱與您的AEM Screens專案名稱相同。 例如，如果您的專案名稱為&#x200B;**DemoScreens**，則下載的檔案名稱將是&#x200B;**demoscreens-content-assignment-report.xlxs**。
+
+   ![影像](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
