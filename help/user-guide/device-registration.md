@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -155,7 +155,7 @@ ht-degree: 1%
 
 * 萬用字元，`*`支援搜尋。 如果您想要尋找所有名稱為&#x200B;*boston*&#x200B;的裝置，則可使用&#x200B;*boston**。
 
-1. 如果裝置名稱為&#x200B;*BostonStoreLobby*，而搜尋&#x200B;*boston*&#x200B;將不會傳回結果，而是在搜尋准則中使用&#x200B;*boston**來傳回結果。
+* 如果裝置名稱為&#x200B;*BostonStoreLobby*，而搜尋&#x200B;*boston*&#x200B;將不會傳回結果，而是在搜尋准則中使用&#x200B;*boston**來傳回結果。
 
 ## 設備註冊限制{#limitations-on-device-registration}
 
