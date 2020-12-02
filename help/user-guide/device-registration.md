@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '785'
 ht-degree: 1%
 
 ---
@@ -129,20 +129,33 @@ ht-degree: 1%
 
 1. 選擇&#x200B;**Devices**&#x200B;資料夾，然後從操作欄按一下&#x200B;**Device Manager**。
 
+   ![影像](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. 將顯示已註冊設備的清單。
 
-1. 如果您有一長串已註冊的裝置清單，現在可以使用動作列中的搜尋圖示進行搜尋，或只要按一下`/`（正斜線）來叫用搜尋功能。
+1. 如果您有一長串已註冊的裝置清單，現在可以使用動作列中的搜尋圖示來搜尋
+
+   ![影像](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   或,
+
+   按一下`/`（正斜線）以叫用搜尋功能。
+
+   ![影像](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### 搜尋功能限制{#limitations}
 
-* 使用者將可搜尋裝置ID或裝置名稱中的任何字詞。 請務必將裝置名稱儲存為多個字詞，例如「Boston Store Lobby」，而非「BostonStoreLobby」。
+* 用戶將能夠搜索&#x200B;*設備ID*&#x200B;或&#x200B;*設備名稱*&#x200B;中存在的任何字。
 
-* 在前一種情況下，它允許搜索「boston」、「store」、「lobby」，但在後一種情況下，搜索「boston」不會顯示結果。
+   >[!NOTE]
+   >建議您以多個字詞建立裝置名稱，例如&#x200B;*Boston Store Lobby*，而非單一&#x200B;*BostonStoreLobby*。
 
-* 萬用字元，`*`支援搜尋。 如果您想要尋找名稱以&#x200B;**boston**&#x200B;開頭的所有裝置，則可使用&#x200B;**boston***。
+* 如果您建立裝置名稱，例如&#x200B;*Boston Store Lobby*，它允許搜尋任何字詞&#x200B;*boston*、*store*&#x200B;或&#x200B;*lobby*，但若裝置名稱稱為&#x200B;*BostonStoreLobby*&#x200B;搜尋&#x200B;*boston*&#x200B;將不顯示結果。
 
-1. 如果裝置名稱為&#x200B;**BostonStoreLobby**，且搜尋&#x200B;**boston**&#x200B;將不會傳回結果，但&#x200B;**boston***將傳回結果。
+* 萬用字元，`*`支援搜尋。 如果您想要尋找所有名稱為&#x200B;*boston*&#x200B;的裝置，則可使用&#x200B;*boston**。
 
+1. 如果裝置名稱為&#x200B;*BostonStoreLobby*，而搜尋&#x200B;*boston*&#x200B;將不會傳回結果，而是在搜尋准則中使用&#x200B;*boston**來傳回結果。
 
 ## 設備註冊限制{#limitations-on-device-registration}
 
