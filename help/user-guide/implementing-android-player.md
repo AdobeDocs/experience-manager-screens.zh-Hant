@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 1%
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaldified.apk
 1. 使用adb安裝安裝至裝置，安裝&#x200B;***aemscreensalpid.apk***
 
-## Android Watchdog實施{#android-watchdog-implementation}
+## 瞭解Android Watchdog服務{#android-watchdog-services}
 
 跨Android監視程式服務是使用&#x200B;*AlarmManager*&#x200B;以cordova增效模組實作。
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 1. 當播放器應用程式啟動時，它會讀取此設定檔，並指向適用的AEM伺服器，供其註冊並隨後控制。
 
    >[!NOTE]
-   >此檔案是首次啟動應用程式時的&#x200B;*只讀*，不能用於後續配置。 如果播放器在刪除設定檔之前啟動，只需解除安裝並在裝置上重新安裝應用程式即可。
+   >首次啟動應用程式時此檔案為&#x200B;*只讀*，不能用於後續配置。 如果播放器在刪除設定檔之前啟動，只需解除安裝並在裝置上重新安裝應用程式即可。
 
 ### 策略屬性{#policy-attributes}
 
