@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -109,3 +109,65 @@ ht-degree: 1%
 >在Android中，*AlarmManager*&#x200B;用於註冊&#x200B;*pendingIntents*，即使應用程式當機且其警報傳送與API 19(Kitkat)不精確，&lt;a0/>AlarmManager&lt;a1/>仍可執行。 在計時器的間隔和&#x200B;*AlarmManager的* *pendingIntent的*&#x200B;報警之間保持一定的間隔。
 
 **3.應用程式當機**&#x200B;在當機時，向AlarmManager註冊的待重新引導方式不再重設，因此它會執行應用程式的重新引導或重新啟動（視cordova增效模組初始化時的可用權限而定）。
+
+## Android Player的大量布建{#bulk-provision-android-player}
+
+大量推出Android播放器時，需要布建播放器以指向AEM例項，並設定其他屬性，而不需手動輸入管理UI中的屬性。
+
+>[!NOTE]
+>此功能可從Android player 42.0.372取得。
+
+請依照下列步驟，在Android播放器中允許大量布建：
+
+1. 建立名稱為`player-config.default.json`的設定JSON檔案。
+請參閱[範例JSON原則](#example-json)以及說明各種[原則屬性](#policy-attributes)使用情形的表格。
+
+1. 使用MDM或ADB或Android Studio檔案總管，將此原則JSON檔案拖放至Android裝置上的&#x200B;*sdcard*&#x200B;檔案夾。
+
+1. 在部署檔案後，使用MDM安裝播放器應用程式。
+
+1. 當播放器應用程式啟動時，它會讀取此設定檔，並指向適用的AEM伺服器，供其註冊並隨後控制。
+
+   >[!NOTE]
+   >此檔案是首次啟動應用程式時的&#x200B;*只讀*，不能用於後續配置。 如果播放器在刪除設定檔之前啟動，只需解除安裝並在裝置上重新安裝應用程式即可。
+
+### 策略屬性{#policy-attributes}
+
+下表匯總了策略屬性，其中包含範例策略JSON以供參考：
+
+| **原則名稱** | **目的** |
+|---|---|
+| *伺服器* | Adobe Experience Manager伺服器的URL。 |
+| *解析度* | 裝置的解析度。 |
+| *rebootSchedule* | 重新啟動的計畫適用於所有平台。 |
+| *enableAdminUI* | 啟用管理員UI以在網站上設定裝置。 在完全配置並投入生產後，設為&#x200B;*false*。 |
+| *enableOSD* | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全配置並投入生產後，請考慮設定為&#x200B;*false*。 |
+| *enableActivityUI* | 啟用以顯示活動的進度，例如下載和同步。 啟用疑難排解功能，並在完全設定後在生產中停用。 |
+| *enableNativeVideo* | 啟用以使用原生硬體加速來播放視訊（僅限Android）。 |
+
+### 範例JSON原則{#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>無論是否插入實際的&#x200B;*sdcard*，所有Android裝置都有&#x200B;*sdcard*&#x200B;資料夾。 此檔案在部署時會與「下載」檔案夾處於相同層級。 某些MDM（如Samsung Knox）可將此&#x200B;*sdcard*&#x200B;資料夾位置稱為&#x200B;*內部儲存*。
