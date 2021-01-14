@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
+source-git-commit: c1ddb5f458831025bdcd1481bcdc198616f5bb47
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 請依照下列步驟，為AEM畫面實作Tizen Player:
 
-1. 導覽至[AEM 6.5 Player下載](https://download.macromedia.com/screens/)頁面以下載Tizen Player。
+1. 導覽至[AEM Screens Player下載](https://download.macromedia.com/screens/)頁面以下載Tizen Player。
 
 1. 從本機電腦安裝Tizen Player *(.zip)*&#x200B;檔案。
 
