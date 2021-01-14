@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,22 @@ ht-degree: 0%
 
 1. 按一下設備遠程中的&#x200B;**MENU**&#x200B;按鈕，並從左側導航欄向下滾動到&#x200B;**System**。
 
-1. 向下捲動並選取「透過URL啟動器播放&#x200B;**」選項。**
+1. 向下捲動並選取「透過&#x200B;**播放」選項，並將其變更為「URL啟動器」**&#x200B;選項。****
    ![影像](/help/user-guide/assets/tizen/rms-2.png)
 
-1. 按遙控器上的&#x200B;**Home**&#x200B;按鈕。
+1. 設定URL啟動器後，按遠端的&#x200B;**Home**&#x200B;按鈕。
 
-1. 輸入localhost伺服器的IP地址。
-
-1. 從&#x200B;**開發人員模式**&#x200B;中選擇&#x200B;**Remote**。
-
-1. 按一下設備遠程中的&#x200B;**Home**&#x200B;按鈕，然後選擇&#x200B;**URL Launcher**。
+1. 導覽至&#x200B;**URL啟動器設定**，然後輸入localhost伺服器的IP位址。
 
 1. AEM Screens Player現在應會自動在您的Samsung裝置上安裝和啟動。
+
+   >[!NOTE]
+   >Tizen設備和`http`伺服器應能夠相互連接，即伺服器應可以連接到Tizen播放器。
 
 ## Tizen Player的批量布建{#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->在大量裝置的每個裝置的管理員UI中手動輸入AEM伺服器位址，可能會很麻煩。 建議使用Samsung遠端管理(RMS)解決方案來部署和管理解決方案。 如需詳細資訊，請參閱[將Tizen Device註冊至Samsung遠端管理服務(RMS)](#enroll-tizen-device-rm)。
+>在大量裝置的每個裝置的管理員UI中手動輸入AEM伺服器位址，可能會很麻煩。 建議使用Samsung遠端管理(RMS)解決方案來部署和管理大型解決方案。 如需詳細資訊，請參閱[將Tizen Device註冊至Samsung遠端管理服務(RMS)](#enroll-tizen-device-rm)。
 
 請依照下列步驟，在啟動應用程式時大量布建應用程式，以指向您的AEM作者實例：
 
@@ -111,9 +110,9 @@ ht-degree: 0%
    >確認畫面已設定為「透過URL啟動器播放」。
    >![影像](/help/user-guide/assets/tizen/rms-2.png)
 
-1. 導覽至「伺服器位址」並輸入MagicInfo URL存取權，然後按「完成」。
+1. 導覽至伺服器位址並輸入MagicInfo URL存取權，然後按&#x200B;**Done**。
 
-1. 視需要設定TLS。 導航到該埠並從伺服器中選擇埠號。 按一下&#x200B;**保存**。
+1. 視需要設定TLS。 導航到埠並從伺服器中選擇埠號，然後按一下&#x200B;**保存**。
 
 1. 導覽至&#x200B;**Device**&#x200B;標籤，並檢查您剛配置的裝置。 找到設備後，按一下該複選框並選擇&#x200B;**批准**。
 
