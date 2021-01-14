@@ -2,10 +2,10 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,9 @@ ht-degree: 0%
 
 1. 升級至Adobe Experience Manager(AEM)Service Pack 6.5.8。
 
+   >[!NOTE]
+   >如果您要安裝AEM 6.5.8，可以略過下列步驟2和3。
+
 1. 導覽至AEM中的`/system/console/bundles`，然後按一下`install/update`按鈕。
 
 1. 安裝`crx-auth-token` jar檔案。 安裝此jar後，您可能需要關閉並重新啟動AEM，因為它與驗證相關。
@@ -38,27 +41,23 @@ ht-degree: 0%
 
 1. 您應看到一個新選項&#x200B;*User agents，可免除與samesite屬性*&#x200B;相同的屬性。 用與&#x200B;*SameSite=None*&#x200B;屬性不相容的使用者代理對應的規則運算式來填入此變數。
    >[!NOTE]
-   >請參閱[SameSite=None:已知不相容的用戶端](https://www.chromium.org/updates/same-site/incompatible-clients)以取得詳細資訊。 對於Tizen播放器，請使用regex:`(.*)Tizen (4|5)(.*)`。
+   >請參閱[SameSite=None:已知不相容的用戶端](https://www.chromium.org/updates/same-site/incompatible-clients)以取得詳細資訊。 對於Tizen播放器，請使用regex:`(.*)Tizen(.*)`。
 
 1. 針對您的AEM 6.5.5和更新版本例項註冊Tizen播放器，它應該會正常註冊並顯示內容。
 
 
 ## 設定本地伺服器並解壓Zip檔案{#setting-local-server}
 
-請依照下列步驟來設定本機伺服器並複製解壓縮的檔案：
-
-1. 取得本機電腦的IP位址。
-   >[!NOTE]
-   >請參閱官方檔案，瞭解如何在您的平台上啟用本機伺服器。
-
-1. 從「終端機介面」，導覽至解壓縮安裝程式資料夾的相同目錄，並驗證localhost是否正常運作。
-
-1. Tizen播放器會從本機伺服器下載安裝程式。
+請遵循下列步驟：
 
 1. 將`AEMScreensPlayer.wgt`和`sssp_config.xml`這兩個提取的檔案複製到本地Apache Web伺服器的根目錄。
 
    >[!NOTE]
    >`AEMScreensPlayer.wgt`是實際的Tizen播放器應用程式，`sssp_config.xml`包含此地圖的相關資訊，可協助您將它安裝在Tizen裝置上。
+
+1. 取得本機HTTP伺服器的IP或URL(以及在步驟2中包含解壓縮檔案的檔案夾路徑（如果解壓縮至子檔案夾，而非根檔案夾）
+
+1. Tizen播放器會從本機伺服器下載安裝程式。
 
 ### 在Samsung設備上配置更新{#config-updates}
 
@@ -73,7 +72,9 @@ ht-degree: 0%
 
 1. 設定URL啟動器後，按遠端的&#x200B;**Home**&#x200B;按鈕。
 
-1. 導覽至&#x200B;**URL啟動器設定**，然後輸入localhost伺服器的IP位址。
+1. 導覽至「**URL啟動器設定**」，然後輸入localhost伺服器的IP位址，然後按一下「完成」。****
+   >[!NOTE]
+   >Tizen播放器應能連線至http伺服器。
 
 1. AEM Screens Player現在應會自動在您的Samsung裝置上安裝和啟動。
 
@@ -115,6 +116,8 @@ ht-degree: 0%
 1. 視需要設定TLS。 導航到埠並從伺服器中選擇埠號，然後按一下&#x200B;**保存**。
 
 1. 導覽至&#x200B;**Device**&#x200B;標籤，並檢查您剛配置的裝置。 找到設備後，按一下該複選框並選擇&#x200B;**批准**。
+
+   >![影像](/help/user-guide/assets/tizen/rms-3.png)
 
 1. 填寫所需資訊並選取裝置群組。 按一下&#x200B;**OK**&#x200B;以完成核准程式。
 
