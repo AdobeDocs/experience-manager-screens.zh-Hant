@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: c1ddb5f458831025bdcd1481bcdc198616f5bb47
+source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -20,33 +20,10 @@ ht-degree: 1%
 
 1. 從本機電腦安裝Tizen Player *(.zip)*&#x200B;檔案。
 
-## 使用相同Cookie問題免除使用者代理程式{#exempting-user-agents}
-
->[!IMPORTANT]
->**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
->有些瀏覽器引擎與AEM 6.5到AEM 6.7所核發之登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。在大多數情況下，可將瀏覽器升級至最新的可用版本即可解決此問題。 在某些情況下，例如智慧型顯示器、機上盒或具有內嵌瀏覽引擎的其他裝置可能無法進行此類升級。
-
-使用&#x200B;*SameSite=None*&#x200B;時，請依照下列步驟免除這些不相容的用戶端：
-
-1. 升級至Adobe Experience Manager(AEM)Service Pack 6.5.8。
-
-   >[!NOTE]
-   >如果您要安裝AEM 6.5.8，可以略過下列步驟2和3。
-
-1. 導覽至AEM中的`/system/console/bundles`，然後按一下`install/update`按鈕。
-
-1. 安裝`crx-auth-token` jar檔案。 安裝此jar後，您可能需要關閉並重新啟動AEM，因為它與驗證相關。
-
-1. AEM重新啟動後，請前往`/system/console/configMgr`並搜尋&#x200B;**Adobe Granite Token驗證處理常式**。 將&#x200B;**SameSite**&#x200B;值的值設定為&#x200B;**None**。
-
-1. 您應看到一個新選項&#x200B;*User agents，可免除與samesite屬性*&#x200B;相同的屬性。 用與&#x200B;*SameSite=None*&#x200B;屬性不相容的使用者代理對應的規則運算式來填入此變數。
-   >[!NOTE]
-   >請參閱[SameSite=None:已知不相容的用戶端](https://www.chromium.org/updates/same-site/incompatible-clients)以取得詳細資訊。 對於Tizen播放器，請使用regex:`(.*)Tizen(.*)`。
-
-1. 針對您的AEM 6.5.5和更新版本例項註冊Tizen播放器，它應該會正常註冊並顯示內容。
-
-
 ## 設定本地伺服器並解壓Zip檔案{#setting-local-server}
+
+>[!NOTE]
+> 解壓縮zip檔案，並透過`http server`提供Tizen播放器。 （`http server`不必是本機或Apache伺服器）。
 
 請遵循下列步驟：
 
@@ -81,6 +58,25 @@ ht-degree: 1%
    >[!NOTE]
    >Tizen設備和`http`伺服器應能夠相互連接，即伺服器應可以連接到Tizen播放器。
 
+
+## 使用SameSite Cookie問題免除使用者代理程式{#exempting-user-agents}
+
+>[!IMPORTANT]
+>**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
+>有些瀏覽器引擎與AEM 6.5到AEM 6.7所核發之登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。在大多數情況下，可將瀏覽器升級至最新的可用版本即可解決此問題。 在某些情況下，例如智慧型顯示器、機上盒或具有內嵌瀏覽引擎的其他裝置可能無法進行此類升級。
+
+使用&#x200B;*SameSite=None*&#x200B;時，請依照下列步驟免除這些不相容的用戶端：
+
+1. 升級至Adobe Experience Manager(AEM)Service Pack 6.5.8。
+
+1. AEM重新啟動後，請前往`/system/console/configMgr`並搜尋&#x200B;**Adobe Granite Token驗證處理常式**。 將&#x200B;**SameSite**&#x200B;值的值設定為&#x200B;**None**。
+
+1. 您應看到一個新選項&#x200B;*User agents，可免除與samesite屬性*&#x200B;相同的屬性。 用與&#x200B;*SameSite=None*&#x200B;屬性不相容的使用者代理對應的規則運算式來填入此變數。
+   >[!NOTE]
+   >請參閱[SameSite=None:已知不相容的用戶端](https://www.chromium.org/updates/same-site/incompatible-clients)以取得詳細資訊。 對於Tizen播放器，請使用regex:`(.*)Tizen(.*)`。
+
+1. 針對您的AEM 6.5.5和更新版本例項註冊Tizen播放器，它應該會正常註冊並顯示內容。
+
 ## Tizen Player的批量布建{#bulk-provisioning-tizen-player}
 
 >[!NOTE]
@@ -96,7 +92,7 @@ ht-degree: 1%
    >[!NOTE]
    >您可能需要建立或設定簽署憑證。
 
-1. 部署此新的`wgt`檔案RMS，當播放器啟動時，它應會自動指向您的伺服器，因此您不需要為每個裝置手動輸入它。
+1. 使用RMS或URL啟動器部署此新的`wgt`檔案，當播放器啟動時，它應會自動指向您的伺服器，因此您不需要為每個裝置手動輸入它。
 
 ### 將Tizen Device註冊到Samsung Remote Management Service(RMS){#enroll-tizen-device-rms}
 
@@ -136,7 +132,4 @@ ht-degree: 1%
    ![影像](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 按一下&#x200B;**Save**&#x200B;以查看顯示屏上顯示的更改。
-
-
-
 
