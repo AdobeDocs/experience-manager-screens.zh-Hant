@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
->有些瀏覽器引擎與AEM 6.5到AEM 6.7所核發之登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。在大多數情況下，可將瀏覽器升級至最新的可用版本即可解決此問題。 在某些情況下，例如智慧型顯示器、機上盒或具有內嵌瀏覽引擎的其他裝置可能無法進行此類升級。
+>有些瀏覽器引擎與AEM 6.5到AEM 6.7所核發的登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。在大多數情況下，可將瀏覽器升級至最新的可用版本即可解決此問題。 在某些情況下，例如智慧型顯示器、機上盒或具有內嵌瀏覽引擎的其他裝置可能無法進行此類升級。
 
 使用&#x200B;*SameSite=None*&#x200B;時，請依照下列步驟免除這些不相容的用戶端：
 
@@ -102,10 +102,6 @@ ht-degree: 1%
 >驗證網路設定和顯示器。
 
 1. 導航到&#x200B;**菜單** -> **網路** -> **伺服器網路設定** ，然後按&#x200B;**Enter**。
-
-   >[!NOTE]
-   >確認畫面已設定為「透過URL啟動器播放」。
-   >![影像](/help/user-guide/assets/tizen/rms-2.png)
 
 1. 導覽至伺服器位址並輸入MagicInfo URL存取權，然後按&#x200B;**Done**。
 
