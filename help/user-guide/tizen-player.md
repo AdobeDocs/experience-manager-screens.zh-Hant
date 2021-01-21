@@ -2,7 +2,7 @@
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
 translation-type: tm+mt
-source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
+source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 1%
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 使用&#x200B;*SameSite=None*&#x200B;時，請依照下列步驟免除這些不相容的用戶端：
 
-1. 升級至Adobe Experience Manager(AEM)Service Pack 6.5.8。
+1. 升級至Adobe Experience Manager(AEM)Service Pack 6.5.7。
 
 1. AEM重新啟動後，請前往`/system/console/configMgr`並搜尋&#x200B;**Adobe Granite Token驗證處理常式**。 將&#x200B;**SameSite**&#x200B;值的值設定為&#x200B;**None**。
 
