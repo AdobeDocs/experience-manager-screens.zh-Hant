@@ -4,7 +4,7 @@ seo-title: 在AEM畫面中設定作者和發佈
 description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
 seo-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
@@ -165,8 +165,8 @@ ht-degree: 0%
 1. 選擇「**Apache ActiveMQ Artemis JMS提供程式**&#x200B;配置」
 1. 更新下列項目：
 
-* ***群集密碼***:（在每個個別實例中使用前一步驟的加密值）
-* ***主題***:{name:&#39;commands&#39;，地址：&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
+   * ***群集密碼***:（在每個個別實例中使用前一步驟的加密值）
+   * ***主題***:{name:&#39;commands&#39;，地址：&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
 
 #### 驗證ActiveMQ Artemis群集{#verify-activemq-artemis-cluster}
 
