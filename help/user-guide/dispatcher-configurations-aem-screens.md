@@ -4,10 +4,10 @@ seo-title: AEM畫面的Dispatcher Configurations
 description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 seo-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 3%
 
 ---
 
@@ -49,7 +49,9 @@ AEM Screens播放器／裝置也會使用驗證的工作階段來存取發佈例
  }
 ```
 
-如果您有一個發佈實例由一個調度程式前置，則啟用調度程式的粘滯性將無濟於事，因為負載平衡器可能會向調度程式發送每個請求。 在這種情況下，您應啟用負載平衡器層級的黏性。
+如果您有一個發佈實例由一個調度程式前置，則啟用調度程式的粘滯性將無濟於事，因為負載平衡器可能會向調度程式發送每個請求。 在這種情況下，按一下&#x200B;**粘著**&#x200B;欄位中的&#x200B;**啟用** ，以在負載平衡器級別啟用它，如下圖所示：
+
+![影像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 例如，如果您使用AWS ALB，請參閱[應用程式負載平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)的目標組，以在ALB級別啟用粘性。 1天的黏性。
 
