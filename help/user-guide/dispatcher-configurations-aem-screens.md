@@ -4,10 +4,10 @@ seo-title: AEM畫面的Dispatcher Configurations
 description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 seo-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,22 +32,26 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
+AEM Screens播放器／裝置也會使用驗證的工作階段來存取發佈例項中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，如此驗證的工作階段就對來自AEM Screens播放器／裝置的所有請求有效。
+
 請依照下列步驟，為AEM Screens專案設定分派程式。
 
 ### 啟用粘滯會話{#enable-sticky-session}
 
-如果要將多個發佈實例與調度程式一起使用，則必須更新`dispatcher.any`檔案。
+如果您想使用由單一發送器前端的多個發佈實例，則必須更新`dispatcher.any`檔案以啟用粘性
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+如果您有一個發佈實例由一個調度程式前置，則啟用調度程式的粘滯性將無濟於事，因為負載平衡器可能會向調度程式發送每個請求。 在這種情況下，您應啟用負載平衡器層級的黏性。
+
+例如，如果您使用AWS ALB，請參閱[應用程式負載平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)的目標組，以在ALB級別啟用粘性。 1天的黏性。
 
 ### 步驟1:配置客戶端標題{#step-configuring-client-headers}
 
