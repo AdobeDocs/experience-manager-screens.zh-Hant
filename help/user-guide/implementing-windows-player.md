@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,25 @@ ht-degree: 1%
 ### 批量伺服器配置：使用一個配置{#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}註冊多個Windows 10播放器
 
 在安裝Windows播放器後，您可以使用一個配置註冊多個播放器。
+
+## 使用CLI(PowerShell){#install-powershell}進行安裝
+
+1. 建立Screens Player專用的自訂位置&#x200B;****，例如：
+   `C:\Users\User\screens-player`)
+1. 安裝
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. 開啟
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**範例**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
