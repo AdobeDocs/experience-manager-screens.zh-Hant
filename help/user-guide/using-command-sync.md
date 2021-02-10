@@ -4,9 +4,9 @@ seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 2%
 
    ![影像1](assets/command-sync/command-sync2-1.png)
 
-1. 在&#x200B;**Locations**資料夾中建立顯示，如下圖所示。
+1. 在&#x200B;**Locations**&#x200B;資料夾中建立&#x200B;**Lobby**&#x200B;位置，然後建立名為&#x200B;**LobbyDisplay**的顯示，如下圖所示。
    ![影像1](assets/command-sync/command-sync3-1.png)
 
-1. 將渠道&#x200B;**ChannelLobby**&#x200B;分配給您的&#x200B;**LobbyDisplay**。
+1. 將渠道&#x200B;**ChannelLobby**&#x200B;分配給您的&#x200B;**LobbyDisplay**。 您現在可以從顯示控制面板檢視指派給顯示的頻道。
    ![影像1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >要瞭解如何為顯示器分配通道，請參閱[建立和管理顯示](/help/user-guide/managing-displays.md)
+   >要瞭解如何註冊設備，請參閱[設備註冊](/help/user-guide/device-registration.md)
 
 1. 為進行示範，此範例會將chrome裝置和Windows播放器分別顯示為兩部裝置。 這兩個裝置都指向相同的顯示。
    ![影像1](assets/command-sync6.png)
@@ -94,7 +94,7 @@ ht-degree: 2%
 您將在**DEVICES**面板中看到兩個裝置（chrome和windows player），如下圖所示。
    ![影像1](assets/command-sync/command-sync10-1.png)
 
-1. 從&#x200B;**DEVICES**&#x200B;面板中，選擇要設定為主設備的設備。 下列範例示範將Chrome裝置設為主版。 按一下「Set as master device **（設定為主設備&lt;a1/>）」。**
+1. 從&#x200B;**DEVICES**&#x200B;面板中，選擇要設定為主設備的設備。 下列範例示範將Chrome裝置設為主版。 按一下「Set as master device **（設定為主設備**）」。
 
    ![影像1](assets/command-sync/command-sync11-1.png)
 
