@@ -6,9 +6,9 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
+source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ ht-degree: 0%
 * 檢查資產是否已建立適當的轉譯，以及正在播放正確的轉譯。
 * 檢查是否有任何排程內容，以及時間是否正確。 檢查播放器中設定的時間是否正確。
 * 檢查播放器控制台日誌並檢查是否有錯誤。 按一下右鍵並檢查以查看控制台日誌。 如果使用Windows播放器，請按`CTRL + ALT +I`開啟dev console以查看日誌。
+
+### 2.如何透過建立預設頻道或排程，解決AEM畫面中的空白畫面問題？
+
+若要避免欄位中出現空白或灰色畫面，請建立預設的全域頻道或排程，並指派給每個優先順序最低的顯示器1。 萬一內容更新發生問題（因為網路、播放器、伺服器或複製），因為播放器已快取此內容至磁碟，所以播放正常並避免顯示灰色畫面。
+
+所有其他內容（例如頻道或排程）的優先順序都大於1，因此其他內容會優先，而全域頻道或排程內容（優先順序為1）只會以回退選項的形式播放。
 
 ## 通道管理{#channel-management}
 
@@ -94,7 +100,7 @@ ht-degree: 0%
 
 1. 導覽至&#x200B;**Adobe Experience Manager Web Console設定**
 1. 選中&#x200B;**allow.empty**&#x200B;選項。
-1. 按一下&#x200B;**「儲存」**。
+1. 按一下「**儲存**」。
 
 ### 3.如果在註冊AEM Screens播放器時，裝置顯示FAILURE，而主控台記錄顯示ENAME_NOT_FOUND錯誤，如何進行疑難排解？{#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
@@ -104,7 +110,7 @@ ht-degree: 0%
 
 使用純Android API的跨平台Android監視程式已包含在應用程式中。 您不需要額外的軟體，但視您使用的裝置而定，您可能需要退出apk才能取得完整電源週期的系統權限(Powermanager api)。 如果它沒有使用製造商密鑰辭職，它將退出並重新啟動應用程式，但不會重新啟動電源。
 
-如需如何實作Android Player的詳細資訊，請參閱「實作Android Player」[**。**](implementing-android-player.md)
+如需如何實作Android Player的詳細資訊，請參閱「實作Android Player」**](implementing-android-player.md)。[**
 
 ### 5.Adobe/AMS建議使用哪些協力廠商遠端監視和警報工具（軟體）來監視每個裝置？ {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
@@ -156,7 +162,7 @@ Windows Player中沒有窗口模式。 一律為全螢幕模式。
 
 1. 檢查您的調度程式重寫規則是否將任何螢幕路徑重寫到其他路徑。
 
-1. 檢查您在`/etc/map`author *或* publish *例項和畫面路徑是否與*&#x200B;相符，並在內部重新導向至不同路徑。 `sling:match`解析`/system/console/jcrresolver`中的確切URL有助於識別&#x200B;*publish*&#x200B;例項是否將這些URL重寫到任何其他路徑。
+1. 檢查您在&#x200B;*author*&#x200B;或&#x200B;*publish*&#x200B;例項和畫面路徑是否與`sling:match`相符，並在內部重新導向至不同路徑。 `/etc/map`解析`/system/console/jcrresolver`中的確切URL有助於識別&#x200B;*publish*&#x200B;例項是否將這些URL重寫到任何其他路徑。
 
 1. 檢查Apache Sling Resource Resolver Factory組態是否造成內部重寫。
 
