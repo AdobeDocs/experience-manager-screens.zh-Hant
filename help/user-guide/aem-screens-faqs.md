@@ -6,7 +6,7 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 * 檢查是否有任何排程內容，以及時間是否正確。 檢查播放器中設定的時間是否正確。
 * 檢查播放器控制台日誌並檢查是否有錯誤。 按一下右鍵並檢查以查看控制台日誌。 如果使用Windows播放器，請按`CTRL + ALT +I`開啟dev console以查看日誌。
 
-### 2.如何透過建立預設頻道或排程，解決AEM畫面中的空白畫面問題？
+### 2.如何透過建立預設頻道或排程，解決AEM畫面中的灰色畫面問題？
 
 若要避免欄位中出現空白或灰色畫面，請建立預設的全域頻道或排程，並指派給每個優先順序最低的顯示器1。 萬一內容更新發生問題（因為網路、播放器、伺服器或複製），因為播放器已快取此內容至磁碟，所以播放正常並避免顯示灰色畫面。
 
