@@ -6,9 +6,9 @@ seo-description: 請依照本頁取得與AEM Screens專案相關的常見問答�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 0%
 
 ---
@@ -166,9 +166,9 @@ Windows Player中沒有窗口模式。 一律為全螢幕模式。
 
 1. 檢查Apache Sling Resource Resolver Factory組態是否造成內部重寫。
 
-### 如何從播放器API取得顯示器和裝置的詳細資訊？
+### 6.如何從播放器API取得顯示器和裝置的詳細資訊？
 
-透過下列兩種方式取得詳細資訊：
+您可透過下列方式取得顯示器與裝置的詳細資訊：
 
 * **內部JS API**
 * **contextHub商店**:在中定義了三個ContextHub儲存 `/libs/screens/clientlibs/contexthub` 區，以公開渠道、設備和顯示資訊。
