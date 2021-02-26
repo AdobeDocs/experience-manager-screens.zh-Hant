@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ ht-degree: 1%
 >如果&#x200B;**State**&#x200B;是&#x200B;**REGISTERED**，您會注意到&#x200B;**Device id**&#x200B;欄位將會填入。
 >
 >如果&#x200B;**State**&#x200B;是&#x200B;**UNECROVERED**，則可使用&#x200B;**Token**&#x200B;註冊裝置。
+
+## 更改Windows Installer {#changing-default-options}中的預設選項
+
+請依照本節內容，瞭解如何變更Windows Installer中的預設選項和可用自訂項目清單。
 
 ## 使用CLI(PowerShell){#install-powershell}進行安裝
 
