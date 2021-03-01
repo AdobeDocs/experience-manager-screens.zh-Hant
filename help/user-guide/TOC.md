@@ -9,17 +9,17 @@ translation-type: tm+mt
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
 
-# AEM Screens使用指南{#user-guide}
+# AEM Screens 使用手冊 {#user-guide}
 
 + [螢幕簡介](aem-screens-introduction.md)
 + 概述和啟動指南{#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
-   + [螢幕最佳實務指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [螢幕最佳實務指南](https://docs.adobe.com/content/help/zh-Hant/experience-manager-screens/using/about-guide.html)
    + [主要條款](screens-glossary.md)
 + 數位標牌網路基本概念{#digital-signage-network}
    + [第1部分：項目角色和責任](project-roles-responsibilities.md)
@@ -34,7 +34,7 @@ ht-degree: 10%
    + [連接畫面播放器](working-with-screens-player.md)
    + [裝置註冊](device-registration.md)
    + [設定ACL](setting-up-acls.md)
-   + [AEM Screens安全性檢查清單](security-checklist.md)
+   + [AEM Screens安全檢查清單](security-checklist.md)
    + [從ContentSync轉換到SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器複製至發佈伺服器](replicating-data-triggers.md)
@@ -47,9 +47,9 @@ ht-degree: 10%
    + 作者發佈{#author-publish}
       + [作者——發佈架構概觀](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
-   + Analytics與AEM Screens {#analytics-integration}的整合
-      + [Adobe Analytics整合](adobe-analytics-integration-aem-screens.md)
-      + [使用AEM畫面設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
+   + Analytics與AEM Screens的整合{#analytics-integration}
+      + [Adobe Analytics 整合](adobe-analytics-integration-aem-screens.md)
+      + [配置Adobe Analytics與AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + 編寫和使用案例示例{#authoring}
    + 設定畫面專案{#setting-up-projects}
       + [建立和管理專案](creating-a-screens-project.md)
@@ -64,7 +64,7 @@ ht-degree: 10%
    + 使用核心產品功能{#product-features}
       + [文字重疊](text-overlay.md)
       + [大量離線更新](bulk-offline-update.md)
-      + [AEM Screens Notifications Service](screens-notifications-service.md)
+      + [AEM Screens通知服務](screens-notifications-service.md)
       + [使用體驗片段](experience-fragments-in-screens.md)
       + [資產層級啟動](asset-level-scheduling.md)
       + [通路層級啟動](channel-level-activation.md)
@@ -95,12 +95,12 @@ ht-degree: 10%
       + [永久使用TakeOver Channel](perpetual-takeover-channel.md)
 + 開發人員與API資源{#developing}
    + [REST API](rest-api.md)
-   + [開發AEM畫面的自訂元件](developing-custom-component-tutorial-develop.md)
+   + [開發適用於AEM Screens的自訂元件](developing-custom-component-tutorial-develop.md)
    + [離線渠道](offline-channels.md)
-   + [擴充AEM Screens元件](extending-component-tutorial-develop.md)
+   + [擴展AEM Screens元件](extending-component-tutorial-develop.md)
    + [建立元件](creating-components.md)
-   + [使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)
-   + [在AEM畫面中設定ContextHub](configuring-context-hub.md)
+   + [使用編輯器內嵌REACT應AEM用程SPA式並與AEM Screens分析整合](embedding-react-app.md)
+   + [在AEM Screens配置ContextHub](configuring-context-hub.md)
    + [建立多區域版面的自訂範本](creating-custom-templates-multizone-layouts.md)
    + [為文字覆蓋套用自訂品牌和樣式](custom-branding-text-overlays.md)
 + 疑難排解和常見問答集{#troubleshooting}
