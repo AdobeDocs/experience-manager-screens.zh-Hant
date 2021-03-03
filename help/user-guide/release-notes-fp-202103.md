@@ -2,10 +2,10 @@
 title: 功能套件202103發行說明
 description: 本頁摘要說明Feature Pack 202103的發行說明。
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 3%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,10 @@ AEM Screens功能包202103的發行日期為2021年3月08日。
 * **AEM Screens大量註冊和分配**
 
    手動大量註冊數千個播放器非常麻煩，而且會增加時間和成本。 為簡化此程式，批量註冊功能允許您指定預先共用的密鑰，該密鑰可AEM通過配置檔案或移動設備管理(MDM)解決方案設定到播放器中。
+
+* **使用企業行動管理大量布建Android Player**
+
+   當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM Appconfig，允許遠端布建。
 
 * **在AEM Screens頻道中鎖定頁面**
 
