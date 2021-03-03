@@ -2,9 +2,9 @@
 title: 功能套件202103發行說明
 description: 本頁摘要說明Feature Pack 202103的發行說明。
 translation-type: tm+mt
-source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
+source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -44,14 +44,17 @@ AEM Screens功能包202103的發行日期為2021年3月08日。
 
 * 如果Assignment具有&#x200B;*OfflineConfig*，則未建立離線快取。
 
-* 更新Tizen播放器問題，因為不支援反向連結原則strict-origin-when-cross-origin。
+* 由於不支援反向連結原則strict-origin-when-cross-origin而中斷的Tizen播放器更新。
 
-* 變更指派渠道的排程「重複」欄位會中斷UI。
+* 在SmartSync下載失敗時記錄基礎錯誤。
+
+* 變更指派頻道的排程&#x200B;*重複*&#x200B;欄位會中斷UI。
 
 * 更新離線內容失敗，但有查詢例外。
 
-* 如果快取未失效，SmartSync遷移將中斷播放器
+* 互動式體驗互動期間的轉場時間延遲現已修正。
 
+* 配置更新請求失敗導致空白螢幕。
 
 ### 獲釋的AEM Screens球員{#released-aem-screens-players}
 
