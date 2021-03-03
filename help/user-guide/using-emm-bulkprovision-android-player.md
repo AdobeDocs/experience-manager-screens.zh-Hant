@@ -3,9 +3,9 @@ title: 使用MDM或EMM大量布建Android Player
 seo-title: 使用EMM或MDM大量布建Android Player
 description: 請依照本頁瞭解使用EMM或MDM大量布建Android Player的相關資訊
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用企業行動管理{#bulk-provisioning}大量布建Android Player
 
-當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM Appconfig，允許遠端布建。 請依照下列步驟，大量布建您的播放器。
+當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM Appconfig，允許遠端布建。
 
 ## 使用企業行動管理{#implementation}實作Android Player的大量布建
 
