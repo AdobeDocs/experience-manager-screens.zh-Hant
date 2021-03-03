@@ -2,10 +2,10 @@
 title: 功能套件202103發行說明
 description: 本頁摘要說明Feature Pack 202103的發行說明。
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '355'
+ht-degree: 2%
 
 ---
 
@@ -33,11 +33,8 @@ AEM Screens功能包202103的發行日期為2021年3月08日。
 
 * **使用企業行動管理大量布建Android Player**
 
-   當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM Appconfig，允許遠端布建。
+   當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM AppConfig，允許遠端布建。
 
-* **在AEM Screens頻道中鎖定頁面**
-
-   AEM Screens現在支援&#x200B;*鎖定頁面*，如AEM Sites已實施。 Adobe Experience ManagerAEM()可讓您鎖定頁面，讓其他人無法修改內容。 當您對特定頁面進行大量編輯或需要將頁面凍結一段時間時，這項功能會很有用。
 
 ### 錯誤修正 {#bug-fixes}
 
