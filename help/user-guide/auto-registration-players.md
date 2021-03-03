@@ -3,9 +3,9 @@ title: 播放器的自動註冊
 seo-title: 播放器的自動註冊
 description: 請依照本頁瞭解使用AMS/預備畫面自動註冊播放器。
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ ht-degree: 0%
 
 請依照下列步驟來實作播放器的自動註冊：
 
-1. 登入您的例AEM項，並選取您的畫AEM面專案，然後按一下屬性和進階標籤。
-1. 您應該會看到大量註冊區段，您可以在其中指定大量註冊代碼，以及可選的預設顯示，以指派給大量註冊的播放器
-1. 輸入您選擇的程式碼，並視需要選取預設顯示畫面
-1. 使用MDM或設定JSON檔案，為您的播放器布建適當的伺服器URL和註冊碼。 如需詳細資訊，請參閱您作業系統特定播放器的實施頁面。 您也可以使用管理員UI輸入註冊代碼。
+1. 登入您AEM的例項並選AEM取您的畫面專案，然後從動作列按一下「屬性&#x200B;****」。
+1. 選擇&#x200B;**Advanced**&#x200B;標籤以查看&#x200B;**Device registration**&#x200B;部分，如下所示。
+
+   ![影像](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. 在&#x200B;**大量註冊代碼**&#x200B;欄位中指定自動註冊代碼，並在&#x200B;**預設顯示指派**&#x200B;中指定選用的預設顯示，以指派給自動註冊的播放器。
+   >[!NOTE]
+   >輸入您選擇的程式碼，並視需要選取預設顯示畫面。
+1. 使用MDM或設定JSON檔案，為您的播放器布建適當的伺服器URL和註冊碼。
+
+   >[!NOTE]
+   >如需詳細資訊，請參閱您作業系統(OS)之特定播放器的實施頁面。 您也可以使用管理員UI輸入註冊代碼。
+
 1. 如果`registrationKey`屬性符合中設定的屬性AEM，則播放器會自動註冊自己，如果設定了預設顯示，則會下載並播放該內容。
+
+   ![影像](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## 安全性最佳實踐{#security-best-practices}
 
