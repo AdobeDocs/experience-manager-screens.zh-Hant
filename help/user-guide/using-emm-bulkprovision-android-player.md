@@ -3,9 +3,9 @@ title: 使用MDM或EMM大量布建Android Player
 seo-title: 使用EMM或MDM大量布建Android Player
 description: 請依照本頁瞭解使用EMM或MDM大量布建Android Player的相關資訊
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 0%
    >[!NOTE]
    >設備應接收應用程式以及配置，並指向具有選定配置AEM的正確伺服器。 如果您選擇設定大量註冊代碼，並維持其與中設定的相同AEM，則播放器應能自動註冊自己。 如果您已設定預設顯示，它也可以下載並顯示某些預設內容（稍後可視您的方便而變更）。
 
-此外，您應洽詢您的EMM廠商有關AppConfig支援的資訊。 最常用的例如[VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)和[Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)支援此業界標準。
+此外，您應洽詢您的EMM廠商有關AppConfig支援的資訊。 最常用的例如[VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)和[Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)等支援此業界標準。
 
 
