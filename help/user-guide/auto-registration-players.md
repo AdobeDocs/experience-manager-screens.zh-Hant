@@ -3,9 +3,9 @@ title: 播放器的自動註冊
 seo-title: 播放器的自動註冊
 description: 請依照本頁瞭解使用AMS/預備畫面自動註冊播放器。
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 請依照下列步驟來實作播放器的自動註冊：
 
 1. 登入您AEM的例項並選AEM取您的畫面專案，然後從動作列按一下「屬性&#x200B;****」。
-1. 選擇&#x200B;**Advanced**&#x200B;標籤以查看&#x200B;**Device registration**&#x200B;部分，如下所示。
-
-   ![影像](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. 選擇&#x200B;**Advanced**&#x200B;標籤以查看&#x200B;**Device registration**&#x200B;部分。
 
 1. 在&#x200B;**大量註冊代碼**&#x200B;欄位中指定自動註冊代碼，並在&#x200B;**預設顯示指派**&#x200B;中指定選用的預設顯示，以指派給自動註冊的播放器。
    >[!NOTE]
    >輸入您選擇的程式碼，並視需要選取預設顯示畫面。
+
+   ![影像](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. 使用MDM或設定JSON檔案，為您的播放器布建適當的伺服器URL和註冊碼。
 
    >[!NOTE]
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * 為確保註冊代碼不受影響，請在啟動大量註冊之AEM前和完成時，在中配置代碼，請清除該欄位並保存AEM。
 
-* 您可以配置路徑`/bin/screens/`註冊只能從已知IP範圍訪問（如果可能）。
+* 您可以將路徑`/bin/screens/registration`設定為只能從已知IP範圍存取。
 
 * 考慮使用MDM為播放器配置配置。
 
