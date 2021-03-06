@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '449'
 ht-degree: 13%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 13%
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [播放器的自動註冊](auto-registration-players.md)
+      + [使用企業行動管理大量布建Android Player](using-emm-bulkprovision-android-player.md)
    + 作者發佈{#author-publish}
       + [作者——發佈架構概觀](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 13%
    + [設備控制中心故障排除](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [功能套件202103發行說明](release-notes-fp-202103.md)
    + [功能套件202011發行說明](release-notes-fp-202011.md)
    + [功能套件202008發行說明](release-notes-fp-202008.md)
    + [功能套件202004發行說明](release-notes-fp-202004.md)
