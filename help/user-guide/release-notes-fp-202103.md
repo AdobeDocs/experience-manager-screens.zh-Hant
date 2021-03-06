@@ -2,9 +2,9 @@
 title: 功能套件202103發行說明
 description: 本頁摘要說明Feature Pack 202103的發行說明。
 translation-type: tm+mt
-source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
+source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -23,17 +23,22 @@ AEM ScreensAEM發行6.5功能套件7。
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能包202103的發行日期為2021年3月08日。
+AEM Screens功能包202103的發行日期為2021年3月05日。
 
 ### 新功能 {#what-is-new}
 
-* **AEM Screens大量註冊和分配**
+* **AEM Screens球員自動註冊**
 
    手動大量註冊數千個播放器非常麻煩，而且會增加時間和成本。 為簡化此程式，批量註冊功能允許您指定預先共用的密鑰，該密鑰可AEM通過配置檔案或移動設備管理(MDM)解決方案設定到播放器中。
+
+   如需詳細資訊，請參閱[播放器自動註冊](/help/user-guide/auto-registration-players.md)。
+
 
 * **使用企業行動管理大量布建Android Player**
 
    當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM AppConfig，允許遠端布建。
+
+   如需詳細資訊，請參閱「使用企業行動管理的Android Player大量布建」。[](/help/user-guide/using-emm-bulkprovision-android-player.md)
 
 
 ### 錯誤修正 {#bug-fixes}
@@ -45,8 +50,6 @@ AEM Screens功能包202103的發行日期為2021年3月08日。
 * 如果Assignment具有&#x200B;*OfflineConfig*，則未建立離線快取。
 
 * 由於不支援反向連結原則strict-origin-when-cross-origin而中斷的Tizen播放器更新。
-
-* 在SmartSync下載失敗時記錄基礎錯誤。
 
 * 變更指派頻道的排程&#x200B;*重複*&#x200B;欄位會中斷UI。
 
@@ -62,7 +65,6 @@ AEM Screens功能包202103的發行日期為2021年3月08日。
 
 * Chrome OS
 * Windows
-* Android
 * 蒂岑
 * Linux
 
