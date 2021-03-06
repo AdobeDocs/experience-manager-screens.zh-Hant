@@ -2,9 +2,9 @@
 title: 功能套件202103發行說明
 description: 本頁摘要說明Feature Pack 202103的發行說明。
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ AEM Screens功能包202103的發行日期為2021年3月05日。
 
 * **AEM Screens球員自動註冊**
 
-   手動大量註冊數千個播放器非常麻煩，而且會增加時間和成本。 為簡化此程式，批量註冊功能允許您指定預先共用的密鑰，該密鑰可AEM通過配置檔案或移動設備管理(MDM)解決方案設定到播放器中。
+   手動大量註冊數千個播放器非常麻煩，而且會增加時間和成本。 為簡化此程式，「播放器自動註冊」功能允許您指定預共用密鑰，AEM該密鑰可通過配置檔案或移動設備管理(MDM)解決方案設定到播放器中。
 
    如需詳細資訊，請參閱[播放器自動註冊](/help/user-guide/auto-registration-players.md)。
 
