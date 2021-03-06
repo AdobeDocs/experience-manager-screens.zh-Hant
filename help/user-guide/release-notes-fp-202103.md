@@ -2,9 +2,9 @@
 title: 功能套件202103發行說明
 description: 本頁摘要說明Feature Pack 202103的發行說明。
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,6 @@ AEM Screens功能包202103的發行日期為2021年3月05日。
 
 * Chrome OS
 * Windows
-* 蒂岑
 * Linux
 
 #### AEM Screens播放器下載{#aem-screens-player-downloads}
