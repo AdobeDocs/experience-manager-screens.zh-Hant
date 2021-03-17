@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics與AEM Screens整合
 seo-title: Adobe Analytics與AEM Screens整合
-description: 請依照本頁瞭解AEM Screens與Adobe Analytics的立即可用整合，並提供您播放證明。
-seo-description: 請依照本頁瞭解AEM Screens與Adobe Analytics的立即可用整合，並提供您播放證明。
+description: 請依本頁瞭解AEM Screens與Adobe Analytics的現成整合，並提供您播放證明。
+seo-description: 請依本頁瞭解AEM Screens與Adobe Analytics的現成整合，並提供您播放證明。
 uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
@@ -11,19 +11,19 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics與AEM Screens {#adobe-analytics-integration-with-aem-screens}整合
+# Adobe Analytics與AEM Screens整合{#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
->只有在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時，才能使用此AEM Screens功能。
+>只有在您安裝了最低版本的6.AEM4.2 Feature Pack 2或AEM6.3.3 Feature Pack 4時，才能使用本AEM Screens功能。
 
 >[!NOTE]
 >
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 ## 概覽 {#overview}
 
-***AEM*** Screens運用Adobe Analytics，讓您能夠取得市場上獨一無二的成果——跨通道分析，協助將位置顯示的內容與其他資料來源建立關聯。
+***ScreensAEM運用了Adobe Analytics，因此您可以取得市場上獨一無二的成果——跨通道分析，協助將位置顯示的內容與其他資料來源建立關聯。*** 
 
-AEM Screens提供與Adobe Analytics的立即可用整合，並提供您播放證明。
+AEM Screens提供與Adobe Analytics的現成可用整合，並提供您遊戲的證明。
 
-本節說明連接AEM Screens專案與Adobe Analytics時涉及的下列功能：
+本節介紹將AEM Screens項目與Adobe Analytics連接時涉及的以下功能：
 
 * 允許依裝置提供播放報告證明
 * 允許依資產提供播放證明報告
@@ -50,24 +50,24 @@ AEM Screens提供與Adobe Analytics的立即可用整合，並提供您播放證
 * 可建立回饋回圈，以追蹤隨時間變化的播放事件
 * 允許系統根據內容作者定義的成功准則修改內容和版面
 
-Adobe Analytics與AEM Screens的整合因此會實施下列&#x200B;*goals*:
+Adobe Analytics與AEM Screens的整合因此執行了以下&#x200B;*目標*:
 
 * 實現數位標牌實作的投資報酬率
 * 將Analytics整合為基礎，以便日後能夠收集和分析使用資訊
 
 ## 體系結構詳細資訊{#architectural-details}
 
-AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間（匯總）。 這是標牌解決方案的常用功能。 AEM Screens將不會建立我們自己的分析，而是運用Adobe Analytics，讓我們能夠達成市場上獨一無二的目標——跨通道分析，協助將顯示於位置的內容與其他資料來源建立關聯。
+AEM Screens客戶希望瞭解何時顯示哪些內容，以及顯示的時間（匯總）。 這是標牌解決方案的常用功能。 AEM Screens不會建立自己的分析，而是利用Adobe Analytics，因此我們可以取得市場上獨一無二的成果——跨通道分析，協助將位置顯示的內容與其他資料來源建立關聯。
 
-以下架構圖說明Adobe Analytics與AEM畫面的整合：
+以下架構圖說明Adobe Analytics與AEM Screens的整合：
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## 在AEM Screens {#enabling-adobe-analytics-in-aem-screens}中啟用Adobe Analytics
+## 在AEM Screens啟用Adobe Analytics{#enabling-adobe-analytics-in-aem-screens}
 
-您可從OSGi主控台設定Adobe Analytics設定。
+可從OSGi控制台配置Adobe Analytics設定。
 
-導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**&#x200B;以設定AEM畫面的Adobe Analytics，如下圖所示：
+導覽至&#x200B;**Adobe Experience ManagerWeb控制台配置**&#x200B;以配置AEM Screens的Adobe Analytics，如下圖所示：
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -75,7 +75,7 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 
 >[!CAUTION]
 >
->在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得&#x200B;**Analytics API金鑰**&#x200B;和&#x200B;**Analytics專案**，以便用於AEM畫面。
+>在設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得&#x200B;**Analytics API金鑰**&#x200B;和&#x200B;**Analytics專案**，以便與AEM Screens搭配使用。
 
 ![]()
 
@@ -83,9 +83,9 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 
 >[!CAUTION]
 >
->在您設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得&#x200B;**Analytics API金鑰**&#x200B;和&#x200B;**Analytics專案**，以便用於AEM畫面。
+>在設定屬性之前，請連絡您的Adobe關係管理員以建立票證，以取得&#x200B;**Analytics API金鑰**&#x200B;和&#x200B;**Analytics專案**，以便與AEM Screens搭配使用。
 
-下表反白顯示用於設定AEM畫面的Adobe Analytics的屬性及其說明：
+下表重點說明了為AEM Screens配置Adobe Analytics的屬性及其說明：
 
 <table>
  <tbody>
@@ -100,11 +100,11 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
   </tr>
   <tr>
    <td><strong>Analytics API金鑰</strong></td>
-   <td>API金鑰，可驗證至Adobe Analytics伺服器（由帳戶管理員提供）。</td>
+   <td>API金鑰，以驗證至Adobe Analytics伺服器（由帳戶管理員提供）。</td>
   </tr>
   <tr>
    <td><strong>Analytics專案</strong></td>
-   <td>AEM Screens專案已設定在您的分析上，以接收資料（由「帳戶管理員」提供）。</td>
+   <td>AEM Screens專案已在您的分析上設定，以接收資料（由帳戶管理員提供）。</td>
   </tr>
   <tr>
    <td><strong>環境</strong></td>
@@ -121,7 +121,7 @@ AEM Screens客戶想要瞭解何時顯示哪些內容，以及顯示多長時間
 >
 >依預設，**Analytics傳送頻率**&#x200B;為15分鐘。
 
-#### 在AEM畫面{#using-adobe-analytics-service-in-aem-screens}中使用Adobe Analytics服務
+#### 在AEM Screens使用Adobe Analytics服務{#using-adobe-analytics-service-in-aem-screens}
 
 此案例會透過來自韌體和儀器畫面核心元件中分析服務的REST呼叫來叫用Analytics API，以明確建立和傳送特定使用案例的事件，同時允許擴充性，讓任何自訂訊息都可從自訂開發的頻道傳送至Analytics。
 
@@ -129,5 +129,5 @@ Analytics事件會離線儲存在indexedDB中，稍後會將其分塊並傳送�
 
 >[!NOTE]
 >
->若要進一步瞭解&#x200B;***Sequencing***&#x200B;和&#x200B;***事件標準資料模型***，請參閱&#x200B;**[設定AEM Screens](configuring-adobe-analytics-aem-screens.md)**&#x200B;的Adobe Analytics。
+>要進一步瞭解&#x200B;***Sequencing***&#x200B;和&#x200B;***事件標準資料模型***，請參閱&#x200B;**[為AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
 
