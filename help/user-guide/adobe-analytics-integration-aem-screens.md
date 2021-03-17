@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
+source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要存取其中一個功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
+>若要存取其中一個功能套件，您必須聯絡Adobe支援並要求存取權。 您可以使用您的Adobe ID，從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載最新的AEM Screens功能套件。
 
 本節涵蓋下列主題：
 
