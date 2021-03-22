@@ -1,8 +1,8 @@
 ---
 title: 使用體驗片段
 seo-title: 使用體驗片段
-description: '請依照本頁瞭解如何在AEM畫面中使用體驗片段。 '
-seo-description: '請依照本頁瞭解如何在AEM畫面中使用體驗片段。 '
+description: '請依本頁瞭解如何使用AEM Screens的體驗片段。 '
+seo-description: '請依本頁瞭解如何使用AEM Screens的體驗片段。 '
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1127'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 本頁涵蓋下列主題：
 
 * **概覽**
-* **在AEM畫面中使用體驗片段**
+* **在AEM Screens使用體驗片段**
 * **將更改傳播到頁面**
 
 ## 概覽 {#overview}
@@ -32,12 +32,12 @@ ht-degree: 1%
 ***體驗片段***&#x200B;是一組或多個元件，包括可在頁面中參考的內容和版面。 體驗片段可包含任何元件，例如，一個或多個元件可包含段落系統內任何內容，這些元件將參照至完整體驗或由第三端點要求。
 
 
-## 在AEM畫面{#using-experience-fragments-in-aem-screens}中使用體驗片段
+## 在AEM Screens使用體驗片段{#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
 >以下範例使用&#x200B;**We.Retail**&#x200B;做為示範專案，從&#x200B;**Sites**&#x200B;頁面將體驗片段運用至AEM Screens專案。
 
-例如，下列工作流程示範在網站中使用We.Retail的體驗片段。 您可以選擇網頁，並將AEM Screens頻道中的該內容運用在其中一個專案中。
+例如，下列工作流程示範在網站中使用We.Retail的體驗片段。 您可以選擇網頁，並在其中一個專案中運用您AEM Screens頻道中的該內容。
 
 ### 先決條件{#pre-requisites}
 
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 1. 按一下「建立畫面專案&#x200B;**」以建立新專案。**
 1. 將標題輸入為&#x200B;**DemoProject**。
-1. 按一下&#x200B;**「儲存」**。
+1. 按一下「**儲存**」。
 
-**DemoProject**&#x200B;將會新增至您的AEM畫面。
+**DemoProject**&#x200B;將添加到您的AEM Screens。
 
 ***建立渠道***
 
-1. 導覽至您建立的&#x200B;**DemoProject**，並選取「頻道」資料夾。****
+1. 導覽至您建立的&#x200B;**DemoProject**，並選取&#x200B;**Channels**&#x200B;資料夾。
 
 1. 按一下操作欄中的&#x200B;**建立**&#x200B;以開啟嚮導。
 1. 從嚮導中選擇&#x200B;**序列通道**&#x200B;模板，然後按一下&#x200B;**Next**。
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 1. **導覽至We.Retail中的「網站」頁面**
 
-   1. 導覽至「網站」並選取&#x200B;**We.Retail In-Store** -> **Channels** ->**閒置頻道- Night**，並選取此頁面做為您的「螢幕」頻道的體驗片段。
+   1. 導覽至「網站」並選取&#x200B;**We.Retail** -> **United States** -> **English** ->Equipment **，並選取此頁面做為您的「畫面」頻道的體驗片段。**
 
    1. 按一下動作列的「編輯」****，以開啟您要用作「畫面」頻道體驗片段的頁面。
 
@@ -86,13 +86,15 @@ ht-degree: 1%
    1. 選擇&#x200B;**Action**&#x200B;作為&#x200B;**建立新的體驗片段**。
 
    1. 選擇&#x200B;**父路徑**。
-   1. 選擇&#x200B;**Template**。 在這裡選擇&#x200B;**體驗片段——螢幕變化**&#x200B;範本。
+   1. 選擇&#x200B;**Template**。 在此處選擇&#x200B;**體驗片段——畫面變化**&#x200B;範本（欄位`/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`中的值）。
 
    1. 將&#x200B;**片段標題**&#x200B;輸入為&#x200B;**ScreensFragment**。
 
    1. 按一下核取標籤，完成新體驗片段的建立。
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   注意：為了更輕鬆地選擇選項，請按一下欄位右側的複選標籤以開啟選擇對話框。
 
 1. **建立體驗片段的即時副本**
 
@@ -113,15 +115,15 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >建立「畫面」片段後，您就可以編輯片段的屬性。 選擇該片段，然後從操作欄中按一下&#x200B;**屬性**。
+   >建立「畫面」片段後，您就可以編輯片段的屬性。 選擇該片段，然後從操作欄中按一下「屬性」(**Properties)。**
 
    **編輯畫面片段的屬性**
 
-   1. 導覽至&#x200B;**ScreensFragment**（您在前述步驟中建立），然後從動作列按一下「屬性&#x200B;**a3/>」。**
+   1. 導覽至&#x200B;**ScreensFragment**（您在前述步驟中建立），然後從動作列按一下「屬性」。****
 
    1. 選擇&#x200B;**Offline Config**&#x200B;標籤，如下圖所示。
 
-   您可以將&#x200B;**用戶端程式庫**（java和css）和&#x200B;**靜態檔案**&#x200B;新增至體驗片段。
+   您可以將&#x200B;**用戶端程式庫**（java和css）和&#x200B;**靜態檔案**&#x200B;新增至您的體驗片段。
 
    下列範例顯示在體驗片段中加入用戶端程式庫和靜態檔案中的字型。  ![片段](assets/fragment.gif)
 
@@ -141,7 +143,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f.在&#x200B;**體驗片段**&#x200B;的&#x200B;*步驟3*&#x200B;中，選取您在&lt;a2/>步驟3&lt;a3/>中建立之片段的&#x200B;**畫面**&#x200B;即時副本。
+   f.在&#x200B;**體驗片段**&#x200B;的&#x200B;*步驟3*&#x200B;中，選取您在步驟3中建立之片段的&#x200B;**畫面**&#x200B;即時副本。
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
