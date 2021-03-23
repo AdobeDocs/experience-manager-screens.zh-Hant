@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -50,7 +53,7 @@ ht-degree: 0%
 
 **建立渠道**
 
-1. 選擇Adobe Experience Manager連結（左上），然後選擇&#x200B;**Screens**。 或者，您也可以直接前往：`http://localhost:4502/screens.html/content/screens`。
+1. 選擇Adobe Experience Manager連結（左上角），然後選擇&#x200B;**螢幕**。 或者，您也可以直接前往：`http://localhost:4502/screens.html/content/screens`。
 1. 導航到&#x200B;**Channels**&#x200B;資料夾，然後從操作欄按一下&#x200B;**Create**。
 
 1. 從&#x200B;**建立**&#x200B;嚮導中選擇&#x200B;**1x2拆分螢幕通道**。
@@ -126,7 +129,7 @@ ht-degree: 0%
 1. **建立位置**
 
    1. 導航至&#x200B;**Zones** —> **Locations**&#x200B;資料夾。
-   1. 選擇&#x200B;**Locations**&#x200B;資料夾，然後從操作欄按一下&#x200B;**Create**。
+   1. 選擇&#x200B;**Locations**&#x200B;資料夾，然後從操作欄中按一下&#x200B;**Create**。
    1. 從&#x200B;**建立**&#x200B;嚮導中選擇&#x200B;**位置** ，然後按一下&#x200B;**下一步**。
    1. 將&#x200B;**Title**&#x200B;輸入為&#x200B;**SanJose**，然後按一下&#x200B;**Create**。
 
@@ -147,7 +150,7 @@ ht-degree: 0%
    1. 選擇&#x200B;**Lobby**&#x200B;顯示，然後從操作欄按一下&#x200B;**Assign Channel**。
    1. 在&#x200B;**通道路徑**&#x200B;中輸入到&#x200B;**多區域**&#x200B;通道的路徑。
    1. 將「**受支援事件**」設定為「初始負載&#x200B;**」、「空閒螢幕**」和「計時器&#x200B;**」。******
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. 同樣地，您必須將其他兩個嵌入式通道（**Zone1**&#x200B;和&#x200B;**Zone2**）分配給此顯示。
