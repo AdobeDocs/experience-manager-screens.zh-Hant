@@ -1,13 +1,16 @@
 ---
 title: 功能套件201909發行說明
 seo-title: 功能套件201909發行說明
-description: 請依照本頁取得2019年7月31日發行的AEM Screens Feature Pack 201909的相關資訊。
-seo-description: 請依照本頁來取得2019年10月7日發行的AEM Screens Feature Pack 201909的資訊。
+description: 請依照本頁取得2019年7月31日發行的AEM Screens功能套件201909的相關資訊。
+seo-description: 請依照本頁取得2019年10月07日發行的AEM Screens功能套件201909的資訊。
+feature: 功能套件
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
@@ -16,13 +19,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->建議您升級至最新版的Adobe Experience Manager(AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建議您升級至最新版的Adobe Experience Manager(AEM)。 畫面提供6.3畫AEM面平台的維護支援。
 
-AEM Screens發行AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2，並提供下列詳細資訊。
+AEM ScreensAEM發行6.4.6功能套件6和AEM6.5.2功能套件2，其詳細內容如下。
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
+AEM Screens功能套件201909的發行日期為2019年10月7日。
 
 ### 新功能 {#what-s-new}
 
@@ -47,14 +50,14 @@ AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
    您現在可以在設定「畫面」體驗片段時新增離線設定（用戶端程式庫和靜態檔案）。
 如需詳細資訊，請參閱[使用體驗片段](experience-fragments-in-screens.md)。
 
-### 已發行的AEM畫面播放器{#released-aem-screens-players}
+### 獲釋的AEM Screens球員{#released-aem-screens-players}
 
-AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2已發行下列AEM Screens Player:
+下列AEM Screens播放器適用於AEM6.4.6功能套件6和AEM6.5.2功能套件2:
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens Player下載{#aem-screens-player-downloads}
+#### AEM Screens播放器下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;[**AEM Screens Player Downloads**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;[**AEM Screens播放器下載**](https://download.macromedia.com/screens/)。
