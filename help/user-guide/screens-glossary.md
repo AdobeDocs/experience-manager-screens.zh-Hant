@@ -1,13 +1,16 @@
 ---
 title: 字彙表
 seo-title: 字彙表
-description: 請依照本頁瞭解與AEM Screens相關的關鍵詞語。
-seo-description: 請依照本頁瞭解與AEM Screens相關的關鍵詞語。
+description: 請依本頁瞭解與AEM Screens相關的關鍵詞語。
+seo-description: 請依本頁瞭解與AEM Screens相關的關鍵詞語。
+feature: 概覽
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 0%
+source-wordcount: '473'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 **吸引** 回圈當顯示器有兩個或更多 ** 狀態 ** 時，吸引回圈定義為home或idlestate。其角色是&#x200B;*吸引*&#x200B;客戶到展示器，並鼓勵他們參與，通常是透過觸碰螢幕，但也可以與產品互動。
 
-**DayPartingDayParting是指將一天分割為時段，並指定在所需時間播放的內容。** AEM Screens可讓您根據需求，在一天、一週或月內排程DayParting的渠道。
+**DayPartingDayParting是指將一天分割為時段，並指定在所需時間播放的內容。** AEM Screens可讓您根據需求，在一天、一週或月內依DayParting來排程渠道。
 
 **DeviceA** 裝置可執行播放器軟體，以產生視覺化輸出。它可控制顯示常用內容或體驗的裁切、縮放、翻譯部分。 螢幕配置綁定到顯示器，但可以在出現技術缺陷時替換。
 
