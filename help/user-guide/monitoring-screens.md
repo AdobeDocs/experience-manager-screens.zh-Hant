@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
+feature: 數位標牌、內容、播放器
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '807'
 ht-degree: 2%
 
 ---
@@ -100,7 +103,7 @@ ht-degree: 2%
 **PREFERENCES**&#x200B;面板允許用戶更改設備&#x200B;**管理UI**、**通道切換器**&#x200B;和&#x200B;**遠程調試**&#x200B;的首選項。
 
 >[!NOTE]
->若要進一步瞭解這些選項，請參閱[AEM Screens Player](working-with-screens-player.md)。
+>若要進一步瞭解這些選項，請參閱[AEM Screens播放器](working-with-screens-player.md)。
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
@@ -133,9 +136,9 @@ ht-degree: 2%
 
 請依照下列步驟來啟用Apache Sling Referrer Filter Allow Empty
 
-1. 導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**，即`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
+1. 導航至&#x200B;**Adobe Experience ManagerWeb控制台配置**，即`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
 1. 選中&#x200B;**allow.empty**&#x200B;選項。
-1. 按一下&#x200B;**「儲存」**。
+1. 按一下「**儲存**」。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
@@ -143,17 +146,17 @@ ht-degree: 2%
 
 下節建議監控網路連結、伺服器和播放器，以瞭解運作狀況並回應問題。
 
-AEM提供內建的監控功能：
+AEM提供內置監控：
 
-* *「* Heartbeavery 5 seconds」（心動5秒）以指出AEM Screens Player正在運作。
+* *心* 臟5秒，表示AEM Screens播放器正在運作。
 * *播* 放器的螢幕分鏡，顯示播放器上目前顯示的內容。
-* Player上安裝的&#x200B;*AEM Screens Player Firmware*&#x200B;版本。
+* 播放器上安裝的&#x200B;*AEM Screens播放器韌體*&#x200B;版本。
 * *播放器* 上的免費儲存空格。
 
-使用第三方軟體進行遠程監控的建議：
+Recommendations公司提供第三方軟體進行遠程監控：
 
 * 播放器上的CPU使用量。
-* 檢查AEM Screens Player程式是否正在執行。
+* 檢查AEM Screens播放器程式是否正在運行。
 * Player的遠程重啟／重新啟動。
 * 即時通知。
 
