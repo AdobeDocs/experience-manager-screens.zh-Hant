@@ -2,10 +2,13 @@
 title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -17,11 +20,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->支援AEM Screens頻道中資料觸發器的最低版本為AEM 6.5.3 Feature Pack 3。
+>支援AEM Screens通道中資料觸發器的最低版本AEM為6.5.3 Feature Pack 3。
 
 ## 必備條件 {#prereqs}
 
-在遵循下列步驟以啟用頻道中的定位之前，您必須先瞭解瞭解瞭解AEM Screens中ContextHub和Targeting的[ Key Terms in Configuring in AEM Screens](configuring-context-hub.md)。
+在遵循下列步驟以啟用頻道定位之前，您必須先瞭解瞭解AEM Screens的ContextHub和定位所需的[在AEM Screens的設定中的關鍵詞](configuring-context-hub.md)。
 
 >[!IMPORTANT]
 >
@@ -38,11 +41,11 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM畫面頻道{#enabling-targeting}中啟用定位
+## 在AEM Screens渠道{#enabling-targeting}中啟用定位
 
 請依照下列步驟，在您的通道中啟用定位。
 
-1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM Screens頻道中建立的&#x200B;**DataDrivenRetail** *（序列頻道）*&#x200B;啟用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM Screens頻道中建立的&#x200B;**DataDrivenRetail** *（序列頻道）*&#x200B;來啟用定位。
 
 1. 選擇渠道&#x200B;**DataDrivenRetail**，然後從操作欄中按一下「屬性」。****
 
@@ -75,7 +78,7 @@ ht-degree: 1%
 
 ### 更多資訊：範例使用案例{#learn-more-example-use-cases}
 
-在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
+在您為AEM Screens項目配置ContextHub後，您可以遵循不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
 1. **[零售庫存鎖定](retail-inventory-activation.md)**
 1. **[旅行中心溫度激活](local-temperature-activation.md)**
