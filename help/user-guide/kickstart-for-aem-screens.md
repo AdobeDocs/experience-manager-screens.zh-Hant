@@ -1,11 +1,14 @@
 ---
 title: Kickstart指南
 seo-title: Kickstart指南
-description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位招牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
+description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位標牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
+feature: 概觀，數位標牌
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1323'
 ht-degree: 2%
 
 ---
@@ -13,14 +16,14 @@ ht-degree: 2%
 
 # Kickstart Guide {#kickstart-guide}
 
-「AEM畫面的啟動」示範如何設定及執行AEM畫面專案。 它會逐步引導您設定基本的數位標牌體驗，並將資產和／或視訊等內容新增至每個頻道，並進一步將內容發佈至AEM Screens播放器。
+AEM Screens項目啟動會示範如何設定和執行AEM Screens專案。 它會逐步引導您設定基本的數位招牌體驗，並將資產和／或視訊等內容新增至每個頻道，並進一步將內容發佈至AEM Screens播放器。
 
 >[!NOTE]
->開始處理專案詳細資訊之前，請確定您已安裝最新的AEM畫面功能套件。 您可以使用Adobe ID從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載最新的功能套件。
+>開始處理專案詳細資訊之前，請確定您已安裝最新的AEM Screens功能套件。 您可以使用您的Adobe ID，從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載最新的功能套件。
 
 ## 必備條件 {#prerequisites}
 
-請依照下列步驟建立AEM Screens的範例專案，並進一步將內容發佈至Screens播放器。
+請依照下列步驟，為AEM Screens建立範例專案，並進一步將內容發佈至Screens播放器。
 
 >[!NOTE]
 >下列教學課程將展示在Chrome OS播放器中播放您頻道的內容。
@@ -33,11 +36,11 @@ ht-degree: 2%
 
 ## 允許空的反向連結請求{#allow-empty-referrer-requests}
 
-1. 透過AEM實例—>槌子圖示—>**操作** —> **Web控制台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web Console Configuration**。
+1. 導航至&#x200B;**Adobe Experience ManagerWeb控制台配置**(通過實例AEM—>槌子表徵圖—> **操作** —> **Web控制台**)。
 
    ![影像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web Console設** 定開啟。搜尋sling referrer。
+1. **Adobe Experience ManagerWeb控制台** 配置開啟。搜尋sling referrer。
 
    若要搜尋sling referrer屬性，請按&#x200B;**Command+F**&#x200B;以取得&#x200B;**Mac**&#x200B;和&#x200B;**Control+F**&#x200B;取得&#x200B;**Windows**。
 
@@ -49,9 +52,9 @@ ht-degree: 2%
 
 ## 在5分鐘內建立數位招牌體驗{#creating-a-digital-signage-experience-in-minutes}
 
-### 建立AEM Screens專案{#creating-project}
+### 建立AEM Screens項目{#creating-project}
 
-第一個步驟是建立AEM Screens專案。
+第一步是建立一個AEM Screens項目。
 
 1. 導覽至您的Adobe Experience Manager(AEM)例項，然後按一下「**畫面**」。 或者，您也可以直接從`https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`導覽。
 
@@ -64,7 +67,7 @@ ht-degree: 2%
 
 ### 建立通道{#creating-channel}
 
-建立AEM Screens專案後，您需要建立新的管道來管理內容。
+在建立您的AEM Screens專案後，您需要建立新的管道來管理內容。
 
 請依照下列步驟，為您的專案建立新的管道：
 
@@ -85,7 +88,7 @@ ht-degree: 2%
 
 ### 新增內容至頻道{#adding-content}
 
-在您的頻道就位後，您需要將AEM Screens播放器將會顯示的內容新增至頻道。
+在您的頻道就位後，您需要將內容新增至您的頻道，讓AEM Screens播放器顯示。
 
 請依照下列步驟，將內容新增至專案中的頻道(**TestChannel**):
 
@@ -182,7 +185,7 @@ ht-degree: 2%
 
 ### 註冊設備並將設備分配給顯示器{#registering-device}
 
-您必須使用AEM儀表板註冊裝置。
+您必須使用儀表板註冊您的AEM裝置。
 
 >[!IMPORTANT]
 >Chrome OS Player可在開發人員模式下安裝為Chrome Browser外掛程式，而不需實際的Chrome Player裝置。 如需安裝，請遵循下列步驟：
@@ -192,14 +195,14 @@ ht-degree: 2%
 >1. 開啟Chrome瀏覽器，然後從選單中選取「**擴充功能**」，或直接導覽至&#x200B;***chrome://extensions***。
 >1. 從右上角切換&#x200B;**開發人員模式**。
 >1. 從左上角按一下「載入已解壓縮的&#x200B;****」，然後載入已解壓縮的Chrome Player。
->1. 如果副檔名清單中有提供，請勾選&#x200B;**AEM Screens Chrome Player**&#x200B;增效模組。
+>1. 如果副檔名清單中有&#x200B;**AEM ScreensChrome Player**&#x200B;增效模組，請檢查。
 >1. 開啟新標籤，然後按一下左上角的&#x200B;**Apps**&#x200B;圖示，或直接導覽至&#x200B;***chrome://apps***。
 >1. 按一下「**AEM Screens**&#x200B;增效模組」以啟動Chrome Player。 依預設，播放器會以全螢幕模式啟動。 按&#x200B;**esc**&#x200B;退出全螢幕模式。
 
 
 在您的Chrome OS播放器開啟後，請依照下列步驟註冊Chrome裝置。
 
-1. 從您的AEM例項導覽至專案的&#x200B;**Devices**&#x200B;資料夾。
+1. 從實例瀏覽至項目的&#x200B;**Devices**&#x200B;資料夾AEM。
 
 1. 從操作欄點選／按一下&#x200B;**設備管理器**。
 
@@ -207,14 +210,14 @@ ht-degree: 2%
 
 1. 點選／按一下右上角的&#x200B;**裝置註冊**。
 
-1. 選擇所需設備並點選／按一下「Register Device **（註冊設備&lt;a1/>）」。**
+1. 選擇所需設備並點選／按一下「Register Device **（註冊設備**）」。
 
    ![影像](assets/kickstart/demo-register2.png)
 
-1. 等待裝置傳送其註冊碼，並同時從您的Chrome裝置檢查&#x200B;**註冊碼**。
+1. 等候裝置傳送其註冊碼，並同時從您的Chrome裝置檢查&#x200B;**註冊碼**。
    ![影像](assets/kickstart/demo-register3.png)
 
-1. 如果兩部電腦的&#x200B;**註冊代碼**&#x200B;都相同，請點選／按一下AEM中的&#x200B;**驗證**。
+1. 如果&#x200B;**註冊代碼**&#x200B;在兩台電腦上都相同，請點選／按一下&#x200B;**中的「驗證」AEM。**
 
 1. 將所需的名稱設為裝置的&#x200B;**ChromeDeviceforDemo**，然後按一下「註冊」**。**
 
@@ -240,6 +243,6 @@ ht-degree: 2%
 
 您頻道中的所有資產現在都會在Chrome OS播放器上播放。
 
-恭喜您現在正在AEM Screens頻道中播放內容！
+恭喜您現在正在AEM Screens頻道播放內容！
 
 ![影像](assets/kickstart/demo-video-screens.gif)
