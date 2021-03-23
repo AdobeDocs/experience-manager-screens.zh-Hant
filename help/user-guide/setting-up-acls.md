@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
+feature: 管理畫面
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +25,13 @@ ht-degree: 1%
 
 下節將說明如何使用ACL分離項目，以便讓每個個人或團隊處理自己的項目。
 
-身為AEM管理員，您需要確保專案的團隊成員不會干擾其他專案，而且每個使用者都會根據專案需求獲得特定角色。
+身為管AEM理員，您需要確保專案的團隊成員不會干擾其他專案，而且每個使用者都會根據專案需求指派特定角色。
 
 ## 設定權限{#setting-up-permissions}
 
 以下步驟概括了為項目設定ACL的過程：
 
-1. 登入AEM並導覽至&#x200B;**Tools** > **Security**。
+1. 登AEM入並導覽至&#x200B;**工具** > **安全性**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -44,7 +47,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 將&#x200B;**Acme**（您建立的項目）添加到&#x200B;**向組添加成員**。 按一下&#x200B;**「儲存」**。
+1. 將&#x200B;**Acme**（您建立的項目）添加到&#x200B;**向組添加成員**。 按一下「**儲存**」。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -81,7 +84,7 @@ ht-degree: 1%
 
 ### 建立組{#creating-groups}
 
-建立新專案時，也應建立指派基本權限集的預設使用者群組。 您應將權限延伸至我們對AEM畫面擁有的典型角色。
+建立新專案時，也應建立指派基本權限集的預設使用者群組。 您應將權限擴展至我們對AEM Screens的典型角色。
 
 例如，您可以建立下列專案特定群組：
 
@@ -89,7 +92,7 @@ ht-degree: 1%
 * 畫面專案營運商（註冊播放器，以及管理位置和裝置）
 * 畫面專案使用者（處理頻道、排程和頻道指派）
 
-下表匯總了AEM Screens專案的說明和權限群組：
+下表概述了具有AEM Screens項目說明和權限的組：
 
 <table>
  <tbody>
@@ -100,7 +103,7 @@ ht-degree: 1%
   </tr>
   <tr>
    <td>畫面管理員<br /> <em>畫面管理員</em></td>
-   <td>AEM Screens功能的管理員層級存取</td>
+   <td>管理員級別存取AEM Screens功能</td>
    <td>
     <ul>
      <li>投稿人成員</li>
@@ -113,7 +116,7 @@ ht-degree: 1%
   </tr>
   <tr>
    <td>畫面使用者<br /> <em>畫面使用者</em></td>
-   <td>建立和更新頻道和排程，並指派至AEM畫面中的位置</td>
+   <td>建立和更新頻道和排程，並指派至AEM Screens</td>
    <td>
     <ul>
      <li>投稿人成員</li>
@@ -124,7 +127,7 @@ ht-degree: 1%
   </tr>
   <tr>
    <td>Screens Operators<br /> <em>screens-operators</em></td>
-   <td>在AEM Screens中建立和更新位置結構並註冊播放器</td>
+   <td>在AEM Screens建立和更新位置結構及註冊播放器</td>
    <td>
     <ul>
      <li>投稿人成員</li>
