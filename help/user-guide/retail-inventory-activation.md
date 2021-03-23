@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -31,9 +34,9 @@ ht-degree: 0%
 
 ## 先決條件{#preconditions}
 
-在開始實作零售庫存定位啟動之前，您必須瞭解如何在AEM Screens專案中設定&#x200B;***Data Store***、***觀眾區隔***&#x200B;和&#x200B;***啟用渠道定位***。
+在開始實作零售庫存定位啟動之前，您必須瞭解如何在AEM Screens專案中設定&#x200B;***資料商店***、***受眾細分***&#x200B;和&#x200B;***啟用渠道定位***。
 
-如需詳細資訊，請參閱「在AEM Screens[中設定ContextHub」。](configuring-context-hub.md)
+如需詳細資訊，請參閱「在AEM Screens設定ContextHub」。[](configuring-context-hub.md)
 
 ## 基本流{#basic-flow}
 
@@ -48,11 +51,11 @@ ht-degree: 0%
 
 1. **依需求設定觀眾**
 
-   1. 導覽至對象中的區段(請參閱&#x200B;***步驟2:在&#x200B;**[「在AEM Screens](configuring-context-hub.md)**頁面中設定ContextHub」中設定「觀眾區隔」，以取得詳細資訊)。***
+   1. 導覽至對象中的區段(請參閱&#x200B;***步驟2:在&#x200B;**[設定AEM Screens](configuring-context-hub.md)**頁面的ContextHub中設定「觀眾區隔」，以取得詳細資訊)。***
 
    1. 新增三個新區段&#x200B;**For_Red**、**For_Green**&#x200B;和&#x200B;**For_Blue**。
 
-   1. 選擇&#x200B;**For_Red**，然後從操作欄中按一下&#x200B;**編輯**。
+   1. 選擇&#x200B;**For_Red**，然後從操作欄按一下&#x200B;**Edit**。
 
    1. 拖放&#x200B;**比較：屬性——對編輯器的屬性**，然後按一下配置表徵圖以編輯屬性。
    1. 從&#x200B;**第一屬性名稱**&#x200B;的下拉式清單中選擇&#x200B;**googlessheets/value/1/2**
