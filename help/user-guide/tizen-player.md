@@ -1,10 +1,13 @@
 ---
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
+feature: 管理畫面、播放器
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -14,9 +17,9 @@ ht-degree: 1%
 
 ## 安裝Tizen Player {#installing-tizen-player}
 
-請依照下列步驟，為AEM畫面實作Tizen Player:
+請依照下列步驟，為AEM Screens實作Tizen Player:
 
-1. 導覽至[AEM Screens Player下載](https://download.macromedia.com/screens/)頁面以下載Tizen Player。
+1. 導覽至[AEM Screens播放器下載](https://download.macromedia.com/screens/)頁面以下載Tizen播放器。
 
 1. 從本機電腦安裝Tizen Player *(.zip)*&#x200B;檔案。
 
@@ -53,7 +56,7 @@ ht-degree: 1%
    >[!NOTE]
    >Tizen播放器應能連線至http伺服器。
 
-1. AEM Screens Player現在應會自動在您的Samsung裝置上安裝和啟動。
+1. 現在，AEM Screens播放器應會自動在您的Samsung裝置上安裝和啟動。
 
    >[!NOTE]
    >Tizen設備和`http`伺服器應能夠相互連接，即伺服器應可以連接到Tizen播放器。
@@ -62,31 +65,31 @@ ht-degree: 1%
 ## 使用SameSite Cookie問題免除使用者代理程式{#exempting-user-agents}
 
 >[!IMPORTANT]
->**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
->有些瀏覽器引擎與AEM 6.5到AEM 6.7所核發的登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。在大多數情況下，可將瀏覽器升級至最新的可用版本即可解決此問題。 在某些情況下，例如智慧型顯示器、機上盒或具有內嵌瀏覽引擎的其他裝置可能無法進行此類升級。
+>**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM6.5.7**
+>有些瀏覽器引擎與6.5到6.7所發佈之登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容AEM。在大多數情況下，可將瀏覽器升級至最新的可用版本即可解決此問題。 在某些情況下，例如智慧型顯示器、機上盒或具有內嵌瀏覽引擎的其他裝置可能無法進行此類升級。
 
 使用&#x200B;*SameSite=None*&#x200B;時，請依照下列步驟免除這些不相容的用戶端：
 
-1. 升級至Adobe Experience Manager(AEM)Service Pack 6.5.7。
+1. 升級至Adobe Experience ManagerAEM()Service Pack 6.5.7。
 
-1. AEM重新啟動後，請前往`/system/console/configMgr`並搜尋&#x200B;**Adobe Granite Token驗證處理常式**。 將&#x200B;**SameSite**&#x200B;值的值設定為&#x200B;**None**。
+1. 重新啟AEM動後，請前往`/system/console/configMgr`並搜尋&#x200B;**Adobe花崗岩Token驗證處理常式**。 將&#x200B;**SameSite**&#x200B;值的值設定為&#x200B;**None**。
 
 1. 您應看到一個新選項&#x200B;*User agents，可免除與samesite屬性*&#x200B;相同的屬性。 用與&#x200B;*SameSite=None*&#x200B;屬性不相容的使用者代理對應的規則運算式來填入此變數。
    >[!NOTE]
    >請參閱[SameSite=None:已知不相容的用戶端](https://www.chromium.org/updates/same-site/incompatible-clients)以取得詳細資訊。 對於Tizen播放器，請使用regex:`(.*)Tizen(.*)`。
 
-1. 針對您的AEM 6.5.5和更新版本例項註冊Tizen播放器，它應該會正常註冊並顯示內容。
+1. 針對您的6.5.5及以上AEM版本例項註冊Tizen播放器，它應正常註冊並顯示內容。
 
 ## Tizen Player的批量布建{#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->在大量裝置的每個裝置的管理員UI中手動輸入AEM伺服器位址，可能會很麻煩。 建議使用Samsung遠端管理(RMS)解決方案來部署和管理大型解決方案。 如需詳細資訊，請參閱[將Tizen Device註冊至Samsung遠端管理服務(RMS)](#enroll-tizen-device-rm)。
+>在大量裝置的每個裝置的管理UI中手動輸入AEM您的伺服器位址，可能會很麻煩。 建議使用Samsung Remote Management(RMS)解決方案來部署和管理大型解決方案。 如需詳細資訊，請參閱[將Tizen Device註冊至Samsung遠端管理服務(RMS)](#enroll-tizen-device-rm)。
 
-請依照下列步驟，在啟動應用程式時大量布建應用程式，以指向您的AEM作者實例：
+請依照下列步驟，大量布建應用程式，以在啟動時指AEM向您的作者例項：
 
 1. 下載並安裝[Tizen Studio](https://developer.tizen.org/development/tizen-studio/download)。
 1. 使用Tizen Studio開啟`wgt`檔案。
-1. 開啟檔案`firmware-platform.js`並搜尋`DEFAULT_PREFERENCES`，並將伺服器URL變更為AEM作者URL並儲存。
+1. 開啟檔案`firmware-platform.js`並搜尋`DEFAULT_PREFERENCES`，並將伺服器URL變更為作AEM者URL並儲存。
 1. 建立新的`wgt`檔案。
 
    >[!NOTE]
