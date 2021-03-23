@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -26,13 +29,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果AEM Screens視訊轉譯無法在您的裝置上最佳播放，請連絡硬體廠商以取得視訊的規格。 這有助於在裝置上取得最佳效能，進而建立您自己的自訂視訊設定檔，供您為FFMPEG提供適當的參數以產生轉譯。 隨後，請使用下列步驟將自訂視訊描述檔新增至描述檔清單。
+>如果AEM Screens視訊轉譯無法在您的裝置上最佳播放，請連絡硬體廠商以取得視訊規格。 這有助於在裝置上取得最佳效能，進而建立您自己的自訂視訊設定檔，供您為FFMPEG提供適當的參數以產生轉譯。 隨後，請使用下列步驟將自訂視訊描述檔新增至描述檔清單。
 >
 >此外，請參閱[疑難排解視訊](troubleshoot-videos.md)以除錯和疑難排解頻道中的視訊播放。
 
 請依照下列步驟自動產生完整HD轉譯：
 
-1. 選擇Adobe Experience Manager連結（左上），然後按一下槌子圖示，以選取要選取&#x200B;**Workflow**&#x200B;的工具。
+1. 選擇「Adobe Experience Manager」連結（左上角），然後按一下「槌子」表徵圖以選擇要選擇&#x200B;**Workflow**&#x200B;的工具。
 
    按一下&#x200B;**Models**&#x200B;進入工作流模型管理。
 
@@ -70,7 +73,7 @@ ht-degree: 0%
 
 請依照下列步驟手動產生完整HD轉譯：
 
-1. 選擇Adobe Experience Manager連結（左上），然後按一下槌子圖示，以選取要選取&#x200B;**Workflow**&#x200B;的工具。
+1. 選擇「Adobe Experience Manager」連結（左上角），然後按一下「槌子」表徵圖以選擇要選擇&#x200B;**Workflow**&#x200B;的工具。
 
    按一下&#x200B;**Models**&#x200B;進入工作流模型管理。
 
