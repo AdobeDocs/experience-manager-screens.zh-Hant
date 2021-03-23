@@ -4,10 +4,13 @@ seo-title: 在多區域版面中建立自訂範本
 description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 1%
 
 1. **命名慣例**:
 
-   在您瞭解如何建立自訂多區域範本以用於AEM Screens專案之前，建議您先瞭解您要建立的範本版本。
+   在瞭解如何建立自訂多區域範本以用於AEM Screens專案之前，建議您先瞭解您要建立之範本的版本。
 
    | **版面名稱** | **說明** |
    |---|---|
@@ -58,20 +61,20 @@ Left20-LandscapeHD3Zone Layout可讓您在專案中建立下列多區域版面�
 
 ## 建立Left20-LandscapeHD3Zone版面{#landscape-layout-one}
 
-請依照下列步驟，為AEM Screens專案建立Left20-LandscapeHD3Zone Layout:
+請依照下列步驟，為AEM Screens專案建立Left20-LanscapeHD3Zone版面：
 
-1. 建立標題為&#x200B;**customtemplate**&#x200B;的AEM Screens專案。
+1. 建立名為&#x200B;**customtemplate**&#x200B;的AEM Screens項目。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. 從您的AEM實例—>工具—> **CRXDE Lite**&#x200B;導覽至&#x200B;**CRXDE Lite**。
+1. 從實例—>工具—> **CRXDE LiteAEM**&#x200B;瀏覽至&#x200B;**CRXDE Lite**。
 
 1. 在&#x200B;**apps**&#x200B;下建立名為&#x200B;**customtemplate**&#x200B;的資料夾。 同樣地，在&#x200B;**customtemplate**&#x200B;下建立名為&#x200B;**template**&#x200B;的另一個資料夾，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >建議您每次建立、編輯或複製內容至任何節點時，從CRXDE Lite的動作列按一下「全部儲存」**，否則無法提交更新。**
+   >建議您每次建立、編輯或將內容複製到任何節點時，從CRXDE Lite中的操作欄按一下&#x200B;**保存所有**，否則將無法提交更新。
 
 1. 將左欄範本從`/libs/screens/core/templates/splitscreenchannel/lbar-left`複製至`/apps/customtemplate/template`。
 
