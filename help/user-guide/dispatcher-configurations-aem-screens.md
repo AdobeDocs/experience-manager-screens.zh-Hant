@@ -1,22 +1,25 @@
 ---
-title: AEM畫面的Dispatcher Configurations
-seo-title: AEM畫面的Dispatcher Configurations
-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
-seo-description: 本頁反白說明為AEM Screens專案設定分派程式的准則。
+title: Dispatcher Configurations forAEM Screens
+seo-title: Dispatcher Configurations forAEM Screens
+description: 本頁重點介紹為AEM Screens項目配置調度程式的指導方針。
+seo-description: 本頁重點介紹為AEM Screens項目配置調度程式的指導方針。
+feature: 管理畫面
+role: 開發人員、商業從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
 
 
-# AEM畫面的Dispatcher Configurations{#dispatcher-configurations-for-aem-screens}
+# AEM Screens的調度器配置{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
-以下頁面提供為AEM Screens專案設定分派程式的准則。
+下頁提供了為AEM Screens項目配置調度程式的指導。
 
 >[!NOTE]
 >
@@ -26,15 +29,15 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 ## 先決條件{#pre-requisites}
 
-在您為AEM Screens專案設定分派程式之前，您必須具備Dispatcher的先前知識。
+在為AEM Screens項目配置調度程式之前，您必須具備Dispatcher的先前知識。
 
 有關詳細資訊，請參閱[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
-AEM Screens播放器／裝置也會使用驗證的工作階段來存取發佈例項中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，如此驗證的工作階段就對來自AEM Screens播放器／裝置的所有請求有效。
+AEM Screens播放器／裝置也使用驗證的作業來存取發佈例項中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，如此驗證的作業階段就對來自AEM Screens播放器／裝置的所有請求有效。
 
-請依照下列步驟，為AEM Screens專案設定分派程式。
+按照以下步驟為AEM Screens項目配置調度程式。
 
 ### 啟用粘滯會話{#enable-sticky-session}
 
