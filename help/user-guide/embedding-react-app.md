@@ -1,38 +1,41 @@
 ---
-title: 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合
-seo-title: 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合
-description: 請依照本頁瞭解如何使用AEM SPA編輯器（可由AEM的商業專業人員設定）使用REACT（或Angular）內嵌互動式單頁應用程式，以及如何將互動式應用程式與離線Adobe Analytics整合。
-seo-description: 請依照本頁瞭解如何使用AEM SPA編輯器（可由AEM的商業專業人員設定）使用REACT（或Angular）內嵌互動式單頁應用程式，以及如何將互動式應用程式與離線Adobe Analytics整合。
+title: 使用編輯器內嵌REACT應AEM用程SPA式並與AEM Screens分析整合
+seo-title: 使用編輯器內嵌REACT應AEM用程SPA式並與AEM Screens分析整合
+description: 請依照本頁瞭解如何使用商業專業人員可設定的編輯器(REACT(或Angular)嵌入互動式單頁應用程式)，以及如何將互動式應用程式與離線的AEMAdobe Analytics整合。
+seo-description: 請依照本頁瞭解如何使用商業專業人員可設定的編輯器(REACT(或Angular)嵌入互動式單頁應用程式)，以及如何將互動式應用程式與離線的AEMAdobe Analytics整合。
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
 
-# 使用AEM SPA編輯器內嵌REACT應用程式，並與AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}整合
+# 使用編輯器內嵌REACT應AEM用程SPA式，並與AEM Screens分析{#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}整合
 
-本節說明如何使用AEM SPA編輯器（可由AEM的商業專業人員設定），使用REACT（或Angular）內嵌互動式單頁應用程式，以及如何將互動式應用程式與離線Adobe Analytics整合。
+本節說明如何使用商業專業人員可在中設定的編輯器，AEM使用REACT(或Angular)內嵌互動式單頁應用程式，以及如AEM何將互動式應用程式與離線Adobe Analytics整合。
 
-## 使用AEM SPA編輯器{#using-the-aem-spa-editor}
+## 使用AEM編SPA輯器{#using-the-aem-spa-editor}
 
-請依照下列步驟來使用AEM SPA編輯器：
+請依照下列步驟使AEM用編輯SPA器：
 
-1. 複製位於[https://github.com/adobe/aem-spa-project-archetype的AEM SPA Editor repo。](https://github.com/adobe/aem-spa-project-archetype)
+1. 克隆SPA[AEMhttps://github.com/adobe/aem-spa-project-archetype上的Editor repo。](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
-   >此原型會建立最小的Adobe Experience Manager專案，做為您自己SPA專案的起點。 使用此原型時必須提供的屬性允許根據需要命名此項目的所有部分。
+   >這種原型創造了一個最小的Adobe Experience Manager項目作為你自己項目的SPA起點。 使用此原型時必須提供的屬性允許根據需要命名此項目的所有部分。
 
-1. 請依照讀我檔案的指示建立AEM SPA編輯器原型專案：
+1. 請依照讀我檔案的指示建立編AEM輯SPA器原型專案：
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -47,10 +50,10 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >我們使用&#x200B;**GroupId**&#x200B;作為&#x200B;***com.adobe.aem.screens***&#x200B;和&#x200B;**ArtifactId**&#x200B;作為&#x200B;***我的範例SPA***（這是預設值）。 您可以視需要選擇自己的產品。
+   >我們將&#x200B;**GroupId**&#x200B;用作&#x200B;***com.adobe.aem.screens***，將&#x200B;**ArtifactId**&#x200B;用作&#x200B;***My SampleSPA***（預設值）。 您可以視需要選擇自己的產品。
 
 1. 在建立項目後，請使用您選擇的IDE或編輯器並導入生成的Maven項目。
-1. 使用命令&#x200B;***mvn clean install -PautoInstallPackage***&#x200B;部署至您的本機AEM實例。
+1. 使用命令&#x200B;***AEMmvn clean install -PautoInstallPackage***&#x200B;部署到本地實例。
 
 ### 在REACT應用程式中編輯內容{#editing-content-in-the-react-app}
 
@@ -59,9 +62,9 @@ ht-degree: 0%
 1. 導覽至`https://localhost:4502/editor.html/content/mysamplespa/en/home.html`（視適用情況取代主機名、埠和專案名稱）。
 1. 您應該可以編輯Hello World應用程式中顯示的文字。
 
-### 將互動式REACT應用程式新增至AEM畫面{#adding-the-interactive-react-app-to-aem-screens}
+### 將互動式REACT應用程式新增至AEM Screens{#adding-the-interactive-react-app-to-aem-screens}
 
-請依照下列步驟，將互動式REACT應用程式新增至AEM畫面：
+請依照下列步驟，將互動式REACT應用程式新增至AEM Screens:
 
 1. 建立新的AEM Screens專案。 有關詳細資訊，請參閱[建立和管理項目](creating-a-screens-project.md)。
 
@@ -90,24 +93,24 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. 針對此專案註冊播放器，您現在應該可以在AEM畫面上看到您的互動式應用程式。
+1. 針對此專案註冊播放器，您現在應該可以看到互動式應用程式在AEM Screens執行。
 
    請參閱[裝置註冊](device-registration.md)以詳細瞭解註冊裝置。
 
-## 透過AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}將SPA與Adobe Analytics與離線功能整合
+## 通過SPAAEM Screens將與Adobe Analytics的離線功能整合在一起{#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
-請依照下列步驟，透過AEM Screens將SPA與Adobe Analytics整合為離線功能：
+請依照下列步驟，透過AEM Screens將SPAAdobe Analytics與離線功能整合：
 
-1. 在AEM畫面中設定Adobe Analytics。
+1. 在AEM Screens配置Adobe Analytics。
 
-   請參閱「使用AEM Screens設定Adobe Analytics[」以瞭解如何在「使用AEM Screens進行Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件」。](configuring-adobe-analytics-aem-screens.md)
+   請參閱[將Adobe Analytics配置為AEM Screens](configuring-adobe-analytics-aem-screens.md)以瞭解如何在Adobe Analytics與AEM Screens進行排序，並使用離線Adobe Analytics發送自訂事件。
 
 1. 在您選擇的IDE/編輯器中編輯您的反應應用程式（尤其是要開始發出事件的文字元件或其他元件）。
 1. 在您要擷取元件的點按事件或其他事件上，使用標準資料模型新增分析資訊。
 
-   如需詳細資訊，請參閱「使用AEM畫面設定Adobe Analytics」。[](configuring-adobe-analytics-aem-screens.md)
+   有關詳細資訊，請參閱[將Adobe Analytics配置為AEM Screens](configuring-adobe-analytics-aem-screens.md)。
 
-1. 呼叫AEM Screens Analytics API，將事件離線儲存並以突發方式傳送至Adobe Analytics。
+1. 呼叫AEM Screens分析API，離線儲存事件，並以突發方式傳送事件至Adobe Analytics。
 
    例如，
 
