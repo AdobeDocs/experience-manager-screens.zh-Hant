@@ -1,7 +1,7 @@
 ---
 title: 視訊播放設定與疑難排解
 seo-title: 疑難排解影片
-description: null
+description: 請依照本頁瞭解如何對頻道中的視訊播放進行除錯和疑難排解。
 seo-description: 請依照本頁瞭解如何疑難排解影片。 當您將視訊上傳至DAM並新增頻道時，可能會遇到視訊無法在Screens播放器中播放的問題，本節說明如何對頻道中播放的視訊進行除錯和疑難排解。
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: 頻道，互動式
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -26,20 +29,20 @@ ht-degree: 0%
 
 ## DAM轉譯{#dam-renditions}
 
-當您將視訊上傳至頻道後，AEM應該會開始為其建立一些轉譯。 您可以在「資產」下檢視您的影片。
+將視訊上傳至頻道後，應AEM該開始為其建立一些轉譯。 您可以在「資產」下檢視您的影片。
 
 若要檢視影片：
 
 1. 導覽至您的視訊，例如`http://localhost:4502/assets.html/content/dam/we-retail/en/videos`。
-1. 按一下視訊並展開左上角的功能表，然後按一下「轉譯&#x200B;****」。
+1. 按一下視訊並展開左上角的功能表，然後按一下「轉譯」****。
 
 應該有不同的轉譯（MP4或M4V）。
 
-如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
+如果沒有轉譯，請確定您已在執行中的作業系統上安裝AEMffmpeg。
 
 >[!CAUTION]
 >
->如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
+>如果沒有轉譯，請確定您已在執行中的作業系統上安裝AEMffmpeg。
 >
 >按一下[這裡](https://www.ffmpeg.org/download.html)以安裝ffmpeg。
 
@@ -105,7 +108,7 @@ ht-degree: 0%
 
 #### 自動播放策略標幟{#troubleshooting-autoplay-policy-flag}疑難排解
 
-萬一AEM Screens播放器會接收視訊但未顯示，您需要疑難排解「自動播放原則」標幟。
+萬一AEM Screens播放器接收視訊但未顯示，您需要疑難排解「自動播放政策」標幟。
 
 請依照下列步驟來疑難排解Google的自動播放政策標幟問題：
 
