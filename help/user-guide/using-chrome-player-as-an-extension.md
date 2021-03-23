@@ -1,12 +1,15 @@
 ---
 title: 使用Chrome Player做為擴充功能
 seo-title: 使用Chrome Player做為擴充功能
-description: 'null'
+description: 請依照本頁瞭解如何將chrome Player安裝為瀏覽器擴充功能。
 seo-description: 'null'
+feature: 管理畫面
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -26,17 +29,17 @@ ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，
 
 1. 解壓縮並儲存在磁碟上。
 
-1. 開啟Chrome瀏覽器，按一下3點功能表，然後從右上角的&#x200B;**擴充功能**&#x200B;選取「更多工具」，或直接導覽至&#x200B;**。**`chrome://extensions`
+1. 開啟Chrome瀏覽器，按一下3點功能表，然後從右上角的&#x200B;**擴充功能**&#x200B;選取「更多工具」，或直接導覽至`chrome://extensions`。****
 
 1. 從右上角切換&#x200B;**開發人員**&#x200B;模式。
 
 1. 從左上角按一下「載入已解壓縮的&#x200B;****」，然後載入已解壓縮的Chrome Player。
 
-1. 如果副檔名清單中有AEM Screens Chrome Player增效模組，請勾選。
+1. 如果擴充功能清單中有提供，請檢查AEM ScreensChrome Player增效模組。
 
 1. 開啟新標籤，然後按一下左上角的「應用程式」圖示，或直接導覽至`chrome://apps`。
 
-1. 按一下&#x200B;**AEM Screens Plugin**&#x200B;以啟動Chrome Player。
+1. 按一下&#x200B;**AEM Screens外掛程式**&#x200B;以啟動Chrome Player。
    >[!NOTE]
    >
    > 依預設，播放器會以全螢幕模式啟動。 按&#x200B;**esc**&#x200B;退出全螢幕模式。
@@ -51,7 +54,7 @@ ChromeOS Player可在開發人員模式下以Chrome Browser外掛程式安裝，
    > 如果上述URL無法運作，表示播放器未指派顯示畫面或內容未成功下載。 檢查播放器設定JSON的網路標籤，以查看播放器是否取得正確的詳細資料，以及下載中的任何網路問題。
 
 1. 您可以按一下滑鼠右鍵並檢查chrome播放器的三個圖層
-   **除錯內容**:在內容上按一下滑鼠右鍵並加以檢查，以除錯執行中的內容（內容選單中應有一個名為「Inspect」的項目）
+   **除錯內容**:在內容上按一下滑鼠右鍵並加以檢查，以除錯執行中的內容(內容選單中應該有一個稱為「Inspect」的項目)
 
    **調試韌體**:啟動管理員UI，然後按一下滑鼠右鍵並進行檢查，以除錯韌體（播放器）程式碼（應該有選項來檢查和檢查背景頁面並模擬瀏覽器重新啟動）
 
