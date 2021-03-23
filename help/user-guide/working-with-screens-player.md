@@ -1,5 +1,5 @@
 ---
-title: 使用AEM Screens Player
+title: 使用AEM Screens播放器
 seo-title: 使用Screens Player
 description: 請依照本頁來瞭解Screens Player。 此外，還說明管理員UI和頻道切換器。
 seo-description: 請依照本頁來瞭解Screens Player。 此外，還說明管理員UI和頻道切換器。
@@ -9,28 +9,31 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
+feature: 管理畫面
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
 
 
-# 使用AEM Screens Player {#working-with-aem-screens-player}
+# 使用AEM Screens播放器{#working-with-aem-screens-player}
 
-您可以管理AEM Screens Player上的頻道內容和其他設定。
+您可以管理AEM Screens播放器上的頻道內容和其他設定。
 
 >[!NOTE]
 >
->按&#x200B;***Ctrl+Cmd+F***&#x200B;退出OS X AEM Screens Player的全螢幕模式。
+>按&#x200B;***Ctrl+Cmd+F***&#x200B;退出OS XAEM Screens播放器的全螢幕模式。
 
-在您將頻道指派給顯示器後，AEM Screens Player會顯示內容。 您可以使用管理員UI的偏好設定（從控制面板）或從播放器本身設定您的播放器設定。
+在您指派頻道給顯示器後，AEM Screens播放器會顯示內容。 您可以使用管理員UI的偏好設定（從控制面板）或從播放器本身設定您的播放器設定。
 
-## 使用「Device Dashboard {#using-the-device-dashboard}（設備儀表板&lt;a0/>）」
+## 使用「Device Dashboard {#using-the-device-dashboard}（設備儀表板）」
 
-您可以從「裝置儀表板」（可透過AEM製作例項存取）設定裝置的偏好設定。
+您可以從「裝置儀表板」設定裝置的偏好設定，並透過您的製作例項AEM加以存取。
 
 1. 從您的專案導覽至裝置儀表板，例如&#x200B;***測試專案*** —> ***裝置***。
 
@@ -50,11 +53,11 @@ ht-degree: 1%
 
 從偏好設定面板啟用&#x200B;**管理UI**&#x200B;可讓使用者從「畫面播放器」開啟管理設定。 此外，如果您在裝置儀表板中停用此選項，使用者便無法從播放器開啟管理員UI。
 
-若要從「螢幕」播放器檢視管理員UI，請長按左上角的長按鍵以開啟「管理」功能表、啟用觸控功能的AEM Screens播放器，或使用滑鼠。 它會在註冊完成並載入頻道後顯示資訊。
+若要從「螢幕」播放器檢視管理員UI，請長按左上角的長按鍵以開啟「管理員」功能表、啟用觸控功能的AEM Screens播放器，或使用滑鼠。 它會在註冊完成並載入頻道後顯示資訊。
 
 >[!NOTE]
 >
->此外，您還可以檢視AEM Screens Player應用程式的正常運作時間，以檢查應用程式的狀況。
+>此外，您還可以檢視AEM ScreensPlayer應用程式的正常運作時間，以檢查應用程式的狀況。
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
@@ -68,7 +71,7 @@ ht-degree: 1%
 
 * 從此對話框重置&#x200B;**韌體**、**首選項**&#x200B;或&#x200B;**至工廠**。
 
-* 指定&#x200B;**最大編號中AEM Screens播放器要保留的最大記錄檔數。 要保留的日誌檔案**。
+* 在&#x200B;**最大編號中指定AEM Screens播放器要保留的最大日誌檔案數。 要保留的日誌檔案**。
 
 * 為Screens播放器啟用或停用&#x200B;**管理功能表**、**頻道切換器**&#x200B;和&#x200B;**活動UI**。
 
@@ -86,7 +89,7 @@ ht-degree: 1%
 
 #### 訪問內容快取菜單選項{#content-cache-options}
 
-您可從AEM Screens播放器的「管理員UI」中，清除頻道和應用程式的快取。
+您可從AEM Screens播放器的管理UI清除頻道和應用程式的快取。
 
 從側導軌選擇&#x200B;**內容快取**&#x200B;以更新快取。
 
@@ -110,7 +113,7 @@ ht-degree: 1%
 >
 >（請參閱下節所述的&#x200B;*從Screens Player*&#x200B;變更偏好設定）。
 
-### 從AEM Screens Player {#managing-preferences-from-the-aem-screens-player}管理偏好設定
+### 從AEM Screens播放器管理偏好設定{#managing-preferences-from-the-aem-screens-player}
 
 您也可以從播放器本身變更管理UI和頻道切換器的設定。
 
@@ -122,22 +125,22 @@ ht-degree: 1%
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## 疑難排解AEM Screens Player {#troubleshooting-aem-screens-player}
+## 疑難排解AEM Screens播放器{#troubleshooting-aem-screens-player}
 
-您可以疑難排解與AEM Screens Player（硬體和軟體）相關的各種問題：
+您可疑難排解與AEM Screens播放器（硬體和軟體）相關的各種問題：
 
 | **問題** | **建議** |
 |---|---|
 | 播放器儲存空間已滿 | 消除不必要的檔案 |
 | 播放器失去網路 | 使用5類/6類電纜。 對於wifi，請減少路由器到播放器設備的距離 |
-| AEM Screens Player當機 | 建議您使用監視程式應用程式，以確定AEM Screens Player一律執行 |
-| AEM Screens Player遺失設定 | 檢查與AEM伺服器的連線 |
-| AEM Screens Player在播放器重新啟動／重新啟動後不會自動啟動 | 檢查作業系統啟動資料夾或初始化過程 |
-| AEM Screens Player顯示錯誤／舊內容 | 檢查網路連接 |
+| AEM Screens玩家當機 | 建議您使用監視應用程式，以確保AEM Screens播放器一律執行 |
+| AEM Screens播放器遺失設定 | 檢查與伺服器的AEM連接 |
+| AEM Screens播放器在重新啟動／重新啟動後不會自動啟動 | 檢查作業系統啟動資料夾或初始化過程 |
+| AEM Screens播放器顯示錯誤／舊內容 | 檢查網路連接 |
 
-### AEM Screens Player {#updates-for-aem-screens-player}的更新
+### AEM Screens播放器{#updates-for-aem-screens-player}的更新
 
-AEM Screens Player有兩種更新類型：
+AEM Screens播放器有兩種更新類型：
 
 | **方法** | **詳細資料** | **透過遠端** | **自動化** | **0停機時間** |
 |---|---|---|---|---|
@@ -155,7 +158,7 @@ AEM Screens Player有兩種更新類型：
 * 請隨時查看電源要求和電源調節。
 * 仔細審查應用程式所需的效能需求和I/O埠。
 
-下表摘要了AEM Screens專案的硬體組態及一般使用案例：
+下表概述了AEM Screens項目的硬體配置和典型使用案例：
 
 <table>
  <tbody>
