@@ -2,10 +2,13 @@
 title: 頻道分配——最新的FP
 seo-title: 頻道分配——最新的FP
 description: 請依照本頁來瞭解渠道指派和DayParting。
+feature: 製作畫面，頻道指派
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1478'
 ht-degree: 2%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->本節重點說明AEM 6.5.5 Screens Feature Pack及更新版本的頻道指派與排程。
+>本節重點說明6.5.5 Screens Feature Pack及更新版本的頻AEM道指派和頻道排程。
 
 設定顯示後，您必須指派頻道給顯示，才能檢視您的內容。
 
@@ -30,7 +33,7 @@ ht-degree: 2%
 
 請依照下列章節建立AEM Screens專案，並指派頻道至顯示器。
 
-### 建立AEM Screens專案和頻道{#creating-project}
+### 建立AEM Screens項目和渠道{#creating-project}
 
 請依照下列步驟來設定專案和渠道：
 
@@ -154,7 +157,7 @@ ht-degree: 2%
 ### 中斷方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
-> 此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
+> 此選項僅適用於AEM6.4 Feature Pack 8或AEM6.5 Feature Pack 4。
 
 身為內容作者，您應該可以指定頻道中斷的時間，以便選擇切斷非關鍵內容，但可以選擇在由於排程而中斷播放之前，先讓重要內容完全播放。
 
@@ -198,7 +201,7 @@ ht-degree: 2%
 
 ### DayParting {#dayparting}
 
-DayParting是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您根據需求，在一天、一週或月內排程DayParting的渠道。
+DayParting是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您根據需求，在一天、一週或月內依DayParting來排程渠道。
 
 下列範例說明在三種不同情況下的渠道中的DayParting:
 
