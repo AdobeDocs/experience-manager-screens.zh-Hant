@@ -1,12 +1,15 @@
 ---
 title: 複製資料觸發器以發佈伺服器
 seo-title: 複製資料觸發器至發佈伺服器
-description: 將資料觸發器複製至發佈伺服器。
+description: 請依照本頁瞭解如何複製資料觸發器至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
+feature: 管理畫面、資料觸發器
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '538'
 ht-degree: 2%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 2%
 
 # 將資料觸發器複製到發佈伺服器{#replicating-data-triggers}
 
-使用ContextHub和AEM Targeting Engine根據作者／發佈設定中的資料觸發器自訂內容時，所有與ContextHub和個人化相關的設定在發佈時不會自動與頻道複製。
+當使用ContextHub和AEMTargeting Engine根據作者／發佈設定中的資料觸發器自訂內容時，所有與ContextHub和個人化相關的設定在發佈時不會自動與頻道複製。
 
 請依照本頁瞭解個別發佈這些設定所需的手冊步驟。
 
@@ -52,7 +55,7 @@ ht-degree: 2%
 
 ### 複製觀眾{#replicating-audiences}
 
-1. 導覽至您的AEM例項> **個人化** > **觀眾**，或使用`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html`直接導覽。
+1. 導覽至您AEM的例項> **個人化** > **觀眾**&#x200B;或使用`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html`直接導覽。
 
 1. 深入探討您的專案資料夾，例如`/conf/screens/`。
 
@@ -66,7 +69,7 @@ ht-degree: 2%
 
 ### 複製活動{#replicating-activities}
 
-1. 導覽至您的AEM例項> **個人化** > **活動**，或使用`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html`直接導覽。
+1. 導覽至您AEM的例項> **個人化** > **活動**&#x200B;或使用`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html`直接導覽。
 
 1. 深入查看您的項目資料夾，即`/content/campaigns/screens/…`。
 
@@ -101,7 +104,7 @@ ht-degree: 2%
 
    請遵循下列步驟：
 
-   1. 導覽至「工具> **操作** > **Web控制台** `http://localhost:4502/system/console/configMgr`」以開啟&#x200B;**Adobe Experience Manager Web Console畫面**。
+   1. 導覽至「工具> **操作** > **Web控制台** `http://localhost:4502/system/console/configMgr`」以開啟&#x200B;**Adobe Experience ManagerWeb控制台螢幕**。
    1. 搜尋&#x200B;**Apache Sling Distribution Transport Credentials —— 使用者認證，以DistributionTransportSecretProvider**
 
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -116,4 +119,4 @@ ht-degree: 2%
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 使用`(name=slingTransportSecretProvider)`更新`(name=default)`。
-   1. 按一下&#x200B;**Save**，然後從AEM例項的&#x200B;**Distribution Agent**&#x200B;畫面再次執行測試連線。
+   1. 按一下&#x200B;**Save**，然後從實例的&#x200B;**Distribution Agent**&#x200B;螢幕再次運行測AEM試連接。
