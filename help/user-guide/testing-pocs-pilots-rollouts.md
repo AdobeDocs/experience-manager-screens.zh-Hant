@@ -10,16 +10,19 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
+feature: 概覽
+role: 業務從業人員，資料架構師
+level: 初學者
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# 第3部分：測試、POC、試點和推廣{#part-testing-pocs-pilots-rollouts}
+# 第3部分：測試、POC、試運行和推廣{#part-testing-pocs-pilots-rollouts}
 
 本頁重點介紹5個部分系列的第3部分，旨在幫助團隊成員更好地瞭解在推出解決方案之前，確保成功開發解決方案的關鍵術語。
 
@@ -53,7 +56,7 @@ POC的目的是獲得解決方案關鍵功能的初步反饋，並讓最終客�
 
 完成QC測試後，IT工程團隊將建立文檔、工作流程和培訓，以在第2天支援期間提供參考。 要測試的系統方面包括：
 
-* AEM實施者整合
+* 實AEM施者整合
 * 協力廠商系統整合
 * 軟體
 * 硬體
@@ -64,7 +67,7 @@ POC的目的是獲得解決方案關鍵功能的初步反饋，並讓最終客�
 
 請依照以下教學課程來瞭解測試、概念證明、試點計畫和推展。
 
-將所有這些階段視為整體專案計畫的一部分，將有助於管理預期，並找出評估AEM Screens部署投資的自然點。
+將所有這些階段作為總體項目計畫的一部分，將有助於管理預期並確定評估AEM Screens部署投資的自然點。
 
 ### 測試、POC、試點和推展
 
