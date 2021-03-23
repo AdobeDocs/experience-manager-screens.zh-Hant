@@ -10,10 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -29,7 +32,7 @@ ht-degree: 1%
 
 開始實作此功能之前，請確定您已將專案設定為開始實作此功能的先決條件。 例如，
 
-1. 建立AEM Screens專案範例，**ChannelLevelPlayback**。
+1. 建立AEM Screens專案範例&#x200B;**ChannelLevelPlayback**。
 
 1. 在&#x200B;**Channels**&#x200B;資料夾下，建立序列頻道為&#x200B;**PlaybackChannel**。
 
@@ -37,7 +40,7 @@ ht-degree: 1%
 
 ## 編輯頻道層級影像播放持續時間指派{#editing-channel-level-image-playback-duration-assignment}
 
-下節說明如何編輯AEM Screens頻道中內容的播放持續時間。
+下節說明如何編輯AEM Screens頻道內容的播放持續時間。
 
 ### 更新頻道{#updating-the-playback-duration-for-images-in-a-channel}中影像的播放時長
 
