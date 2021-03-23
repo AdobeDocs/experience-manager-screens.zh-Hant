@@ -1,18 +1,21 @@
 ---
-title: 在AEM畫面中設定作者和發佈
-seo-title: 在AEM畫面中設定作者和發佈
-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
-seo-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁瞭解如何設定AEM畫面的作者和發佈。
+title: 在AEM Screens配置作者和發佈
+seo-title: 在AEM Screens配置作者和發佈
+description: AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 請依本頁瞭解如何為AEM Screens設定作者和發佈。
+seo-description: AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 請依本頁瞭解如何為AEM Screens設定作者和發佈。
+feature: 管理畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1910'
 ht-degree: 0%
 
 ---
 
 
-# 在AEM Screens {#configuring-author-and-publish-in-aem-screens}中設定作者和發佈
+# 在AEM Screens配置作者和發佈{#configuring-author-and-publish-in-aem-screens}
 
 本頁反白說明下列主題：
 
@@ -24,13 +27,13 @@ ht-degree: 0%
 
 在開始使用作者和發佈伺服器之前，您應具備下列相關知識：
 
-* **AEM Topology**
-* **建立和管理AEM畫面專案**
+* **拓AEM撲**
+* **建立和管理AEM Screens項目**
 * **裝置註冊程式**
 
 >[!NOTE]
 >
->只有在您已安裝AEM 6.4 Screens Feature Pack 2時，才能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
+>只有在您已安裝6.4 Screens Feature Pack 2時，才AEM能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
 >[!IMPORTANT]
 >
@@ -40,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要進一步瞭解作者和發佈架構概觀，以及如何在AEM作者例項上編寫內容，然後將內容轉送複製至多個發佈例項，請參閱[作者和發佈架構概觀](author-publish-architecture-overview.md)。
+>若要進一步瞭解作者和發佈架構概觀，以及內容如何在作者例項上製作，然後轉AEM送複製至多個發佈例項，請參閱[作者和發佈架構概觀](author-publish-architecture-overview.md)。
 
 下節介紹如何在作者和發佈拓撲上設定複製代理。
 
@@ -64,7 +67,7 @@ ht-degree: 0%
 
 按照以下步驟建立預設複製代理：
 
-1. 導覽至您的AEM實例—>槌子圖示—> **Operations** —> **Configuration**。
+1. 導航到AEM實例—>槌子表徵圖—> **操作** —> **配置**。
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -108,8 +111,8 @@ ht-degree: 0%
 
 #### 建立螢幕複製代理{#creating-screens-replication-agents}
 
-1. 建立適用於pub1的AEM Screens複製代理。 現成可用，有一個名為「螢幕複製代理」，指向埠4503。 這必須啟用。
-1. 建立適用於pub2的AEM Screens複製代理。 複製pub1的Screens複製代理，並將pub2的埠更改為4504。
+1. 為pub1建立AEM Screens複製代理。 現成可用，有一個名為「螢幕複製代理」，指向埠4503。 這必須啟用。
+1. 為pub2建立AEM Screens複製代理。 複製pub1的Screens複製代理，並將pub2的埠更改為4504。
 
 #### 建立螢幕反向複製代理{#creating-screens-reverse-replication-agents}
 
@@ -209,14 +212,14 @@ ht-degree: 0%
 >
 >若要開始使用此範例，請建立新的AEM Screens專案，然後在您的專案中建立位置、顯示和頻道。 將內容新增至您的頻道，並指派頻道至顯示器。
 
-#### 步驟1:啟動AEM Screens Player(device){#step-starting-an-aem-screens-player-device}
+#### 步驟1:啟動AEM Screens播放器（設備）{#step-starting-an-aem-screens-player-device}
 
 1. 啟動個別的瀏覽器視窗。
 1. 使用&#x200B;*網頁瀏覽器*&#x200B;移至「畫面播放器」，即`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`或啟動AEM Screens應用程式。 當您開啟裝置時，會注意到裝置的狀態為未註冊。
 
 >[!NOTE]
 >
->您可以使用您下載的AEM Screens應用程式或使用網頁瀏覽器來開啟AEM Screens播放器。
+>您可以使用您下載的AEM Screens應用程式或使用網頁瀏覽器開啟AEM Screens播放器。
 
 #### 步驟2:在作者上註冊設備{#step-registering-a-device-on-author}
 
@@ -240,7 +243,7 @@ ht-degree: 0%
 
 **驗證設備**
 
-之前，請執行以下步驟，確認設備ID。 若要驗證，請在CRXDE Lite中搜尋裝置ID，路徑為&#x200B;*/home/users/screens/we-retail/devices*。
+之前，請執行以下步驟，確認設備ID。 若要驗證，請搜尋CRXDE Lite中的裝置ID，路徑為&#x200B;*/home/users/screens/we-retail/devices*。
 
 按照以下步驟複製設備用戶：
 
@@ -262,7 +265,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->或者，在啟動裝置後，您也可以按一下動作列上的「編輯伺服器URL **」來編輯或更新伺服器URL，如下圖所示，您的變更將會傳播至AEM Screens播放器。**
+>或者，在啟動裝置後，您也可以從動作列按一下「編輯伺服器URL **」來編輯或更新伺服器URL，如下圖所示，您的變更將會傳播至AEM Screens播放器。**
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -270,9 +273,9 @@ ht-degree: 0%
 
 以下幾點摘要了「發佈檢查」清單：
 
-* *Screens Device User* - This is stored as an AEM user **, be activated from** Tools **>** Security **>** Users.使用者會在前面加上「畫面」，並加上長的序號字串。
+* *Screens Device User*  —— 此項會儲存為使AEM用者，並從Tools **>** Security **>** Users啟動 ****。使用者會在前面加上「畫面」，並加上長的序號字串。
 
-* *專案* - AEM Screens專案。
+* *項目* -AEM Screens項目。
 * *位置* -設備所連接的位置。
 * *頻道* -在該位置顯示的一個或多個頻道
 * *排程* -如果使用排程，請確定已發佈
@@ -284,26 +287,26 @@ ht-degree: 0%
 1. 執行&#x200B;**管理出版物**，將所有新變更發佈到所有發佈實例
 1. 按&#x200B;**啟動**&#x200B;從&#x200B;**設備管理器**&#x200B;啟動設備
 1. **編輯** URL從作者例項URL到其中一個發佈例項URL
-1. 驗證AEM Screens播放器上顯示的已更新頻道內容
+1. 驗證更新的頻道內容是否顯示在AEM Screens播放器上
 1. 使用不同的發佈實例重複這些步驟
 
 
 #### 步驟5:在「管理面板{#step-pointing-the-device-to-publish-instance-in-the-admin-panel}」中指向裝置以發佈例項
 
-1. 從「螢幕」播放器檢視管理員UI，在左上角長按以開啟「管理」功能表、在您啟用觸控功能的AEM Screens播放器上，或使用滑鼠來開啟。
+1. 從「螢幕」播放器檢視管理員UI，在左上角長按以開啟「管理」功能表、在您啟用觸控的AEM Screens播放器上，或使用滑鼠來開啟。
 1. 按一下側面板中的&#x200B;**Configuration**&#x200B;選項。
 1. 將作者實例更改為在&#x200B;**Server**&#x200B;中發佈實例。
 
-檢視AEM Screens播放器中的變更。
+檢視您的AEM Screens播放器中的變更。
 
 或者，您也可以使用下列步驟從裝置管理控制台更新／編輯伺服器URL:
 
-1. 導覽至您的AEM Screens專案，然後選取&#x200B;**Devices**&#x200B;檔案夾。
+1. 導覽至您的AEM Screens專案，並選取&#x200B;**Devices**&#x200B;資料夾。
 1. 從操作欄中按一下&#x200B;**設備管理器**。
-1. 選取裝置，然後從動作列按一下「編輯伺服器URL **」，如下圖所示，您的變更將會傳播至AEM Screens播放器。**
+1. 選擇設備，然後從操作欄按一下「編輯伺服器URL **」，如下圖所示，您所做的更改將傳播到AEM Screens播放器。**
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-**管理出版物**&#x200B;功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程來發佈／取消發佈內容。 若要進一步瞭解此功能，請參閱[隨選內容更新](on-demand-content.md)。
+**管理出版物**&#x200B;功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程發佈／取消發佈內容。 若要進一步瞭解此功能，請參閱[隨選內容更新](on-demand-content.md)。
 
 
