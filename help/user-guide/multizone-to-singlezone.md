@@ -3,10 +3,13 @@ title: MultiZone到SingleZone轉場使用案例
 description: 請依照本頁瞭解MultiZone到SingleZone轉場使用案例。
 seo-description: MultiZone to SingleZone轉變使用案例。
 contentOwner: Jyotika Syal
+feature: 製作畫面
+role: 開發人員、商業從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 6f770734941635a0cd404986c259022137355af3
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -36,7 +39,7 @@ ht-degree: 2%
 
 請依照下列步驟設定專案：
 
-1. 建立名為&#x200B;**TakeoverLoop**&#x200B;的AEM Screens專案，如下所示。
+1. 建立名為&#x200B;**TakeoverLoop**&#x200B;的AEM Screens項目，如下所示。
 
    ![資產](assets/mz-to-sz1.png)
 
