@@ -4,10 +4,13 @@ seo-title: 單次使用TakeOver通道
 description: 請依照此使用案例來建立單一使用TakeOver頻道。
 seo-description: 請依照此使用案例來建立單一使用TakeOver頻道。
 contentOwner: jsyal
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '634'
 ht-degree: 1%
 
 ---
@@ -42,7 +45,7 @@ ht-degree: 1%
 
 **設定頻道和顯示**
 
-1. 建立標題為&#x200B;**SingleUseTakeOver**&#x200B;的AEM畫面專案，如下所示。
+1. 建立標題為&#x200B;**SingleUseTakeOver**&#x200B;的AEM Screens專案，如下所示。
 
    ![資產](assets/single-takeover1.png)
 
