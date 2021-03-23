@@ -1,8 +1,8 @@
 ---
 title: 新增元件至渠道
 seo-title: 新增元件至渠道
-description: 請依照本頁面進一步瞭解如何在AEM Screens專案中新增元件至頻道。
-seo-description: 請依照本頁面進一步瞭解如何在AEM Screens專案中新增元件至頻道。
+description: 請依照本頁進一步瞭解如何在AEM Screens專案中新增元件至通路。
+seo-description: 請依照本頁進一步瞭解如何在AEM Screens專案中新增元件至通路。
 uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
 contentOwner: jsyal
 content-type: reference
@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1469'
 ht-degree: 7%
 
 ---
@@ -21,13 +24,13 @@ ht-degree: 7%
 
 # 向通道添加元件{#adding-components-to-a-channel}
 
-元件是AEM(Adobe Experience Manager)體驗的基本元素。 您可以在AEM Screens專案中使用多個元件，並將它新增至您的頻道。
+元件是(Adobe Experience Manager)體驗的AEM基本要素。 您可以在AEM Screens專案中使用多個元件，並將它加入您的通路。
 
-## AEM Screens {#components-in-aem-screens}中的元件
+## AEM Screens元件{#components-in-aem-screens}
 
-AEM Screens提供可用於「畫面」專案的不同AEM元件。
+AEM Screens提AEM供可用於畫面專案的不同元件。
 
-### 檢視AEM Screens元件{#viewing-aem-screens-components}
+### 查看AEM Screens元件{#viewing-aem-screens-components}
 
 每當您建立AEM Screens專案時，就會看到可新增至專案的預設元件清單。
 
@@ -35,15 +38,15 @@ AEM Screens提供可用於「畫面」專案的不同AEM元件。
 
 1. 選取渠道。 例如，**We.Retail In Store** —> **Channels** —> **Idle Channel**。
 
-1. 按一下動作列中的「編輯」(**Edit)，以開啟AEM編輯器。**
+1. 按一下動作列中的「編輯」**以開啟編AEM輯器。**
 1. 按一下側列的&#x200B;**+**&#x200B;圖示以開啟元件。
-1. 依預設，AEM Screens專案中包含的所有元件都會顯示出來，如下圖所示。
+1. 預設包含在AEM Screens專案中的所有元件都會顯示，如下圖所示。
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### 添加新元件{#adding-a-new-component}
 
-AEM提供許多其他元件。 您隨時都可以將其他元件（預設未包含）新增至專案，因為這些元件與AEM Screens相容。
+提AEM供許多其他元件。 您隨時都可以將其他元件（預設未包含）新增至專案，因為這些元件與AEM Screens相容。
 
 下列範例顯示將Livefyre元件新增至AEM Screens專案：
 
@@ -52,15 +55,15 @@ AEM提供許多其他元件。 您隨時都可以將其他元件（預設未包�
 1. 按一下操作欄中的&#x200B;**編輯**&#x200B;以開啟編輯器。
 1. 選擇&#x200B;**Design**&#x200B;模式。
 1. 選擇右側的整個設計編輯器，然後按一下設定符號以開啟&#x200B;**ParSys Design**&#x200B;對話框。
-1. 您可以選取要匯入至AEM Screens專案的元件。 下列範例顯示將&#x200B;**Livefyre**&#x200B;元件新增至AEM Screens專案。
+1. 您可以選取要匯入至AEM Screens專案的元件。 以下範例顯示將&#x200B;**Livefyre**&#x200B;元件新增至AEM Screens專案。
 
 ![adding_components](assets/adding_components.gif)
 
 >[!NOTE]
 >
->同樣地，您也可以將任何數目與AEM Screens相容的其他新元件新增至專案。
+>同樣地，您也可以將與AEM Screens相容的任何其他新元件新增至專案。
 
-## 瞭解AEM Screen Components {#understanding-aem-screen-components}
+## 瞭解AEM螢幕元件{#understanding-aem-screen-components}
 
 下節將說明您可在專案中使用的AEM Screens元件。
 
@@ -195,7 +198,7 @@ Channel元件具有以下屬性：
 
 ### 體驗片段 {#experience-fragment}
 
-「體驗片段」可讓您將體驗片段（由一或多個元件組成的群組，包括可在頁面內參照的內容和版面）新增至AEM Screens頻道。 將元件拖放至AEM編輯器，並選取體驗片段。
+體驗片段可讓您將體驗片段（由一或多個元件組成的群組，包括可在頁面內參照的內容和版面）新增至您的AEM Screens頻道。 將元件拖放至編輯器AEM，並選取體驗片段。
 
 若要進一步瞭解如何建立體驗片段並將其運用在AEM Screens專案中，請參閱[使用體驗片段](experience-fragments-in-screens.md)。
 
