@@ -5,10 +5,13 @@ description: '請依本頁瞭解隨選內容更新。  '
 seo-description: '請依本頁瞭解隨選內容更新。  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
+feature: 製作畫面
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -20,11 +23,11 @@ ht-degree: 0%
 
 ## 管理出版物：將內容更新從作者傳送至發佈至裝置{#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-您可以從AEM Screens發佈和取消發佈內容。 「管理出版物」功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程發佈／取消發佈內容。
+您可以從AEM Screens發佈和解除發佈內容。 「管理出版物」功能可讓您將內容更新從作者傳送至裝置。 您可以針對整個AEM Screens專案，或僅針對其中一個頻道、位置、裝置、應用程式或排程發佈／取消發佈內容。
 
-### 管理AEM Screens專案的出版物{#managing-publication-for-an-aem-screens-project}
+### 管理AEM Screens項目的出版物{#managing-publication-for-an-aem-screens-project}
 
-請依照下列步驟，將內容更新從作者傳送至AEM Screens專案的裝置：
+請依照下列步驟，將內容更新從作者傳送至裝置，以便發佈至AEM Screens專案的裝置：
 
 1. 導覽至您的AEM Screens專案。
 1. 按一下動作列中的「管理出版物」(Manage Publication)**，以發佈專案以發佈例項。**
@@ -91,7 +94,7 @@ ht-degree: 0%
 
 ### 管理渠道{#managing-publication-for-a-channel}的發佈
 
-請依照下列步驟，將內容更新從作者傳送至AEM Screens專案中頻道的裝置：
+請依照下列步驟，將內容更新從作者傳送至裝置，以便發佈至「AEM Screens專案」的頻道：
 
 >[!NOTE]
 >
