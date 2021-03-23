@@ -1,19 +1,22 @@
 ---
 title: 使用動態內嵌序列
 seo-title: 使用動態內嵌序列
-description: 請依照本頁瞭解如何在AEM Screens專案中實作動態內嵌序列。
-seo-description: 請依照本頁瞭解如何在AEM Screens專案中實作動態內嵌序列。
+description: 請依照本頁瞭解如何在您的AEM Screens專案中實作動態內嵌序列。
+seo-description: 請依照本頁瞭解如何在您的AEM Screens專案中實作動態內嵌序列。
 uuid: 1f442489-2eeb-4dd8-b892-911fcccb3377
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '2535'
-ht-degree: 1%
+source-wordcount: '2540'
+ht-degree: 2%
 
 ---
 
@@ -23,13 +26,13 @@ ht-degree: 1%
 使用動態內嵌序列涵蓋下列主題：
 
 * **概覽**
-* **在AEM畫面中使用動態內嵌體驗**
+* **在AEM Screens使用動態內嵌體驗**
 * **查看結果**
 * **限制用戶和修改ACL**
 
 ## 概覽 {#overview}
 
-***動態內嵌*** 序列是為遵循父項子項階層的大型專案所建立，其中子項在位置檔案夾而非頻道檔案夾中參考。它允許用戶通過&#x200B;***渠道角色***&#x200B;將序列嵌入渠道中。 它可讓使用者使用主頻道內的內嵌序列，為不同辦公室定義特定位置的預留位置。
+***動態內嵌*** 序列是為遵循父項子項階層的大型專案所建立，其中子項在位置檔案夾而非頻道檔案夾中參考。它允許用戶通過&#x200B;***渠道角色***&#x200B;在渠道內嵌序列。 它可讓使用者使用主頻道內的內嵌序列，為不同辦公室定義特定位置的預留位置。
 
 將渠道指派給顯示時，您可以選擇指定顯示路徑或渠道的角色，以便根據上下文解析為實際渠道。
 
@@ -45,11 +48,11 @@ ht-degree: 1%
 >
 >**嵌入序列與動態嵌入序列**
 >
->動態內嵌序列類似於內嵌序列，但允許使用者遵循階層，其中對一個頻道所做的變更／更新會傳播至相關的其他頻道。 它遵循父——子階層，也包含影像或視訊等資產。
+>動態內嵌序列類似於內嵌序列，但允許使用者遵循階層，其中對一個頻道所做的變更／更新會傳播至相關的其他頻道。 它遵循上下階層，也包含影像或視訊等資產。
 >
 >***「動態內嵌*** 序列」可讓您顯示特定位置的內容，而「內嵌 ***序*** 列」則只顯示內容的一般投影片。此外，在設定動態內嵌序列時，您需要使用頻道角色和名稱來設定頻道。 如需實際實作，請參閱以下步驟。
 >
->若要進一步瞭解如何實作內嵌序列，請參閱「AEM畫面中的內嵌序列」。[](embedded-sequences.md)
+>若要進一步瞭解如何實作內嵌序列，請參閱AEM Screens的[內嵌序列](embedded-sequences.md)。
 
 以下範例針對下列關鍵詞提供解決方案：
 
@@ -59,11 +62,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要進一步瞭解頻道指派，請參閱AEM Screens檔案中「編寫」區段下的&#x200B;**[頻道指派](channel-assignment.md)**。
+>如需有關頻道指派的詳細資訊，請參閱AEM Screens檔案「編寫」區段下的&#x200B;**[頻道指派](channel-assignment.md)**。
 
 ## 使用動態嵌入序列{#using-dynamic-embedded-sequence-2}
 
-下節說明如何在AEM Screens頻道中建立動態內嵌序列。
+下節說明在AEM Screens頻道中建立動態內嵌序列。
 
 ### 必備條件 {#prerequisites}
 
@@ -95,7 +98,7 @@ ht-degree: 1%
 
 
 
-在AEM Screens專案中實作動態內嵌序列涉及三項主要工作：
+在AEM Screens項目中實施動態嵌入序列涉及三大任務：
 
 1. **設定項目分類法，包括渠道、位置和顯示**
 1. **建立排程**
@@ -109,7 +112,7 @@ ht-degree: 1%
 
 1. **建立兩個位置資料夾。**
 
-   導覽至AEM Screens專案中的&#x200B;**Locations**&#x200B;資料夾，並建立兩個位置資料夾，分別為&#x200B;**Region A**&#x200B;和&#x200B;**Region B**。
+   導覽至您的AEM Screens專案中的&#x200B;**Locations**&#x200B;資料夾，並建立兩個位置資料夾，分別為&#x200B;**A區和** B區。****
 
    >[!NOTE]
    >
@@ -127,7 +130,7 @@ ht-degree: 1%
    1. 導覽至&#x200B;**Demo** —> **位置** —> **地區A**。
    1. 選擇&#x200B;**區域A**，然後從操作欄中按一下&#x200B;**+建立**。
    1. 從嚮導中選擇&#x200B;**位置**,**標題**&#x200B;作為&#x200B;**儲存1**。 同樣地，從名為&#x200B;**Store 2**&#x200B;的精靈中建立另一個位置，其中&#x200B;**Title**&#x200B;為&#x200B;**Store 2**。 在建立&#x200B;**商店1**&#x200B;和&#x200B;**商店2**&#x200B;時，可將&#x200B;**名稱**&#x200B;欄位留空。
-   1. 重複步驟(b)，現在從嚮導中選擇「序列通道」。 ****&#x200B;為此通道輸入&#x200B;**Title**&#x200B;作為&#x200B;**區域A**&#x200B;和&#x200B;**名稱**&#x200B;作為&#x200B;**區域**&#x200B;的&lt;a1/>。
+   1. 重複步驟(b)，現在從嚮導中選擇「序列通道」。 ****&#x200B;為此通道輸入&#x200B;**Title**&#x200B;作為&#x200B;**區域A**&#x200B;和&#x200B;**名稱**&#x200B;作為&#x200B;**區域**&#x200B;的。
 
    >[!CAUTION]
    >
@@ -196,7 +199,7 @@ ht-degree: 1%
 
 1. **建立排程**
 
-   導覽並選取AEM Screens專案中的「排程&#x200B;****」檔案夾，然後從動作列按一下「建立&#x200B;****」以建立新排程。
+   導覽並選取AEM Screens專案中的「排程&#x200B;****」資料夾，然後從動作列按一下「建立&#x200B;****」以建立新排程。
 
    下圖顯示在&#x200B;**Demo**&#x200B;專案中建立的&#x200B;**AdSchedule**。
 
@@ -205,28 +208,28 @@ ht-degree: 1%
 1. **將渠道指派給計畫**
 
    1. 導覽至&#x200B;**Demo** —> **Schedules** —> **AdSchedule**，然後從操作欄按一下&#x200B;**Dashboard**。
-   1. 按一下&#x200B;**ASSIGNED CHANNELS**&#x200B;面板中的&#x200B;**+ Assign Channel** ，開啟&#x200B;**Channel Assignment**&#x200B;對話框。
+   1. 按一下&#x200B;**+ 「從** ASSIGNED CHANNELS **面板分配通道**」以開啟「通道分配&#x200B;**a5/>」對話框。**
    1. 選擇&#x200B;**參考通道**。 依路徑.
    1. 選擇&#x200B;**通道路徑**&#x200B;作為&#x200B;**Demo** —> ***通道*** —>***全局***。
    1. 將&#x200B;**渠道角色**&#x200B;輸入為&#x200B;**GlobalAdSegment**。
    1. 選擇「**支援的事件**」作為「初始載入&#x200B;**」、「空閒螢幕**」和「用戶交互&#x200B;**」。******
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
    **按角色為地區分配渠道：**
 
-   1. 按一下&#x200B;**ASSIGNED CHANNELS**&#x200B;面板中的&#x200B;**+ Assign Channel** ，開啟&#x200B;**Channel Assignment**&#x200B;對話框。
+   1. 按一下&#x200B;**+ 「從** ASSIGNED CHANNELS **面板分配通道**」以開啟「通道分配&#x200B;**a5/>」對話框。**
    1. 選擇&#x200B;**參考通道**。 依名稱.
    1. 將&#x200B;**頻道名稱**&#x200B;輸入為&#x200B;**地區***。
    1. 將&#x200B;**渠道角色**&#x200B;輸入為&#x200B;**RegionAdSegment**。
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
    **依角色為商店指派渠道：**
 
-   1. 按一下&#x200B;**ASSIGNED CHANNELS**&#x200B;面板中的&#x200B;**+ Assign Channel** ，開啟&#x200B;**Channel Assignment**&#x200B;對話框。
+   1. 按一下&#x200B;**+ 「從** ASSIGNED CHANNELS **面板分配通道**」以開啟「通道分配&#x200B;**a5/>」對話框。**
    1. 選擇&#x200B;**參考通道**。 依名稱.
    1. 將&#x200B;**頻道名稱**&#x200B;輸入為&#x200B;**store**。
    1. 將&#x200B;**渠道角色**&#x200B;輸入為&#x200B;**StoreAdSegment**。
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
    下圖依路徑和角色顯示指派的頻道。
 
@@ -254,32 +257,32 @@ ht-degree: 1%
    1. 按一下動作中的&#x200B;**儀表板**&#x200B;以開啟顯示控制面板。
    1. 按一下&#x200B;**...** ASSIGNED CHANNELS &amp; SCHEDULES **面板中的**，然後按一下&#x200B;**+Assign Schedule**。
    1. 選擇計畫的路徑（例如，此處&#x200B;**Demo** —> **計畫** —>**AdSchedule**）。
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
 ## 查看結果{#viewing-the-results}
 
-在您設定頻道和顯示完成後，請啟動AEM Screens播放器以檢視內容。
+在您完成頻道設定和展示後，請啟動AEM Screens播放器以檢視內容。
 
 >[!NOTE]
 >
->若要瞭解AEM Screen Player，請參閱下列資源：
+>若要了AEM解Screen Player，請參閱下列資源：
 >
 >* [AEM Screens播放器下載](https://download.macromedia.com/screens/)
->* [使用AEM Screens Player](working-with-screens-player.md)
+>* [使用AEM Screens播放器](working-with-screens-player.md)
 
 
 
-以下輸出會根據顯示路徑，確認您在AEM Screens播放器中的頻道內容。
+下列輸出會根據顯示路徑，確認您在AEM Screens播放器中的頻道內容。
 
 **方案1**:
 
-如果您將顯示路徑指派為&#x200B;**Demo** —> **Locations** —> **Region A** —> **Store 1** —> **Store1Display**，則AEM Screens player上將顯示以下內容。
+如果您將顯示路徑指定為&#x200B;**Demo** —> **Locations** —> **Region A** —> **Store 1** —> **Store1Display**，以下內容將顯示在您的AEM Screens播放器上。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **方案1**:
 
-如果您將顯示路徑指派為&#x200B;**Demo** —> **Locations** —> **Region B** —> **Store 3** —> **Store3Display**，則AEM Screens player上將顯示以下內容。
+如果您將顯示路徑指定為&#x200B;**Demo** —> **Locations** —> **Region B** —> **Store 3** —> Store3Display **，以下內容將顯示在您的AEM Screens播放器上。**
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -399,7 +402,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   下圖顯示，現在&#x200B;**Store-User**&#x200B;只能訪問&#x200B;**Store 1**、**Store 2**、**Store 3**&#x200B;和&#x200B;**Store 4**&#x200B;這4個商店，但沒有訪問&lt;a1/>的權限0/>全域&#x200B;**或區域（**&#x200B;區域A **和**&#x200B;區域B **）通道。**
+   下圖顯示，現在&#x200B;**Store-User**&#x200B;只能訪問&#x200B;**Store 1**、**Store 2**、**Store 3**&#x200B;和&#x200B;**Store 4**&#x200B;這4個商店，但沒有訪問&#x200B;**的權限0/>全域**&#x200B;或區域（**區域A**&#x200B;和&#x200B;**區域B**）通道。
 
    ![商店](assets/store.gif)
 
