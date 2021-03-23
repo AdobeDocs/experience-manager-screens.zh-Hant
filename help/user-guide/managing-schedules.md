@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -20,13 +23,13 @@ ht-degree: 0%
 
 # 建立和管理計畫{#creating-and-managing-schedules}
 
-**在**「AEM畫面」中，「排程」可讓您將頻道組織成可重複使用的群組，如此您就不必針對要顯示內容的每個顯示分別重複其指派。
+**在AEM Screens**,「排程」可讓您將頻道組織成可重複使用的群組，如此您就不必針對想要顯示內容的每個顯示分別重複其指派。
 
 與&#x200B;***DayParting***&#x200B;結合時的排程，可讓您設定在一天中特定時間執行多個頻道的全域排程，並一次將該設定重新用於所有顯示。
 
 >[!NOTE]
 >
->只有在您已安裝AEM 6.3 Sites Feature Pack 1時，才能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
+>只有在您安裝了6.3 Sites Feature Pack 1時，才AEM能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
 ## 建立計畫{#creating-a-schedule}
 
@@ -34,7 +37,7 @@ ht-degree: 0%
 
 請依照下列步驟為您的渠道建立排程：
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接前往：`http://localhost:4502/screens.html/content/screens`。
+1. 選擇Adobe Experience Manager連結（左上角）和螢幕。 或者，您也可以直接前往：`http://localhost:4502/screens.html/content/screens`。
 1. 導覽至「畫面」專案，然後按一下「排程」**。**
 1. 從操作欄按一下&#x200B;**建立**。
 1. 從&#x200B;**建立**&#x200B;嚮導中選擇&#x200B;**計畫** ，然後按一下&#x200B;**下一步**。
