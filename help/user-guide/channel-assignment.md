@@ -2,10 +2,13 @@
 title: 頻道指定任務
 seo-title: 頻道指定任務
 description: 請依照本頁瞭解渠道指派和日分割。
+feature: 製作畫面，頻道指派
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1222'
 ht-degree: 4%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 4%
 # 頻道指定任務 {#channel-assignment}
 
 >[!IMPORTANT]
->本節重點說明AEM 6.5.5版以前的功能套件頻道指派和排程。
+>本節重點說明6.5.5版以上功能套件的頻道AEM指派和排程。
 
 設定顯示後，您必須指派頻道給顯示，才能檢視您的內容。
 
@@ -74,7 +77,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> 此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
+> 此選項僅適用於AEM6.4 Feature Pack 8或AEM6.5 Feature Pack 4。
 
 身為內容作者，您應該可以指定頻道中斷的時間，以便選擇切斷非關鍵內容，但可以選擇在由於排程而中斷播放之前，先讓重要內容完全播放。
 
@@ -101,7 +104,7 @@ ht-degree: 4%
 
 與&#x200B;**DayParting**&#x200B;結合時的排程，可讓您設定在一天中特定時間執行多個頻道的全域排程，並一次將該設定重新用於所有顯示。
 
-DayParting是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您依需求，在一天、一週或月內排程日分割的渠道。
+DayParting是指將一天分割為時段，並指定在所需時間播放的內容。 AEM Screens可讓您根據需求，在一天、一週或月內排程日分割渠道。
 
 下列範例說明三種不同情況下渠道中的日分割：
 
