@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
+feature: 編寫螢幕、啟動
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 ## 要求{#requirements}
 
-在AEM Screens專案中開始運用&#x200B;*Screens Launch*&#x200B;之前，請務必瞭解寬限期的概念及其相關性。
+在您開始在AEM Screens專案中運用&#x200B;*Screens Launch*&#x200B;之前，請務必瞭解寬限期的概念及其相關性。
 
 在播放器的設定即時日期上執行體驗，包括：
 
@@ -57,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->現成可用，「畫面啟動」的寬限期會設為24小時，這表示當我們在&#x200B;*/content/screens*&#x200B;下設定任何資源啟動的即時日期時，促銷會從此偏移開始。
+>現成可用，「畫面啟動」的寬限期會設為24小時，這表示當我們在&#x200B;*/content/screens*&#x200B;下設定資源啟動的即時日期時，促銷會從此偏移開始。
 
 ### 更新現成可用的寬限期{#updating-out-of-the-box-grace-period}
 
@@ -82,17 +85,17 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 使用畫面啟動{#using-launches}
 
-本節將示範如何在您的AEM Screens專案中實作「畫面啟動」。
+本節將示範如何在您的AEM Screens專案中實作畫面啟動。
 
 ### 建立畫面啟動{#creating-a-launch}
 
-請依照下列步驟，將「畫面啟動」功能實作至您的AEM Screens專案：
+請依照下列步驟，將Screens Launch功能實作至您的AEM Screens專案：
 
 1. 在您的AEM Screens專案中建立序列頻道，例如&#x200B;**LaunchesDemo** —> **Channels** —> **FutureLaunch**，如下所示。
 
    >[!CAUTION]
    >
-   >您必須從AEM Screens專案中預先存在的頻道建立啟動。
+   >您必須在AEM Screens專案中從預先存在的渠道建立啟動。
 
    ![影像](/help/user-guide/assets/launches-images/launches-11.png)
 
@@ -156,7 +159,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 在建立啟動後，您可以使用&#x200B;**啟動屬性**&#x200B;來更新屬性，例如即時日期、啟動標題和促銷範圍。
 
-* **啟動日期**，是指即時日期，即內容在螢幕播放器中播放的日期或時間，依播放器的時區而定。
+* **啟動日期**，是指即時日期，即內容將依播放器時區在螢幕播放器中播放的日期或時間。
 * **Production Ready**，可讓頻道在促銷這些已啟用的現成可用功能後發佈，因此不需要變更。
 * **範圍**，決定在啟動促銷期間要推廣哪些渠道。
 
