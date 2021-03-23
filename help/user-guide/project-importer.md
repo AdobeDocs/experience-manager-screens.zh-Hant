@@ -1,8 +1,8 @@
 ---
 title: 從檔案新增專案匯入工具
 seo-title: 從檔案新增專案匯入工具
-description: 這項功能可讓您將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。
-seo-description: 這項功能可讓您將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。
+description: 此功能可讓您將一組位置從CSV/XLS試算表大量匯入至您的AEM Screens專案。
+seo-description: 此功能可讓您將一組位置從CSV/XLS試算表大量匯入至您的AEM Screens專案。
 uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
+feature: 管理畫面
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 1%
 
 ---
@@ -21,20 +24,20 @@ ht-degree: 1%
 
 # 從檔案{#new-project-importer-from-file}新建項目導入程式
 
-本節說明從CSV/XLS試算表大量匯入位置集至AEM Screens專案的功能。
+本節說明將一組位置從CSV/XLS試算表大量匯入至您的AEM Screens專案的功能。
 
 ## 簡介 {#introduction}
 
-當您在組織中第一次設定AEM Screens專案時，也需要建立所有位置。 如果您的專案涉及大量位置，會導致繁雜的工作，而且需要在UI中多次點選並等候。
+當您在組織中首次設定AEM Screens專案時，也需要建立所有位置。 如果您的專案涉及大量位置，會導致繁雜的工作，而且需要在UI中多次點選並等候。
 
 此功能的目的是減少設定專案所需的時間，進而解決預算問題。
 
 讓作者提供試算表作為輸入檔案，並讓系統自動在後端建立位置樹狀結構，此功能：
 
 * *比透過使用者介面手動點選，可取得更佳的效能*
-* *可讓客戶從自己的系統匯出其所在位置，並直接在AEM中輕鬆匯入*
+* *可讓客戶從自己的系統匯出其位置，並輕鬆將其直接匯入*
 
-如此可在初始專案設定期間或將現有的AEM畫面延伸至新位置時，節省時間和金錢。
+這既節省了初始項目設定或將現有的AEM Screens擴展到新位置時的時間和金錢。
 
 ## 體系結構概述{#architectural-overview}
 
@@ -66,7 +69,7 @@ Project Importer的資料模型說明如下：
 
 >[!NOTE]
 >
->任何不符合上述條件的欄將只會被忽略。 例如，如果您在工作表(CSV/XLS)檔案中定義了任何其他欄，而不是&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**，則這些欄位將被忽略，而&#x200B;**Project Importer**&#x200B;將不會驗證將專案匯入AEM Screens專案的其他欄位。
+>任何不符合上述條件的欄將只會被忽略。 例如，如果您在工作表(CSV/XLS)檔案中定義了任何其他欄，而不是&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**，則這些欄位將被忽略，而&#x200B;**Project Importer**&#x200B;將不會驗證將專案匯入至您的AEM Screens專案的其他欄位。
 
 ## 使用Project Importer {#using-project-importer}
 
