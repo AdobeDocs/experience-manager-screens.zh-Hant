@@ -1,6 +1,6 @@
 ---
-title: 在AEM畫面中設定ContextHub
-seo-title: 在AEM畫面中設定ContextHub
+title: 在AEM Screens配置ContextHub
+seo-title: 在AEM Screens配置ContextHub
 description: 請依照本頁瞭解定位引擎中的ContextHub，以定義資料儲存區，以利資料觸發內容變更。
 seo-description: 請依照本頁瞭解定位引擎中的ContextHub，以定義資料儲存區，以利資料觸發內容變更。
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
@@ -10,26 +10,29 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1535'
 ht-degree: 1%
 
 ---
 
 
-# 在AEM Screens {#configuring-contexthub-in-aem-screens}中設定ContextHub
+# 在AEM Screens配置ContextHub {#configuring-contexthub-in-aem-screens}
 
 本節著重說明如何使用資料存放區來建立和管理資料導向的資產變更。
 
 ## 關鍵詞{#key-terms}
 
-在我們瞭解在AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的重要術語。
+在我們瞭解在您的AEM Screens專案中建立和管理庫存導向渠道的詳細資訊之前，您必須先瞭解一些重要且與不同藍本相關的關鍵術語。
 
 **品** 牌是指您的高階專案說明。
 
-**區** 域：指您的AEM Screens專案名稱，例如數位廣告標牌
+**區** 域是指您的AEM Screens專案名稱，例如數位廣告標牌
 
 **活** 動定義規則類別，例如庫存驅動、天氣驅動、部門可用性驅動等。
 
@@ -43,11 +46,11 @@ ht-degree: 1%
 
 ## 先決條件{#preconditions}
 
-在您開始為AEM Screens專案設定「內容中樞設定」之前，您必須先設定Google工作表（以供展示之用）。
+在開始為AEM Screens項目配置上下文中心配置之前，您必須設定Google工作表（用於演示）。
 
 >[!IMPORTANT]
 >
->Google Sheets在下列範例中用作擷取值的範例資料庫系統，僅供教育用途。 Adobe不會為生產環境使用Google Sheets背書。
+>Google Sheets在下列範例中用作擷取值的範例資料庫系統，僅供教育用途。 Adobe不會為生產環境使用Google工作表背書。
 >
 >如需詳細資訊，請參閱Google檔案中的[取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key)。
 
@@ -55,7 +58,7 @@ ht-degree: 1%
 
 您可以將資料儲存設定為本地I/O事件或本地資料庫事件。
 
-下列資產層級資料觸發器範例會展示本機資料庫事件，此事件會設定資料存放區，例如Excel表單，讓您使用ContextHub組態和AEM Screens頻道的區段路徑。
+下列資產層級資料觸發器範例展示本機資料庫事件，此事件可設定資料儲存區，例如Excel表單，讓您使用ContextHub組態和區段至AEM Screens頻道的路徑。
 
 在您正確設定Google工作表後，例如，如下所示：
 
@@ -75,7 +78,7 @@ ht-degree: 1%
 
 1. **導覽至ContextHub**
 
-   導覽至您的AEM例項，然後按一下左側邊欄中的工具圖示。 按一下&#x200B;**Sites** —> **ContextHub** ，如下圖所示。
+   導覽至您的AEM例項，然後從左側邊欄按一下工具圖示。 按一下&#x200B;**Sites** —> **ContextHub** ，如下圖所示。
 
    ![影像](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -98,7 +101,7 @@ ht-degree: 1%
 
       >[!CAUTION]
       >
-      >作為AEM 6.5 Feature Pack 4或AEM 6.4 Feature Pack 8的一部分，客戶應將`/conf/screens/settings/cloudsettings`更新為`sling:Folder`。
+      >作為6.AEM5 Feature Pack 4或AEM6.4 Feature Pack 8的一部分，客戶應將`/conf/screens/settings/cloudsettings`更新為`sling:Folder`。
       >
       >請遵循下列步驟：
       >
@@ -116,7 +119,7 @@ ht-degree: 1%
    1. 將&#x200B;**Title**&#x200B;輸入為&#x200B;**Google Sheets**、**Store Name**&#x200B;輸入為&#x200B;**Googlessheet**&#x200B;和&#x200B;**Store Type**&#x200B;輸入為&#x200B;**conthub.generic-jsonp**，然後按一下「下一步」**。**
 
       >[!CAUTION]
-      >如果您使用Adobe Experience Manager(AEM)6.4，請輸入&#x200B;**設定標題**&#x200B;作為&#x200B;**googlesheets**，以及&#x200B;**商店類型**&#x200B;作為&#x200B;**contexthub.generic-jsonp**。
+      >如果您使用Adobe Experience Manager(AEM)6.4，請將&#x200B;**配置標題**&#x200B;輸入為&#x200B;**googlesheets**，將&#x200B;**商店類型**&#x200B;輸入為&#x200B;**contexthub.generic-jsonp**。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub6.png)
 
@@ -165,7 +168,7 @@ ht-degree: 1%
 
 1. **在觀眾中建立區段**
 
-   1. 從您的AEM例項導覽至&#x200B;**Personalization** > **Audiences** > **畫面**。
+   1. 從您AEM的例項導覽至&#x200B;**個人化** > **觀眾** > **畫面**。
 
    1. 按一下「建立&#x200B;**** > **建立內容中樞區段」。** 「新建 **ContextHub區** 段」(New ContextHub Segments)對話框開啟。
 
@@ -188,7 +191,7 @@ ht-degree: 1%
 
 1. **在活動中建立品牌**
 
-   1. 從您的AEM例項導覽至&#x200B;**個人化** > **活動**。
+   1. 從您AEM的例項導覽至&#x200B;**個人化** > **活動**。
 
    1. 按一下「建立&#x200B;**** > **建立品牌**」。
 
@@ -223,7 +226,7 @@ ht-degree: 1%
 
 1. **在活動中建立區段**
 
-   1. 從您的AEM例項導覽至&#x200B;**Personalization** > **Activity** > **ScreensBrand** >**ScreensValue**。
+   1. 從您AEM的例項導覽至&#x200B;**Personalization** > **Activity** > **ScreensBrand** >**ScreensValue**。
 
    1. 按一下「建立&#x200B;**** > **建立活動」。** 「設 **定活動** 精靈」。
 
@@ -233,7 +236,7 @@ ht-degree: 1%
 
    1. 從&#x200B;**設定活動精靈**&#x200B;按一下「新增體驗」。****
 
-   1. 從&#x200B;**觀眾**&#x200B;中，選擇&#x200B;**Higherthan 50**，然後按一下&#x200B;**Add Experience**，然後將&#x200B;**Title**&#x200B;輸入為&#x200B;**highthon 50** **Name&lt;a101/>為**&#x200B;高於50 **。**&#x200B;按一下&#x200B;**確定**。
+   1. 從&#x200B;**觀眾**&#x200B;中，選擇&#x200B;**Higherthan 50**，然後按一下&#x200B;**Add Experience**，然後將&#x200B;**Title**&#x200B;輸入為&#x200B;**highthon 50** **Name**&#x200B;為&#x200B;**高於50**。 按一下&#x200B;**確定**。
 
    1. 在&#x200B;**觀眾**&#x200B;中，選擇&#x200B;**小寫50**，然後按一下&#x200B;**新增體驗**，然後輸入&#x200B;**標題**&#x200B;小寫50 ****&#x200B;名稱&#x200B;**為** lowerthan50 **。**&#x200B;按一下&#x200B;**確定**。
 
@@ -247,7 +250,7 @@ ht-degree: 1%
 
 1. **編輯區段**
 
-   1. 從您的AEM例項導覽至&#x200B;**Personalization** > **Audiences** > **畫面**。
+   1. 從您AEM的例項導覽至&#x200B;**個人化** > **觀眾** > **畫面**。
 
    1. 選取區段&#x200B;**Higherthan 50**，然後從動作列按一下「編輯&#x200B;**a3/>」。**
 
@@ -267,7 +270,7 @@ googlesheets/ **value/1/0** 是指在下圖的google工作表中填入的行2和
    1. 將&#x200B;**Value**&#x200B;輸入為&#x200B;**70**。
 
       >[!NOTE]
-      AEM會將區段顯示為綠色，以驗證您來自Google工作表的資料。
+      The AEM vertifice your data from the Google Sheet by showing your segment as green.
 
       ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
    同樣地，將屬性值編輯為&#x200B;**Lowerthan50**。
@@ -288,7 +291,7 @@ googlesheets/ **value/1/0** 是指在下圖的google工作表中填入的行2和
 
 請依照下列步驟，在您的通道中啟用定位。
 
-1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM畫面頻道中建立的&#x200B;**DataDrivenChannel**&#x200B;來啟用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用在AEM Screens頻道中建立的&#x200B;**DataDrivenChannel**&#x200B;來啟用定位。
 
 1. 選擇通道&#x200B;**TargetChannel**，然後從操作欄按一下&#x200B;**屬性**。
 
@@ -314,7 +317,7 @@ googlesheets/ **value/1/0** 是指在下圖的google工作表中填入的行2和
 
 ## 更多資訊：範例使用案例{#learn-more-example-use-cases}
 
-在您為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
+在您為AEM Screens項目配置ContextHub後，您可以遵循不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
 1. **[零售庫存鎖定](retail-inventory-activation.md)**
 1. **[旅行中心溫度激活](local-temperature-activation.md)**
