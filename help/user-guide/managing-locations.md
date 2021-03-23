@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -34,7 +37,7 @@ ht-degree: 0%
 
 在您建立畫面專案後，請依照下列步驟建立畫面專案的新位置：
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接導覽至：`http://localhost:4502/screens.html/content/screens`。
+1. 選擇Adobe Experience Manager連結（左上角）和螢幕。 或者，您也可以直接導覽至：`http://localhost:4502/screens.html/content/screens`。
 1. 導覽至「畫面」專案，然後按一下「位置」****。
 1. 按一下動作列中加號圖示旁的&#x200B;**Create**。 嚮導將開啟。
 1. 從嚮導中選擇模板&#x200B;**Location** ，然後按一下&#x200B;**Next**。
@@ -43,7 +46,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**建立** ，然後建立該位置並將其添加到位置資料夾。
 
-請參閱下列步驟，瞭解如何為AEM Screens專案建立新位置。 為了展示，新位置(SanJose)是在&#x200B;*DemoProject*&#x200B;下建立的。
+請參閱以下步驟，瞭解如何為AEM Screens專案建立新位置。 為了展示，新位置(SanJose)是在&#x200B;*DemoProject*&#x200B;下建立的。
 
 ![player2](assets/player2.gif)
 
