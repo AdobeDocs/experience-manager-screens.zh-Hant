@@ -1,8 +1,8 @@
 ---
-title: 使用AEM畫面設定Adobe Analytics
-seo-title: 使用AEM畫面設定Adobe Analytics
-description: '請依照本節內容，進一步瞭解使用離線Adobe Analytics排序和傳送自訂事件的相關資訊 '
-seo-description: '請依照本節內容，進一步瞭解使用離線Adobe Analytics排序和傳送自訂事件的相關資訊 '
+title: 配置Adobe Analytics與AEM Screens
+seo-title: 配置Adobe Analytics與AEM Screens
+description: '請依照本節內容進一步瞭解如何使用離線Adobe Analytics排序和傳送自訂事件 '
+seo-description: '請依照本節內容進一步瞭解如何使用離線Adobe Analytics排序和傳送自訂事件 '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -10,41 +10,44 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
+feature: 管理畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '699'
 ht-degree: 8%
 
 ---
 
 
-# 使用AEM Screens {#configuring-adobe-analytics-with-aem-screens}設定Adobe Analytics
+# 將Adobe Analytics配置為AEM Screens{#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->只有在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時，才能使用此AEM Screens功能。
+>只有在您安裝了6.AEM4.2 Feature Pack 2和6.3.3 Feature Pack 4時，才能使用此Gent Adobe AEM Ficure Pack 4。
 >
 >若要存取其中一個功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
 本節涵蓋下列主題：
 
-* **Adobe Analytics與AEM畫面的排序**
+* **Adobe Analytics與AEM Screens測序**
 * **使用離線Adobe Analytics傳送自訂事件**
 
-## 在Adobe Analytics中搭配AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}排序
+## Adobe Analytics與AEM Screens序列{#sequencing-in-adobe-analytics-with-aem-screens}
 
-***排序程式***&#x200B;從啟動Adobe Analytics服務的資料儲存服務開始。 渠道內容會以薪資傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 這些事件將保存到索引資料庫中，並進一步放入對象儲存中。 管理員根據調度設定，從對象儲存中剪下資料，並進一步在塊儲存中傳輸資料。 它嘗試在連線時傳送最大資料量。
+***排序過程***&#x200B;從啟動Adobe Analytics服務的資料儲存服務開始。 頻道內容會以薪資傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 這些事件將保存到索引資料庫中，並進一步放入對象儲存中。 管理員根據調度設定，從對象儲存中剪下資料，並進一步在塊儲存中傳輸資料。 它嘗試在連線時傳送最大資料量。
 
 ### 序列圖{#sequencing-diagram}
 
-下列順序圖說明Adobe Analytics與AEM畫面的整合：
+以下順序圖說明Adobe Analytics與AEM Screens的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用離線Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}傳送自訂事件
+## 使用離線Adobe Analytics傳送自訂事件{#sending-custom-events-using-offline-adobe-analytics}
 
-下表摘要了事件的標準資料模型。 它會列出所有傳送至Adobe Analytics的欄位：
+下表摘要了事件的標準資料模型。 它列出了發送到Adobe Analytics的所有欄位：
 
 <table>
  <tbody>
@@ -199,7 +202,7 @@ ht-degree: 8%
    <td>AA的必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>自訂頁面名稱的Adobe Analytics支援</td> 
+   <td>Adobe Analytics支援自訂頁面名稱</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -244,7 +247,7 @@ ht-degree: 8%
    <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>應用程式名稱（AEM畫面）</td> 
+   <td>應用程式名稱(AEM Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
