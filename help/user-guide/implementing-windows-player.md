@@ -10,10 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
+feature: 管理畫面，Windows Player
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
