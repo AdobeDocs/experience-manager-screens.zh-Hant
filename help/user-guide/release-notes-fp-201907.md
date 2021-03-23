@@ -1,8 +1,8 @@
 ---
 title: 功能套件201907發行說明
 seo-title: 功能套件201907發行說明
-description: 請依照本頁取得2019年7月31日發行的AEM Screens Feature Pack 201907的相關資訊。
-seo-description: 請依照本頁取得2019年7月31日發行的AEM Screens Feature Pack 201907的相關資訊。
+description: 請依照本頁取得2019年7月31日發行的AEM Screens功能套件201907的相關資訊。
+seo-description: 請依照本頁取得2019年7月31日發行的AEM Screens功能套件201907的相關資訊。
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,11 +10,14 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
+feature: 功能套件
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 2%
 
 ---
 
@@ -23,17 +26,17 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->建議您升級至最新版的Adobe Experience Manager(AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建議您升級至最新版的Adobe Experience Manager(AEM)。 畫面提供6.3畫AEM面平台的維護支援。
 
-AEM Screens發行AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1，並提供下列詳細資訊。
+AEM ScreensAEM發行6.4.5功能套件5和AEM6.5.1功能套件1，具體說明如下。
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
+AEM Screens功能套件201907的發行日期為2019年7月31日。
 
 ### 新功能 {#what-s-new}
 
-* **「資料觸發」會在AEM Screens頻道中推動資產變更**
+* **資料觸發器推動AEM Screens通道中的資產變更**
 
 當接收到由緊急系統引發的事件時，玩家切換到顯示緊急資訊的頻道。 頻道只播放，直到緊急情況結束為止。
 
@@ -43,9 +46,9 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 現在可以針對AEM Screens專案中使用的資產啟用定位。
 
-若要進一步瞭解如何在AEM Screens專案中啟用資產定位，請參閱[在AEM Screens](configuring-context-hub.md)中設定ContextHub。
+若要進一步瞭解如何啟用AEM Screens專案中資產的定位，請參閱[在AEM Screens設定ContextHub](configuring-context-hub.md)。
 
-在您為AEM Screens專案設定ContextHub後，請依照不同的使用案例來瞭解資料觸發資產在不同產業中扮演重要角色的方式：
+為AEM Screens項目配置ContextHub後，請遵循不同的使用案例，瞭解資料觸發資產在不同產業中扮演重要角色的方式：
 
 **[零售庫存鎖定](retail-inventory-activation.md)**
 
@@ -66,14 +69,14 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 您現在可以在設定「畫面」體驗片段時新增離線設定（用戶端程式庫和靜態檔案）。 如需詳細資訊，請參閱[使用體驗片段](experience-fragments-in-screens.md)。
 
-### 已發行的AEM畫面播放器{#released-aem-screens-players}
+### 獲釋的AEM Screens球員{#released-aem-screens-players}
 
-AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1已發行下列AEM Screens Player:
+下列AEM Screens播放器適用於AEM6.4.5功能套件5和AEM6.5.1功能套件1:
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens Player下載{#aem-screens-player-downloads}
+#### AEM Screens播放器下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱[AEM Screens Player Downloads](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱[AEM Screens播放器下載](https://download.macromedia.com/screens/)。
