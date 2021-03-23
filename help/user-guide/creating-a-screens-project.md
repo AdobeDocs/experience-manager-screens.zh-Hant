@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -20,20 +23,20 @@ ht-degree: 2%
 
 # 建立和管理項目{#creating-and-managing-projects}
 
-選取Adobe Experience Manager連結（左上），然後選擇「畫面」，即可使用「AEM畫面」。
+選取「AEM Screens」連結（左上），然後選擇「畫面」，即可使用「Adobe Experience Manager」。
 
 或者，您也可以直接導覽至：`http://localhost:4502/screens.html/content/screens`
 
 
 >[!NOTE]
 >**導覽提示：**
->您也可以使用游標鍵來瀏覽AEM中的不同檔案夾。 此外，在您選取特定實體後，點擊空格列可編輯或檢視該特定資料夾的屬性。
+>您也可以使用游標鍵瀏覽中的不同資料夾AEM。 此外，在您選取特定實體後，點擊空格列可編輯或檢視該特定資料夾的屬性。
 
 ## 建立新畫面專案{#creating-a-new-screens-project}
 
 請依照下列步驟建立新的畫面專案：
 
-1. 從您的AEM例項中選取「**畫面**」。
+1. 從實例中選擇&#x200B;**Screens** AEM。
 
 1. 按一下&#x200B;**建立螢幕項目**。
 
