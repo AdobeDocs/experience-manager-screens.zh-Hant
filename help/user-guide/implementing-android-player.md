@@ -14,7 +14,7 @@ feature: 管理畫面，Android Player
 role: 管理員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -186,8 +186,8 @@ ht-degree: 0%
 1. 請確定您的Android裝置支援Google Play服務。
 1. 使用您最愛支援AppConfig的EMM解決方案註冊您的Android播放器裝置。
 1. 登入您的EMM主控台，從Google Play拉出AEM Screens播放器應用程式。
-1. 選擇受管理的配置（或相關選項）。
-1. 您現在應該會看到可設定的播放器選項清單（例如伺服器和大量註冊碼）。
+1. 選擇受管理的配置或相關選項。
+1. 您現在應該會看到可設定的播放器選項清單，例如伺服器和大量註冊代碼。
 1. 配置這些參數、保存策略並將其部署到設備。
 
    >[!NOTE]
