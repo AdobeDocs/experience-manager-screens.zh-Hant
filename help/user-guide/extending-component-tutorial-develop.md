@@ -1,26 +1,29 @@
 ---
-title: 擴充AEM Screens元件
-seo-title: 擴充AEM Screens元件
-description: 以下教學課程將逐步說明如何擴充至現成可用的AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
-seo-description: 以下教學課程將逐步說明如何擴充至現成可用的AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
+title: 擴展AEM Screens元件
+seo-title: 擴展AEM Screens元件
+description: 以下教學課程將逐步介紹擴充至\'b2\'7b箱\'7b的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
+seo-description: 以下教學課程將逐步介紹擴充至\'b2\'7b箱\'7b的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 0%
+source-wordcount: '1856'
+ht-degree: 2%
 
 ---
 
 
-# 擴充AEM Screens元件{#extending-an-aem-screens-component}
+# 擴展AEM Screens元件{#extending-an-aem-screens-component}
 
-以下教學課程將逐步說明如何擴充至現成可用的AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
+以下教學課程將逐步介紹擴充至\&#39;b2\&#39;7b箱\&#39;7b的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
 
 ## 概覽 {#overview}
 
@@ -38,22 +41,22 @@ ht-degree: 0%
 
 要完成本教學課程，需要以下內容：
 
-1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) 或 [AEM 6.3](https://helpx.adobe.com/tw/experience-manager/6-3/release-notes.html) +最新螢幕功能套件
+1. [AEMAEM6.4](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/release-notes.html) 或 [6.3](https://helpx.adobe.com/tw/experience-manager/6-3/release-notes.html) +最新螢幕功能套件
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
-1. 當地開發環境
+1. 本機開發環境
 
-教學課程步驟和螢幕擷取是使用CRXDE-Lite來執行。 [您](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) 也可 [](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) 以使用ElliJIDE來完成教學課程。有關使用IDE與AEM搭配開發的詳細資訊，請參閱此處[。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)
+教學課程步驟和螢幕擷取是使用CRXDE-Lite來執行。 [您](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) 也可 [](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) 以使用ElliJIDE來完成教學課程。有關使用IDE與[開發的詳細資訊，請AEM參閱此處](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)。
 
 ## 項目設定{#project-setup}
 
-畫面專案的原始碼通常會管理為多模組Maven專案。 為加速教學課程，專案是使用[AEM專案原型13](https://github.com/adobe/aem-project-archetype)預先產生。 有關使用Maven AEM Project Archetype建立項目的詳細資訊，請參閱[。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)
+畫面專案的原始碼通常會管理為多模組Maven專案。 為加速教學課程，使用[專案原型13AEM](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關使用Maven項目原型建立項目的詳細AEM資訊，請參閱](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)。[
 
 1. 使用&#x200B;**CRX套件manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`下載並安裝下列套件
 
    [取得檔案](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [取得檔案](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **（可選）** 如果使用Eclipse或其他IDE，請下載下面的源包。使用Maven命令將專案部署至本機AEM例項：
+   **（可選）** 如果使用Eclipse或其他IDE，請下載下面的源包。使用Maven命令將項目部AEM署到本地實例：
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -76,7 +79,7 @@ Poster元件可擴充Image元件的方塊外畫面。 Sling的機制`sling:resou
 
 海報元件會以全螢幕呈現為預覽／製作模式。 在編輯模式中，請務必以不同的方式呈現元件，以利製作順序頻道。
 
-1. 在&#x200B;**`poster`下方的&lt;a0/>CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp`（或選擇的IDE）中，建立名為&lt;a5/>的新`cq:Component`。`/apps/weretail-run/components/content`
+1. 在&#x200B;**`poster`下方的`/apps/weretail-run/components/content`CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp`（或選擇的IDE）中，建立名為的新`cq:Component`。
 
    將以下屬性添加到`poster`元件：
 
@@ -286,7 +289,7 @@ Poster元件可擴充Image元件的方塊外畫面。 Sling的機制`sling:resou
 
    標誌也包含在元件中，當做覆蓋。 在此範例中，We.Retail標誌的路徑是硬式編碼在DAM中。 視使用案例而定，建立新對話欄位，讓標誌路徑成為動態填入的值，可能更有意義。
 
-   另請注意，BEM（塊元素修飾詞）注釋與元件一起使用。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是[AEM的核心元件](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的符號。 如需詳細資訊，請參閱：[https://getbem.com/](https://getbem.com/)
+   另請注意，BEM（塊元素修飾詞）注釋與元件一起使用。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是[核心元件&lt;a1/AEM>使用的注釋。 ](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)如需詳細資訊，請參閱：[https://getbem.com/](https://getbem.com/)
 
 1. 在`/apps/weretail-run/components/content/poster`下建立名為`edit.html.`的檔案
 
@@ -316,9 +319,9 @@ Poster元件可擴充Image元件的方塊外畫面。 Sling的機制`sling:resou
 
 ## 建立客戶端庫{#clientlibs}
 
-用戶端程式庫提供組織和管理AEM實作所需CSS和JavaScript檔案的機制。 有關使用[用戶端程式庫的詳細資訊，請參閱這裡。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+用戶端程式庫提供組織和管理實作所需CSS和JavaScript檔案的AEM機制。 有關使用[用戶端程式庫的詳細資訊，請參閱這裡。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
-AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方式不同。 會建立兩組用戶端程式庫，一組用於編輯模式，另一組用於預覽／生產。
+AEM Screens元件在編輯模式與預覽／生產模式中的呈現方式不同。 會建立兩組用戶端程式庫，一組用於編輯模式，另一組用於預覽／生產。
 
 1. 為海報元件的用戶端程式庫建立資料夾。
 
@@ -357,7 +360,7 @@ AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   本教學課程不使用LESS直接編寫CSS。 [LESS](https://lesscss.org/) 是常用的CSS預編譯器，可支援CSS變數、混合和函式。AEM用戶端程式庫本身支援LESS編譯。 Sass或其他預先編譯器可使用，但需在AEM以外進行編譯。
+   本教學課程不使用LESS直接編寫CSS。 [LESS](https://lesscss.org/) 是常用的CSS預編譯器，可支援CSS變數、混合和函式。用戶AEM端程式庫本身支援LESS編譯。 Sass或其他預編譯器可使用，但需在外部進行編譯AEM。
 
 1. 將`/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less`填入以下內容：
 
@@ -516,7 +519,7 @@ AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方
 
 ## 完成代碼{#finished-code}
 
-以下是教學課程中完成的程式碼。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是編譯的AEM套件。 **SRC-screens-weretail-run-0.0.1.zip **是可使用Maven部署的未編譯原始碼。
+以下是教學課程中完成的程式碼。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是編譯的包AEM。 **SRC-screens-weretail-run-0.0.1.zip **是可使用Maven部署的未編譯原始碼。
 
 [取得檔案](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
