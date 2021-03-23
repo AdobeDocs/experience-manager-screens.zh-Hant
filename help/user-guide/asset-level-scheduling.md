@@ -3,10 +3,13 @@ title: 資產層級啟動
 seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
+feature: 製作螢幕、資產層級啟動
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->只有在您已安裝AEM 6.3 Feature Pack 3或AEM 6.4 Screens Feature Pack 1時，才能使用此AEM Screens功能。
+>只有在您已安裝6.3 Feature Pack 3或AEM6.4 Screens Feature Pack 1時，才AEM能使用此AEM Screens功能。
 >
 >若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
@@ -186,7 +189,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**Multi-asset Activation**&#x200B;功能僅在您已安裝AEM 6.3 Feature Pack 5或AEM 6.4 Feature Pack 3時可用。
+>**多資產啟動**&#x200B;功能僅在您已安裝AEM6.3 Feature Pack 5或AEM6.4 Feature Pack 3時可用。
 
 ***多資產動*** 作可讓使用者選取多個資產，並將播放排程套用至所有選取的資產。
 
@@ -194,14 +197,14 @@ ht-degree: 0%
 
 若要針對您的資產使用多資產層級啟動，請建立具有序列頻道的AEM Screens專案。 例如，下列使用案例會展示功能的實作：
 
-* 建立標題為&#x200B;**MultiAssetDemo**&#x200B;的AEM Screens專案
+* 建立名為&#x200B;**MultiAssetDemo**&#x200B;的AEM Screens專案
 * 建立標題為&#x200B;**MultiAssetChannel**&#x200B;的頻道，並新增內容至頻道，如下圖所示
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-請依照下列步驟選取多個資產，並排程它們在AEM Screens專案中的顯示：
+請依照下列步驟選擇多個資產並排程它們在AEM Screens專案中的顯示：
 
-1. 選擇「**MultiAssetChannel**」，然後從操作欄按一下「編輯」以開啟編輯器。****
+1. 選擇&#x200B;**MultiAssetChannel**，然後從操作欄按一下&#x200B;**編輯**&#x200B;以開啟編輯器。
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
