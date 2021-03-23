@@ -10,10 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
+feature: 概覽
+role: 業務從業人員，資料架構師
+level: 初學者
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -41,13 +44,13 @@ ht-degree: 0%
 * 解決硬體、軟體或連接故障
 * 平衡問題解決成本與最終客戶端業務需求。
 * 確定跨網路重新調解問題的最佳方法。
-* 推動AEM實施者與AV整合商在建立第2天支援計畫時的一致性
+* 在制定第2天支AEM持計畫時，推動實施者與AV整合商之間的協調
 
 ## 第2天支援{#summary-of-key-considerations-involved-in-day-support}中涉及的主要考慮事項摘要
 
 以下是第2天支援的一些主要考量事項：
 
-* 為確保從實作到營運支援的協調與順暢轉換，AEM實施者必須與AV Integrator合作，以確保將適當的支援指令碼定義為第2天支援計畫的一部分。
+* 為確保從實施到操作支援的協調和平穩過渡，實施AEM者必須與AV Integrator合作，以確保將適當的支援指令碼定義為第2天支援計畫的一部分。
 * 在數位標牌產業發展的這個階段，實際上已經滿足了遠程設備管理、幫助台可用性和現場技術人員支援等要求。 除了這些基本需求外，AV整合商還應探索主動監控與被動監控與支援模型之間的成本變數。
 
 * 在數位標牌產業發展的這個階段，實際上已經滿足了遠程設備管理、幫助台可用性和現場技術人員支援等要求。 除了這些基本需求外，AV整合商還應探索主動監控與被動監控與支援模型之間的成本變數。
@@ -59,7 +62,7 @@ ht-degree: 0%
 
 ## 第5部分：支援注意事項視頻教程{#part-video-tutorial-on-support-considerations}
 
-請依照本結論教學課程，以下是5個部分的系列教學課程，其中著重說明如何確保從實施到操作支援的協調及順暢過渡。 另外，它也說明AEM實施者必須如何與AV Integrator搭配運作，以確保定義為「第2天支援計畫」一部分的適當支援指令碼。
+請依照本結論教學課程，以下是5個部分的系列教學課程，其中著重說明如何確保從實施到操作支援的協調及順暢過渡。 它還說明實施者AEM必須如何與AV Integrator合作，以確保在第2天支援計畫中定義的適當支援指令碼。
 
 ### 專案考量事項
 
@@ -69,5 +72,5 @@ ht-degree: 0%
 
 ## 結論{#conclusion}
 
-這5部分系列著重於確保專案成功的關鍵考量因素。 如需實作詳細資訊，請參閱「AEM Screens使用指南」的其他章節。
+這5部分系列著重於確保專案成功的關鍵考量因素。 請參閱《AEM Screens使用指南》的其他章節，以取得實作詳細資訊。
 
