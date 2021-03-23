@@ -1,30 +1,33 @@
 ---
-title: 開發AEM畫面的自訂元件
-seo-title: 開發AEM畫面的自訂元件
-description: 下列教學課程將逐步說明為AEM Screens建立自訂元件的步驟。 AEM Screens會重複使用其他AEM產品的許多現有設計樣式和技術。 本教學課程強調針對AEM Screens進行開發時的差異和特殊考量。
-seo-description: 為AEM Screens建立簡單「Hello World」元件的入門教學課程。 AEM Screens會重複使用其他AEM產品的許多現有設計樣式和技術。 以下教學課程旨在強調針對AEM Screens進行開發時的特定差異和考量。
+title: 開發適用於AEM Screens的自訂元件
+seo-title: 開發適用於AEM Screens的自訂元件
+description: 以下教學課程將逐步介紹為AEM Screens建立自訂元件的步驟。 AEM Screens重新運用其他產品的許多現有設計模式和AEM技術。 本教學課程強調在為AEM Screens開發課程時的差異和特殊考量。
+seo-description: 為AEM Screens建立簡單「Hello World」元件的入門教學課程。 AEM Screens重新運用其他產品的許多現有設計模式和AEM技術。 下面的教學課程旨在強調在為AEM Screens開發時的具體差異和考慮。
 uuid: 8ec8be5a-6348-48f2-9cb7-75b2bad555a6
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '2186'
-ht-degree: 1%
+source-wordcount: '2190'
+ht-degree: 2%
 
 ---
 
 
-# 開發AEM Screens {#developing-a-custom-component-for-aem-screens}的自訂元件
+# 開發AEM Screens的自定義元件{#developing-a-custom-component-for-aem-screens}
 
-下列教學課程將逐步說明為AEM Screens建立自訂元件的步驟。 AEM Screens會重複使用其他AEM產品的許多現有設計樣式和技術。 本教學課程強調針對AEM Screens進行開發時的差異和特殊考量。
+以下教學課程將逐步介紹為AEM Screens建立自訂元件的步驟。 AEM Screens重新運用其他產品的許多現有設計模式和AEM技術。 本教學課程強調在為AEM Screens開發課程時的差異和特殊考量。
 
 ## 概覽 {#overview}
 
-本教學課程適用於剛接觸AEM Screens的開發人員。 在本教學課程中，AEM Screens中為「序列」頻道建立簡單的「Hello World」元件。 對話方塊可讓作者更新顯示的文字。
+本教學課程適用於剛接觸AEM Screens的開發人員。 在本教學課程中，AEM Screens的Sequence頻道將建立簡單的「Hello World」元件。 對話方塊可讓作者更新顯示的文字。
 
 ![超視低音](assets/overviewhellow.png)
 
@@ -32,24 +35,24 @@ ht-degree: 1%
 
 要完成本教學課程，需要以下內容：
 
-1. [AEM 6.5](https://helpx.adobe.com/tw/experience-manager/6-4/release-notes.html) 或 [AEM 6.3](https://helpx.adobe.com/tw/experience-manager/6-3/release-notes.html) +最新螢幕功能套件
+1. [AEMAEM6.5](https://helpx.adobe.com/tw/experience-manager/6-4/release-notes.html) 或 [6.3](https://helpx.adobe.com/tw/experience-manager/6-3/release-notes.html) +最新螢幕功能套件
 
 1. [AEM Screens 播放器](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
-1. 當地開發環境
+1. 本機開發環境
 
-教學課程步驟和螢幕擷取是使用&#x200B;**CRXDE-Lite**&#x200B;來執行。 IDE也可用於完成教學課程。 有關使用IDE來開發[和AEM的詳細資訊，請參閱這裡。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
+教學課程步驟和螢幕擷取是使用&#x200B;**CRXDE-Lite**&#x200B;來執行。 IDE也可用於完成教學課程。 有關使用IDE來開發[的詳細資訊，AEM請參閱此處。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
 
 
 ## 項目設定{#project-setup}
 
-畫面專案的原始碼通常會管理為多模組Maven專案。 為加速教學課程，專案是使用[AEM專案原型13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype)預先產生。 有關使用Maven AEM Project Archetype建立項目的詳細資訊，請參閱[。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)
+畫面專案的原始碼通常會管理為多模組Maven專案。 為加速教學課程，使用[專案原型13AEM](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype)預先產生專案。 有關使用Maven項目原型建立項目的詳細AEM資訊，請參閱](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)。[
 
 1. 使用[CRX軟體包管理器](http://localhost:4502/crx/packmgr/index.jsp)下載並安裝以下軟體包：
 
    [取得檔案](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [取得檔案](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **如果** 使用Eclipse或其他IDE，則可選擇下載以下源包。使用Maven命令將專案部署至本機AEM例項：
+   **如果** 使用Eclipse或其他IDE，則可選擇下載以下源包。使用Maven命令將項目部AEM署到本地實例：
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -86,19 +89,19 @@ ht-degree: 1%
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   此套件包含專案所需的開始內容和設定結構。 **`/conf/we-retail-run`** 包含We.Retail Run專案的所有設定。**`/content/dam/we-retail-run`** 包括啟動專案的數位資產。**`/content/screens/we-retail-run`** 包含「畫面」內容結構。這些路徑下方的內容主要會在AEM中更新。 為了提高環境（本地、開發、舞台、prod）之間的一致性，通常在原始碼控制中保存基本內容結構。
+   此套件包含專案所需的開始內容和設定結構。 **`/conf/we-retail-run`** 包含We.Retail Run專案的所有設定。**`/content/dam/we-retail-run`** 包括啟動專案的數位資產。**`/content/screens/we-retail-run`** 包含「畫面」內容結構。這些路徑下的內容主要在中更新AEM。 為了提高環境（本地、開發、舞台、prod）之間的一致性，通常在原始碼控制中保存基本內容結構。
 
-1. **導覽至「AEM畫面> We.Retail Run」專案：**
+1. **導覽至「AEM Screens> We.Retail Run」專案：**
 
-   從「AEM開始功能表>按一下畫面圖示」。 驗證是否可以看到We.Retail Run Project。
+   從「開始AEM功能表>按一下畫面」圖示。 驗證是否可以看到We.Retail Run Project。
 
    ![我們的&quot;入門&quot;](assets/we-retaiul-run-starter.png)
 
 ## 建立Hello World元件{#hello-world-cmp}
 
-Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 此元件以[AEM Screens元件範本為基礎：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)。
+Hello World元件是一個簡單元件，允許用戶輸入要顯示在螢幕上的消息。 元件基於[AEM Screens元件模板：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)。
 
-AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不一定適用。
+AEM Screens有一些有趣的限制條件，但對於傳統的WCM Sites元件來說未必如此。
 
 * 大部分的「螢幕」元件需要在目標數位標牌裝置上全螢幕執行
 * 大部分的「畫面」元件必須可內嵌在序列頻道中，才能產生投影片
@@ -164,7 +167,7 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
 
    元件會轉譯具有文字的`div`和`h1`標籤。 `${properties.message}` 是HTL指令碼的一部分，將輸出名為的JCR屬性的內容 `message`。稍後將建立一個對話框，允許用戶為`message`屬性文本輸入值。
 
-   另請注意，BEM（塊元素修飾詞）注釋與元件一起使用。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是[AEM的核心元件](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的符號。 如需詳細資訊，請參閱：[https://getbem.com/](https://getbem.com/)
+   另請注意，BEM（塊元素修飾詞）注釋與元件一起使用。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是[核心元件&lt;a1/AEM>使用的注釋。 ](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)如需詳細資訊，請參閱：[https://getbem.com/](https://getbem.com/)
 
 1. 在`/apps/weretail-run/components/content/helloworld`下建立名為`edit.html.`的檔案
 
@@ -272,9 +275,9 @@ AEM Screens有一些有趣的限制條件，這對於傳統的WCM Sites元件不
 
 ## 建立客戶端庫{#clientlibs}
 
-用戶端程式庫提供組織和管理AEM實作所需CSS和JavaScript檔案的機制。
+用戶端程式庫提供組織和管理實作所需CSS和JavaScript檔案的AEM機制。
 
-AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方式不同。 將會建立兩個用戶端程式庫，一個用於編輯模式，另一個用於預覽／生產。
+AEM Screens元件在編輯模式與預覽／生產模式中的呈現方式不同。 將會建立兩個用戶端程式庫，一個用於編輯模式，另一個用於預覽／生產。
 
 1. 為Hello World元件的客戶端庫建立資料夾。
 
@@ -314,7 +317,7 @@ AEM Screens元件在「編輯」模式與「預覽／生產」模式的轉譯方
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   本教學課程不使用LESS直接編寫CSS。 [LESS](https://lesscss.org/) 是常用的CSS預編譯器，可支援CSS變數、混合和函式。AEM用戶端程式庫本身支援LESS編譯。 Sass或其他預先編譯器可使用，但需在AEM以外進行編譯。
+   本教學課程不使用LESS直接編寫CSS。 [LESS](https://lesscss.org/) 是常用的CSS預編譯器，可支援CSS變數、混合和函式。用戶AEM端程式庫本身支援LESS編譯。 Sass或其他預編譯器可使用，但需在外部進行編譯AEM。
 
 1. 將`/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less`填入以下內容：
 
@@ -407,7 +410,7 @@ AEM Screens使用[靜態頁面範本](https://helpx.adobe.com/experience-manager
 
 Hello World元件用於序列通道。 若要測試元件，會建立新的「序列頻道」。
 
-1. 從「AEM開始」選單導覽至「**Screens** > **We.Retail Ru** n >」，然後選取「**Channels**」。
+1. 從「開AEM始」菜單導航至「**螢幕** > **We.Retail Ru** n >」，然後選擇「通道&#x200B;**」。**
 
 1. 按一下&#x200B;**建立**&#x200B;按鈕
 
@@ -554,7 +557,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 ## 完成代碼{#finished-code}
 
-以下是教學課程中完成的程式碼。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是編譯的AEM套件。 **SRC-screens-weretail-run-0.0.1.zip **是可使用Maven部署的未編譯原始碼。
+以下是教學課程中完成的程式碼。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是編譯的包AEM。 **SRC-screens-weretail-run-0.0.1.zip **是可使用Maven部署的未編譯原始碼。
 
 [取得檔案](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
