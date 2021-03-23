@@ -1,8 +1,8 @@
 ---
 title: 功能套件201812發行說明
 seo-title: 功能套件201812發行說明
-description: 請依照本頁取得2019年1月16日發行的AEM Screens Feature Pack 201812的資訊。
-seo-description: 請依照本頁取得2019年1月16日發行的AEM Screens Feature Pack 201812的資訊。
+description: 請依照本頁取得2019年1月16日發行的AEM Screens功能套件201812的資訊。
+seo-description: 請依照本頁取得2019年1月16日發行的AEM Screens功能套件201812的資訊。
 uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
+feature: 功能套件
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '279'
+ht-degree: 3%
 
 ---
 
@@ -23,19 +26,19 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->建議您升級至最新版的Adobe Experience Manager(AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建議您升級至最新版的Adobe Experience Manager(AEM)。 畫面提供6.3畫AEM面平台的維護支援。
 
-AEM Screens發行AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，並提供下列詳細資訊。
+AEM Screens公AEM司發佈了6.3功能包5和AEM6.4功能包3，具體內容如下：
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
+AEM Screens功能套件201812的發行日期為2019年1月16日。
 
 ### 新功能 {#what-s-new}
 
 * **頻道中資產的文字覆蓋**:
 
-   「文字覆蓋」是AEM Screens中提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。 請參閱&#x200B;[**文字覆蓋**](text-overlay.md)&#x200B;以瞭解詳細資訊。
+   「文字覆蓋」是AEM Screens提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。 請參閱&#x200B;[**文字覆蓋**](text-overlay.md)&#x200B;以瞭解詳細資訊。
 
 * **多資產排程**:
 
@@ -48,15 +51,15 @@ AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
 * **智慧同步資產至播放器**
 * **作者／發佈部署（強化）**
 
-### 已發行的AEM畫面播放器{#released-aem-screens-players}
+### 獲釋的AEM Screens球員{#released-aem-screens-players}
 
-AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3已發行下列AEM Screens Player:
+下列AEM Screens播放器適用於AEM6.3功能套件5和AEM6.4功能套件3:
 
 * ChromeOS
 * Windows
 * Android
 * iOS
 
-#### AEM Screens Player下載{#aem-screens-player-downloads}
+#### AEM Screens播放器下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;[**AEM Screens Player Downloads**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;[**AEM Screens播放器下載**](https://download.macromedia.com/screens/)。
