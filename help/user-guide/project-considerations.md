@@ -10,18 +10,21 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
+feature: 概覽
+role: 業務從業人員，資料架構師
+level: 初學者
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '672'
+ht-degree: 1%
 
 ---
 
 
 # 第二部分：項目範圍{#part-considerations-as-projects-are-scoped}的注意事項
 
-本頁重點說明5個部分系列的第2部分，旨在協助團隊成員進一步瞭解開發成功AEM Screens部署的售前方面。
+本頁重點介紹5個部分系列的第2部分，旨在幫助團隊成員更好地瞭解開發成功的AEM Screens部署的售前方面。
 
 ## 概覽 {#overview}
 
