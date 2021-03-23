@@ -1,18 +1,21 @@
 ---
 title: 製作和發佈架構概觀
 seo-title: 製作和發佈架構概觀
-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁進一步瞭解作者和發佈架構概觀。
-seo-description: AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 請依照本頁進一步瞭解作者和發佈架構概觀。
+description: AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 請依照本頁進一步瞭解作者和發佈架構概觀。
+seo-description: AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 請依照本頁進一步瞭解作者和發佈架構概觀。
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
+feature: 管理畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -30,19 +33,19 @@ ht-degree: 0%
 
 在開始使用作者和發佈伺服器之前，您應具備下列相關知識：
 
-* **AEM Topology**
-* **建立和管理AEM畫面專案**
+* **拓AEM撲**
+* **建立和管理AEM Screens項目**
 * **裝置註冊程式**
 
 >[!NOTE]
 >
->只有在您已安裝AEM 6.4 Screens Feature Pack 2時，才能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
+>只有在您已安裝6.4 Screens Feature Pack 2時，才AEM能使用此AEM Screens功能。 若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
 ## 簡介 {#introduction}
 
-AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項上編寫，然後轉送複製至多個發佈例項。 AEM Screens裝置現在可以透過負載平衡器連線至AEM發佈群。 可新增多個AEM發佈例項，以繼續縮放發佈群。
+AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 AEM Screens裝置現在可以透過負載平衡器AEM連線至發佈群組。 可以AEM新增多個發佈例項，以繼續縮放發佈群。
 
-*例如*,AEM Screens內容作者會在製作系統上針對設定為與發佈群組互動的特定裝置發出指令，或是針對AEM Screens內容作者發出指令，以取得有關設定為與發佈群組互動的裝置的資訊。
+*例如*,AEM Screens內容作者在製作系統上針對被配置為與發佈群互動的特定裝置發出命令，或AEM Screens內容作者獲取有關被配置為與發佈群互動的裝置的資訊。
 
 下圖說明作者和發佈環境。
 
@@ -73,9 +76,9 @@ AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項�
 
 ### 螢幕複製代理和命令{#screens-replication-agents-and-commands}
 
-「自訂畫面」特定的複製代理會建立，以將指令從「作者」例項傳送至AEM Screens裝置。 AEM Publish執行個體可做為將這些指令轉送至裝置的中介。
+建立自定義螢幕特定的複製代理，以將命令從Author實例發送到AEM Screens設備。 AEM Publish執行個體可做為將這些指令轉送至裝置的中介。
 
-這可讓作者繼續管理裝置，例如傳送裝置更新並從作者環境擷取螢幕擷取。 AEM Screens複製代理具有自訂傳輸設定，例如標準複製代理。
+這可讓作者繼續管理裝置，例如傳送裝置更新並從作者環境擷取螢幕擷取。 AEM Screens複製代理具有自定義傳輸配置，如標準複製代理。
 
 ### 發佈例項{#messaging-between-publish-instances}之間的傳訊
 
@@ -85,12 +88,12 @@ AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項�
 
 ### 反向複製{#reverse-replication}
 
-在許多情況下，在執行命令後，Screens裝置會有某種回應，才會轉送至Author執行個體。 為了達到此AEM ***使用反向複製***。
+在許多情況下，在執行命令後，Screens裝置會有某種回應，才會轉送至Author執行個體。 為了達到此目AEM的，使用反向複製&#x200B;***。***
 
 * 為每個發佈實例建立一個反向複製代理，類似於標準複製代理和螢幕複製代理。
 * 工作流程啟動程式設定會監聽在發佈例項上修改的節點，然後觸發工作流程，將裝置回應置於發佈例項的外框中。
 * 此上下文中的反向複製僅用於設備提供的二進位資料（如日誌檔案和螢幕截圖）。 非二進位資料通過輪詢來檢索。
-* 從AEM作者例項輪詢的反向複製會擷取回應並儲存至作者例項。
+* 從作者實例輪詢的AEM反向複製將檢索響應並將其保存到作者實例。
 
 ### 輪詢發佈實例{#polling-of-publish-instances}
 
@@ -102,12 +105,12 @@ AEM Screens架構類似傳統的AEM Sites架構。 內容是在AEM作者例項�
 
 ## 註冊{#registration}
 
-註冊會繼續產生於AEM作者例項。 AEM Screens Device會指向作者例項，且註冊已完成。
+註冊仍會源自作者AEM實例。 AEM Screens裝置指向作者實例並完成註冊。
 
-在作者環境中註冊裝置後，裝置設定和頻道／排程指派就會複製到AEM發佈例項。 接著會更新AEM Screens Device設定，以指向AEM發佈群組前方的負載平衡器。 這是一次性設定，當畫面裝置成功連線至發佈環境後，它就可繼續接收來自作者環境的指令，而不需將畫面裝置直接連接至作者環境。
+在作者環境中註冊設備後，設備配置和通道／計劃分配將複製到發AEM布實例。 接著會更新AEM Screens裝置設定，以指向發佈群前的負載平衡AEM器。 這是一次性設定，當畫面裝置成功連線至發佈環境後，它就可繼續接收來自作者環境的指令，而不需將畫面裝置直接連接至作者環境。
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
 ### 後續步驟{#the-next-steps}
 
-在您瞭解AEM Screens中作者的架構設計和發佈設定後，請參閱[為AEM Screens](author-and-publish.md)設定作者和發佈，以取得詳細資訊。
+在您瞭解AEM Screens的作者架構設計和發佈設定後，請參閱[設定AEM Screens的作者和發佈](author-and-publish.md)以取得詳細資訊。
