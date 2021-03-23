@@ -9,10 +9,13 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -41,10 +44,10 @@ ht-degree: 0%
 
 請依照下列步驟設定緊急通道：
 
-1. 建立名為&#x200B;**EmergencyChannel**&#x200B;的AEM Screens專案，如下所示。
+1. 建立名為&#x200B;**EmergencyChannel**&#x200B;的AEM Screens項目，如下所示。
 
    >[!NOTE]
-   >若要進一步瞭解如何在AEM畫面中建立和管理專案，請參閱「建立專案」。
+   >若要進一步瞭解在AEM Screens建立和管理專案，請參閱建立專案。
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -148,14 +151,14 @@ ht-degree: 0%
 
    1. 選擇到「計畫」的路徑（例如，此處&#x200B;**EmergencyChannel** —> **Schedules** —>**StoreSchedule**）。
 
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
    您可以從&#x200B;**StoreSchedule**控制面板檢視指派給顯示的排程。
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **裝置註冊**
 
-   完成裝置註冊程式，在您註冊後，就會在AEM Screens播放器上檢視下列輸出。
+   完成裝置註冊程式，在您註冊後，您將在AEM Screens播放器上檢視下列輸出。
 
    ![new30](assets/new30.gif)
 
@@ -175,7 +178,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 一旦頻道的優先順序更新，所有AEM Screens播放器都會顯示&#x200B;**EmergencyChannel**&#x200B;內容，如下所示。
+1. 一旦頻道的優先順序更新，所有AEM Screens播放器就會顯示&#x200B;**EmergencyChannel**&#x200B;內容，如下所示。
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
