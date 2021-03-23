@@ -4,10 +4,13 @@ seo-title: 為文字覆蓋套用自訂品牌和樣式
 description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 1%
 
 # 文字覆蓋的自訂品牌與樣式{#creating-custom-branding-styling}
 
-請依照本頁面進行，瞭解如何針對套用至AEM畫面頻道中資產的「文字覆蓋」套用自訂品牌和樣式。
+請依照本頁進行，瞭解如何針對套用至AEM Screens頻道資產的文字覆蓋套用自訂品牌和樣式。
 
 ## 建立文字覆蓋的自訂品牌與樣式{#steps-custom-branding}
 
@@ -32,7 +35,7 @@ ht-degree: 1%
    >[!NOTE]
    >若要瞭解如何在頻道編輯器中將文字覆蓋新增至資產，請參閱[文字覆蓋](/help/user-guide/text-overlay.md)。
 
-1. 從您的AEM實例—> tools —> **CRXDE Lite**&#x200B;導覽至CRXDE Lite。
+1. 從實例AEM—>工具—> **CRXDE Lite**&#x200B;導航到CRXDE Lite。
 
 1. 您必須在`/apps/settings/wcm/designs/<your-project>/`中建立自訂設計，例如，在此例中，導覽至`/apps/settings/wcm/designs/customstyle/`
 
