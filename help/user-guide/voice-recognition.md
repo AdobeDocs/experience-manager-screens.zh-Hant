@@ -1,27 +1,30 @@
 ---
-title: AEM畫面中的語音識別
-description: 此頁面說明AEM Screens中的語音識別功能。
+title: AEM Screens語音識別
+description: 本頁說明AEM Screens語音識別功能。
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1129'
 ht-degree: 3%
 
 ---
 
 
-# AEM Screens {#voice-recognition}中的語音識別
+# AEM Screens語音識別{#voice-recognition}
 
 >[!IMPORTANT]
 >
 >**重要隱私權資訊**
 >
->使用語音識別功能時，請遵循您所在地區的所有適用法律和道德准則（包括但不限於向使用者提供使用語音識別功能的明顯通知）。 Adobe Inc.不會接收、儲存或處理任何語音相關資訊。 AEM Screens播放器會使用瀏覽引擎內建的標準網頁語音API。 在幕後，此API會將您的語音波形傳送至Google的伺服器，以便從語音轉換為文字，而且此文字會由播放器與設定的關鍵字相符。
+>使用語音識別功能時，請遵循您所在地區的所有適用法律與道德准則（包括但不限於向使用者顯示播放器使用語音識別）。 Adobe Inc，不接收、儲存或處理任何語音相關資訊。 AEM Screens播放器使用內建於瀏覽引擎的標準網路語音API。 在幕後，此API會將您的語音波形傳送至Google的伺服器，以便從語音轉換為文字，而且此文字會由播放器與設定的關鍵字相符。
 >
 >如需詳細資訊，請參閱Web語音API的[Google隱私權白皮書](https://www.google.com/chrome/privacy/whitepaper.html#speech)。
 
 
-語音識別功能可讓AEM Screens頻道中由語音互動所驅動的內容變更。
+語音識別功能允許由語音交互驅動的AEM Screens頻道中的內容改變。
 
 內容作者可以將顯示設為啟用語音。 這項功能的目的是讓客戶運用語音作為與顯示器互動的方式。 一些類似的使用案例包括在商店中尋找產品建議、在用餐者和餐廳訂購功能表項目。 此功能可提高使用者的協助功能，並可大幅提升客戶體驗。
 
@@ -35,7 +38,7 @@ ht-degree: 3%
 
 若要在AEM Screens專案中實作語音識別，您必須啟用「顯示」的語音識別，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
 
-以下章節說明如何在AEM Screens專案中啟用和使用語音識別功能。
+下節說明如何在AEM Screens項目中啟用和使用語音識別功能。
 
 ## 在全螢幕或分割螢幕頻道切換器中檢視內容{#sequence-channel}
 
@@ -95,7 +98,7 @@ ht-degree: 3%
 
    或,
 
-   您也可以事先從您的AEM例項建立專案的標籤，並選取這些標籤。 遵循[建立標籤](#creating-tags)中說明的步驟後，您就可從位置選取標籤並將它新增至您的頻道，如下圖所示：
+   您也可以事先從您的專案例AEM項建立標籤，並選取這些標籤。 遵循[建立標籤](#creating-tags)中說明的步驟後，您就可以從位置選取標籤並將它新增至您的頻道，如下圖所示：
 
    ![影像](assets/voice-recognition/vr-tag1.png)
 
@@ -151,7 +154,7 @@ ht-degree: 3%
    | 主要 | 2 | 初始載入、空閒螢幕、計時器 |
    | 熱飲 | 1 | 使用者互動 |
    | ColdDrinks | 1 | 使用者互動 |
-   | SplitScreen | 3 | 使用者互動 |
+   | SplitScreen | 1 | 使用者互動 |
 
    >[!NOTE]
    >
