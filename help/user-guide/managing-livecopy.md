@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 請依照下列步驟，在專案資料夾中建立渠道的即時副本。
 
-1. 選擇Adobe Experience Manager連結（左上），然後選擇&#x200B;**Screens**。 或者，您也可以直接前往：`http://localhost:4502/screens.html/content/screens`。
+1. 選擇Adobe Experience Manager連結（左上角），然後選擇&#x200B;**螢幕**。 或者，您也可以直接前往：`http://localhost:4502/screens.html/content/screens`。
 
 1. 導覽至「畫面」專案，然後按一下「頻道」**。**
 1. 按一下「建立&#x200B;****」並選取「即時副本&#x200B;**」以建立頻道的即時副本。**
@@ -76,7 +79,7 @@ ht-degree: 0%
 
 1. 選擇&#x200B;**即時副本**&#x200B;標籤，以檢視頻道的詳細資訊。
 
-   ![chlimage_1-29](assets/chlimage_1-21.png)
+   ![chlimage_1-21](assets/chlimage_1-21.png)
 
 ### 即時副本狀態 {#live-copy-status}
 
@@ -120,15 +123,15 @@ ht-degree: 0%
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. 若要將變更傳播至即時複製頻道，請導覽至AEM控制面板並選取即時複製頻道，然後從動作列按一下「屬性&#x200B;****」。
+1. 若要將變更傳播至即時複製頻道，請導覽至控AEM制面板並選取即時複製頻道，然後從動作列按一下「屬性&#x200B;****」。
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
 1. 選擇「即時副本」(Live Copy)頁籤，然後從操作欄中按一下「同步」(Synchronize)。********
 
-   ![chlimage_1-29](assets/chlimage_1-29.png)
+   ![chlimage_1-21](assets/chlimage_1-29.png)
 
-1. 按一下&#x200B;**Sync**&#x200B;確認更改。 按一下「儲存並關閉」，以返回AEM儀表板。****
+1. 按一下&#x200B;**Sync**&#x200B;確認更改。 按一下「儲存並關閉」，以返回控制面AEM板。****
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
