@@ -3,10 +3,13 @@ title: 使用命令同步
 seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 2%
 
 ## 實施命令同步{#using-command-sync}
 
-下節說明如何在AEM Screens專案中使用「命令同步」。
+下節介紹如何在AEM Screens項目中使用命令同步。
 
 >[!NOTE]
 >
@@ -138,7 +141,7 @@ ht-degree: 2%
 
    ![影像1](assets/command-sync/command-sync15-1.png)
 
-1. 按一下&#x200B;**確認** ，將選定設備與主設備取消同步。
+1. 按一下&#x200B;**確認**&#x200B;以從主設備中取消同步所選設備。
 
    >[注意:]
    > 如果您選擇主設備並使用去同步選項，則所有連接到主設備的設備都將在一個步驟中取消同步。
