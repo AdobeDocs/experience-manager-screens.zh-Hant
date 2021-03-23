@@ -10,10 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -27,7 +30,7 @@ ht-degree: 0%
 * **必備條件**
 * **建立視訊填補工作流程**
    * **建立工作流程**
-   * **在AEM Screens專案中使用工作流程**
+   * **使用AEM Screens項目中的工作流**
 
 * **驗證工作流的輸出**
 
@@ -41,8 +44,8 @@ ht-degree: 0%
 
 在建立視訊工作流程之前，請先完成下列必要條件：
 
-1. 在AEM例項的&#x200B;**Assets**&#x200B;資料夾中上傳影片
-1. 建立AEM Screens專案（例如&#x200B;**TestVideoRendition**）和名為(**VideoRending**)的頻道，如下圖所示：
+1. 在您的例項中的&#x200B;**Assets**&#x200B;資料夾中上傳影AEM片
+1. 建立AEM Screens專案（例如&#x200B;**TestVideoRendition**）和名為(**VideoRendition**)的頻道，如下圖所示：
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
@@ -53,13 +56,13 @@ ht-degree: 0%
 請依照下列步驟來建立和使用工作流程：
 
 1. 建立工作流程
-1. 在AEM Screens專案中使用工作流程
+1. 在AEM Screens項目中使用工作流
 
 ### 建立工作流{#creating-a-workflow}
 
 請依照下列步驟，為您的視訊建立工作流程：
 
-1. 導覽至您的AEM例項，然後從側欄按一下工具。 選擇&#x200B;**Workflow** —> **Models**&#x200B;以建立新模型。
+1. 導覽至您AEM的例項，然後從側欄按一下工具。 選擇&#x200B;**Workflow** —> **Models**&#x200B;以建立新模型。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -87,7 +90,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. 選擇工作流程(**VideoRenditions**)，然後從操作欄按一下「啟動工作流程」(**Start Workflow)，開啟「運行工作流程」(** Run Workflow)對話框。****
+1. 選擇工作流(**VideoRenditions**)，然後從操作欄按一下「啟動工作流」，開啟「運行工作流」對話框。********
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
@@ -95,9 +98,9 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### 在AEM Screens專案{#using-the-workflow-in-an-aem-screens-project}中使用工作流程
+### 在AEM Screens項目{#using-the-workflow-in-an-aem-screens-project}中使用工作流
 
-請依照下列步驟，在您的AEM Screens專案中使用工作流程：
+請依照下列步驟，使用您的AEM Screens專案中的工作流程：
 
 1. 導覽至AEM Screens專案(**TestVideoRendition** —> **Channels** —>**VideoRendition**)。
 
