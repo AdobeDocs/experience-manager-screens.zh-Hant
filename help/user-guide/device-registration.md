@@ -1,8 +1,8 @@
 ---
 title: 裝置註冊
 seo-title: 裝置註冊
-description: 本頁面說明AEM Screens專案中的裝置註冊程式。
-seo-description: 本頁面說明AEM Screens專案中的裝置註冊程式。
+description: 本頁介紹AEM Screens項目中的設備註冊過程。
+seo-description: 本頁介紹AEM Screens項目中的設備註冊過程。
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
+feature: 管理畫面、裝置註冊
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -28,14 +31,14 @@ ht-degree: 1%
 裝置註冊程式是在2部不同的電腦上完成：
 
 * 要註冊的實際設備，例如您的標牌展示
-* 用於註冊您裝置的AEM伺服器
+* 用AEM於註冊設備的伺服器
 
 >[!NOTE]
 >
->在您從[AEM 6.4 Player下載](https://download.macromedia.com/screens/)頁面下載最新的Windows Player(*.exe*)後，請依照播放器上的步驟完成臨機安裝：
+>在您從[AEM 6.4播放器下載](https://download.macromedia.com/screens/)頁面下載最新的Windows播放器(*.exe*)後，請依照播放器上的步驟完成臨機安裝：
 >
 >1. 長按左上角以開啟管理面板。
->1. 從左側動作功能表導覽至「設定」**Configuration**，然後在&#x200B;**Server**&#x200B;中輸入AEM例項的位置位址，然後按一下「儲存」**。**
+>1. 從左側操作菜單導航到&#x200B;**Configuration**，並在&#x200B;**Server**&#x200B;中輸入實例的位置地址，然後按一下AEM **Save**。
 >1. 按一下左側操作菜單中的&#x200B;**註冊**&#x200B;連結和以下步驟以完成設備註冊過程。
 
 >
@@ -44,15 +47,15 @@ ht-degree: 1%
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. 在您的裝置上啟動AEM Screens Player。 會顯示註冊UI。
+1. 在您的裝置上啟動AEM Screens播放器。 會顯示註冊UI。
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. 在AEM中，導覽至專案的&#x200B;**Devices**&#x200B;資料夾。
+1. 在AEM中，導航至項目的&#x200B;**Devices**&#x200B;資料夾。
 
    >[!NOTE]
    >
-   >若要取得有關在AEM儀表板中建立新畫面專案的詳細資訊，請參閱[建立和管理畫面專案](creating-a-screens-project.md)。
+   >若要取得有關在控制面板中建立畫面新專案的詳細資訊AEM，請參閱[建立和管理畫面專案](creating-a-screens-project.md)。
 
 1. 點選／按一下動作列中的&#x200B;**「裝置管理員**」按鈕。
 
@@ -66,7 +69,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. 在AEM中，請等候裝置傳送其註冊代碼。
+1. 在中AEM，等待設備發送其註冊代碼。
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -74,7 +77,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果兩部電腦的&#x200B;**註冊代碼**&#x200B;都相同，請點選／按一下AEM中的&#x200B;**驗證**&#x200B;按鈕，如步驟(6)所示。
+1. 如果&#x200B;**註冊代碼**&#x200B;在兩台電腦上都相同，請點選／按一下&#x200B;**中的「驗證」按鈕AEM，如步驟(6)所示。**
 1. 設定所要的裝置名稱，然後按一下「註冊&#x200B;**」。**
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -177,4 +180,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他資源 {#additional-resources}
 
-若要瞭解AEM Screens Player，請參閱[AEM Screens Player](working-with-screens-player.md)。
+若要瞭解AEM Screens播放器，請參閱[AEM Screens播放器](working-with-screens-player.md)。
