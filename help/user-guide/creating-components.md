@@ -1,18 +1,21 @@
 ---
 title: 建立元件
 seo-title: 建立元件
-description: AEM元件可用來封存、格式化和轉譯網頁上提供的內容。 請依照本頁來瞭解製作頻道和轉換元件。
-seo-description: AEM元件可用來封存、格式化和轉譯網頁上提供的內容。 請依照本頁來瞭解製作頻道和轉換元件。
+description: 元AEM件可用來封存、格式化和轉譯網頁上提供的內容。 請依照本頁來瞭解製作頻道和轉換元件。
+seo-description: 元AEM件可用來封存、格式化和轉譯網頁上提供的內容。 請依照本頁來瞭解製作頻道和轉換元件。
 uuid: 66c76dd5-495a-4dcb-ad18-7f8a92669752
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -20,11 +23,11 @@ ht-degree: 2%
 
 # 建立元件{#creating-components}
 
-AEM元件可用來封存、格式化和轉譯網頁上提供的內容。
+元AEM件可用來封存、格式化和轉譯網頁上提供的內容。
 
 >[!NOTE]
 >
->若要瞭解建立AEM元件的詳細資訊，請參閱「開發AEM元件」。
+>如需建立元件的詳細資訊，請參AEM閱開發元AEM件。
 
 ## 製作頻道{#authoring-channels}
 
