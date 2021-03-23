@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -122,7 +125,7 @@ ht-degree: 0%
 
 此外，您還可以在&#x200B;**Idle timeout**&#x200B;屬性的&#x200B;**Display**&#x200B;標籤下調整互動頻道的事件計時器值。 預設值設定為&#x200B;*300秒*。
 
-使用&#x200B;**CRXDE Lite**&#x200B;存取&#x200B;**idleTimeout**&#x200B;屬性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`。
+使用&#x200B;**CRXDE Lite**&#x200B;來存取&#x200B;**idleTimeout**&#x200B;屬性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`。
 
 
 ### 指定的頻道面板{#assigned-channels-panel}
