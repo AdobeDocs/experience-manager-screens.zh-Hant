@@ -14,10 +14,10 @@ feature: 管理畫面，Android Player
 role: 管理員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 1%
+source-wordcount: '1441'
+ht-degree: 0%
 
 ---
 
@@ -174,3 +174,23 @@ ht-degree: 1%
 
 >[!NOTE]
 >無論是否插入實際的&#x200B;*sdcard*，所有Android裝置都有&#x200B;*sdcard*&#x200B;資料夾。 此檔案在部署時會與「下載」檔案夾處於相同層級。 某些MDM（如Samsung Knox）可將此&#x200B;*sdcard*&#x200B;資料夾位置稱為&#x200B;*內部儲存*。
+
+## 使用企業行動管理{#bulk-provisioning}大量布建Android Player
+
+當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM AppConfig，允許遠端布建。
+
+### 使用企業行動管理{#implementation}實作Android Player的大量布建
+
+請依照下列步驟，在Android Player中允許大量布建：
+
+1. 請確定您的Android裝置支援Google Play服務。
+1. 使用您最愛支援AppConfig的EMM解決方案註冊您的Android播放器裝置。
+1. 登入您的EMM主控台，從Google Play拉出AEM Screens播放器應用程式。
+1. 選擇受管理的配置（或相關選項）。
+1. 您現在應該會看到可設定的播放器選項清單（例如伺服器和大量註冊碼）。
+1. 配置這些參數、保存策略並將其部署到設備。
+
+   >[!NOTE]
+   >設備應接收應用程式以及配置，並指向具有選定配置AEM的正確伺服器。 如果您選擇設定大量註冊代碼，並維持其與中設定的相同AEM，則播放器應能自動註冊自己。 如果您已設定預設顯示，它也可以下載並顯示某些預設內容（稍後可視您的方便而變更）。
+
+此外，您應洽詢您的EMM廠商有關AppConfig支援的資訊。 最常用的例如[VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)和[Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)等支援此業界標準。
