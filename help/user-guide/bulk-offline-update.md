@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -28,7 +31,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->只有在您已安裝AEM 6.3 Feature Pack 3或AEM 6.4 Screens Feature Pack 1時，才能使用此AEM Screens功能。
+>只有在您已安裝6.3 Feature Pack 3或AEM6.4 Screens Feature Pack 1時，才AEM能使用此AEM Screens功能。
 >
 >若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
@@ -46,7 +49,7 @@ ht-degree: 0%
 
 您可以手動使用使用者介面(UI)的大量離線更新，或排程OSGi服務的大量更新。
 
-### 使用AEM Screens使用者介面{#using-aem-screens-user-interface}
+### 使用AEM Screens用戶介面{#using-aem-screens-user-interface}
 
 請依照下列步驟，針對AEM Screens專案使用大量離線更新：
 
@@ -55,20 +58,20 @@ ht-degree: 0%
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Adobe Experience Manager Web Console設定{#adobe-experience-manager-web-console-configuration}
+### Adobe Experience ManagerWeb控制台配置{#adobe-experience-manager-web-console-configuration}
 
 請依照下列步驟，針對AEM Screens專案使用大量離線更新：
 
-1. Adobe Experience Manager Web Console設定。
+1. Adobe Experience ManagerWeb控制台配置。
 1. 搜尋大量離線更新服務。
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
 1. 新增下列屬性：
 
-   **專案** 路徑：指定AEM Screens專案的路徑。路徑通常為`/content/screens/<Name of your project>`。
+   **專案** 路徑：指定您的AEM Screens專案的路徑。路徑通常為`/content/screens/<Name of your project>`。
 
-   *例如*, `/content/screens/we-retail`。您可以在URL中，選取「AEM畫面」下的任何專案（請勿按一下圖示）來尋找此路徑。
+   *例如*, `/content/screens/we-retail`。您可以在URL中，選取AEM Screens下的任何專案（請勿按一下圖示）來找到此路徑。
 
    >[!NOTE]
    >
