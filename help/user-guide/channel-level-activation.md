@@ -10,10 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
+feature: 製作螢幕，頻道層級啟動
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1810'
 ht-degree: 1%
 
 ---
@@ -47,13 +50,13 @@ ht-degree: 1%
 
 ## 啟用時間 {#using-channel-level-activation}
 
-下節將說明如何在AEM Screens專案的頻道內建立單一事件播放。
+下節說明如何在頻道內為AEM Screens專案建立單一事件播放。
 
 ### 必備條件 {#prerequisites}
 
 開始實作此功能之前，請確定您已具備下列必要條件，可開始實作渠道層級啟動：
 
-* 建立AEM Screens專案，在此範例中，**Channel Level Activation**
+* 建立AEM Screens專案，在此範例中，**頻道層級啟動**
 
 * 在&#x200B;**Channels**&#x200B;資料夾下，建立以&#x200B;**MainAdChannel**&#x200B;的渠道
 
@@ -80,7 +83,7 @@ ht-degree: 1%
 
 ### 實施 {#implementation}
 
-在AEM Screens專案中實作「頻道層級啟動」需執行三項主要工作：
+在AEM Screens項目中實施渠道級激活涉及三項主要任務：
 
 1. **設定項目分類法，包括渠道、位置和顯示**
 1. **指派頻道以顯示**
@@ -90,7 +93,7 @@ ht-degree: 1%
 
 1. **建立位置**
 
-   導覽至AEM Screens專案中的&#x200B;**Locations**&#x200B;檔案夾，並建立&#x200B;**Region**&#x200B;的位置。
+   導覽至您的AEM Screens專案中的&#x200B;**Locations**&#x200B;資料夾，並建立&#x200B;**Region**&#x200B;的位置。
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -117,7 +120,7 @@ ht-degree: 1%
    1. **渠道角色**&#x200B;填入為&#x200B;**mainadchannel**。
    1. 選擇&#x200B;**Priority**&#x200B;作為&#x200B;**1**。
    1. 選擇&#x200B;**Supported Events**&#x200B;作為&#x200B;**Initial Load**&#x200B;和&#x200B;**Idle Screen**。
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
@@ -135,7 +138,7 @@ ht-degree: 1%
    1. 將&#x200B;**Priority**&#x200B;設為&#x200B;**2**。
    1. 選擇&#x200B;**Supported Events**&#x200B;作為&#x200B;**Initial Load**、**Idle Screen**&#x200B;和&#x200B;**Timer**, *如下圖所示。
    1. 選擇&#x200B;**作用中的日期（從**&#x200B;開始至2018年11月27日11:59 pm）和&#x200B;**作用中的日期（至2018年11月28日12:05 am）。**
-   1. 按一下&#x200B;**「儲存」**。
+   1. 按一下「**儲存**」。
 
    >[!CAUTION]
    您必須將&#x200B;**TargetedSinglePlay**&#x200B;頻道的優先順序設定在高於&#x200B;**MainAdSegment**&#x200B;頻道的位置。
@@ -149,14 +152,14 @@ ht-degree: 1%
 
 ## 查看結果{#viewing-the-results}
 
-在您設定頻道和顯示完成後，請啟動AEM Screens播放器以檢視內容。
+在您完成頻道設定和展示後，請啟動AEM Screens播放器以檢視內容。
 
 播放器會顯示&#x200B;**MainAdChannel**&#x200B;的內容，並在11:59pm（如排程中所設定）時，**TargetedSinglePlay**&#x200B;頻道會顯示其內容，直到12:05am，然後&#x200B;**MainAdChannel**&#x200B;將會再次播放其內容。
 
 >[!NOTE]
-若要瞭解AEM Screen Player，請參閱下列資源：
-[AEM Screens Player downloads](https://download.macromedia.com/screens/)
-[使用AEM Screens Player](working-with-screens-player.md)
+若要了AEM解Screen Player，請參閱下列資源：
+[AEM Screens播放器下載](https://download.macromedia.com/screens/)
+[使用AEM Screens播放器](working-with-screens-player.md)
 
 
 ## 處理渠道{#handling-recurrence-in-assets}中資產的週期
