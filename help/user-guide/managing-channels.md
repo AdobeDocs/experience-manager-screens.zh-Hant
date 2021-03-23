@@ -3,10 +3,13 @@ title: 建立和管理渠道
 seo-title: 管理頻道
 description: 請依照本頁來瞭解如何建立和管理渠道。 此外，也說明頻道儀表板以及編輯頻道內容。
 seo-description: 請依照本頁來瞭解如何建立和管理渠道。 此外，也說明頻道儀表板以及編輯頻道內容。
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1331'
 ht-degree: 2%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 2%
 
 頻道會顯示一系列內容（影像和視訊），也會顯示網站或單頁應用程式。
 
-此頁面顯示如何建立和管理AEM畫面的頻道。
+本頁顯示建立和管理AEM Screens頻道。
 
 **先決條件**:
 
@@ -25,9 +28,9 @@ ht-degree: 2%
 
 ## 建立新通道{#creating-a-new-channel}
 
-在您為AEM Screens建立專案後，請依照下列步驟為專案建立新的頻道：
+在您為AEM Screens建立專案後，請依照下列步驟，為您的專案建立新的渠道：
 
-1. 依序選取Adobe Experience Manager連結（左上）和「畫面」。 或者，您也可以直接導覽至`https://localhost:4502/screens.html/content/screens`。
+1. 選擇Adobe Experience Manager連結（左上角）和螢幕。 或者，您也可以直接導覽至`https://localhost:4502/screens.html/content/screens`。
 
 1. 導覽至您的「畫面」專案，並選取「頻道」**資料夾。**
 
@@ -130,7 +133,7 @@ ht-degree: 2%
 您可從渠道控制面板檢視資訊清單。
 
 >[!IMPORTANT]
->此選項僅適用於AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4。
+>此選項僅適用於AEM6.4 Feature Pack 8或AEM6.5 Feature Pack 4。
 
 請依照下列步驟，從頻道控制面板啟用此選項：
 
