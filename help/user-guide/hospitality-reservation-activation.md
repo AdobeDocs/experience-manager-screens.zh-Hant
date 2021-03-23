@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -31,9 +34,9 @@ ht-degree: 0%
 
 ## 先決條件{#preconditions}
 
-在開始實作保留啟動之前，您必須瞭解如何在AEM Screens專案中設定&#x200B;***Data Store***、***Audience Segmentation***&#x200B;和&#x200B;***Enable Targeting for Channels***。
+在開始實作保留啟動之前，您必須瞭解如何在AEM Screens專案中設定&#x200B;***資料商店***、***受眾細分***&#x200B;和&#x200B;***啟用頻道定位***。
 
-如需詳細資訊，請參閱「在AEM Screens[中設定ContextHub」。](configuring-context-hub.md)
+如需詳細資訊，請參閱「在AEM Screens設定ContextHub」。[](configuring-context-hub.md)
 
 ## 基本流{#basic-flow}
 
@@ -47,7 +50,7 @@ ht-degree: 0%
 
 1. **根據需求在「對象」中設定區段**
 
-   1. 導覽至對象中的區段(請參閱&#x200B;***步驟2:在&#x200B;**[「在AEM Screens](configuring-context-hub.md)**頁面中設定ContextHub」中設定「觀眾區隔」，以取得詳細資訊)。***
+   1. 導覽至對象中的區段(請參閱&#x200B;***步驟2:在&#x200B;**[設定AEM Screens](configuring-context-hub.md)**頁面的ContextHub中設定「觀眾區隔」，以取得詳細資訊)。***
 
    1. 選擇&#x200B;**工作表A1 1**，然後按一下&#x200B;**編輯**。
 
@@ -56,7 +59,7 @@ ht-degree: 0%
 
    1. 從下拉菜單中選擇&#x200B;**Operator**&#x200B;作為&#x200B;**equal**
 
-   1. 將&#x200B;**值**&#x200B;輸入為&#x200B;**1**
+   1. 將&#x200B;**Value**&#x200B;輸入為&#x200B;**1**
 
    1. 同樣，選擇&#x200B;**工作表A1 2**&#x200B;並按一下&#x200B;**編輯**。
 
@@ -69,7 +72,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您的頻道應已有預設影像，且應依[在AEM Screens](configuring-context-hub.md)中設定ContextHub中所述預先設定觀眾。
+   >您的頻道應已有預設影像，且應依[在AEM Screens設定ContextHub中所述預先設定觀眾。](configuring-context-hub.md)
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
