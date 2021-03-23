@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
+feature: 管理畫面，Android Player
+role: 管理員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1140'
 ht-degree: 1%
 
 ---
@@ -27,37 +30,37 @@ ht-degree: 1%
 
 ## 安裝Android Player {#installing-android-player}
 
-若要實作適用於AEM畫面的Android Player，請安裝適用於AEM畫面的Android Player。
+若要實作適用於AEM Screens的Android Player，請安裝適用於AEM Screens的Android Player。
 
-請造訪&#x200B;[**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)頁面。
+請造訪&#x200B;[**AEM 6.5播放器下載**](https://download.macromedia.com/screens/)頁面。
 
-### 設定AEM Screens 6.5.5 Service Pack {#fp-environment-setup}的環境
+### 設定AEM Screens6.5.5 Service Pack {#fp-environment-setup}的環境
 
 >[!NOTE]
->如果您使用AEM Screens 6.5.5 Service Pack，則必須為Android Player設定環境。
+>如果您使用AEM Screens6.5.5 Service Pack，則必須為Android Player設定環境。
 
-在所有AEM作者和發佈例項上，將登入Token Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設為&#x200B;**None**，從&#x200B;**Adobe Experience Manager Web Console Configuration**&#x200B;設定。
+在所有作者和發佈例項上，將登入Token Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設為&#x200B;**None**&#x200B;從&#x200B;**Adobe Experience Manager網頁主控台設定**&#x200B;設AEM定至。
 
 請遵循下列步驟：
 
-1. 使用&#x200B;**導覽至「Adobe Experience Manager Web Console設定」。**`http://localhost:4502/system/console/configMgr`
+1. 使用`http://localhost:4502/system/console/configMgr`導覽至&#x200B;**Adobe Experience ManagerWeb控制台配置**。
 
-1. 搜尋&#x200B;*Adobe Granite Token驗證處理常式*。
+1. 搜尋&#x200B;*Adobe花崗岩Token驗證處理常式*。
 
 1. 將login-token Cookies的&#x200B;**SameSite屬性從** Lax **設為** None **。**
    ![影像](/help/user-guide/assets/granite-updates.png)
 
-1. 按一下&#x200B;**「儲存」**。
+1. 按一下「**儲存**」。
 
 
 ### 臨機方法{#ad-hoc-method}
 
-臨機方法可讓您安裝最新的Android Player(*.exe*)。 請造訪&#x200B;[**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)頁面。
+臨機方法可讓您安裝最新的Android Player(*.exe*)。 請造訪&#x200B;[**AEM 6.5播放器下載**](https://download.macromedia.com/screens/)頁面。
 
 下載應用程式後，請依照播放器上的步驟完成臨機安裝：
 
 1. 長按左上角以開啟管理面板。
-1. 從左側動作功能表導覽至&#x200B;**Configuration**，然後輸入您要連線至的AEM例項位置（位址），然後按一下「儲存&#x200B;**a3/>」。**
+1. 從左側操作菜單導航至&#x200B;**Configuration**，然後輸入要連接到的實例的位置（地址），然後按一下AEM **Save**。
 
 1. 從左側操作菜單導航到&#x200B;**設備****註冊**&#x200B;連結，以檢查設備註冊過程的狀態。
 
@@ -83,7 +86,7 @@ ht-degree: 1%
 
 請依照下列步驟，使用製造商的金鑰簽署Android應用程式：
 
-1. 從Google Play或[AEM Screens Player下載](https://download.macromedia.com/screens/)頁面下載應用程式
+1. 從Google Play或[AEM Screens播放器下載](https://download.macromedia.com/screens/)頁面下載應用程式
 1. 從製造商獲取平台密鑰，以獲取&#x200B;*pk8*&#x200B;和&#x200B;*pem*&#x200B;檔案
 
 1. 使用尋找~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;，在android sdk中找到apksigner工具
@@ -106,13 +109,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在Android中，*AlarmManager*&#x200B;用於註冊&#x200B;*pendingIntents*，即使應用程式當機且其警報傳送與API 19(Kitkat)不精確，&lt;a0/>AlarmManager&lt;a1/>仍可執行。 在計時器的間隔和&#x200B;*AlarmManager的* *pendingIntent的*&#x200B;報警之間保持一定的間隔。
+>在Android中，*AlarmManager*&#x200B;用於註冊&#x200B;*pendingIntents*，即使應用程式當機且其警報傳送與API 19(Kitkat)不精確，AlarmManager仍可執行。 在計時器的間隔和&#x200B;*AlarmManager的* *pendingIntent的*&#x200B;報警之間保持一定的間隔。
 
 **3.應用程式當機**&#x200B;在當機時，向AlarmManager註冊的待重新引導方式不再重設，因此它會執行應用程式的重新引導或重新啟動（視cordova增效模組初始化時的可用權限而定）。
 
 ## Android Player的大量布建{#bulk-provision-android-player}
 
-大量推出Android播放器時，需要布建播放器以指向AEM例項，並設定其他屬性，而不需手動輸入管理UI中的屬性。
+大量推出Android播放器時，需要布建播放器以指向例項，AEM並設定其他屬性，而不需手動輸入管理UI中的屬性。
 
 >[!NOTE]
 >此功能可從Android player 42.0.372取得。
@@ -126,7 +129,7 @@ ht-degree: 1%
 
 1. 在部署檔案後，使用MDM安裝播放器應用程式。
 
-1. 當播放器應用程式啟動時，它會讀取此設定檔，並指向適用的AEM伺服器，供其註冊並隨後控制。
+1. 當播放器應用程式啟動時，它會讀取此設定檔，並指向適用的伺服器，AEM供其註冊並隨後加以控制。
 
    >[!NOTE]
    >首次啟動應用程式時此檔案為&#x200B;*只讀*，不能用於後續配置。 如果播放器在刪除設定檔之前啟動，只需解除安裝並在裝置上重新安裝應用程式即可。
@@ -137,7 +140,7 @@ ht-degree: 1%
 
 | **原則名稱** | **目的** |
 |---|---|
-| *伺服器* | Adobe Experience Manager伺服器的URL。 |
+| *伺服器* | 指向Adobe Experience Manager伺服器的URL。 |
 | *解析度* | 裝置的解析度。 |
 | *rebootSchedule* | 重新啟動的計畫適用於所有平台。 |
 | *enableAdminUI* | 啟用管理員UI以在網站上設定裝置。 在完全配置並投入生產後，設為&#x200B;*false*。 |
