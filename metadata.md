@@ -2,24 +2,18 @@
 cloud: experience-cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
-type: Documentation
+type: 文件
 index: y
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
-solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: AEM畫面的使用指南和最佳實務指南
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
-tutorials-title: 教學課程
-tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.zh-Hant
 translation-type: tm+mt
-source-git-commit: 5be539930b26902d696c14b06c8c3700fdc8ccf8
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 91%
 
 ---
 
 
 # 內部使用的中繼資料
 
-metadata.md檔案包含回購層級中繼資料，這些中繼資料會傳遞至回購中的使用者指南TOC.md檔案。 如果您想要變更任何使用指南的metadata.md內容，請在任何TOC.md檔案中進行變更。
+metadata.md 檔案包含存放庫層級中繼資料，這些中繼資料會傳遞至存放庫中的使用手冊 TOC.md 檔案。如果想要變更任何使用手冊的 metadata.md 內容，請在 TOC.md 檔案中變更。
