@@ -1,8 +1,8 @@
 ---
 title: 文字重疊
 seo-title: 文字重疊
-description: 「文字覆蓋」是AEM Screens中提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。 請依照本頁進一步瞭解。
-seo-description: 「文字覆蓋」是AEM Screens中提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。 請依照本頁進一步瞭解。
+description: 「文字覆蓋」是AEM Screens提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。 請依照本頁進一步瞭解。
+seo-description: 「文字覆蓋」是AEM Screens提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。 請依照本頁進一步瞭解。
 uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -30,15 +33,15 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->如果您已安裝AEM 6.3 Feature Pack 5或AEM 6.4 Feature Pack 3，則&#x200B;**Text Overlay**&#x200B;功能才可用。
+>**文字覆蓋**&#x200B;功能僅在您已安裝6.3 Feature Pack 5或6.4 Feature Pack 3AEM時AEM可用。
 
 ## 概覽 {#overview}
 
-「文字覆蓋」是AEM Screens中提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。
+「文字覆蓋」是AEM Screens提供的功能，可讓您在「序列頻道」中提供覆蓋在影像上方的標題或描述，以建立引人入勝的體驗。
 
-若要瞭解如何建立您自己的自訂元件，請參閱「擴充AEM Screens元件&#x200B;**」。**
+要瞭解如何建立自己的自定義元件，請參閱&#x200B;**擴展AEM Screens元件**。
 
-本節僅展示如何在AEM Screens專案中使用和運用海報元件，並將它當做序列頻道中的文字覆蓋。
+本節僅展示如何在AEM Screens專案中使用和運用海報元件，並將它當做序列頻道中的文字覆蓋使用。
 
 ## 使用文字覆蓋{#using-text-overlay}
 
@@ -94,9 +97,9 @@ ht-degree: 2%
 
 **必備條件**
 
-您必須為AEM Screens專案設定ContextHub組態。
+您必須為AEM Screens項目設定ContextHub配置。
 
-若要瞭解如何使用資料存放區來設定和管理資料導向的資產變更，請參閱「在AEM Screens中設定ContextHub[」。](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html)
+要瞭解如何使用資料儲存來設定和管理資料驅動的資產更改，請參閱[在AEM Screens配置ContextHub](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html)。
 
 在您設定專案所需的設定後，請依照下列步驟，使用google工作表中的值：
 
@@ -106,7 +109,7 @@ ht-degree: 2%
 
    1. 選擇&#x200B;**ContextHub路徑**&#x200B;作為&#x200B;**libs** > **settings** > **cloudsettings** > **default** > **ContextHub配置**&#x200B;並按一下&#x200B;**選擇**。
 
-   1. 選擇&#x200B;**區段路徑**&#x200B;作為&#x200B;**conf** > **螢幕** > **設定** > **wcm**>區段&#x200B;**，然後按一下**&#x200B;選擇&lt;a113/>。****
+   1. 選擇&#x200B;**區段路徑**&#x200B;作為&#x200B;**conf** > **螢幕** > **設定** > **wcm**>區段&#x200B;**，然後按一下**&#x200B;選擇&#x200B;**。**
 
    1. 按一下&#x200B;**「儲存並關閉」**。
 
