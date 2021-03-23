@@ -1,18 +1,21 @@
 ---
 title: REST API
 seo-title: REST API
-description: AEM Screens提供遵循Siren規格的簡單REST風格API。 請依照本頁來瞭解如何導覽內容結構，並傳送指令至環境中的裝置。
-seo-description: AEM Screens提供遵循Siren規格的簡單REST風格API。 請依照本頁來瞭解如何導覽內容結構，並傳送指令至環境中的裝置。
+description: AEM Screens提供了遵循Siren規範的簡單REST風格API。 請依照本頁來瞭解如何導覽內容結構，並傳送指令至環境中的裝置。
+seo-description: AEM Screens提供了遵循Siren規範的簡單REST風格API。 請依照本頁來瞭解如何導覽內容結構，並傳送指令至環境中的裝置。
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
+feature: 開發螢幕
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 # REST API{#rest-apis}
 
-AEM Screens提供遵循[Siren](https://github.com/kevinswiber/siren)規格的簡單REST風格API。 它允許導航內容結構，並向環境中的設備發送命令。
+AEM Screens提供遵循[Siren](https://github.com/kevinswiber/siren)規範的簡單REST風格API。 它允許導航內容結構，並向環境中的設備發送命令。
 
 API可從&#x200B;[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)存取。
 
