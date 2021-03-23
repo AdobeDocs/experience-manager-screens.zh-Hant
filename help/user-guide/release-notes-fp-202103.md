@@ -1,11 +1,14 @@
 ---
 title: 功能套件202103發行說明
-description: 本頁摘要說明Feature Pack 202103的發行說明。
+description: 「請依照本頁取得2021年3月05日發行的AEM Screens功能套件202103的資訊。」
+feature: 功能套件
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '398'
+ht-degree: 3%
 
 ---
 
