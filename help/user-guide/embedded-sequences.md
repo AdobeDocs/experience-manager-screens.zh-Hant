@@ -10,11 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -86,7 +89,7 @@ ht-degree: 0%
 
 ### 添加動態嵌入序列{#adding-a-dynamic-embedded-sequence}
 
-您可以新增動態內嵌序列至渠道。 動態嵌入序列與嵌入序列類似，但允許用戶遵循一個層次，其中對一個通道所做的更改／更新被傳播到另一個相關的層次。 它遵循父——子階層，也包含影像或視訊等資產。 新增動態序列可讓使用者依頻道角色新增頻道。
+您可以新增動態內嵌序列至渠道。 動態嵌入序列與嵌入序列類似，但允許用戶遵循一個層次，其中對一個通道所做的更改／更新被傳播到另一個相關的層次。 它遵循上下階層，也包含影像或視訊等資產。新增動態序列可讓使用者依頻道角色新增頻道。
 
 >[!NOTE]
 >
