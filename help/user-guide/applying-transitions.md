@@ -5,10 +5,13 @@ description: 請依照本頁面進行，瞭解如何將轉場效果套用至您�
 seo-description: 請依照本頁面進行，瞭解如何將轉場效果套用至您的畫面專案。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 1%
 >
 >**必備條件**
 >
->建立AEM Screens專案&#x200B;**TestProject**，其頻道為&#x200B;**TestTransition**。 此外，請設定位置和顯示器以檢視輸出。
+>建立具有通道&#x200B;**TestTransition**&#x200B;的AEM Screens專案&#x200B;**TestProject**。 此外，請設定位置和顯示器以檢視輸出。
 
 1. 導覽至Channel **TestTransition**，然後從動作列按一下「編輯」。****
 
