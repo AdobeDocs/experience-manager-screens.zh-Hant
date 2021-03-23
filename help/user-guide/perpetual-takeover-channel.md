@@ -4,10 +4,13 @@ seo-title: Perpetual TakeOver Channel
 description: 請依照此使用案例來建立永久TakeOver頻道。
 seo-description: 請依照本使用案例，設定專案，以建立持續播放特定時間日與時間的永久接管頻道。
 contentOwner: jsyal
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 1%
 ## 使用案例說明{#use-case-description}
 
 此使用案例說明如何建立&#x200B;*從正常播放的頻道接管*的頻道，以用於顯示或顯示群組。 接管將持續在特定日期和時間內進行。
-例如，有一個永久TakeOver頻道，每週五從上午9點到上午10點播放。 在此期間，不應播放其他頻道。 以下範例展示建立永久接管頻道的方式，讓內容每週三從下午2:00至4:00播放2小時。
+例如，有一個永久TakeOver頻道，每週五從上午9點到上午10點播放。 在此期間，不應播放其他頻道。 以下範例展示建立永久接管頻道的方式，讓內容每週三播放2小時，從下午2:00到下午4:00。
 
 ### 先決條件{#preconditions}
 
