@@ -1,6 +1,6 @@
 ---
-title: AEM Screens Notifications Service
-seo-title: AEM Screens Notifications Service
+title: AEM Screens通知服務
+seo-title: AEM Screens通知服務
 description: 請依照本頁進一步瞭解如何監控裝置活動。
 seo-description: 請依照本頁進一步瞭解如何監控裝置活動。
 uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
@@ -9,20 +9,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
+feature: 製作畫面
+role: 管理員、開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 
-# AEM Screens Notifications Service{#aem-screens-notifications-service}
+# AEM Screens通知服務{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens Notifications Service***，說明您可在其中監視裝置活動的功能。
+***AEM Screens通知服務***，說明您可在其中監控裝置活動的功能。
 
 本節涵蓋下列主題：
 
@@ -33,13 +36,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->只有在您已安裝AEM 6.3.2 Feature Pack 3或AEM 6.4.1 Screens Feature Pack 1時，才能使用此AEM Screens功能。
+>只有在您已安裝6.3.2 Feature Pack 3或AEM6.4.1 Screens Feature Pack 1時，才能使AEM用此AEM Screens功能。
 >
 >若要存取此功能套件，您必須聯絡Adobe支援並要求存取權。 一旦您擁有權限，就可從「套件共用」下載。
 
 ## 概覽 {#overview}
 
-***AEM Screens Notifications Service***，可讓管理員在AEM Screens播放器在可設定的時段內未ping通時收到電子郵件。
+***AEM Screens通知服務***，可讓管理員在畫面播放器在可設定AEM的時段內未ping通時，收到電子郵件。
 
 此服務可在OSGi Web控制台中配置。
 
@@ -47,7 +50,7 @@ ht-degree: 0%
 
 請依照下列步驟來設定電子郵件通知設定：
 
-1. 開啟&#x200B;**Adobe Experience Manager Web Console Configuration**。
+1. 開啟&#x200B;**Adobe Experience ManagerWeb控制台配置**。
 1. 開啟&#x200B;**螢幕設備電子郵件監視服務**。
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
@@ -84,7 +87,7 @@ ht-degree: 0%
    >
    >您只能輸入一個電子郵件地址。 若要傳送大量電子郵件，請與相關使用者建立群組或散發清單。
 
-1. 按一下「**儲存**」，以透過電子郵件為您的AEM Screens裝置設定螢幕活動。
+1. 按一下&#x200B;**保存**，通過電子郵件為您的AEM Screens設備配置監視器活動。
 
 ## 電子郵件通知{#email-notification}
 
