@@ -1,8 +1,8 @@
 ---
 title: 擴展AEM Screens元件
 seo-title: 擴展AEM Screens元件
-description: 以下教學課程將逐步介紹擴充至\'b2\'7b箱\'7b的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
-seo-description: 以下教學課程將逐步介紹擴充至\'b2\'7b箱\'7b的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
+description: 以下教學課程將逐步介紹擴充至箱的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
+seo-description: 以下教學課程將逐步介紹擴充至箱的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 # 擴展AEM Screens元件{#extending-an-aem-screens-component}
 
-以下教學課程將逐步介紹擴充至\&#39;b2\&#39;7b箱\&#39;7b的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
+以下教學課程將逐步介紹擴充至箱的步驟和最佳範例AEM Screens元件。 影像元件會加以擴充，以新增可授權的文字覆蓋。
 
 ## 概覽 {#overview}
 
