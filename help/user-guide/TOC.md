@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
@@ -7,7 +7,7 @@ breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
+source-git-commit: a231de201a67a585907687cfd3ed10395a640096
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 13%
