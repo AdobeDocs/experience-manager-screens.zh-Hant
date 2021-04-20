@@ -1,9 +1,9 @@
 ---
 title: 內容指派報表
 description: 本頁說明「內容指派報表」的下載與使用。
-feature: 製作畫面
-role: 開發人員
-level: 中級
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

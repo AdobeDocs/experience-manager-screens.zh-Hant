@@ -5,9 +5,9 @@ description: 請依照本頁取得有關AEM Screens專案的常見問答集。
 seo-description: 請依照本頁取得有關AEM Screens專案的常見問答集。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: 數位標牌，內容
-role: 開發人員
-level: 中級
+feature: Digital Signage, Content
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -2,9 +2,9 @@
 title: 播放器的自動註冊
 seo-title: 播放器的自動註冊
 description: 請依照本頁瞭解使用AMS/預備畫面自動註冊播放器。
-feature: 管理畫面、播放器
-role: 管理員
-level: 中級
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

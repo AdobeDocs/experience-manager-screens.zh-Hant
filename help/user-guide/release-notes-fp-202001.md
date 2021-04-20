@@ -3,9 +3,9 @@ title: 功能套件202001發行說明
 seo-title: 功能套件202001發行說明
 description: 請依照本頁取得2020年1月31日發行的AEM Screens功能套件202001的相關資訊。
 seo-description: 請依照本頁取得2020年1月31日發行的AEM Screens功能套件202001的相關資訊。
-feature: 功能套件
-role: 開發人員
-level: 中級
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

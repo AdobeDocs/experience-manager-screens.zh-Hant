@@ -3,9 +3,9 @@ title: 在AEM Screens配置作者和發佈
 seo-title: 在AEM Screens配置作者和發佈
 description: AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 請依本頁瞭解如何為AEM Screens設定作者和發佈。
 seo-description: AEM Screens的建築風格類似傳統的AEM Sites建築。 內容是在作者例AEM項上編寫，然後轉送複製至多個發佈例項。 請依本頁瞭解如何為AEM Screens設定作者和發佈。
-feature: 管理畫面
-role: 管理員、開發人員
-level: 中級
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

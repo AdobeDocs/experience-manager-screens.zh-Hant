@@ -3,9 +3,9 @@ title: 字彙表
 seo-title: 字彙表
 description: 請依本頁瞭解與AEM Screens相關的關鍵詞語。
 seo-description: 請依本頁瞭解與AEM Screens相關的關鍵詞語。
-feature: 概覽
-role: 業務從業人員
-level: 初學者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

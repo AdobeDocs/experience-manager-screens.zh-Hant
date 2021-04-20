@@ -3,9 +3,9 @@ title: Dispatcher Configurations forAEM Screens
 seo-title: Dispatcher Configurations forAEM Screens
 description: 本頁重點介紹為AEM Screens項目配置調度程式的指導方針。
 seo-description: 本頁重點介紹為AEM Screens項目配置調度程式的指導方針。
-feature: 管理畫面
-role: 開發人員、商業從業人員
-level: 中級
+feature: Administering Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

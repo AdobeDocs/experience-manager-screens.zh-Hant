@@ -2,9 +2,9 @@
 title: 使用資料觸發器製作內容
 seo-title: 使用資料觸發器製作內容
 description: 請依本頁瞭解如何使用資料觸發程式來編寫。
-feature: 製作畫面
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

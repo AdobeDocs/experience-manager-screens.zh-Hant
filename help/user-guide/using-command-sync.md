@@ -3,9 +3,9 @@ title: 使用命令同步
 seo-title: 使用命令同步
 description: 請依照本頁瞭解如何使用命令同步。
 seo-description: 請依照本頁瞭解如何使用命令同步。
-feature: 製作畫面
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

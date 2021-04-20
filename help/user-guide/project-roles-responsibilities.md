@@ -2,9 +2,9 @@
 title: '"第1部分：項目角色和責任」'
 seo-title: '"第1部分：項目角色和責任」'
 description: 請遵循本教學課程，進一步瞭解數位標牌專案在銷售和專案生命週期中所需的角色、責任和時間線。
-feature: 概覽
-role: 業務從業人員，資料架構師
-level: 初學者
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

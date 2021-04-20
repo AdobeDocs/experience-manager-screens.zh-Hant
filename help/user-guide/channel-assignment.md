@@ -2,9 +2,9 @@
 title: 頻道指定任務
 seo-title: 頻道指定任務
 description: 請依照本頁瞭解渠道指派和日分割。
-feature: 製作畫面，頻道指派
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

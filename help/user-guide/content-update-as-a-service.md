@@ -5,9 +5,9 @@ description: 請依照本頁瞭解內容更新為服務。
 seo-description: 請依照本頁瞭解內容更新為服務。
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-feature: 製作畫面
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -1,9 +1,9 @@
 ---
 title: Tizen Player
 description: 本頁說明Tizen Player的安裝與運作。
-feature: 管理畫面、播放器
-role: 管理員
-level: 中級
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

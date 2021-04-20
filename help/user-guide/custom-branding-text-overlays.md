@@ -4,9 +4,9 @@ seo-title: 為文字覆蓋套用自訂品牌和樣式
 description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 seo-description: 請依照本頁進行，瞭解如何針對「文字覆蓋」套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
-feature: 開發螢幕
-role: 開發人員
-level: 中級
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

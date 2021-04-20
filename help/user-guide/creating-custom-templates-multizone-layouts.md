@@ -4,9 +4,9 @@ seo-title: 在多區域版面中建立自訂範本
 description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 seo-description: 請依照本頁來瞭解如何在MultiZone版面中建立自訂範本。
 contentOwner: Jyotika Syal
-feature: 開發螢幕
-role: 開發人員
-level: 中級
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

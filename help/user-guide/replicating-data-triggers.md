@@ -3,9 +3,9 @@ title: 複製資料觸發器以發佈伺服器
 seo-title: 複製資料觸發器至發佈伺服器
 description: 請依照本頁瞭解如何複製資料觸發器至發佈伺服器。
 seo-description: 將資料觸發器複製至發佈伺服器。
-feature: 管理畫面、資料觸發器
-role: 開發人員
-level: 中級
+feature: Administering Screens, Data Trigger
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

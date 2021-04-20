@@ -3,9 +3,9 @@ title: 資產層級啟動
 seo-title: 資產層級啟動
 description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
 seo-description: 請依照本頁瞭解如何在播放器的當地時區中，針對排程的時段在頻道中啟動特定資產。
-feature: 製作螢幕、資產層級啟動
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

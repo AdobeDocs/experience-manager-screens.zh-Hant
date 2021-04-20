@@ -2,9 +2,9 @@
 title: Kickstart指南
 seo-title: Kickstart指南
 description: 請依照本頁建立示範AEM Screens專案。 它可協助您建立數位標牌體驗，從安裝和設定新專案開始，到在AEM Screens播放器中檢視您的內容。
-feature: 概觀，數位標牌
-role: 業務從業人員
-level: 初學者
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ title: MultiZone到SingleZone轉場使用案例
 description: 請依照本頁瞭解MultiZone到SingleZone轉場使用案例。
 seo-description: MultiZone to SingleZone轉變使用案例。
 contentOwner: Jyotika Syal
-feature: 製作畫面
-role: 開發人員、商業從業人員
-level: 中級
+feature: Authoring Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

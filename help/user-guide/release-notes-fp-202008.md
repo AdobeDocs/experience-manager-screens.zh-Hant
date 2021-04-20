@@ -1,9 +1,9 @@
 ---
 title: 功能套件202008發行說明
 description: 「請依照本頁取得2020年9月3日發行的AEM Screens功能套件202008的資訊。」
-feature: 功能套件
-role: 開發人員
-level: 中級
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

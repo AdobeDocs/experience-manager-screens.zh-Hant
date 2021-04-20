@@ -10,9 +10,9 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: 製作螢幕，頻道層級啟動
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens, Channel Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

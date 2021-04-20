@@ -5,9 +5,9 @@ description: 請依照本頁面進行，瞭解如何將轉場效果套用至您�
 seo-description: 請依照本頁面進行，瞭解如何將轉場效果套用至您的畫面專案。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: 製作畫面
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

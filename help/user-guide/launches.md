@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: 編寫螢幕、啟動
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens, Launches
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

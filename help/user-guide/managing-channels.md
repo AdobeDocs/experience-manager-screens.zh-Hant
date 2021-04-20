@@ -3,9 +3,9 @@ title: 建立和管理渠道
 seo-title: 管理頻道
 description: 請依照本頁來瞭解如何建立和管理渠道。 此外，也說明頻道儀表板以及編輯頻道內容。
 seo-description: 請依照本頁來瞭解如何建立和管理渠道。 此外，也說明頻道儀表板以及編輯頻道內容。
-feature: 製作畫面
-role: 管理員、開發人員
-level: 中級
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
