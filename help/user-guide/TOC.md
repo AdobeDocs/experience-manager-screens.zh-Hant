@@ -5,9 +5,8 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
-feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: a231de201a67a585907687cfd3ed10395a640096
+source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 13%
