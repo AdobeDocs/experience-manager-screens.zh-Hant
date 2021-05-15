@@ -9,10 +9,9 @@ topic-tags: developing
 feature: 開發螢幕
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 2%
 
 # 使用工作流程自動更新AEM Screens頻道{#automate-channel-updates-workflow}的資產
 
-瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並將資產動態指派至畫面頻道。 在此範例中，當將影像新增至特定資料夾時，會觸發套用動態浮水印並將影像指派至「畫面」頻道的工作流程。 從此範例中吸取的教訓可套用至各種自動化案例。
+瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並將資產動態指派至畫面頻道。 在此範例中，當影像新增至特定資料夾時，會觸發套用動態文字覆蓋（浮水印處理）並將影像指派至「畫面」頻道的工作流程。 從此範例中吸取的教訓可套用至各種自動化案例。
 
 ## 必備條件 {#prerequisites}
 
