@@ -1,61 +1,60 @@
 ---
 title: 直接網際網路存取
 description: 直接網際網路存取
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
+# 直接Internet網路（有線/無線）{#direct-internet-access}
 
-# 直連網路（有線／無線）{#direct-internet-access}
+「直接網際網路」包含進入點，可存取網際網路，以便存取AEM Screens需要連線的AEM雲端服務。
 
-Direct Internet Network包含可存取網際網路的入口存取點，以便存取AEM Screens所需的AEM Cloud服務。
-
-AEM Screens通訊的標準埠包括：
+AEM Screens通信的標準埠為：
 * `ssl-secured https (TCP Port 443)`
 
    <br>或,</br>
 
-* `http (TCP Port 80)`，如果您的特定使用案例不需要該等級的安全性。
+* `http (TCP Port 80)`，若您的特定使用案例不需要該等級的安全性。
 
-埠可能因您專用AEM組態設定的組態而異。 在此SetUp中，所有設備都直接連接到您的Internet路由器，如下圖所示。
+埠可能會因您專用AEM組態設定的組態而異。 在此SetUp中，所有設備都直接連接到Internet路由器，如下圖所示。
 
 ![](/help/assets/direct-access-2.png)
 
-此組態還包括任何網際網路服務供應商(ISP)及其網際網路線路所提供的網際網路連線。 大部分的ISP都提供網際網路路由器，涵蓋網際網路調制解調器、網路交換機、Wi-Fi存取點、防火牆和其他網路功能（視製造商和機型而定）。
+此配置還包括任何Internet服務提供商(ISP)及其Internet線路的Internet接入。 大多數ISP提供的Internet路由器涵蓋Internet資料機、網路交換機、Wi-Fi接入點、防火牆和其他網路功能（取決於製造商和型號）。
 
-## 將AEM Screens Player連線至Direct Internet Access {#connecting-aem-screens-players}
+## 將AEM Screens Player連接到直接Internet訪問{#connecting-aem-screens-players}
 
-請依照下列步驟，確保在此設定中正確連線AEM Screen Player:
+請依照下列步驟，確保在此設定中正確連線AEM螢幕播放器：
 
-1. 請確定每個AEM螢幕播放器都已連線至路由器的網路。
-1. 在您的系統瀏覽器中呼叫URL以測試網際網路連線。
+1. 確保每個AEM螢幕播放器都連接到路由器的網路。
+1. 通過調用系統瀏覽器中的URL來測試Internet連接。
 
    >[!NOTE]
-   >如果收到錯誤，請檢查網路設定。正常網路連接基本上有兩個選項：
+   >如果收到錯誤，請檢查網路設定。對於正確的網路連接，基本上有兩個選項：
    >* DHCP
    >* 手動IP配置
 
 
-1. 請確定「Network Adapter Setting（網路適配器設定）」與「Router Settings（路由器設定）」匹配，並檢查網路中是否未達到最大可用IP地址數。
+1. 確保網路適配器設定與路由器設定匹配，並檢查網路中的可用IP地址的最大數量是否未達到。
 
-1. 檢查路由器是否正確連接到ISP廣域網（Internet鏈路）。 此外，還可使用標準路由器上的信號LED來識別。
-1. 如果URL呼叫成功，您可以繼續安裝AEM畫面並註冊。 開始AEM Screens。
+1. 檢查路由器是否正確連接到ISP廣域網(Internet Link)。 這也可以使用標準路由器上的信號LED來識別。
+1. 如果URL呼叫成功，您可以繼續安裝AEM Screens並註冊。 啟動AEM Screens。
 
    >[!NOTE]
    >**疑難排解提示**
-   >如果AEM畫面未正確連線，且預期的內容未顯示：
+   >如果AEM Screens未正確連線，且未顯示預期的內容：
    >
    >1. 如果`TCP/IP Port 80/443`有任何限制，請檢查您的Internet路由器防火牆。
-   >1. 確保允許所有必需的埠。
+   >1. 請確保允許所有必要的埠。
 
 
 ## 設定直接訪問網路{#requirements-direct}
 
-Direct Internet Network邏輯上分為兩個塊：
+直接網際網路在邏輯上分為兩個區塊：
 
 * 廣域網
 
@@ -63,38 +62,37 @@ Direct Internet Network邏輯上分為兩個塊：
 
 ### 廣域網{#wan-connection}
 
-除了網路的可達性外，網際網路連線的效能是提供足夠的頻寬，以運作AEM畫面。
+除了網路的可達性外，Internet連接的效能是提供足夠的頻寬來運行AEM Screens。
 
-*充* 分依賴連線的AEM畫面數量，以及網路內其他消費者的使用情形，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
+** 充分取決於連接的AEM螢幕的數量以及網路內其他消費者（如智慧手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路）的使用情況。
 
 >[!NOTE]
 >
->上述所有裝置都可同時存取網際網路連線，而且當您新增更多消費者或電腦至網路時，頻寬會線性降低。
+>上述所有設備均可同時訪問Internet連接，並且當您向網路添加更多消費者或電腦時，頻寬會線性減少。
 
 ### 區域網路{#lan-connection}
 
-區域網路(LAN)的效能，除了網路的可達性外，還提供足夠的頻寬，以運作AEM畫面。
+區域網路(LAN)的效能，除了網路的可達性之外，還提供了足夠的頻寬來運行AEM Screens。
 
-LAN網路通常至少與100 Mbps網路匹配，因此有足夠的頻寬將許多效能良好的設備連接到系統。
-如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議您至少使用例如`IEEE 802.11g`等現代Wi-Fi標準。 此標準支援高達54 Mbps的連接。 任何&#x200B;*較新的*&#x200B;標準（例如`802.11h-n`）都有較佳的品質。
-
->[!NOTE]
->
->如果需要Wi-Fi Repeater，強烈建議使用Mesh Wi-Fi接入點，如Google Nest Mesh Wi-Fi或類似的接入點。 其他Wi-Fi重複技術最終導致整個網路的頻寬嚴重丟失。
-
-## 下載媒體和資產{#download}
-
-AEM Screens為數位標牌使用者提供了絕大優勢。 它會下載並本機儲存所有必要的媒體檔案，例如影像和視訊。 當特定顯示器上顯示新內容時，會發生主要網路流量。
-
-例如，對於一般作業，定義的播放清單會在一天中頻繁更新——當所有檔案都儲存在播放器上後，就會提供接近網路獨立的作業。
-
-對於與感測器或觸發器和動態內容互動較多的情形，快速可靠的網路連線是立即進行螢幕反應以確保最佳客戶體驗的關鍵。
-
-下表概述了網路連接關鍵資料。
+區域網路通常至少與100 Mbps的網路匹配，因此有足夠的頻寬將許多效能良好的設備連接到系統。
+如果設想使用Wi-Fi解決方案將AEM Screens連接到Internet Link，則建議至少使用`IEEE 802.11g`等現代Wi-Fi標準。 此標準支援高達54 Mbps的連接。 任何&#x200B;*較新的*&#x200B;標準（如`802.11h-n`）的品質都較佳。
 
 >[!NOTE]
 >
->該資訊允許您查看請求和下載網際網路源的網路中每個設備的使用情況。 每個請求都會加總並延長下載時間。
+>如果需要Wi-Fi中繼器，強烈建議使用Mesh Wi-Fi存取點，例如Google Nest Mesh Wi-Fi或類似的存取點。 其他Wi-Fi重複技術最終導致整個網路的頻寬大量丟失。
+
+## 下載媒體和資產 {#download}
+
+AEM Screens為數位看板使用者提供絕大優勢。 它會下載並在本機儲存所有必要的媒體檔案，例如影像和視訊。 當特定顯示器上顯示新內容時，會發生主要網路流量。
+
+對於正常操作，例如，定義的播放清單在一天中經常更新 — 提供接近網路的獨立操作，一旦所有檔案都保存在播放器上。
+
+對於與感測器或觸發器以及動態內容有更多互動的情況，快速而可靠的網路連接對於立即進行螢幕反應來確保最佳客戶體驗至關重要。
+
+下表概述了網路連接密鑰資料。
+
+>[!NOTE]
+>
+>該資訊允許您查看請求和下載網際網路源的網路中每個設備的消耗。 每個請求都會加總並延長下載時間。
 
 ![](/help/assets/download-times-direct.png)
-
