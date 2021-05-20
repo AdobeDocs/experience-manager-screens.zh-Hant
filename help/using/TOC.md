@@ -6,7 +6,6 @@ getting-started-title: AEM Screens 最佳作法指南
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: tm+mt
 source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
 workflow-type: tm+mt
 source-wordcount: '138'
@@ -40,10 +39,10 @@ ht-degree: 78%
    + [專案分類與實作](project-taxonomy-implementation.md)
    + 網路流量管理{#manage-network-traffic}
       + [管理網路流量](/help/using/managing-network-traffic.md)
-      + [直連網際網路（有線／無線）](/help/using/direct-internet-network.md)
-      + [直接行動網路](/help/using/mobile-network.md)
+      + [直接網際網路（有線/無線）](/help/using/direct-internet-network.md)
+      + [直接移動網路](/help/using/mobile-network.md)
       + [具有移動資料路由器和活動網路元件的移動網路](/help/using/mobile-network-router.md)
-      + [封閉的公司網路（有線／無線）](/help/using/enclosed-corporate-network.md)
+      + [封閉式公司網路（有線/無線）](/help/using/enclosed-corporate-network.md)
    + [裝置組態](device-configurations.md)
    + [測試與品質保證](testing-quality-assurance.md)
    + [廠商互動策略](vendor-engagement.md)
