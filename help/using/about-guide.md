@@ -3,14 +3,13 @@ title: 關於本指南
 seo-title: 指南說明
 description: 本頁說明最佳實務指南的用途
 seo-description: 本頁說明最佳實務指南的用途
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 98%
 
 ---
-
 
 # 關於本指南 {#about-guide}
 
@@ -34,7 +33,7 @@ AEM Screens 是 Adobe Experience Manager (AEM) 的新擴充功能，由於工具
 >
 > 本指南旨在識別實作 AEM Screens 專案時的常見陷阱，以及主要聚焦在下列主題的資訊:
 >
-> * **[項目角色和責任](roles-responsibilities.md)**
+> * **[專案角色和責任](roles-responsibilities.md)**
 > * **[不同角色的 RACI 圖表](roles-responsibilities.md#raci-chart)**
 > * **[AEM 平台組態](aem-platform-configurations.md)**
 > * **[支援與監控](support-monitoring.md)**
