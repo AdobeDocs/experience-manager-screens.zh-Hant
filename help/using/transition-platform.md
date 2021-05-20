@@ -1,39 +1,38 @@
 ---
 title: 轉換至平台
-seo-title: 轉換至AEM畫面平台
-description: 本頁說明轉換至平台
-seo-description: 本頁說明轉換至平台
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+seo-title: 轉換至AEM Screens平台
+description: 本頁面說明轉換至平台
+seo-description: 本頁面說明轉換至平台
+exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 3%
 
 ---
 
-
 # 轉換至平台 {#transition-platform}
 
 >[!NOTE]
 >
->此活動的一般利益相關者是AEM實施者。
+>此活動的一般利害關係人為AEM實作者。
 
-隨著我們的專案從策略願景發展為具有框架的現實，我們現在應該開始準備在AEM中實際建立可部署的Screens專案所需的工作。
+隨著我們的專案從策略願景邁向重構的現實，我們現在應開始準備在AEM中實際建立Screens專案所需的工作，以便部署。
 
-這包括將平台特定組態對應至原型建立階段中定義的鬆散定義需求。
+這包括將平台特定設定對應至原型階段中定義的鬆散定義需求。
 
-範例包括使用方式與時機：
+範例包括使用方式和時機：
 
-* **建立內** 容群組的體驗片段
-* **內容** 片段，以建立文字變化
-* **Context** Hub for creating external data stores, SPA&#39;s for interactive experiences
-* **OSGi網** 絡警報服務
-* **Creative Cloud採** 購的資產連結
-* **資產分** 配的網路資料夾
+* **建立** 內容群組的體驗片段
+* **建立** 文字變異的內容片段
+* **內** 容對於建立外部資料儲存區，對於互動式體驗SPA
+* **網路警** 報的OSGi服務
+* **Creative Cloud** 來源補充的資產連結
+* **資產** 配置的網路資料夾
 * **即時資** 料的文字覆蓋
-* **顯示** /頻道群組的排程
-* **可自動** 編輯內容的工作流程。
+* **** 顯示/頻道分組排程
+* **** 自動編輯內容的工作流程。
 
-在此階段，務必審查所有需要引起注意的必要任務和活動，並正確記錄這些任務和活動，以便在部署階段中正確跟蹤分配的任務。
+在此階段中，必須審查所有需要注意的必要任務和活動，並正確記錄這些任務和活動，以便在部署階段正確跟蹤分配的任務。
 
 我們還應審查所有預先定義的活動，以便在此階段實現自動化。
