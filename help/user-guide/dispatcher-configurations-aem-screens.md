@@ -1,47 +1,46 @@
 ---
-title: Dispatcher Configurations forAEM Screens
-seo-title: Dispatcher Configurations forAEM Screens
-description: 本頁重點介紹為AEM Screens項目配置調度程式的指導方針。
-seo-description: 本頁重點介紹為AEM Screens項目配置調度程式的指導方針。
-feature: Administering Screens
+title: 適用於AEM Screens的Dispatcher設定
+seo-title: 適用於AEM Screens的Dispatcher設定
+description: 本頁面重點說明為AEM Screens專案設定Dispatcher的准則。
+seo-description: 本頁面重點說明為AEM Screens專案設定Dispatcher的准則。
+feature: 管理畫面
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
-
-# AEM Screens的調度器配置{#dispatcher-configurations-for-aem-screens}
+# AEM Screens的Dispatcher設定{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
-下頁提供了為AEM Screens項目配置調度程式的指導。
+以下頁面提供為AEM Screens專案設定Dispatcher的准則。
 
 >[!NOTE]
 >
->如果調度程式可用，則可以通過在調度程式規則中進行過濾來阻止與註冊servlet的連接。
+>如果調度程式可用，則可以通過在調度程式規則中進行篩選來阻止與註冊servlet的連接。
 >
->如果沒有調度程式，請禁用OSGi元件清單中的註冊servlet。
+>如果沒有Dispatcher，請停用OSGi元件清單中的註冊Servlet。
 
 ## 先決條件{#pre-requisites}
 
-在為AEM Screens項目配置調度程式之前，您必須具備Dispatcher的先前知識。
+在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
 
-有關詳細資訊，請參閱[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
+如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
-AEM Screens播放器／裝置也使用驗證的作業來存取發佈例項中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，如此驗證的作業階段就對來自AEM Screens播放器／裝置的所有請求有效。
+AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈例項中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，使已驗證的工作階段對來自AEM Screens播放器/裝置的所有請求有效。
 
-按照以下步驟為AEM Screens項目配置調度程式。
+請依照下列步驟，為AEM Screens專案設定Dispatcher。
 
-### 啟用粘滯會話{#enable-sticky-session}
+### 啟用黏著工作階段{#enable-sticky-session}
 
-如果您想使用由單一發送器前端的多個發佈實例，則必須更新`dispatcher.any`檔案以啟用粘性
+如果您想使用由單一Dispatcher前端的多個發佈例項，必須更新`dispatcher.any`檔案以啟用黏著度
 
 ```xml
 /stickyConnections {
@@ -52,13 +51,13 @@ AEM Screens播放器／裝置也使用驗證的作業來存取發佈例項中的
  }
 ```
 
-如果您有一個發佈實例由一個調度程式前置，則啟用調度程式的粘滯性將無濟於事，因為負載平衡器可能會向調度程式發送每個請求。 在這種情況下，按一下&#x200B;**粘著**&#x200B;欄位中的&#x200B;**啟用** ，以在負載平衡器級別啟用它，如下圖所示：
+如果您有一個發佈例項由一個Dispatcher前端，則啟用Dispatcher的黏著度將沒有幫助，因為負載平衡器可能會將每個請求傳送至Dispatcher。 在此情況下，按一下&#x200B;**粘著度**&#x200B;欄位中的&#x200B;**啟用**&#x200B;以在負載平衡器級別啟用它，如下圖所示：
 
 ![影像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-例如，如果您使用AWS ALB，請參閱[應用程式負載平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)的目標組，以在ALB級別啟用粘性。 1天的黏性。
+例如，如果您使用AWS ALB，請參閱應用程式負載平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)的[目標組，以啟用ALB層級的黏著度。 啟用1天的黏著度。
 
-### 步驟1:配置客戶端標題{#step-configuring-client-headers}
+### 步驟1:配置客戶端標頭{#step-configuring-client-headers}
 
 將下列內容新增至`/clientheaders`區段：
 
@@ -68,9 +67,9 @@ AEM Screens播放器／裝置也使用驗證的作業來存取發佈例項中的
 
 **X-REQUEST-COMMAND**
 
-### 步驟2:配置螢幕過濾器{#step-configuring-screens-filters}
+### 步驟2:配置螢幕篩選器{#step-configuring-screens-filters}
 
-若要設定「畫面」篩選，請將下列項目新增至&#x200B;***/filter***。
+若要設定Screens篩選器，請將下列項目新增至&#x200B;***/filter***。
 
 ```
 ## AEM Screens Filters
@@ -91,15 +90,15 @@ AEM Screens播放器／裝置也使用驗證的作業來存取發佈例項中的
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 步驟3:禁用Dispatcher快取{#step-disabling-dispatcher-cache}
+### 步驟3:停用Dispatcher快取{#step-disabling-dispatcher-cache}
 
-停用&#x200B;***/content/screens path***&#x200B;的Dispatcher caching。
+停用&#x200B;***/content/screens path***&#x200B;的Dispatcher快取。
 
-畫面播放器使用已驗證的作業，因此分派器不會快取任何畫面播放器對`channels/assets`的要求。
+螢幕播放器使用已驗證的工作階段，因此Dispatcher不會快取`channels/assets`的任何螢幕播放器請求。
 
-若要啟用資產的快取，以便從分派器快取中提供資產，您必須：
+若要啟用資產的快取，以便從Dispatcher快取提供資產，您必須：
 
-* 在`/cache`節中添加`/allowAuthorization 1`
+* 在`/cache`區段中新增`/allowAuthorization 1`
 * 將下列規則新增至`/cache`的`/rules`區段
 
 ```xml
