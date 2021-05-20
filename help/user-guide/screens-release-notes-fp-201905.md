@@ -1,8 +1,8 @@
 ---
-title: 功能套件201905發行說明
-seo-title: 功能套件201905發行說明
-description: 請依照本頁取得2019年5月16日發行的AEM Screens功能套件201905的相關資訊。
-seo-description: 請依照本頁取得2019年5月16日發行的AEM Screens功能套件201905的相關資訊。
+title: Feature Pack 201905發行說明
+seo-title: Feature Pack 201905發行說明
+description: 請詳閱本頁，了解2019年5月16日發行的AEM Screens Feature Pack 201905的相關資訊。
+seo-description: 請詳閱本頁，了解2019年5月16日發行的AEM Screens Feature Pack 201905的相關資訊。
 uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,59 +10,58 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-feature: Feature Pack
+feature: 功能套件
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
 
-
-# 功能套件201905發行說明{#release-notes-for-feature-pack}
+# Feature Pack 201905 {#release-notes-for-feature-pack}發行說明
 
 >[!CAUTION]
 >
->建議您升級至最新版的Adobe Experience Manager(AEM)。 畫面提供6.3畫AEM面平台的維護支援。
+>建議您升級至最新版Adobe Experience Manager(AEM)。 Screens對AEM 6.3 Screens平台提供維護支援。
 
-AEM Screens公AEM司發佈了6.3.3.3功能包6和AEM6.4.4.0功能包4，具體內容如下。
+AEM Screens發行了AEM 6.3.3.3 Feature Pack 6和AEM 6.4.4.0 Feature Pack 4，其詳細資訊如下。
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能套件201905的發行日期為2019年5月16日。
+AEM Screens Feature Pack 201905的發行日期為2019年5月16日。
 
 ### 新功能 {#what-s-new}
 
 * **專案匯入工具**
 
-Project Importer是AEM Screens的一項功能，可讓您將一組位置從CSV/XLS試算表大量匯入至您的AEM Screens專案。
+「專案匯入工具」是AEM Screens中提供的功能，可讓您將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。
 
-如需詳細資訊，請參閱「從檔案&#x200B;](project-importer.md)**新增專案匯入工具」。**[
+如需詳細資訊，請參閱檔案&#x200B;](project-importer.md)**中的**[&#x200B;新增專案匯入工具。
 
-* **從ContentSync轉換到SmartSync**
+* **從ContentSync過渡到SmartSync**
 
-SmartSync將伺服器負載／儲存和網路流量減到最小，從而降低成本。
+SmartSync將伺服器負載/儲存和網路流量降至最低，以降低成本。
 
-如需詳細資訊，請參閱&#x200B;**[從ContentSync轉換至SmartSync](smartsync.md)**。
+有關詳細資訊，請參閱&#x200B;**[從ContentSync轉換到SmartSync](smartsync.md)**。
 
 * **緊急通道**
 
-此使用案例範例著重於建立和管理緊急頻道，內容作者在發生先決條件時可從序列頻道切換。
+此使用案例範例著重於建立和管理緊急頻道，內容作者可在有先決條件時從序列頻道切換。
 
-有關詳細資訊，請參閱&#x200B;**[緊急通道](emergency-channel.md)**&#x200B;使用案例。
+如需詳細資訊，請參閱&#x200B;**[緊急通道](emergency-channel.md)**&#x200B;使用案例。
 
-* **使用編輯器內嵌REACT應AEM用程SPA式並與AEM Screens分析整合**
+* **使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合**
 
-本節說明如何使用商業專業人員可在中設定的編輯器，AEM使用REACT(或Angular)內嵌互動式單頁應用程式，以及如AEM何將互動式應用程式與離線Adobe Analytics整合。
+本節說明如何使用AEM SPA編輯器(可由AEM的業務專業人員設定)內嵌使用REACT(或Angular)的互動式單頁應用程式，以及如何將您的互動式應用程式與離線Adobe Analytics整合。
 
-如需詳細資訊，請參閱「使用編輯器內嵌REACT應AEM用程式」並SPA與AEM ScreensAnalytics整合」。**[](embedding-react-app.md)**
+如需詳細資訊，請參閱&#x200B;**[使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)** 。
 
-### 獲釋的AEM Screens球員{#released-aem-screens-players}
+### 已發行AEM Screens播放器{#released-aem-screens-players}
 
-下列AEM Screens播放器適用於AEM6.3.3.3功能套件6和AEM6.4.4.0功能套件4:
+已針對AEM 6.3.3.3 Feature Pack 6和AEM 6.4.4.0 Feature Pack 4發行下列AEM Screens播放器：
 
 * ChromeOS
 * Windows
@@ -70,4 +69,4 @@ SmartSync將伺服器負載／儲存和網路流量減到最小，從而降低�
 
 #### AEM Screens播放器下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/)**。
+若要下載最新的AEM Screens播放器並進一步了解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/)**。
