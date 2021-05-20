@@ -3,43 +3,40 @@ title: '[!UICONTROL AEM Screens]的UX相依性'
 seo-title: '[!UICONTROL AEM Screens]的UX相依性'
 description: 本指南說明[!UICONTROL AEM Screens]的UX相依性
 seo-description: 本指南說明[!UICONTROL AEM Screens]的UX相依性
-translation-type: tm+mt
-source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
 
 ---
 
-
 # UX 相依性 {#ux-dependencies}
 
 >[!NOTE]
 >
->此活動的一般利益相關者是行銷／商業策略師。
+>此活動的一般利害關係人為行銷/業務策略師。
 
-「UX相依性」定義了內容策略的制定位置和方式，因此內容最具影響力。
+UX相依性定義了內容的策略化位置和方式，因此最具影響力。
 
-定義硬體內容策略時應考慮以下問題：
+定義硬體內容策略時應考慮下列問題：
 
 1. 零售版面配置應如何與內容策略一致？
 
-1. 是否需要互動（即觸控螢幕、移動偵測）?
+1. 是否需要交互（即觸摸屏、運動檢測）?
 
-1. 數位標牌的用途為何？
+1. 數位告示牌的用途為何？
 
    * 是否用於產品配置？
-   * 是找路嗎？
+   * 是路徑嗎？
    * 是否顯示廣告？
 
 1. 如何設定連接和網路佈線？
 
 1. 電腦和連接的開啟和關閉頻率為何？
 
-1. 夾具設計是否支援協助工具？
+1. 夾具設計是否支援輔助功能？
 
-1. 一種顯示器是否需要多種裝置（例如多區域、超大的展示板）?
+1. 一個顯示器是否需要多部裝置（例如，多區域、額外的大型主板）?
 
-1. 亮度，溫度，季節等環境考量，
-
-
+1. 亮度、溫度和季節等環境因素為何？
