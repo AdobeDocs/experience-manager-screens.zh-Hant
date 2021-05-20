@@ -1,70 +1,69 @@
 ---
-title: 功能套件202103發行說明
-description: 「請依照本頁取得2021年3月05日發行的AEM Screens功能套件202103的資訊。」
-feature: Feature Pack
+title: Feature Pack 202103發行說明
+description: 「如需2021年3月5日發行的AEM Screens Feature Pack 202103的相關資訊，請詳閱本頁。」
+feature: 功能套件
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
+exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 3%
+source-wordcount: '396'
+ht-degree: 2%
 
 ---
 
-
-# 功能套件版本注意事項202103 {#release-notes-for-feature-pack}
+# Feature Pack 202103 {#release-notes-for-feature-pack}發行說明
 
 >[!CAUTION]
->建議您升級至最新版的Adobe Experience Manager(AEM)。 畫面提供6.3畫AEM面平台的維護支援。
+>建議您升級至最新版Adobe Experience Manager(AEM)。 Screens對AEM 6.3 Screens平台提供維護支援。
 
 ## 可用性 {#availability}
 
-AEM ScreensAEM發行6.5功能套件7。
+AEM Screens發行AEM 6.5 Feature Pack 7。
 
-您可以使用您的Adobe ID，從[軟體散發入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載最新的AEM Screens6.5.7版功能套件。 導覽至「**Adobe Experience Manager**」標籤並搜尋「**畫面**」，以取得最新的功能套件，標題為「**AEM 6.5畫面FP7**」。
+您可以使用Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.7版的最新Feature Pack。 導覽至「**Adobe Experience Manager**」標籤並搜尋「**Screens**」，以取得最新的Feature Pack，標題為「**AEM 6.5 Screens FP7**」。
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能包202103的發行日期為2021年3月05日。
+AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
 ### 新功能 {#what-is-new}
 
-* **AEM Screens球員自動註冊**
+* **AEM Screens播放器自動註冊**
 
-   手動大量註冊數千個播放器非常麻煩，而且會增加時間和成本。 為簡化此程式，「播放器自動註冊」功能允許您指定預共用密鑰，AEM該密鑰可通過配置檔案或移動設備管理(MDM)解決方案設定到播放器中。
+   手動大量註冊數千個播放器非常麻煩，而且會增加時間和成本。 為簡化此過程，「播放器自動註冊」功能允許您在AEM中指定預共用密鑰，該密鑰可以通過配置檔案或移動設備管理(MDM)解決方案被配置到播放器中。
 
-   如需詳細資訊，請參閱[播放器自動註冊](/help/user-guide/auto-registration-players.md)。
+   如需詳細資訊，請參閱[播放器自動註冊](/help/user-guide/auto-registration-players.md) 。
 
 
-* **使用企業行動管理大量布建Android Player**
+* **使用企業移動性管理來大量布建Android Player**
 
-   當大量部署Android播放器時，手動註冊每個播放器將變得很麻煩AEM。 強烈建議您使用EMM（企業行動力管理）解決方案，例如VMWare Airwatch、MobileIron或Samsung Knox，以遠端布建及管理您的部署。 AEM ScreensAndroid播放器支援業界標準EMM AppConfig，允許遠端布建。
+   大量部署Android播放器時，使用AEM手動註冊每個播放器將變得很麻煩。 強烈建議使用EMM（企業移動管理）解決方案（如VMWare Airwatch、MobileIron或Samsung Knox）來遠程調配和管理您的部署。 AEM Screens Android player支援業界標準的EMM AppConfig，以允許遠端布建。
 
-   如需詳細資訊，請參閱「使用企業行動管理的Android Player大量布建」。[](/help/user-guide/implementing-android-player.md#implementation)
+   如需詳細資訊，請參閱[使用企業行動管理的Android Player大量布建](/help/user-guide/implementing-android-player.md#implementation) 。
 
 
 ### 錯誤修正 {#bug-fixes}
 
-* 已改善計算`clientlib`和`asset hashes`的效能。
+* 改善計算`clientlib`和`asset hashes`的效能。
 
-* 如果快取未失效，SmartSync遷移將會中斷播放器。
+* 如果快取未失效，SmartSync遷移將破壞播放器。
 
-* 如果Assignment具有&#x200B;*OfflineConfig*，則未建立離線快取。
+* 如果「分配」具有&#x200B;*OfflineConfig*，則未建立離線快取。
 
-* 由於不支援反向連結原則strict-origin-when-cross-origin而中斷的Tizen播放器更新。
+* 因不支援反向連結原則strict-origin-when-cross-origin而中斷的Tizen播放器更新。
 
-* 變更指派頻道的排程&#x200B;*重複*&#x200B;欄位會中斷UI。
+* 更改指定通道的調度&#x200B;*重複*&#x200B;欄位會中斷UI。
 
-* 更新離線內容失敗，但有查詢例外。
+* 更新離線內容失敗，出現查詢例外。
 
-* 互動式體驗互動期間的轉場時間延遲現已修正。
+* 現在已修正互動式體驗中互動期間，轉換之間的時間延遲。
 
-* 配置更新請求失敗導致空白螢幕。
+* 配置更新請求失敗導致出現空白螢幕。
 
-### 獲釋的AEM Screens球員{#released-aem-screens-players}
+### 已發行AEM Screens播放器{#released-aem-screens-players}
 
-下列AEM Screens播放器適用於AEM6.5功能套件7:
+已針對AEM 6.5 Feature Pack 7發行下列AEM Screens播放器：
 
 * Chrome OS
 * Windows
@@ -72,4 +71,4 @@ AEM Screens功能包202103的發行日期為2021年3月05日。
 
 #### AEM Screens播放器下載{#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並進一步了解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。
