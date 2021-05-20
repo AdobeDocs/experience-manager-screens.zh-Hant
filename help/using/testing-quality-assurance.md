@@ -1,43 +1,42 @@
 ---
 title: 測試與品質保證
-seo-title: AEM螢幕的測試與品質保證
-description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
-seo-description: 此頁面說明「AEM畫面的測試與品質保證最佳實務指南」
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+seo-title: AEM Screens的測試與品質保證
+description: 本頁面說明AEM Screens最佳實務指南的測試和品質保證
+seo-description: 本頁面說明AEM Screens最佳實務指南的測試和品質保證
+exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
 
 ---
 
-
 # 測試與品質保證 {#testing-quality}
 
 >[!NOTE]
->此活動的一般利益相關者是A/V整合商。
+>此活動的一般利害關係人是A/V整合商。
 
-隨著我們越來越接近數位標牌網路的實際部署，我們應制定測試和QA計畫，以處理網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
-在此階段，應建立完整的測試系統，並加以充分測試。
+隨著我們更接近數字告示牌網路的實際部署，我們應建立測試和QA計畫，該計畫可解決網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
+在這一階段，應構建並完全測試整個測試系統。
 
-應建立一個核對表，該核對表標識所有先前定義的KPI，並根據這些KPI測量交付項。
+應建立一個檢查清單，確定所有先前定義的KPI，並根據這些KPI測量交付項。
 
 >[!NOTE]
 >
->此階段也應當做建立安裝與使用指南的工具，稍後可隨附設備，並留在現場供日後參考。
+>此階段還應用作建立安裝和使用手冊的工具，以後可隨設備一起運送，並留在現場供將來參考。
 
-應考慮以下因素：
+應考量下列元素：
 
 ## 1.機械注意事項{#mechanical-considerations}
 
 建議使用下列機械注意事項：
 
-* 顯示器安裝
+* 顯示安裝
 * 播放器安裝
 * 通風
 * 外圍設備附件
 * 電纜管理
-* 設備聯網
+* 裝置聯網
 
 ## 2.軟體注意事項{#software-considerations}
 
@@ -46,43 +45,43 @@ ht-degree: 2%
 * 設備註冊
 * 媒體發佈
 * 播放
-* 資料庫依賴性（先前定義）
+* 資料庫依賴項（以前定義）
 
 
 ## 3.設備管理注意事項{#device-management-considerations}
 
-AEM Screens包含Device Control Center模組，可讓您管理Screens播放器應用程式端點。
+AEM Screens包含Device Control Center模組，可管理Screens播放器應用程式端點。
 
-這是指已安裝Screens player應用程式且已註冊至AEM例項的任何&#x200B;*player*硬體裝置。
-此模組允許您：
+這是指任何已安裝Screens播放器應用程式且已註冊至AEM例項的&#x200B;*player*硬體裝置。
+此模組可讓您：
 
 1. 監視播放器應用程式錯誤日誌
-1. 管理遠端螢幕擷取
+1. 管理遠程螢幕快照
 1. 管理內容下載
 1. 管理應用程式重新啟動問題
 
-若要詳細瞭解&#x200B;***裝置控制中心***，請參閱&#x200B;**AEM Screens使用指南**&#x200B;中的[疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)。
+要詳細了解&#x200B;***Device Control Center***，請參閱&#x200B;**AEM Screens使用手冊**&#x200B;中的[Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)。
 
 >[!CAUTION]
 >
 > 您不應使用Device Control Center來：
-> 1. 安裝新版播放器應用程式
-> 1. 監控系統級資源
-> 1. 疑難排解系統級錯誤
+> 1. 安裝新版本的播放器應用程式
+> 1. 監視系統級別資源
+> 1. 排解系統層級錯誤
 > 1. 允許遠程案頭干預
 
 
 
 >[!NOTE]
 >
-> Adobe建議所有部署應使用專用的第三方裝置管理平台。
+> Adobe建議所有部署都應使用專用的第三方裝置管理平台。
 
 選擇的特定平台取決於多種因素，包括&#x200B;***目標作業系統***、***項目要求***&#x200B;和&#x200B;***端點數***。
 
-例如：
+以下是幾個範例：
 
 * Google Chrome裝置管理
 * TeamViewer
 * AirWatch
-* 42齒輪
-* 專屬AV整合器中介軟體
+* 42檔
+* 專有AV整合商中間件
