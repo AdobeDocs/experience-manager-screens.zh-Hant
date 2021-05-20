@@ -1,31 +1,30 @@
 ---
-title: 第二天支援和維護
-seo-title: AEM畫面的第二天支援與維護
-description: 該頁介紹第2天支援和維護
-seo-description: 該頁介紹第2天支援和維護
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+title: 第二天支援與維護
+seo-title: 第二天AEM Screens支援與維護
+description: 本頁介紹第二天的支援和維護
+seo-description: 本頁介紹第二天的支援和維護
+exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-
 # 第二天平台支援與維護 {#day-two-support-maintenance}
 
-AEM Screens需要數個套件，專案才能運作。 所有環境都應使用相同版本的Adobe Experience Manager。
+AEM Screens需要數個套件，專案才能運作。 所有環境都應執行相同版本的Adobe Experience Manager。
 
-遵循以下准則：
+遵循以下准則，即項目開發階段第二天的支援和維護：
 
-1. 為您的Adobe Experience Manager版本執行下列最新版本套件：
+1. 針對您的Adobe Experience Manager版本執行下列套件的最新版本：
 
    * **AEM Service Pack**
-   * **螢幕功能套件**
+   * **Screens Feature Pack**
    * **AEM Cumulative Fix Pack**
 
-1. 識別所需的任何開發套件（例如WCM核心元件）或協力廠商工具套件（例如SAP Hybris）。
+1. 識別所需的任何開發套件（例如WCM核心元件）或第三方工具套件（例如SAP Hybris）。
 
-1. 在您的本機開發環境中安裝相同的軟體套件。
+1. 在您的本機開發環境上安裝相同的軟體套件。
 
-1. 指示客戶在其所有QA、Stage和Production伺服器上都採用相同的設定。 不相符的伺服器組態會在部署和測試時造成問題。
+1. 指示您的用戶端在其所有QA、預備和生產伺服器上採用相同的設定。 不匹配的伺服器配置在部署和測試時會造成問題。
