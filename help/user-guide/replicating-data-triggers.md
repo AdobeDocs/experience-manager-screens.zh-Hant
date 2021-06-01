@@ -6,13 +6,13 @@ seo-description: 將資料觸發器複製到發佈伺服器。
 feature: 管理畫面、資料觸發
 role: Developer
 level: Intermediate
-exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 2%
 
 ---
+
 
 # 將資料觸發器複製到發佈伺服器{#replicating-data-triggers}
 
