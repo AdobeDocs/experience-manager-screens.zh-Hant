@@ -6,13 +6,13 @@ seo-description: 請依照本頁面操作，了解如何在播放器的當地時
 feature: 製作畫面、資產層級啟動
 role: Administrator, Developer
 level: Intermediate
-exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
 
 ---
+
 
 # 資產級激活{#asset-level-scheduling}
 
@@ -222,3 +222,4 @@ ht-degree: 0%
    >已啟動多項資產的資產右上角會顯示排程圖示。
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
