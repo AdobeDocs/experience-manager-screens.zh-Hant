@@ -3,13 +3,13 @@ title: 支援監控
 seo-title: 支援監控AEM Screens
 description: 本頁面說明AEM Screens最佳實務支援監控指南
 seo-description: 本頁面說明AEM Screens最佳實務支援監控指南
-exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
+
 
 # 支援監視{#support-monitoring}
 
@@ -46,3 +46,4 @@ ht-degree: 0%
    * 檢查&#x200B;*display*&#x200B;是否已開啟。
    * 檢查&#x200B;*computer*&#x200B;是否已開啟並正在發送信號。
    * 按一下右鍵，檢查並檢查&#x200B;*適用日誌*。
+
