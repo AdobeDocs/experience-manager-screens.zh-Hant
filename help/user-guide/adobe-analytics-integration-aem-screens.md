@@ -13,13 +13,13 @@ docset: aem65
 feature: 管理畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Analytics與AEM Screens的整合{#adobe-analytics-integration-with-aem-screens}
 
@@ -132,3 +132,4 @@ Analytics事件會以離線方式儲存在indexedDB中，之後會分塊並傳�
 >[!NOTE]
 >
 >若要進一步了解&#x200B;***Secunding***&#x200B;和&#x200B;***事件標準資料模型***，請參閱&#x200B;**[為AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
+
