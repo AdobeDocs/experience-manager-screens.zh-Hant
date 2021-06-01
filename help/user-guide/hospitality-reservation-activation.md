@@ -13,13 +13,13 @@ docset: aem65
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
+
 
 # 酒店預訂激活{#hospitality-reservation-activation}
 
@@ -86,4 +86,6 @@ ht-degree: 0%
 
    1. 按一下「**預覽」。** 此外，請開啟您的Google工作表並更新其值。
    1. 更新&#x200B;**Restaurant1**&#x200B;和&#x200B;**Restaurant2**&#x200B;欄中的值。 如果&#x200B;**Restaurant1** > **Restaurant2,**&#x200B;您應該能夠查看&#x200B;*牛排*&#x200B;食品的影像，否則，螢幕上將顯示&#x200B;*泰國*&#x200B;食品影像。
+
    ![結果5](assets/result5.gif)
+
