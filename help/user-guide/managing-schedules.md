@@ -12,13 +12,13 @@ discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
 
 ---
+
 
 # 建立和管理調度{#creating-and-managing-schedules}
 
@@ -67,3 +67,4 @@ ht-degree: 0%
    **指定的通** 道面板按一下「指定通道」面板右上角的「指定通道」，以開啟「通道分配」對話框。
 
    **已分配的** 顯示面板從「已分配的顯示面板」中選擇任何顯示以開啟顯示面板。
+
