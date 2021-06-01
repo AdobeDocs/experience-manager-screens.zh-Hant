@@ -13,13 +13,13 @@ docset: aem65
 feature: 管理螢幕，設備註冊
 role: Administrator
 level: Intermediate
-exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
 
 ---
+
 
 # 裝置註冊 {#device-registration}
 
