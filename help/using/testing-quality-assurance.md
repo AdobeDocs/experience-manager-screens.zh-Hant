@@ -3,13 +3,13 @@ title: 測試與品質保證
 seo-title: AEM Screens的測試與品質保證
 description: 本頁面說明AEM Screens最佳實務指南的測試和品質保證
 seo-description: 本頁面說明AEM Screens最佳實務指南的測試和品質保證
-exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
 
 ---
+
 
 # 測試與品質保證 {#testing-quality}
 
