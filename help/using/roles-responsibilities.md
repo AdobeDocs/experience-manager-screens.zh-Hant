@@ -3,13 +3,13 @@ title: AEM Screens專案角色與責任
 seo-title: AEM Screens專案角色與責任
 description: 本頁面說明AEM Screens專案的角色和責任
 seo-description: 本頁面說明AEM Screens專案的角色和責任
-exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 4%
 
 ---
+
 
 # 項目角色和責任{#roles-responsibilities}
 
