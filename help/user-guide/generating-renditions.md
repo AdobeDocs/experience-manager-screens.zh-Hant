@@ -12,13 +12,13 @@ discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
+
 
 # 視訊轉譯{#video-renditions}
 
@@ -93,3 +93,4 @@ ht-degree: 0%
 1. 開啟&#x200B;**轉譯**&#x200B;側邊欄，您會注意到新的全高清轉譯。
 
    ![step8_-_open_therenditionssiferag](assets/step8_-_open_therenditionssiderail.png)
+
