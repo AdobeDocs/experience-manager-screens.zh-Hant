@@ -3,13 +3,13 @@ title: 第二天支援與維護
 seo-title: 第二天AEM Screens支援與維護
 description: 本頁介紹第二天的支援和維護
 seo-description: 本頁介紹第二天的支援和維護
-exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 8%
 
 ---
+
 
 # 第二天平台支援與維護 {#day-two-support-maintenance}
 
