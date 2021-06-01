@@ -7,13 +7,13 @@ contentOwner: Jyotika Syal
 feature: 開發螢幕
 role: Developer
 level: Intermediate
-exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
 
 ---
+
 
 # 為多區域佈局建立自定義模板{#creating-custom-templates-multizone}
 
@@ -174,3 +174,6 @@ Left20-LandscapeHD3Zone Layout允許您在項目中建立以下多區域佈局�
 若要變更背景顏色，請將下列程式碼新增至xml檔案（步驟13）, *static.css*。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+
+
+
