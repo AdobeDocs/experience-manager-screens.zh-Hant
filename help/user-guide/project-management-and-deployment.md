@@ -13,13 +13,13 @@ docset: aem65
 feature: 概覽
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
+
 
 # 第4部分：項目管理和部署{#part-project-management-and-deployment}
 
@@ -93,3 +93,4 @@ Day Zero包含八個關鍵步驟，涵蓋項目管理升級的所有方面：
 詳閱AEM Screens部署專案管理的相關重要考量事項；
 
 導航到&#x200B;**[第5部分：支援考量事項](support-considerations.md)**&#x200B;以了解第2天支援及相關程式。
+
