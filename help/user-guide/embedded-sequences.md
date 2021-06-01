@@ -13,13 +13,13 @@ docset: aem65
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 2%
 
 ---
+
 
 # 嵌入序列{#embedded-sequences}
 
@@ -111,3 +111,4 @@ ht-degree: 2%
 1. 為序列中的嵌入通道選擇&#x200B;**Sequence**&#x200B;頁簽中的&#x200B;**Duration(ms)**。
 
 ![最新](assets/latest.gif)
+
