@@ -3,13 +3,13 @@ title: 建議做法
 seo-title: AEM Screens專案的建議方法
 description: 本頁面說明AEM Screens專案中的建議方法
 seo-description: 本頁面說明AEM Screens專案中的建議方法
-exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
 
 ---
+
 
 # 建議做法 {#recommended-approach}
 
@@ -46,3 +46,4 @@ ht-degree: 0%
 * **開發藍圖**:如果您的客戶想要功能豐富的產品，請在專案早期提供部分計畫功能，並為未來階段安排其他功能。功能繁多的首個交付項風險更大，與客戶驗證的難度也更大。
 
 * **了解自訂整合的範圍**:具有觸摸屏交互、運動感測器或RFID的交互元件在實現方法中需要大量定製開發。投影片放映、視訊廣告或靜態功能表可在Screens頻道上以圖形內容或HTML形式傳送。
+
