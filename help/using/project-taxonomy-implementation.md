@@ -3,13 +3,13 @@ title: 專案分類法
 seo-title: '專案分類法 '
 description: 本頁介紹項目分類法
 seo-description: 該頁描述了項目分類法
-exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
 
 ---
+
 
 # 項目分類法{#project-taxonomy}
 
