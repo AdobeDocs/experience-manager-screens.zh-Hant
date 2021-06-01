@@ -1,13 +1,13 @@
 ---
 title: 直接網際網路存取
 description: 直接網際網路存取
-exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
+
 
 # 直接Internet網路（有線/無線）{#direct-internet-access}
 
@@ -96,3 +96,4 @@ AEM Screens為數位看板使用者提供絕大優勢。 它會下載並在本�
 >該資訊允許您查看請求和下載網際網路源的網路中每個設備的消耗。 每個請求都會加總並延長下載時間。
 
 ![](/help/assets/download-times-direct.png)
+
