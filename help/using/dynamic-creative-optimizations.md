@@ -3,13 +3,13 @@ title: 資料觸發器
 seo-title: 資料觸發器
 description: 頁面說明資料觸發器
 seo-description: 頁面說明資料觸發器
-exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
+
 
 # 動態創意最佳化{#dynamic-creative}
 
@@ -40,3 +40,4 @@ ht-degree: 0%
 
 * **本機資料觸發器**:這些資料觸發器是裝置上的本機。例如，如果您觸摸螢幕，則激活感測器，觸發本地資料資產或通道切換。
 * **遠端資料觸發器**:這涉及資料觸發的通道開關或根據網站服務API傳回的值的資產開關。
+
