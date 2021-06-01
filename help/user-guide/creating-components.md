@@ -12,13 +12,13 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: 開發螢幕
 role: Developer
 level: Intermediate
-exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%
 
 ---
+
 
 # 建立元件{#creating-components}
 
@@ -58,3 +58,4 @@ AEM元件可用來保留、格式化及轉譯可在您的網頁上使用的內�
 >[!NOTE]
 >
 >若要開發自訂元件，請使用***[AEM Screens範例元件範本](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
+
