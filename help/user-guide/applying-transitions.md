@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
 
 ---
+
 
 # 套用轉變{#applying-transitions}
 
@@ -60,3 +60,4 @@ ht-degree: 1%
 1. 此外，如果向此通道編輯器添加&#x200B;**嵌入序列**&#x200B;元件（包括序列通道），則可以在末尾添加過渡元件，以便按順序播放內容，如下圖所示：
 
    ![影像3](assets/transitions5.png)
+
