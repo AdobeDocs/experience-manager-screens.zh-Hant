@@ -1,13 +1,14 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
-source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+feature-set: Experience Manager Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '440'
 ht-degree: 13%
 
 ---
@@ -103,7 +104,6 @@ ht-degree: 13%
    + [在AEM Screens中設定ContextHub](configuring-context-hub.md)
    + [為多區域佈局建立自定義模板](creating-custom-templates-multizone-layouts.md)
    + [為文字覆蓋套用自訂品牌和樣式](custom-branding-text-overlays.md)
-   + [使用工作流程自動進行通道更新](automate-channel-updates-workflow.md)
 + 疑難排解和常見問題集{#troubleshooting}
    + [AEM Screens常見問題集](aem-screens-faqs.md)
    + [疑難排解設備控制中心](monitoring-screens.md)
