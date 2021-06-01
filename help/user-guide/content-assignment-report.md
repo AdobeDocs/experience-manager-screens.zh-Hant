@@ -4,13 +4,13 @@ description: 此頁面說明內容指派報表的下載與使用方式。
 feature: 製作畫面
 role: Developer
 level: Intermediate
-exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 2%
 
 ---
+
 
 # 內容指派報表 {#content-assignment-report}
 
@@ -57,3 +57,4 @@ ht-degree: 2%
 1. 系統會將Excel工作表下載至本機電腦，且前置詞名稱與AEM Screens專案名稱相同。 例如，如果您的專案名稱為&#x200B;**DemoScreens**，下載的檔案名稱將是&#x200B;**demoscreens-content-assignment-report.xlxs**。
 
    ![影像](/help/user-guide/assets/content-assignment-report/car-download1.png)
+
