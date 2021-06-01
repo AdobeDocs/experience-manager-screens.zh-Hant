@@ -12,13 +12,13 @@ discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
 
 ---
+
 
 # 建立和管理項目{#creating-and-managing-projects}
 
@@ -85,3 +85,4 @@ ht-degree: 2%
 ### 後續步驟{#the-next-steps}
 
 建立專案後，請參閱[管道管理](managing-channels.md)以建立及管理管道中的內容。
+
