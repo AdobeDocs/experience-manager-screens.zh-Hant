@@ -3,8 +3,7 @@ title: AEM 平台組態
 seo-title: AEM 平台組態
 description: 本頁說明AEM平台組態
 seo-description: 本頁說明AEM平台組態
-exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 21%
