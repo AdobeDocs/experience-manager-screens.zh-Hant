@@ -3,13 +3,13 @@ title: 歷程圖
 seo-title: AEM Screens版歷程圖
 description: 此頁面說明Journey Map for AEM Screens
 seo-description: 此頁面說明Journey Map for AEM Screens
-exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
+
 
 # UX 旅程圖 {#journey-map}
 
