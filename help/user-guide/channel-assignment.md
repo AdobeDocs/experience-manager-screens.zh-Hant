@@ -5,13 +5,13 @@ description: 請詳閱本頁，了解管道指派和日劃分。
 feature: 製作螢幕，通道分配
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 4%
 
 ---
+
 
 # 頻道指定任務 {#channel-assignment}
 
@@ -177,4 +177,5 @@ DayParting指的是將一天分割為時段，並指定在需要的時間播放�
 >
 >* [處理資產中的週期](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [處理管道中資產的週期](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
