@@ -13,13 +13,13 @@ docset: aem65
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
+
 
 # 零售庫存目標激活{#retail-inventory-targeted-activation}
 
@@ -123,4 +123,6 @@ ht-degree: 0%
 
    1. 按一下「**預覽」。** 此外，請開啟您的Google工作表並更新其值。
    1. 變更所有三個不同欄的值，您會注意到顯示影像會根據庫存中的最高值更新。
+
    ![retail_result](assets/retail_result.gif)
+
