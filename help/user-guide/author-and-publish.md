@@ -6,13 +6,13 @@ seo-description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM
 feature: 管理畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%
 
 ---
+
 
 # 在AEM Screens中設定作者和發佈{#configuring-author-and-publish-in-aem-screens}
 
@@ -307,3 +307,5 @@ Screens需要3個複製代理：
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 **管理出版物**&#x200B;功能可讓您將內容更新從作者傳送至裝置，以發佈至裝置。 您可以發佈/取消發佈整個AEM Screens專案的內容，或僅發佈其中一個管道、位置、裝置、應用程式或排程的內容。 若要深入了解此功能，請參閱[隨需內容更新](on-demand-content.md)。
+
+
