@@ -8,13 +8,13 @@ contentOwner: Jyotika syal
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
 
 ---
+
 
 # 內容更新為服務{#content-update-as-a-service}
 
@@ -74,3 +74,4 @@ ht-degree: 0%
    **排** 程頻率指定時間，例如下午5:00或17:00，此服務應該更新離線內容。
 
 1. 按一下「**儲存**」以儲存您的設定，而您的內容將會在指定的時間更新。
+
