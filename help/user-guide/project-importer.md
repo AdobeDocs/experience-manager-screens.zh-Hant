@@ -13,13 +13,13 @@ docset: aem65
 feature: 管理畫面
 role: Administrator
 level: Intermediate
-exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
 
 ---
+
 
 # 從檔案{#new-project-importer-from-file}新增專案匯入工具
 
@@ -126,3 +126,4 @@ ht-degree: 1%
 1. 因此，您現在可以檢視匯入至專案的所有位置。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+
