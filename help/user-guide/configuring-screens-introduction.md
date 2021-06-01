@@ -12,13 +12,13 @@ discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Administrator
 level: Intermediate
-exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
 
 ---
+
 
 # 配置和部署AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -152,3 +152,11 @@ AEM Screens需要觸控式UI，無法與Adobe Experience Manager(AEM)的傳統UI
 >[!NOTE]
 >**建議：**
 >建議在生產使用中對AEM Screens伺服器使用HTTPS。
+
+
+
+
+
+
+
+
