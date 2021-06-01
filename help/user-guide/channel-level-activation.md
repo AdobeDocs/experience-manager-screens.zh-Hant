@@ -13,13 +13,13 @@ noindex: true
 feature: 製作螢幕，通道級激活
 role: Administrator, Developer
 level: Intermediate
-exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 1%
 
 ---
+
 
 # 通道級激活{#channel-level-activation-single-event-playback}
 
@@ -265,3 +265,4 @@ ht-degree: 1%
 
 >[!NOTE]
 定義一週中的天數和月數時，您可以同時使用簡寫和全名附註，例如週一/週一和一月/一月。  此外，您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
+
