@@ -6,13 +6,13 @@ seo-description: 請詳閱本頁，了解如何建立和管理管道。 此外�
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 2%
 
 ---
+
 
 # 建立和管理通道{#creating-and-managing-channels}
 
@@ -259,3 +259,4 @@ ht-degree: 2%
 * [建立和管理管道](managing-channels.md)
 * [建立和管理位置](managing-locations.md)
 * [建立和管理顯示](managing-displays.md)
+
