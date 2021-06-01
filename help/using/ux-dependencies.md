@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens]的UX相依性'
 seo-title: '[!UICONTROL AEM Screens]的UX相依性'
 description: 本指南說明[!UICONTROL AEM Screens]的UX相依性
 seo-description: 本指南說明[!UICONTROL AEM Screens]的UX相依性
-exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
 
 ---
+
 
 # UX 相依性 {#ux-dependencies}
 
@@ -40,3 +40,5 @@ UX相依性定義了內容的策略化位置和方式，因此最具影響力。
 1. 一個顯示器是否需要多部裝置（例如，多區域、額外的大型主板）?
 
 1. 亮度、溫度和季節等環境因素為何？
+
+
