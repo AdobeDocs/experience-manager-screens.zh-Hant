@@ -1,13 +1,13 @@
 ---
 title: 直接移動網路
 description: 本頁說明直接行動網路設定
-exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
+
 
 # 直接移動網路{#mobile-network-setup}
 
@@ -95,3 +95,6 @@ AEM Screens為數位看板使用者提供絕大優勢。 它會下載並在本�
 >所有資訊都指請求和下載網際網路源的網路中每個設備的消耗。 每個請求都會加總並延長下載時間。
 
 ![](/help/using/assets/download-times-mobile.png)
+
+
+
