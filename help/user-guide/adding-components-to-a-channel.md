@@ -13,13 +13,13 @@ docset: aem65
 feature: 製作畫面
 role: Administrator, Developer
 level: Intermediate
-exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 7%
 
 ---
+
 
 # 將元件添加到通道{#adding-components-to-a-channel}
 
@@ -336,3 +336,4 @@ AEM提供許多其他元件。 鑑於其他元件與AEM Screens相容，您一�
   </tr>
  </tbody>
 </table>
+
