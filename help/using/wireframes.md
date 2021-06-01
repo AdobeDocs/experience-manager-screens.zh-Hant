@@ -3,13 +3,13 @@ title: 線框
 seo-title: AEM Screens的線框
 description: 本頁介紹AEM Screens項目的Wireframe
 seo-description: 本頁介紹AEM Screens項目的Wireframe
-exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
+
 
 # 線框 {#wireframes}
 
@@ -34,3 +34,4 @@ ht-degree: 0%
 在&#x200B;**專案層級**&#x200B;中，我們可以開始模擬多個畫面或體驗在實體空間中如何共同運作，以提供完整的多接觸點使用者歷程。
 
 這應符合先前建立的UX歷程圖。
+
