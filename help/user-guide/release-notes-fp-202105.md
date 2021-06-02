@@ -4,9 +4,9 @@ description: 「如需2021年6月1日發行的AEM Screens Feature Pack 202105的
 feature: 功能套件
 role: Developer
 level: Intermediate
-source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
+source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '291'
 ht-degree: 4%
 
 ---
@@ -31,6 +31,10 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月3日。
 * **在AEM Screens頻道中鎖定頁面**
 
    AEM Screens現在支援&#x200B;*鎖定頁面*，如AEM Sites中已實作。 Adobe Experience Manager(AEM)可讓您鎖定頁面，讓其他人都無法修改內容。 當您對特定頁面進行許多編輯，或需要將頁面凍結一段時間時，這個功能會很實用。
+
+* **資訊清單產生**
+
+   通過改進的效能（如在伺服器上分配較少的資源）加快通道清單的生成。
 
 
 ### 錯誤修正 {#bug-fixes}
