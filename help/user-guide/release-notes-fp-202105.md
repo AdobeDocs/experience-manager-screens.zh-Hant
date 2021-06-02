@@ -4,10 +4,10 @@ description: 「如需2021年6月1日發行的AEM Screens Feature Pack 202105的
 feature: 功能套件
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 6%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -28,15 +28,13 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月1日。
 
 ### 新功能 {#what-is-new}
 
-* **AEM Screens播放器自動註冊**
-
-   播放器切換至包含動態內嵌序列的頻道時，會顯示為黑屏
+* 鎖定頁面
 
 ### 錯誤修正 {#bug-fixes}
 
-* 切換至頻道包含動態內嵌序列時，播放器會顯示為黑屏。
-
-
+* 播放器切換至包含動態內嵌序列的頻道時，會顯示黑屏。
+* 改善通道資訊清單產生效能。
+* Screens播放器現在會封鎖切換至任何中斷的通道，進一步避免404錯誤或出現錯誤訊息的頁面。
 
 ### 已發行AEM Screens播放器{#released-aem-screens-players}
 
