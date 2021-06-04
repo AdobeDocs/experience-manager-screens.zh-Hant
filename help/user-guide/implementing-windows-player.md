@@ -13,9 +13,9 @@ docset: aem65
 feature: 管理螢幕， Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,16 @@ Ad-Hoc方法可讓您安裝最新的Windows Player(*.exe*)。 請造訪&#x200B;[
 >如果&#x200B;**State**&#x200B;為&#x200B;**REGISTERED**，您會注意到將填入&#x200B;**Device id**&#x200B;欄位。
 >
 >如果&#x200B;**State**&#x200B;為&#x200B;**UNECROSTERD**，則可以使用&#x200B;**Token**&#x200B;註冊設備。
+
+## 命名Windows Player {#name-windows}
+
+您可以將好記的裝置名稱指派給Windows播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Windows播放器命名，還可讓您輕鬆指派適當內容。
+
+請依照下列步驟，在Windows播放器中設定名稱：
+
+1. 按一下&#x200B;**start** —> **run**
+1. 輸入`system.cpl`
+1. 使用電腦名稱頁簽設定電腦的主機名
 
 ## 更改Windows Installer {#changing-default-options}中的預設選項
 
