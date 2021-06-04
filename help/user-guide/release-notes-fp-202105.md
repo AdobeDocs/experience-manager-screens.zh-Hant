@@ -4,9 +4,9 @@ description: 「如需2021年6月4日發行的AEM Screens Feature Pack 202105的
 feature: 功能套件
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
@@ -39,11 +39,11 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 
    請參閱下列檔案，了解如何在每個支援的作業系統中設定名稱：
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [蒂森](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **資訊清單產生**
 
    通過改進的效能（如在伺服器上分配較少的資源）加快通道清單的生成。
