@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: 管理畫面
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,27 @@ ht-degree: 0%
 >[!NOTE]
 >
 >若要部署及管理Chrome OS裝置，建議使用Chrome管理控制台之類的裝置管理解決方案。 雖然本檔案提供Chrome管理控制台的實作，但也有其他廠商聲稱可提供類似的功能。 請聯繫設備管理軟體的供應商。
+
+## 命名Chrome OS播放器{#name-chrome}
+
+您可以指派好記的裝置名稱給Chrome播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Chrome播放器命名，也可讓您輕鬆指派適當的內容。
+
+請依照下列步驟，在Chrome播放器中設定名稱：
+
+1. 您可以選擇允許AV整合商或IT管理員在企業註冊過程中設定資產ID和位置。
+
+   ![影像](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. 當您可以註冊設備時，將顯示選項。
+
+   ![影像](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. 您可以在企業註冊以及Chrome管理控制台中設定資產ID。
+
+   ![影像](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Chrome播放器必須登入企業註冊，且Chrome播放器必須透過Chrome管理控制台部署，否則資產ID將傳回空白（例如，以Chrome為擴充功能）。 設備名稱僅在註冊時記錄。 Adobe Experience Manager(AEM)將不會擷取未來的變更。
 
 ### 啟用Kiosk模式{#enabling-kiosk-mode}
 
