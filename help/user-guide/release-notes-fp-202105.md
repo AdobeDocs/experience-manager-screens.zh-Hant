@@ -1,13 +1,13 @@
 ---
 title: Feature Pack 202105發行說明
-description: 「如需2021年6月1日發行的AEM Screens Feature Pack 202105的相關資訊，請詳閱本頁。」
+description: 「如需2021年6月4日發行的AEM Screens Feature Pack 202105的相關資訊，請詳閱本頁。」
 feature: 功能套件
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
@@ -24,14 +24,26 @@ AEM Screens發行AEM 6.5 Feature Pack 8。
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 202105的發行日期為2021年6月3日。
+AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 
 ### 新功能 {#what-is-new}
 
-* **在AEM Screens頻道中鎖定頁面**
+* **在AEM Screens通道中鎖定頁面**
 
    AEM Screens現在支援&#x200B;*鎖定頁面*，如AEM Sites中已實作。 Adobe Experience Manager(AEM)可讓您鎖定頁面，讓其他人都無法修改內容。 當您對特定頁面進行許多編輯，或需要將頁面凍結一段時間時，這個功能會很實用。
 
+* **命名AEM Screens播放器裝置**
+
+   AEM Screens播放器現在包含傳送裝置名稱至Adobe Experience Manager(AEM)的功能。
+預設情況下，當使用批量註冊註冊設備時，系統生成的用戶名將輸入到標題欄位中。 或者，客戶可能會使用資產標籤或其他好記的名稱，以便顯示在AEM中，並更輕鬆指派適當的內容。
+
+   請參閱下列檔案，了解如何在每個支援的作業系統中設定名稱：
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **資訊清單產生**
 
    通過改進的效能（如在伺服器上分配較少的資源）加快通道清單的生成。
