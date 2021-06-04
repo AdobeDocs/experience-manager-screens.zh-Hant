@@ -4,9 +4,9 @@ description: 本頁面說明Tizen Player的安裝與運作方式。
 feature: 管理螢幕、播放器
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ ht-degree: 1%
 1. 取得本機HTTP伺服器的IP或URL（若擷取至子資料夾，而非根資料夾，則取得步驟2中包含擷取檔案的資料夾路徑）
 
 1. Tizen播放器會從本機伺服器下載安裝程式。
+
+### 命名Tizen播放器{#name-tizen}
+
+您可以指派好記的裝置名稱給您的Tizen播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Tizen播放器命名，也可讓您輕鬆指派適當內容。
+
+請依照下列步驟，在Tizen播放器中設定名稱：
+
+1. 按一下遠端上的功能表按鈕。
+1. 導覽至&#x200B;**network** —> **裝置名稱** ，為播放器指派名稱。
 
 ### 在Samsung設備{#config-updates}上配置更新
 
