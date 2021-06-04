@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 feature-set: Experience Manager Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 13%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 13%
    + [疑難排解設備控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [Feature Pack 202105發行說明](release-notes-fp-202105.md)
    + [Feature Pack 202103發行說明](release-notes-fp-202103.md)
    + [Feature Pack 202011發行說明](release-notes-fp-202011.md)
    + [Feature Pack 202008發行說明](release-notes-fp-202008.md)
