@@ -13,9 +13,9 @@ docset: aem65
 feature: 管理螢幕，Android Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,15 @@ ht-degree: 0%
 ## 使用企業移動管理的Android Player批量配置{#bulk-provisioning}
 
 大量部署Android播放器時，使用AEM手動註冊每個播放器將變得很麻煩。 強烈建議使用EMM（企業移動管理）解決方案（如VMWare Airwatch、MobileIron或Samsung Knox）來遠程調配和管理您的部署。 AEM Screens Android player支援業界標準的EMM AppConfig，以允許遠端布建。
+
+## 命名Android播放器{#name-android}
+
+您可以指派好記的裝置名稱給Android播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Android播放器命名，也可讓您輕鬆指派適當的內容。
+
+請依照下列步驟，在Android播放器中設定名稱：
+
+1. 導覽至&#x200B;**settings** —> **關於device**
+1. 編輯並設定裝置名稱以為Android播放器命名
 
 ### 使用企業移動管理實作Android Player的大量布建 {#implementation}
 
