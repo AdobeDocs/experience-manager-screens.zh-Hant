@@ -4,9 +4,9 @@ description: 本頁面說明Tizen Player的安裝與運作方式。
 feature: 管理螢幕、播放器
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 1. 取得本機HTTP伺服器的IP或URL（若擷取至子資料夾，而非根資料夾，則取得步驟2中包含擷取檔案的資料夾路徑）
 
-1. Tizen播放器會從本機伺服器下載安裝程式。
+1. Tizen播放器從本機伺服器下載安裝程式。
 
 ### 命名Tizen播放器{#name-tizen}
 
-您可以指派好記的裝置名稱給您的Tizen播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Tizen播放器命名，也可讓您輕鬆指派適當內容。
+您可以將好記的裝置名稱指派給您的Tizen播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Tizen播放器命名，也可讓您輕鬆指派適當內容。
 
 請依照下列步驟，在Tizen播放器中設定名稱：
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
->有些瀏覽器引擎與AEM 6.5發出到AEM 6.7的登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。在大多數情況下，可將瀏覽器升級至最新可用版本，以解決此問題。 在某些情況下，例如使用智慧顯示器、機頂盒或具有嵌入式瀏覽引擎的其他設備可能無法進行此類升級。
+>有些瀏覽器引擎與AEM 6.5發出的登入Token中使用的&#x200B;*SameSite=None*&#x200B;屬性不相容。通常，將瀏覽器升級為最新可用版本可解決此問題。 在某些情況下，例如使用智慧顯示器、機頂盒或具有嵌入式瀏覽引擎的其他設備可能無法進行此類升級。
 
 使用&#x200B;*SameSite=None*&#x200B;時，請依照下列步驟免除這些不相容的用戶端：
 
