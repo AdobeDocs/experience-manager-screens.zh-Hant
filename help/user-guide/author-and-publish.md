@@ -4,17 +4,17 @@ seo-title: 在AEM Screens中設定作者和發佈
 description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上製作，然後轉送複製到多個發佈例項。 請詳閱本頁，了解如何為AEM Screens設定作者和發佈。
 seo-description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上製作，然後轉送複製到多個發佈例項。 請詳閱本頁，了解如何為AEM Screens設定作者和發佈。
 feature: 管理畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%
 
 ---
 
-
-# 在AEM Screens中設定作者和發佈{#configuring-author-and-publish-in-aem-screens}
+# 在AEM Screens中設定作者和發佈 {#configuring-author-and-publish-in-aem-screens}
 
 本頁面重點說明下列主題：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 >如果您想要與Dispatcher搭配使用多個發佈例項，必須更新Dispatcher.any檔案。 如需詳細資訊，請參閱[啟用嚴格工作階段](dispatcher-configurations-aem-screens.md#enable-sticky-session)。
 
-## 配置製作和發佈實例{#configuring-author-and-publish-instances}
+## 設定製作和發佈例項 {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ ht-degree: 0%
 * Publish 1(pub1)—> localhost:4503
 * Publish 2(pub2)—> localhost:4504
 
-## 在作者{#setting-replication-agents}上設定復寫代理
+## 在作者上設定復寫代理 {#setting-replication-agents}
 
 要建立複製代理，您必須了解如何建立標準複製代理。
 
@@ -62,7 +62,7 @@ Screens需要3個複製代理：
 1. **Screens複製代理**
 1. **反向複寫代理**
 
-### 步驟1:建立預設複製代理{#step-creating-a-default-replication-agent}
+### 步驟1:建立預設複製代理 {#step-creating-a-default-replication-agent}
 
 請按照以下步驟建立預設複製代理：
 
@@ -103,22 +103,22 @@ Screens需要3個複製代理：
    >您也可以複製和重新命名現有的預設復寫代理。
 
 
-#### 建立標準複製代理{#creating-standard-replication-agents}
+#### 建立標準復寫代理  {#creating-standard-replication-agents}
 
 1. 為pub1建立標準復寫代理（應已設定現成預設代理）(例如&#x200B;*https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. 為pub2建立標準複製代理。 您可以複製pub1的rep代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
-#### 建立螢幕複製代理{#creating-screens-replication-agents}
+#### 建立Screens復寫代理 {#creating-screens-replication-agents}
 
 1. 為pub1建立AEM Screens復寫代理。 現成可用，有一個名為Screens Replication Agent ，指向埠4503。 這必須啟用。
 1. 為pub2建立AEM Screens復寫代理。 複製pub1的Screens復寫代理，並將pub2的埠更改為指向4504。
 
-#### 建立螢幕反向複製代理{#creating-screens-reverse-replication-agents}
+#### 建立Screens反向復寫代理 {#creating-screens-reverse-replication-agents}
 
 1. 為pub1建立標準反向複製代理。
 1. 為pub2建立標準反向複製代理。 您可以複製pub1的反向rep代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。
 
-## 設定發佈拓撲{#setting-up-publish-topology}
+## 設定發佈拓撲 {#setting-up-publish-topology}
 
 ### 步驟1:設定Apache Sling Oak-Based Discovery {#step-configure-apache-sling-oak-based-discovery}
 
@@ -136,11 +136,11 @@ Screens需要3個複製代理：
 
 每個發佈例項的設定應相同，而自動停止本機回圈可防止無限回圈。
 
-#### 步驟2:驗證發佈拓撲{#step-verify-publish-topology}
+#### 步驟2:驗證發佈拓撲 {#step-verify-publish-topology}
 
 對於任何發佈例項，請導覽至`https://:/system/console/topology`。 您應該會在&#x200B;**傳出拓撲連接器**&#x200B;下看到拓撲中表示的每個發佈實例。
 
-#### 步驟3:設定ActiveMQ Artemis群集{#step-setup-activemq-artemis-cluster}
+#### 步驟3:安裝ActiveMQ Artemis群集 {#step-setup-activemq-artemis-cluster}
 
 此步驟允許您為ActiveMQ Artemis群集建立加密的密碼。
 拓撲中所有發佈實例的群集用戶和口令必須相同。 需要加密ActiveMQ Artemis配置的密碼。 由於每個實例都有各自的加密密鑰，因此必須使用加密支援來建立加密的密碼字串。 然後，在ActiveMQ的OSGi配置中將使用加密的密碼。
@@ -159,7 +159,7 @@ Screens需要3個複製代理：
 >密碼的開頭和結尾應為大括弧。 例如：
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
-#### 步驟4:激活ActiveMQ Artemis群集{#step-activate-activemq-artemis-cluster}
+#### 步驟4:激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
 在每個發佈例項上：
 
@@ -170,7 +170,7 @@ Screens需要3個複製代理：
    * ***群集密碼***:為每個個別執行個體使用上一步的加密值
    * ***主題***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
-#### 驗證ActiveMQ Artemis群集{#verify-activemq-artemis-cluster}
+#### 驗證ActiveMQ Artemis群集 {#verify-activemq-artemis-cluster}
 
 在每個Publish執行個體上遵循下列步驟：
 
@@ -193,7 +193,7 @@ Screens需要3個複製代理：
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
-#### 移除反向連結標題需求{#remove-referrer-header-requirement}
+#### 移除反向連結標題需求 {#remove-referrer-header-requirement}
 
 請依照每個Publish例項上的步驟操作：
 
@@ -201,7 +201,7 @@ Screens需要3個複製代理：
 1. 選取&#x200B;**Apache Sling Referrer Filter**
 1. 更新配置並檢查「允許空&#x200B;**」**
 
-### 配置製作和發佈實例{#configuring-author-and-publish-instance}
+### 設定製作和發佈例項 {#configuring-author-and-publish-instance}
 
 設定發佈拓撲後，您需要配置製作和發佈實例，以查看實施的實際結果：
 
@@ -211,7 +211,7 @@ Screens需要3個複製代理：
 >
 >若要開始使用此範例，請建立新的AEM Screens專案，然後在專案中建立位置、顯示和管道。 新增內容至頻道，並將頻道指派給顯示器。
 
-#### 步驟1:啟動AEM Screens播放器（裝置）{#step-starting-an-aem-screens-player-device}
+#### 步驟1:啟動AEM Screens播放器（裝置） {#step-starting-an-aem-screens-player-device}
 
 1. 啟動個別的瀏覽器視窗。
 1. 使用&#x200B;*網頁瀏覽器*（即`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`）前往Screens播放器，或啟動AEM Screens應用程式。 當您開啟設備時，您會注意到設備的狀態為未註冊。
@@ -220,7 +220,7 @@ Screens需要3個複製代理：
 >
 >您可以使用下載的AEM Screens應用程式或使用網頁瀏覽器開啟AEM Screens播放器。
 
-#### 步驟2:在作者{#step-registering-a-device-on-author}上註冊裝置
+#### 步驟2:在作者上註冊裝置 {#step-registering-a-device-on-author}
 
 1. 前往`https://localhost:4502/screens.html/content/screens/we-retail`或選取您的專案，然後導覽至「裝置>裝置管理員」。
 1. 選擇&#x200B;**註冊設備**。
@@ -229,7 +229,7 @@ Screens需要3個複製代理：
 1. 驗證註冊代碼，然後按一下&#x200B;**Validate**。
 1. 輸入設備的標題，然後按一下&#x200B;**註冊**。
 
-#### 步驟3:將設備分配給顯示{#step-assigning-the-device-to-display}
+#### 步驟3:為顯示指定設備 {#step-assigning-the-device-to-display}
 
 1. 按一下前一步驟的對話框中的&#x200B;**指定顯示**。
 1. 從&#x200B;**Locations**&#x200B;資料夾中選取通道的顯示路徑。
@@ -238,7 +238,7 @@ Screens需要3個複製代理：
 
 檢查您的播放器，您就會看到您在頻道中新增的內容。
 
-#### 步驟4:發佈設備配置以發佈實例{#step-publishing-device-configuration-to-publish-instances}
+#### 步驟4:將裝置配置發佈到發佈實例 {#step-publishing-device-configuration-to-publish-instances}
 
 **驗證設備**
 
@@ -268,7 +268,7 @@ Screens需要3個複製代理：
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### 發佈檢查清單{#publishing-check-list}
+### 發佈檢查清單 {#publishing-check-list}
 
 以下幾點匯總了「發佈檢查」清單：
 
@@ -290,7 +290,7 @@ Screens需要3個複製代理：
 1. 使用不同的發佈例項重複這些步驟
 
 
-#### 步驟5:在「管理面板」 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}中指向要發佈實例的設備
+#### 步驟5:在「管理面板」中指向裝置以發佈例項 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. 從Screens播放器檢視管理員UI，在左上角長按以開啟「管理員」功能表、啟用觸控的AEM Screens播放器，或使用滑鼠。
 1. 按一下側面板中的&#x200B;**Configuration**&#x200B;選項。
@@ -307,5 +307,3 @@ Screens需要3個複製代理：
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 **管理出版物**&#x200B;功能可讓您將內容更新從作者傳送至裝置，以發佈至裝置。 您可以發佈/取消發佈整個AEM Screens專案的內容，或僅發佈其中一個管道、位置、裝置、應用程式或排程的內容。 若要深入了解此功能，請參閱[隨需內容更新](on-demand-content.md)。
-
-
