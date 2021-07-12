@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# 建立和管理Live Copy {#creating-and-managing-a-live-copy}
+# 建立和管理即時副本 {#creating-and-managing-a-live-copy}
 
 本頁面說明如何建立和管理管道的即時副本。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 本頁面說明如何建立管道的即時副本、檢視屬性、檢查狀態，以及將變更從管道傳播至其即時副本。
 
 
-## 建立即時副本{#creating-a-live-copy}
+## 建立即時副本 {#creating-a-live-copy}
 
 請依照下列步驟，在專案資料夾中建立管道的即時副本。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
-## 檢視即時副本頻道{#viewing-content-of-the-live-copy-channel}的內容
+## 檢視即時副本頻道的內容 {#viewing-content-of-the-live-copy-channel}
 
 即時副本是已存在之管道的副本。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >檢視即時副本頻道的內容時，您會在功能表中以&#x200B;**即時副本狀態**&#x200B;檢視額外項目。 如需詳細資訊，請參閱下方的一節。
 
-### 查看Live Copy {#viewing-properties-of-a-live-copy}的屬性
+### 檢視即時副本的屬性 {#viewing-properties-of-a-live-copy}
 
 此外，您也可以檢視即時副本管道的屬性。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![chlimage_1-23](assets/chlimage_1-23.png)
 
-### 中斷繼承{#breaking-the-inheritance}
+### 中斷繼承 {#breaking-the-inheritance}
 
 您也可以取消Live Copy的繼承，讓內容與原始分支無關。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
-### 將更改傳播到Live Copy通道{#propagating-changes-to-the-live-copy-channel}
+### 將變更傳播至即時副本通道 {#propagating-changes-to-the-live-copy-channel}
 
 如果您在原始管道中進行變更/更新，您也需要將這些變更傳播至您的即時副本管道。
 
@@ -135,4 +135,3 @@ ht-degree: 0%
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    您會發現影像現在也從即時副本頻道中刪除。
-
