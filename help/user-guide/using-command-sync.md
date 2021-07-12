@@ -4,17 +4,17 @@ seo-title: 使用命令同步
 description: 請按照本頁了解如何使用命令同步。
 seo-description: 請按照本頁了解如何使用命令同步。
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
-
-# 命令同步{#command-sync}
+# 命令同步 {#command-sync}
 
 以下頁介紹如何使用命令同步。 命令同步允許在不同播放器之間同步播放。 播放器可以播放不同的內容，但每個資產需要有相同的持續時間。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 當&#x200B;*master*&#x200B;要開始播放項時，它會向所有註冊的客戶端發送命令。 此項目的有效負載可以是要播放之項目的索引和/或要播放之元素的外部html。
 
-## 實現命令同步{#using-command-sync}
+## 實作命令同步 {#using-command-sync}
 
 以下章節說明如何在AEM Screens專案中使用命令同步。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >對於同步播放，要求所有硬體設備具有相同的硬體規範，最好是相同的作業系統。 不建議在不同的硬體和作業系統之間同步。
 
-### 設定項目{#setting-up}
+### 設定專案 {#setting-up}
 
 使用「命令同步」功能之前，請確保您有項目和通道，其中已為項目設定了內容。
 
@@ -90,7 +90,7 @@ ht-degree: 2%
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### 設定主{#setting-up-master}
+### 設定主版 {#setting-up-master}
 
 1. 從&#x200B;**CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay**&#x200B;導覽至顯示控制面板，然後按一下動作列中的&#x200B;**Dashboard**。
 您會在**DEVICES**面板中看到兩部裝置（chrome和windows player），如下圖所示。
@@ -108,7 +108,7 @@ ht-degree: 2%
 >
 >您可以將多個裝置設定為主版。
 
-### 與主版{#sync-up-master}同步
+### 與主版同步 {#sync-up-master}
 
 1. 將Chrome裝置設為主版後，您就可以同步其他裝置（在此例中是Windows播放器）以與主版同步。
 從**DEVICES**&#x200B;面板中選擇其他設備（在本例中為windows player），然後按一下&#x200B;**同步到主設備**，如下圖所示。
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### 與主版{#desync-up-master}取消同步
+### 與主版取消同步 {#desync-up-master}
 
 將設備或設備同步到主設備後，可以從該設備取消同步分配。
 
