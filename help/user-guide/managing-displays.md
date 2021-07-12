@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
-
-# 建立和管理顯示{#creating-and-managing-displays}
+# 建立和管理顯示 {#creating-and-managing-displays}
 
 顯示器是通常彼此相鄰的螢幕的虛擬分組。 對於安裝，顯示器通常是永久的。 這將是作者將使用的物件內容，且一律以邏輯顯示方式參照，而非其實體計數器部分。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [建立和管理管道](managing-channels.md)
 * [建立和管理位置](managing-locations.md)
 
-## 建立新顯示{#creating-a-new-display}
+## 建立新顯示 {#creating-a-new-display}
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 0%
 >
 >請參閱[指派頻道](channel-assignment.md)區段，了解如何指派頻道給顯示器。
 
-## 建立新設備配置{#creating-a-new-device-config}
+## 建立新設備配置 {#creating-a-new-device-config}
 
 裝置設定可作為實際數位看板裝置（尚未安裝）的預留位置。
 
@@ -111,14 +111,14 @@ ht-degree: 0%
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### 顯示資訊面板{#display-information-panel}
+### 顯示資訊面板 {#display-information-panel}
 
 「**顯示資訊**」面板提供顯示屬性。
 
 按一下(**...**)，以檢視屬性並預覽顯示。****
 
 
-#### 查看屬性{#viewing-properties}
+#### 查看屬性 {#viewing-properties}
 
 按一下「**屬性**」以查看或更改顯示的屬性。
 
@@ -127,12 +127,12 @@ ht-degree: 0%
 使用&#x200B;**CRXDE Lite**&#x200B;來存取&#x200B;**idleTimeout**&#x200B;屬性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` 。
 
 
-### 「指定通道」面板{#assigned-channels-panel}
+### 「已分配通道」面板 {#assigned-channels-panel}
 
 **已分配通道**&#x200B;面板顯示為此設備分配的通道。
 
 
-### 設備面板{#devices-panel}
+### 裝置面板 {#devices-panel}
 
 **DEVICES**&#x200B;面板提供有關裝置設定的資訊。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
-#### 後續步驟{#the-next-steps}
+#### 後續步驟 {#the-next-steps}
 
 完成為位置建立顯示器後，您需要為顯示器指派通道。
 
