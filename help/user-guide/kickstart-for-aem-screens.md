@@ -3,17 +3,17 @@ title: 副標題指南
 seo-title: 副標題指南
 description: 請依照本頁面建立示範AEM Screens專案。 它可協助您從安裝開始和設定新專案開始，建立數位看板體驗，以在AEM Screens player中檢視您的內容。
 feature: 概述，數位招牌
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 2%
 
 ---
 
-
-# 副標題指南{#kickstart-guide}
+# 副標題指南 {#kickstart-guide}
 
 AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步引導您設定基本的數位看板體驗，並將資產和/或視訊等內容新增至每個頻道，並進一步將內容發佈至AEM Screens播放器。
 
@@ -33,7 +33,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 >請依照下列步驟啟用&#x200B;***Apache Sling Referrer Filter Allow Empty***:
 
 
-## 允許空的反向連結請求{#allow-empty-referrer-requests}
+## 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
 1. 透過AEM例項 — >槌子圖示 — > **Operations** —> **Web主控台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
 
@@ -41,7 +41,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
 1. **Adobe Experience Manager Web主控台設** 定隨即開啟。搜尋Sling反向連結。
 
-   要搜尋Sling反向連結屬性，請按&#x200B;**Command+F**&#x200B;鍵&#x200B;**Mac**&#x200B;和&#x200B;**Control+F**&#x200B;鍵&#x200B;**Windows**。
+   要搜尋Sling反向連結屬性，請按&#x200B;**Command+F**&#x200B;鍵(**Mac**)和&#x200B;**Control+F**&#x200B;鍵(**Windows**)。
 
 1. 勾選&#x200B;**允許空白**&#x200B;選項，如下圖所示。
 
@@ -49,9 +49,9 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
 1. 按一下&#x200B;**Save**&#x200B;以啟用Apache Sling反向連結篩選器允許空白。
 
-## 在5分鐘內建立數位看板體驗{#creating-a-digital-signage-experience-in-minutes}
+## 在5分鐘內建立數位看板體驗 {#creating-a-digital-signage-experience-in-minutes}
 
-### 建立AEM Screens專案{#creating-project}
+### 建立AEM Screens專案 {#creating-project}
 
 第一步是建立AEM Screens專案。
 
@@ -64,7 +64,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
    >[!NOTE]
    >建立專案後，專案會回到Screens專案首頁。 您現在可以選取專案。 在項目中，有五個不同的資料夾，標題為&#x200B;**Applications**、**Channels**、**Devices**、**Locations**&#x200B;和&#x200B;**Schedules**。
 
-### 建立通道{#creating-channel}
+### 建立管道 {#creating-channel}
 
 建立AEM Screens專案後，您需要建立可管理內容的新管道。
 
@@ -85,7 +85,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
    ![影像](assets/kickstart/demo-5.png)
 
-### 將內容新增至頻道{#adding-content}
+### 新增內容至管道 {#adding-content}
 
 在管道就緒後，您需要將內容新增至將顯示的AEM Screens播放器。
 
@@ -103,7 +103,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
    ![影像](assets/kickstart/demo-7.png)
 
-### 建立位置{#creating-location}
+### 建立位置 {#creating-location}
 
 管道就緒後，您需要建立位置。
 
@@ -123,7 +123,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 已建立&#x200B;**TestLocation**&#x200B;並將其添加到&#x200B;**Locations**&#x200B;資料夾。
 
 
-### 建立位置{#creating-display}的顯示
+### 建立位置顯示 {#creating-display}
 
 建立位置後，您需要為位置建立新顯示。
 
@@ -148,7 +148,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
    ![影像](assets/kickstart/demo-disp4.png)
 
-### 分配通道{#assigning-channel}
+### 指派管道 {#assigning-channel}
 
 專案設定完成後，您必須將頻道指派給顯示器以檢視內容。
 
@@ -182,7 +182,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
 1. 在配置首選項後，按一下&#x200B;**保存**。
 
-### 註冊設備並將設備分配給顯示器{#registering-device}
+### 註冊設備並將設備分配給顯示器 {#registering-device}
 
 您必須使用AEM控制面板註冊裝置。
 
@@ -238,7 +238,7 @@ AEM Screens的啟動示範如何設定及執行AEM Screens專案。 它會逐步
 
    ![影像](assets/kickstart/demo-register9.png)
 
-### 在Chrome Player {#viewing-content-output}中檢視內容
+### 在Chrome Player中檢視內容 {#viewing-content-output}
 
 您管道中的所有資產現在都會在Chrome OS播放器上播放。
 
