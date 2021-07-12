@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
-
-# 酒店預訂激活{#hospitality-reservation-activation}
+# 酒店預訂激活 {#hospitality-reservation-activation}
 
 下列使用案例示範如何根據Google工作表中填入的值啟用醫院預留。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在AEM Screens中設定ContextHub ](configuring-context-hub.md) 。
 
-## 基本流{#basic-flow}
+## 基本流量 {#basic-flow}
 
 請依照下列步驟，為您的AEM Screens專案實作旅館業保留啟用使用案例：
 
@@ -86,6 +86,4 @@ ht-degree: 0%
 
    1. 按一下「**預覽」。** 此外，請開啟您的Google工作表並更新其值。
    1. 更新&#x200B;**Restaurant1**&#x200B;和&#x200B;**Restaurant2**&#x200B;欄中的值。 如果&#x200B;**Restaurant1** > **Restaurant2,**&#x200B;您應該能夠查看&#x200B;*牛排*&#x200B;食品的影像，否則，螢幕上將顯示&#x200B;*泰國*&#x200B;食品影像。
-
    ![結果5](assets/result5.gif)
-
