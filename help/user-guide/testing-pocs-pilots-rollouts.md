@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: 概覽
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-
-# 第3部分：測試、POC、試運行和推廣{#part-testing-pocs-pilots-rollouts}
+# 第3部分：測試、POC、試點和推廣 {#part-testing-pocs-pilots-rollouts}
 
 本頁重點介紹5個部分系列的第3部分，該系列旨在幫助團隊成員更好地了解關鍵術語，以確保在推出之前能夠開發成功的解決方案。
 
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 例如，零售環境中數位看板計畫的利害關係人可能包括：店內行銷、商店環境或視覺銷售、商店運營、IT安全性、IT支援、產品類別商家及其供應商，他們可能共同為解決方案提供資金。
 
-## 總體項目計畫{#summary-of-key-terms-involved-in-an-overall-project-plan}中涉及的關鍵術語摘要
+## 總體項目計畫涉及的關鍵術語摘要 {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 以下部分概述總體項目計畫中涉及的關鍵術語，如項目週期、硬體測試操作、概念證明、試點和推廣。
 
-### 概念證明(POC){#proof-of-concept-poc}
+### 概念驗證(POC) {#proof-of-concept-poc}
 
 POC的目的是獲得對解決方案關鍵功能的初步反饋，並使最終客戶端和AV Integrator都有機會確定需要改進的領域並準備有關勞動需求和資源需求的假設。 POC還為雙方提供了評估解決方案效能的機會，這通常通過以下方式來衡量：
 
-### 質量控制{#quality-control}
+### 質量控制 {#quality-control}
 
 系統與軟體整合測試從AV Integrator的IT工程團隊開始。 IT工程團隊參考經批准的系統設計，在AV Integrator設施的「實驗室環境」中配置、實施和監督硬體元件的安裝。 這樣，您就可以仔細審查和測試整個解決方案，以實現質量控制。
 
@@ -62,7 +62,7 @@ POC的目的是獲得對解決方案關鍵功能的初步反饋，並使最終�
 * 連接
 * 內容部署工作流程，包括手動、自動和條件式部署。
 
-## 第3部分：有關測試、POC、試點和轉出的視頻教程{#part-video-tutorial-on-testing-pocs-pilots-rollouts}
+## 第3部分：有關測試、POC、試點和推廣的視頻教程 {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
 請依照下列教學課程，了解測試、概念證明、試點計畫和推出。
 
@@ -74,7 +74,7 @@ POC的目的是獲得對解決方案關鍵功能的初步反饋，並使最終�
 
 *了解整體專案計畫中的關鍵術語，例如專案週期、硬體測試相關動作、概念證明、試用和推出。*
 
-## 下一步{#the-next-step}
+## 下一步 {#the-next-step}
 
 在您完成測試、概念驗證、試點計畫和推廣後，請按照下一個教程深入了解項目管理和相關流程。
 
