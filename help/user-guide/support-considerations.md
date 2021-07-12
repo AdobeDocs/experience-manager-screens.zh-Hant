@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: 概覽
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
-
-# 第5部分：支援考量事項{#part-support-considerations}
+# 第5部分：支援考量事項 {#part-support-considerations}
 
 本頁重點介紹5個部分系列的結尾部分，該系列旨在幫助團隊成員了解如何解決硬體、軟體和連接問題。 此階段探討現場支援的成本估計和框架。 此外，也說明如何管理SLA參數、操作預算和NOC移交。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 確定在整個網路中重新調解問題的最佳方法。
 * 在建立第2天支援計畫時，推動AEM實施者與AV Integrator之間的協調
 
-## 第2天支援{#summary-of-key-considerations-involved-in-day-support}中涉及的主要注意事項摘要
+## 第2天支援中涉及的主要注意事項摘要 {#summary-of-key-considerations-involved-in-day-support}
 
 以下是第2天支援的一些主要考量事項：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * 有些螢幕製造商提供獨立於媒體播放器的螢幕監視功能，而其他製造商則需要外部裝置。
 * AV整合商利用多種技術，因此解決方案保持靈活性，以最好地滿足最終客戶的需求。
 
-## 第5部分：支援考量事項{#part-video-tutorial-on-support-considerations}教學課程影片
+## 第5部分：支援考量事項的教學課程影片 {#part-video-tutorial-on-support-considerations}
 
 請依照本結束教學課程，參閱以下的5個部分系列教學課程，著重於確保從實施到操作支援的協調性和順暢過渡。 它還說明AEM實施者必須如何與AV Integrator合作，以確保在第2天支援計畫中定義的適當支援指令碼。
 
@@ -72,4 +72,3 @@ ht-degree: 0%
 ## 結論 {#conclusion}
 
 這5個部分系列重點介紹確保項目成功的關鍵注意事項。 如需實作詳細資訊，請參閱AEM Screens使用指南的其他章節。
-
