@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 2%
 
 ---
-
 
 # 文字重疊 {#text-overlay}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 本節只會展示如何在AEM Screens專案中使用和運用海報元件，並在其中一個序列管道中作為文字覆蓋使用。
 
-## 使用文字覆蓋{#using-text-overlay}
+## 使用文字覆蓋 {#using-text-overlay}
 
 下節說明在AEM Screens專案中使用文字覆蓋的方式。
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
-### 了解文字覆蓋屬性{#understanding-text-overlay-properties}
+### 了解文字覆蓋屬性 {#understanding-text-overlay-properties}
 
 使用「文字覆蓋」屬性，您可以將文字新增至Screens專案中的任何元件。 下節提供文字覆蓋中可用屬性的概觀：
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 >
 >若要正確使用微調工具，請務必以(px)作為尾碼（例如200px）來識別正確的像素位置。 此運算式的結果將是從起始點開始200像素。
 
-## 在文字覆蓋{#using-text-overlay-context-hub}中使用ContextHub值
+## 在文字覆蓋中使用ContextHub值 {#using-text-overlay-context-hub}
 
 以下章節說明資料存放區中值的使用方式，例如文字覆蓋元件中的google工作表。
 
@@ -149,18 +149,3 @@ ht-degree: 2%
 1. 按一下&#x200B;**預覽**&#x200B;以檢視所需的輸出。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
