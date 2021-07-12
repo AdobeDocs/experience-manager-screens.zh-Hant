@@ -4,17 +4,17 @@ seo-title: 使用Chrome Player作為擴充功能
 description: 請詳閱本頁，了解如何將Chrome播放器安裝為瀏覽器擴充功能。
 seo-description: 'null'
 feature: 管理畫面
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# 使用Chrome播放器作為擴充功能{#using-chrome-player}
+# 使用Chrome Player作為擴充功能 {#using-chrome-player}
 
 ChromeOS播放器可在開發人員模式下，安裝為Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。
 
@@ -44,7 +44,7 @@ ChromeOS播放器可在開發人員模式下，安裝為Chrome瀏覽器外掛程
    > 依預設，播放器會以全螢幕模式啟動。 按&#x200B;**esc**&#x200B;退出全螢幕模式。
 
 
-## 進階偵錯提示{#advanced-debugging-tips}
+## 進階除錯提示 {#advanced-debugging-tips}
 
 1. 播放器在本機下載內容後，您可以前往`http://localhost:24502`瀏覽本機下載的內容。
 
@@ -59,7 +59,7 @@ ChromeOS播放器可在開發人員模式下，安裝為Chrome瀏覽器外掛程
 
    **除錯背景頁面**:開啟管理員UI，然後按一下滑鼠右鍵並檢查背景頁面（適用於背景服務，例如http伺服器）
 
-## 升級播放器擴充功能{#upgrading-player}
+## 升級播放器擴充功能 {#upgrading-player}
 
 若已發行新版播放器，請依照下列步驟升級播放器擴充功能。 您也可以依照下列指示測試升級案例：
 
