@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
 
 ---
 
-
-# 建立和管理項目{#creating-and-managing-projects}
+# 建立和管理專案 {#creating-and-managing-projects}
 
 依序選取Adobe Experience Manager連結（左上方）和Screens，即可使用AEM Screens。
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 >**導航提示：**
 >您也可以使用游標鍵來瀏覽AEM中的不同資料夾。 此外，選取特定實體後，點擊空格欄可編輯或檢視該特定資料夾的屬性。
 
-## 建立新螢幕項目{#creating-a-new-screens-project}
+## 建立新Screens專案 {#creating-a-new-screens-project}
 
 請依照下列步驟建立新的Screens專案：
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 >依預設，初始結構將包含&#x200B;**Schedules**、**Locations**、**Applications**、**Channels**&#x200B;和&#x200B;**Devices**&#x200B;首頁，但如有需要，可手動調整。 如果可用選項與您的專案無關，您可以移除這些選項。
 
 
-## 查看屬性{#viewing-properties}
+## 查看屬性 {#viewing-properties}
 
 建立Screens專案後，選取專案，然後從動作列按一下「**屬性**」以編輯專案的屬性。
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 ![影像](assets/create-project2.png)
 
 
-## 建立自定義資料夾{#creating-a-custom-folder}
+## 建立自訂資料夾 {#creating-a-custom-folder}
 
 您也可以在&#x200B;**Schedules**、**Locations**、**Applications**、**Channels**&#x200B;和&#x200B;**Devices**&#x200B;首頁下建立自己的自定義資料夾。
 
@@ -82,7 +82,6 @@ ht-degree: 2%
 
 ![player2-1](assets/create-project3.gif)
 
-### 後續步驟{#the-next-steps}
+### 後續步驟 {#the-next-steps}
 
 建立專案後，請參閱[管道管理](managing-channels.md)以建立及管理管道中的內容。
-
