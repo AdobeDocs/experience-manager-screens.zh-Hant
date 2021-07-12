@@ -3,15 +3,15 @@ title: 通道分配 — 最新FP
 seo-title: 通道分配 — 最新FP
 description: 請詳閱本頁，了解管道指派和DayParting。
 feature: 製作螢幕，通道分配
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 2%
 
 ---
-
 
 # 頻道指定任務 {#channel-assignment}
 
@@ -28,11 +28,11 @@ ht-degree: 2%
 >您可以指派多個管道給一個顯示器。
 
 
-## 分配通道{#assign-a-channel-new-release}
+## 指派管道 {#assign-a-channel-new-release}
 
 請依照以下各節建立AEM Screens專案，並指派管道給顯示器。
 
-### 建立AEM Screens專案和通道{#creating-project}
+### 建立AEM Screens專案和管道 {#creating-project}
 
 請依照下列步驟來設定專案和管道：
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### 為顯示{#assigning-channel-to-display}指定通道
+### 為顯示指定通道 {#assigning-channel-to-display}
 
 專案設定完成後，您必須將頻道指派給顯示器以檢視內容。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 1. 在配置首選項後，按一下&#x200B;**保存**。
 
-### 在Chrome Player {#viewing-content-output}中檢視內容
+### 在Chrome Player中檢視內容 {#viewing-content-output}
 
 此範例將展示Chrome播放器的輸出。 將頻道指派給顯示器後，您必須將裝置註冊至播放器。
 
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## 時間軸視圖{#timeline-view}
+## 時間軸檢視 {#timeline-view}
 
 將通道分配給顯示並設定重複計畫後，您可以從&#x200B;**ASSIGNED CHANNELS &amp; SCHEDULES**&#x200B;面板查看時間軸。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## 從通道分配對話框{#channel-properties}了解通道屬性
+## 從通道分配對話框了解通道屬性 {#channel-properties}
 
 從&#x200B;**通道分配**&#x200B;對話框的&#x200B;**設定**&#x200B;選項設定以下屬性。
 
@@ -204,7 +204,7 @@ DayParting指的是將某天分割為時段，並指定在需要的時間播放�
 
 下列範例說明在三種不同情況下管道中的DayParting:
 
-#### 在分成多個時段的單日播放內容{#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### 在分為多個時段的單日播放內容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 此範例說明餐廳如何使用DayParting來展示其每日早餐、午餐和晚餐菜單。
 
@@ -216,7 +216,7 @@ DayParting指的是將某天分割為時段，並指定在需要的時間播放�
 | 午餐 | 每日 | 11:00 AM | 3:00 PM |
 | 晚餐 | 每日 | 3:00 PM | 8:00 PM |
 
-#### 在一週的特定日播放內容{#playing-content-on-a-particular-day-of-the-week}
+#### 在一週中的特定日期播放內容 {#playing-content-on-a-particular-day-of-the-week}
 
 此範例顯示在賭場中實作的DayParting，該賭場每週末從晚8:00至晚10:00舉行即時活動，晚上10:00至下午1:00則提供晚餐菜單的特惠。
 
