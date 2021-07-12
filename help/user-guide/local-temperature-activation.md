@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
-
-# 行程中心溫度激活{#travel-center-temperature-activation}
+# 旅行中心溫度激活 {#travel-center-temperature-activation}
 
 以下使用案例示範如何根據Google工作表中填入的值啟用旅行中心當地溫度。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在AEM Screens中設定ContextHub ](configuring-context-hub.md) 。
 
-## 基本流{#basic-flow}
+## 基本流量 {#basic-flow}
 
 按照以下步驟實施「Travel Center Local Temperature Activation」使用案例：
 
@@ -90,6 +90,4 @@ ht-degree: 0%
 
    1. 按一下「**預覽」。** 此外，請開啟您的Google工作表並更新其值。
    1. 將值變更為50以下，您應該就能檢視夏季飲品的影像。 如果「Google工作表」中的值大於或等於50，則應該可以檢視熱飲的影像。
-
    ![結果3](assets/result3.gif)
-
