@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 2%
 
 ---
 
-
-# 使用動態嵌入序列{#using-dynamic-embedded-sequence}
+# 使用動態內嵌序列 {#using-dynamic-embedded-sequence}
 
 使用動態內嵌序列涵蓋下列主題：
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 若要使用動態內嵌序列，請依&#x200B;***通道角色***&#x200B;指派通道。 管道角色會定義顯示內容。 該角色由各種行動定位，且與實現該角色的實際渠道無關。 本節說明可依角色定義管道的使用案例，以及如何將該內容運用於全域管道。 您也可以將角色視為指派的識別碼，或的通道別名。
 
-### 使用動態嵌入序列{#benefits-of-using-dynamic-embedded-sequences}的優點
+### 使用動態內嵌序列的優點 {#benefits-of-using-dynamic-embedded-sequences}
 
 將序列頻道放置在位置內（而非頻道資料夾）的主要優點，是可讓本機或區域作者編輯與其相關的內容，同時受限於編輯階層中上層的頻道。
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 >
 >若要深入了解通道指派，請參閱AEM Screens檔案中「編寫」區段下的&#x200B;**[通道指派](channel-assignment.md)**。
 
-## 使用動態嵌入序列{#using-dynamic-embedded-sequence-2}
+## 使用動態內嵌序列 {#using-dynamic-embedded-sequence-2}
 
 下節說明如何在AEM Screens管道中建立動態內嵌序列。
 
@@ -258,7 +258,7 @@ ht-degree: 2%
    1. 選擇「調度」的路徑（例如，此處&#x200B;**Demo** —> **調度** —>**AdSchedule**）。
    1. 按一下「**儲存**」。
 
-## 查看結果{#viewing-the-results}
+## 查看結果 {#viewing-the-results}
 
 設定好頻道和顯示完成後，請啟動AEM Screens播放器以檢視內容。
 
@@ -291,7 +291,7 @@ ht-degree: 2%
 
 您需要修改ACL，以根據用戶的位置限制用戶對內容的訪問。
 
-### 使用案例範例{#example-use-case}
+### 範例使用案例 {#example-use-case}
 
 以下範例可讓您為上述示範專案建立三個使用者。
 
@@ -305,7 +305,7 @@ ht-degree: 2%
 
 * **商店作者**:包含只對Store 1 **、Store 2** **、Store 3** **和Store 4**&#x200B;擁有讀取、寫入和編輯權限的 ****&#x200B;使用者。
 
-#### 建立用戶組、用戶和設定ACL的步驟{#steps-for-creating-user-groups-users-and-setting-up-acls}
+#### 建立使用者群組、使用者和設定ACL的步驟 {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
 要詳細了解如何使用ACL隔離項目，使每個個人或團隊都能處理自己的項目，請參閱&#x200B;**設定ACL**。
@@ -406,4 +406,3 @@ ht-degree: 2%
 
 >[!NOTE]
 要詳細了解有關設定權限的資訊，請參閱[設定ACL](setting-up-acls.md)。
-
