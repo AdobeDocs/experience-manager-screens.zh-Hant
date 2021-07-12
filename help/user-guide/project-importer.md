@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: 管理畫面
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
 
 ---
 
-
-# 從檔案{#new-project-importer-from-file}新增專案匯入工具
+# 從檔案新增專案匯入工具 {#new-project-importer-from-file}
 
 本節說明將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案的功能。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 這樣可在初始專案設定或將現有AEM Screens擴充至新位置時，節省時間和金錢。
 
-## 架構概述{#architectural-overview}
+## 架構概述 {#architectural-overview}
 
 下圖將展示Project Importer功能的架構概觀：
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 >
 >任何不符合上述條件的欄將會忽略。 例如，若您的檔案中有任何其他欄在工作表(CSV/XLS)檔案中定義，但&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**&#x200B;除外，則這些欄位將被忽略，而&#x200B;**Project Importer**&#x200B;將您的專案匯入至AEM Screens專案時不會驗證這些其他欄位。
 
-## 使用項目導入程式{#using-project-importer}
+## 使用專案匯入工具 {#using-project-importer}
 
 以下章節說明在AEM Screens專案中如何使用專案匯入工具。
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 [取得檔案](assets/minimal-file.xls)
 
-### 使用最少必填欄位{#importing-the-file-with-minimum-required-fields}導入檔案
+### 使用最少的必填欄位匯入檔案 {#importing-the-file-with-minimum-required-fields}
 
 請依照下列步驟，將檔案匯入至位置資料夾，並填入最少必要欄位：
 
@@ -126,4 +126,3 @@ ht-degree: 1%
 1. 因此，您現在可以檢視匯入至專案的所有位置。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
