@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-
-# 管理設備{#managing-devices}
+# 管理裝置 {#managing-devices}
 
 本頁介紹設備分配。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >在分配設備之前，您需要註冊它。 有關詳細資訊，請參閱[設備註冊](device-registration.md)。
 
-## 設備分配{#device-assignment}
+## 設備分配 {#device-assignment}
 
 請依照下列步驟將裝置指派給顯示器：
 
@@ -71,9 +71,8 @@ ht-degree: 0%
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
-### 後續步驟{#the-next-steps}
+### 後續步驟 {#the-next-steps}
 
 熟悉將管道指派給顯示器後，請參閱下列資源：
 
 * [監視和疑難排解](monitoring-screens.md)
-
