@@ -11,21 +11,21 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 2%
 
 ---
 
-
-# 嵌入序列{#embedded-sequences}
+# 內嵌序列 {#embedded-sequences}
 
 對於頻道，使用&#x200B;***內嵌序列***&#x200B;可讓使用者在上層頻道中新增元件，以及重複使用不同頻道的內容並將其嵌入上層頻道。
 
-## 添加嵌入序列{#adding-embedded-sequences}
+## 添加嵌入的序列 {#adding-embedded-sequences}
 
 您可以選擇將下列元件新增至序列管道：
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >若要了解如何在Screens專案中使用其他元件，請參閱[新增元件至通道](adding-components-to-a-channel.md)。
 
-### 添加嵌入序列{#adding-an-embedded-sequence}
+### 新增內嵌序列 {#adding-an-embedded-sequence}
 
 您可以新增內嵌序列至通道。 內嵌序列是包含影像或視訊等資產的其他管道。 添加嵌入序列允許用戶通過&#x200B;***通道路徑***&#x200B;將序列添加到通道。
 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 ![new2](assets/new2.gif)
 
-### 添加動態嵌入序列{#adding-a-dynamic-embedded-sequence}
+### 新增動態內嵌序列 {#adding-a-dynamic-embedded-sequence}
 
 您可以新增動態內嵌序列至通道。 動態內嵌序列類似於內嵌序列，但可讓使用者遵循階層，對一個管道所做的變更/更新會傳播至相關的其他管道。 它遵循上下階層，也包含影像或視訊等資產。新增動態序列可讓使用者依管道角色新增管道。
 
@@ -111,4 +111,3 @@ ht-degree: 2%
 1. 為序列中的嵌入通道選擇&#x200B;**Sequence**&#x200B;頁簽中的&#x200B;**Duration(ms)**。
 
 ![最新](assets/latest.gif)
-
