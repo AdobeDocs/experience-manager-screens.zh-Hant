@@ -2,17 +2,17 @@
 title: AEM Screens語音識別
 description: 本頁說明AEM Screens中的語音識別功能。
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
 
-
-# AEM Screens語音識別{#voice-recognition}
+# AEM Screens語音識別 {#voice-recognition}
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 以下章節說明如何在AEM Screens專案中啟用和使用語音辨識功能。
 
-## 在全螢幕或分屏通道交換機中查看內容{#sequence-channel}
+## 以全螢幕或分屏通道開關查看內容 {#sequence-channel}
 
 使用語音識別功能之前，請確定您有專案和管道，且已為您的專案設定內容。
 
@@ -77,7 +77,7 @@ ht-degree: 3%
    ![影像](assets/voice-recognition/vr-emb-6.png)
 
 
-### 設定通道的標籤{#setting-tags}
+### 設定管道的標籤 {#setting-tags}
 
 將內容新增至頻道後，您必須導覽至每個頻道，並新增適當標籤以觸發語音辨識。
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 1. 完成後，按一下「**儲存並關閉**」。
 
 
-### 建立標籤{#creating-tags}
+### 建立標籤 {#creating-tags}
 
 請依照下列步驟建立標籤：
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 現在，您可以在AEM Screens專案中使用這些標籤。
 
-### 為顯示器分配通道並啟用語音識別{#channel-assignment}
+### 為顯示器分配通道並啟用語音識別 {#channel-assignment}
 
 1. 在&#x200B;**Locations**&#x200B;資料夾中建立顯示，如下圖所示。
 
@@ -168,7 +168,7 @@ ht-degree: 3%
    >[!IMPORTANT]
    >必須從顯示器啟用語音識別功能。
 
-### 在Chrome播放器{#viewing-content}中檢視內容
+### 在Chrome播放器中檢視內容 {#viewing-content}
 
 完成上述步驟後，您可以註冊Chrome裝置以檢視輸出。
 
@@ -179,13 +179,8 @@ ht-degree: 3%
 
 **Main**&#x200B;頻道正在播放其內容，但當您使用關鍵字&#x200B;**hot**&#x200B;的字詞（例如&#x200B;*I想要熱飲*）時，頻道開始播放&#x200B;**HotDrinks**&#x200B;頻道的內容。
 
-同樣地，如果使用關鍵字&#x200B;**cold**(例如&#x200B;*I想獲得某種冷*&#x200B;的字，則管道開始播放&#x200B;**ColdDrinks**&#x200B;管道的內容。
+同樣地，如果使用關鍵字&#x200B;**cold**(例如&#x200B;*I想獲得某些冷的*，則管道開始播放&#x200B;**ColdDrinks**&#x200B;管道的內容。
 
 **分割螢幕通道所需的輸出**
 
 **Main**&#x200B;頻道正在播放其內容，但是當您將關鍵字&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;等單詞一起使用時，如&#x200B;*I想查看熱飲和冷飲的菜單*，頻道開始播放&#x200B;**SplitScreen**&#x200B;頻道的內容。 若您說&#x200B;*返回主功能表*，則會切換回主通道。
-
-
-
-
-
