@@ -3,21 +3,21 @@ title: 播放器自動註冊
 seo-title: 播放器自動註冊
 description: 請詳閱本頁，了解使用AMS/內部螢幕自動註冊播放器。
 feature: 管理螢幕、播放器
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
-
-# 播放器自動註冊{#auto-registration}
+# 播放器自動註冊 {#auto-registration}
 
 手動大量註冊數千個播放器可能會變得非常麻煩，並增加時間和成本。 為簡化此過程，批量註冊功能允許您在AEM中指定預共用密鑰，該密鑰可以通過配置檔案或移動設備管理(MDM)解決方案被配置到播放器中。
 
-## 實施播放器的自動註冊{#bulk-registering-implementation}
+## 實作播放器的自動註冊 {#bulk-registering-implementation}
 
 請依照下列步驟，實作播放器的自動註冊：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    ![影像](/help/user-guide/assets/auto-registration/auto-register2.png)
 
-## 安全最佳實踐{#security-best-practices}
+## 安全性最佳實務 {#security-best-practices}
 
 請依照下節，考慮安全性的幾項最佳實務：
 
