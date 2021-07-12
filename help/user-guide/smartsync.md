@@ -10,15 +10,15 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: 管理畫面
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
 
 ---
-
 
 # 從ContentSync過渡到SmartSync {#transitioning-from-contentsync-to-smartsync}
 
@@ -39,7 +39,7 @@ SmartSync是AEM Screens使用的最新機制。 取代目前快取離線頻道�
 
 * 播放器會根據上述產生的資訊清單更新其內容。
 
-### 使用SmartSync的好處{#benefits-of-using-smartsync}
+### 使用SmartSync的優點 {#benefits-of-using-smartsync}
 
 SmartSync功能為您的AEM Screens專案提供許多優點。 它允許
 
