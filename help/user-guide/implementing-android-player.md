@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: 管理螢幕，Android Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
 
-
-# 實作Android Player {#implementing-android-player}
+# 實作Android播放器 {#implementing-android-player}
 
 本節說明如何設定Android播放器。 它提供設定檔案的資訊，以及可用選項和建議，說明要用於開發和測試的設定。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 請造訪&#x200B;[**AEM 6.5播放器下載**](https://download.macromedia.com/screens/)頁面。
 
-### 設定AEM Screens 6.5.5 Service Pack {#fp-environment-setup}的環境
+### 設定AEM Screens 6.5.5 Service Pack的環境 {#fp-environment-setup}
 
 >[!NOTE]
 >如果您使用AEM Screens 6.5.5 Service Pack，則必須為Android播放器設定環境。
@@ -52,7 +52,7 @@ ht-degree: 0%
 1. 按一下「**儲存**」。
 
 
-### 臨機方法{#ad-hoc-method}
+### 臨機方法 {#ad-hoc-method}
 
 臨機方法可讓您安裝最新的Android播放器(*.exe*)。 請造訪&#x200B;[**AEM 6.5播放器下載**](https://download.macromedia.com/screens/)頁面。
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 >
 >如果&#x200B;**State**&#x200B;為&#x200B;**UNECROSTERD**，則可以使用&#x200B;**Token**&#x200B;註冊設備。
 
-## 實作Android監視程式{#implementing-android-watchdog}
+## 實作Android監視程式 {#implementing-android-watchdog}
 
 由於Android的架構，重新啟動設備要求應用程式具有系統權限。 要執行此操作，您需要使用製造商的簽名密鑰來簽名apk，否則，監視程式將重新啟動播放器應用程式，而不會重新啟動設備。
 
-### 使用製造商索引鍵{#signage-of-android-apks-using-manufacturer-keys}的Android App招牌
+### 使用製造商金鑰的Android App標牌 {#signage-of-android-apks-using-manufacturer-keys}
 
 若要存取Android的某些特權API，例如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*，您需要使用製造商的金鑰簽署android apk。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 1. &lt;pathto> /zipalign -fv 4 aemscreenplayer.apk aemscreensalid.apk
 1. 使用adb install安裝至裝置，安裝&#x200B;***aemscreensalid.apk***
 
-## 了解Android監視程式服務{#android-watchdog-services}
+## 了解Android監視程式服務 {#android-watchdog-services}
 
 使用&#x200B;*AlarmManager*&#x200B;將跨Android看門狗服務實作為cordova外掛程式。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 **3.應用程式崩潰**&#x200B;如果發生崩潰，向AlarmManager註冊的PendingIntent for Reboot將不再重置，因此它會執行應用程式的重新啟動或重新啟動（取決於cordova插件初始化時的可用權限）。
 
-## Android Player {#bulk-provision-android-player}的大量布建
+## Android Player的大量布建 {#bulk-provision-android-player}
 
 大量推出Android播放器時，需要布建播放器以指向AEM例項，並設定其他屬性，而不需要在管理員UI中手動輸入這些屬性。
 
@@ -133,7 +133,7 @@ ht-degree: 0%
    >[!NOTE]
    >此檔案在首次啟動應用程式時為&#x200B;*只讀*，不能用於後續配置。 如果播放器是在放置配置檔案之前啟動的，只需在設備上卸載並重新安裝應用程式即可。
 
-### 策略屬性{#policy-attributes}
+### 策略屬性 {#policy-attributes}
 
 下表匯總了具有示例策略JSON的策略屬性以供參考：
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 | *enableActivityUI* | 啟用以顯示活動的進度，例如下載和同步。 完全設定後在生產環境中啟用疑難排解功能並加以停用。 |
 | *enableNativeVideo* | 啟用以將原生硬體加速用於視訊播放（僅限Android）。 |
 
-### JSON策略示例{#example-json}
+### JSON原則範例 {#example-json}
 
 ```java
 {
@@ -174,11 +174,11 @@ ht-degree: 0%
 >[!NOTE]
 >無論是否插入實際&#x200B;*sdcard*，所有Android裝置都有&#x200B;*sdcard*&#x200B;資料夾。 部署後，此檔案將與「下載」資料夾處於同一級別。 某些MDM（如Samsung Knox）可能將此&#x200B;*sdcard*&#x200B;資料夾位置稱為&#x200B;*內部儲存*。
 
-## 使用企業移動管理的Android Player批量配置{#bulk-provisioning}
+## 使用企業移動性管理來大量布建Android Player {#bulk-provisioning}
 
 大量部署Android播放器時，使用AEM手動註冊每個播放器將變得很麻煩。 強烈建議使用EMM（企業移動管理）解決方案（如VMWare Airwatch、MobileIron或Samsung Knox）來遠程調配和管理您的部署。 AEM Screens Android player支援業界標準的EMM AppConfig，以允許遠端布建。
 
-## 命名Android播放器{#name-android}
+## 命名Android播放器 {#name-android}
 
 您可以指派好記的裝置名稱給Android播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Android播放器命名，也可讓您輕鬆指派適當的內容。
 
