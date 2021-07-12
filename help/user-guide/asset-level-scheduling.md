@@ -4,17 +4,17 @@ seo-title: 資產層級啟動
 description: 請依照本頁面操作，了解如何在播放器的當地時區中，針對排程的時間範圍，啟動管道中的特定資產。
 seo-description: 請依照本頁面操作，了解如何在播放器的當地時區中，針對排程的時間範圍，啟動管道中的特定資產。
 feature: 製作畫面、資產層級啟動
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
 
 ---
 
-
-# 資產級激活{#asset-level-scheduling}
+# 資產層級啟動 {#asset-level-scheduling}
 
 本頁說明「管道」中所用資產的資產層級啟用。
 
@@ -78,13 +78,13 @@ ht-degree: 0%
 
    ![影像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## 處理資產{#handling-recurrence-in-assets}中的週期
+## 處理資產中的週期 {#handling-recurrence-in-assets}
 
 您也可以根據需求，將資產排程為每日、每週或每月的特定間隔重複執行。
 
 假設您只想在週五下午1:00至晚上10:00顯示影像。 您可以使用&#x200B;**Activation**&#x200B;標籤來設定資產所需的循環間隔。
 
-### 日劃分{#day-parting}
+### 日劃分 {#day-parting}
 
 1. 選取資產，然後按一下「**設定**（扳手圖示）」以開啟「屬性」對話方塊。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### 日劃分的運算式範例{#example-one}
+#### 日劃分的運算式範例 {#example-one}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 >
 >您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
 
-### WeekParting {#week-parting}
+### 周分段 {#week-parting}
 
 1. 選取資產，然後按一下「**設定**（扳手圖示）」以開啟「屬性」對話方塊。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### WeekParting {#example-two}的運算式範例
+#### WeekParting的運算式範例 {#example-two}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 >您也可以使用&#x200B;_full_&#x200B;標籤法（即星期一、星期三、星期五），而非&#x200B;_short-hand_&#x200B;標籤法（即Mon、Wed、Fri）。
 
 
-### MonthParting {#month-parting}
+### 月分 {#month-parting}
 
 1. 選取資產，然後按一下「**設定**（扳手圖示）」以開啟「屬性」對話方塊。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### MonthParting {#example-three}的運算式範例
+#### MonthParting的運算式範例 {#example-three}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 >[!NOTE]
 >定義一週中的天數和月數時，您可以同時使用簡寫和全名附註，例如週一/週一和一月/一月。
 
-### 部件組合{#combined-parting}
+### 零件組合 {#combined-parting}
 
 1. 選取資產，然後按一下「**設定**（扳手圖示）」以開啟「屬性」對話方塊。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### 部分組合的表達式示例{#example-four}
+#### 部件組合的示例表達式 {#example-four}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 >定義一週中的天數和月數時，您可以同時使用簡寫和全名附註，例如週一/週一和一月/一月。  此外，您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
 
 
-## 多資產啟動{#multi-asset-scheduling}
+## 多資產啟動 {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
@@ -222,4 +222,3 @@ ht-degree: 0%
    >已啟動多項資產的資產右上角會顯示排程圖示。
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
