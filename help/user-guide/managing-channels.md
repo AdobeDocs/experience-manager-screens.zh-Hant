@@ -4,17 +4,17 @@ seo-title: 管理管道
 description: 請詳閱本頁，了解如何建立和管理管道。 此外也說明頻道控制面板及編輯頻道的內容。
 seo-description: 請詳閱本頁，了解如何建立和管理管道。 此外也說明頻道控制面板及編輯頻道的內容。
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 2%
 
 ---
 
-
-# 建立和管理通道{#creating-and-managing-channels}
+# 建立和管理管道 {#creating-and-managing-channels}
 
 頻道會顯示一系列內容（影像和影片），也會顯示網站或單頁應用程式。
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [設定和部署畫面](configuring-screens-introduction.md)
 * [建立和管理Screens專案](creating-a-screens-project.md)
 
-## 建立新通道{#creating-a-new-channel}
+## 建立新管道 {#creating-a-new-channel}
 
 為AEM Screens建立專案後，請依照下列步驟為專案建立新管道：
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 1. 「序列」通道現在已新增至您的&#x200B;**Channels**&#x200B;資料夾。
 
-### 通道類型{#channel-types}
+### 管道類型 {#channel-types}
 
 使用精靈時，可使用下列範本選項，例如：
 
@@ -71,14 +71,14 @@ ht-degree: 2%
 >
 > 建立內容並新增至管道後，下一步是建立位置，然後建立顯示。 此外，您需要將該管道指派給顯示器。 請參閱下方小節結尾的資源，以了解更多資訊。
 
-## 使用通道{#working-with-channels}
+## 使用管道 {#working-with-channels}
 
 您可以編輯、檢視屬性和控制面板、複製、預覽和刪除管道。
 
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
-### 新增/編輯內容至頻道{#adding-editing-content-to-a-channel}
+### 新增/編輯內容至頻道 {#adding-editing-content-to-a-channel}
 
 若要新增或編輯頻道中的內容，請遵循下列步驟：
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 >[!NOTE]
 >如果您在頻道中上傳視訊時遇到問題，請參閱[疑難排解視訊](troubleshoot-videos.md)。
 
-### 查看屬性{#viewing-properties}
+### 查看屬性 {#viewing-properties}
 
 要查看或編輯通道的屬性，請執行以下步驟：
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 ![屬性](assets/properties.gif)
 
-### 查看儀表板{#viewing-dashboard}
+### 檢視控制面板 {#viewing-dashboard}
 
 若要檢視管道的控制面板，請遵循下列步驟：
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
-#### 查看清單{#view-manifest}
+#### 檢視資訊清單 {#view-manifest}
 
 您可以從通道控制面板檢視資訊清單。
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 ![image1](assets/channel-one.png)
 
 
-### 線上和離線通道{#online-and-offline-channels}
+### 線上和離線頻道 {#online-and-offline-channels}
 
 >[!NOTE]
 >依預設，當您建立管道時，該管道為「離線」。
@@ -190,7 +190,7 @@ ht-degree: 2%
 
 ![dashboard2](assets/dashboard2.gif)
 
-#### 從設備儀表板{#automatic-versus-manual-updates-from-the-device-dashboard}自動更新和手動更新
+#### 從裝置控制面板自動更新與手動更新 {#automatic-versus-manual-updates-from-the-device-dashboard}
 
 下表匯總了與設備儀表板中的自動和手動更新相關的事件。
 
@@ -250,7 +250,7 @@ ht-degree: 2%
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 
-### 後續步驟{#the-next-steps}
+### 後續步驟 {#the-next-steps}
 
 建立頻道和在您的頻道中新增/編輯內容後的下一步，是了解如何建立位置和顯示。 再者，將頻道指派給該顯示器。
 
@@ -259,4 +259,3 @@ ht-degree: 2%
 * [建立和管理管道](managing-channels.md)
 * [建立和管理位置](managing-locations.md)
 * [建立和管理顯示](managing-displays.md)
-
