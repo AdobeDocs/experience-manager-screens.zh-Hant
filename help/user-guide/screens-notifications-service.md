@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
 
 ---
-
 
 # AEM Screens通知服務{#aem-screens-notifications-service}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 可在OSGi Web控制台中配置此服務。
 
-## 配置電子郵件設定{#configuring-email-settings}
+## 配置電子郵件設定 {#configuring-email-settings}
 
 請依照下列步驟來設定電子郵件通知設定：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**儲存**，透過電子郵件為您的AEM Screens裝置設定監視器活動。
 
-## 電子郵件通知{#email-notification}
+## 電子郵件通知 {#email-notification}
 
 設定電子郵件通知的設定後，您會收到電子郵件通知，其中包含實際裝置（據報未活動）的連結。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 只有在至少有一個設備未因指定的Ping超時而Ping，並且在生成電子郵件時仍未Ping時，才會發送電子郵件。
 
-### 使用案例範例{#example-use-cases}
+### 範例使用案例 {#example-use-cases}
 
 以下範例將說明幾個可參考的案例，以從Screens裝置電子郵件監控服務設定屬性。
 
