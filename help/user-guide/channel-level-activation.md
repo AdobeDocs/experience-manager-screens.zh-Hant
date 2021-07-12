@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: 製作螢幕，通道級激活
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 1%
 
 ---
 
-
-# 通道級激活{#channel-level-activation-single-event-playback}
+# 通道級激活 {#channel-level-activation-single-event-playback}
 
 本頁面說明「管道」中所用資產的管道層級啟動。
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
    ![new1](assets/new1.gif)
 
-## 查看結果{#viewing-the-results}
+## 查看結果 {#viewing-the-results}
 
 設定好頻道和顯示完成後，請啟動AEM Screens播放器以檢視內容。
 
@@ -156,13 +156,13 @@ ht-degree: 1%
 [使用AEM Screens Player](working-with-screens-player.md)
 
 
-## 處理通道{#handling-recurrence-in-assets}中資產的週期
+## 處理管道中資產的週期 {#handling-recurrence-in-assets}
 
 您可以視需求，將管道中的資產排程為每日、每週或每月重複執行特定間隔。
 
 假設您只想在週五下午1:00至晚上10:00顯示管道的內容。 您可以使用&#x200B;**Activation**&#x200B;標籤來設定資產所需的循環間隔。
 
-### 日劃分{#day-parting}
+### 日劃分 {#day-parting}
 
 1. 選取通道，然後按一下動作列中的&#x200B;**控制面板**&#x200B;以開啟通道控制面板。
 
@@ -173,7 +173,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### 日劃分的運算式範例{#example-one}
+#### 日劃分的運算式範例 {#example-one}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 >[!NOTE]
 您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
 
-### WeekParting {#week-parting}
+### 周分段 {#week-parting}
 
 1. 選取通道，然後按一下動作列中的&#x200B;**控制面板**&#x200B;以開啟通道控制面板。
 
@@ -201,7 +201,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### WeekParting {#example-two}的運算式範例
+#### WeekParting的運算式範例 {#example-two}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -217,7 +217,7 @@ ht-degree: 1%
 您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
 
 
-### MonthParting {#month-parting}
+### 月分 {#month-parting}
 
 1. 選取通道，然後按一下動作列中的&#x200B;**控制面板**&#x200B;以開啟通道控制面板。
 
@@ -228,7 +228,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### MonthParting {#example-three}的運算式範例
+#### MonthParting的運算式範例 {#example-three}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -242,7 +242,7 @@ ht-degree: 1%
 >[!NOTE]
 您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
 
-### 部件組合{#combined-parting}
+### 零件組合 {#combined-parting}
 
 1. 選取通道，然後按一下動作列中的&#x200B;**控制面板**&#x200B;以開啟通道控制面板。
 
@@ -253,7 +253,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**Schedule**&#x200B;中輸入運算式，您的資產將針對特定的日期和時間間隔顯示。
 
-#### 部分組合的表達式示例{#example-four}
+#### 部件組合的示例表達式 {#example-four}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
@@ -265,4 +265,3 @@ ht-degree: 1%
 
 >[!NOTE]
 定義一週中的天數和月數時，您可以同時使用簡寫和全名附註，例如週一/週一和一月/一月。  此外，您也可以使用&#x200B;_軍事時間_&#x200B;標籤法（即14:00），而非&#x200B;*am/pm*&#x200B;標籤法（即下午2:00）。
-
