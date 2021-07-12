@@ -11,25 +11,25 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 7%
 
 ---
 
-
-# 將元件添加到通道{#adding-components-to-a-channel}
+# 新增元件至管道{#adding-components-to-a-channel}
 
 元件是AEM(Adobe Experience Manager)體驗的基本元素。 您可以使用數個元件，並將其新增至AEM Screens專案中的管道。
 
-## AEM Screens中的元件{#components-in-aem-screens}
+## AEM Screens中的元件 {#components-in-aem-screens}
 
 AEM Screens提供可用於Screens專案的不同AEM元件。
 
-### 檢視AEM Screens元件{#viewing-aem-screens-components}
+### 檢視AEM Screens元件 {#viewing-aem-screens-components}
 
 每當您建立AEM Screens專案時，就會看到可新增至專案的預設元件清單。
 
@@ -43,7 +43,7 @@ AEM Screens提供可用於Screens專案的不同AEM元件。
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
-### 添加新元件{#adding-a-new-component}
+### 新增元件 {#adding-a-new-component}
 
 AEM提供許多其他元件。 鑑於其他元件與AEM Screens相容，您一律可以新增其他元件（預設不包含）至專案。
 
@@ -62,7 +62,7 @@ AEM提供許多其他元件。 鑑於其他元件與AEM Screens相容，您一�
 >
 >同樣地，您也可以將任何數量與AEM Screens相容的其他新元件新增至專案。
 
-## 了解AEM螢幕元件{#understanding-aem-screen-components}
+## 了解AEM Screen元件 {#understanding-aem-screen-components}
 
 下節說明您可在專案中使用的AEM Screens元件。
 
@@ -336,4 +336,3 @@ AEM提供許多其他元件。 鑑於其他元件與AEM Screens相容，您一�
   </tr>
  </tbody>
 </table>
-
