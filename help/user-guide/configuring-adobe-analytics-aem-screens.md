@@ -1,8 +1,8 @@
 ---
 title: 使用AEM Screens設定Adobe Analytics
 seo-title: 使用AEM Screens設定Adobe Analytics
-description: '請詳閱本節，進一步了解使用離線Adobe Analytics排序和傳送自訂事件 '
-seo-description: '請詳閱本節，進一步了解使用離線Adobe Analytics排序和傳送自訂事件 '
+description: 請詳閱本節，進一步了解使用離線Adobe Analytics排序和傳送自訂事件
+seo-description: 請詳閱本節，進一步了解使用離線Adobe Analytics排序和傳送自訂事件
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: 管理畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 8%
 
 ---
-
 
 # 使用AEM Screens設定Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
 
@@ -34,17 +34,17 @@ ht-degree: 8%
 * **Adobe Analytics與AEM Screens測序**
 * **使用離線Adobe Analytics傳送自訂事件**
 
-## Adobe Analytics中的AEM Screens{#sequencing-in-adobe-analytics-with-aem-screens}排序
+## Adobe Analytics與AEM Screens測序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
 ***排序程式***&#x200B;從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容透過工資單傳送Adobe Analytics事件，即資料測試擷取至Windows I/O並觸發持續事件。 事件將保存到索引DB，並進一步放入對象儲存中。 管理員根據計畫設定，從對象儲存中剪切資料，並在塊儲存中進一步傳輸資料。 它會嘗試在連線時傳送最大資料量。
 
-### 排序圖{#sequencing-diagram}
+### 排序圖 {#sequencing-diagram}
 
 下列順序圖表說明Adobe Analytics與AEM Screens的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用離線Adobe Analytics傳送自訂事件{#sending-custom-events-using-offline-adobe-analytics}
+## 使用離線Adobe Analytics傳送自訂事件 {#sending-custom-events-using-offline-adobe-analytics}
 
 下表匯總了事件的標準資料模型。 它會列出傳送至Adobe Analytics的所有欄位：
 
@@ -331,4 +331,3 @@ ht-degree: 8%
   </tr>
  </tbody>
 </table>
-
