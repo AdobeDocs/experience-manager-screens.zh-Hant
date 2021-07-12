@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
-
-# 配置和部署AEM Screens {#configuring-and-deploying-aem-screens}
+# 設定和部署AEM Screens {#configuring-and-deploying-aem-screens}
 
 本頁面顯示如何在裝置上安裝和設定Screens播放器。
 
-## 伺服器配置{#server-configuration}
+## 伺服器配置 {#server-configuration}
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >AEM Screens播放器未使用跨網站請求偽造(CSRF)代號。 因此，若要設定和AEM伺服器以準備好用於AEM Screens，請允許空的反向連結，以略過反向連結篩選。
 
-## 運行狀況檢查框架{#health-check-framework}
+## 運行狀況檢查框架 {#health-check-framework}
 
 運行狀況檢查架構可讓使用者在執行AEM Screens專案前，檢查是否已設定兩個必要的設定。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 以下關鍵點可協助設定及AEM伺服器以準備好使用於AEM Screens。
 
-#### 允許空的反向連結請求{#allow-empty-referrer-requests}
+#### 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
 1. 透過AEM例項 — >槌子圖示 — > **Operations** —> **Web主控台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. **Adobe Experience Manager Web主控台設** 定隨即開啟。搜尋Sling反向連結。
 
-   要搜尋Sling反向連結屬性，請按&#x200B;**Command+F**&#x200B;鍵&#x200B;**Mac**&#x200B;和&#x200B;**Control+F**&#x200B;鍵&#x200B;**Windows**。
+   要搜尋Sling反向連結屬性，請按&#x200B;**Command+F**&#x200B;鍵(**Mac**)和&#x200B;**Control+F**&#x200B;鍵(**Windows**)。
 
 1. 勾選&#x200B;**允許空白**&#x200B;選項，如下圖所示。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**Save**&#x200B;以啟用Apache Sling反向連結篩選器允許空白。
 
 
-#### Apache Felix Jetty Based HTTP服務{#allow-apache-felix-service}
+#### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
 1. 透過AEM例項 — >槌子圖示 — > **Operations** —> **Web主控台**&#x200B;導覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
 
@@ -117,7 +117,7 @@ AEM Screens需要觸控式UI，無法與Adobe Experience Manager(AEM)的傳統UI
 >
 >您一律可以使用使用者偏好設定，為特定使用者啟用傳統UI。
 
-#### AEM在NOSAMPLECONTENT運行模式{#aem-in-nosamplecontent-runmode}中
+#### AEM在NOSAMPLECONTENT執行模式中 {#aem-in-nosamplecontent-runmode}
 
 在生產環境中執行AEM會使用&#x200B;**NOSAMPLECONTENT**&#x200B;執行模式。 移除&#x200B;*X-Frame-Options=SAMEORIGIN*&#x200B;標題（位於其他回應標題區段中），從
 
@@ -125,7 +125,7 @@ AEM Screens需要觸控式UI，無法與Adobe Experience Manager(AEM)的傳統UI
 
 這是AEM Screens播放器播放線上頻道的必要項目。
 
-#### 密碼限制{#password-restrictions}
+#### 密碼限制 {#password-restrictions}
 
 對&#x200B;***DeviceServiceImpl***&#x200B;進行最新更改後，您不必刪除密碼限制。
 
@@ -141,22 +141,14 @@ AEM Screens需要觸控式UI，無法與Adobe Experience Manager(AEM)的傳統UI
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Dispatcher設定{#dispatcher-configuration}
+#### Dispatcher設定 {#dispatcher-configuration}
 
 若要了解如何為AEM Screens專案設定Dispatcher，請參閱[為AEM Screens專案設定Dispatcher](dispatcher-configurations-aem-screens.md)。
 
-#### Java編碼{#java-encoding}
+#### Java編碼 {#java-encoding}
 
 將&#x200B;***Java encoding***&#x200B;設定為Unicode。 例如， *Dfile.encoding=Cp1252*&#x200B;將無法運作。
 
 >[!NOTE]
 >**建議：**
 >建議在生產使用中對AEM Screens伺服器使用HTTPS。
-
-
-
-
-
-
-
-
