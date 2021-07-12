@@ -2,17 +2,17 @@
 title: 蒂森播放器
 description: 本頁面說明Tizen Player的安裝與運作方式。
 feature: 管理螢幕、播放器
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
 
 ---
 
-
-# 實作Tizen播放器{#tizen-player}
+# 實作Tizen播放器 {#tizen-player}
 
 ## 安裝Tizen Player {#installing-tizen-player}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 從本機電腦安裝Tizen播放器&#x200B;*(.zip)*&#x200B;檔案。
 
-## 設定本地伺服器並解壓縮Zip檔案{#setting-local-server}
+## 設定本機伺服器並解壓縮Zip檔案 {#setting-local-server}
 
 >[!NOTE]
 > 解壓縮zip檔案，並透過`http server`使Tizen播放器可用。 （`http server`不是本地或Apache伺服器的必需項）。
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. Tizen播放器從本機伺服器下載安裝程式。
 
-### 命名Tizen播放器{#name-tizen}
+### 命名Tizen播放器 {#name-tizen}
 
 您可以將好記的裝置名稱指派給您的Tizen播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Tizen播放器命名，也可讓您輕鬆指派適當內容。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 1. 按一下遠端上的功能表按鈕。
 1. 導覽至&#x200B;**network** —> **裝置名稱** ，為播放器指派名稱。
 
-### 在Samsung設備{#config-updates}上配置更新
+### 在Samsung裝置上配置更新 {#config-updates}
 
 請依照下列Samsung裝置上的步驟，在裝置上完成AEM Screens播放器的安裝：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
    >Tizen設備和`http`伺服器應能夠相互連接，即伺服器應可以到達Tizen播放器。
 
 
-## 使用SameSite Cookie問題免除使用者代理{#exempting-user-agents}
+## 免除使用者代理的SameSite Cookie問題 {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**本節適用於Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
@@ -98,7 +98,7 @@ ht-degree: 0%
 在承載Tizen應用程式的`HTTP`伺服器上，將檔案`config.json`放置在與`wgt`檔案相同的位置。 檔案名必須為`config.json`。
 Tizen播放器將安裝，在啟動時（每次重新啟動）將檢查並套用`config.json`檔案中的設定。
 
-### JSON策略示例{#example-json}
+### JSON原則範例 {#example-json}
 
 ```java
 {
@@ -110,7 +110,7 @@ Tizen播放器將安裝，在啟動時（每次重新啟動）將檢查並套用
 }
 ```
 
-### 策略屬性和用途{#policy-attributes}
+### 策略屬性和用途 {#policy-attributes}
 
 下表概括了策略及其功能。
 
@@ -130,7 +130,7 @@ Tizen播放器將安裝，在啟動時（每次重新啟動）將檢查並套用
 | cloudToken | 註冊Token，以根據Screens註冊為Cloud Service。 |
 
 
-## 將Tizen設備註冊到Samsung遠程管理服務(RMS){#enroll-tizen-device-rms}
+## 將Tizen設備註冊到Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
 
 請按照以下步驟將Tizen設備註冊到Samsung遠程管理服務(RMS)，並遠程配置URL啟動器：
 
@@ -164,4 +164,3 @@ Tizen播放器將安裝，在啟動時（每次重新啟動）將檢查並套用
    ![影像](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 按一下&#x200B;**儲存**，變更才會顯示在顯示畫面上。
-
