@@ -6,17 +6,17 @@ seo-description: 請詳閱本頁，了解Content Update As a Service。
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
-
-# 內容更新為服務{#content-update-as-a-service}
+# 內容更新為服務 {#content-update-as-a-service}
 
 本節涵蓋以下有關以服務形式更新內容的主題：
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 >
 >「大量離線更新」功能已最佳化，僅更新已修改的通道。
 
-## 使用批量離線更新{#using-bulk-offline-update}
+## 使用大量離線更新 {#using-bulk-offline-update}
 
 您可以從使用者介面(UI)手動使用大量離線更新，或從OSGi服務排程大量更新。
 
-### 使用AEM Screens使用者介面{#using-aem-screens-user-interface}
+### 使用AEM Screens使用者介面 {#using-aem-screens-user-interface}
 
 請依照下列步驟，為AEM Screens專案使用大量離線更新：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Adobe Experience Manager Web控制台配置{#adobe-experience-manager-web-console-configuration}
+### Adobe Experience Manager Web主控台設定 {#adobe-experience-manager-web-console-configuration}
 
 請依照下列步驟，為AEM Screens專案使用大量離線更新：
 
@@ -74,4 +74,3 @@ ht-degree: 0%
    **排** 程頻率指定時間，例如下午5:00或17:00，此服務應該更新離線內容。
 
 1. 按一下「**儲存**」以儲存您的設定，而您的內容將會在指定的時間更新。
-
