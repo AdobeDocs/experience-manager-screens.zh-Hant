@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: 管理畫面
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# 實作Chrome OS Player {#implementing-chrome-os-player}
+# 實作Chrome OS Player  {#implementing-chrome-os-player}
 
 本節說明如何使用Chrome管理主控台實作Chrome OS Player。
 
-## 使用Chrome管理控制台{#using-chrome-management-console}
+## 使用Chrome管理控制台 {#using-chrome-management-console}
 
 請依照下列步驟來設定chrome管理主控台：
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >若要部署及管理Chrome OS裝置，建議使用Chrome管理控制台之類的裝置管理解決方案。 雖然本檔案提供Chrome管理控制台的實作，但也有其他廠商聲稱可提供類似的功能。 請聯繫設備管理軟體的供應商。
 
-## 命名Chrome OS播放器{#name-chrome}
+## 命名Chrome OS播放器 {#name-chrome}
 
 您可以指派好記的裝置名稱給Chrome播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Chrome播放器命名，也可讓您輕鬆指派適當的內容。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    >[!NOTE]
    >Chrome播放器必須登入企業註冊，且Chrome播放器必須透過Chrome管理控制台部署，否則資產ID將傳回空白（例如，以Chrome為擴充功能）。 設備名稱僅在註冊時記錄。 Adobe Experience Manager(AEM)將不會擷取未來的變更。
 
-### 啟用Kiosk模式{#enabling-kiosk-mode}
+### 啟用Kiosk模式 {#enabling-kiosk-mode}
 
 請依照下列步驟啟用Kiosk模式：
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    視網路而定，變更可能需要幾分鐘才會生效。 建議重新啟動。
 
-#### 正在檢查遠程設備狀態{#checking-remote-device-status}
+#### 檢查遠程設備狀態 {#checking-remote-device-status}
 
 1. 登入Chrome開發人員控制台。
 1. 瀏覽至&#x200B;**裝置管理** > **Chrome裝置**，並選取您要控制的裝置。
@@ -91,7 +91,7 @@ ht-degree: 0%
 >
 >請注意，這些設定可能會在裝置註冊後幾分鐘內啟用。 隨著時間推移，每個選項都可能啟用。
 
-### 配置Chrome OS播放器的遠程配置{#configuring-remote-configuration-of-chrome-os-players}
+### 設定Chrome OS播放器的遠端設定 {#configuring-remote-configuration-of-chrome-os-players}
 
 AEM Screens Player是啟用Kiosk的應用程式，也可為Chrome OS播放器啟用遠端原則設定。
 
@@ -108,7 +108,7 @@ AEM Screens Player是啟用Kiosk的應用程式，也可為Chrome OS播放器啟
 >
 >重新啟動設備以同步策略更改。
 
-#### 策略JSON檔案示例{#example-policy-json-file}
+#### 策略JSON檔案示例 {#example-policy-json-file}
 
 ```java
 {
@@ -133,7 +133,7 @@ AEM Screens Player是啟用Kiosk的應用程式，也可為Chrome OS播放器啟
 }
 ```
 
-### 策略屬性和用途{#policy-attributes-and-purpose}
+### 策略屬性和用途 {#policy-attributes-and-purpose}
 
 下表概括了策略及其功能。
 
