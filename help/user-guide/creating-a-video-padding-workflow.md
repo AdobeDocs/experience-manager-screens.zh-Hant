@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-
-# 建立視訊填補工作流程{#creating-a-video-padding-workflow}
+# 建立視訊填補工作流程 {#creating-a-video-padding-workflow}
 
 本節涵蓋下列主題：
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## 建立視訊填補工作流程{#creating-a-video-padding-workflow-1}
+## 建立視訊填補工作流程 {#creating-a-video-padding-workflow-1}
 
 若要建立視訊填補工作流程，您必須為視訊建立工作流程，然後在AEM Screens專案通道中使用相同的工作流程。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 1. 建立工作流程
 1. 在AEM Screens專案中使用工作流程
 
-### 建立工作流{#creating-a-workflow}
+### 建立工作流程 {#creating-a-workflow}
 
 請依照下列步驟，為影片建立工作流程：
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### 使用AEM Screens專案{#using-the-workflow-in-an-aem-screens-project}中的工作流程
+### 在AEM Screens專案中使用工作流程 {#using-the-workflow-in-an-aem-screens-project}
 
 請依照下列步驟，使用AEM Screens專案中的工作流程：
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## 驗證工作流{#validating-the-output-for-the-workflow}的輸出
+## 驗證工作流的輸出 {#validating-the-output-for-the-workflow}
 
 您可以透過下列方式驗證輸出：
 
@@ -121,4 +121,3 @@ ht-degree: 0%
 * 導覽至CRXDE Lite中的&#x200B;***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4***，如下圖所示：
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
