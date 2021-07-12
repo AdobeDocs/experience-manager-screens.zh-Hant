@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: 管理畫面
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
 
 ---
-
 
 # 使用AEM Screens Player {#working-with-aem-screens-player}
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 將頻道指派給顯示器後，AEM Screens播放器就會顯示內容。 您可以使用管理員UI的偏好設定（從控制面板）或從播放器本身來設定播放器的設定。
 
-## 使用設備儀表板{#using-the-device-dashboard}
+## 使用裝置控制面板 {#using-the-device-dashboard}
 
 您可以從裝置控制面板設定裝置的偏好設定，可透過AEM製作例項存取。
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-#### 訪問配置菜單選項{#configuration-options}
+#### 存取設定功能表選項 {#configuration-options}
 
 如果從側菜單中選擇&#x200B;**Configuration**&#x200B;選項，則可以更新配置，如下圖所示：
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 >
 >建議在生產部署中停用&#x200B;**管理UI**。
 
-#### 訪問「內容快取」菜單選項{#content-cache-options}
+#### 存取「內容快取」功能表選項 {#content-cache-options}
 
 您可以從AEM Screens播放器的管理員UI中清除通道和應用程式的快取。
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
-### 通道切換器{#the-channel-switcher}
+### 通道切換器 {#the-channel-switcher}
 
 從偏好設定面板啟用&#x200B;**頻道切換器**&#x200B;可讓使用者從Screens播放器開啟頻道選取/設定。
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 >
 >（請參閱下節中提及的&#x200B;*從Screens Player*&#x200B;變更偏好設定）。
 
-### 從AEM Screens播放器{#managing-preferences-from-the-aem-screens-player}管理偏好設定
+### 從AEM Screens播放器管理偏好設定 {#managing-preferences-from-the-aem-screens-player}
 
 您也可以從播放器本身變更管理員UI和通道切換器的設定。
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 | AEM Screens Player重新啟動/重新啟動後不會自動啟動 | 檢查作業系統啟動資料夾或初始化過程 |
 | AEM Screens Player顯示錯誤/舊內容 | 檢查網路連接 |
 
-### AEM Screens Player {#updates-for-aem-screens-player}的更新
+### AEM Screens Player的更新 {#updates-for-aem-screens-player}
 
 AEM Screens播放器有兩種更新類型：
 
@@ -146,7 +146,7 @@ AEM Screens播放器有兩種更新類型：
 | 韌體更新 | 透過遠端命令套用至現有已安裝的播放器。 更新後，播放器會使用現有內容自動重新載入。 | 是 | 自訂 | 近 — 1-3秒 |
 | 播放器殼層更新 | 這是要部署在播放器上的新執行檔。 這需要在播放器上遠端複製新的二進位檔，並停止目前執行中，然後啟動新版本。 這可能需要重新下載預先載入的套件。 | 是（通過遠程外殼） | 自訂 | 否 |
 
-## 播放器設備{#hardware-selection-guidelines-for-player-device}的硬體選擇指南
+## 播放器裝置的硬體選擇准則 {#hardware-selection-guidelines-for-player-device}
 
 以下章節提供Screens專案的硬體選擇准則：
 
