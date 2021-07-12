@@ -4,20 +4,20 @@ description: 請參閱本頁，了解MultiZone到SingleZone轉變的使用案例
 seo-description: MultiZone到SingleZone過渡使用案例。
 contentOwner: Jyotika Syal
 feature: 製作畫面
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 2%
 
 ---
 
+# 多區域到單區域過渡 {#multizone-to-singlezone-use-case}
 
-# 多區到單區過渡{#multizone-to-singlezone-use-case}
 
-
-## 使用案例說明{#use-case-description}
+## 使用案例說明 {#use-case-description}
 
 本節將說明一個使用案例範例，重點說明如何設定與單一區域佈局通道交替的多區域佈局通道。 多區域管道具有排序的影像/視訊資產，它顯示如何設定從多區域到單區域交替的專案，反之亦然。
 
@@ -30,11 +30,11 @@ ht-degree: 2%
 * **[建立和管理排程](managing-schedules.md)**
 * **[裝置註冊](device-registration.md)**
 
-### 主要參與者{#primary-actors}
+### 主要行為者 {#primary-actors}
 
 內容作者
 
-## 設定項目{#setting-up-the-project}
+## 設定專案 {#setting-up-the-project}
 
 請依照下列步驟來設定專案：
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
    ![資產](assets/mz-to-sz7.png)
 
-## 檢查預覽{#checking-the-preview}
+## 勾選預覽 {#checking-the-preview}
 
 您可以從播放器檢視所需的輸出，或只需按一下編輯器中的&#x200B;**預覽**&#x200B;即可。
 
