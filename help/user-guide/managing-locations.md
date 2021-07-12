@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-
-# 建立和管理位置{#creating-and-managing-locations}
+# 建立和管理位置 {#creating-and-managing-locations}
 
 這些位置會根據各種畫面的位置來主控顯示器的設定。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * [建立和管理Screens專案](creating-a-screens-project.md)
 * [建立和管理管道](managing-channels.md)
 
-## 建立新位置{#creating-a-new-location}
+## 建立新位置 {#creating-a-new-location}
 
 在您為Screens建立專案後，請依照下列步驟為Screens專案建立新的位置：
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 建立位置後，您必須為位置建立新的顯示。
 
-### 編輯位置{#editing-properties-for-a-location}的屬性
+### 編輯位置的屬性 {#editing-properties-for-a-location}
 
 要編輯/訪問位置的屬性，請執行以下操作：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ![player3](assets/player3.gif)
 
-#### 後續步驟{#the-next-steps}
+#### 後續步驟 {#the-next-steps}
 
 建立位置後，您必須為位置建立新的顯示。
 
