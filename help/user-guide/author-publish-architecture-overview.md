@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: 管理畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
 
 ---
 
-
-# 製作與發佈架構概述{#author-and-publish-architectural-overview}
+# 製作與發佈架構概觀 {#author-and-publish-architectural-overview}
 
 本頁面重點說明下列主題：
 
@@ -50,7 +50,7 @@ AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上�
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## 架構設計{#architectural-design}
+## 建築設計 {#architectural-design}
 
 有五個體系結構元件，可促進此解決方案：
 
@@ -61,7 +61,7 @@ AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上�
 * ****** 在發佈實例之間傳送消息，以同步設備資訊更新和命令
 * ****** 由發佈例項作者進行輪詢，透過特定REST API取得裝置資訊
 
-### 內容和配置的複製（轉發）{#replication-forward-of-content-and-configurations}
+### 內容和配置的複製（轉發）  {#replication-forward-of-content-and-configurations}
 
 標準複製代理用於複製螢幕通道內容、位置配置和設備配置。 這可讓作者更新管道的內容，並選擇性地在發佈管道更新之前，先執行某種核准工作流程。 需要為發佈伺服器陣列中的每個發佈執行個體建立復寫代理。
 
@@ -73,19 +73,19 @@ AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上�
 >
 >需要為發佈伺服器陣列中的每個發佈執行個體建立復寫代理。
 
-### 螢幕複製代理和命令{#screens-replication-agents-and-commands}
+### 螢幕複製代理和命令  {#screens-replication-agents-and-commands}
 
 會建立自訂Screens特定的復寫代理，以將命令從Author例項傳送至AEM Screens裝置。 AEM Publish執行個體可做為中間工具，將這些命令轉送至裝置。
 
 這可讓作者繼續管理裝置，例如傳送裝置更新，並從製作環境中擷取螢幕擷取畫面。 AEM Screens復寫代理具有自定義傳輸配置，如標準複製代理。
 
-### 發佈實例之間的消息傳遞{#messaging-between-publish-instances}
+### 發佈執行個體之間的傳訊  {#messaging-between-publish-instances}
 
 在許多情況下，命令只能一次傳送至裝置。 不過，在負載平衡的發佈架構中，未知裝置要連線至哪個發佈執行個體。
 
 因此，製作例項會傳送訊息至所有發佈例項。 但是，只應將一個消息中繼到設備。 為確保傳訊正確，發佈執行個體之間必須進行一些通訊。 這是使用&#x200B;*Apache ActiveMQ Artemis*&#x200B;來實現的。 每個發佈執行個體都會放置在鬆散耦合的拓撲中，使用Oak型Sling探索服務，並設定ActiveMQ，讓每個發佈執行個體能通訊並建立單一訊息佇列。 Screens裝置會透過負載平衡器輪詢發佈伺服器陣列，並從佇列頂端擷取命令。
 
-### 反向複製{#reverse-replication}
+### 反向復寫 {#reverse-replication}
 
 在許多情況下，在執行命令後，Screens裝置會傳送某種回應至Author例項。 為了達到此AEM ***使用反向復寫***。
 
@@ -94,7 +94,7 @@ AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上�
 * 此上下文中的反向複製僅用於設備提供的二進位資料（如日誌檔案和螢幕截圖）。 非二進位資料由輪詢檢索。
 * 從AEM製作例項輪詢的反向復寫會擷取回應並儲存至製作例項。
 
-### 輪詢發佈實例{#polling-of-publish-instances}
+### 輪詢發佈實例  {#polling-of-publish-instances}
 
 製作例項必須能夠輪詢裝置以取得心率，並了解已連線裝置的健康狀態。
 
@@ -110,6 +110,6 @@ AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上�
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
-### 後續步驟{#the-next-steps}
+### 後續步驟 {#the-next-steps}
 
 了解AEM Screens中作者和發佈設定的架構設計後，如需詳細資訊，請參閱[為AEM Screens設定作者和發佈](author-and-publish.md) 。
