@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-
-# 視訊轉譯{#video-renditions}
+# 視訊轉譯 {#video-renditions}
 
 您可以產生手動和自動全高清轉譯。 下節說明將轉譯新增至資產的工作流程。
 
-## 自動生成全高清格式副本{#automatically-generating-full-hd-renditions}
+## 自動產生全高清格式副本  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![step12_-_2_new_renditionsadedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-## 手動產生全高清格式副本{#manually-generating-full-hd-renditions}
+## 手動產生全高清轉譯 {#manually-generating-full-hd-renditions}
 
 請依照下列步驟手動產生全高清轉譯：
 
@@ -93,4 +93,3 @@ ht-degree: 0%
 1. 開啟&#x200B;**轉譯**&#x200B;側邊欄，您會注意到新的全高清轉譯。
 
    ![step8_-_open_therenditionssiferag](assets/step8_-_open_therenditionssiderail.png)
-
