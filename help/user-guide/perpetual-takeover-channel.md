@@ -5,21 +5,21 @@ description: 請依照此使用案例建立永久TakeOver管道。
 seo-description: 請依照本使用案例，設定專案，建立持續播放特定時間日和時間的永久接管管道。
 contentOwner: jsyal
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
 
 ---
 
-
-# 永久接管通道{#perpetual-takeover-channel}
+# 永久TakeOver管道 {#perpetual-takeover-channel}
 
 以下頁面將展示一個使用案例，著重於設定專案，以建立持續播放特定時間和特定日期的永久取用管道。
 
-## 使用案例說明{#use-case-description}
+## 使用案例說明 {#use-case-description}
 
 本使用案例說明如何建立從正常播放的頻道接管&#x200B;*以用於顯示或顯示群組的頻道。*收購將持續一天一個時間。
 例如，有一個Perpetual TakeOver管道，每週五從上午9:00至上午10:00播放。 在此期間，不應播放其他管道。 下列範例將展示如何建立永久接管管道，播放內容可讓內容每週三從下午2:00至下午4:00播放2小時。
@@ -33,11 +33,11 @@ ht-degree: 1%
 * **[建立和管理排程](managing-schedules.md)**
 * **[裝置註冊](device-registration.md)**
 
-### 主要參與者{#primary-actors}
+### 主要行為者 {#primary-actors}
 
 內容作者
 
-## 設定項目{#setting-up-the-project}
+## 設定專案 {#setting-up-the-project}
 
 請依照下列步驟來設定專案：
 
@@ -111,7 +111,7 @@ ht-degree: 1%
       ![](assets/p_usecase8.png)
 assetNow, TakeOverchannel **** 將在每週三下午2:00接 **** 管MainAdChannel，直到下午4:00，並從2020年1月09日到2020年1月31日播放其內容。
 
-## 運算式範例{#example-expressions}
+## 範例運算式 {#example-expressions}
 
 下表總結了一些示例表達式，在為顯示器分配通道時，可將這些表達式添加到調度中。
 
