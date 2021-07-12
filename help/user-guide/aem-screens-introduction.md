@@ -3,15 +3,15 @@ title: 什麼是AEM Screens?
 seo-title: 什麼是AEM Screens?
 description: 「AEM Screens — 數位看板解決方案，可讓您發佈動態的互動式數位體驗和互動，其中包含不同螢幕類型，並搭配全方位的數位行銷平台。」
 feature: 概述，數位招牌
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 8%
 
 ---
-
 
 # 什麼是AEM Screens?{#what-is-aem-screens}
 
@@ -29,17 +29,17 @@ AEM Screens是功能強大的網頁式解決方案，可讓您建立專屬的數
 
 若要了解與AEM Screens相關聯的關鍵術語，請參閱[字彙表](screens-glossary.md)。
 
-### Screens Player {#architecture-of-screens-player}架構
+### Screens Player架構 {#architecture-of-screens-player}
 
 下圖顯示AEM Screens播放器的一般架構：
 
 ![chlimage_1-21](assets/chlimage_1-29.png)
 
-### 在5分鐘內建立數位看板體驗{#create-a-digital-signage-experience-in-minutes}
+### 在5分鐘內建立數位看板體驗 {#create-a-digital-signage-experience-in-minutes}
 
 若要建立示範Screens專案並在Screens播放器中發佈您的內容，請參閱[AEM Screens的Kickstart](kickstart-for-aem-screens.md)。
 
-## 啟動新的AEM Screens專案{#starting-a-new-aem-screens-project}
+## 開始新的AEM Screens專案 {#starting-a-new-aem-screens-project}
 
 開始新的數位看板體驗需要先結合角色，才能供使用。 以下角色提供建立新Screens專案的起點：
 
