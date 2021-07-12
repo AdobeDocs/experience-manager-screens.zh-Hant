@@ -4,17 +4,17 @@ seo-title: 適用於AEM Screens的Dispatcher設定
 description: 本頁面重點說明為AEM Screens專案設定Dispatcher的准則。
 seo-description: 本頁面重點說明為AEM Screens專案設定Dispatcher的准則。
 feature: 管理畫面
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
-
-# AEM Screens的Dispatcher設定{#dispatcher-configurations-for-aem-screens}
+# 適用於AEM Screens的Dispatcher設定{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
@@ -26,7 +26,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 >
 >如果沒有Dispatcher，請停用OSGi元件清單中的註冊Servlet。
 
-## 先決條件{#pre-requisites}
+## 先決條件 {#pre-requisites}
 
 在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
 
@@ -38,7 +38,7 @@ AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈�
 
 請依照下列步驟，為AEM Screens專案設定Dispatcher。
 
-### 啟用黏著工作階段{#enable-sticky-session}
+### 啟用嚴格工作階段 {#enable-sticky-session}
 
 如果您想使用由單一Dispatcher前端的多個發佈例項，必須更新`dispatcher.any`檔案以啟用黏著度
 
@@ -57,7 +57,7 @@ AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈�
 
 例如，如果您使用AWS ALB，請參閱應用程式負載平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)的[目標組，以啟用ALB層級的黏著度。 啟用1天的黏著度。
 
-### 步驟1:配置客戶端標頭{#step-configuring-client-headers}
+### 步驟1:設定用戶端標題 {#step-configuring-client-headers}
 
 將下列內容新增至`/clientheaders`區段：
 
@@ -67,7 +67,7 @@ AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈�
 
 **X-REQUEST-COMMAND**
 
-### 步驟2:配置螢幕篩選器{#step-configuring-screens-filters}
+### 步驟2:設定螢幕篩選器 {#step-configuring-screens-filters}
 
 若要設定Screens篩選器，請將下列項目新增至&#x200B;***/filter***。
 
@@ -90,7 +90,7 @@ AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈�
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 步驟3:停用Dispatcher快取{#step-disabling-dispatcher-cache}
+### 步驟3:停用Dispatcher快取 {#step-disabling-dispatcher-cache}
 
 停用&#x200B;***/content/screens path***&#x200B;的Dispatcher快取。
 
