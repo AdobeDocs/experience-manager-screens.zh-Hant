@@ -3,17 +3,17 @@ title: 使用資料觸發器製作
 seo-title: 使用資料觸發器製作
 description: 請詳閱本頁，了解如何使用資料觸發器製作。
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-
-# 使用資料觸發器編寫{#authoring-with-data-triggers}
+# 使用資料觸發器製作 {#authoring-with-data-triggers}
 
 本節重點說明如何在您的管道中啟用定位。
 
@@ -36,11 +36,11 @@ ht-degree: 1%
 
 完成上述步驟後，您就可以在管道中啟用定位。
 
-## 使用資料觸發器製作概述{#author-targeting}
+## 使用Data Triggers編寫概述 {#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM Screens通道{#enabling-targeting}中啟用定位
+## 在AEM Screens管道中啟用鎖定目標 {#enabling-targeting}
 
 請依照下列步驟，在您的管道中啟用鎖定目標。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 1. 從下拉式選單中選取&#x200B;**Brand**&#x200B;和&#x200B;**Activity**，然後按一下&#x200B;**Start Targeting**。
 
-### 更多詳情：使用案例範例{#learn-more-example-use-cases}
+### 更多詳情：範例使用案例 {#learn-more-example-use-cases}
 
 為AEM Screens專案設定ContextHub後，您可以遵循不同的使用案例來了解資料觸發資產在不同產業中扮演重要角色的方式：
 
