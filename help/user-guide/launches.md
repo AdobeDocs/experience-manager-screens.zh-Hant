@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: 製作畫面、啟動
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # 使用Screens Launch更新內容 {#launches}
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * 伺服器和播放器的任何時間差異
 
-### 了解寬限期{#understanding-grace-period}
+### 了解寬限期 {#understanding-grace-period}
 
 為了讓播放器能夠在設定的即時日期開始播放內容，我們必須在即時日期之前開始先前的活動。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >現成可用的Screens Launch寬限期設為24小時，這表示當我們為&#x200B;*/content/screens*&#x200B;下的資源設定任何啟動的上線日期時，促銷活動將從此位移開始。
 
-### 更新現成可用的寬限期{#updating-out-of-the-box-grace-period}
+### 更新現成的寬限期 {#updating-out-of-the-box-grace-period}
 
 本節說明如何將現成可用的寬限期更新至10分鐘。
 
@@ -86,7 +86,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 本節示範如何在您的AEM Screens專案中實作Screens Launch。
 
-### 建立螢幕啟動{#creating-a-launch}
+### 建立Screens Launch {#creating-a-launch}
 
 請依照下列步驟，將Screens Launch功能實施至您的AEM Screens專案：
 
@@ -154,7 +154,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ![影像](/help/user-guide/assets/launches-images/launches-16.png)
 
 
-### 編輯啟動屬性以設定上線日期和範圍{#editing-the-launch-properties-to-set-the-live-date-and-scope}
+### 編輯啟動屬性以設定上線日期和範圍 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 建立啟動後，您可以使用&#x200B;**Launch屬性**&#x200B;更新即時日期、啟動標題和促銷範圍等屬性。
 
@@ -177,13 +177,13 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![影像](/help/user-guide/assets/launches-images/launches-19.png)
 
-### 編輯螢幕啟動以添加或刪除通道{#editing-the-screens-launch-to-add-or-remove-channels}
+### 編輯畫面Launch以新增或移除頻道  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 建立啟動後，您可以使用&#x200B;**編輯啟動**&#x200B;選項，將通道新增或移除至現有啟動。
 
 完成後，按一下&#x200B;**Save**&#x200B;以導覽回&#x200B;**FutureLaunch**&#x200B;頻道。
 
-### 手動提升螢幕啟動{#promote-the-screens-launch-manually}
+### 手動提升Screens Launch{#promote-the-screens-launch-manually}
 
 您可以使用&#x200B;**待定啟動**&#x200B;面板中的&#x200B;**促銷啟動**&#x200B;選項，手動促銷啟動。
 
@@ -200,11 +200,10 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 1. 在&#x200B;**Promote Launch**&#x200B;精靈中，按一下&#x200B;**Next**。
 1. 按一下&#x200B;**Promote**&#x200B;以促銷啟動。
 
-### 刪除螢幕啟動{#deleting-the-screens-launch}
+### 刪除Screens Launch {#deleting-the-screens-launch}
 
 您可以使用&#x200B;**刪除啟動**&#x200B;選項，從&#x200B;**待定啟動**&#x200B;面板中刪除啟動。
 
 >[!CAUTION]
 >
 >此動作也會刪除所有子系（巢狀啟動）。
-
