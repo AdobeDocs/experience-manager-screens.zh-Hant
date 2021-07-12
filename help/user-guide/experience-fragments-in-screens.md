@@ -1,8 +1,8 @@
 ---
 title: 使用體驗片段
 seo-title: 使用體驗片段
-description: '請詳閱本頁面，了解如何在AEM Screens中使用體驗片段。 '
-seo-description: '請詳閱本頁面，了解如何在AEM Screens中使用體驗片段。 '
+description: 請詳閱本頁面，了解如何在AEM Screens中使用體驗片段。
+seo-description: 請詳閱本頁面，了解如何在AEM Screens中使用體驗片段。
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: 製作畫面、體驗片段
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 1%
 
 ---
-
 
 # 使用體驗片段 {#using-experience-fragments}
 
@@ -34,14 +34,14 @@ ht-degree: 1%
 ***體驗片段***&#x200B;是一組一或多個元件，包括可在頁面中參照的內容和版面。 體驗片段可包含任何元件，例如一或多個元件，這些元件可包含段落系統內的任何項目，而這些項目將參考至完整體驗，或由第三個端點請求。
 
 
-## 在AEM Screens中使用體驗片段{#using-experience-fragments-in-aem-screens}
+## 在AEM Screens中使用體驗片段 {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
 >下列範例使用&#x200B;**We.Retail**&#x200B;做為示範專案，從此處將體驗片段從&#x200B;**Sites**&#x200B;頁面運用至AEM Screens專案。
 
 例如，下列工作流程示範如何在Sites中使用We.Retail中的體驗片段。 您可以選擇網頁，並在其中一個專案中利用AEM Screens頻道中的該內容。
 
-### 先決條件{#pre-requisites}
+### 先決條件 {#pre-requisites}
 
 **使用管道建立示範專案**
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
-### 建立體驗片段{#creating-an-experience-fragment}
+### 建立體驗片段 {#creating-an-experience-fragment}
 
 請依照下列步驟，將&#x200B;**We.Retail**&#x200B;中的內容運用至&#x200B;**DemoProject**&#x200B;中的&#x200B;**TestChannel**。
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
    j.按一下核取記號以完成程式。
 
-### 驗證結果{#validating-the-result}
+### 驗證結果 {#validating-the-result}
 
 完成上述步驟後，您可以透過下列方式驗證&#x200B;**ChannelOne**&#x200B;中的體驗片段：
 
@@ -171,7 +171,7 @@ ht-degree: 1%
 您將從管道的&#x200B;**Sites**&#x200B;頁面（體驗片段的即時副本）檢視內容，如下圖所示：\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## 將更改傳播到頁{#propagating-changes-from-the-master-page}
+## 傳播對頁面的更改 {#propagating-changes-from-the-master-page}
 
 ***Live*** Copy是指由同步動作維護的復本（來源的），如轉出設定所定義。
 
@@ -209,7 +209,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-06-08at32148pm](assets/screen_shot_2018-06-08at32148pm.png)
 
-### 驗證更改{#validating-the-changes}
+### 驗證變更 {#validating-the-changes}
 
 請依照下列步驟確認管道中的變更：
 
@@ -219,4 +219,3 @@ ht-degree: 1%
 
 下圖說明&#x200B;**TestChannel**&#x200B;中的更改：\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
