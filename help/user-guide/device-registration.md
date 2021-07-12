@@ -11,21 +11,21 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: 管理螢幕，設備註冊
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
 
 ---
 
-
 # 裝置註冊 {#device-registration}
 
 以下頁面說明AEM Screens專案中的裝置註冊程式。
 
-## 註冊設備{#registering-a-device}
+## 註冊設備 {#registering-a-device}
 
 設備註冊過程在2台獨立的電腦上完成：
 
@@ -99,7 +99,7 @@ ht-degree: 1%
    >
    >若要進一步了解如何建立及管理Screens專案的顯示，請參閱[建立和管理顯示](managing-displays.md)。
 
-### 將設備分配給顯示器{#assigning-device-to-a-display}
+### 為顯示器分配設備 {#assigning-device-to-a-display}
 
 如果您尚未將裝置指派給顯示器，請依照下列步驟，將裝置指派給AEM Screens專案中的顯示器：
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## 從設備管理器{#search-device}中搜索設備
+## 從設備管理器中搜索設備 {#search-device}
 
 將裝置註冊至播放器後，您就可以從裝置管理員UI中檢視所有裝置。
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 * 如果裝置名稱為&#x200B;*BostonStoreLobby*，搜尋&#x200B;*boston*&#x200B;將不會傳回結果，而是在您的搜尋條件中使用&#x200B;*boston**會傳回結果。
 
-## 設備註冊限制{#limitations-on-device-registration}
+## 裝置註冊限制 {#limitations-on-device-registration}
 
 系統範圍的用戶密碼限制可能導致設備註冊失敗。 設備註冊使用隨機生成的密碼來建立設備用戶。
 
