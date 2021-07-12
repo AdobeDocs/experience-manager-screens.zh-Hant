@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
-
-# 零售庫存目標激活{#retail-inventory-targeted-activation}
+# 零售庫存目標激活 {#retail-inventory-targeted-activation}
 
 下列使用案例會根據您的Google工作表中的值示範三個不同的影像。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在AEM Screens中設定ContextHub ](configuring-context-hub.md) 。
 
-## 基本流{#basic-flow}
+## 基本流量 {#basic-flow}
 
 請依照下列步驟，實作「零售庫存啟用」使用案例：
 
@@ -123,6 +123,4 @@ ht-degree: 0%
 
    1. 按一下「**預覽」。** 此外，請開啟您的Google工作表並更新其值。
    1. 變更所有三個不同欄的值，您會注意到顯示影像會根據庫存中的最高值更新。
-
    ![retail_result](assets/retail_result.gif)
-
