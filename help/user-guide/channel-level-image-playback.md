@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
 
 ---
 
-
-# 通道級別大量影像播放持續時間{#channel-level-bulk-image-playback-duration}
+# 通道層級大量影像播放持續時間 {#channel-level-bulk-image-playback-duration}
 
 ## 概覽 {#overview}
 
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 1. 將內容新增至&#x200B;**PlaybackChannel**。
 
-## 編輯通道級別影像播放持續時間分配{#editing-channel-level-image-playback-duration-assignment}
+## 編輯通道級別影像播放持續時間分配 {#editing-channel-level-image-playback-duration-assignment}
 
 下節說明如何編輯AEM Screens頻道中內容的播放期間。
 
-### 更新通道{#updating-the-playback-duration-for-images-in-a-channel}中影像的播放持續時間
+### 更新頻道中影像的播放持續時間 {#updating-the-playback-duration-for-images-in-a-channel}
 
 請依照下列步驟了解如何更新管道層級影像播放持續時間指派：
 
@@ -72,9 +72,8 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### 查看結果{#viewing-the-result}
+### 查看結果 {#viewing-the-result}
 
 更新頻道播放持續時間（在此範例中為全部三個影像）後，您會發現影像現在會播放3秒，而非8秒（預設值）。
 
 ![channel_preview](assets/channel_preview.gif)
-
