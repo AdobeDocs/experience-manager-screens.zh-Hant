@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%
 
 ---
 
-
-# 多區域佈局{#multi-zone-layout}
+# 多區域佈局 {#multi-zone-layout}
 
 以下頁面說明多區域版面的使用方式，並涵蓋下列主題：
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 * [建立顯示](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [為顯示指定通道](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-## 建立多區域佈局{#creating-multi-zone-layout}
+## 建立多區域佈局 {#creating-multi-zone-layout}
 
 建立管道時，您可以使用不同的範本，在管道中建立區域。 您可以新增單一影像、視訊或內嵌通道，讓多個資產可依序顯示。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**Create**&#x200B;以完成通道建立。
 
-### 在一或多個區域中使用單一資產{#using-single-assets-in-one-or-more-zones}
+### 在一或多個區域中使用單一資產 {#using-single-assets-in-one-or-more-zones}
 
 您可以在所有個別區域中使用單一資產，例如影像或視訊。 請依照下列步驟來實作：
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    ![影像](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
-### 在一個或多個區域中使用序列化內容{#using-sequenced-content-in-one-or-more-zones}
+### 在一個或多個區域中使用序列內容 {#using-sequenced-content-in-one-or-more-zones}
 
 如果希望區域在不同區域中顯示影像和視頻的序列，請按照以下步驟了解詳細資訊。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### 建立位置和顯示{#creating-location}
+### 建立位置和顯示 {#creating-location}
 
 您必須建立位置和顯示器，才能檢視Screens播放器中的內容。 請依照下列步驟建立位置和顯示。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
    1. 從&#x200B;**Create**&#x200B;嚮導中選擇&#x200B;**Display**，然後按一下&#x200B;**Next**。
    1. 輸入&#x200B;**Title**&#x200B;作為&#x200B;**Lobby**，然後按一下&#x200B;**Create**。
 
-### 為顯示{#channel-channel}指定通道
+### 為顯示指定通道 {#channel-channel}
 
 您必須指派頻道給顯示，才能檢視內容。 請依照下列步驟，將管道指派給顯示器。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
       >
       > 一旦將主通道（在此例中為&#x200B;**MultiZone**）指定給顯示器後，必須將其他兩個嵌入通道&#x200B;**Zone1**&#x200B;和&#x200B;**Zone2**&#x200B;也指定給同一顯示器。
 
-### 註冊設備{#registering-device}
+### 註冊設備 {#registering-device}
 
 設定位置和顯示器後，請按照以下步驟註冊設備並為設備分配顯示器。
 
@@ -183,7 +183,7 @@ ht-degree: 0%
    >[!NOTE]
    >如果您嘗試在Screens播放器中檢視內容，請務必按一下頻道控制面板中指派給顯示的每個頻道的&#x200B;**更新離線內容**。
 
-### 查看結果{#viewing-the-result}
+### 查看結果 {#viewing-the-result}
 
 使用前述步驟實施多區域佈局後，將顯示以下輸出。
 
@@ -192,5 +192,3 @@ ht-degree: 0%
 左區域是序列頻道，右區域包括視訊。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
