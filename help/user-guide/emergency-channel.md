@@ -10,19 +10,19 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
+# 緊急通道 {#emergency-channel}
 
-# 緊急通道{#emergency-channel}
-
-## 使用案例說明{#use-case-description}
+## 使用案例說明 {#use-case-description}
 
 本節說明一個使用案例範例，著重於建立和管理緊急管道，內容作者在有先決條件時可從序列管道切換。
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 * **[建立和管理排程](managing-schedules.md)**
 * **[裝置註冊](device-registration.md)**
 
-### 主要參與者{#primary-actors}
+### 主要行為者 {#primary-actors}
 
 內容作者
 
-## 基本流：設定項目{#basic-flow-setting-up-the-project}
+## 基本流：設定專案 {#basic-flow-setting-up-the-project}
 
 請依照下列步驟設定緊急通道：
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    ![new30](assets/new30.gif)
 
-## 切換到緊急通道{#switching-to-emergency-channel}
+## 切換到緊急通道 {#switching-to-emergency-channel}
 
 在發生緊急情況時，請執行以下步驟：
 
