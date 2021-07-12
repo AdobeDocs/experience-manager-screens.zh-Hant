@@ -5,21 +5,21 @@ description: 請詳閱本頁，了解如何安裝可用的AEM Screens Player。
 seo-description: 安裝Screens Player
 contentOwner: jsyal
 feature: 管理畫面
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-
 # 安裝AEM Screens Player {#installing-player}
 
 本頁說明如何安裝AEM Screens播放器。
 
-## 可用螢幕播放器{#available-players}
+## 可用螢幕播放器 {#available-players}
 
 AEM Screens播放器適用於Android、Chrome OS和Windows。
 
