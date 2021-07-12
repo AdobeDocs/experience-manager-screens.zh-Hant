@@ -3,17 +3,17 @@ title: 「第1部分：專案角色與責任」
 seo-title: 「第1部分：專案角色與責任」
 description: 請依照本教學課程，更清楚了解數位招牌專案在銷售和專案生命週期期間所需的角色、責任和時間線。
 feature: 概覽
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 1%
 
 ---
 
-
-# 第1部分：項目角色和責任{#part-project-roles-and-responsibilities}
+# 第1部分：專案角色和責任 {#part-project-roles-and-responsibilities}
 
 本頁重點介紹5個部分系列的第1部分，該系列旨在幫助團隊成員更好地了解數字招牌項目在銷售和項目生命週期中需要的角色、責任和時間線。
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 >
 >所有相關人員都必須確切了解各方如何將因素納入AEM Screens部署和問題解決工作流程，並明確定義處理效能問題的角色，這一點非常重要。
 
-## 數位看板專案{#summary-of-roles-involved-in-a-digital-signage-project}中涉及的角色摘要
+## 數位看板專案中的角色摘要 {#summary-of-roles-involved-in-a-digital-signage-project}
 
 與Adobe、AEM實施者和A/V Integrator合作定義應用程式使用案例參數將推動軟體開發範圍。 這可確保採用分階段的方法，在整個項目中確定效能基準和成功度量。
 
@@ -51,7 +51,7 @@ AEM實作人員通常會隨著時間、依位置分階段部署自訂功能。 �
 
 **AV Integrator**&#x200B;負責與最終客戶進行發現，以定義確定項目範圍的要求，以設計、構建和有效管理圍繞數字招牌硬體的部署。
 
-## 第1部分：關於專案角色和責任的教學課程影片{#part-video-tutorial-on-project-roles-and-responsibilities}
+## 第1部分：專案角色與責任的教學課程影片 {#part-video-tutorial-on-project-roles-and-responsibilities}
 
 請依照下列教學課程，確切了解各方如何將任何問題解決工作流程納入AEM Screens部署，並在處理效能問題時明確定義角色。
 
@@ -61,7 +61,7 @@ AEM實作人員通常會隨著時間、依位置分階段部署自訂功能。 �
 
 *了解Adobe、AV整合商和AEM實作者的角色和責任。*
 
-## 下一步{#the-next-step}
+## 下一步 {#the-next-step}
 
 一旦您了解在實作數位看板專案中的專案角色和責任，請依照下一個教學課程深入探討主題，例如測試和售前考量，因為專案是在開發AEM Screens商機時限定範圍。
 
