@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: 製作畫面
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
-
-# 建立和管理調度{#creating-and-managing-schedules}
+# 建立和管理排程 {#creating-and-managing-schedules}
 
 **AEM Screens中的排程**&#x200B;可讓您將管道整理成可重複使用的群組，如此一來，您就不需要針對要顯示內容的每個顯示器個別重複指派。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >只有在您已安裝AEM 6.3 Sites Feature Pack 1時，才能使用此AEM Screens功能。 若要存取此Feature Pack，您必須聯絡Adobe支援並要求存取權。 擁有權限後，您就可以從「封裝共用」下載。
 
-## 建立計畫{#creating-a-schedule}
+## 建立排程 {#creating-a-schedule}
 
 您可以為Screens專案建立排程，以管理您使用案例的所有活動。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 您會在專案中看到具有指定名稱和標題的排程資料夾。
 
 
-## 查看儀表板{#viewing-dashboard}
+## 檢視控制面板 {#viewing-dashboard}
 
 在專案中建立排程資料夾後，您就可以從排程控制面板檢視詳細資訊。
 
@@ -67,4 +67,3 @@ ht-degree: 0%
    **指定的通** 道面板按一下「指定通道」面板右上角的「指定通道」，以開啟「通道分配」對話框。
 
    **已分配的** 顯示面板從「已分配的顯示面板」中選擇任何顯示以開啟顯示面板。
-
