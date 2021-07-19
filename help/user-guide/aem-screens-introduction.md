@@ -6,9 +6,9 @@ feature: 概述，數位招牌
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 8%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 8%
 **AEM(Adobe Experience Manager)Screens**  — 數位看板解決方案，可讓您發佈動態和互動式數位體驗，以及與不同類型的螢幕搭配全方位數位行銷平台的互動。
 
 使用[AEM Screens的Kickstart](kickstart-for-aem-screens.md)，開始使用簡單的數位招牌體驗。
+
+若要了解如何在AEM as aCloud Service中設定及建立AEM Screens專案，請參閱[此處](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en)。
 
 ## 概覽 {#overview}
 
