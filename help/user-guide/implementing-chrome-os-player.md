@@ -13,9 +13,9 @@ feature: 管理畫面
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,9 @@ ht-degree: 0%
 ## 命名Chrome OS播放器 {#name-chrome}
 
 您可以指派好記的裝置名稱給Chrome播放器，借此將指派的裝置名稱傳送至Adobe Experience Manager(AEM)。 此功能不僅可讓您為Chrome播放器命名，也可讓您輕鬆指派適當的內容。
+
+>[!NOTE]
+>您只能在註冊前選擇播放器名稱。 註冊播放器後，播放器名稱便無法再變更。
 
 請依照下列步驟，在Chrome播放器中設定名稱：
 
