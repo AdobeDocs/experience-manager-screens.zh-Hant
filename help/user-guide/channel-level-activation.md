@@ -2,21 +2,14 @@
 title: 管道層級啟動 — 單一事件播放
 seo-title: 管道層級啟動 — 單一事件播放
 description: 請依照本指南，了解使用單一事件播放的管道層級啟動。
-seo-description: 請依照本指南，了解使用單一事件播放的管道層級啟動。
-uuid: 87230344-5f9a-42a4-a7a8-ae4203303612
-contentOwner: jsyal
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-content-type: reference
-discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
-noindex: true
 feature: 製作螢幕，通道級激活
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 72352b9ece8fde2d02b9fa0ccd25c6dfd7d602fd
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1795'
 ht-degree: 1%
 
 ---
