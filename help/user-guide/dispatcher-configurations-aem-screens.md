@@ -7,9 +7,9 @@ feature: 管理畫面
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
+source-git-commit: 0d341b5d370654e9b1f56ca3afbc2a075cc85188
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
@@ -25,8 +25,6 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 >如果調度程式可用，則可以通過在調度程式規則中進行篩選來阻止與註冊servlet的連接。
 >
 >如果沒有Dispatcher，請停用OSGi元件清單中的註冊Servlet。
-
-## 先決條件 {#prerequisites}
 
 在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
 如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
