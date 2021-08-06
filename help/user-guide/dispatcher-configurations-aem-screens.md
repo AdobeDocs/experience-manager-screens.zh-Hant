@@ -7,9 +7,9 @@ feature: 管理畫面
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
+source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
 如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
 
-## 設定 Dispatcher {#configuring-dispatcher}
+## 為資訊清單v2配置Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >下列Dispatcher設定僅適用於資訊清單v2。 如需資訊清單v3，請參閱[資訊清單v3](#configuring-dispatcherv3)版的Dispatcher設定。
