@@ -7,7 +7,7 @@ feature: 管理畫面
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 2%
@@ -135,7 +135,7 @@ AEM Screens播放器或裝置也會使用已驗證的工作階段來存取發佈
 
 請務必在Screens運作的發佈執行個體前面的Dispatcher中允許這些篩選器和快取規則。
 
-## 資訊清單v3的先決條件{#prerequisites3}
+### 資訊清單v3的先決條件{#prerequisites3}
 
 在設定AEM Screens的Dispatcher（資訊清單版本v3）之前，請務必遵循下列兩個必要條件：
 
