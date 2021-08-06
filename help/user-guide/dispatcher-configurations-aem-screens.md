@@ -7,9 +7,9 @@ feature: 管理畫面
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 449f59f25f1164f1e638921192c538ac46d781d3
+source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -142,6 +142,8 @@ AEM Screens播放器或裝置也會使用已驗證的工作階段來存取發佈
 * 請確定已在發佈執行個體的`/etc/replication/agents.publish/dispatcher1useast1Agent`中設定Dispatcher排清代理程式。
 
    ![影像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+   ![影像](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### 濾鏡  {#filter-v3}
 
