@@ -7,9 +7,9 @@ feature: 管理畫面
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -28,16 +28,15 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 
 ## 先決條件 {#prerequisites}
 
->[!IMPORTANT]
->在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
->如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
+在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
+如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->下列Dispatcher設定僅適用於資訊清單v2。 如需資訊清單版本V3，請參閱[資訊清單版本v3]{#configuring-dispatcherv3}的Dispatcher設定。
+>下列Dispatcher設定僅適用於資訊清單v2。 如需資訊清單v3，請參閱[資訊清單v3](#configuring-dispatcherv3)版的Dispatcher設定。
 
-AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈例項中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，使已驗證的工作階段對來自AEM Screens播放器/裝置的所有請求有效。
+AEM Screens播放器或裝置也會使用已驗證的工作階段來存取發佈執行個體中的資源。 因此，當您有多個發佈例項時，請求應一律前往相同的發佈例項，使已驗證的工作階段對來自AEM Screens播放器/裝置的所有請求有效。
 
 請依照下列步驟，為AEM Screens專案設定Dispatcher。
 
@@ -138,7 +137,7 @@ AEM Screens播放器/裝置也會使用已驗證的工作階段來存取發佈�
 
 ## 資訊清單v3的先決條件{#prerequisites3}
 
-使用為AEM Screens設定Dispatcher之前，請務必遵循下列兩個必要條件：
+在設定AEM Screens的Dispatcher（資訊清單版本v3）之前，請務必遵循下列兩個必要條件：
 
 * 請務必使用`v3 manifests`。 導覽至`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`，並確認未勾選`Enable ContentSync Cache`。
 
