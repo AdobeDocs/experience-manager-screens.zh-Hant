@@ -7,9 +7,9 @@ feature: 管理畫面
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '432'
 ht-degree: 3%
 
 ---
@@ -26,11 +26,19 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。
 >
 >如果沒有Dispatcher，請停用OSGi元件清單中的註冊Servlet。
 
-## 先決條件 {#pre-requisites}
+## 先決條件 {#prerequisites}
 
-在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
+>[!IMPORTANT]
+>在為AEM Screens專案設定Dispatcher之前，您必須先具備Dispatcher的相關知識。
+>如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
 
-如需詳細資訊，請參閱[設定Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
+使用為AEM Screens設定Dispatcher之前，請務必遵循下列兩個必要條件：
+
+* 請確定您使用`v3 manifests`。 導覽至`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`，並確認未勾選`Enable ContentSync Cache`。
+
+* 請確定已在發佈執行個體的`/etc/replication/agents.publish/dispatcher1useast1Agent`中設定Dispatcher排清代理程式。
+
+   ![影像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## 設定 Dispatcher {#configuring-dispatcher}
 
