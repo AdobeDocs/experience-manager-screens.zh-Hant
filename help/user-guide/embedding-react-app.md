@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -90,13 +90,12 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. 將頻道指派給顯示器
+1. 將通道指派給顯示器。
 
    >[!NOTE]
    >將管道指派給顯示時，請務必新增使用者互動事件。
 
-1. 
-   1. 根據此專案註冊播放器，並將其指派給顯示器。 您現在應該可以看到您的互動式應用程式在AEM Screens上執行。
+1. 根據此專案註冊播放器，並將其指派給顯示器。 您現在應該可以看到您的互動式應用程式在AEM Screens上執行。
 
    請參考[設備註冊](device-registration.md)了解有關註冊設備的詳細資訊。
 
