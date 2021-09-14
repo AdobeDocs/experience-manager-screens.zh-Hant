@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '334'
 ht-degree: 5%
 
 ---
@@ -29,30 +29,23 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月9日。
 
 ### 新增功能 {#what-is-new}
 
-* **在AEM Screens通道中鎖定頁面**
+* **影片的縮圖支援**
 
-   AEM Screens現在支援&#x200B;*鎖定頁面*，如AEM Sites中已實作。 Adobe Experience Manager(AEM)可讓您鎖定頁面，讓其他人都無法修改內容。 當您對特定頁面進行許多編輯，或需要將頁面凍結一段時間時，這個功能會很實用。
+   AEM Screens現在支援中影片的縮圖支援。 內容作者可以定義視訊的縮圖，以便影像可作為預留位置，並在適當團隊完成實際視訊時，正確測試內容播放和鎖定目標。 當視訊播放失敗時，也可以使用影像。
+如需詳細資訊，請參閱影片縮圖支援。
 
-* **命名AEM Screens播放器裝置**
+* **基本播放監控**
 
-   AEM Screens播放器現在包含傳送裝置名稱至Adobe Experience Manager(AEM)的功能。
-預設情況下，當使用批量註冊註冊設備時，系統生成的用戶名將輸入到標題欄位中。 或者，客戶可能會使用資產標籤或其他好記的名稱，以便顯示在AEM中，並更輕鬆指派適當的內容。
+   AEM Screens現在支援基本播放監控。 播放器現在會報告各種播放量度，每次偵測（預設為30秒）。 它可根據量度偵測各種邊緣案例（停滯體驗、空白畫面、排程問題等）。 此功能可讓團隊遠端監視播放器是否正確播放內容、改善對空白畫面或欄位中中斷體驗的再活動，並降低向使用者顯示中斷體驗的風險。
+如需詳細資訊，請參閱基本播放監控。
 
-   請參閱下列檔案，了解如何在每個支援的作業系統中設定名稱：
+* **內容指派報表的更新**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [蒂森](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **資訊清單產生**
-
-   通過改進的效能（如在伺服器上分配較少的資源）加快通道清單的生成。
 
 ### 錯誤修正 {#bug-fixes}
 
-* 播放器切換至包含動態內嵌序列的頻道時，會顯示黑屏。
-* Screens播放器現在會封鎖切換至任何中斷的通道，進一步避免404錯誤或出現錯誤訊息的頁面。
+
 
 ### 發行的AEM Screens播放器 {#released-aem-screens-players}
 
