@@ -1,11 +1,11 @@
 ---
 title: Feature Pack 202109發行說明
-description: 「如需2021年9月22日發行的AEM Screens Feature Pack 202105的相關資訊，請詳閱本頁。」
+description: 請詳閱本頁，了解2021年9月23日發行的AEM Screens Feature Pack 202105的相關資訊。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 4%
@@ -25,7 +25,7 @@ AEM Screens發行AEM 6.5 Feature Pack 9。
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 202109的發行日期為2021年9月9日。
+AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 ### 新增功能 {#what-is-new}
 
