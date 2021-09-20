@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,8 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 如需詳細資訊，請參閱基本播放監控。
 
 * **內容指派報表的更新**
+
+   內容指派報表現在已最佳化，並透過增強的使用者體驗加以改善。 可下載的報表在一個試算表標籤中顯示改善的播放器相關實體，例如位置、顯示器和裝置，以及內容提供者資訊，例如頻道和資產，在其他標籤中。
 
 * **支援V3艙單**
 
