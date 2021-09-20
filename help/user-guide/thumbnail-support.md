@@ -2,7 +2,7 @@
 title: AEM Screens中影片的縮圖支援
 description: 本頁面說明如何在Screens中新增影片的縮圖支援。
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -31,7 +31,6 @@ ht-degree: 0%
 請依照下列步驟，在影片中使用縮圖：
 
 1. 導覽至現有的Screens頻道或建立新頻道。
-
 
 1. 選取通道，然後按一下動作列中的&#x200B;**Edit**&#x200B;以開啟編輯器。
 
