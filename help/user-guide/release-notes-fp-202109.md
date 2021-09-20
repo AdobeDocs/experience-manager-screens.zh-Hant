@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 4%
+source-wordcount: '720'
+ht-degree: 2%
 
 ---
 
@@ -49,11 +49,85 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 ### 錯誤修正 {#bug-fixes}
 
+**播放器端**
+
+* 以轉譯取代資產，解決檔案快取錯誤。
+
+* 現在，如果轉譯對應存在，播放器只會顯示資產轉譯。
+
+* 您現在可以根據Splunk記錄檔來設定閒置警報。
+
+* 如果回應無效，請增強Ping以重新驗證。
+
+* 數值通道名稱/角色造成空白畫面。
+
+* 透過SmartSync下載最佳化轉譯。
+
+* 將對應轉換為轉譯金鑰清單。
+
+* 刪除對windows播放器中cmd.exe和reg.exe的訪問。
+
+* 限制csrf權杖呼叫。
+
+* 播放器需要回報其最後一次成功的播放事件。
+
+* 播放器需要回報其播放狀態。
+
+* 清除`ALL`快取時，播放器不會重新下載資產。
+
+* 身為播放器管理員，您現在可以選擇播放器名稱。
+
+* 從顯示中移除頻道指派不會反映在播放器上。
+
+* 如果播放器在下載頻道更新時重新載入，播放器會忽略更新。
+
+* 內嵌頁面元件不遵守觸控事件。
+
+* 現在支援Tizen播放器的遠端布建。
+
+**伺服器端**
+
+* Target視訊未顯示
+* 向子序列廣播顯示資料時的競爭條件。
+
+* 包含視訊的管道無法使用管道預覽。
+
+* 分割螢幕頻道的預覽模式顯示為空白。
+
+* 視訊縮圖會以啟用的最適化轉譯呈現空白。
+
+* 如果參考頁面已發佈，會自動更新管道資訊清單。
+
+* 管道JSON不包含自訂管道(#942)
+
+* 已刪除的裝置現在不會封鎖Screens復寫佇列。
+
+* 資訊清單不包含目標內容或Sites內嵌頁面。
+
+* 新核心影像元件未新增至管道資訊清單。
+
+* 現在支援透過SmartSync下載最佳化轉譯。
+
+* 為所有資產播放最佳化的轉譯。
+
+* 新增對多種內容提供者類型的支援
+
+* 內嵌序列播放策略已中斷，此問題現已修正。
+
+* 對html項目使用要求參數`wcmmode`的離線資訊清單，使其無法執行。
+
+* 空白的動態內嵌序列有時會造成空白畫面。
+
+* 播放器需要回報其播放狀態。
+
+* 視訊在`Tiny mode`中播放，且未在裝置上以全螢幕視訊的形式播放。
+
+* OSGi密碼以純文字顯示。
 
 
 ### 發行的AEM Screens播放器 {#released-aem-screens-players}
 
-已針對AEM 6.5 Feature Pack 8發行下列AEM Screens播放器：
+已針對AEM 6.5 Feature Pack 9發行下列AEM Screens播放器：
 
 * ChromeOS
 * Windows
