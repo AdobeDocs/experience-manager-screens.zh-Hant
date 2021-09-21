@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 您現在可以根據Splunk記錄檔來設定閒置警報。
 
-* 如果回應無效，請增強Ping以重新驗證。
+* 增強Ping功能，可在回應無效時重新驗證。
 
 * 數值通道名稱/角色造成空白畫面。
 
@@ -67,9 +67,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 將對應轉換為轉譯金鑰清單。
 
-* 刪除對windows播放器中cmd.exe和reg.exe的訪問。
-
-* 限制csrf權杖呼叫。
+* 移除Windows播放器中對`cmd.exe`和`reg.exe`的存取。
 
 * 播放器需要回報其最後一次成功的播放事件。
 
@@ -83,7 +81,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 如果播放器在下載頻道更新時重新載入，播放器會忽略更新。
 
-* 內嵌頁面元件不遵守觸控事件。
+* 內嵌頁面元件現在會遵守觸控事件。
 
 * 現在支援Tizen播放器的遠端布建。
 
@@ -100,13 +98,11 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 如果參考頁面已發佈，會自動更新管道資訊清單。
 
-* 管道JSON不包含自訂管道(#942)
-
 * 已刪除的裝置現在不會封鎖Screens復寫佇列。
 
-* 資訊清單不包含目標內容或Sites內嵌頁面。
+* 資訊清單不包含目標內容或Sites內嵌頁面。 此問題現已修正。
 
-* 新核心影像元件未新增至管道資訊清單。
+* 新的核心影像元件現已新增至管道資訊清單。
 
 * 現在支援透過SmartSync下載最佳化轉譯。
 
@@ -120,12 +116,9 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 空白的動態內嵌序列有時會造成空白畫面。
 
-* 播放器需要回報其播放狀態。
+* 播放器現在會回報其播放狀態。
 
-* 視訊在`Tiny mode`中播放，且未在裝置上以全螢幕視訊的形式播放。
-
-* OSGi密碼以純文字顯示。
-
+* 視訊在`Tiny mode`中播放，但未在裝置上以全螢幕視訊的形式播放，問題現已修正。
 
 ### 發行的AEM Screens播放器 {#released-aem-screens-players}
 

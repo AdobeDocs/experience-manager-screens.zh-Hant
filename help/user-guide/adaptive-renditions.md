@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ ht-degree: 1%
 
 ## 後續步驟 {#next-steps}
 
-上傳轉譯後，您現在可以在AEM Screens頻道中使用最適化轉譯。 如需詳細資訊，請參閱使用最適化轉譯。
+設定及上傳轉譯後，您現在可以在AEM Screens頻道中使用最適化轉譯。 如需詳細資訊，請參閱使用最適化轉譯。
