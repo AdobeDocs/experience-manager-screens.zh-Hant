@@ -1,15 +1,16 @@
 ---
 title: AEM Screens中的最適化轉譯
-description: 本頁說明如何在AEM Screens中使用最適化轉譯。
+description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# 適用性轉譯 {#adaptive-renditions}
+
+# 適用性轉譯：架構概述和設定 {#adaptive-renditions}
 
 ## 簡介 {#introduction}
 
@@ -59,12 +60,11 @@ ht-degree: 0%
 
 ## 設定作者和發佈 {#setup-author-publish}
 
-請依照下列步驟來設定作者和發佈：
+使用最適化轉譯之前，請在「製作」和「發佈」中考量下列建議：
 
 * 必須手動複製轉譯對應。
 
 * 預設不會複製資產轉譯。 所有相關資產都需要手動複製。
-
 
 ## 新增轉譯對應規則 {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 
 ## 後續步驟 {#next-steps}
 
-上傳轉譯後，您現在可以在AEM Screens頻道中使用最適化轉譯。
+上傳轉譯後，您現在可以在AEM Screens頻道中使用最適化轉譯。 如需詳細資訊，請參閱使用最適化轉譯。

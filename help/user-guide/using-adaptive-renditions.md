@@ -2,10 +2,10 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 1%
 ## 必備條件 {#pre-reqs}
 
 >[!IMPORTANT]
->開始使用適用性轉譯之前，建議您先在AEM Screens頻道中了解此功能的架構概述和設定。 如需詳細資訊，請參閱適用性轉譯。
+>開始使用適用性轉譯之前，建議您先在AEM Screens頻道中了解此功能的架構概述和設定。 請參閱適用性轉譯：架構概述和設定，以取得詳細資訊。
 
-## 使用最適化轉譯 {#using-adaptive-renditions}
+## 在AEM Screens頻道中使用最適化轉譯 {#using-adaptive-renditions}
+
+新增對應規則和上傳的轉譯後，您現在可以在AEM Screens頻道中將最適化轉譯使用至資產。
+
+請遵循下列步驟：
+
+
 
