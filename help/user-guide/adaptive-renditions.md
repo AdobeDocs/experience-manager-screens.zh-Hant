@@ -2,10 +2,10 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 0%
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 0%
 
 最適化轉譯是以擁有多個資產轉譯的構想為基礎，並以特定命名慣例命名。 播放特定轉譯的決定是透過評估媒體查詢運算式，而這些運算式只能在具備預期功能的裝置上解析。 具有關聯的格式副本命名模式的能力定義格式副本映射規則。 計算所有可用的運算式後，Screens播放器將收集與相符規則對應的命名模式。 模式可用來在序列播放期間，透過尋找轉譯名稱中的模式來尋找正確的轉譯。
 
+![影像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## 使用最適化轉譯設定 {#setup-adaptive-renditions}
 
@@ -36,27 +37,36 @@ ht-degree: 0%
    >[!NOTE]
    >所有最新的Feature Pack都已預先填入此節點結構。
 
+   ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
 1. 請確定Screens專案具有與其相關聯的轉譯對應設定。
 
    * 使用Screens專案精靈建立的每個新專案都會包含指向轉譯對應設定的參考。
 
+      ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+
    * 在舊版Screens專案中，必須將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義關聯。
+
+      ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## 移轉策略 {#migration-strategy}
 
 >[!IMPORTANT]
 >對於大型網路，建議逐步進行遷移以降低風險，因為該功能將對清單和檔案儲存格式進行更改。
 
-若要啟用功能，請新增至少一個對應規則，並確定可在顯示器和通道的內容中解析轉譯對應設定：
+下圖描述了大型網路的遷移策略：
 
-1. 新增轉譯對應規則。
+![影像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+若要啟用功能，請新增至少一個對應規則，並確定可在顯示器和通道的內容中解析轉譯對應設定。 請依照下列步驟進行移轉：
+
+1. 新增[轉譯對應規則](#adding-rendition-mapping-rules)。
 1. 為新頻道建立資料夾，並新增指向轉譯對應設定的參考。
 1. 建立新管道取代舊管道並上傳轉譯。
 1. 將顯示為新通道。
-1. 將參考新增至指向轉譯對應設定的已移轉顯示/位置。
+1. 將參考新增至已移轉的顯示器或指向轉譯對應設定的位置。
 1. 對所有剩餘通道和顯示重複步驟3、4和5。
-1. 完成移轉後，請移除頻道/顯示器/位置中的所有設定參考，並將單一參考新增至專案內容節點。
+1. 完成移轉後，請移除頻道、顯示器和位置的所有設定參考，並將單一參考新增至專案內容節點。
 
 ## 設定作者和發佈 {#setup-author-publish}
 
@@ -66,7 +76,7 @@ ht-degree: 0%
 
 * 預設不會複製資產轉譯。 所有相關資產都需要手動複製。
 
-## 新增轉譯對應規則 {#adding-rendition-mapping-rules}
+## 新增轉譯對應規則 {#add-rendition-mapping-rules}
 
 1. 要添加映射規則，需要在格式副本映射節點下建立`nt:unstructured`類型的節點。
 
@@ -77,6 +87,9 @@ ht-degree: 0%
 
 1. 如果將運算式評估為true，請使用包含將選取的轉譯命名模式的值來新增模式屬性。
 
+   ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+
+
 ## 上傳轉譯 {#upload-renditions}
 
 1. 建立更適合標牌顯示的資產版本，例如`portrait orientation`。
@@ -85,8 +98,9 @@ ht-degree: 0%
 
 1. 重新命名資產檔案，使其包含模式，例如`my_asset_portrait.png`。
 
-1. 按一下工具列中的「新增轉譯」按鈕，以上傳轉譯。
+1. 按一下&#x200B;**Add Rendition**&#x200B;以上傳轉譯，如下圖所示。
 
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 後續步驟 {#next-steps}
 
