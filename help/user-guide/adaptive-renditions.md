@@ -2,10 +2,10 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 0a870f337f69f3379abb15dac504ee8e8355bc98
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 1%
+source-wordcount: '648'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,73 @@ ht-degree: 1%
 
 因此，如果您部署了各種裝置，使用此功能可讓裝置根據規則自動下載並播放資產的最適當轉譯。
 
-## 使用最適化轉譯 {#using-adaptive-renditions}
+## 架構概述 {#architectural-overview}
+
+最適化轉譯是以擁有多個資產轉譯的構想為基礎，並以特定命名慣例命名。 播放特定轉譯的決定是透過評估媒體查詢運算式，而這些運算式只能在具備預期功能的裝置上解析。 具有關聯的格式副本命名模式的能力定義格式副本映射規則。 計算所有可用的運算式後，Screens播放器將收集與相符規則對應的命名模式。 模式可用來在序列播放期間，透過尋找轉譯名稱中的模式來尋找正確的轉譯。
 
 
+## 使用最適化轉譯設定 {#setup-adaptive-renditions}
+
+若要啟用「適用性轉譯」功能，應該有對應規則，且CA設定可解析為通道並顯示：
+
+1. 檢查`JCR`中是否存在格式副本映射配置。 所有最新的Feature Pack都已預先填入此節點結構。
+
+   >[!NOTE]
+   >所有最新的Feature Pack都已預先填入此節點結構。
 
 
+1. 請確定Screens專案具有與其相關聯的轉譯對應設定。
+
+   * 使用Screens專案精靈建立的每個新專案都會包含指向轉譯對應設定的參考。
+
+   * 在舊版Screens專案中，必須將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義關聯。
+
+## 移轉策略 {#migration-strategy}
+
+>[!IMPORTANT]
+>對於大型網路，建議逐步進行遷移以降低風險，因為該功能將對清單和檔案儲存格式進行更改。
+
+若要啟用功能，請新增至少一個對應規則，並確定可在顯示器和通道的內容中解析轉譯對應設定：
+
+1. 新增轉譯對應規則。
+1. 為新頻道建立資料夾，並新增指向轉譯對應設定的參考。
+1. 建立新管道取代舊管道並上傳轉譯。
+1. 將顯示為新通道。
+1. 將參考新增至指向轉譯對應設定的已移轉顯示/位置。
+1. 對所有剩餘通道和顯示重複步驟3、4和5。
+1. 完成移轉後，請移除頻道/顯示器/位置中的所有設定參考，並將單一參考新增至專案內容節點。
+
+## 設定作者和發佈 {#setup-author-publish}
+
+請依照下列步驟來設定作者和發佈：
+
+* 必須手動複製轉譯對應。
+
+* 預設不會複製資產轉譯。 所有相關資產都需要手動複製。
+
+
+## 新增轉譯對應規則 {#adding-rendition-mapping-rules}
+
+1. 要添加映射規則，需要在格式副本映射節點下建立`nt:unstructured`類型的節點。
+
+1. 使用包含查詢運算式的值新增運算式屬性。
+
+   >[!NOTE]
+   >請參閱[使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)以深入了解。
+
+1. 如果將運算式評估為true，請使用包含將選取的轉譯命名模式的值來新增模式屬性。
+
+## 上傳轉譯 {#upload-renditions}
+
+1. 建立更適合標牌顯示的資產版本，例如`portrait orientation`。
+
+1. 選擇格式副本命名模式，例如`portrait`。
+
+1. 重新命名資產檔案，使其包含模式，例如`my_asset_portrait.png`。
+
+1. 按一下工具列中的「新增轉譯」按鈕，以上傳轉譯。
+
+
+## 後續步驟 {#next-steps}
+
+上傳轉譯後，您現在可以在AEM Screens頻道中使用最適化轉譯。
