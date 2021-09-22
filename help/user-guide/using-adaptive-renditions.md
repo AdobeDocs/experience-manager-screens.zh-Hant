@@ -2,14 +2,14 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
-# 使用最適化轉譯 {#adaptive-renditions}
+# 在AEM Screens中使用最適化轉譯 {#adaptive-renditions}
 
 ## 簡介 {#introduction}
 

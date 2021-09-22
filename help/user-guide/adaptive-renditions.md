@@ -2,7 +2,7 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 使用最適化轉譯設定 {#setup-adaptive-renditions}
 
-若要啟用「適用性轉譯」功能，應該有對應規則，且CA設定可解析為通道並顯示：
+若要啟用「適用性轉譯」功能，應該有對應規則，且「內容感知組態」可針對通道和顯示進行解析：
 
 1. 檢查`JCR`中是否存在格式副本映射配置。 所有最新的Feature Pack都已預先填入此節點結構。
 
