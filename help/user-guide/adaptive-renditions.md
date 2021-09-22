@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -49,24 +49,7 @@ ht-degree: 1%
 
       ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## 移轉策略 {#migration-strategy}
 
->[!IMPORTANT]
->對於大型網路，建議逐步進行遷移以降低風險，因為該功能將對清單和檔案儲存格式進行更改。
-
-下圖描述了大型網路的遷移策略：
-
-![影像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-若要啟用功能，請新增至少一個對應規則，並確定可在顯示器和通道的內容中解析轉譯對應設定。 請依照下列步驟進行移轉：
-
-1. 新增[轉譯對應規則](#adding-rendition-mapping-rules)。
-1. 為新頻道建立資料夾，並新增指向轉譯對應設定的參考。
-1. 建立新管道取代舊管道並上傳轉譯。
-1. 將顯示為新通道。
-1. 將參考新增至已移轉的顯示器或指向轉譯對應設定的位置。
-1. 對所有剩餘通道和顯示重複步驟3、4和5。
-1. 完成移轉後，請移除頻道、顯示器和位置的所有設定參考，並將單一參考新增至專案內容節點。
 
 ## 設定作者和發佈 {#setup-author-publish}
 
@@ -90,17 +73,6 @@ ht-degree: 1%
    ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## 上傳轉譯 {#upload-renditions}
-
-1. 建立更適合標牌顯示的資產版本，例如`portrait orientation`。
-
-1. 選擇格式副本命名模式，例如`portrait`。
-
-1. 重新命名資產檔案，使其包含模式，例如`my_asset_portrait.png`。
-
-1. 按一下&#x200B;**Add Rendition**&#x200B;以上傳轉譯，如下圖所示。
-
-   ![影像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 後續步驟 {#next-steps}
 
