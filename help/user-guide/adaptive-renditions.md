@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,12 @@ ht-degree: 1%
 
 ## 使用最適化轉譯設定 {#setup-adaptive-renditions}
 
-若要啟用「適用性轉譯」功能，應該有對應規則，且「內容感知組態」可針對通道和顯示進行解析：
+若要啟用「適用性轉譯」功能，應該有對應規則，且「內容感知(CA)」組態可針對通道和顯示進行解析。
+
+>[!NOTE]
+>若要深入了解內容感知設定，請參閱[此處](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)。
+
+請依照下列步驟來設定設定：
 
 1. 檢查`JCR`中是否存在格式副本映射配置。 所有最新的Feature Pack都已預先填入此節點結構。
 
@@ -74,4 +79,4 @@ ht-degree: 1%
 
 ## 後續步驟 {#next-steps}
 
-在您設定並上傳轉譯後，現在可以以「內容作者」的身分使用「最適化轉譯」，也可以在AEM Screens頻道中移轉裝置以套用此功能。 如需詳細資訊，請參閱[使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 。
+設定及上傳轉譯後，您現在可以以「內容作者」的身分使用「最適化轉譯」，也可以移轉大型網路的裝置，以便在AEM Screens頻道中使用此功能。 如需詳細資訊，請參閱[使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 。
