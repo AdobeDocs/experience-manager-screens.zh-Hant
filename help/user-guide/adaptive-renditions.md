@@ -2,7 +2,7 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ ht-degree: 1%
    * 在舊版Screens專案中，必須將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義關聯。
 
       ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## 設定作者和發佈 {#setup-author-publish}
 
