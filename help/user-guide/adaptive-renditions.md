@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
+source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 1%
 
 ## 目標 {#objective}
 
-身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 您必須先設定最適化轉譯，內容作者才能在AEM Screens頻道中使用此功能。
-
-因此，如果您部署了各種裝置，使用此功能可讓裝置根據規則自動下載並播放資產的最適當轉譯。
+身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 您必須先設定「最適化轉譯」，內容作者才能在AEM Screens頻道中使用此功能。
 
 ## 架構概述 {#architectural-overview}
 
-最適化轉譯是以擁有多個資產轉譯的構想為基礎，並以特定命名慣例命名。 播放特定轉譯的決定是透過評估媒體查詢運算式，而這些運算式只能在具備預期功能的裝置上解析。 具有關聯的格式副本命名模式的能力定義格式副本映射規則。 計算所有可用的運算式後，Screens播放器將收集與相符規則對應的命名模式。 模式可用來在序列播放期間，透過尋找轉譯名稱中的模式來尋找正確的轉譯。
+最適化轉譯是以擁有多個資產轉譯的構想為基礎，並以特定命名慣例命名。 播放特定轉譯的決定是透過評估媒體查詢運算式，而這些運算式只能在具備預期功能的裝置上解析。
+
+具有關聯的格式副本命名模式的功能定義格式副本映射規則，如直向或橫向，如下圖所示。 計算所有可用的運算式後，Screens播放器將收集與相符規則對應的命名模式。 模式可用來在序列播放期間，透過尋找轉譯名稱中的模式來尋找正確的轉譯。
 
 ![影像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## 使用最適化轉譯設定 {#setup-adaptive-renditions}
 
-若要啟用「適用性轉譯」功能，應該有對應規則，且「內容感知(CA)」組態可針對通道和顯示進行解析。
+若要啟用「適用性轉譯」功能，應存在下列對應規則，且「內容感知」(CA)設定應可針對通道和顯示進行解析。
 
 >[!NOTE]
 >若要深入了解內容感知設定，請參閱[此處](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)。
 
 請依照下列步驟來設定設定：
 
-1. 檢查`JCR`中是否存在格式副本映射配置。 所有最新的Feature Pack都已預先填入此節點結構。
+1. 導覽至&#x200B;**CRXDE Lite**。 檢查&#x200B;**rendition-mapping**&#x200B;配置是否存在於`JCR`中，如下圖所示。
 
    >[!NOTE]
    >所有最新的Feature Pack都已預先填入此節點結構。
@@ -46,11 +46,11 @@ ht-degree: 1%
 
 1. 請確定Screens專案具有與其相關聯的轉譯對應設定。
 
-   * 使用Screens專案精靈建立的每個新專案都會包含指向轉譯對應設定的參考。
+   * 使用Screens專案精靈建立的每個新專案都會包含指向&#x200B;**rendit-mapping**&#x200B;設定的參考。
 
       ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
 
-   * 在舊版Screens專案中，必須將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義關聯。
+   * 在舊版Screens專案中，您需要將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義關聯。
 
       ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ## 新增轉譯對應規則 {#add-rendition-mapping-rules}
 
-1. 要添加映射規則，需要在格式副本映射節點下建立`nt:unstructured`類型的節點。
+1. 要添加映射規則，您需要在&#x200B;**rendition-mapping**&#x200B;節點下建立`nt:unstructured`類型的節點。
 
 1. 使用包含查詢運算式的值新增運算式屬性。
 
@@ -74,7 +74,6 @@ ht-degree: 1%
 1. 如果將運算式評估為true，請使用包含將選取的轉譯命名模式的值來新增模式屬性。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
-
 
 
 ## 後續步驟 {#next-steps}
