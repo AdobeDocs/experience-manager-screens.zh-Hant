@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ![影像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## 使用最適化轉譯設定 {#setup-adaptive-renditions}
+## 將轉譯對應屬性新增至Screens專案 {#rendition-mapping-new}
 
 若要啟用「適用性轉譯」功能，應存在下列對應規則，且「內容感知」(CA)設定應可針對通道和顯示進行解析。
 
@@ -37,22 +37,22 @@ ht-degree: 1%
 
 請依照下列步驟來設定設定：
 
-1. 導覽至&#x200B;**CRXDE Lite**。 檢查&#x200B;**rendition-mapping**&#x200B;配置是否存在於`JCR`中，如下圖所示。
+1. 導覽至&#x200B;**CRXDE Lite**。 檢查&#x200B;**rendition-mapping**&#x200B;配置是否存在於`/conf/screens/sling:configs/rendition-mapping`中，如下圖所示。
 
-   >[!NOTE]
-   >所有最新的Feature Pack都已預先填入此節點結構。
+   >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >若您已安裝最新的Feature Pack 202109，您會看到&#x200B;**rendition-mapping**&#x200B;節點結構已預先填入`/conf/screens/sling:configs/rendition-mapping`的CRXDE Lite中。 請參閱[Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md)發行說明，以取得最新Feature Pack的詳細資訊。
+   >針對現有專案，請確定Screens專案有相關聯的&#x200B;**rendition-mapping**&#x200B;設定。 請參閱[新增轉譯對應至現有專案](#rendition-mapping-existing)區段以深入了解。
 
-1. 請確定Screens專案具有與其相關聯的轉譯對應設定。
+### 將格式副本映射屬性添加到現有項目 {#rendition-mapping-existing}
 
-   * 使用Screens專案精靈建立的每個新專案都會包含指向&#x200B;**rendit-mapping**&#x200B;設定的參考。
+1. 導覽至&#x200B;**CRXDE Lite**。
 
-      ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. 將指向`/conf/screens`的`sling:configRef`屬性添加到項目內容節點，顯式定義格式副本映射關聯，如下圖所示。
 
-   * 在舊版Screens專案中，您需要將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義關聯。
+   ![影像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## 設定作者和發佈 {#setup-author-publish}
 
