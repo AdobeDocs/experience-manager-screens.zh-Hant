@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 13%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 13%
    + [從ContentSync過渡到SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器複製到發佈伺服器](replicating-data-triggers.md)
+   + [影片的縮圖支援](thumbnail-support.md)
    + 客戶端特定注意事項{#installing-client}
       + [Chrome OS播放器](implementing-chrome-os-player.md)
       + [使用Chrome Player作為疑難排解的擴充功能](using-chrome-player-as-an-extension.md)
