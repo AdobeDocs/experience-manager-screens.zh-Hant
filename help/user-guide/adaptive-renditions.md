@@ -1,10 +1,9 @@
 ---
-title: AEM Screens中的最適化轉譯
-description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: 適用性轉譯架構概觀和設定
+description: 本頁說明AEM Screens中適用性轉譯CRXDE Lite的架構概觀和設定。
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -54,14 +53,6 @@ ht-degree: 1%
    ![影像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## 設定作者和發佈 {#setup-author-publish}
-
-使用最適化轉譯之前，請在「製作」和「發佈」中考量下列建議：
-
-* 必須手動複製轉譯對應。
-
-* 預設不會複製資產轉譯。 所有相關資產都需要手動複製。
-
 ## 新增轉譯對應規則 {#add-rendition-mapping-rules}
 
 請依照下列步驟，在「轉譯對應」下新增節點：
@@ -102,4 +93,4 @@ ht-degree: 1%
 
 ## 後續步驟 {#next-steps}
 
-新增轉譯對應屬性和規則後（現在以內容作者的身分），您就可以將資產設定為使用最適化轉譯，也可以移轉大型網路的裝置，以便在AEM Screens頻道中使用此功能。 如需詳細資訊，請參閱[使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 。
+新增轉譯對應屬性和規則後（現在以內容作者的身分），您就可以將資產設定為使用最適化轉譯，也可以移轉大型網路的裝置，以便在AEM Screens頻道中使用此功能。

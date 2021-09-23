@@ -4,10 +4,9 @@ description: 請詳閱本頁，了解2021年9月23日發行的AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-index: false
-source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -48,7 +47,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
    適用性轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。
 
-   身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。
+   身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 請參閱[適用性轉譯：架構概述和設定](/help/user-guide/adaptive-renditions.md)以取得詳細資訊
 
    此外，身為AEM Screens內容作者，您現在可以在AEM Screens專案中使用最適化轉譯，也可針對大型網路套用移轉策略。
 

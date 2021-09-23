@@ -1,11 +1,11 @@
 ---
 title: AEM Screens中影片的縮圖支援
 description: 本頁面說明如何在Screens中新增影片的縮圖支援。
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ ht-degree: 0%
 
 1. 選取通道，然後按一下動作列中的&#x200B;**Edit**&#x200B;以開啟編輯器。
 
+   ![影像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. 添加或編輯現有視頻元件，如下圖所示。
+
+   ![影像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. 選取影片，然後按一下&#x200B;*扳手*&#x200B;圖示以開啟影片屬性。
 
+   ![影像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. 將開啟&#x200B;**Video**&#x200B;對話框，您將在其中查看&#x200B;**縮圖**&#x200B;拖放區域。
 
+   ![影像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. 將影像從資產選擇器拖放至&#x200B;**縮圖**&#x200B;拖放區域，然後按一下&#x200B;**完成**。
+
+   ![影像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. 按一下&#x200B;**預覽**。
 

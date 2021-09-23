@@ -2,7 +2,7 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ ht-degree: 1%
 
    >[!NOTE]
    >完成移轉後，請務必從頻道、顯示器和位置移除所有設定參考，並將單一參考新增至專案內容節點。
-
 
 ## 在AEM Screens頻道中上傳轉譯和使用最適化轉譯 {#upload-renditions}
 

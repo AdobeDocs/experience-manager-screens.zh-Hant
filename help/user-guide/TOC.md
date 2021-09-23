@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 13%
+source-wordcount: '460'
+ht-degree: 12%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 13%
    + [從ContentSync過渡到SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器複製到發佈伺服器](replicating-data-triggers.md)
-   + [影片的縮圖支援](thumbnail-support.md)
    + 客戶端特定注意事項{#installing-client}
       + [Chrome OS播放器](implementing-chrome-os-player.md)
       + [使用Chrome Player作為疑難排解的擴充功能](using-chrome-player-as-an-extension.md)
@@ -82,6 +81,7 @@ ht-degree: 13%
       + [使用資料觸發器製作](authoring-data-triggers.md)
       + [語音識別](voice-recognition.md)
       + [內容指派報表](content-assignment-report.md)
+      + [影片的縮圖支援](thumbnail-support.md)
    + 管理內容更新{#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 13%
    + [在AEM Screens中設定ContextHub](configuring-context-hub.md)
    + [為多區域佈局建立自定義模板](creating-custom-templates-multizone-layouts.md)
    + [為文字覆蓋套用自訂品牌和樣式](custom-branding-text-overlays.md)
+   + [適用性轉譯：架構概述和設定](/help/user-guide/adaptive-renditions.md)
 + 疑難排解和常見問題集{#troubleshooting}
    + [AEM Screens常見問題集](aem-screens-faqs.md)
    + [疑難排解設備控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [Feature Pack 202109發行說明](release-notes-fp-202109.md)
    + [Feature Pack 202105發行說明](release-notes-fp-202105.md)
    + [Feature Pack 202103發行說明](release-notes-fp-202103.md)
    + [Feature Pack 202011發行說明](release-notes-fp-202011.md)
