@@ -1,29 +1,29 @@
 ---
 title: 內容指派報表
 description: 此頁面說明內容指派報表的下載與使用方式。
-feature: 製作畫面
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
-
 
 # 內容指派報表 {#content-assignment-report}
 
 「內容指派報表」功能可讓AEM Screens管理員或作者以試算表格式匯出&#x200B;*內容指派報表*。
 
-## 使用內容指派報表{#using-content-assignment-report}
+## 使用內容分配報表 {#using-content-assignment-report}
 
 「內容指派報表」可讓AEM Screens作者或管理員下載報表，該報表包含在AEM Screens專案中建立之所有管道中的所有資產，例如影像、視訊。 此外，它還包括分配給所有指定顯示器的整個通道的資訊，以及此後分配給其指定顯示器的所有設備的資訊。
 
 「內容指派報表」不僅可預覽所選AEM Screens專案中的所有管道、資產、顯示器和裝置，也可提供專案的高階結構。
 
 
-### 先決條件{#pre-reqs}
+### 先決條件 {#pre-reqs}
 
 下載「內容指派報表」之前，請務必先透過「頻道」、「位置」和「裝置」設定AEM Screens專案。
 如需詳細資訊，請參閱下列資源：
@@ -36,7 +36,7 @@ ht-degree: 2%
 1. [指派管道](/help/user-guide/channel-assignment-latest-fp.md)
 
 
-## 下載內容指派報表{#downloading-content-assignment-report-fp}
+## 下載內容指派報表 {#downloading-content-assignment-report-fp}
 
 設定AEM Screens專案，並將顯示指派給每個位置（如前述步驟所示）後，您就可以下載「內容指派報表」。
 
@@ -51,10 +51,13 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. 下載的試算表包含兩個標籤，例如&#x200B;**Locations**&#x200B;和&#x200B;**Content**。 「位置」標籤顯示四列，如&#x200B;**Locations**、**Displays**、**Channels**&#x200B;和&#x200B;**Devices**，這些欄可用來進一步調查與您的AEM Screens專案相關的這四個實體。
+
+   ![影像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >下載的試算表包含四欄，例如&#x200B;**Channels**、**Assets**、**Displays**&#x200B;和&#x200B;**Devices**，這四欄可用來進一步調查與您的AEM Screens專案相關的這四個實體。
+   >試算表中顯示的資料會依字母順序排序，且易於閱讀。
 
-1. 系統會將Excel工作表下載至本機電腦，且前置詞名稱與AEM Screens專案名稱相同。 例如，如果您的專案名稱為&#x200B;**DemoScreens**，下載的檔案名稱將是&#x200B;**demoscreens-content-assignment-report.xlxs**。
+1. 您可以按一下&#x200B;**頻道**&#x200B;欄中的任何頻道，開啟&#x200B;**內容**&#x200B;標籤，該標籤將直接導覽至該頻道，並將提供與該特定頻道相關的資產（影像和視訊）資訊，如下圖所示。
 
-   ![影像](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![影像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

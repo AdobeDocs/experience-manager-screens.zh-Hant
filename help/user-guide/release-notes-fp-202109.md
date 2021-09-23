@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
@@ -32,24 +32,25 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 * **影片的縮圖支援**
 
    AEM Screens現在支援中影片的縮圖支援。 內容作者可以定義視訊的縮圖，以便影像可作為預留位置，並在適當團隊完成實際視訊時，正確測試內容播放和鎖定目標。 當視訊播放失敗時，也可以使用影像。
-如需詳細資訊，請參閱影片縮圖支援。
+如需詳細資訊，請參閱[視訊的縮圖支援](/help/user-guide/thumbnail-support.md) 。
 
 * **基本播放監控**
 
    AEM Screens現在支援基本播放監控。 播放器現在會報告各種播放量度，每次偵測（預設為30秒）。 它可根據量度偵測各種邊緣案例（停滯體驗、空白畫面、排程問題等）。 此功能可讓團隊遠端監視播放器是否正確播放內容、改善對空白畫面或欄位中中斷體驗的再活動，並降低向使用者顯示中斷體驗的風險。
-如需詳細資訊，請參閱基本播放監控。
+如需詳細資訊，請參閱[基本播放監控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 。
 
 * **內容指派報表的更新**
 
    內容指派報表現在已最佳化，並透過增強的使用者體驗加以改善。 可下載的報表在一個試算表標籤中顯示改善的播放器相關實體，例如位置、顯示器和裝置，以及內容提供者資訊，例如頻道和資產，在其他標籤中。
+如需詳細資訊，請參閱[內容指派報表](/help/user-guide/content-assignment-report.md) 。
 
 * **適用性轉譯**
 
    適用性轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。
 
-   身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 請參閱適用性轉譯：架構概述和設定以深入了解。
+   身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。
 
-   此外，身為AEM Screens內容作者，您現在可以在AEM Screens專案中使用最適化轉譯，也可針對大型網路套用移轉策略。 如需詳細資訊，請參閱使用最適化轉譯。
+   此外，身為AEM Screens內容作者，您現在可以在AEM Screens專案中使用最適化轉譯，也可針對大型網路套用移轉策略。
 
 * **支援V3艙單**
 
