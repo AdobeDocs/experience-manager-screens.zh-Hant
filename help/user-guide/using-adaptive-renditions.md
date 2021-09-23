@@ -2,9 +2,9 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
 index: false
-source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
+source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,7 @@ ht-degree: 1%
 ## 目標 {#objective}
 
 身為AEM Screens內容作者，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。
-
-因此，如果您部署了各種裝置，使用此功能可讓裝置根據規則自動下載並播放資產的最適當轉譯。
+開發人員新增轉譯對應屬性和規則後，您現在就可以將轉譯對應套用至資產，並隨後將其納入AEM Screens管道。
 
 >[!IMPORTANT]
 >開始使用適用性轉譯之前，建議您先在AEM Screens頻道中了解此功能的架構概述和設定。 請參閱適用性轉譯：架構概述和設定，以取得詳細資訊。
