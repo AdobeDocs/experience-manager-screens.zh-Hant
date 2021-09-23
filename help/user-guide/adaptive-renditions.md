@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -64,16 +64,39 @@ ht-degree: 1%
 
 ## 新增轉譯對應規則 {#add-rendition-mapping-rules}
 
-1. 要添加映射規則，您需要在&#x200B;**rendition-mapping**&#x200B;節點下建立`nt:unstructured`類型的節點。
+請依照下列步驟，在「轉譯對應」下新增節點：
 
-1. 使用包含查詢運算式的值新增運算式屬性。
+1. 從&#x200B;**CRXDE Lite**&#x200B;導覽至此路徑`/conf/screens/sling:configs/rendition-mapping`。
+
+1. 在&#x200B;**rendition-mapping**&#x200B;下建立節點。 按一下右鍵&#x200B;**rendition-mapping**，然後按一下&#x200B;**Create** —> **Create Node**，如下圖所示。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. 在&#x200B;**建立節點**&#x200B;對話框中，為映射規則（如&#x200B;**rule1**）輸入&#x200B;**名稱**，並將節點&#x200B;**類型**&#x200B;輸入為&#x200B;**nt:unstrucled**。 按一下&#x200B;**OK**。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. 您需要以包含查詢運算式的值新增運算式屬性。
 
    >[!NOTE]
    >請參閱[使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)以深入了解。
 
+   按一下您建立的&#x200B;**rule1**，然後在&#x200B;**Name**&#x200B;和&#x200B;**(orientation:landscape)**&#x200B;中輸入&#x200B;**expression**，如下所示。 ****&#x200B;按一下&#x200B;**Add**。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. 如果將運算式評估為true，請使用包含將選取的轉譯命名模式的值來新增模式屬性。
 
-   ![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   若要新增模式屬性，請按一下您建立的&#x200B;**rule1**，並在&#x200B;**Name**&#x200B;中輸入&#x200B;**pattern**，並在&#x200B;**Value**&#x200B;中輸入&#x200B;**landscape**，如下所示。 按一下&#x200B;**Add**。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. 按一下&#x200B;**Save All**，您將在&#x200B;**rendition-mapping**&#x200B;下建立的節點下看到屬性。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## 後續步驟 {#next-steps}

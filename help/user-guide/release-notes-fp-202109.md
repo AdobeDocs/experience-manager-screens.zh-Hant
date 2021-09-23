@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,6 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 * 以轉譯取代資產，解決檔案快取錯誤。
 
 * 現在，如果轉譯對應存在，播放器只會顯示資產轉譯。
-
-* 您現在可以根據Splunk記錄檔來設定閒置警報。
 
 * 增強Ping功能，可在回應無效時重新驗證。
 
