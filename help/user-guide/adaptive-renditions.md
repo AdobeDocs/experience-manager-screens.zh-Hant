@@ -2,9 +2,9 @@
 title: AEM Screens中的最適化轉譯
 description: 本頁說明AEM Screens中適用性轉譯的架構概述和設定。
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,10 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. 使用包含轉譯命名模式的值新增模式屬性。
 
-
-1. 如果將運算式評估為true，請使用包含將選取的轉譯命名模式的值來新增模式屬性。
+   >[!NOTE]
+   >模式屬性中定義的值將與新資產轉譯相符，且如果運算式評估為true，則會選取該值。
 
    若要新增模式屬性，請按一下您建立的&#x200B;**rule1**，並在&#x200B;**Name**&#x200B;中輸入&#x200B;**pattern**，並在&#x200B;**Value**&#x200B;中輸入&#x200B;**landscape**，如下所示。 按一下&#x200B;**Add**。
 
