@@ -1,9 +1,9 @@
 ---
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ ht-degree: 0%
 
 1. 選擇格式副本命名模式，例如`landscape`，類似於&#x200B;**CRXDE Lite**&#x200B;中&#x200B;**pattern**&#x200B;屬性中定義的模式。 如需詳細資訊，請參閱[新增轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 。
 
-1. 重新命名資產檔案，使其包含模式（在步驟3中定義），例如`seahorse_landscape.png`。
+1. 重新命名資產檔案，使其包含模式（在步驟3中定義），例如`seahorse-landscape.png`。
 
 1. 按一下&#x200B;**Add Rendition**&#x200B;以上傳轉譯，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. 新增資產後，請選取資產，然後按一下動作列中的&#x200B;**管理出版物**&#x200B;以發佈資產。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >請參閱[隨選內容更新](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en)以深入了解如何管理發布，以及如何將內容更新從製作傳送至裝置。
 
 
 ## 移轉策略 {#migration-strategy}
