@@ -1,13 +1,13 @@
 ---
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
+
 
 # 在AEM Screens中使用最適化轉譯 {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 1. 建立更適合標牌顯示的資產版本，例如`seahorse.jpg`。
 
-1. 選擇格式副本命名模式，例如`landscape`，類似於CRXDE Lite中模式屬性中定義的模式。 如需詳細資訊，請參閱[新增轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 。
+1. 選擇格式副本命名模式，例如`landscape`，類似於&#x200B;**CRXDE Lite**&#x200B;中&#x200B;**pattern**&#x200B;屬性中定義的模式。 如需詳細資訊，請參閱[新增轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 。
 
-1. 重新命名資產檔案，使其包含模式，例如`seahorse_landscape.png`。
+1. 重新命名資產檔案，使其包含模式（在步驟3中定義），例如`seahorse_landscape.png`。
 
 1. 按一下&#x200B;**Add Rendition**&#x200B;以上傳轉譯，如下圖所示。
 
