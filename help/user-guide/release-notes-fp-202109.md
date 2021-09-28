@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 2%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
    身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 請參閱[適用性轉譯：架構概述和設定](/help/user-guide/adaptive-renditions.md)以取得詳細資訊。
 
-   此外，身為AEM Screens內容作者，您現在可以在AEM Screens專案中使用最適化轉譯，也可針對大型網路套用移轉策略。
+   此外，身為AEM Screens內容作者，您可以設定資產以使用最適化轉譯，以及移轉大型網路的裝置，以便在您的AEM Screens頻道中使用此功能。 如需詳細資訊，請參閱[在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 。
 
 * **支援V3艙單**
 
