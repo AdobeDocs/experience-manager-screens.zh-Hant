@@ -2,10 +2,10 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 本頁說明如何在AEM Screens中使用最適化轉譯。
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,34 @@ ht-degree: 1%
 開發人員新增轉譯對應屬性和規則後，您現在就可以將轉譯對應套用至資產，並隨後將其納入AEM Screens管道。
 
 >[!IMPORTANT]
->開始使用適用性轉譯之前，建議您先在AEM Screens頻道中了解此功能的架構概述和設定。 請參閱適用性轉譯：架構概述和設定，以取得詳細資訊。
+>開始使用適用性轉譯之前，建議您先在AEM Screens頻道中了解此功能的架構概述和設定。 請參閱[適用性轉譯：架構概述和設定](/help/user-guide/adaptive-renditions.md)以取得詳細資訊。
+
+## 在頻道中使用最適化轉譯 {#using-adaptive-renditions}
+
+>[!NOTE]
+>將[轉譯對應屬性新增至Screens Project](/help/user-guide/adaptive-renditions.md#rendition-mapping-new)和[轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)後，您就可以將轉譯套用至資產了。
+
+### 將轉譯套用至資產 {#apply-renditions-assets}
+
+請依照下列步驟，將轉譯套用至您要在導覽畫面頻道中使用的資產：
+
+1. 導覽至AEM例項中的&#x200B;**Assets**&#x200B;資料夾。
+
+1. 建立更適合標牌顯示的資產版本，例如`seahorse.jpg`。
+
+1. 選擇格式副本命名模式，例如`landscape`，類似於CRXDE Lite中模式屬性中定義的模式。 如需詳細資訊，請參閱[新增轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 。
+
+1. 重新命名資產檔案，使其包含模式，例如`seahorse_landscape.png`。
+
+1. 按一下&#x200B;**Add Rendition**&#x200B;以上傳轉譯，如下圖所示。
+
+   ![影像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## 移轉策略 {#migration-strategy}
 
 >[!IMPORTANT]
->對於大型網路，建議逐步進行遷移以降低風險，因為該功能將對清單和檔案儲存格式進行更改。
+>對於大型網路，建議逐步進行遷移以降低風險，因為該功能將對清單和檔案儲存格式進行更改。 將`sling:configRef`新增至整個專案時，會將所有播放器更新至Feature Pack 6.5.9。若您已更新部分播放器，您只需將`sling:configRef`新增至所有播放器更新至Feature Pack 6.5.9的顯示器、位置或頻道資料夾。
 
 下圖描述了大型網路的遷移策略：
 
@@ -44,14 +66,3 @@ ht-degree: 1%
    >[!NOTE]
    >完成移轉後，請務必從頻道、顯示器和位置移除所有設定參考，並將單一參考新增至專案內容節點。
 
-## 在AEM Screens頻道中上傳轉譯和使用最適化轉譯 {#upload-renditions}
-
-1. 建立更適合標牌顯示的資產版本，例如`portrait orientation`。
-
-1. 選擇格式副本命名模式，例如`portrait`。
-
-1. 重新命名資產檔案，使其包含模式，例如`my_asset_portrait.png`。
-
-1. 按一下&#x200B;**Add Rendition**&#x200B;以上傳轉譯，如下圖所示。
-
-   ![影像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
