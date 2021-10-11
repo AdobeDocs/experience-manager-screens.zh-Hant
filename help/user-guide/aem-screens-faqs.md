@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,17 @@ ht-degree: 0%
 1. 顯示的大父節點位置有一個匹配引用的通道名稱的子節點
 
 等等，直到到達位置資料夾並立即停止為止（因此，不能引用通道資料夾中的通道，例如，只能引用位置子樹中的通道）。
+
+### 5.如何在AEM Screens頻道中設定自訂clientlib離線設定？
+
+在AEM Screens通道中使用內建的自訂用戶端代碼`clientlib`時，必須執行下列步驟，以確保`clientlib`檔案已成功載入通道(`manifest.json`)，且將包含`clientlib`的路徑。
+
+請從管道編輯器遵循下列步驟：
+
+1. 選取通道，然後按一下動作列中的&#x200B;**Edit**&#x200B;以開啟通道編輯器。
+1. 選擇要添加自定義`clientlib`的元件。
+1. 按一下「設定」按鈕（扳手圖示）。
+1. 導覽至&#x200B;**離線設定**&#x200B;標籤，並在&#x200B;**用戶端資料庫**&#x200B;中新增自訂clientlib的路徑。
 
 ## 裝置註冊 {#device-registration}
 
