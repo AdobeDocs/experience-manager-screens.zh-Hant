@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 0%
@@ -221,7 +221,7 @@ AEM Screens會為產品使用的查詢建立索引定義。
 您也可以參考 [Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 三、配置v3艙單的必要條件 {#configure-v3}
+### 3.配置v3艙單需要什麼？ {#configure-v3}
 
 若要啟用v3資訊清單，您必須：
 
