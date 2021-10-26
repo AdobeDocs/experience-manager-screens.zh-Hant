@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens發行AEM 6.5 Feature Pack 9。
 
-您可以使用Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.9版的最新Feature Pack。 導覽至「**Adobe Experience Manager**」標籤並搜尋「**Screens**」，以取得最新的Feature Pack，標題為「**AEM 6.5 Screens FP9**」。
+您可以從以下網址下載AEM Screens 6.5.9版的最新Feature Pack: [Software Distribution入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤和搜尋 **Screens** 取得最新的功能套件，名為 **AEM 6.5 Screens FP9**.
 
 ## 發行日期 {#release-date}
 
@@ -32,30 +32,33 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 * **影片的縮圖支援**
 
    AEM Screens現在支援中影片的縮圖支援。 內容作者可以定義視訊的縮圖，以便影像可作為預留位置，並在適當團隊完成實際視訊時，正確測試內容播放和鎖定目標。 當視訊播放失敗時，也可以使用影像。
-如需詳細資訊，請參閱[視訊的縮圖支援](/help/user-guide/thumbnail-support.md) 。
+請參閱 [影片的縮圖支援](/help/user-guide/thumbnail-support.md) 以取得更多詳細資訊。
 
 * **基本播放監控**
 
    AEM Screens現在支援基本播放監控。 播放器現在會報告各種播放量度，每次偵測（預設為30秒）。 它可根據量度偵測各種邊緣案例（停滯體驗、空白畫面、排程問題等）。 此功能可讓團隊遠端監視播放器是否正確播放內容、改善對空白畫面或欄位中中斷體驗的再活動，並降低向使用者顯示中斷體驗的風險。
-如需詳細資訊，請參閱[基本播放監控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 。
+請參閱 [基本播放監控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 以取得更多詳細資訊。
 
 * **內容指派報表的更新**
 
    內容指派報表現在已最佳化，並透過增強的使用者體驗加以改善。 可下載的報表在一個試算表標籤中顯示改善的播放器相關實體，例如位置、顯示器和裝置，以及內容提供者資訊，例如頻道和資產，在其他標籤中。
-如需詳細資訊，請參閱[內容指派報表](/help/user-guide/content-assignment-report.md) 。
+請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資訊。
 
 * **適用性轉譯**
 
    適用性轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。
 
-   身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 請參閱[適用性轉譯：架構概述和設定](/help/user-guide/adaptive-renditions.md)以取得詳細資訊。
+   身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 請參閱 [適用性轉譯：架構概述和設定](/help/user-guide/adaptive-renditions.md) 以取得更多詳細資訊。
 
-   此外，身為AEM Screens內容作者，您可以設定資產以使用最適化轉譯，以及移轉大型網路的裝置，以便在您的AEM Screens頻道中使用此功能。 如需詳細資訊，請參閱[在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 。
+   此外，身為AEM Screens內容作者，您可以設定資產以使用最適化轉譯，以及移轉大型網路的裝置，以便在您的AEM Screens頻道中使用此功能。 請參閱 [在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 以取得更多詳細資訊。
 
 * **支援V3艙單**
 
-   您現在可以為資訊清單版本v3設定Dispatcher。 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3)設定Dispatcher 。
-此外，如果您將自定義元件用作v3清單的一部分，請參閱[自定義處理程式的模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers)。
+   您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您需要設定：*更新Dispatcher *更新自訂元件*停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+*在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   請參閱 [為資訊清單版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以取得更多詳細資訊。
+此外，如果您將自訂元件用於v3清單中，請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### 錯誤修正 {#bug-fixes}
@@ -74,13 +77,13 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 將對應轉換為轉譯金鑰清單。
 
-* 移除Windows播放器中對`cmd.exe`和`reg.exe`的存取。
+* 移除的 `cmd.exe` 和 `reg.exe` 在windows播放器中。
 
 * 播放器需要回報其最後一次成功的播放事件。
 
 * 播放器需要回報其播放狀態。
 
-* 清除`ALL`快取時，播放器不會重新下載資產。
+* 當 `ALL` 快取已清除。
 
 * 身為播放器管理員，您現在可以選擇播放器名稱。
 
@@ -119,13 +122,13 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 內嵌序列播放策略已中斷，此問題現已修正。
 
-* 對html項目使用要求參數`wcmmode`的離線資訊清單，使其無法執行。
+* 使用請求參數的離線資訊清單 `wcmmode` 針對html輸入，使其無法執行。
 
 * 空白的動態內嵌序列有時會造成空白畫面。
 
 * 播放器現在會回報其播放狀態。
 
-* 視訊在`Tiny mode`中播放，但未在裝置上以全螢幕視訊的形式播放，問題現已修正。
+* 視訊正在播放 `Tiny mode` 而非在裝置上以全螢幕視訊的形式播放，且問題現已修正。
 
 ### 發行的AEM Screens播放器 {#released-aem-screens-players}
 
@@ -139,4 +142,4 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 #### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步了解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並進一步了解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
