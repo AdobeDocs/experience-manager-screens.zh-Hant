@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
+source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -234,3 +234,9 @@ AEM Screens會為產品使用的查詢建立索引定義。
 * 在中停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * 在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* 編輯 `channel/experience fragment/page components`.
+
+* 導覽至 **離線設定** 標籤。
+
+* 輸入 `clientlibs `和需要新增至資訊清單之靜態檔案的資料夾。
