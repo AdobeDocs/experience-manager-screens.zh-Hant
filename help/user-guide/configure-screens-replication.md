@@ -3,17 +3,25 @@ title: 配置Screens複製代理
 description: 請依照本頁面操作，以取得如何設定Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 6%
+source-wordcount: '396'
+ht-degree: 5%
 
 ---
 
 
 # 配置螢幕複製代理 {#configuring-screens-replication-agent}
 
-本節說明如何配置Screens復寫代理。
+以下頁面說明如何配置Screens復寫代理。
+
+>[!NOTE]
+>要了解有關Screens複製代理的詳細資訊，請參閱 [螢幕複製代理和命令](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+您必須完成這兩個區段，才能完成Screens Replication Agent的設定：
+
+1. [啟用用戶並更新密碼](#enable-users)
+1. [正在更新Screens複製代理](#replicate-agent)
 
 ## 啟用用戶並更新密碼 {#enable-users}
 
@@ -87,7 +95,7 @@ ht-degree: 6%
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 按一下連結，如下圖所示。
+1. 搜尋含有信函的連結 **S** 然後按一下，如下圖所示。
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
