@@ -3,9 +3,9 @@ title: 配置Screens複製代理
 description: 請依照本頁面操作，以取得如何設定Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '417'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # 配置螢幕複製代理 {#configuring-screens-replication-agent}
 
-以下頁面說明如何配置Screens復寫代理。
+以下頁面說明如何配置Screens複製代理。
 
 >[!NOTE]
 >要了解有關Screens複製代理的詳細資訊，請參閱 [螢幕複製代理和命令](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -21,7 +21,7 @@ ht-degree: 5%
 您必須完成這兩個區段，才能完成Screens Replication Agent的設定：
 
 1. [啟用用戶並更新密碼](#enable-users)
-1. [正在更新Screens複製代理](#replicate-agent)
+1. [更新Screens復寫代理的設定](#replicate-agent)
 
 ## 啟用用戶並更新密碼 {#enable-users}
 
@@ -81,7 +81,7 @@ ht-degree: 5%
 
 1. 按一下 **確定** 確認。
 
-## 正在更新Screens複製代理 {#replicate-agent}
+## 更新Screens復寫代理的設定 {#replicate-agent}
 
 請依照下節，更新Screens復寫代理中的設定：
 
@@ -95,7 +95,10 @@ ht-degree: 5%
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 搜尋含有信函的連結 **S** 然後按一下，如下圖所示。
+1. 在作者上搜尋Screens復寫代理，然後按一下連結，如下圖所示。
+
+   >[!NOTE]
+   >使用字母搜尋Screens復寫代理 **S** 包含在作者名稱中。
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
