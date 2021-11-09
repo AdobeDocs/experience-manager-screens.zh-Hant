@@ -3,10 +3,10 @@ title: 配置Screens複製代理
 description: 請依照本頁面操作，以取得如何設定Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ ht-degree: 5%
 
 ## 啟用用戶並更新密碼 {#enable-users}
 
-請遵循下列步驟：
+請依照下列步驟，啟用使用者並更新screens-receiver-user的密碼：
+
+>[!NOTE]
+>基於安全考量，建議避免使用screens-receiver-user的管理密碼。
 
 1. 導覽至您的AEM例項。
 
