@@ -3,9 +3,9 @@ title: 配置Screens複製代理
 description: 請依照本頁了解如何配置Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Screens復寫代理負責帶來Ping資料，例如 *使用者*, *密碼*, *reboo
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 在作者上搜尋Screens復寫代理，然後按一下連結，如下圖所示。
+1. 在作者上搜尋所有Screens復寫代理，然後按一下連結，如下圖所示。
 
    >[!NOTE]
-   >使用字母搜尋Screens復寫代理 **S** 包含在作者名稱中。
+   >搜索所有螢幕複製代理。 Screens復寫代理名稱將包含字母 **S** 中。
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
