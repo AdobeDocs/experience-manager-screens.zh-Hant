@@ -1,11 +1,11 @@
 ---
 title: 配置Screens複製代理
-description: 請依照本頁面操作，以取得如何設定Screens復寫代理的資訊。
+description: 請依照本頁了解如何配置Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
+source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # 配置螢幕複製代理 {#configuring-screens-replication-agent}
 
 以下頁面說明如何配置Screens複製代理。
+
+## 目標 {#objective}
+
+Screens復寫代理負責將Ping資料從發佈傳送至作者。 必須進行設定，讓作者能夠顯示裝置Ping。
 
 >[!NOTE]
 >要了解有關Screens複製代理的詳細資訊，請參閱 [螢幕複製代理和命令](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
