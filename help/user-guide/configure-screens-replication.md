@@ -3,9 +3,9 @@ title: 配置Screens複製代理
 description: 請依照本頁面操作，以取得如何設定Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 6%
 
 ---
@@ -82,3 +82,29 @@ ht-degree: 6%
 1. 按一下「工具 — >」 **部署** —> **復寫**.
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. 按一下 **作者代理**.
+
+   ![影像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. 按一下連結，如下圖所示。
+
+   ![影像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. 按一下 **編輯**.
+
+   ![影像](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. 檢查 **已啟用** 從 **設定** 標籤。
+
+   ![影像](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. 導覽至 **運輸** 標籤 **代理設定** 對話框中，輸入您在步驟(8)中設定的相同密碼 [啟用用戶並更新密碼](#enable-users). 按一下 **確定**.
+
+   ![影像](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. 完成上述步驟後，您可以按一下 **測試連線** 來驗證連接。
+
+   ![影像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   如果連接驗證成功，則您已完成配置Screens複製代理。
