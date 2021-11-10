@@ -3,7 +3,7 @@ title: 配置Screens複製代理
 description: 請依照本頁了解如何配置Screens復寫代理的資訊。
 role: Developer
 level: Intermediate
-source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
+source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 目標 {#objective}
 
-Screens復寫代理負責帶來Ping資料，例如 *使用者*, *密碼*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*，以及從發佈到作者的更多這類值。 必須進行設定，讓作者能夠顯示裝置Ping。
+Screens複製代理負責帶來命令資料，例如 *使用者*, *密碼*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*，以及從發佈到作者的更多這類值。 必須進行設定，讓作者能夠顯示裝置Ping。
 
 >[!NOTE]
 >要了解有關Screens複製代理的詳細資訊，請參閱 [螢幕複製代理和命令](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
