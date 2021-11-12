@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
+source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **基本播放監控**
 
-   AEM Screens現在支援基本播放監控。 播放器現在會報告各種播放量度，每次偵測（預設為30秒）。 它可根據量度偵測各種邊緣案例（停滯體驗、空白畫面、排程問題等）。 此功能可讓團隊遠端監視播放器是否正確播放內容、改善對空白畫面或欄位中中斷體驗的再活動，並降低向使用者顯示中斷體驗的風險。
+   AEM Screens現在支援基本播放監控。 播放器現在會報告各種播放量度，每次偵測（預設為30秒）。 它可根據量度偵測各種邊緣案例（停滯體驗、空白畫面、排程問題等）。 此功能可讓團隊遠端監視播放器是否正確播放內容，改善對空白畫面或欄位中中斷體驗的再活動，並降低向使用者顯示中斷體驗的風險。
 請參閱 [基本播放監控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 以取得更多詳細資訊。
 
 * **內容指派報表的更新**
@@ -54,11 +54,18 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **支援V3艙單**
 
-   您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您需要設定：*更新Dispatcher *更新自訂元件*停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-*在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您需要設定：
 
-   請參閱 [為資訊清單版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以取得更多詳細資訊。
-此外，如果您將自訂元件用於v3清單中，請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * 更新Dispatcher
+
+   * 更新自訂元件
+
+   * 在中停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * 在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   * 請參閱 [為資訊清單版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以取得更多詳細資訊。
+   * 如果您將自訂元件用於v3清單，請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### 錯誤修正 {#bug-fixes}
