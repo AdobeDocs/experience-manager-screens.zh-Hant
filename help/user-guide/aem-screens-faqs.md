@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+source-git-commit: a3bed3baf7e825299a82ccf624c3cdf876830cd0
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -243,4 +243,4 @@ AEM Screens會為產品使用的查詢建立索引定義。
 
 ### 4.如果在軟體包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心套件已安裝但未啟用，您應該做什麼？
 
-您必須安裝最低版本的AEM 6.5 Feature Pack 8 AMS,AMS連接器才能運作。 請參閱 [可用性](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 以取得功能套件的最低版本。
+您必須安裝最低版本的AEM 6.5 Feature Pack 8,AMS連接器才能運作。 請參閱 [可用性](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 以取得功能套件的最低版本。
