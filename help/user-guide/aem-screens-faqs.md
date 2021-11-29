@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
+source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -244,3 +244,13 @@ AEM Screens會為產品使用的查詢建立索引定義。
 ### 4.如果在軟體包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心套件已安裝但未啟用，您應該做什麼？
 
 您必須安裝最低版本的AEM 6.5 Feature Pack 8,AMS連接器才能運作。 請參閱 [可用性](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 以取得Screens功能套件的最低版本。
+
+### 5.如何在Screens中設定CQ Link Externalizer服務？
+
+服務可用來定義製作和發佈執行個體的公用主機名稱，然後值會用來更新裝置伺服器URL，以及用於ContextHub鎖定目標。
+
+Screens中的CQ Link Externalizer服務可透過下列方式設定：
+
+1. 導航到 `http://localhost:4502/system/console/configMgr`
+1. Day CQ Link Externalizer
+1. 變更 `author/publish` 視需要輸入項目
