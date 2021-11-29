@@ -1,17 +1,18 @@
 ---
 title: Feature Pack 202105發行說明
 description: 「如需2021年6月4日發行的AEM Screens Feature Pack 202105的相關資訊，請詳閱本頁。」
-feature: 功能套件
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
+exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '399'
+ht-degree: 4%
 
 ---
 
-# Feature Pack 202105 {#release-notes-for-feature-pack}發行說明
+# Feature Pack 202105發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >建議您升級至最新版Adobe Experience Manager(AEM)。 Screens對AEM 6.3 Screens平台提供維護支援。
@@ -20,17 +21,20 @@ ht-degree: 3%
 
 AEM Screens發行AEM 6.5 Feature Pack 8。
 
-您可以使用Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.8版的最新Feature Pack。 導覽至「**Adobe Experience Manager**」標籤並搜尋「**Screens**」，以取得最新的Feature Pack，標題為「**AEM 6.5 Screens FP8**」。
+您可以從以下網址下載AEM Screens 6.5.8版的最新Feature Pack: [Software Distribution入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤和搜尋 **Screens** 取得最新的功能套件，名為 **AEM 6.5 Screens FP8**.
+
+>[!IMPORTANT]
+>您必須安裝AEM 6.5 Feature Pack 8 for AMS connector的最低版本，才能在安裝套件後運作 `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` 和 `screens core bundles`.
 
 ## 發行日期 {#release-date}
 
 AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 
-### 新功能 {#what-is-new}
+### 新增功能 {#what-is-new}
 
 * **在AEM Screens通道中鎖定頁面**
 
-   AEM Screens現在支援&#x200B;*鎖定頁面*，如AEM Sites中已實作。 Adobe Experience Manager(AEM)可讓您鎖定頁面，讓其他人都無法修改內容。 當您對特定頁面進行許多編輯，或需要將頁面凍結一段時間時，這個功能會很實用。
+   AEM Screens現在支援 *鎖定頁面*，如AEM Sites中已實作。 Adobe Experience Manager(AEM)可讓您鎖定頁面，讓其他人都無法修改內容。 當您對特定頁面進行許多編輯，或需要將頁面凍結一段時間時，這個功能會很實用。
 
 * **命名AEM Screens播放器裝置**
 
@@ -53,7 +57,7 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 * 播放器切換至包含動態內嵌序列的頻道時，會顯示黑屏。
 * Screens播放器現在會封鎖切換至任何中斷的通道，進一步避免404錯誤或出現錯誤訊息的頁面。
 
-### 已發行AEM Screens播放器{#released-aem-screens-players}
+### 發行的AEM Screens播放器 {#released-aem-screens-players}
 
 已針對AEM 6.5 Feature Pack 8發行下列AEM Screens播放器：
 
@@ -63,6 +67,6 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 * Android
 * Linux
 
-#### AEM Screens播放器下載{#aem-screens-player-downloads}
+#### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並進一步了解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並進一步了解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
