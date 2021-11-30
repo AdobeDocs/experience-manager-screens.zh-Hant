@@ -1,18 +1,14 @@
 ---
 title: 在AEM Screens中設定作者和發佈
-seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上製作，然後轉送複製到多個發佈例項。 請詳閱本頁，了解如何為AEM Screens設定作者和發佈。
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
+
 
 # 在AEM Screens中設定作者和發佈 {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ Screens需要3個複製代理：
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 此 **管理出版物** 功能可讓您將內容更新從作者傳送至裝置。 您可以發佈/取消發佈整個AEM Screens專案的內容，或僅發佈其中一個管道、位置、裝置、應用程式或排程的內容。 若要深入了解此功能，請參閱 [隨選內容更新](on-demand-content.md).
+
+## 疑難排解提示 {#troubleshoot-tips}
+
+請依照下節，取得與製作/發佈設定相關的常見問題解答。
+
+### 如何在初始註冊和指派後，將從https重新導向新增至http? {#add-redirect}
+
+**解決方案**
+設定啟用 `Proxy/Load Balancer Connection in the Jetty configuration` to `true`.
+
+### 如何更新離線內容和播放器外部資產的下載問題 `/content/dam/projects/<project>`? {#update-offline-content}
+
+**解決方案**
+為所有的bulk-offline-update-screens-service用戶和screens-devices-master組授予讀取權限 `/content/dam` 或您要使用的特定資產（如果您想要限制較嚴格）。
+
+### 如何解決Screens復寫代理錯誤？ {#replication-agent}
+
+**解決方案**
+請確定您未在代理配置中勾選「使用反向復寫」選項。 Screens復寫代理不能用作反向複製代理，此功能的範圍是將設備命令從作者轉發到發佈。
