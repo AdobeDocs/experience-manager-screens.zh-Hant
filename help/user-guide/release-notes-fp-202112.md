@@ -4,10 +4,10 @@ description: 請詳閱本頁，了解2021年12月3日發行的AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 9%
+source-wordcount: '269'
+ht-degree: 6%
 
 ---
 
@@ -29,15 +29,26 @@ AEM Screens Feature Pack 202112的發行日期為2021年12月3日。
 
 ### 新增功能 {#what-is-new}
 
-* Android應用程式更新必須以Android 11（API層級30）為目標。
+* Android應用程式更新現在以Android 11（API層級30）為目標。 目前Android播放器位於目標API層級29。
+
+* 身為開發人員，您現在只會檢視資訊清單中對應資產底下的轉譯項目，以將資產轉譯列為清單項目，以確保資訊清單處理的擴充性、清晰度及輕鬆性。
 
 ### 錯誤修正 {#bug-fixes}
 
+* 您現在可以根據事件類型篩選分析事件。
+
+* 收集內部部署播放器記錄，並針對黑幕分析這些記錄。
+
+* 已修正含有分割螢幕頻道的空白畫面播放器
+
+* 在公用Maven上新增核心套件，以修正自訂處理常式檔案。
+
+* 升級後，播放器未更新韌體版本。 此問題現已修正。
 
 
 ### 發行的AEM Screens播放器 {#released-aem-screens-players}
 
-已針對AEM 6.5 Feature Pack 9發行下列AEM Screens播放器：
+已針對AEM 6.5 Feature Pack 10發行下列AEM Screens播放器：
 
 * ChromeOS
 * Windows
