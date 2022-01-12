@@ -4,13 +4,13 @@ description: 請詳閱本頁，了解2021年12月17日發行的AEM Screens Featu
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 6%
+source-wordcount: '291'
+ht-degree: 5%
 
 ---
-
 
 # Feature Pack 202112發行說明 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ AEM Screens Feature Pack 202112的發行日期為2021年12月17日。
 
 * 升級後，播放器未更新韌體版本。 此問題現已修正。
 
+* 顯示預覽卡在先前的播放器設定上。
+
+* 在某些情況下，顯示預覽未呈現。
+
+* 修正SmartSync中的同時下載錯誤。
 
 ### 發行的AEM Screens播放器 {#released-aem-screens-players}
 
