@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ ht-degree: 0%
 >[!NOTE]
 >如果將enableAdminUI和/或enableOSD的設備配置值設定為false，則遠程伺服器將不會切換admin UI和通道切換器。 您也無法使用箭頭鍵導航管理員UI或通道。 但是，您仍然可以清除快取並重新載入播放器。 如果任何鍵盤組合與您的交互內容發生衝突，則可以使用以下代碼禁用遠程控制功能：
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
