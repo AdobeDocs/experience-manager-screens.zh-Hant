@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -233,9 +233,7 @@ AEM Screens玩家或設備使用經過驗證的會話來訪問發佈實例中的
 
 ### 添加segments.js的無效規則 {#invalidsegmentjs}
 
-如果要添加新段並發佈它們， `segments.js` 由調度程式提供的檔案沒有正在中斷螢幕設備上的目標流的新條目。 segments.js檔案正在調度程式級別快取，但沒有針對該檔案的無效規則。 因此，必須添加無效規則。
-
-* 將新段添加到 `/conf/<project-name>/settings/wcm/segments.seg.js` 的子菜單。
+如果您正在與AEM Screens一起使用定向活動，則 `segments.js file` 在上添加和發佈新段時，調度程式提供的服務需要失效AEM。 如果沒有此無效規則，新的目標市場活動將無法在螢幕播放器上運行（它將顯示預設內容）。
 
 * 將無效規則添加到 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`。 以下是要添加的規則：
 
@@ -244,7 +242,7 @@ AEM Screens玩家或設備使用經過驗證的會話來訪問發佈實例中的
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
