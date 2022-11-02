@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈
 description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上製作，然後轉送複製到多個發佈例項。 請詳閱本頁，了解如何為AEM Screens設定作者和發佈。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Screens需要3個複製代理：
 
 對於每個發佈例項：
 
-1. 導航到 `https://<host>:<port>/system/console/configMgr`
+1. 瀏覽到 `https://<host>:<port>/system/console/configMgr`
 1. 選擇 **Apache Sling Oak-Based Discovery Service** 設定。
 1. 更新拓撲連接器URL:新增所有參與發佈例項的URL，其為：
    * `https://localhost:4503/libs/sling/topology/connector`
@@ -240,8 +240,6 @@ Screens需要3個複製代理：
 #### 步驟4:將裝置配置發佈到發佈實例 {#step-publishing-device-configuration-to-publish-instances}
 
 **驗證設備**
-
-之前，請執行下列步驟，確認裝置ID。 若要驗證，請在CRXDE Lite中搜尋裝置ID，路徑為 */home/users/screens/we-retail/devices*.
 
 請按照以下步驟複製設備用戶：
 
