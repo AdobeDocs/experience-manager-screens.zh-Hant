@@ -2,7 +2,7 @@
 title: 在AEM Screens中設定作者和發佈
 description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上製作，然後轉送複製到多個發佈例項。 請詳閱本頁，了解如何為AEM Screens設定作者和發佈。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -102,20 +102,20 @@ Screens需要3個複製代理：
 #### 建立標準復寫代理  {#creating-standard-replication-agents}
 
 1. 為pub1建立標準復寫代理（應已配置現成預設代理）(例如， *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. 為pub2建立標準複製代理。 您可以複製pub1的rep代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. 為pub2建立標準複製代理。 您可以複製pub1的複製代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 建立Screens復寫代理 {#creating-screens-replication-agents}
 
-1. 為pub1建立AEM Screens復寫代理。 現成可用，有一個名為Screens Replication Agent ，指向埠4503。 這必須啟用。
-1. 為pub2建立AEM Screens復寫代理。 複製pub1的Screens復寫代理，並將pub2的埠更改為指向4504。
+1. 為pub1建立螢幕複製代理。 現成可用，有一個名為Screens Replication Agent ，指向埠4503。 這必須啟用。
+1. 為pub2建立螢幕複製代理。 複製pub1的Screens Replication Agent ，並將pub2的埠更改為指向4504。
 
    >[!NOTE]
    >若要了解如何配置Screens復寫代理，請參閱 [配置螢幕複製代理](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### 建立Screens反向復寫代理 {#creating-screens-reverse-replication-agents}
 
-1. 為pub1建立標準反向複製代理。
-1. 為pub2建立標準反向複製代理。 您可以複製pub1的反向rep代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。
+1. 為pub1建立反向複製代理。
+1. 為pub2建立反向複製代理。 您可以複製pub1的反向複製代理，並通過更改傳輸配置中的埠來更新要用於pub2的傳輸。
 
 ## 設定發佈拓撲 {#setting-up-publish-topology}
 
