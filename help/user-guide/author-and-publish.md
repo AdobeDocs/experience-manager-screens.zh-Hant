@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈
 description: AEM Screens架構類似傳統AEM Sites架構。 內容是在AEM製作例項上製作，然後轉送複製到多個發佈例項。 請詳閱本頁，了解如何為AEM Screens設定作者和發佈。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 0%
 
 ---
@@ -128,9 +128,10 @@ Screens需要3個複製代理：
 1. 瀏覽到 `https://<host>:<port>/system/console/configMgr`
 1. 選擇 **Apache Sling Oak-Based Discovery Service** 設定。
 1. 更新拓撲連接器URL:新增所有參與發佈例項的URL，其為：
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **拓撲連接器白名單**:適應涵蓋參與發佈實例的IP或子網
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **拓撲連接器白名單**:適應涵蓋所有發佈實例的IP或子網。 請確定您將所有發佈執行個體的IP/主機名稱加入白名單，但不含連接埠號。
+
 1. 啟用 **自動停止局部循環**
 
 每個發佈例項的設定應相同，而自動停止本機回圈可防止無限回圈。
