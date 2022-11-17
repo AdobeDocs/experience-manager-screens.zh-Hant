@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 下列教學課程將逐步說明為AEM Screens建立自訂元件的步驟。 AEM Screens會重新使用其他AEM產品的許多現有設計模式和技術。 本教學課程著重說明開發AEM Screens時的差異和特殊考量。
 
-## 總覽 {#overview}
+## 概觀 {#overview}
 
 本教學課程適用於剛接觸AEM Screens的開發人員。 在本教學課程中，已針對AEM Screens中的序列管道建置簡單的「Hello World」元件。 對話方塊可讓作者更新顯示的文字。
 
@@ -553,6 +553,15 @@ public class MyCustomHandler extends AbstractResourceHandler {
 以下影片顯示已完成的元件，以及如何將其新增至「序列」管道。 然後，該頻道會新增至「位置」顯示畫面，並最終指派給Screens播放器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## 內嵌其他頁面或片段的自訂元件的其他考量事項 {#additional-considerations}
+
+如果您要開發的自訂元件旨在包含其他頁面或體驗片段，而且如果您想要播放器自動擷取內嵌內容中的變更，而不需要重新發佈管道，您需要考量這2項限制：
+
+1. 而非直接延伸 `foundation/components/parbase`，您必須將 `screens/core/components/content/page` 或 `screens/core/components/content/experiencefragment`
+2. 您用來參考內嵌內容的屬性名稱必須為 `pagePath`
+
+運用這2個Screens核心元件，還可提供額外的優點，讓他們能將您需要的一些相依性（用戶端程式庫、字型等）整合在一起 透過元件對話方塊中的離線設定選項，這樣就能降低您必須用於此的任何自訂離線處理常式的責任，有時甚至會完全移除使用自訂離線處理常式的需求。
 
 ## 完成的程式碼 {#finished-code}
 

@@ -1,13 +1,13 @@
 ---
 title: Feature Pack 202112發行說明
-description: 請詳閱本頁，了解2021年12月17日發行的AEM Screens Feature Pack 202112的相關資訊。
+description: 請詳閱本頁，了解2022年1月12日發行的AEM Screens Feature Pack 202112的相關資訊。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '313'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,17 @@ AEM Screens發行AEM 6.5 Feature Pack 10。
 
 ## 發行日期 {#release-date}
 
-AEM Screens Feature Pack 202112的發行日期為2021年12月17日。
+AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
 
 ### 新增功能 {#what-is-new}
 
 * Android應用程式更新現在以Android 11（API層級30）為目標。 目前Android播放器位於目標API層級29。
+
+* 顯示預覽卡在先前的播放器設定上
+
+* 在某些情況下，顯示預覽未呈現
+
+* 在SmartSync中修復併發下載錯誤
 
 * 身為開發人員，您現在只會檢視資訊清單中對應資產底下的轉譯項目，以將資產轉譯列為清單項目，以確保資訊清單處理的擴充性、清晰度及輕鬆性。
 
