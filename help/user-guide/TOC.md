@@ -9,7 +9,7 @@ feature-set: Experience Manager Screens
 source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 11%
 + 配置和管理 {#administering}
    + [螢幕伺服器配置](configuring-screens-introduction.md)
    + [設定Dispatcher設定](dispatcher-configurations-aem-screens.md)
-   + [安裝Screens Player](installing-screens-player.md)
+   + [安裝 Screens 播放器](installing-screens-player.md)
    + [連接Screens播放器](working-with-screens-player.md)
    + [裝置註冊](device-registration.md)
    + [設定ACL](setting-up-acls.md)

@@ -18,7 +18,7 @@ ht-degree: 77%
 # AEM Screens 專案的最佳實務指南 {#using}
 
 + [關於本指南](about-guide.md)
-+ 總覽 {#overview}
++ 概觀 {#overview}
    + [AEM Screens 簡介](introduction.md)
    + [專案角色與責任](roles-responsibilities.md)
    + [必備條件](pre-requisites.md)
