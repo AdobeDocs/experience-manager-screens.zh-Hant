@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1771'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 下列教學課程將逐步說明擴充現成可用AEM Screens元件的步驟和最佳作法。 擴充影像元件以新增可授權的文字覆蓋。
 
-## 總覽 {#overview}
+## 概觀 {#overview}
 
 本教學課程適用於剛接觸AEM Screens的開發人員。 在本教學課程中，會擴充Screens影像元件，以建立海報元件。 標題、說明和標誌覆蓋在影像上，以在序列頻道中建立引人入勝的體驗。
 
@@ -40,11 +40,11 @@ ht-degree: 2%
 
 若要完成本教學課程，您需要執行下列操作：
 
-1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=zh-Hant) 或 [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) +最新Screens Feature Pack
+1. AEM 6.5 +最新Screens Feature Pack
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本機開發環境
 
-教學課程步驟和螢幕擷取畫面是使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDE也可用於完成本教程。 有關使用IDE以 [使用AEM進行開發，可在此處找到](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+教學課程步驟和螢幕擷取畫面是使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE也可用於完成本教程。 有關使用IDE以 [使用AEM進行開發，可在此處找到](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## 專案設定 {#project-setup}
 
@@ -335,7 +335,7 @@ AEM Screens元件在編輯模式和預覽/生產模式中呈現的呈現方式�
 1. 將以下屬性添加到共用客戶端庫：
 
    * `allowProxy` | 布林值 | `true`
-   * `categories` |字串[] | `cq.screens.components`
+   * `categories` | 字串[] | `cq.screens.components`
 
    ![/apps/weretail-run/components/content/poster/clientlibs/shared的屬性](assets/2018-05-03_at_1026pm-1.png)
 
