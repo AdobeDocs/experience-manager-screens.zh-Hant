@@ -8,7 +8,7 @@ exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ AEM Screens功能包202109的發佈日期為2021年9月23日。
 
 ### 新增功能 {#what-is-new}
 
-* **視頻縮略圖支援**
+* **影片的縮圖支援**
 
    現在在AEM Screens支援的視頻縮略圖支援。 內容作者可以定義視頻的縮略圖，以便影像可以用作佔位符並正確地test內容回放和目標，同時由適當的團隊最終確定實際視頻。 在視頻回放失敗時，也可以使用影像。
 請參閱 [視頻縮略圖支援](/help/user-guide/thumbnail-support.md) 的子菜單。

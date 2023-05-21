@@ -8,7 +8,7 @@ exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -98,8 +98,7 @@ ht-degree: 0%
 此功能允許您遠程配置Tizen播放器，並可根據需要集中更新這些配置。 你只需要 `HTTP` 用於承載Tizen應用程式的伺服器 `(wgt and xml file)` 和文本編輯器以保存 `config.json` 參數。
 
 確保已在Tizen設備上配置了URL啟動程式地址，即「Home Button —> URL Launcher設定」。
-在 `HTTP` 承載Tizen應用程式的伺服器，將檔案 `config.json` 與 `wgt` 的子菜單。 檔案名必須為 `config.json`。
-Tizen播放器將安裝，啟動時（以及每次重新啟動）將檢查並應用 `config.json` 的子菜單。
+在 `HTTP` 承載Tizen應用程式的伺服器，將檔案 `config.json` 與 `wgt` 的子菜單。 檔案名稱必須是 `config.json`。Tizen播放器將安裝，啟動時（以及每次重新啟動）將檢查並應用 `config.json` 的子菜單。
 
 ### JSON策略示例 {#example-json}
 
@@ -120,7 +119,7 @@ Tizen播放器將安裝，啟動時（以及每次重新啟動）將檢查並應
 >[!NOTE]
 >策略配置將得到嚴格強制執行，不會在播放器的管理UI中手動覆蓋。 要允許對特定策略進行手動播放器配置，請不要在策略配置中指定策略，例如，如果要允許對重新啟動計畫進行手動配置，請不要指定密鑰 `rebootSchedule` 的子菜單。 每次重新載入播放器時都會讀取策略配置。
 
-| **策略名稱** | **目的** |
+| **策略名稱** | **用途** |
 |---|---|
 | 伺服器 | 到Adobe Experience Manager(AEM)伺服器的URL。 |
 | 註冊密鑰 | 用於使用預共用密鑰對設備進行批量註冊。 |

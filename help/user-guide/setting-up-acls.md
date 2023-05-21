@@ -1,66 +1,66 @@
 ---
 title: 設定ACL
-seo-title: 設定ACL
-description: 請參照本頁面，了解如何使用ACL分隔專案，讓每個人或團隊都能處理各自的專案。
-seo-description: 請參照本頁面，了解如何使用ACL分隔專案，讓每個人或團隊都能處理各自的專案。
+seo-title: Setting up ACLs
+description: 按照本頁瞭解如何使用ACL分離項目，以便每個個人或團隊處理其自己的項目。
+seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: 管理畫面
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 2%
 
 ---
 
 # 設定ACL {#setting-up-acls}
 
-以下章節說明如何使用ACL分隔專案，讓每個人或團隊都能處理各自的專案。
+下節介紹如何使用ACL分離項目，以便每個個人或團隊處理其自己的項目。
 
-身為AEM管理員，您必須確保專案的團隊成員不會干預其他專案，且每位使用者都會根據專案需求獲得特定角色。
+作為AEM管理員，您需要確保項目的團隊成員不會干擾其他項目，並且每個用戶都根據項目要求分配特定角色。
 
 ## 設定權限 {#setting-up-permissions}
 
-以下步驟概述為項目設定ACL的過程：
+以下步驟概括了為項目設定ACL的過程：
 
-1. 登入AEM並導覽至&#x200B;**工具** > **安全性**。
+1. 登錄AEM並導航至 **工具** > **安全**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 按一下「**群組**」並輸入ID（例如Acme）。
+1. 按一下 **組** 並輸入ID（例如，Acme）。
 
-   或者，使用此連結`http://localhost:4502/libs/granite/security/content/groupadmin.html`。
+   或者，使用此連結， `http://localhost:4502/libs/granite/security/content/groupadmin.html`。
 
-   隨後，按一下&#x200B;**Save**。
+   隨後，按一下 **保存**。
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 從清單中選擇&#x200B;**貢獻者**，然後按兩下。
+1. 選擇 **撰稿人** 並按兩下它。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 將&#x200B;**Acme**（您建立的專案）新增至&#x200B;**新增成員至群組**。 按一下「**儲存**」。
+1. 添加 **埃克** （您建立的項目） **將成員添加到組**。 按一下「**儲存**」。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
-   >如果您希望項目團隊成員註冊玩家（包括為每個玩家建立用戶），請找到組用戶管理員，然後將ACME組添加給用戶管理員
+   >如果希望項目團隊成員註冊玩家（涉及為每個玩家建立用戶），請查找組用戶管理員並將ACME組添加到用戶管理員
 
-1. 將將&#x200B;**Acme**&#x200B;專案的所有使用者新增至&#x200B;**Acme**&#x200B;群組。
+1. 添加將在 **埃克** 項目到 **埃克** 組。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 使用此`(http://localhost:4502/useradmin)`設定群組&#x200B;**Acme**&#x200B;的權限。
+1. 設定組的權限 **埃克** 使用 `(http://localhost:4502/useradmin)`。
 
-   選取群組&#x200B;**Acme**，然後按一下&#x200B;**permissions**。
+   選擇組 **埃克** 並按一下 **權限**。
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -70,75 +70,75 @@ ht-degree: 1%
 
 | **路徑** | **權限** | **說明** |
 |---|---|---|
-| `/apps/<project>` | 讀取 | 提供對項目檔案的訪問（如果適用） |
-| `/content/dam/<project>` | 全部 | 提供在DAM中儲存影像或視訊等專案資產的存取權 |
-| `/content/screens/<project>` | 全部 | 移除/content/screens底下所有其他專案的存取權 |
+| `/apps/<project>` | 讀取 | 提供對項目檔案（如果適用）的訪問 |
+| `/content/dam/<project>` | 全部 | 提供在DAM中儲存項目資產（如影像或視頻）的權限 |
+| `/content/screens/<project>` | 全部 | 刪除對/content/screens下所有其他項目的訪問 |
 | `/content/screens/svc` | 讀取 | 提供對註冊服務的訪問 |
-| `/libs/screens` | 讀取 | 提供DCC的存取權 |
-| `/var/contentsync/content/screens/` | 全部 | 允許更新專案的離線內容 |
+| `/libs/screens` | 讀取 | 提供對DCC的訪問 |
+| `/var/contentsync/content/screens/` | 全部 | 允許更新項目的離線內容 |
 
 >[!NOTE]
 >
->在某些情況下，您可以將製作功能（例如管理資產和建立管道）與管理功能（例如註冊播放器）區隔開來。 在這種情況下，請建立兩個群組，並將作者群組新增至貢獻者，並將管理員群組新增至貢獻者和使用者管理員。
+>在某些情況下，您可以將作者功能（如管理資產和建立渠道）與管理功能（如註冊玩家）分開。 在這種情況下，建立兩個組並將作者組添加到參與者，將管理組添加到參與者和用戶管理員。
 
-### 建立群組 {#creating-groups}
+### 建立組 {#creating-groups}
 
-建立新專案也應建立預設使用者群組，並指派基本權限集。 您應將權限延伸至我們對AEM Screens的典型角色。
+建立新項目還應建立分配了基本權限集的預設用戶組。 您應將權限擴展到我們對AEM Screens具有的典型角色。
 
-例如，您可以建立下列專案特定群組：
+例如，您可以建立以下項目特定組：
 
-* Screens專案管理員
-* Screens專案運算子（註冊播放器，以及管理位置和裝置）
-* Screens專案使用者（處理管道、排程和管道指派）
+* 螢幕項目管理員
+* 螢幕項目操作員（註冊玩家，並管理位置和設備）
+* 螢幕項目用戶（處理頻道、計畫和頻道分配）
 
-下表摘要具有AEM Screens專案說明和權限的群組：
+下表匯總了具有AEM Screens項目說明和權限的組：
 
 <table>
  <tbody>
   <tr>
-   <td><strong>群組名稱</strong></td>
+   <td><strong>組名稱</strong></td>
    <td><strong>說明</strong></td>
    <td><strong>權限</strong></td>
   </tr>
   <tr>
-   <td>Screens Admins<br /> <em>screens-admins</em></td>
-   <td>AEM Screens功能的管理員層級存取</td>
+   <td>螢幕管理員<br /> <em>螢幕管理員</em></td>
+   <td>對AEM Screens權能的管理級訪問</td>
    <td>
     <ul>
-     <li>貢獻者成員</li>
-     <li>用戶管理員成員</li>
-     <li>所有/content/screens</li>
-     <li>所有/content/dam</li>
-     <li>所有/content/experience-fragments</li>
+     <li>參與者成員</li>
+     <li>OF用戶 — 管理員成員</li>
+     <li>所有/內容/螢幕</li>
+     <li>所有/內容/資料庫</li>
+     <li>所有/內容/體驗片段</li>
      <li>所有/etc/design/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Users<br /> <em>screens-users</em></td>
-   <td>建立和更新管道和排程，並指派至AEM Screens中的位置</td>
+   <td>螢幕用戶<br /> <em>螢幕用戶</em></td>
+   <td>建立和更新渠道和計畫並分配給AEM Screens的地點</td>
    <td>
     <ul>
-     <li>貢獻者成員</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li>參與者成員</li>
+     <li>&lt;project&gt; /內容/螢幕</li>
      <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li>&lt;project&gt; /content/experience片段</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens運算子<br /> <em>screens-operators</em></td>
-   <td>在AEM Screens中建立和更新位置結構及註冊播放器</td>
+   <td>螢幕運算子<br /> <em>螢幕運算子</em></td>
+   <td>在AEM Screens建立和更新位置結構和註冊玩家</td>
    <td>
     <ul>
-     <li>貢獻者成員</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li>參與者成員</li>
+     <li>jcr：所有/home/users/screens</li>
+     <li>jcr：所有/home/groups/screens</li>
+     <li>&lt;project&gt; /內容/螢幕</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>螢幕播放器<br /> <em>screens-&lt;project&gt;-devices</em></td>
-   <td>自動將所有播放器和所有播放器/裝置分組為貢獻者的成員。</td>
-   <td><p> 貢獻者成員</p> </td>
+   <td>螢幕播放器<br /> <em>螢幕&lt;project&gt; — 設備</em></td>
+   <td>自動將所有玩家和所有玩家/設備分組為參與者的成員。</td>
+   <td><p> 參與者成員</p> </td>
   </tr>
  </tbody>
 </table>

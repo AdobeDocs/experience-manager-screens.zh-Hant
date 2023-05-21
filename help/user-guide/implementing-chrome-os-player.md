@@ -140,7 +140,7 @@ AEM Screens播放器是啟用Kiosk的應用程式，它還為Chrome OS播放器�
 
 下表概述了策略及其功能。
 
-| **策略名稱** | **目的** |
+| **策略名稱** | **用途** |
 |---|---|
 | *伺服器* | 指向Adobe Experience Manager伺服器的URL |
 | *解析度* | Chrome OS設備的解析度 |

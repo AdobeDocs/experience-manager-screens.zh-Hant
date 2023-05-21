@@ -1,7 +1,7 @@
 ---
-title: 專案分類法
+title: 項目分類
 seo-title: Project Taxonomy
-description: 本頁介紹項目分類法
+description: 此頁描述項目分類
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
@@ -11,51 +11,51 @@ ht-degree: 0%
 
 ---
 
-# 專案分類法 {#project-taxonomy}
+# 項目分類 {#project-taxonomy}
 
 >[!NOTE]
 >
->此活動的一般利害關係人為AEM實作者。
+>此活動的典型利益相關方是AEM實施者。
 
-建立AEM Screens專案前，請務必了解專案的「UX線框設計」階段中定義的所有元件，並制定其策略。
+在建立AEM Screens項目之前，必須瞭解並制定項目「UX Wirreming」階段定義的所有元件的戰略。
 
-在實作AEM Screens數位看板解決方案之前，請務必考量下列元素：
+在實施AEM Screens數字標牌解決方案之前，請確保考慮以下要素：
 
 * **位置**
-* **MediaZones**
+* **媒體區域**
 * **顯示**
 * **排程**
 * **預覽內容**
 
-若要了解這些術語，請參閱 [字彙表](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+要瞭解這些術語，請參閱 [辭彙表](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en)。
 
 >[!NOTE]
 >
->最佳實務是考慮使用：
+>最好考慮使用：
 >
->* 硬體資產資料庫以自動填入Screens專案
->* 文字設定檔案，自動將每個播放器指向AEM的特定例項
+>* 自動填充螢幕項目的硬體資產資料庫
+>* 文本配置檔案，自動將每個播放器指向特定實AEM例
 
 
-## 實作AEM Screens專案 {#creating-a-project}
+## 執行AEM Screens項目 {#creating-a-project}
 
-AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使用者體驗。 作者可建立和檢閱內容，並透過設定、部署和整合AEM Screens的可用區段，提供易於使用的圖形使用者介面。
+AEM Screens的作者負責使用AEM Screens的可用元件建立和管理用戶體驗。 作者通過配置、部署和整合AEM Screens的可用段，建立和審閱內容，並提供易於使用的圖形用戶介面。
 
 >[!NOTE]
 >
->作者從指定的序列建立管道，並知道行銷活動對象和所需的焦點。 因此，AEM Screens作者建立不同管道並將序列指派至計時管道體驗，以建立和協調一般使用者體驗。
+>作者根據給定的序列建立頻道，並瞭解活動受眾和期望的焦點。 因此，AEM Screens作者通過建立不同的頻道和將序列分配給定時的頻道體驗來建立和協調最終用戶體驗。
 
-作者通常會透過下列方式開始AEM Screens專案：
+作者通常通過以下方式啟動AEM Screens項目：
 
-* [建立AEM Screens專案](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
-* [建立管道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
-* [新增元件和資產至管道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
-* [建立排程](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [建立AEM Screens項目](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [建立通道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [將元件和資產添加到渠道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [建立計畫](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
 * [建立位置](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
 * [建立顯示](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
-* [為顯示器指定通道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+* [為顯示器分配頻道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
 
-* [在AEM Screens播放器中檢視內容](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
+* [在AEM Screens播放器中查看內容](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->您也可以將一組位置從CSV/XLS試算表大量匯入至AEM Screens專案。 追隨 [從檔案新增專案匯入工具](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) 以取得更多詳細資訊。
+>您還可以將一組位置從CSV/XLS電子錶格批量導入到您的AEM Screens項目。 關注 [從檔案新建項目導入程式](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) 的子菜單。

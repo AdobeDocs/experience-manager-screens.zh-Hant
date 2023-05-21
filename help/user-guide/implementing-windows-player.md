@@ -120,7 +120,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 下表匯總了策略屬性，其中包含供參考的示例策略JSON:
 
-| **策略名稱** | **目的** |
+| **策略名稱** | **用途** |
 |---|---|
 | 伺服器 | 到Adobe Experience Manager(AEM)伺服器的URL。 |
 | 解析度 | 設備的解析度。 |

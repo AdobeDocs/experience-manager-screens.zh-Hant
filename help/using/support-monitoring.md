@@ -1,49 +1,48 @@
 ---
 title: 支援監控
-seo-title: 支援監控AEM Screens
-description: 本頁面說明AEM Screens最佳實務支援監控指南
-seo-description: 本頁面說明AEM Screens最佳實務支援監控指南
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-title: Support Monitoring for AEM Screens
+description: 本頁介紹《AEM Screens最佳做法支援監控指南》
+seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
+# 支援監控 {#support-monitoring}
 
-# 支援監視{#support-monitoring}
-
-本節提供與管理數位看板專案中的裝置和內容異常相關的最佳實務。
+本節提供與管理數字標牌項目中的設備和內容異常相關的最佳做法。
 
 支援監控包括：
 
-* **裝置監視**
-* **內容監控**
+* **設備監視**
+* **內容監視**
 
-## 內容監視{#content-monitoring}
+## 內容監視 {#content-monitoring}
 
-內容監控可讓您疑難排解與未正確顯示在畫面上的內容相關的問題：
-
-1. 如果遇到空白螢幕問題：
-
-   * 檢查&#x200B;*preview*&#x200B;以查看通道是否顯示黑屏
-   * 在筆記型電腦上註冊&#x200B;*本機Chrome播放器*（作為擴充功能）至該顯示器，並查看其是否顯示黑屏。
-   * 按一下右鍵並檢查&#x200B;*適用日誌*。
-
-   此外，如果此情況不會在本機播放器上發生，但只會在裝置上發生：
-
-   * 檢查該裝置上可能有問題的&#x200B;*媒體類型*（正在使用），並確認內容是否已成功在本機下載（管理員UI清除頻道快取）。
-   * 在票證中加入任何&#x200B;*裝置記錄*，以快速進行疑難排解。
-   * *從* 裝置收集記錄。
-
-
-## 設備監視{#device-monitoring}
-
-如果遇到空白螢幕問題，則與監視物理設備相關的設備監視：
+內容監視允許您排除與螢幕上未正確顯示的內容相關的問題：
 
 1. 如果遇到空白螢幕問題：
 
-   * 檢查&#x200B;*display*&#x200B;是否已開啟。
-   * 檢查&#x200B;*computer*&#x200B;是否已開啟並正在發送信號。
-   * 按一下右鍵，檢查並檢查&#x200B;*適用日誌*。
+   * 檢查 *預覽* 看頻道是否顯示黑屏
+   * 註冊 *局部鉻粉* （作為擴展）顯示到該顯示器，並查看是否顯示黑屏。
+   * 按一下右鍵並檢查和檢查 *適用日誌*。
 
+   此外，如果本地播放器上沒有出現這種情況，但僅在設備上出現：
+
+   * 檢查 *媒體類型* （正在使用），該設備可能有問題，並且還確認內容是否已成功本地下載（管理UI清除通道快取）。
+   * 包括任何 *設備日誌* 的子菜單。
+   * *收集日誌* 從設備中AEM。
+
+
+## 設備監視 {#device-monitoring}
+
+與監視物理設備相關的設備監視（如果遇到空白螢幕問題）:
+
+1. 如果遇到空白螢幕問題：
+
+   * 檢查 *顯示* 已通電。
+   * 檢查 *電腦* 已通電並正在發送信號。
+   * 按一下右鍵、檢查和檢查 *適用日誌*。

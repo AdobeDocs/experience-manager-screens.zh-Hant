@@ -1,96 +1,96 @@
 ---
-title: 適用性轉譯架構概觀和設定
-description: 本頁說明AEM Screens中適用性轉譯CRXDE Lite的架構概觀和設定。
+title: 自適應格式副本體系結構概述和配置
+description: 本頁介紹了在AEM ScreensCRXDE Lite中用於自適應格式副本的體系結構概述和配置。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 適用性轉譯：架構概述和設定 {#adaptive-renditions}
+# 自適應格式副本：體系結構概述和配置 {#adaptive-renditions}
 
 ## 簡介 {#introduction}
 
-適用性轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。 這些裝置會根據這些規則自動下載並播放資產的最適當轉譯，讓客戶只能專注於設計&#x200B;*main*&#x200B;體驗。
+自適應格式副本允許設備根據客戶定義的規則自動為設備選擇最佳格式副本。 這些設備將根據這些規則自動下載並播放資產的最合適格式副本，使客戶只能專注於設計 *主* 體驗。
 
 ## 目標 {#objective}
 
-身為AEM Screens開發人員，您現在可以設定要下載和自動播放的裝置專屬資產轉譯，而不需要手動建立所有內容變異。 您必須先設定「最適化轉譯」，內容作者才能在AEM Screens頻道中使用此功能。
+作為AEM Screens開發人員，您現在可以配置特定於設備的資產格式副本，以便自動下載和播放，而無需手動建立所有內容變體。 必須先配置自適應格式副本，內容作者才能在AEM Screens頻道中使用此功能。
 
 ## 架構概述 {#architectural-overview}
 
-最適化轉譯是以擁有多個資產轉譯的構想為基礎，並以特定命名慣例命名。 播放特定轉譯的決定是透過評估媒體查詢運算式，而這些運算式只能在具備預期功能的裝置上解析。
+自適應格式副本基於按照特定命名約定命名多個資產格式副本的想法。 播放特定格式副本的決定是通過評估媒體查詢表達式來做出的，這些表達式只能在具有預期功能的設備上解析。
 
-具有關聯的格式副本命名模式的功能定義格式副本映射規則，如直向或橫向，如下圖所示。 計算所有可用的運算式後，Screens播放器將收集與相符規則對應的命名模式。 模式可用來在序列播放期間，透過尋找轉譯名稱中的模式來尋找正確的轉譯。
+具有關聯的格式副本命名模式的能力定義格式副本映射規則，如下圖所示：縱向或橫向。 計算所有可用表達式後，螢幕播放器將收集與匹配規則對應的命名模式。 這些模式用於在序列回放期間通過查找格式副本名稱中的模式來查找正確的格式副本。
 
 ![影像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## 將轉譯對應屬性新增至Screens專案 {#rendition-mapping-new}
+## 將格式副本映射屬性添加到螢幕項目 {#rendition-mapping-new}
 
-若要啟用「適用性轉譯」功能，應存在下列對應規則，且「內容感知」(CA)設定應可針對通道和顯示進行解析。
+要啟用「自適應格式副本」功能，應存在以下映射規則，並且「上下文感知」(CA)配置應可用於通道和顯示。
 
 >[!NOTE]
->若要深入了解內容感知設定，請參閱[此處](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)。
+>要瞭解有關內容感知配置的詳細資訊，請參見 [這裡](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)。
 
-請依照下列步驟來設定設定：
+按照以下步驟配置設定：
 
-1. 導覽至&#x200B;**CRXDE Lite**。 檢查&#x200B;**rendition-mapping**&#x200B;配置是否存在於`/conf/screens/sling:configs/rendition-mapping`中，如下圖所示。
+1. 導航到 **CRXDE Lite**。 如果 **格式副本映射** 配置存在 `/conf/screens/sling:configs/rendition-mapping`，如下圖所示。
 
    >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >若您已安裝最新的Feature Pack 202109，您會看到&#x200B;**rendition-mapping**&#x200B;節點結構已預先填入`/conf/screens/sling:configs/rendition-mapping`的CRXDE Lite中。 請參閱[Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md)發行說明，以取得最新Feature Pack的詳細資訊。
-   >針對現有專案，請確定Screens專案有相關聯的&#x200B;**rendition-mapping**&#x200B;設定。 請參閱[新增轉譯對應至現有專案](#rendition-mapping-existing)區段以深入了解。
+   >如果安裝了最新的功能包202109，您將看到 **格式副本映射** 預填充節點結構 `/conf/screens/sling:configs/rendition-mapping` CRXDE Lite。 請參閱 [功能包202109發行說明](/help/user-guide/release-notes-fp-202109.md) 獲取有關最新功能包的詳細資訊。
+   >對於現有項目，確保螢幕項目具有 **格式副本映射** 關聯的配置。 請參閱 [將格式副本映射添加到現有項目](#rendition-mapping-existing) 的子菜單。
 
 ### 將格式副本映射屬性添加到現有項目 {#rendition-mapping-existing}
 
-1. 導覽至&#x200B;**CRXDE Lite**。
+1. 導航到 **CRXDE Lite**。
 
-1. 將指向`/conf/screens`的`sling:configRef`屬性添加到項目內容節點，顯式定義格式副本映射關聯，如下圖所示。
+1. 通過添加顯式定義格式副本映射關聯 `sling:configRef` 指向屬性 `/conf/screens` 到項目內容節點，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## 新增轉譯對應規則 {#add-rendition-mapping-rules}
+## 添加格式副本映射規則 {#add-rendition-mapping-rules}
 
-請依照下列步驟，在「轉譯對應」下新增節點：
+按照以下步驟在「格式副本映射」下添加節點：
 
-1. 從&#x200B;**CRXDE Lite**&#x200B;導覽至此路徑`/conf/screens/sling:configs/rendition-mapping`。
+1. 導航到此路徑 `/conf/screens/sling:configs/rendition-mapping` 從 **CRXDE Lite**。
 
-1. 在&#x200B;**rendition-mapping**&#x200B;下建立節點。 按一下右鍵&#x200B;**rendition-mapping**，然後按一下&#x200B;**Create** —> **Create Node**，如下圖所示。
+1. 在下面建立節點 **格式副本映射**。 按一下右鍵 **格式副本映射** 按一下 **建立** —> **建立節點**，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 在&#x200B;**建立節點**&#x200B;對話框中，為映射規則（如&#x200B;**rule1**）輸入&#x200B;**名稱**，並將節點&#x200B;**類型**&#x200B;輸入為&#x200B;**nt:unstrucled**。 按一下&#x200B;**OK**。
+1. 輸入 **名稱** 映射規則(如 **規則1** 和節點 **類型** 如 **nt：非結構化** 在 **建立節點** 對話框。 按一下 **確定**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
 
-1. 您需要以包含查詢運算式的值新增運算式屬性。
+1. 需要添加包含查詢表達式的值的表達式屬性。
 
    >[!NOTE]
-   >請參閱[使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)以深入了解。
+   >請參閱 [使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) 來瞭解更多資訊。
 
-   按一下您建立的&#x200B;**rule1**，然後在&#x200B;**Name**&#x200B;和&#x200B;**(orientation:landscape)**&#x200B;中輸入&#x200B;**expression**，如下所示。 ****&#x200B;按一下&#x200B;**Add**。
+   按一下 **規則1** 建立的，並輸入 **表達** 在 **名稱** 和 **（方向：橫向）** 在 **值**，如下所示。 按一下 **添加**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
-1. 使用包含轉譯命名模式的值新增模式屬性。
+1. 添加帶有包含格式副本命名模式的值的pattern屬性。
 
    >[!NOTE]
-   >模式屬性中定義的值將與新資產轉譯相符，且如果運算式評估為true，則會選取該值。
+   >模式屬性中定義的值將與新資產格式副本匹配，如果表達式的計算結果為true，則將選中該值。
 
-   若要新增模式屬性，請按一下您建立的&#x200B;**rule1**，並在&#x200B;**Name**&#x200B;中輸入&#x200B;**pattern**，並在&#x200B;**Value**&#x200B;中輸入&#x200B;**landscape**，如下所示。 按一下&#x200B;**Add**。
+   要添加pattern屬性，請按一下 **規則1** 建立的，並輸入 **圖案** 在 **名稱** 和 **景觀** 在 **值**，如下所示。 按一下 **添加**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 按一下&#x200B;**Save All**，您將在&#x200B;**rendition-mapping**&#x200B;下建立的節點下看到屬性。
+1. 按一下 **全部保存** 您將看到在下面建立的節點下的屬性 **格式副本映射**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## 後續步驟 {#next-steps}
 
-新增轉譯對應屬性和規則後（現在以內容作者的身分），您就可以將資產設定為使用最適化轉譯，也可以移轉大型網路的裝置，以便在AEM Screens頻道中使用此功能。 如需詳細資訊，請參閱[在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 。
+添加格式副本映射屬性和規則後，您就可以將資產配置為使用「自適應格式副本」，還可以在AEM Screens頻道中為大型網路遷移設備以利用此功能。 請參閱 [在AEM Screens使用自適應格式副本](/help/user-guide/using-adaptive-renditions.md) 的子菜單。
