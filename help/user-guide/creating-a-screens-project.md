@@ -1,7 +1,7 @@
 ---
-title: 建立和管理項目
+title: 建立和管理專案
 seo-title: Creating a Project
-description: 按此頁瞭解有關建立新螢幕項目的資訊。
+description: 請依照本頁面的說明建立新的Screens專案。
 seo-description: Follow this page to learn about creating a new Screens project.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
@@ -20,30 +20,30 @@ ht-degree: 3%
 
 ---
 
-# 建立和管理項目 {#creating-and-managing-projects}
+# 建立和管理專案 {#creating-and-managing-projects}
 
-通過依次選擇「Adobe Experience Manager」連結（左上）和「螢幕」，可以使用AEM Screens。
+選取AEM Screens連結（左上方），然後選取Screens，即可使用Adobe Experience Manager。
 
-或者，您可以直接導航到： `http://localhost:4502/screens.html/content/screens`
+或者，您也可以直接導覽至： `http://localhost:4502/screens.html/content/screens`
 
 
 >[!NOTE]
->**導航提示：**
->也可以使用游標鍵在中的不同資料夾中導航AEM。 此外，一旦選擇了特定實體，請按空格鍵編輯或查看該特定資料夾的屬性。
+>**導覽提示：**
+>您也可以使用游標鍵來瀏覽AEM中的不同資料夾。 此外，選取特定實體後，按一下空格鍵即可編輯或檢視該特定資料夾的屬性。
 
-## 建立新螢幕項目 {#creating-a-new-screens-project}
+## 建立新畫面專案 {#creating-a-new-screens-project}
 
-按照以下步驟建立新的螢幕項目：
+請依照下列步驟，建立新的Screens專案：
 
-1. 選擇 **螢幕** 從你的案AEM例中。
+1. 選取 **Screens** 來自您的AEM執行個體。
 
-1. 按一下 **建立螢幕項目**。
+1. 按一下 **建立畫面專案**.
 
-1. 輸入標題為 **測試螢幕** 按一下 **保存**。
+1. 輸入標題為 **TestScreens** 並按一下 **儲存**.
 
-項目即會建立，並會將您帶回螢幕項目控制台。 您現在可以選擇項目。
+專案隨即建立，並帶您回到Screens專案主控台。 您現在可以選取專案。
 
-在項目中，有五種資料夾，如下圖所示：
+專案中有五種資料夾，如下圖所示：
 
 * **排程**
 * **位置**
@@ -55,33 +55,33 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->預設情況下，初始結構將包含 **計畫**。 **位置**。 **應用程式**。 **頻道**, **設備** 首頁，但可以根據需要手動調整。 如果可用選項與項目無關，則可以刪除這些選項。
+>依預設，初始結構將包含 **時程表**， **位置**， **應用**， **頻道**、和 **裝置** 主版頁面，但可視需要手動調整。 如果可用的選項與您的專案無關，您可以移除這些選項。
 
 
-## 查看屬性 {#viewing-properties}
+## 檢視屬性 {#viewing-properties}
 
-建立「螢幕」項目後，選擇項目，然後按一下 **屬性** 編輯項目的屬性。
+建立畫面專案後，請選取該專案並按一下 **屬性** 從動作列編輯專案屬性。
 
-以下選項允許您編輯/更改 **測試螢幕**。
+下列選項可讓您編輯/變更 **TestScreens**.
 
 ![影像](assets/create-project2.png)
 
 
-## 建立自定義資料夾 {#creating-a-custom-folder}
+## 建立自訂資料夾 {#creating-a-custom-folder}
 
-您還可以在以下位置建立自己的自定義資料夾 **計畫**。 **位置**。 **應用程式**。 **頻道**, **設備** 項目中可用的母版頁。
+您也可以在下方建立自己的自訂資料夾 **時程表**， **位置**， **應用**， **頻道**、和 **裝置** 專案中可用的主版頁面。
 
-要建立自定義資料夾：
+若要建立自訂資料夾：
 
-1. 選擇項目並按一下 **建立** 按鈕。
-1. 的 **建立** 的子菜單。
+1. 選取您的專案並按一下 **建立** 加號圖示旁邊。
+1. 此 **建立** 精靈會開啟，並選取適當的選項。
 1. 按一下&#x200B;**下一步**。
-1. 輸入屬性，然後按一下 **建立**。
+1. 輸入屬性並按一下 **建立**.
 
-以下步驟將向您顯示應用程式資料夾的建立 **應用程式** 首頁 **測試螢幕**。
+下列步驟顯示如何建立Applications資料夾 **應用** 中的主版頁面 **TestScreens**.
 
-![播放器2-1](assets/create-project3.gif)
+![player2-1](assets/create-project3.gif)
 
 ### 後續步驟 {#the-next-steps}
 
-建立自己的項目後，請參閱 [渠道管理](managing-channels.md) 建立和管理渠道中的內容。
+建立自己的專案後，請參閱 [頻道管理](managing-channels.md) 以建立和管理管道中的內容。

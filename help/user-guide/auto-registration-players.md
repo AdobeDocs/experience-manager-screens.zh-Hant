@@ -1,7 +1,7 @@
 ---
-title: 玩家自動註冊
+title: 自動註冊播放器
 seo-title: Auto Registration of Players
-description: 按照本頁瞭解AMS/On-Prem螢幕的玩家自動註冊。
+description: 請詳閱本頁面，瞭解如何使用AMS/內部部署畫面自動註冊播放器。
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
@@ -13,42 +13,42 @@ ht-degree: 0%
 
 ---
 
-# 玩家自動註冊 {#auto-registration}
+# 自動註冊播放器 {#auto-registration}
 
-手動批量註冊數千個玩家會變得非常繁瑣，並增加時間和成本。 為簡化此過程，批量註冊功能允許您指定可通過配置檔案或移動設備管理(MDM)解決方案AEM配置到播放器中的預共用密鑰。
+手動大量註冊數千個播放器可能會變得非常麻煩，並增加時間和成本。 為簡化此程式，大量註冊功能可讓您在AEM中指定預先共用金鑰，並可透過設定檔案或行動裝置管理(MDM)解決方案將其布建至播放器。
 
-## 實現玩家自動註冊 {#bulk-registering-implementation}
+## 實作播放器自動註冊 {#bulk-registering-implementation}
 
-按照以下步驟實施玩家自動註冊：
+請依照下列步驟實作播放器的自動註冊：
 
-1. 登錄到實AEM例並選擇螢幕AEM項目並按一下 **屬性** 按鈕。
-1. 選擇 **高級** 頁籤 **設備註冊** 的子菜單。
+1. 登入您的AEM執行個體並選取您的AEM畫面專案，然後按一下 **屬性** 動作列中的。
+1. 選取 **進階** 標籤以檢視 **裝置註冊** 區段。
 
-1. 在中指定自動註冊代碼 **批量註冊代碼** 欄位和中的可選預設顯示 **預設顯示分配** 分配給自動註冊的播放器。
+1. 在中指定自動註冊代碼 **大量註冊代碼** 欄位和選用的預設顯示於 **預設顯示指派** 以指派給自動註冊的播放器。
    >[!NOTE]
-   >輸入您選擇的代碼，並根據需要選擇預設顯示。
+   >輸入您選擇的程式碼，並視需要選取預設顯示。
 
    ![影像](/help/user-guide/assets/auto-registration/auto-register1.png)
-1. 使用MDM或配置JSON檔案為玩家設定相應的伺服器URL和註冊代碼。
+1. 使用MDM或設定JSON檔案，為播放器布建適當的伺服器URL和註冊代碼。
 
    >[!NOTE]
-   >有關詳細資訊，請參閱作業系統(OS)的特定播放器的實施頁。 您還可以使用管理員UI輸入註冊代碼。
+   >如需詳細資訊，請參閱作業系統(OS)專用播放器的實作頁面。 您也可以使用管理員UI來輸入註冊代碼。
 
-1. 如果 `registrationKey` 屬性與中配置的屬AEM性匹配，播放器將自動註冊自身，如果配置了預設顯示，則內容將下載並播放。
+1. 如果 `registrationKey` 屬性與AEM中設定的屬性相符，播放器會自動註冊，而且如果設定了預設顯示，則會下載並播放該內容。
 
    ![影像](/help/user-guide/assets/auto-registration/auto-register2.png)
 
-## 安全最佳做法 {#security-best-practices}
+## 安全性最佳實務 {#security-best-practices}
 
-請按照以下部分來考慮一些安全方面的最佳做法：
+請參考以下章節，思考一些安全性最佳實務：
 
-* 要確保註冊代碼不受損壞，請在啟動批量注AEM冊之前配置該代碼，並在完成後清除該欄位並保存AEM在中。
+* 為確保註冊代碼不被破壞，請在開始大量註冊之前先在AEM中設定代碼，完成後，請清除該欄位並儲存在AEM中。
 
-* 可以配置路徑 `/bin/screens/registration` 只能從已知IP範圍訪問。
+* 您可以設定路徑 `/bin/screens/registration` ，以儘可能從已知的IP範圍存取。
 
-* 請考慮使用MDM為播放器配置。
+* 考慮使用MDM以設定布建播放器。
 
-* 始終使用 `HTTPS` 不 `HTTP` 與玩家通信AEM。
+* 永遠使用 `HTTPS` 而非 `HTTP` 用於與AEM的播放器通訊。
 
    >[!NOTE]
-   >預設顯示分配當前僅適用於批量註冊，而不適用於沒有註冊代碼的手動註冊。
+   >預設顯示指定目前僅適用於大量註冊，不適用於沒有註冊代碼的手動註冊。

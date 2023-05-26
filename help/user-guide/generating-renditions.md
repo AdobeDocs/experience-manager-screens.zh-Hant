@@ -1,7 +1,7 @@
 ---
-title: 視頻格式副本
+title: 視訊轉譯
 seo-title: Video Renditions
-description: 請按照此頁瞭解如何為「螢幕」項目生成全高清格式副本。
+description: 請依照本頁所述操作，瞭解如何為您的Screens專案產生Full HD轉譯。
 seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
 uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
 contentOwner: jsyal
@@ -20,76 +20,76 @@ ht-degree: 0%
 
 ---
 
-# 視頻格式副本 {#video-renditions}
+# 視訊轉譯 {#video-renditions}
 
-您可以生成手動和自動的全高清格式副本。 以下部分介紹了向資產中添加格式副本的工作流。
+您可以產生手動和自動的Full HD轉譯。 下節將說明將轉譯新增至資產的工作流程。
 
-## 自動生成全高清格式副本  {#automatically-generating-full-hd-renditions}
+## 自動產生Full HD轉譯  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->如果AEM Screens視頻呈現形式在您的設備上沒有最佳播放，請聯繫硬體供應商瞭解視頻的規格。 這將有助於獲得設備上的最佳效能，從而建立您自己的自定義視頻配置檔案，在該配置檔案中，您為FFMPEG提供適當的參數以生成格式副本。 隨後，使用以下步驟將自定義視頻配置檔案添加到配置檔案清單中。
+>如果AEM Screens視訊轉譯無法在您的裝置上以最佳方式播放，請聯絡硬體廠商，取得視訊的規格。 這將有助於在裝置上取得最佳效能，因此可建立您自己的自訂視訊設定檔，您可以在其中提供適當的引數讓FFMPEG產生您的轉譯。 接著，使用下列步驟，將您的自訂視訊設定檔新增至設定檔清單。
 >
->此外，請參見 [視頻故障排除](troubleshoot-videos.md) 調試和排除頻道中播放視頻的故障。
+>此外，另請參閱 [疑難排解影片](troubleshoot-videos.md) 對頻道中的視訊播放進行偵錯和疑難排解。
 
-按照以下步驟自動生成全高清格式副本：
+請依照下列步驟自動產生Full HD轉譯：
 
-1. 選擇Adobe Experience Manager連結（左上），然後按一下錘表徵圖以選擇要選擇的工具 **工作流**。
+1. 選取Adobe Experience Manager連結（左上方），然後按一下槌子圖示以選取工具 **工作流程**.
 
-   按一下 **模型** 中各屬性的附加資訊。
+   按一下 **模型** 以輸入工作流程模型管理。
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 選擇 **DAM更新資產** 模型，然後從操作欄中按一下「編輯」(Edit)以開啟 **DAM更新資產** 的子菜單。
+1. 選取 **DAM更新資產** ，然後按一下動作列中的「編輯」以開啟 **DAM更新資產** 視窗。
 
-   ![步驟5_ — 編輯_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
+   ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. 按兩下 **FFmpeg轉碼** 的子菜單。
+1. 連按兩下 **FFmpeg轉碼** 步驟。
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 選擇 **進程** 頁籤。 將全高清配置檔案輸入到 **參數** 為： ***,profile:fullhd-bp,profile:fullhd-hp*** 按一下 **確定**。
+1. 選取 **程式** 索引標籤來編輯程式引數。 輸入Full HD設定檔至清單 **引數** 作為： ***，profile:fullhd-bp,profile:fullhd-hp*** 並按一下 **確定**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 按一下 **保存** 左上角 **DAM更新資產** 的上界。
+1. 按一下 **儲存** 左上角 **DAM更新資產** 畫面。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 導航到 **資產** 上傳新視頻。 按一下視頻並開啟「格式副本」側欄，您會注意到這兩個全高清視頻。
+1. 導覽至 **資產** 並上傳新影片。 按一下視訊並開啟「轉譯」側邊欄，您會發現兩部Full HD視訊。
 
-   ![步驟10__open_thevideoasset](assets/step10_-_open_thevideoasset.png)
+   ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. 開啟 **格式副本** 從側軌上。
+1. 開啟 **轉譯** 從側邊欄移除。
 
-   ![步驟11_-_open_therenditionssiarg](assets/step11_-_open_therenditionssiderail.png)
+   ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. 您會注意到兩個新的全高清格式副本。
+1. 您會發現兩個新的Full HD轉譯。
 
-   ![步驟12_-_2_new_renditionsaded to thevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-## 手動生成全高清格式副本 {#manually-generating-full-hd-renditions}
+## 手動產生Full HD轉譯 {#manually-generating-full-hd-renditions}
 
-按照以下步驟手動生成全高清格式副本：
+請依照下列步驟手動產生Full HD轉譯：
 
-1. 選擇Adobe Experience Manager連結（左上），然後按一下錘表徵圖以選擇要選擇的工具 **工作流**。
+1. 選取Adobe Experience Manager連結（左上方），然後按一下槌子圖示以選取工具 **工作流程**.
 
-   按一下 **模型** 中各屬性的附加資訊。
+   按一下 **模型** 以輸入工作流程模型管理。
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 選擇 **螢幕更新資產** 模型，然後按一下 **啟動工作流** 開啟 **運行工作流** 對話框。
+1. 選取 **畫面更新資產** 模型，然後按一下 **開始工作流程** 以開啟 **執行工作流程** 對話方塊。
 
-   ![步驟5_ — 開始_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 在 **負載** 按一下 **運行**。
+1. 在「 」中選取所需的影片 **裝載** 並按一下 **執行**.
 
-   ![步驟6_ — 選擇_thederidevideo](assets/step6_-_select_thedesiredvideo.png)
+   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. 導航到 **資產**，向下鑽取到您的資產，然後按一下。
+1. 導覽至 **資產**，深入研究您的資產，然後按一下它。
 
-   ![步驟7_ — 開啟_視頻資產](assets/step7_-_open_thevideoasset.png)
+   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. 開啟 **格式副本** 並且您會注意到新的全高清格式副本。
+1. 開啟 **轉譯** 側邊欄，您會注意到新的Full HD轉譯。
 
-   ![步驟8_-open_therenditionssifart](assets/step8_-_open_therenditionssiderail.png)
+   ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

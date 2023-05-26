@@ -1,7 +1,7 @@
 ---
 title: 建立和管理位置
 seo-title: Managing Locations
-description: 請按照此頁瞭解有關建立/管理位置的資訊。
+description: 請依照本頁面瞭解如何建立/管理位置。
 seo-description: Follow this page to learn about creating/managing locations.
 uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
 contentOwner: Jyotika syal
@@ -22,46 +22,46 @@ ht-degree: 2%
 
 # 建立和管理位置 {#creating-and-managing-locations}
 
-這些位置根據各個螢幕的位置承載顯示器的配置。
+位置會根據各種熒幕的位置來主控顯示器的設定。
 
-此頁顯示為螢幕建立和管理位置。
+此頁面顯示建立和管理Screens的位置。
 
-**先決條件**:
+**先決條件**：
 
-* [配置和部署螢幕](configuring-screens-introduction.md)
-* [建立和管理螢幕項目](creating-a-screens-project.md)
-* [建立和管理渠道](managing-channels.md)
+* [設定和部署畫面](configuring-screens-introduction.md)
+* [建立和管理畫面專案](creating-a-screens-project.md)
+* [建立和管理管道](managing-channels.md)
 
 ## 建立新位置 {#creating-a-new-location}
 
-在為螢幕建立項目後，請按照以下步驟為螢幕項目建立新位置：
+建立Screens專案後，請依照下列步驟為Screens專案建立新的「位置」：
 
-1. 選擇Adobe Experience Manager連結（左上），然後選擇螢幕。 或者，您可以直接導航到： `http://localhost:4502/screens.html/content/screens`。
-1. 導航到「螢幕」項目，然後按一下 **位置**。
-1. 按一下 **建立** 按鈕。 將會開啟嚮導。
-1. 選擇模板 **位置** ，然後按一下 **下一個**。
+1. 選取Adobe Experience Manager連結（左上方），然後選取Screens。 或者，您也可以直接導覽至： `http://localhost:4502/screens.html/content/screens`.
+1. 導覽至畫面專案，然後按一下 **位置**.
+1. 按一下 **建立** 加號圖示旁邊。 將會開啟精靈。
+1. 選取範本 **位置** 從精靈中並按一下 **下一個**.
 
-1. 輸入 **標題和標籤**。 **更多標題和說明**。 **開/關時間**, **虛榮URL**。
+1. 輸入屬性 **標題和標籤**， **更多標題和說明**， **開啟/關閉時間**、和 **虛名URL**.
 
-1. 按一下 **建立** 並建立該位置並將其添加到您的位置資料夾中。
+1. 按一下 **建立** 且位置會建立並新增至您的位置資料夾。
 
-請參閱以下步驟，瞭解為AEM Screens項目建立新位置。 為了進行演示，新位置(SanJose)是在 *演示項目*。
+請參閱下列步驟，瞭解如何為AEM Screens專案建立新位置。 為了示範，新位置(SanJose)建立於 *示範專案*.
 
 ![player2](assets/player2.gif)
 
-建立位置後，必須為位置建立新顯示。
+建立位置後，您必須為位置建立新的顯示。
 
 ### 編輯位置的屬性 {#editing-properties-for-a-location}
 
-要編輯/訪問位置的屬性：
+若要編輯/存取位置的屬性：
 
-1. 選擇位置。
-1. 按一下 **屬性** 按鈕。
+1. 選取位置。
+1. 按一下 **屬性** 動作列中的。
 
 ![player3](assets/player3.gif)
 
 #### 後續步驟 {#the-next-steps}
 
-建立位置後，必須為位置建立新顯示。
+建立位置後，您必須為位置建立新的顯示。
 
-請參閱 [建立和管理顯示](managing-displays.md) 的子菜單。
+另請參閱 [建立和管理顯示區](managing-displays.md) 以取得更多詳細資料。

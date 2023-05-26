@@ -1,7 +1,7 @@
 ---
-title: 旅行中心溫度激活
+title: 旅行中心溫度啟用
 seo-title: Travel Center Temperature Activation
-description: 以下使用案例演示了基於Google工作表中填充的值的旅行中心局部溫度激活的使用。
+description: 下列使用案例示範如何根據Google Sheets中填入的值，使用旅行中心當地溫度啟動。
 seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
 uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
 contentOwner: jsyal
@@ -21,73 +21,73 @@ ht-degree: 0%
 
 ---
 
-# 旅行中心溫度激活 {#travel-center-temperature-activation}
+# 旅行中心溫度啟用 {#travel-center-temperature-activation}
 
-以下使用案例演示了基於Google工作表中填充的值的旅行中心局部溫度激活的使用。
+下列使用案例示範如何根據Google Sheets中填入的值，使用旅行中心當地溫度啟動。
 
 ## 說明 {#description}
 
-對於此使用情形，如果您的Google表的值小於50，則顯示含熱飲的影像，如果值大於或等於50，則顯示含冷飲的影像。 如果有其它值或沒有值，播放器將顯示預設影像。
+針對此使用案例，如果您的Google工作表值小於50，則會顯示含有熱飲的影像，而如果值大於或等於50，則會顯示含有冷飲的影像。 如果有其他值或沒有值，播放器會顯示預設影像。
 
 ## 先決條件 {#preconditions}
 
-在開始實施旅行中心本地溫度激活之前，必須瞭解如何設定 ***資料儲存***。 ***受眾細分*** 和 ***為通道啟用目標*** AEM Screens項目。
+在開始實作旅行中心當地溫度啟動之前，您必須瞭解如何設定 ***資料存放區***， ***對象細分*** 和 ***啟用頻道目標定位*** 在AEM Screens專案中。
 
-請參閱 [在AEM Screens配置ContextHub](configuring-context-hub.md) 的上界。
+請參閱 [在AEM Screens中設定ContextHub](configuring-context-hub.md) 詳細資訊。
 
-## 基本流 {#basic-flow}
+## 基本流量 {#basic-flow}
 
-按照以下步驟實施「Travel Center Local Temperature Activation（旅行中心本地溫度激活）」使用案例：
+請依照下列步驟，實作Travel Center Local Template Activation使用案例：
 
-1. **填充Google頁**
+1. **填入Google工作表**
 
-   1. 導航到ContextHubDemoGoogle工作表。
-   1. 添加列 **標題1** 與溫度的對應值。
+   1. 導覽至ContextHubDemo Google工作表。
+   1. 新增欄，使用 **標題1** 有對應的溫度值。
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
-1. **根據要求配置受眾中的段**
+1. **根據需求在Audiences中設定區段**
 
-   1. 導航至受眾中的段(請參閱 ***步驟2:設定受眾細分*** 在 **[在AEM Screens配置ContextHub](configuring-context-hub.md)** )的正平方根。
+   1. 導覽至您對象中的區段(請參閱 ***步驟2：設定對象細分*** 在 **[在AEM Screens中設定ContextHub](configuring-context-hub.md)** 頁面（以取得更多詳細資料）。
 
-   1. 選擇 **工作表A1 1** 按一下 **編輯**。
+   1. 選取 **工作表A1 1** 並按一下 **編輯**.
 
-   1. 選擇比較屬性，然後按一下配置表徵圖以編輯屬性。
-   1. 選擇 **谷歌表/值/1/0** 從 **屬性名稱**
+   1. 選取比較屬性，然後按一下設定圖示以編輯屬性。
+   1. 選取 **Googlesheets/value/1/0** 從的下拉式清單 **屬性名稱**
 
-   1. 選擇 **運算子** 如 **大於等於** 下拉菜單中
+   1. 選取 **運運算元** 作為 **大於或等於** 從下拉式功能表
 
-   1. 輸入 **值** 如 **50**
+   1. 輸入 **值** 作為 **50**
 
-   1. 同樣，選擇 **工作表A1 2** 按一下 **編輯**。
+   1. 同樣地，選取 **工作表A1 2** 並按一下 **編輯**.
 
-   1. 選擇 **比較屬性 — 值** 然後按一下「配置」表徵圖以編輯屬性。
-   1. 選擇 **谷歌表/值/1/0** 從 **屬性名稱**
+   1. 選取 **比較屬性 — 值** 並按一下「設定」圖示以編輯屬性。
+   1. 選取 **Googlesheets/value/1/0** 從的下拉式清單 **屬性名稱**
 
-   1. 選擇 **運算子** 如 **小於** 下拉菜單中
+   1. 選取 **運運算元** 作為 **小於** 從下拉式功能表
 
-   1. 輸入 **值** 如 **50**
+   1. 輸入 **值** 作為 **50**
 
-1. 導航並選擇您的頻道()，然後按一下 **編輯** 按鈕。 在以下示例中， **資料驅動天氣**，使用順序通道來顯示該功能。
+1. 導覽並選取您的頻道()然後按一下 **編輯** 動作列中的。 在以下範例中， **DataDrivenWeather**，循序頻道可用來展示此功能。
 
    >[!NOTE]
    >
-   >您的頻道應已經擁有預設映像，應按中所述預配置觀眾 [在AEM Screens配置ContextHub](configuring-context-hub.md)。
+   >您的頻道應已有預設影像，且對象應已預先設定，如所述 [在AEM Screens中設定ContextHub](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
    >[!CAUTION]
    >
-   >你應該把 **上下文中心** **配置** 使用頻道 **屬性** —> **個性化** 頁籤。
+   >您應已設定您的 **ContextHub** **設定** 使用管道 **屬性** —> **個人化** 標籤。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. 選擇 **目標** 從編輯器中選擇 **品牌** 和 **活動** 按一下 **開始目標**。
+1. 選取 **目標定位** 從編輯器中，然後選取 **品牌** 和 **活動** 從下拉式功能表，然後按一下 **開始定位**.
 
-   ![新建活動3](assets/new_activity3.gif)
+   ![new_activity3](assets/new_activity3.gif)
 
 1. **檢查預覽**
 
-   1. 按一下 **預覽。** 另外，開啟您的Google工作表並更新其值。
-   1. 將值更改為小於50，您應該能夠查看夏季飲料的影像。 如果「Google紙」中的值大於或等於50，則應能查看熱飲影像。
+   1. 按一下 **預覽。** 此外，請開啟Google工作表並更新其值。
+   1. 將值變更為小於50，您應該就能檢視夏季飲料的影像。 如果「Google工作表」中的值大於或等於50，則應能夠檢視熱飲影像。
    ![result3](assets/result3.gif)

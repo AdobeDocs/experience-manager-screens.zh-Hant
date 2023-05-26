@@ -19,7 +19,7 @@ ht-degree: 75%
 
 + [關於本指南](about-guide.md)
 + 概觀 {#overview}
-   + [簡介 到AEM Screens](introduction.md)
+   + [簡介 至AEM Screens](introduction.md)
    + [專案角色與責任](roles-responsibilities.md)
    + [必備條件](pre-requisites.md)
    + [數位看板專案的關鍵元素](getting-started-digital-signage.md)
@@ -40,10 +40,10 @@ ht-degree: 75%
    + [專案分類與實作](project-taxonomy-implementation.md)
    + 網路流量管理 {#manage-network-traffic}
       + [管理網路流量](/help/using/managing-network-traffic.md)
-      + [直接Internet網路（有線/無線）](/help/using/direct-internet-network.md)
-      + [直接移動網路](/help/using/mobile-network.md)
-      + [具有移動資料路由器和活動網路元件的移動網路](/help/using/mobile-network-router.md)
-      + [封閉的公司網路（有線/無線）](/help/using/enclosed-corporate-network.md)
+      + [直接網際網路網路（有線/無線）](/help/using/direct-internet-network.md)
+      + [直接行動網路](/help/using/mobile-network.md)
+      + [具有行動資料路由器和主動式網路元件的行動網路](/help/using/mobile-network-router.md)
+      + [封閉式企業網路（有線/無線）](/help/using/enclosed-corporate-network.md)
    + [裝置組態](device-configurations.md)
    + [測試與品質保證](testing-quality-assurance.md)
    + [廠商互動策略](vendor-engagement.md)

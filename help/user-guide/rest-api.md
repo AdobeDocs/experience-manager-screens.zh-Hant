@@ -1,7 +1,7 @@
 ---
 title: REST API
 seo-title: REST API
-description: AEM Screens提供了符合Siren規範的簡單REST風格API。 按照本頁瞭解如何導航內容結構並將命令發送到環境中的設備。
+description: AEM Screens提供遵循Siren規格的簡單RESTful API。 請依照本頁面的說明操作，瞭解如何導覽內容結構並傳送命令至環境中的裝置。
 seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
@@ -22,28 +22,28 @@ ht-degree: 2%
 
 # REST API{#rest-apis}
 
-AEM Screens提供了一個跟隨 [塞倫](https://github.com/kevinswiber/siren) 規範。 它允許導航內容結構並向環境中的設備發送命令。
+AEM Screens提供簡單的RESTful API，其會遵循 [警笛](https://github.com/kevinswiber/siren) 規格。 它可讓您導覽內容結構並傳送命令至環境中的裝置。
 
-API可在 [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)。
+此API的存取網址為 [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
-## 導航內容結構 {#navigating-content-structure}
+## 導覽內容結構 {#navigating-content-structure}
 
-API調用返回的JSON列出了與當前資源相關的實體。 在列出的自連結後，這些實體中的每個實體都可以再次作為REST資源訪問。
+API呼叫傳回的JSON會列出與目前資源相關的實體。 在所列出的自我連結後，這些實體中的每一個都可作為REST資源再次存取。
 
-例如，要訪問我們的演示旗艦位置中的顯示器，您可以撥打：
+例如，若要存取示範旗艦位置中的顯示區，您可以呼叫：
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-或者使用curl:
+或使用curl：
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship.json
 ```
 
-結果會是：
+結果如下：
 
 ```xml
 {
@@ -97,25 +97,25 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-然後，要訪問單屏顯示，您可以調用：
+然後，若要存取「單熒幕顯示」，您可以呼叫：
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-## 對資源執行操作 {#executing-actions-on-the-resource}
+## 對資源執行動作 {#executing-actions-on-the-resource}
 
-API調用返回的JSON可以包含資源上可用的操作清單。
+API呼叫傳回的JSON可包含資源上可用的動作清單。
 
-例如，顯示列出 *廣播命令* 允許向分配給該顯示器的所有設備發送命令的操作。
+例如，畫面會列出 *broadcast命令* 允許將命令傳送至指派給該顯示的所有裝置的動作。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-或者使用curl:
+或使用curl：
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
@@ -153,7 +153,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-要觸發此操作，您將調用：
+若要觸發此動作，系統會呼叫：
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -162,7 +162,7 @@ Host: http://localhost:4502
 :operation=broadcast-command&msg=reboot
 ```
 
-或者使用curl:
+或使用curl：
 
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json

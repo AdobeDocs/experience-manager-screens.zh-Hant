@@ -1,7 +1,7 @@
 ---
-title: 建立和管理顯示
+title: 建立和管理顯示區
 seo-title: Managing Displays
-description: 按照本頁瞭解如何建立新的顯示和設備配置。 此外，瞭解顯示儀表板。
+description: 請依照本頁所述操作，瞭解如何建立新的顯示器和裝置設定。 此外，瞭解顯示控制面板。
 seo-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
 uuid: dfde0740-5c8b-4e6c-bc83-bf8fbb31a16a
 contentOwner: Jyotika syal
@@ -20,130 +20,130 @@ ht-degree: 1%
 
 ---
 
-# 建立和管理顯示 {#creating-and-managing-displays}
+# 建立和管理顯示區 {#creating-and-managing-displays}
 
-顯示器是通常彼此相鄰放置的螢幕的虛擬分組。 顯示器通常對於安裝是永久的。 這將是對象內容作者將使用的對象，並始終引用為邏輯顯示，而不是其物理計數器部分。
+顯示區是虛擬的熒幕群組，通常位於彼此旁邊。 顯示通常是永久性的安裝。 這將是內容作者將搭配使用的物件，並一律參照為邏輯顯示，而不是其實體計數器部分。
 
-建立位置後，必須為位置建立新顯示。
+建立位置後，您必須為位置建立新的顯示。
 
-此頁顯示螢幕的建立和管理顯示。
+此頁面顯示建立及管理Screens的畫面。
 
-**先決條件**:
+**先決條件**：
 
-* [配置和部署螢幕](configuring-screens-introduction.md)
-* [建立和管理螢幕項目](creating-a-screens-project.md)
-* [建立和管理渠道](managing-channels.md)
+* [設定和部署畫面](configuring-screens-introduction.md)
+* [建立和管理畫面專案](creating-a-screens-project.md)
+* [建立和管理頻道](managing-channels.md)
 * [建立和管理位置](managing-locations.md)
 
-## 建立新顯示 {#creating-a-new-display}
+## 建立新顯示區 {#creating-a-new-display}
 
 >[!NOTE]
 >
->在建立顯示之前，需要建立一個位置。 要查看如何建立位置，請參閱 [建立和管理位置](managing-locations.md) 的子菜單。
+>您需要先建立位置，才能建立顯示。 若要瞭解如何建立位置，請參閱 [建立和管理位置](managing-locations.md) 以取得詳細資訊。
 
-要在您的位置建立新顯示，請執行以下步驟：
+若要在您的位置中建立新的顯示區，請遵循下列步驟：
 
-1. 導航至相應位置，例如 `http://localhost:4502/screens.html/content/screens/TestProject`。
-1. 選擇您的位置資料夾並點擊/按一下 **建立** 按鈕。 將會開啟嚮導。
-1. 選擇 **顯示** 從 **建立** 嚮導 **下一個**。
+1. 導覽至適當位置，例如 `http://localhost:4502/screens.html/content/screens/TestProject`.
+1. 選取您的位置資料夾，然後點選/按一下 **建立** 加號圖示旁邊。 將會開啟精靈。
+1. 選取 **顯示** 從 **建立** 精靈並按一下 **下一個**.
 
 1. 輸入 **名稱** 和 **標題** 顯示位置。
 
-1. 在 **顯示** 頁籤。 選擇所需 **解決** (例如， **全高清**)。 此外，您可以水準和垂直選擇設備的數量。
+1. 在 **顯示** 索引標籤中，選擇配置圖的詳細資訊。 選擇所需的 **解析度** (例如， **Full HD**)。 此外，您也可以選擇水平與垂直裝置數量。
 
 1. 按一下&#x200B;**建立**。
 
-顯示(*商店顯示*)建立並添加到位置(*聖何塞*)。
+顯示區(*StoreDisplay*)建立並新增至位置(*聖荷西*)。
 
 ![顯示](assets/display.gif)
 
-在顯示到位後，下一步將為該特定顯示建立設備配置。 按照下面的部分建立新設備配置。
+顯示就位後，下一步就是為該特定顯示建立裝置設定。 請依照以下章節建立新的裝置設定。
 
 >[!NOTE]
 >
->**下一步**:
+>**下一步**：
 >
->為您的位置建立顯示器後，您需要為顯示器分配一個頻道以利用內容。
+>為您的位置建立顯示區後，您需要指派頻道給顯示區，以運用內容。
 >
->請參閱 [分配通道](channel-assignment.md) 的子菜單。
+>另請參閱 [指派管道](channel-assignment.md) 區段，以瞭解如何指派頻道給顯示區。
 
-## 建立新設備配置 {#creating-a-new-device-config}
+## 建立新的裝置設定 {#creating-a-new-device-config}
 
-設備配置用作尚未安裝的實際數字標牌設備的佔位符。
+裝置設定可作為尚未安裝之實際數位看板裝置的預留位置。
 
-按照以下步驟建立新設備配置：
+請依照下列步驟建立新的裝置設定：
 
-1. 導航至相應的顯示，例如， `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`。
-1. 選擇顯示資料夾並點擊/按一下 **查看儀表板** 的子菜單。
-1. 點擊/按一下 **+添加設備配置** 右上角 **設備** 的子菜單。
+1. 導覽至適當的顯示區，例如， `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
+1. 選取您的顯示資料夾，然後點選/按一下 **檢視控制面板** 在動作列中。
+1. 點選/按一下 **+新增裝置設定** 右上角 **裝置** 面板。
 
-1. 選擇 **設備配置** 按為所需模板，然後點擊/按一下 **下一個**。
+1. 選取 **裝置設定** 作為所需的範本，然後點選/按一下 **下一個**.
 
-1. 根據需要輸入屬性，然後點擊/按一下 **建立**。
+1. 視需要輸入屬性，然後點選/按一下 **建立**.
 
-將建立設備配置並將其添加到當前顯示中(在下面的演示中，新設備配置將 *設備配置*)。
+裝置設定已建立並新增至目前的顯示(在下列示範中，新的裝置設定為 *裝置設定*)。
 
-![設備配置](assets/deviceconfig.gif)
+![deviceconfig](assets/deviceconfig.gif)
 
-一旦將設備配置設定為位置中的顯示器，下一步將為顯示器分配通道。
+一旦將裝置設定設定為位置中的顯示器，下一步就是將頻道指派給顯示器。
 
 >[!NOTE]
 >
->一旦將設備配置設定為位置中的顯示器，下一步將為顯示器分配通道。
+>一旦將裝置設定設定為位置中的顯示器，下一步就是將頻道指派給顯示器。
 >
->如下圖所示，如果設備配置在 **設備** 如果沒有為該特定設備配置分配通道，則顯示面板。
+>如果裝置設定在「 」中顯示為「未指派」，如下圖所示 **裝置** 面板（如果未將任何頻道指派給該特定裝置設定）。
 >
->您應該事先瞭解建立和管理渠道。 請參閱 [建立和管理渠道](managing-channels.md) 的子菜單。
+>您應事先瞭解如何建立和管理管道。 另請參閱 [建立和管理頻道](managing-channels.md) 以取得更多詳細資料。
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## 顯示控制面板 {#display-dashboard}
 
-顯示面板為您提供了不同的面板，用於管理顯示設備和設備配置。
+顯示儀表板提供您不同的面板，用於管理裝置的顯示裝置和裝置配置。
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
 >[!NOTE]
 >
->您可以選擇儀表板清單並觸發項目上的批量操作，而不是單獨處理每個項目。
+>您可以選取儀表板清單並觸發對專案的批次動作，而不是分別瀏覽每個專案。
 >
->例如，下圖顯示了如何從顯示操控板中選擇多個通道。
+>例如，下圖顯示如何從顯示圖示板中選取多個色版。
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
 ### 顯示資訊面板 {#display-information-panel}
 
-的 **顯示資訊** 面板提供顯示屬性。
+此 **顯示資訊** 面板提供顯示屬性。
 
-按一下(**...**) **顯示資訊** 的子菜單。
-
-
-#### 查看屬性 {#viewing-properties}
-
-按一下 **屬性** 查看或更改顯示的屬性。
-
-此外，您還可以在 **空閒超時** 財產 **顯示** 頁籤。 預設值設定為 *300秒*。
-
-使用 **CRXDE Lite**，以訪問 **空閒超時** 財產，就是 `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` 。
+按一下(**...**)的右上角 **顯示資訊** 面板以檢視屬性並預覽顯示。
 
 
-### 分配的通道面板 {#assigned-channels-panel}
+#### 檢視屬性 {#viewing-properties}
 
-的 **分配的頻道** 面板顯示指定給此設備的通道。
+按一下 **屬性** 以檢視或變更顯示的屬性。
+
+此外，您也可以調整互動式頻道的事件計時器值，位置如下： **閒置逾時** 下的屬性 **顯示** 標籤。 預設值設為 *300秒*.
+
+使用 **CRXDE Lite**，以存取 **idleTimeout** 屬性，也就是說， `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
 
-### 設備面板 {#devices-panel}
+### 已指派的色版面板 {#assigned-channels-panel}
 
-的 **設備** 面板提供有關設備配置的資訊。
+此 **已指派的頻道** 面板會顯示指派給此裝置的頻道。
 
-按一下(**...**) **設備** 面板，用於添加設備配置和更新設備。
 
-此外，按一下設備配置可查看屬性、指定設備或將其完全刪除。
+### 裝置面板 {#devices-panel}
+
+此 **裝置** 面板提供裝置設定的相關資訊。
+
+按一下(**...**)的右上角 **裝置** 面板以新增裝置設定和更新裝置。
+
+此外，按一下裝置設定即可檢視屬性、指派裝置，或將其完全刪除。
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
 #### 後續步驟 {#the-next-steps}
 
-完成為位置建立顯示後，需要為顯示指定通道。
+完成建立位置的顯示後，您需要為顯示指派頻道。
 
-請參閱 [分配通道](channel-assignment.md) 的子菜單。
+另請參閱 [指派管道](channel-assignment.md) 以取得更多詳細資料。

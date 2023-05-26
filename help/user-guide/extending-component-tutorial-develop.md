@@ -1,7 +1,7 @@
 ---
-title: 擴展AEM Screens元件
+title: 延伸AEM Screens元件
 seo-title: Extending an AEM Screens Component
-description: 以下教程將介紹擴展開箱後AEM Screens元件的步驟和最佳做法。 擴展「影像」元件以添加可授權的文本覆蓋。
+description: 下列教學課程會逐步解說擴充現成AEM Screens元件的步驟和最佳實務。 影像元件會延伸以新增可編寫的文字覆蓋。
 seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -20,67 +20,67 @@ ht-degree: 2%
 
 ---
 
-# 擴展AEM Screens元件 {#extending-an-aem-screens-component}
+# 延伸AEM Screens元件 {#extending-an-aem-screens-component}
 
-以下教程將介紹擴展開箱後AEM Screens元件的步驟和最佳做法。 擴展「影像」元件以添加可授權的文本覆蓋。
+下列教學課程會逐步解說擴充現成AEM Screens元件的步驟和最佳實務。 影像元件會延伸以新增可編寫的文字覆蓋。
 
 ## 概觀 {#overview}
 
-本教程適用於對AEM Screens不熟悉的開發人員。 在本教程中，螢幕影像元件將擴展為建立海報元件。 標題、描述和徽標疊加在影像上，以在序列通道中建立引人入勝的體驗。
+本教學課程適用於AEM Screens的新手開發人員。 在本教學課程中，Screens影像元件已擴充以建立海報元件。 標題、說明和標誌會覆蓋在影像上，以便在序列頻道中建立引人入勝的體驗。
 
 >[!NOTE]
 >
->在啟動本教程之前，建議您完成本教程： [為AEM Screens開發定制元件](developing-custom-component-tutorial-develop.md)。
+>在開始本教學課程之前，建議您先完成本教學課程： [為AEM Screens開發自訂元件](developing-custom-component-tutorial-develop.md).
 
-![自定義海報元件](assets/2018-05-07_at_4_09pm.png)
+![自訂海報元件](assets/2018-05-07_at_4_09pm.png)
 
-自定義海報元件是通過擴展影像元件建立的。
+自訂海報元件是透過擴充影像元件所建立。
 
 ## 必備條件 {#prerequisites}
 
-要完成本教程，您需要執行以下操作：
+若要完成本教學課程，您需要具備下列條件：
 
-1. AEM 6.5 +最新螢幕功能包
+1. AEM 6.5 + Latest Screens Feature Pack
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本機開發環境
 
-教程步驟和螢幕抓圖是使用CRXDE-Lite執行的。 [日蝕](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) 或 [智慧J](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE也可用於完成本教程。 有關使用IDE的詳細資訊 [可AEM以找到](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html)。
+教學課程步驟和熒幕擷取畫面使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE也可用來完成本教學課程。 有關使用IDE的詳細資訊 [使用AEM開發可在這裡找到](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## 專案設定 {#project-setup}
 
-螢幕項目的原始碼通常作為多模組Maven項目進行管理。 為加快教程的完成，預生成的項目 [原型AEM13工程](https://github.com/adobe/aem-project-archetype)。 有關 [在此處可找到使用Maven項AEM目原型建立項目](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html)。
+Screens專案的原始程式碼通常作為多模組Maven專案來管理。 為了加速教學課程，已使用預先產生專案 [AEM專案原型13](https://github.com/adobe/aem-project-archetype). 更多詳細資料： [您可以在此處找到使用Maven AEM專案原型建立專案](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
-1. 使用 **CRX包管理** `http://localhost:4502/crx/packmgr/index.jsp)r:`
+1. 使用下載並安裝下列套件 **CRX套件管理** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
 [取得檔案](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [取得檔案](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **（可選）** 如果使用Eclipse或其他IDE，請下載以下源包。 使用Maven命令將項AEM目部署到本地實例：
+   **或者，** 如果使用Eclipse或其他IDE，請下載以下來源套件。 使用Maven命令將專案部署到本機AEM執行個體：
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC啟動螢幕We.Retail運行項目
+   src開始畫面We.Retail執行專案
 
 [取得檔案](assets/start-poster-screens-weretail-run.zip)
 
-1. 在 **CRX包管理器** `http://localhost:4502/crx/packmgr/index.jsp` 安裝了以下兩個軟體包：
+1. 在 **CRX封裝管理員** `http://localhost:4502/crx/packmgr/index.jsp` 已安裝下列兩個套件：
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![通過CRX包管理器安裝的We.Retail運行Ui.Apps和Ui.Content包的螢幕](assets/crx-packages.png)
+   ![Screens We.Retail執行透過CRX封裝管理員安裝的Ui.Apps和Ui.Content封裝](assets/crx-packages.png)
 
-   通過CRX包管理器安裝的We.Retail運行Ui.Apps和Ui.Content包的螢幕
+   Screens We.Retail執行透過CRX封裝管理員安裝的Ui.Apps和Ui.Content封裝
 
 ## 建立海報元件 {#poster-cmp}
 
-Poster元件將框外的Image元件延伸。 一種吊具， `sling:resourceSuperType`，用於繼承映像元件的核心功能，而無需複製和貼上。 有關Web服務的基本資訊 [Sling Request Processing可在此處找到。](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html)
+海報元件會延伸開箱即用的screens影像元件。 Sling的機制， `sling:resourceSuperType`，可用來繼承影像元件的核心功能，而不需要複製和貼上。 有關基本功能的詳細資訊 [Sling請求處理可在此處找到。](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html)
 
-海報元件以預覽/生產模式以全屏顯示。 在編輯模式下，為了便於編寫序列通道，必須以不同方式呈現元件。
+海報元件會在預覽/生產模式下以全熒幕呈現。 在編輯模式中，請務必以不同方式轉譯元件，以便於編寫序列頻道。
 
-1. 在 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` （或選擇的IDE） `/apps/weretail-run/components/content`建立 `cq:Component` 命名 `poster`。
+1. 在 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` （或選擇的IDE）到 `/apps/weretail-run/components/content`建立 `cq:Component` 已命名 `poster`.
 
-   將以下屬性添加到 `poster` 元件：
+   將下列屬性新增至 `poster` 元件：
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -95,15 +95,15 @@ Poster元件將框外的Image元件延伸。 一種吊具， `sling:resourceSupe
 
    /apps/weretail-run/components/content/poster的屬性
 
-   通過設定 `sling:resourceSuperType`等於 `screens/core/components/content/image` 海報元件有效地繼承了影像元件的所有功能。 下面找到的對等節點和檔案 `screens/core/components/content/image` 可以添加到 `poster` 以覆蓋和擴展功能。
+   透過設定 `sling:resourceSuperType`屬性等於 `screens/core/components/content/image` 「海報」元件有效地繼承了「影像」元件的所有功能。 在下方找到對等節點和檔案 `screens/core/components/content/image` 可新增至下方 `poster` 元件，以覆蓋和擴充功能。
 
-1. 複製 `cq:editConfig` 節點 `/libs/screens/core/components/content/image.`貼上 `cq:editConfig` 在下面 `/apps/weretail-run/components/content/poster` 元件。
+1. 複製 `cq:editConfig` 節點在下 `/libs/screens/core/components/content/image.`貼上 `cq:editConfig` 在 `/apps/weretail-run/components/content/poster` 元件。
 
-   在 `cq:editConfig/cq:dropTargets/image/parameters` 節點更新 `sling:resourceType` 屬性等於 `weretail-run/components/content/poster`。
+   於 `cq:editConfig/cq:dropTargets/image/parameters` 節點更新 `sling:resourceType` 屬性等於 `weretail-run/components/content/poster`.
 
-   ![編輯 — 配置](assets/edit-config.png)
+   ![edit-config](assets/edit-config.png)
 
-   cq:editConfig的XML表示形式如下所示：
+   以下表示的cq：editConfig的XML表示法：
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -126,20 +126,20 @@ Poster元件將框外的Image元件延伸。 一種吊具， `sling:resourceSupe
    </jcr:root>
    ```
 
-1. 複製WCM基礎 `image` 對話框 `poster` 元件。
+1. 複製WCM Foundation `image` 對話方塊用於 `poster` 元件。
 
-   從現有對話框開始，然後進行修改是最容易的。
+   最簡單的方式是從現有的對話方塊開始，然後進行修改。
 
-   1. 從以下位置複製對話框： `/libs/wcm/foundation/components/image/cq:dialog`
-   1. 將對話框貼上到下面 `/apps/weretail-run/components/content/poster`
+   1. 複製對話方塊來源： `/libs/wcm/foundation/components/image/cq:dialog`
+   1. 在下方貼上對話方塊 `/apps/weretail-run/components/content/poster`
 
-   ![從/libs/wcm/foundation/components/image/cq:dialog複製到/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
+   ![已將對話方塊從/libs/wcm/foundation/components/image/cq：dialog複製到/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
-   從/libs/wcm/foundation/components/image/cq:dialog複製到/apps/weretail-run/components/content/poster
+   已將對話方塊從/libs/wcm/foundation/components/image/cq：dialog複製到/apps/weretail-run/components/content/poster
 
-   螢幕 `image` 元件是超類型到WCM Foundation `image` 元件。 因此 `poster` 元件繼承兩者的功能。 海報元件的對話框由螢幕和基礎對話框的組合組成。 的功能 **Sling資源合併** 用於隱藏從超類型元件繼承的無關對話框欄位和頁籤。
+   畫面 `image` 元件為WCM Foundation的超型別 `image` 元件。 因此， `poster` 元件會從兩者繼承功能。 海報元件的對話方塊由Screens和Foundation對話方塊的組合組成。 的功能 **Sling資源合併** 用於隱藏從超級型別元件繼承的不相關對話方塊欄位和索引標籤。
 
-1. 更新下面的cq：對話框 `/apps/weretail-run/components/content/poster` 以下更改在XML中表示：
+1. 更新下方的cq：dialog `/apps/weretail-run/components/content/poster` 下列變更以XML表示：
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -242,23 +242,23 @@ Poster元件將框外的Image元件延伸。 一種吊具， `sling:resourceSupe
    </jcr:root>
    ```
 
-   屬性 `sling:hideChildren`= `"[linkURL,size]`「 」用於 `items` 節點以確保 **連結URL** 和 **大小** 對話框中隱藏了欄位。 僅從海報對話框中刪除這些節點是不夠的。 屬性 `sling:hideResource="{Boolean}true"` 「輔助功能」(accessibility)頁籤上的「隱藏」(inthe)頁籤。
+   屬性 `sling:hideChildren`= `"[linkURL,size]`「 」用於 `items` 節點，以確保 **linkURL** 和 **大小** 對話方塊中的欄位會隱藏。 從海報對話方塊中移除這些節點是不夠的。 屬性 `sling:hideResource="{Boolean}true"` 「輔助功能」標籤上的可用來隱藏整個標籤。
 
-   在對話框中添加兩個選擇欄位，使作者能夠控制「標題」和「說明」的文本位置和顏色。
+   對話方塊中新增兩個選取欄位，讓作者可以控制標題和說明的文字位置和顏色。
 
-   ![發信人 — 最終對話框結構](assets/2018-05-03_at_4_49pm.png)
+   ![海報 — 最終對話方塊結構](assets/2018-05-03_at_4_49pm.png)
 
-   發信人 — 最終對話框結構
+   海報 — 最終對話方塊結構
 
-   此時， `poster` 可將元件添加到 **空閒通道** 頁面： `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`。
+   此時，的 `poster` 元件可新增至 **閒置頻道** We.Retail Run專案中的頁面： `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
-   ![海報對話框欄位](assets/poster-dialog-full.png)
+   ![海報對話方塊欄位](assets/poster-dialog-full.png)
 
-   海報對話框欄位
+   海報對話方塊欄位
 
-1. 在下面建立檔案 `/apps/weretail-run/components/content/poster` 命名 `production.html.`
+1. 在下方建立檔案 `/apps/weretail-run/components/content/poster` 已命名 `production.html.`
 
-   使用以下內容填充檔案：
+   將下列專案填入檔案中：
 
    ```xml
    <!--/*
@@ -280,19 +280,19 @@ Poster元件將框外的Image元件延伸。 一種吊具， `sling:resourceSupe
    </div>
    ```
 
-   上面是海報元件的生產標籤。 HTL指令碼將覆蓋 `screens/core/components/content/image/production.html`。 的 `image.js` 是建立類似POJO的映像對象的伺服器端指令碼。 然後，可以調用Image對象來呈現 `src` 作為內嵌樣式背景影像。
+   以上是海報元件的生產標籤。 HTL指令碼覆寫 `screens/core/components/content/image/production.html`. 此 `image.js` 是伺服器端指令碼，可建立類似POJO的影像物件。 然後可以呼叫Image物件來轉譯 `src` 作為內嵌樣式background-image。
 
-   `The h1` 添加h2標籤時，將根據元件屬性顯示「標題」和「說明」： `${properties.jcr:title}` 和 `${properties.jcr:description}`。
+   `The h1` 新增和h2標籤後，會根據元件屬性顯示「標題」和「說明」： `${properties.jcr:title}` 和 `${properties.jcr:description}`.
 
-   圍繞 `h1` 和 `h2` 標籤是包含三個CSS類的div包裝，變體為「」 `cmp-poster__text`。 的值 `textPosition` 和 `textColor` 屬性用於根據作者的對話框選擇更改呈現的CSS類。 在下一節中，將編寫客戶端庫的CSS，以在顯示中啟用這些更改。
+   圍繞 `h1` 和 `h2` tags是div包裝函式，具有三個CSS類別，變數為&quot; `cmp-poster__text`「。 的值 `textPosition` 和 `textColor` 屬性是用來變更根據作者選取的對話方塊所呈現的CSS類別。 在下一個區段中，會寫入使用者端資料庫的CSS，以啟用這些變更的顯示方式。
 
-   該元件中還包括標識作為覆蓋。 在本示例中，We.Retail徽標的路徑在DAM中是硬編碼的。 根據使用情形，建立對話框欄位以使徽標路徑成為動態填充值可能更有意義。
+   標誌也會以覆蓋圖的形式包含在元件中。 在此範例中，We.Retail標誌的路徑在DAM中以硬式編碼。 視使用案例而定，建立對話方塊欄位，將標誌路徑設為動態填入值可能更合理。
 
-   另請注意，BEM（塊元素修飾符）表示法與元件一起使用。 BEM是一種CSS編碼約定，它使建立可重用元件變得更容易。 BEM是由 [核AEM心元件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)。 <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   另請注意，元件會使用BEM （區塊要素修正因子）表示法。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是以下專案使用的記號： [AEM Core Components](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
-1. 在下面建立檔案 `/apps/weretail-run/components/content/poster` 命名 `edit.html.`
+1. 在下方建立檔案 `/apps/weretail-run/components/content/poster` 已命名 `edit.html.`
 
-   使用以下內容填充檔案：
+   將下列專案填入檔案中：
 
    ```xml
    <!--/*
@@ -312,27 +312,27 @@ Poster元件將框外的Image元件延伸。 一種吊具， `sling:resourceSupe
    </div>
    ```
 
-   以上是 **編輯** 標籤。 HTL指令碼將覆蓋 `/libs/screens/core/components/content/image/edit.html`。 標籤與 `production.html` 標籤，並在影像頂部顯示標題和說明。
+   上方是 **編輯** 海報元件的標籤。 HTL指令碼覆寫 `/libs/screens/core/components/content/image/edit.html`. 此標籤類似於 `production.html` 標籤並在影像上方顯示標題和說明。
 
-   的 `aem-Screens-editWrapper`添加，以便在編輯器中不呈現全屏。 的 `data-emptytext` 屬性確保在未填充影像或內容時顯示佔位符。
+   此 `aem-Screens-editWrapper`新增，使元件不會在編輯器中全熒幕呈現。 此 `data-emptytext` attribute可確保在未填入影像或內容時顯示預留位置。
 
-## 建立客戶端庫 {#clientlibs}
+## 建立使用者端程式庫 {#clientlibs}
 
-客戶端庫提供一種機制，用於組織和管理實現所需的CSS和JavaScriptAEM檔案。 有關使用的詳細資訊 [客戶端庫可在此處找到。](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+使用者端資料庫提供一種機制，可整理和管理AEM實施所需的CSS和JavaScript檔案。 有關使用的詳細資訊 [使用者端程式庫可在此處找到。](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
 
-AEM Screens元件在「編輯」模式與「預覽/生產」模式下的呈現方式不同。 建立兩組客戶端庫，一組用於「編輯」模式，另一組用於「預覽/生產」。
+AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同。 已建立兩組使用者端資料庫，一組用於編輯模式，另一組用於預覽/生產模式。
 
-1. 為Poster元件的客戶端庫建立資料夾。
+1. 為海報元件的使用者端程式庫建立資料夾。
 
-   在下面 `/apps/weretail-run/components/content/poster,`建立名為 `clientlibs`。
+   下方 `/apps/weretail-run/components/content/poster,`建立名為的資料夾 `clientlibs`.
 
-   ![2018-05-03_at_1008下午](assets/2018-05-03_at_1008pm.png)
+   ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. 在 `clientlibs` 資料夾建立名為 `shared` 類型 `cq:ClientLibraryFolder.`
+1. 在 `clientlibs` 資料夾建立名為的節點 `shared` 型別 `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
-1. 將以下屬性添加到共用客戶端庫：
+1. 將下列屬性新增至共用使用者端程式庫：
 
    * `allowProxy` | 布林值 | `true`
    * `categories` | 字串[] | `cq.screens.components`
@@ -341,13 +341,13 @@ AEM Screens元件在「編輯」模式與「預覽/生產」模式下的呈現�
 
    /apps/weretail-run/components/content/poster/clientlibs/shared的屬性
 
-   的 `categories` 屬性是標識客戶端庫的字串。 的 `cq.screens.components` 類別在「編輯」和「預覽/生產」模式下使用。 因此，在 `shared` 客戶機庫在所有模式下都載入。
+   此 `categories` 屬性是識別使用者端資料庫的字串。 此 `cq.screens.components` 類別會用於編輯和預覽/生產模式。 因此，中定義的任何CSS/JS `shared` clientlib會在所有模式中載入。
 
-   絕不直接向生產環境中的/app顯示任何路徑是最佳做法。 的 `allowProxy` 屬性確保客戶端庫CSS和JS通過前置詞引用 `/etc.clientlibs`。 有關 [allowProxy屬性可在此處找到。](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+   最佳實務是絕對不要在生產環境中將任何路徑直接公開給/apps。 此 `allowProxy` 屬性可確保透過前置詞參照使用者端程式庫CSS和JS。 `/etc.clientlibs`. 更多關於「 」的資訊 [可在此處找到allowProxy屬性。](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
 
-1. 建立名為 `css.txt` 下。
+1. 建立名為的檔案 `css.txt` 共用資料夾下方。
 
-   使用以下內容填充檔案：
+   將下列專案填入檔案中：
 
    ```
    #base=css
@@ -355,13 +355,13 @@ AEM Screens元件在「編輯」模式與「預覽/生產」模式下的呈現�
    styles.less
    ```
 
-1. 建立名為 `css` 在下面 `shared` 的子菜單。 添加名為 `style.less` 在下面 `css` 的子菜單。 客戶端庫的結構現在應如下所示：
+1. 建立名為的資料夾 `css` 在 `shared` 資料夾。 新增名為的檔案 `style.less` 在 `css` 資料夾。 使用者端程式庫的結構現在應如下所示：
 
-   ![2018-05-03_at_1057下午](assets/2018-05-03_at_1057pm.png)
+   ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   本教程不直接編寫CSS，而是使用LESS。 [減](https://lesscss.org/) 是支援CSS變數、混合和函式的常用CSS預編譯器。 客AEM戶端庫本機支援LESS編譯。 可以使用Sass或其他預編譯器，但必須在外部編譯AEM。
+   本教學課程不直接撰寫CSS，而是使用LESS。 [更少](https://lesscss.org/) 是支援CSS變數、mixin和函式的常用CSS預先編譯器。 AEM使用者端程式庫原生支援LESS編譯。 可以使用Sass或其他預先編譯程式，但必須在AEM外部編譯。
 
-1. 填充 `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` 下面列出：
+1. 填入 `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` ，其功能如下：
 
    ```css
    /*
@@ -416,21 +416,21 @@ AEM Screens元件在「編輯」模式與「預覽/生產」模式下的呈現�
 
    >[!NOTE]
    >
-   >GoogleWeb Fonts用於字型系列。 Web Fonts需要網際網路連接，並且並非所有螢幕實現都能可靠連接。 計畫離線模式是螢幕部署的重要考慮因素。
+   >GoogleWeb Fonts用於字型系列。 Web Fonts需要網際網路連線，而且並非所有screens實作都有可靠的連線。 離線模式的Planning是Screens部署的重要考量。
 
-1. 複製 `shared` 客戶端庫資料夾。 將其貼上為同級，然後將其更名為 `production`。
+1. 複製 `shared` 使用者端資料庫資料夾。 貼上為同層級，並將其重新命名為 `production`.
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. 更新 `categories` 要生產的客戶端庫的屬性 `cq.screens.components.production.`
+1. 更新 `categories` 要成為的生產clientlibrary的屬性 `cq.screens.components.production.`
 
-   的 `cq.screens.components.production` 類別確保只有在「預覽/生產」模式下才載入樣式。
+   此 `cq.screens.components.production` category可確保僅在「預覽/生產」模式中載入樣式。
 
    ![/apps/weretail-run/components/content/poster/clientlibs/production的屬性](assets/2018-04-30_at_5_04pm.png)
 
    /apps/weretail-run/components/content/poster/clientlibs/production的屬性
 
-1. 填充 `/apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less` 下面列出：
+1. 填入 `/apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less` ，其功能如下：
 
    ```css
    /*
@@ -483,47 +483,47 @@ AEM Screens元件在「編輯」模式與「預覽/生產」模式下的呈現�
    }
    ```
 
-   上述樣式在螢幕上的絕對位置顯示「標題」和「說明」。 標題顯示得比說明大。 該元件的BEM表示法使得可以輕鬆地仔細地確定cmp-poster類中的樣式。
+   上述樣式會在熒幕上的絕對位置顯示「標題」和「說明」。 顯示的標題比說明大。 元件的BEM標籤法可讓您輕鬆地在cmp-poster類別中仔細限定樣式。
 
-第三個客戶端庫類別： `cq.screens.components.edit` 可用於將「僅編輯」特定樣式添加到元件。
+第三種clientlibrary類別： `cq.screens.components.edit` 可用來將「僅編輯」特定樣式新增至元件。
 
-| 客戶端庫類別 | 使用狀況 |
+| Clientlib類別 | 使用狀況 |
 |---|---|
 | `cq.screens.components` | 在編輯和生產模式之間共用的樣式和指令碼 |
-| `cq.screens.components.edit` | 僅在編輯模式中使用的樣式和指令碼 |
-| `cq.screens.components.production` | 僅在生產模式中使用的樣式和指令碼 |
+| `cq.screens.components.edit` | 僅用於編輯模式的樣式和指令碼 |
+| `cq.screens.components.production` | 僅用於生產模式的樣式和指令碼 |
 
-## 將海報元件添加到序列通道 {#add-sequence-channel}
+## 新增海報元件至序列頻道 {#add-sequence-channel}
 
-海報元件用於序列通道。 本教程的啟動程式包包括空閒通道。 空閒通道已預配置為允許組的元件 **We.Retail Run — 內容**。 Poster元件的組設定為 `We.Retail Run - Content` 可添加到頻道。
+海報元件用於序列頻道。 本教學課程的入門套件包含一個閒置頻道。 閒置頻道已預先設定為允許群組的元件 **We.Retail回合 — 內容**. 海報元件的群組已設定為 `We.Retail Run - Content` 和可供新增至頻道。
 
-1. 從We.Retail Run項目開啟空閒通道： **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
-1. 拖動+拖放新實例 **海報** 從側面欄到頁面。
+1. 從We.Retail執行專案開啟「閒置頻道」： **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. 拖放的新執行個體 **海報** 元件從側欄移至頁面。
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. 編輯海報元件的對話框以添加影像、標題、說明。 使用「文本位置」和「文本顏色」選項，確保「標題/說明」可通過影像讀取。
+1. 編輯海報元件的對話方塊以新增影像、標題、說明。 使用「文字位置」和「文字顏色」選項來確保標題/說明在影像上是可讀的。
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
-1. 重複上述步驟以添加幾個海報元件。 在元件之間添加過渡。
+1. 重複上述步驟以新增一些海報元件。 在元件之間新增轉變。
 
    ![2018-05-07_at_3_28pm](assets/2018-05-07_at_3_28pm.png)
 
-## 把它們放在一起 {#putting-it-all-together}
+## 整合所有內容 {#putting-it-all-together}
 
-以下視頻顯示了已完成的元件以及如何將其添加到序列通道。 然後，該頻道被添加到位置顯示器，並最終被分配給螢幕播放器。
+以下影片說明完成的元件，以及如何將其新增到序列頻道。 然後，該頻道會新增至位置顯示，並最終指派給Screens播放器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
-## 已完成代碼 {#finished-code}
+## 完成的程式碼 {#finished-code}
 
-下面是本教程的完成代碼。 的 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** 和 **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** 是已編譯的AEM包。 **SRC-screens-weretail-run-0.0.1.zip **是可使用Maven部署的未編譯的原始碼。
+以下是教學課程中完成的程式碼。 此 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** 和 **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** 是編譯過的AEM套裝程式。 **SRC-screens-weretail-run-0.0.1.zip **是可以使用Maven部署的未編譯原始程式碼。
 
 [取得檔案](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
 [取得檔案](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC最終螢幕我們零售運行項目
+SRC Final Screens We.Retail執行專案
 
 [取得檔案](assets/src-screens-weretail-run-001.zip)

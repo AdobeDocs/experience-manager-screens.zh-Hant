@@ -1,7 +1,7 @@
 ---
-title: 功能包201812發行說明
+title: Feature Pack 201812發行說明
 seo-title: Release Notes for Feature Pack 201812
-description: 按照本頁獲取2019年1月16日發佈的AEM Screens功能包201812的資訊。
+description: 請詳閱本頁，瞭解2019年1月16日發行的AEM Screens Feature Pack 201812的相關資訊。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019.
 uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
 contentOwner: jsyal
@@ -21,38 +21,38 @@ ht-degree: 2%
 
 ---
 
-# 功能包201812發行說明{#release-notes-for-feature-pack}
+# Feature Pack 201812發行說明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建議您升級到最新版本的Adobe Experience Manager(AEM)。 螢幕為6.3螢幕AEM平台提供維護支援。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
-AEM Screens發AEM布了6.3功能包5和AEM6.4功能包3，詳情如下。
+AEM Screens已發行AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，並提供下列詳細資料。
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能包201812的發佈日期為2019年1月16日。
+AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
 
 ### 新增功能 {#what-s-new}
 
-* **頻道中資產的文本覆蓋**:
+* **在管道中的資產上覆蓋文字**：
 
-   文本覆蓋功能是AEM Screens提供的一項功能，通過提供覆蓋在影像頂部的標題或描述，您可以在序列通道中建立引人入勝的體驗。 請參閱 [**文本覆蓋**](text-overlay.md) 來瞭解更多資訊。
+   文字覆蓋是AEM Screens中提供的功能，可讓您透過在影像上方提供標題或說明，在序列頻道中建立引人入勝的體驗。 請參閱 [**文字覆蓋**](text-overlay.md) 以深入瞭解。
 
-* **多資產計畫**:
+* **多資產排程**：
 
-   多資產計畫允許用戶選擇多個資產並將回放計畫應用於所有選定資產。 請參閱 **多資產計畫**&#x200B;部分&#x200B;**[資產計畫](asset-level-scheduling.md)** 來瞭解更多資訊。
+   多資產排程可讓使用者選取多個資產，並將播放排程套用至所有選取的資產。 請參閱 **多資產排程**&#x200B;中的區段&#x200B;**[資產排程](asset-level-scheduling.md)** 以深入瞭解。
 
-* **多區域佈局**:
+* **多區域配置**：
 
-   多區域佈局允許您建立多個區域內容，並使用可在單個螢幕中組合的視頻、影像和文本等各種資源。 請參閱 **[多區域佈局](multi-zone-layout-aem-screens.md)** 來瞭解更多資訊。
+   多區域版面配置可讓您建立多個區域內容，並使用可在單一畫面中結合的各種資產，例如影片、影像和文字。 請參閱 **[多區域配置](multi-zone-layout-aem-screens.md)** 以深入瞭解。
 
-* **智慧同步資產到玩家**
+* **將資產智慧型同步至播放器**
 * **作者/發佈部署（強化）**
 
-### 已釋放AEM Screens球員 {#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-以下AEM Screens玩家AEM將發佈6.3功能包5AEM和6.4功能包3:
+下列AEM Screens Player已針對AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3發行：
 
 * ChromeOS
 * Windows
@@ -61,4 +61,4 @@ AEM Screens功能包201812的發佈日期為2019年1月16日。
 
 #### AEM Screens播放器下載 {#aem-screens-player-downloads}
 
-要下載最新的AEM Screens播放器並瞭解有關錯誤修復的詳細資訊，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).

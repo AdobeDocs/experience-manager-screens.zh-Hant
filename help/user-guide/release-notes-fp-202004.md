@@ -1,7 +1,7 @@
 ---
-title: 功能包202004發行說明
+title: Feature Pack 202004發行說明
 seo-title: Release Notes for Feature Pack 202004
-description: 按照本頁獲取2020年4月20日發佈的AEM Screens功能包202004的資訊。
+description: 請詳閱本頁，瞭解2020年4月20日發行的AEM Screens Feature Pack 202004的相關資訊。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
 feature: Feature Pack
 role: Developer
@@ -14,62 +14,62 @@ ht-degree: 8%
 
 ---
 
-# 功能包202004發行說明 {#release-notes-for-feature-pack}
+# Feature Pack 202004發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建議您升級到最新版本的Adobe Experience Manager(AEM)。 螢幕為6.3螢幕AEM平台提供維護支援。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
 AEM Screens 已發行 AEM 6.4 Feature Pack 8 和 AEM 6.5 Feature Pack 4。
 
-您可以從以下網站下載AEM Screens6.4.8或AEM Screens6.5.4版的最新功能包： [軟體分發門戶](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 用你的Adobe ID。 導航到 **Adobe Experience Manager** 頁籤和搜索 **螢幕** 獲取最新功能包。
+您可以從以下網站下載AEM Screens 6.4.8或AEM Screens 6.5.4版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得最新的Feature Pack。
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能包202004的發佈日期為2020年4月20日。
+AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
 ### 新增功能 {#what-s-new}
 
 * **播放中斷策略選項**
 
-   作為內容作者，您應該能夠指定頻道中斷的時間，以便您可以選擇切斷非關鍵內容，但可以選擇在因計畫而切斷播放之前讓重要內容充分播放。
+   作為內容作者，您應該能夠指定頻道何時中斷，以便能夠選擇切斷非關鍵內容，但可以選擇讓重要內容在因排程而切斷播放之前完整播放。
 
-   請參閱一節 **[中斷方法](/help/user-guide/channel-assignment.md#interruption-method-channel)** 瞭解有關可從 **渠道分配** 對話框，在您的AEM Screens項目中實現此功能。
+   請參閱區段 **[中斷方法](/help/user-guide/channel-assignment.md#interruption-method-channel)** 若要進一步瞭解選項，請前往 **頻道指定任務** 對話方塊，以在您的AEM Screens專案中實作此功能。
 
-* **螢幕啟動**
+* **畫面啟動**
 
-   改進了內容作者用戶體驗流並減少了使用將來發佈的點擊次數。
+   已改善內容作者使用者體驗流程，並減少使用未來發佈的點按次數。
 
-   請參閱 **[使用螢幕啟動更新內容](launches.md)** 的子菜單。
+   請參閱 **[使用Screens啟動的內容更新](launches.md)** 以取得更多詳細資料。
 
 * **頻道控制面板**
 
-   反映對通道儀表板中說明的更新 **渠道資訊** 的子菜單。
+   反映中頻道控制面板指示的更新 **頻道資訊** 面板。
 
 
 * **檢視資訊清單**
 
-   現在，您可以從通道儀表板查看清單檔案。
+   您現在可以從頻道儀表板檢視資訊清單檔案。
 
-   請參閱 **[查看清單](/help/user-guide/managing-channels.md#view-manifest)**。
+   請參閱 **[檢視資訊清單](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **文字重疊**
 
-   在向文本覆蓋函式添加test時，字型尺寸精確且得到改進。
+   新增測試至文字覆蓋功能時，字型大小會精確且有所改善。
 
-   請參閱 **[文本覆蓋](text-overlay.md)** 通過提供覆蓋在影像頂部的標題或描述，在序列通道中建立引人入勝的體驗。
+   請參閱 **[文字覆蓋](text-overlay.md)** 藉由在影像上方提供標題或說明，在序列頻道中建立引人入勝的體驗。
 
-* **命令同步的改進**
+* **命令同步處理功能改善**
 
-   在此功能包版本中，反映了資產更改之間命令同步延遲的改進。
+   透過此Feature Pack版本，反映在資產變更之間命令同步延遲的改善。
 
-   請參閱 **[命令同步](using-command-sync.md)** 的子菜單。
+   請參閱 **[命令同步](using-command-sync.md)** 以取得更多詳細資料。
 
-### 已釋放AEM Screens球員 {#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-以下AEM Screens玩家將為AEM Screens發AEM行6.4功能包8和AEM6.5功能包4:
+下列AEM Screens Player已針對AEM Screens發行AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4：
 
 * ChromeOS
 * Windows
@@ -77,4 +77,4 @@ AEM Screens功能包202004的發佈日期為2020年4月20日。
 
 #### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-要下載最新的AEM Screens播放器並瞭解有關錯誤修復的詳細資訊，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/)**。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/)**.

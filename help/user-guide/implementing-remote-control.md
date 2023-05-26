@@ -1,7 +1,7 @@
 ---
-title: 實施遠程控制
+title: 執行遠端控制
 seo-title: Impementing the Remote Control
-description: 按照此頁瞭解螢幕遠程控制功能。
+description: 請依照本頁瞭解Screens遠端控制功能。
 seo-description: Follow  this page to learn about using the Screens Remote Control Feature.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
@@ -20,38 +20,38 @@ ht-degree: 0%
 
 ---
 
-# 使用螢幕遙控器  {#implementing-remote-control}
+# 使用Screens遙控器  {#implementing-remote-control}
 
-遠程控制功能使訪問管理UI、通道切換器或功能（如清除快取和重新載入）更加容易。 此外，它還為您提供了查看播放器本地韌體版本和系統資訊的方法。 這特別有用，因為如果玩家已失去連接，就很難連接滑鼠並在無法觸及的生產設備上操作，甚至更AEM難。 這在使用Samsung RMS時也很有用，因為解析度差異會使用滑鼠查找和開啟管理用戶介面非常困難。
+遠端控制功能可讓您更輕鬆地存取管理員UI、管道切換器或清除快取和重新載入等功能。 此外，它提供您檢視本機韌體版本與播放器系統資訊的方法。 這特別有用，因為滑鼠連線以及在無法存取的生產裝置上操作會很困難，如果播放器失去與AEM的連線，更是如此。 這也適用於使用Samsung RMS的情況，因為解析度的差異可能會讓使用者很難找到並使用滑鼠開啟Admin UI。
 
-## 常見遙控鍵組合 {#using-common-remote-control}
+## 通用遠端修飾鍵組合 {#using-common-remote-control}
 
-在所有玩家中，您都可以在螢幕遙控器中使用以下鍵組合：
+在所有播放器上，您可以在「熒幕遙控器」中使用下列按鍵組合：
 
 1. 切換管理員UI - CTRL + 1
-1. 切換通道切換器 — CTRL + 2
+1. 切換頻道切換器 — CTRL + 2
 1. 清除快取 — CTRL + ALT + 3
 1. 重新載入播放器 — CTRL + 4
 
-## Tizen特定遙控鍵組合 {#using-tizen-remote-control}
+## 啟動特定的遠端修飾鍵組合 {#using-tizen-remote-control}
 
-特定於Tizen播放器，您可以使用Samsung RMS中提供的硬體遠程或軟體遠程訪問以下功能：
+特定於Tizen播放器，您可以使用Samsung RMS提供的硬體遠端或軟體遠端來存取這些功能：
 
 1. A — 切換管理員UI
-1. B — 切換通道切換器
+1. B — 切換頻道切換器
 1. C — 清除快取
 1. D — 重新載入播放器
 
 ## 其他使用說明 {#using-additional-remote-control}
 
-1. 開啟管理員UI後，可以使用向上箭頭和向下箭頭來導航頁籤，以查看頁籤中的資訊。
-1. 開啟通道切換器後，可以使用向上和向下箭頭鍵來導航通道，並可以按Enter鍵（或遙控器上箭頭中心的按鈕）來切換通道。
+1. 在Admin UI開啟的狀態下，您可以使用向上和向下箭頭來瀏覽標籤，以檢視各標籤上的資訊。
+1. 頻道切換器開啟時，您可以使用向上鍵和向下鍵來瀏覽頻道，也可以按下Enter鍵（或位於遠端箭頭中央的按鈕）來切換頻道。
 
-下圖說明了Samsung遙控器的關鍵用法：
+下圖說明Samsung遠端的主要使用方式：
 ![影像](assets/tizen/remote.png)
 
 >[!NOTE]
->如果將enableAdminUI和/或enableOSD的設備配置值設定為false，則遠程伺服器將不會切換admin UI和通道切換器。 您也無法使用箭頭鍵導航管理員UI或通道。 但是，您仍然可以清除快取並重新載入播放器。 如果任何鍵盤組合與您的交互內容發生衝突，則可以使用以下代碼禁用遠程控制功能：
+>如果您將enableAdminUI和/或enableOSD的裝置設定值設為false，遠端將不會切換管理UI和頻道切換器。 您也無法使用方向鍵來導覽一個或多個管理UI。 不過，您仍可清除快取並重新載入播放器。 如果有任何鍵盤組合與您的互動式內容衝突，您可以使用此程式碼停用遠端控制功能：
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

@@ -1,6 +1,6 @@
 ---
-title: 功能包202203發行說明
-description: 按照本頁獲取2022年3月25日發佈的AEM Screens功能包202203的資訊。
+title: Feature Pack 202203發行說明
+description: 請詳閱本頁，瞭解2022年3月25日發行的AEM Screens Feature Pack 202203的相關資訊。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,52 +12,52 @@ ht-degree: 6%
 
 ---
 
-# 功能包202112發行說明 {#release-notes-for-feature-pack}
+# Feature Pack 202112發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建議您升級到最新版本的Adobe Experience Manager(AEM)。 螢幕為6.3螢幕AEM平台提供維護支援。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
-AEM ScreensAEM發佈了6.5功能包11。
+AEM Screens已發行AEM 6.5 Feature Pack 11。
 
-您可以從以下網站下載AEM Screens6.5.11版的最新功能包： [軟體分發門戶](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 用你的Adobe ID。 導航到 **Adobe Experience Manager** 頁籤和搜索 **螢幕** 獲取最新功能包的標題為 **AEMFP11 6.5屏**。
+您可以從以下網站下載AEM Screens 6.5.11版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP11**.
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能包202203的發佈日期為2022年3月25日。
+AEM Screens Feature Pack 202203的發行日期為2022年3月25日。
 
 ### 新增功能 {#what-is-new}
 
-此版本僅包含錯誤修復。
+此版本僅包含錯誤修正。
 
 ### 錯誤修正 {#bug-fixes}
 
-* 目標/個性化無效。 這個現在已經修復了。
+* 目標定位/個人化無法運作。 此問題現在已修正。
 
-* FP10後，監視電子郵件的螢幕無法正常工作。 這個現在已經修復了。
+* FP10之後，熒幕監視電子郵件無法運作。 此問題現在已修正。
 
-* 在縱向模式下拍攝螢幕截圖時，Windows播放器崩潰。 這個現在已經修復了。
+* 在直向模式下擷取熒幕擷圖時，Windows播放器當機。 此問題現在已修正。
 
-* 螢幕頻SPA道導致Windows Player出現白屏。 這個現在已經修復了。
+* Screens SPA頻道導致Windows Player出現白色熒幕。 此問題現在已修正。
 
-* 的 *wcmmode* 已從發佈實例上的所有螢幕請求中刪除paramameter。
+* 此 *wcmmode* 引數已從發佈執行個體上的所有Screens請求中移除。
 
-* 播放器活動UI現在按預期工作。
+* 播放器活動UI現在可如預期運作。
 
-* 播放器無法通過管理發布獲取最新更新。 這個現在已經修復了。
+* 播放器無法透過管理發布取得最新更新。 此問題現在已修正。
 
-### 已釋放AEM Screens球員 {#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-以下AEM Screens玩家將AEM發佈6.5功能包11:
+下列AEM Screens Player已針對AEM 6.5 Feature Pack 11發行：
 
 * ChromeOS
 * Windows
-* 蒂森
+* Tizen
 * Android
 * Linux
 * iOS
 
 #### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-要下載最新的AEM Screens播放器並瞭解有關錯誤修復的詳細資訊，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

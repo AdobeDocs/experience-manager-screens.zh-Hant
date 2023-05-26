@@ -1,6 +1,6 @@
 ---
-title: 功能包202109發行說明
-description: 按照本頁獲取2021年9月23日發佈的AEM Screens功能包202109的資訊。
+title: Feature Pack 202109發行說明
+description: 請詳閱本頁，瞭解2021年9月23日發行的AEM Screens Feature Pack 202109的相關資訊。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,154 +12,154 @@ ht-degree: 2%
 
 ---
 
-# 功能包202109發行說明 {#release-notes-for-feature-pack}
+# Feature Pack 202109發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建議您升級到最新版本的Adobe Experience Manager(AEM)。 螢幕為6.3螢幕AEM平台提供維護支援。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
-AEM Screens發AEM布了6.5功能包9。
+AEM Screens已發行AEM 6.5 Feature Pack 9。
 
-您可以從以下網站下載AEM Screens6.5.9版的最新功能包： [軟體分發門戶](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 用你的Adobe ID。 導航到 **Adobe Experience Manager** 頁籤和搜索 **螢幕** 獲取最新功能包的標題為 **AEMFP9 6.5螢幕**。
+您可以從以下網站下載AEM Screens 6.5.9版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP9**.
 
 ## 發行日期 {#release-date}
 
-AEM Screens功能包202109的發佈日期為2021年9月23日。
+AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 ### 新增功能 {#what-is-new}
 
 * **影片的縮圖支援**
 
-   現在在AEM Screens支援的視頻縮略圖支援。 內容作者可以定義視頻的縮略圖，以便影像可以用作佔位符並正確地test內容回放和目標，同時由適當的團隊最終確定實際視頻。 在視頻回放失敗時，也可以使用影像。
-請參閱 [視頻縮略圖支援](/help/user-guide/thumbnail-support.md) 的子菜單。
+   AEM Screens現在支援影片的縮圖支援。 內容作者可以定義影片的縮圖，以便在適當的團隊正在完成實際影片時，影像可以當做預留位置並正確測試內容播放和目標定位。 如果影片播放失敗，也可以使用該影像。
+另請參閱 [影片的縮圖支援](/help/user-guide/thumbnail-support.md) 以取得更多詳細資料。
 
 * **基本播放監視**
 
-   AEM Screens現在支援基本回放監視。 播放器現在將報告各種播放度量（預設為30秒）。 基於這些指標，它提供了檢測各種邊緣情況（停滯體驗、空白螢幕、調度問題等）的能力。 此功能允許團隊遠程監視玩家是否正確播放內容，提高對空白螢幕或現場中的中斷體驗的反應性，並降低向最終用戶顯示中斷體驗的風險。
-請參閱 [基本播放監視](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 的子菜單。
+   AEM Screens現在支援基本播放監控。 播放器現在會報告每次ping （預設為30秒）的各種播放量度。 根據量度，它提供偵測各種邊緣情況（停滯體驗、空白熒幕、排程問題等）的能力。 此功能可讓團隊從遠端監控播放器是否正確播放內容、改善對空白熒幕或現場中斷體驗的反應性，並降低向一般使用者顯示中斷體驗的風險。
+另請參閱 [基本播放監視](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 以取得更多詳細資料。
 
-* **內容分配報告的更新**
+* **內容指派報告的更新**
 
-   內容分配報告現在通過增強的用戶體驗進行了優化和改進。 該可下載報告在一個電子錶格標籤中顯示改進的播放器相關實體，如位置、顯示器和設備，以及諸如頻道和其它標籤中的資產等內容提供者資訊。
-請參閱 [內容分配報告](/help/user-guide/content-assignment-report.md) 的子菜單。
+   內容指派報告現已最佳化和改善，並增強使用者體驗。 可下載的報表在一個試算表索引標籤中顯示已改良的播放器相關實體（例如位置、顯示器和裝置），並在其他索引標籤中顯示頻道和資產等內容提供者資訊。
+另請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
 
-* **自適應格式副本**
+* **最適化轉譯**
 
-   自適應格式副本允許設備根據客戶定義的規則自動為設備選擇最佳格式副本。
+   最適化轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。
 
-   作為AEM Screens開發人員，您現在可以配置特定於設備的資產格式副本，以便自動下載和播放，而無需手動建立所有內容變體。 請參閱 [自適應格式副本：體系結構概述和配置](/help/user-guide/adaptive-renditions.md) 的子菜單。
+   身為AEM Screens開發人員，您現在可以將裝置特定的資產轉譯設定為自動下載和播放，而不需要手動建立所有內容變化。 另請參閱 [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md) 以取得更多詳細資料。
 
-   此外，作為AEM Screens內容作者，您可以配置資產以使用自適應格式副本，還可以在AEM Screens渠道中為大型網路遷移設備以利用此功能。 請參閱 [在AEM Screens使用自適應格式副本](/help/user-guide/using-adaptive-renditions.md) 的子菜單。
+   此外，身為AEM Screens內容作者，您可以設定資產以使用最適化轉譯，並移轉裝置至大型網路，以便在AEM Screens管道中使用此功能。 另請參閱 [在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 以取得更多詳細資料。
 
-* **支援V3艙單**
+* **支援V3資訊清單**
 
-   現在，您可以為清單版本v3配置Dispatcher。 要啟用v3清單，您需要：
+   您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您需要：
 
-   * 清除作者和已發佈的任何掛起的離線內容作業
+   * 清除作者和已發佈中的任何擱置離線內容工作
 
-      * 導航到作者中的crx/de並發佈
+      * 在作者和發佈中導覽至crx/de
 
-      * 按一下「工具」 — >「查詢」
+      * 按一下工具 — >查詢
 
-      * 在查詢使用中 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * 在查詢中使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
-      * 這將列出隊列中當前正在運行或掛起的任何離線內容作業
+      * 這會列出佇列中目前正在執行或擱置的所有離線內容工作
 
-      * 等待，直到從查詢返回的離線內容作業不再
-   * 在中禁用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+      * 等到查詢傳回的離線內容工作已停止為止
+   * 在中停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * 在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
-   * 更新調度程式
+   * 更新Dispatcher
 
-   * 更新自定義元件
+   * 更新自訂元件
 
 
-   * 請參閱 [為清單版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 的子菜單。
-   * 如果將自定義元件用作v3清單的一部分，請參見 [自定義處理程式模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers)。
+   * 另請參閱 [為資訊清單版本v3設定Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以取得更多詳細資料。
+   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 
 ### 錯誤修正 {#bug-fixes}
 
-**玩家側**
+**播放器側**
 
-* 通過用格式副本替換資產來解決檔案快取錯誤。
+* 以轉譯取代資產，解決檔案快取錯誤。
 
-* 如果存在格式副本映射，玩家現在僅公開資產格式副本。
+* 如果存在轉譯對應，播放器現在只會公開資產轉譯。
 
-* 如果響應無效，則增強ping以重新驗證。
+* 增強Ping功能，可在回應無效JSON時重新驗證。
 
-* 數字通道名稱/角色導致空白螢幕。
+* 數值管道名稱/角色造成空白熒幕。
 
-* 通過SmartSync下載優化的格式副本。
+* 透過SmartSync下載最佳化的轉譯。
 
-* 已將映射轉換為格式副本鍵清單。
+* 已將對應轉換為轉譯金鑰清單。
 
-* 已刪除對 `cmd.exe` 和 `reg.exe` 的下界。
+* 已移除對的存取權 `cmd.exe` 和 `reg.exe` 在windows player中。
 
-* 玩家需要報告其上次成功的回放事件。
+* 播放器需要報告其上一個成功播放事件。
 
 * 播放器需要報告其播放狀態。
 
-* Player在 `ALL` 快取已清除。
+* 當發生下列情況時，播放器不會重新下載資產 `ALL` 快取已清除。
 
-* 作為播放器管理員，您現在可以選擇播放器名稱。
+* 身為播放器管理員，您現在可以選擇播放器名稱。
 
-* 從顯示中刪除頻道分配不會反映在播放器上。
+* 從顯示區移除頻道指定任務不會反映在播放器中。
 
-* 如果播放器在下載頻道更新時被重新載入，則播放器將忽略更新。
+* 如果在下載頻道更新時重新載入播放器，則播放器會忽略更新。
 
-* 嵌入式頁面元件現在尊重觸摸事件。
+* 內嵌頁面元件現在會遵循接觸事件。
 
-* 現在支援Tizen播放器的遠程設定。
+* 現在支援遠端布建Tizen播放器。
 
 **伺服器端**
 
-* 目標視頻未顯示
-* 將顯示資料廣播到子序列上的競爭條件。
+* 目標視訊未顯示
+* 將顯示資料廣播到子序列的競爭條件。
 
-* 「頻道預覽」不適用於包含視頻的頻道。
+* 管道預覽不適用於包含視訊的管道。
 
-* 「拆分」螢幕通道的預覽模式顯示為空。
+* 分割畫面頻道的預覽模式顯示空白。
 
-* 視頻縮略圖呈現為空，並啟用自適應格式副本。
+* 啟用最適化轉譯後，視訊縮圖會轉譯為空白。
 
-* 如果已發佈引用頁，則自動更新通道清單。
+* 如果已發佈參考的頁面，則自動更新管道資訊清單。
 
-* 刪除的設備現在不會阻止螢幕複製隊列。
+* 刪除的裝置現在不會封鎖Screens復寫佇列。
 
-* 清單不包含目標內容或站點嵌入頁面。 這個現在已經修復了。
+* 資訊清單未包含目標內容或網站內嵌頁面。 此問題現已修正。
 
-* 新的核心影像元件現在添加到通道清單中。
+* 新的核心影像元件現已新增至頻道資訊清單。
 
-* 現在支援通過SmartSync下載優化的格式副本。
+* 現在支援透過SmartSync下載最佳化的轉譯。
 
-* 為所有資產播放優化的格式副本。
+* 播放所有資產的最佳化轉譯。
 
-* 增加了對多個內容提供程式類型的支援
+* 新增對多個內容提供者型別的支援
 
-* 嵌入式序列回放策略已中斷，現已修復。
+* 內嵌序列播放策略已中斷，現在已修正此問題。
 
-* 使用請求參數的離線清單 `wcmmode` 為html條目，使其不可執行。
+* 使用請求引數的離線資訊清單 `wcmmode` 對於html專案，使其不可快取。
 
-* 空動態嵌入序列有時會導致空白螢幕。
+* 空白的動態內嵌序列有時會導致空白熒幕。
 
-* 播放器現在報告其播放狀態。
+* 播放器現在會報告其播放狀態。
 
-* 視頻正在播放 `Tiny mode` 未在設備上作為全屏視頻播放，問題現已解決。
+* 視訊正在播放 `Tiny mode` 且未在裝置上以全熒幕影片形式播放，此問題現已修正。
 
-### 已釋放AEM Screens球員 {#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-以下AEM Screens玩家AEM將發佈6.5功能包9:
+下列AEM Screens Player已針對AEM 6.5 Feature Pack 9發行：
 
 * ChromeOS
 * Windows
-* 蒂森
+* Tizen
 * Android
 * Linux
 
 #### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-要下載最新的AEM Screens播放器並瞭解有關錯誤修復的詳細資訊，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

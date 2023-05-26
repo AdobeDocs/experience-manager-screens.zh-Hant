@@ -1,7 +1,7 @@
 ---
-title: 從檔案新建項目導入程式
+title: 從檔案新增專案匯入工具
 seo-title: New Project Importer from File
-description: 此功能允許您將一組位置從CSV/XLS電子錶格批量導入到您的AEM Screens項目。
+description: 此功能可讓您將一組位置從CSV/XLS試算表大量匯入至您的AEM Screens專案。
 seo-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
@@ -21,106 +21,106 @@ ht-degree: 2%
 
 ---
 
-# 從檔案新建項目導入程式 {#new-project-importer-from-file}
+# 從檔案新增專案匯入工具 {#new-project-importer-from-file}
 
-本節介紹了將一組位置從CSV/XLS電子錶格批量導入到AEM Screens項目的功能。
+本節說明如何從CSV/XLS試算表大量匯入一組位置至您的AEM Screens專案。
 
 ## 簡介 {#introduction}
 
-當您在組織中首次設定AEM Screens項目時，您也需要建立所有位置。 如果項目涉及大量位置，則會導致任務繁瑣，需要在UI中進行大量按一下和等待。
+設定AEM Screens專案時，如果是在組織中第一次，您也需要建立所有位置。 如果您的專案涉及大量位置，則會導致繁瑣的任務，包括在UI中多次點按和等待。
 
-該功能的目的是減少設定項目所需的時間，從而解決預算問題。
+此功能的目標是減少設定專案所需的時間，進而解決預算問題。
 
-通過讓作者提供電子錶格作為輸入檔案，並讓系統在後端自動建立位置樹，此功能：
+藉由讓作者提供試算表作為輸入檔案，並讓系統自動在後端建立位置樹，此功能：
 
-* *比通過UI手動按一下可獲得更好的效能*
-* *允許客戶從自己的系統導出他們擁有的位置，並可以輕鬆地直接將其導入AEM到*
+* *相較於透過UI手動點按，成效大幅提升*
+* *可讓客戶從自己的系統匯出位置，並輕鬆地直接在AEM中匯入*
 
-這既節省了初始項目設定期間，也節省了將現有AEM Screens擴展到新地點的時間和資金。
+在初始專案設定期間或將現有AEM Screens擴充至新位置時，這既可節省時間又可節省資金。
 
 ## 架構概述 {#architectural-overview}
 
-下圖顯示了項目導入程式功能的體系結構概述：
+下圖顯示Project Importer功能的架構概觀：
 
 ![screen_shot_2019-05-14at20618pm](assets/screen_shot_2019-05-14at20618pm.png)
 
 ### 資料模型 {#data-model}
 
-項目導入程式的資料模型如下所述：
+專案匯入工具的資料模型說明如下：
 
 >[!NOTE]
 >
->當前版本僅支援導入位置。
+>目前版本僅支援匯入位置。
 
 | **屬性** | **說明** |
 |---|---|
-| ***路徑{string}*}** | 位置的資源路徑 |
-| ***[。/jcr：標題] {字串}*}** | 要使用的模板的名稱(即 *螢幕/核心/模板/位置*) |
-| ***模板{string}*** | 用於頁面的可選標題 |
-| ***[。/jcr：說明] {string}*** | 用於頁面的可選說明 |
+| ***路徑{string*}** | 位置的資源路徑 |
+| ***[。/jcr：title] {string*}** | 要使用的範本名稱(即位置 *screens/core/templates/location*) |
+| ***範本{string}*** | 用於頁面的選用標題 |
+| ***[。/jcr：description] {string}*** | 用於頁面的選擇性說明 |
 
-因此，電子錶格(CSV/XLS)檔案需要以下列：
+試算表(CSV/XLS)檔案，因此需要下列欄：
 
-* **路徑{string}** 要導入的位置的路徑，其中路徑的根是項目的位置資料夾(即， */foo* 將導入 */content/screens/&lt;project>/locations/foo*)
+* **路徑{string}** 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾(即 */foo* 將會匯入至 */content/screens/&lt;project>/locations/foo*)
 
-* **模板{string}** 用於新位置的模板，目前唯一允許的值是「location」，但這將擴展到將來的所有螢幕模板（「display」、「sequencechannel」等）
-* **[。/*] {string}** 要在位置(即。/jcr:title, ./jcr:description,。/foo,。/橫條圖). 當前版本目前不允許篩選
+* **範本{string}** 用於新位置的範本，目前唯一允許值為「location」，但未來將擴充至所有Screens範本（「display」、「sequencechannel」等）
+* **[。/*] {string}** 任何要在位置上設定的選用屬性(即。/jcr:title, ./jcr：description， 。/foo， 。/橫條圖). 目前的版本目前不允許篩選
 
 >[!NOTE]
 >
->任何不符合上述條件的列將只被忽略。 例如，如果工作表(CSV/XLS)檔案中定義了除 **路徑**。**模板**。**標題**, **描述** 在檔案中，這些欄位將被忽略 **項目導入程式** 將不驗證將項目導入到您的AEM Screens項目的這些附加欄位。
+>不符合上述條件的任何欄都將被忽略。 例如，如果您在工作表(CSV/XLS)檔案中定義了任何其他欄， **路徑**，**範本**，**標題**、和 **說明** 在您的檔案中，這些欄位將被忽略，並且 **專案匯入工具** 將不會驗證這些額外的欄位，以便將您的專案匯入至AEM Screens專案。
 
-## 使用項目導入程式 {#using-project-importer}
+## 使用專案匯入工具 {#using-project-importer}
 
-下節介紹項目導入程式在AEM Screens項目中的使用方式。
+下節將說明如何在AEM Screens專案中使用Project Importer。
 
 >[!CAUTION]
 >
 >限制:
 >
->* 當前版本不支援CSV/XLS/XLSX擴展以外的檔案。
->* 對於導入的檔案和以「」開頭的任何內容，不存在對屬性的篩選。將導入/」。
+>* 目前版本不支援CSV/XLS/XLSX副檔名以外的檔案。
+>* 對於匯入的檔案和任何以「」開頭的檔案，不存在屬性的篩選條件。「/」將會匯入。
 >
 
 
 ### 必備條件 {#prerequisites}
 
-* 建立標題為 **DemoProject導入**
+* 建立標題為的新專案 **DemoProjectImport**
 
-* 使用需要導入的CSV或Excel檔案示例。
+* 使用您需要匯入的範例CSV或Excel檔案。
 
-為了進行演示，您可以從下面的部分下載Excel檔案。
+如需示範，您可以從下節下載Excel檔案。
 
 [取得檔案](assets/minimal-file.xls)
 
-### 導入檔案時必須輸入最少的欄位 {#importing-the-file-with-minimum-required-fields}
+### 匯入具有最少必填欄位的檔案 {#importing-the-file-with-minimum-required-fields}
 
-按照以下步驟將檔案導入位置資料夾，並且最少包含必填欄位：
+請依照下列步驟，將檔案匯入至具有最少必要欄位的「位置」資料夾：
 
 >[!NOTE]
 >
->以下示例顯示了導入項目所需的最少四個欄位：
+>以下範例示範匯入專案所需的最少四個欄位：
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. 導航到您的AEM Screens項目(**DemoProject導入**)。
+1. 導覽至您的AEM Screens專案(**DemoProjectImport**)。
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 選擇項目** DemoProjectImporter **—>** 建立 **—>** 從側欄導入位置**。
+1. 選取專案，**DemoProjectImporter **—>** 建立 **—>** 匯入位置**從側邊列。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 的 **導入** 的子菜單。 為項目選擇您具有位置的檔案或選擇檔案(***minimal file.xls***)從 *先決條件* 的子菜單。
+1. 此 **匯入** 精靈開啟。 選取您專案中擁有的位置檔案，或選取檔案(***最小檔案.xls***)從「 」下載 *必要條件* 區段。
 
-   選擇檔案後，按一下 **下一個**。
+   選取檔案後，按一下 **下一個**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從「導入」嚮導中驗證檔案（位置）的內容，然後按一下 **導入**。
+1. 從「匯入」精靈中驗證檔案內容（位置），然後按一下 **匯入**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. 因此，您現在將能夠查看導入到項目中的所有位置。
+1. 因此，您現在將能夠檢視匯入至專案的所有位置。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)

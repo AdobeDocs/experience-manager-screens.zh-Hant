@@ -1,7 +1,7 @@
 ---
-title: 使用命令同步
+title: 使用Command Sync
 seo-title: Using Command Sync
-description: 按照此頁瞭解如何使用命令同步。
+description: 請依照本頁瞭解如何使用Command Sync。
 seo-description: Follow this page to learn about how to use Command Sync.
 feature: Authoring Screens
 role: Admin, Developer
@@ -16,131 +16,131 @@ ht-degree: 2%
 
 # 命令同步 {#command-sync}
 
-以下頁介紹如何使用命令同步。 命令同步允許在不同播放器之間同步播放。 玩家可以播放不同的內容，但每種資產需要具有相同的持續時間。
+以下頁面說明如何使用「命令同步」。 Command Sync允許跨不同播放器同步播放。 播放器可播放不同內容，但每個資產需要相同的持續時間。
 
 >[!IMPORTANT]
 >
->此功能不支援嵌入序列、動態嵌入序列、應用程式通道或過渡。
+>此功能不支援內嵌序列、動態內嵌序列、應用程式通道或轉換。
 
 ## 概觀 {#overview}
 
-數字標牌解決方案需要支援視頻牆和同步播放，以支援新年倒計時或在多個螢幕上進行大視頻切片播放等場景，而Command Sync正是在這些場景中發揮作用的。
+數位看板解決方案需要支援視訊牆壁和同步播放，以支援新年倒數或分割為多個熒幕播放的大型視訊等情境，這也是Command Sync發揮作用的地方。
 
-要使用命令同步，一個播放器充當 *主* 發出指令，其他所有玩家 *客戶* 當他們收到命令時播放。
+若要使用Command Sync，單一播放器會作為 *主要* 並傳送指令，而所有其他播放器則充當 *使用者端* 並在收到指令時播放。
 
-的 *主* 當所有註冊的客戶端都要開始回放項目時，向其發送命令。 此項的有效負載可以是要播放的項的索引和/或要播放的元素的外部html。
+此 *主要* 即將開始播放專案時，會傳送命令給所有已註冊的使用者端。 此專案的裝載可以是要播放專案的索引及/或要播放的元素的外部HTML。
 
-## 實現命令同步 {#using-command-sync}
+## 實作命令同步 {#using-command-sync}
 
-下節介紹如何在AEM Screens項目中使用命令同步。
+下節說明如何在AEM Screens專案中使用Command Sync。
 
 >[!NOTE]
 >
->對於同步播放，要求所有硬體設備具有相同的硬體規格，最好是相同的作業系統。 不建議在不同硬體和作業系統之間同步。
+>若要進行同步播放，所有硬體裝置都必須具備相同的硬體規格，而且最好是相同的作業系統。 不建議在不同的硬體與作業系統之間同步處理。
 
 ### 設定專案 {#setting-up}
 
-在使用「命令同步」功能之前，請確保您有一個項目和一個頻道，該頻道為項目設定了內容。
+在使用Command Sync功能之前，請確定您擁有專案和管道，其中包含專案設定的內容。
 
-1. 以下示例展示了一個名為 **CommandSyncDemo** 和序列頻道 **渠道大堂**。
+1. 以下範例示範專案 **CommandSyncDemo** 和序列頻道 **頻道大廳**.
 
    ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >要瞭解如何建立頻道或向頻道添加內容，請參閱 [建立和管理渠道](/help/user-guide/managing-channels.md)
+   >若要瞭解如何建立管道或新增內容至管道，請參閱 [建立和管理管道](/help/user-guide/managing-channels.md)
 
-   該頻道包含以下內容，如下圖所示。
+   此頻道包含下列內容，如下圖所示。
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. 建立位置 **大堂** 然後顯示標題為 **大廳顯示** 的 **位置** 資料夾，如下圖所示。
+1. 建立位置 **大廳** 並隨後顯示標題為 **LobbyDisplay** 在 **位置** 資料夾，如下圖所示。
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. 分配通道， **渠道大堂** 到 **大廳顯示**。 現在，您可以從顯示操控板查看指定到顯示的通道。
+1. 指派頻道， **頻道大廳** 至您的 **LobbyDisplay**. 您現在可以從顯示儀表板檢視指派給顯示的管道。
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >要瞭解如何為顯示器分配通道，請參閱 [建立和管理顯示](/help/user-guide/managing-displays.md)。
+   >若要瞭解如何將管道指派給顯示區，請參閱 [建立和管理顯示區](/help/user-guide/managing-displays.md).
 
-1. 導航到 **設備** 資料夾，按一下 **設備管理器** 的子菜單。
+1. 導覽至 **裝置** 資料夾並按一下 **裝置管理員** 以註冊裝置。
 
    ![image1](assets/command-sync5.png)
 
    >[!NOTE]
    >
-   >要瞭解如何註冊設備，請參閱 [設備註冊](/help/user-guide/device-registration.md)
+   >若要瞭解如何註冊裝置，請參閱 [裝置註冊](/help/user-guide/device-registration.md)
 
-1. 為了進行演示，此示例將chrome設備和windows播放器作為兩個獨立的設備進行演示。 兩個設備指向同一顯示器。
+1. 為了示範之用，此範例將Chrome裝置和Windows Player顯示為兩個不同的裝置。 兩個裝置都指向相同的顯示器。
    ![image1](assets/command-sync6.png)
 
-### 更新通道設定
+### 更新頻道設定
 
-1. 導航到 **渠道大堂** 按一下 **編輯** 的子菜單。
+1. 導覽至 **頻道大廳** 並按一下 **編輯** 以更新頻道設定。
 
-1. 選擇下圖所示的整個通道。
+1. 選取整個通道，如下圖所示。
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. 按一下扳手錶徵圖以開啟 **頁面** 對話框。
+1. 按一下扳手圖示以開啟 **頁面** 對話方塊。
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. 輸入 *已同步* 關鍵字 **策略** 的子菜單。
+1. 輸入 *已同步* 中的關鍵字 **策略** 欄位。
 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### 設定主 {#setting-up-primary}
+### 設定主要 {#setting-up-primary}
 
-1. 導航到顯示儀表板 **CommandSyncDemo** —> **位置**  —> **大堂** —> **大廳顯示** 按一下 **儀表板** 按鈕。
-您將在中看到兩個設備（chrome和windows播放器） **設備** 面板，如下圖所示。
+1. 瀏覽至顯示控制面板，從 **CommandSyncDemo** —> **位置**  —> **大廳** —> **LobbyDisplay** 並按一下 **儀表板** 動作列中的。
+您會在中看到兩個裝置（chrome和windows player） **裝置** 面板，如下圖所示。
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. 從 **設備** 面板，選擇要設定為主設備的設備。 以下示例演示將Chrome設備設定為主設備。 按一下 **設定為主設備**。
+1. 從 **裝置** 面板中，選取要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設定為主要裝置。 按一下 **設定為主要裝置**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. 在中輸入IP地址 **設定為主設備** 按一下 **保存**。
+1. 輸入IP位址 **設定為主要裝置** 並按一下 **儲存**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->可以將多個設備設定為主設備。
+>您可以將多個裝置設定為主要裝置。
 
-### 正在與主同步 {#sync-up-primary}
+### 正在與主要播放器同步 {#sync-up-primary}
 
-1. 一旦將Chrome設備設定為主設備，就可以同步其他設備（在本例中為windows播放器）以與主設備同步。
-從 **設備** 並按一下 **同步到主設備**，如下圖所示。
+1. 將Chrome裝置設定為主要裝置後，您就可以同步處理其他裝置（在此例中為Windows Player），以便與主要裝置同步。
+從中選擇其他裝置（在此例中為windows player） **裝置** 面板，然後按一下 **同步處理至主要裝置**，如下圖所示。
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. 從清單中選擇設備，然後按一下 **保存**。
+1. 從清單中選取裝置，然後按一下 **儲存**.
 
    >[注意:]
-   > 的 **同步到主設備** 對話框將顯示主設備清單。 可以選擇所需的首選項之一。
+   > 此 **同步處理至主要裝置** 對話方塊將顯示主要裝置清單。 您可以選取想要的偏好設定之一。
 
-1. 設備（Windows播放器）同步到主（Chrome播放器）後，您將看到在 **設備** 的子菜單。
+1. 將裝置（Windows播放器）同步至主要播放器（Chrome播放器）後，您會看到該裝置已同步至 **裝置** 面板。
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### 取消與主同步 {#desync-up-primary}
+### 正在與主要播放器取消同步 {#desync-up-primary}
 
-將設備或設備同步到主設備後，可以從該設備中取消分配同步。
+將一或多個裝置同步至主要裝置後，即可從該裝置解除同步指派。
 
 >[!NOTE]
 >
->如果取消同步主設備，它還會取消與該主設備關聯的所有客戶端設備的連結。
+>如果您取消同步處理主要裝置，它也會取消連結與該主要裝置相關聯的所有使用者端裝置。
 
-要從主設備中刪除同步，請執行以下步驟：
+若要從主要裝置移除同步處理，請遵循下列步驟：
 
-1. 導航到 **設備** 並選擇設備。
+1. 導覽至 **裝置** 面板並選取裝置。
 
-1. 按一下 **取消同步設備** 從主設備中取消同步客戶端。
+1. 按一下 **取消同步處理裝置** 將使用者端與主要裝置解除同步。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 按一下 **確認** 從主設備中取消同步選定設備。
+1. 按一下 **確認** 將選取的裝置從主要裝置解除同步。
 
    >[注意:]
-   > 如果選擇主設備並使用取消同步選項，則所有連接到主設備的設備將在一個步驟中取消同步。
+   > 如果您選取主要裝置並使用de-sync選項，則所有連線至主要裝置的裝置都會在單一步驟中解除同步。
