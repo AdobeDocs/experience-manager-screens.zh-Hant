@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 14%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 14%
 + 概覽和Kickstart指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
    + [Screens最佳作法指南](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
-   + [重要條款](screens-glossary.md)
+   + [主要條款](screens-glossary.md)
 + 數位看板網路基本需知 {#digital-signage-network}
-   + [第1部分：專案角色與職責](project-roles-responsibilities.md)
-   + [第2部分：設定範圍專案的考量事項](project-considerations.md)
-   + [第3部分：測試、POC、試行方案和推出](testing-pocs-pilots-rollouts.md)
+   + [第1部分：專案角色與責任](project-roles-responsibilities.md)
+   + [第2部分：限定範圍專案的考量](project-considerations.md)
+   + [第3部分：測試、POC、試行方案及推出](testing-pocs-pilots-rollouts.md)
    + [第4部分：專案管理與部署](project-management-and-deployment.md)
    + [第5部分：支援考量事項](support-considerations.md)
 + 設定和管理 {#administering}
@@ -39,7 +39,7 @@ ht-degree: 14%
    + [AEM Screens安全性檢查清單](security-checklist.md)
    + [從ContentSync轉換為SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
-   + [將資料觸發程式複製到發佈伺服器](replicating-data-triggers.md)
+   + [將資料觸發器復寫至發佈伺服器](replicating-data-triggers.md)
    + [設定Screens復寫代理](configure-screens-replication.md)
    + 使用者端特定考量事項 {#installing-client}
       + [Chrome作業系統播放器](implementing-chrome-os-player.md)
@@ -47,25 +47,26 @@ ht-degree: 14%
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [雲端播放器](implementing-cloud-player.md)
       + [自動註冊播放器](auto-registration-players.md)
-      + [使用遠端控制項](implementing-remote-control.md)
+      + [使用遙控器](implementing-remote-control.md)
    + 作者發佈 {#author-publish}
-      + [Author-Publish架構概述](author-publish-architecture-overview.md)
+      + [Author-Publish架構概覽](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
-   + Analytics與AEM Screens的整合 {#analytics-integration}
+   + Analytics與AEM Screens整合 {#analytics-integration}
       + [Adobe Analytics 整合](adobe-analytics-integration-aem-screens.md)
       + [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
 + 製作和使用案例範例 {#authoring}
    + 設定畫面專案 {#setting-up-projects}
       + [建立和管理專案](creating-a-screens-project.md)
       + [建立和管理管道](managing-channels.md)
-      + [建立和管理顯示區](managing-displays.md)
+      + [建立和管理顯示器](managing-displays.md)
       + [建立和管理位置](managing-locations.md)
       + [建立和管理排程](managing-schedules.md)
       + [管理裝置](managing-devices.md)
       + 指派管道 {#assigning-channels}
          + [頻道指定任務](channel-assignment-latest-fp.md)
-         + [管道指派：舊版AEM Screens Feature Pack](channel-assignment.md)
+         + [頻道指定任務：舊版AEM Screens Feature Pack](channel-assignment.md)
    + 使用核心產品功能 {#product-features}
       + [文字重疊](text-overlay.md)
       + [大量離線更新](bulk-offline-update.md)
@@ -90,11 +91,11 @@ ht-degree: 14%
    + 管理內容更新 {#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
-      + [使用Screens啟動的內容更新](launches.md)
+      + [使用Screens啟動項更新內容](launches.md)
    + 使用案例範例 {#use-case-examples}
       + [緊急通道](emergency-channel.md)
       + [旅行中心溫度啟用](local-temperature-activation.md)
-      + [Hospality Reservation Activation](hospitality-reservation-activation.md)
+      + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
       + [零售詳細目錄目標啟動](retail-inventory-activation.md)
       + [套用轉變](applying-transitions.md)
       + [多區域到單一區域轉換](multizone-to-singlezone.md)
@@ -104,7 +105,7 @@ ht-degree: 14%
    + [REST API](rest-api.md)
    + [為AEM Screens開發自訂元件](developing-custom-component-tutorial-develop.md)
    + [離線頻道](offline-channels.md)
-   + [延伸AEM Screens元件](extending-component-tutorial-develop.md)
+   + [擴充AEM Screens元件](extending-component-tutorial-develop.md)
    + [建立元件](creating-components.md)
    + [使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)
    + [在AEM Screens中設定ContextHub](configuring-context-hub.md)
