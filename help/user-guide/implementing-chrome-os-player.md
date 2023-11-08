@@ -13,7 +13,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -149,7 +149,7 @@ AEM Screens Player是啟用Kiosk的應用程式，也可啟用Chrome作業系統
 | enableAdminUI | 啟用管理員UI來設定站台上的裝置。 在完全設定並投入生產後，設為false。 |
 | enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定並投入生產後，請考慮將設為false 。 |
 | enableactivityui | 啟用以顯示活動的進度，例如下載和同步。 啟用以進行疑難排解，並在完全設定後停用。 |
-| cloudMode | 如果您希望Tizen播放器as a Cloud Service連線至Screens，請設為true。 設定為false以便連線到AMS或內部部署AEM。 |
+| cloudMode | 如果您希望Chrome播放器as a Cloud Service連線至Screens，請設為true。 設定為false以便連線到AMS或內部部署AEM。 |
 | cloudToken | 註冊Token以針對Screensas a Cloud Service註冊。 |
 
 >[!NOTE]
