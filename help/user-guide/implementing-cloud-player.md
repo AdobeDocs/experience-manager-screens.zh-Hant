@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## 外部內容擷取的離線支援 {#offline-support}
+
+在各種使用案例中，管道可能要求從本身無法提供離線支援的外部來源（例如，天氣小工具或商務整合式單頁應用程式）擷取內容。 為了針對這些特定使用案例啟用離線功能，Cloud Player提供對自訂標題的支援。
+Cloud Player採用「網路優先」快取策略，這表示它會嘗試從網路擷取內容（然後使用最新內容更新快取），如果有的話，會退回快取內容。 若要針對這類內容擷取實作離線支援，要求中必須包含自訂標頭。 隨後，具有自訂標頭的請求將在播放器上快取，以便在保持網路優先快取策略的同時便於離線存取內容。
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
