@@ -8,15 +8,15 @@ user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
+source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 14%
+source-wordcount: '510'
+ht-degree: 11%
 
 ---
 
 
-# AEM Screens 使用手冊 {#user-guide}
+# AEM Screens使用手冊 {#user-guide}
 
 + [Screens簡介](aem-screens-introduction.md)
 + 概覽和Kickstart指南 {#overview}
@@ -80,7 +80,7 @@ ht-degree: 14%
       + [內嵌順序](embedded-sequences.md)
       + [多區域配置](multi-zone-layout-aem-screens.md)
       + [視訊轉譯](generating-renditions.md)
-      + [動態內嵌序列](dynamic-embedded-sequences.md)
+      + [動態內嵌順序](dynamic-embedded-sequences.md)
       + [頻道層級大量影像播放持續時間](channel-level-image-playback.md)
       + [命令同步](using-command-sync.md)
       + [使用資料觸發器製作](authoring-data-triggers.md)
@@ -117,6 +117,7 @@ ht-degree: 14%
    + [疑難排解裝置控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [Feature Pack 20240166發行說明](release-notes-fp-20240116.md)
    + [Feature Pack 202204發行說明](release-notes-fp-202204.md)
    + [Feature Pack 202203發行說明](release-notes-fp-202203.md)
    + [Feature Pack 202112發行說明](release-notes-fp-202112.md)
