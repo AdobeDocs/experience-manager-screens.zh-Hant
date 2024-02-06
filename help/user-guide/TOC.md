@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '516'
 ht-degree: 11%
 
 ---
@@ -117,7 +117,8 @@ ht-degree: 11%
    + [疑難排解裝置控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
-   + [Feature Pack 20240166發行說明](release-notes-fp-20240116.md)
+   + [Feature Pack 202401發行說明](release-notes-fp-202401.md)
+   + [Feature Pack 20240116發行說明](release-notes-fp-20240116.md)
    + [Feature Pack 202204發行說明](release-notes-fp-202204.md)
    + [Feature Pack 202203發行說明](release-notes-fp-202203.md)
    + [Feature Pack 202112發行說明](release-notes-fp-202112.md)

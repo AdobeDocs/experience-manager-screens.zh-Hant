@@ -4,9 +4,9 @@ description: 請詳閱本頁，以取得2024年1月2日發行的AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,3 @@ AEM Screens Feature Pack 202204的發行日期為2024年1月2日。
 * XSS問題位於 `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * 修正、遺失週期性排程和新增排程按鈕：在頻道排程中發現的問題。 (SCRNS-2739)
-
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
-
-若要下載最新的AEM Screens播放器，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
