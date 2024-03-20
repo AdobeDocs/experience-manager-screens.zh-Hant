@@ -76,9 +76,11 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
 >[!NOTE]
 >
-## Google淘汰Chrome應用程式
-1. Chrome作業系統硬體上的Chrome應用程式： Google已主動淘汰Chrome應用程式，改用PWA應用程式，計畫移轉至2025年1月。 因此，Chrome作業系統上的AEM Screens Player應用程式將根據共用時間表停止運作。我們敦促目前生產中使用Chrome Player的客戶，計畫轉換至Screens Cloud Player。
-2. Mac、Windows和Linux上的Chrome擴充功能播放器：由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 我們強烈建議您改用Screens Cloud Player ，以符合所有的開發和測試需求。
+>## Google淘汰Chrome應用程式
+>1. Chrome作業系統硬體上的Chrome應用程式： 
+>Google已主動淘汰Chrome應用程式，改用PWA應用程式，計畫移轉至2025年1月。 因此，Chrome作業系統上的AEM Screens Player應用程式將根據共用時間表停止運作。我們敦促目前生產中使用Chrome Player的客戶，計畫轉換至Screens Cloud Player。
+>2. Mac、Windows和Linux上的Chrome擴充功能播放器：
+>由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 我們強烈建議您改用Screens Cloud Player ，以符合所有的開發和測試需求。
 
 ## 外部內容擷取的離線支援 {#offline-support}
 
