@@ -12,7 +12,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
+source-git-commit: ea1c90cf915e83709131ed4b877788ed3ffea59e
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -22,10 +22,12 @@ ht-degree: 0%
 # 實作Cloud Player  {#implementing-cloud-player}
 
 AEM Screens傳統上會針對各種平台（包括ChromeOS、Windows、Android和Tizen）提供獨特的原生播放器應用程式。 然而，為因應使用者不斷變化的需求，我們推出了創新解決方案 — AEM Screens Cloud Player。
-Cloud Player與先前的原生應用程式有重大差異。 這是漸進式網頁應用程式(PWA)，由伺服器託管。 這種變革性的方法讓我們的客戶擁有可在網頁瀏覽器中直接執行的獨立平台播放器。
-只要造訪https://player.adobescreens.com即可存取Cloud Player。 無論使用何種平台，使用者都可將其安裝在裝置上，並享受順暢的數位看板體驗。 Cloud Player的相容性取決於是否具備支援PWA的現代化瀏覽器，確保各種裝置間的一致效能。 向自動提供修正和功能的播放器說再見吧，打招呼吧！確保您隨時都能擁有最新功能。 這次轉換至以PWA為基礎的Cloud Player，標誌著我們數位招牌服務取得令人振奮的演化，讓我們比以往更容易存取、使用更方便、功能更全面。
-本節說明如何實作Cloud Player。
 
+Cloud Player與先前的原生應用程式有重大差異。 這是漸進式網頁應用程式(PWA)，由伺服器託管。 這種變革性的方法讓我們的客戶擁有可在網頁瀏覽器中直接執行的獨立平台播放器。
+
+只要造訪https://player.adobescreens.com即可存取Cloud Player。 無論使用何種平台，使用者都可將其安裝在裝置上，並享受順暢的數位看板體驗。 Cloud Player的相容性取決於是否具備支援PWA的現代化瀏覽器，確保各種裝置間的一致效能。 向自動提供修正和功能的播放器說再見吧，打招呼吧！確保您隨時都能擁有最新功能。 這次轉換至以PWA為基礎的Cloud Player，標誌著我們數位招牌服務取得令人振奮的演化，讓我們比以往更容易存取、使用更方便、功能更全面。
+
+本節說明如何實作Cloud Player。
 
 >[!NOTE]
 >
@@ -42,15 +44,15 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
 1. 在確認對話方塊上，按一下安裝圖示和安裝按鈕。 Cloud Player將以獨立應用程式的形式安裝在您的裝置上，並可使用圖示啟動。
 
->[!NOTE]
->
->### Cloud Player安裝選項 {#cloud-player-install-option}
->
+### Cloud Player安裝選項 {#cloud-player-install-option}
+
 1. PWA的安裝選項也稱為「新增至主畫面」或A2HS功能。  支援從網頁安裝PWA，因瀏覽器和平台而異。
 1. 每個瀏覽器都有不同的條件可檢查PWA應用程式是否可安裝。 通常瀏覽器會檢查這些專案（如需詳細資訊，請參閱此處）：
-* 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，例如，名稱、圖示、start_url、顯示
-* 如果應用程式的Service Worker檔案具有擷取事件監聽器。
-* 應用程式必須透過https提供。
+
+   * 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，例如，名稱、圖示、start_url、顯示
+   * 如果應用程式的Service Worker檔案具有擷取事件監聽器。
+   * 應用程式必須透過https提供。
+
 1. 安裝選項可能會顯示在不同瀏覽器和裝置型別的不同位置。 有些瀏覽器可能會隱藏選項功能表列中的安裝圖示。
 
 ## 大量布建雲端播放器 {#bulk-provisioning}
@@ -59,6 +61,7 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
 1. 選擇支援在資訊站模式下執行具有URL的瀏覽器的MDM解決方案。
 1. 您可以依照以下步驟將相同的設定套用至所有裝置：
+
    1. 將config.json託管在伺服器上使其可供存取，例如： https://&lt;config_server_host>/config.json
    1. 若要安裝雲端播放器並套用託管設定，請使用雲端播放器URL，例如：https://player.adobescreens.com?playerConfigAddress=https://&lt;config_server_host>
    1. Cloud Player應用程式會在的根目錄中尋找config.json &lt;config_server_host>，剖析config.json以取得自訂設定並套用這些設定。
@@ -74,17 +77,20 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
->[!NOTE]
->
->## Google淘汰Chrome應用程式
->1. Chrome作業系統硬體上的Chrome應用程式： 
->Google已主動淘汰Chrome應用程式，改用PWA應用程式，計畫移轉至2025年1月。 因此，Chrome作業系統上的AEM Screens Player應用程式將根據共用時間表停止運作。我們敦促目前生產中使用Chrome Player的客戶，計畫轉換至Screens Cloud Player。
->2. Mac、Windows和Linux上的Chrome擴充功能播放器：
->由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 我們強烈建議您改用Screens Cloud Player ，以符合所有的開發和測試需求。
+## Google淘汰Chrome應用程式
+
+1. Chrome作業系統硬體上的Chrome應用程式：
+
+   Google已主動淘汰Chrome應用程式而改用PWA應用程式，並計畫在2025年1月前進行移轉。 因此，Chrome作業系統上的AEM Screens Player應用程式將根據共用時間表停止運作。我們敦促目前生產中使用Chrome Player的客戶，計畫轉換至Screens Cloud Player。
+
+1. Mac、Windows和Linux上的Chrome擴充功能播放器：
+
+   由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 我們強烈建議您改用Screens Cloud Player ，以符合所有的開發和測試需求。
 
 ## 外部內容擷取的離線支援 {#offline-support}
 
 在各種使用案例中，管道可能要求從本身無法提供離線支援的外部來源（例如，天氣小工具或商務整合式單頁應用程式）擷取內容。 為了針對這些特定使用案例啟用離線功能，Cloud Player提供對自訂標題的支援。
+
 Cloud Player採用「網路優先」快取策略，這表示它會嘗試從網路擷取內容（然後使用最新內容更新快取），如果有的話，會退回快取內容。 若要針對這類內容擷取實作離線支援，要求中必須包含自訂標頭。 隨後，具有自訂標頭的請求將在播放器上快取，以便在保持網路優先快取策略的同時便於離線存取內容。
 
 ```
