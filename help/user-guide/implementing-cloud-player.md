@@ -12,7 +12,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: ea1c90cf915e83709131ed4b877788ed3ffea59e
+source-git-commit: 5b64ab8eea274aa85c61311d34b1ce065a5ba601
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -44,15 +44,17 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
 1. 在確認對話方塊上，按一下安裝圖示和安裝按鈕。 Cloud Player將以獨立應用程式的形式安裝在您的裝置上，並可使用圖示啟動。
 
-### Cloud Player安裝選項 {#cloud-player-install-option}
-
+>[!NOTE]
+>
+>### Cloud Player安裝選項 {#cloud-player-install-option}
+>
 1. PWA的安裝選項也稱為「新增至主畫面」或A2HS功能。  支援從網頁安裝PWA，因瀏覽器和平台而異。
 1. 每個瀏覽器都有不同的條件可檢查PWA應用程式是否可安裝。 通常瀏覽器會檢查這些專案（如需詳細資訊，請參閱此處）：
-
-   * 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，例如，名稱、圖示、start_url、顯示
-   * 如果應用程式的Service Worker檔案具有擷取事件監聽器。
-   * 應用程式必須透過https提供。
-
+>
+* 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，例如，名稱、圖示、start_url、顯示
+* 如果應用程式的Service Worker檔案具有擷取事件監聽器。
+* 應用程式必須透過https提供。
+>
 1. 安裝選項可能會顯示在不同瀏覽器和裝置型別的不同位置。 有些瀏覽器可能會隱藏選項功能表列中的安裝圖示。
 
 ## 大量布建雲端播放器 {#bulk-provisioning}
@@ -77,15 +79,17 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+>[!NOTE]
+>
 ## Google淘汰Chrome應用程式
-
+>
 1. Chrome作業系統硬體上的Chrome應用程式：
-
-   Google已主動淘汰Chrome應用程式而改用PWA應用程式，並計畫在2025年1月前進行移轉。 因此，Chrome作業系統上的AEM Screens Player應用程式將根據共用時間表停止運作。我們敦促目前生產中使用Chrome Player的客戶，計畫轉換至Screens Cloud Player。
-
+>
+Google已主動淘汰Chrome應用程式而改用PWA應用程式，並計畫在2025年1月前進行移轉。 因此，Chrome作業系統上的AEM Screens Player應用程式將根據共用時間表停止運作。我們敦促目前生產中使用Chrome Player的客戶，計畫轉換至Screens Cloud Player。
+>
 1. Mac、Windows和Linux上的Chrome擴充功能播放器：
-
-   由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 我們強烈建議您改用Screens Cloud Player ，以符合所有的開發和測試需求。
+>
+由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 我們強烈建議您改用Screens Cloud Player ，以符合所有的開發和測試需求。
 
 ## 外部內容擷取的離線支援 {#offline-support}
 
