@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-SmartSync是AEM Screens使用的最新機制。 它取代目前用來快取離線頻道並將它們傳送給播放器的方法。
+SmartSync是AEM Screens使用的最新機制。 這是目前快取離線頻道，並將這些頻道傳送給播放器的方法的替代方案。
 
 它會在伺服器端和使用者端執行。
 
 **在伺服器端**：
 
-* 管道的內容（包括資產）會快取到 */var/contentsync*.
-* 快取會透過資訊清單向播放器公開，資訊清單會說明可供顯示的內容。
+* 管道的內容（包括資產）會快取在 */var/contentsync*.
+* 快取會透過資訊清單向播放器公開，該資訊清單說明可供顯示的可用內容。
 
 **使用者端**：
 
 * 播放器會根據上述產生的資訊清單更新其內容。
 
-### 使用SmartSync的好處 {#benefits-of-using-smartsync}
+### 使用SmartSync的優點 {#benefits-of-using-smartsync}
 
 SmartSync功能可為您的AEM Screens專案提供許多優點。 它允許
 
@@ -55,7 +55,7 @@ SmartSync功能可為您的AEM Screens專案提供許多優點。 它允許
 
 >[!NOTE]
 >
->如果您已安裝AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，您可以啟用資產的SmartSync來改善磁碟空間使用量。 若要啟用SmartSync，請遵循以下章節，從ContentSync轉變為SmartSync，進而啟用SmartSync。
+>如果您已安裝AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，您可以啟用資產的SmartSync來改善磁碟空間使用量。 若要啟用SmartSync，請遵循以下章節，從ContentSync轉換到SmartSync，進而啟用SmartSync。
 >
 >SmartSync適用於支援伺服器AEM 6.4.3 FP3的Screens Player。
 >
@@ -67,9 +67,9 @@ SmartSync功能可為您的AEM Screens專案提供許多優點。 它允許
 | Chrome作業系統 | 1.0.136 |
 | Windows | 1.0.136 |
 
-請依照下列步驟，從ContentSync轉變為SmartSync：
+請依照下列步驟，從ContentSync轉換為SmartSync：
 
-1. 從ContentSync移轉至SmartSync時，必須先清除ContentSync快取，才能啟動SmartSync。
+1. 從ContentSync移轉至SmartSync需要先清除ContentSync快取，才能啟用SmartSync。
 
    使用連結從您的執行個體導覽至ContentSync主控台 ***https://localhost:4502/libs/cq/contentsync/content/console.html*** 並按一下 **清除快取**，如下圖所示：
 
@@ -77,9 +77,9 @@ SmartSync功能可為您的AEM Screens專案提供許多優點。 它允許
 
    >[!CAUTION]
    >
-   >第一次使用SmartSync之前，必須清除所有內容快取。
+   >第一次使用SmartSync前，必須先清除所有內容快取。
 
-1. 導覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體 — >槌子圖示 — > **作業** —> **網頁主控台**.
+1. 瀏覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體> hammer圖示> **作業** > **網頁主控台**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
@@ -89,7 +89,7 @@ SmartSync功能可為您的AEM Screens專案提供許多優點。 它允許
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 按一下 **儲存** 以啟用 **Screens離線內容服務** 屬性，因此使用AEM Screens的SmartSync。
+1. 按一下 **儲存** 以啟用 **Screens離線內容服務** 屬性，因此請針對AEM Screens使用SmartSync。
 1. 啟用SmartSync後，您必須導覽至專案並按一下 **更新離線內容** *（從動作列），* 如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

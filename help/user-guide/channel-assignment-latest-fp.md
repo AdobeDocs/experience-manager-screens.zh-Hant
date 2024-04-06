@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 專案設定完成後，您必須將頻道指派給顯示以檢視內容。
 
-1. 導覽至所需的顯示畫面，例如， **DemoScreens** —> **位置** —> **SanJose** —> **大廳**.
+1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
 1. 點選/按一下 **指派頻道** 從動作列移除。
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 請依照下列步驟導覽至時間表檢視：
 
-1. 導覽至所需的顯示畫面，例如， **DemoScreens** —> **位置** —> **SanJose** —> **大廳**.
+1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
 1. 點選/按一下 **指派頻道** 從動作列移除。
 

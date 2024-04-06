@@ -1,30 +1,26 @@
 ---
 title: 設定ACL
-seo-title: Setting up ACLs
-description: 請依照本頁面的說明操作，瞭解如何使用ACL區隔專案，讓每個個人或團隊自行處理專案。
-seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
-uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
+description: 瞭解如何使用ACL來分隔專案，以便每個個人或團隊處理自己的專案。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
 
 # 設定ACL {#setting-up-acls}
 
-下節將說明如何使用ACL分隔專案，以便每個個人或團隊處理自己的專案。
+下節將說明如何使用ACL來分隔專案，以便每個個人或團隊處理自己的專案。
 
-作為AEM管理員，您想要確保專案的團隊成員不會干預其他專案，並且每個使用者都會根據專案需求被指派特定角色。
+身為AEM管理員，您想要確保專案的團隊成員不會干預其他專案，並根據專案要求指派特定角色給每個使用者。
 
 ## 設定許可權 {#setting-up-permissions}
 
@@ -38,7 +34,7 @@ ht-degree: 2%
 
    或者，使用此連結， `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   接著，按一下 **儲存**.
+   接下來，選取 **儲存**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
@@ -46,15 +42,15 @@ ht-degree: 2%
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 新增 **Acme** （您建立的專案）至 **新增成員至群組**. 按一下「**儲存**」。
+1. 新增 **Acme** （您建立的專案） **新增成員至群組**. 按一下「**儲存**」。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
-   >如果您希望專案團隊成員註冊播放器（包括為每個播放器建立使用者），請找到群組使用者管理員並將ACME群組新增到使用者管理員
+   >如果您希望專案團隊成員註冊播放器（包括為每個播放器建立使用者），請尋找群組使用者管理員，並將ACME群組新增到使用者管理員
 
-1. 新增所有將處理「 」的使用者 **Acme** 專案至 **Acme** 群組。
+1. 新增處理的所有使用者 **Acme** 專案至 **Acme** 群組。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
@@ -68,30 +64,30 @@ ht-degree: 2%
 
 下表總結了具有專案層級許可權的路徑：
 
-| **路徑** | **權限** | **說明** |
+| **路徑** | **許可權** | **說明** |
 |---|---|---|
-| `/apps/<project>` | 讀取 | 提供專案檔案的存取權（如果適用） |
-| `/content/dam/<project>` | 全部 | 提供在DAM中儲存影像或影片等專案資產的存取權 |
-| `/content/screens/<project>` | 全部 | 移除/content/screens底下所有其他專案的存取權 |
-| `/content/screens/svc` | 讀取 | 提供註冊服務的存取權 |
-| `/libs/screens` | 讀取 | 提供DCC的存取權 |
-| `/var/contentsync/content/screens/` | 全部 | 允許更新專案的離線內容 |
+| `/apps/<project>` | 讀取 | 提供專案檔案的存取權（如果適用）。 |
+| `/content/dam/<project>` | 全部 | 提供在DAM中儲存專案資產（例如影像或影片）的存取權。 |
+| `/content/screens/<project>` | 全部 | 移除/content/screens底下所有其他專案的存取權。 |
+| `/content/screens/svc` | 讀取 | 提供註冊服務的存取權。 |
+| `/libs/screens` | 讀取 | 提供DCC的存取權。 |
+| `/var/contentsync/content/screens/` | 全部 | 可讓您更新專案的離線內容。 |
 
 >[!NOTE]
 >
->在某些情況下，您可以將作者功能（例如管理資產和建立管道）與管理功能（例如註冊播放器）分開。 在這種情況下，請建立兩個群組，並將作者群組新增至貢獻者，並將管理員群組新增至貢獻者和使用者管理員。
+>有時候，您可以將作者功能（例如管理資產和建立管道）與管理功能（例如註冊播放器）分開。 在這種情況下，請建立兩個群組，並將作者群組新增至貢獻者，並將管理員群組新增至貢獻者和使用者管理員。
 
 ### 建立群組 {#creating-groups}
 
-建立新專案時，也應建立具有指派基本許可權集的預設使用者群組。 您應該將許可權擴充至我們對AEM Screens所擁有的典型角色。
+建立專案時，也應建立具有指派基本許可權集的預設使用者群組。 將許可權擴充至AEM Screens中定義的典型角色。
 
 例如，您可以建立下列專案特定群組：
 
 * 畫面專案管理員
 * Screens專案操作員（註冊播放器，以及管理位置和裝置）
-* 畫面專案使用者（使用頻道、時程表和頻道指派）
+* 畫面專案使用者（處理頻道、排程和頻道指派）
 
-下表概述具有AEM Screens專案說明和許可權的群組：
+下表摘要列出具有AEM Screens專案說明和許可權的群組：
 
 <table>
  <tbody>
@@ -115,7 +111,7 @@ ht-degree: 2%
   </tr>
   <tr>
    <td>Screens使用者<br /> <em>screens-users</em></td>
-   <td>建立和更新管道和排程，並指派至AEM Screens中的位置</td>
+   <td>在AEM Screens中建立和更新頻道和排程並指派至位置</td>
    <td>
     <ul>
      <li>貢獻者成員</li>
@@ -136,8 +132,8 @@ ht-degree: 2%
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens播放器<br /> <em>畫面 — &lt;project&gt; — 裝置</em></td>
-   <td>所有播放器及所有播放器/裝置皆為貢獻者自動群組。</td>
+   <td>Screens播放器<br /> <em>熒幕 — &lt;project&gt; — 裝置</em></td>
+   <td>所有播放器和所有播放器/裝置會自動分組為貢獻者成員。</td>
    <td><p> 貢獻者成員</p> </td>
   </tr>
  </tbody>
