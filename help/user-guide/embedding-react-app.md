@@ -1,9 +1,6 @@
 ---
 title: 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合
-seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
-description: 請依照本頁面的說明操作，瞭解如何使用AEM SPA編輯器(可由AEM中的商務專業人員設定)，以REACT (或Angular)內嵌互動式單頁應用程式，以及如何將互動式應用程式與離線Adobe Analytics整合。
-seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
-uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
+description: 瞭解如何使用AEM SPA編輯器使用REACT (或Angular)內嵌互動式單頁應用程式。
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
 # 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-本節說明如何使用AEM SPA編輯器(可由AEM中的商務專業人員設定)使用REACT (或Angular)內嵌互動式單頁應用程式，以及如何將互動式應用程式與離線Adobe Analytics整合。
+您可以使用REACT (或Angular)內嵌互動式單頁應用程式。 您可以使用AEM SPA編輯器(由AEM中的商務專業人士設定)來執行此操作。 您也可以瞭解如何將互動式應用程式與離線Adobe Analytics整合。
 
 ## 使用AEM SPA編輯器 {#using-the-aem-spa-editor}
 
@@ -32,9 +29,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >此原型會建立最低限度的Adobe Experience Manager專案，作為您專屬SPA專案的起點。 使用此原型時必須提供的屬性允許根據需要命名此專案的所有部分。
+   >此原型會建立最低限度的Adobe Experience Manager專案，作為您專屬SPA專案的起點。 使用此原型時必須提供的屬性可讓您根據需要命名此專案的所有部分。
 
-1. 依照Readme說明建立AEM SPA編輯器原型專案：
+1. 若要建立AEM SPA編輯器原型專案，請依照讀我檔案的說明操作：
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -49,7 +46,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >我們使用 **群組ID** 作為 ***com.adobe.aem.screens*** 和 **ArtifactId** 作為 ***我的SPA範例*** （為預設值）。 您可以視需要選擇自己的網站。
+   >本檔案使用 **群組ID** 作為 ***com.adobe.aem.screens*** 和 **ArtifactId** 作為 ***我的SPA範例*** （為預設值）。 您可以視需要選擇自己的網站。
 
 1. 建立專案後，請使用您選擇的IDE或編輯器並匯入產生的Maven專案。
 1. 使用命令部署到您的本機AEM執行個體 ***mvn全新安裝 — PautoInstallPackage***.
@@ -65,14 +62,12 @@ ht-degree: 0%
 
 請依照下列步驟，將互動式REACT應用程式新增至AEM Screens：
 
-1. 建立新的AEM Screens專案。 另請參閱 [建立和管理專案](creating-a-screens-project.md) 以取得更多詳細資料。
-
-1. 建立新的 **應用程式頻道** （最好是） （或1x1範本，或多區域管道） **頻道** 畫面專案的資料夾。
+1. 建立AEM Screens專案。 另請參閱 [建立和管理專案](creating-a-screens-project.md) 以取得更多詳細資料。
+1. 建立 **應用程式頻道** （最好是） （或1x1範本，或多區域管道） **頻道** AEM Screens專案的資料夾。
 
    >[!NOTE]
-   >**順序頻道** 不建議在此使用案例中使用，因為其內建的幻燈片邏輯將會與體驗的互動性質衝突
+   >**順序頻道** 不建議在此使用案例中使用，因為這些使用案例本身就附有幻燈片邏輯，與體驗的互動性質衝突。
    >另請參閱 [建立和管理管道](managing-channels.md) 以取得更多詳細資料。
-
 
 1. 編輯任何順序色版，並拖放內嵌的頁面元件。
 
@@ -97,7 +92,7 @@ ht-degree: 0%
 
 1. 針對此專案註冊播放器，並將其指派給顯示區。 現在，您應該能夠看到互動式應用程式在AEM Screens上執行。
 
-   另請參閱 [裝置註冊](device-registration.md) 以詳細瞭解註冊裝置。
+   另請參閱 [裝置註冊](device-registration.md) 以取得註冊裝置的詳細資訊。
 
 ## 透過AEM Screens將SPA與Adobe Analytics與離線功能整合 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,14 +100,14 @@ ht-degree: 0%
 
 1. 在AEM Screens中設定Adobe Analytics。
 
-   另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 瞭解如何使用AEM Screens在Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件。
+   另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 如需如何使用AEM Screens在Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件的詳細資訊。
 
 1. 在您選擇的IDE/編輯器中編輯您的react應用程式（尤其是文字元件或您想要開始發出事件的其他元件）。
 1. 在您要為元件擷取的點選事件或其他事件上，使用標準資料模型新增分析資訊。
 
-   另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)s以取得更多詳細資料。
+   另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以取得更多詳細資料。
 
-1. 呼叫AEM Screens Analytics API以離線儲存事件，並以突發方式傳送至Adobe Analytics。
+1. 呼叫AEM Screens Analytics API，讓您可以離線儲存事件，並以突發方式傳送至Adobe Analytics。
 
    例如，
 
@@ -140,4 +135,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >播放器韌體會自動將有關播放器及其執行階段環境的更多詳細資訊，新增至您傳送的自訂分析資料。 因此，除非絕對必要，否則您可能不需要擷取低階作業系統/裝置的詳細資料。 您只需要專注於業務分析資料。
+   >播放器韌體會自動將有關播放器及其執行階段環境的更多詳細資訊，新增至您傳送的自訂分析資料。 因此，您可能必須擷取低階作業系統/裝置的詳細資訊，除非有必要。 專注於業務分析資料。
