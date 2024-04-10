@@ -5,16 +5,16 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # AEM Screens常見問題集 {#aem-screens-faqs}
 
-以下章節提供與AEM Screens專案相關之常見問答集的幾個解答。
+本主題提供與AEM Screens專案相關的常見問題解答。
 
 ## 空白畫面問題 {#blank-screen}
 
