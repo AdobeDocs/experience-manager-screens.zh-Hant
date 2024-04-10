@@ -1,14 +1,14 @@
 ---
 title: Feature Pack 202011發行說明
-description: 「請詳閱本頁，瞭解2020年11月30日發行的AEM Screens Feature Pack 202011的相關資訊。」
+description: 「請詳閱本頁，以取得2020年11月30日發行的AEM Screens Feature Pack 202011相關資訊。」
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 6%
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 AEM Screens已發行AEM 6.5 Feature Pack 6。
 
-您可以從以下網站下載AEM Screens 6.5.6版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP6**.
+若要下載AEM Screens 6.5.6版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP6**.
 
 ## 發行日期 {#release-date}
 
@@ -31,23 +31,23 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
 * **內容指派報表**
 
-   「內容指派報告」功能可讓AEM Screens管理員或作者匯出 *內容指派報表* 以試算表格式顯示。
-請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
+  「內容指派報表」功能可讓AEM Screens管理員或作者匯出 *內容指派報表* （以試算表格式顯示）。
+另請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
 
 
 * **Tizen Player**
 
-   AEM Screens 6.5.6版本的最新功能套件已引入稱為Tizen播放器的新播放器。
-請參閱 [實作Tizen播放器](/help/user-guide/tizen-player.md) 以取得更多詳細資料。
+  AEM Screens 6.5.6版本已推出最新Feature Pack，稱為Tizen播放器。
+另請參閱 [實作Tizen播放器](/help/user-guide/tizen-player.md) 以取得更多詳細資料。
 
 * **從「裝置管理員」搜尋功能**
 
-   AEM Screens 6.5.6版的最新Feature Pack現已提供裝置管理員UI中的全新搜尋功能。
-請參閱 [從「裝置管理員」搜尋裝置](/help/user-guide/device-registration.md#search-device) 以取得更多詳細資料。
+  AEM Screens 6.5.6版的最新Feature Pack現已提供裝置管理員UI中的新搜尋功能。
+另請參閱 [從「裝置管理員」搜尋裝置](/help/user-guide/device-registration.md#search-device) 以取得更多詳細資料。
 
 * **預設Ping間隔**
 
-   在這個版本中，預設偵測間隔現在設定為30秒。
+  在這個版本中，預設的Ping間隔現在設定為30秒。
 
 ### 已發行的AEM Screens Players {#released-aem-screens-players}
 

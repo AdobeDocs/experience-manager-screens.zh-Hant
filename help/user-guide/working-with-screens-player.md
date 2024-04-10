@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1057'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ AEM Screens Player有兩種型別的更新：
    <td><p>8 GB記憶體</p> <p>4 MB快取</p> </td>
    <td>128 GB</td>
    <td>主機板</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 2個USB</td>
    <td>
     <ul>
@@ -202,7 +202,7 @@ AEM Screens Player有兩種型別的更新：
    <td><p>16 GB記憶體</p> <p>8 MB快取</p> </td>
    <td>256 GB</td>
    <td>專用圖形GPU</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 4個USB</td>
    <td>
     <ul>

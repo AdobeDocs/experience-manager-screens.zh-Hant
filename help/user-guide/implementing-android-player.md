@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 請依照下列步驟，在Android™播放器中允許大量布建：
 
 1. 以名稱建立設定JSON檔案 `player-config.default.json`.
-請參閱 [JSON原則範例](#example-json) 以及說明各種 [原則屬性](#policy-attributes).
+檢視 [JSON原則範例](#example-json) 以及說明各種 [原則屬性](#policy-attributes).
 
 1. 使用MDM、ADB或Android™ Studio檔案總管將此原則JSON檔案拖放至 *sdcard* Android™裝置上的資料夾。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 ```
 
 >[!NOTE]
->所有Android™裝置都有 `*sdcard*` 資料夾(無論是 `*sdcard*` 是否插入。 部署時，此檔案會與「下載」資料夾位於相同層級。 有些MDM （例如Samsung Knox）可能會參考以下資訊： *sdcard* 資料夾位置為 *內部儲存*.
+>所有Android™裝置都有 `*sdcard*` 資料夾(無論是 `*sdcard*` 是否插入。 部署時，此檔案會與「下載」資料夾位於相同層級。 有些MDM （例如Samsung Knox）可能會看到這種情況 *sdcard* 資料夾位置為 *內部儲存*.
 
 ## 使用企業行動性管理大量布建Android™ Player {#bulk-provisioning}
 

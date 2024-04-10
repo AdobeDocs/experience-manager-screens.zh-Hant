@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -35,25 +35,25 @@ AEM Screens Feature Pack 201905的發行日期為2019年5月16日。
 
 「專案匯入工具」是AEM Screens中提供的功能，可讓您將CSV/XLS試算表的一組位置大量匯入至AEM Screens專案。
 
-請參閱 **[從檔案新增專案匯入工具](project-importer.md)** 以取得更多詳細資料。
+另請參閱 **[從檔案新增專案匯入工具](project-importer.md)** 以取得更多詳細資料。
 
 * **從ContentSync轉換為SmartSync**
 
 SmartSync可將伺服器負載/儲存及網路流量降至最低，以降低成本。
 
-請參閱 **[從ContentSync轉換為SmartSync](smartsync.md)** 以取得更多詳細資料。
+另請參閱 **[從ContentSync轉換為SmartSync](smartsync.md)** 以取得更多詳細資料。
 
 * **緊急通道**
 
 此使用案例範例著重於建立和管理緊急通道，內容作者可在有先決條件時從順序通道切換。
 
-請參閱 **[緊急通道](emergency-channel.md)** 使用案例以取得更多詳細資料。
+另請參閱 **[緊急通道](emergency-channel.md)** 使用案例以取得更多詳細資料。
 
 * **使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合**
 
 本節說明如何使用AEM SPA編輯器以REACT (或Angular)內嵌互動式單頁應用程式。 編輯器可由AEM中的商務專業人員設定。 同時也說明如何將互動式應用程式與離線Adobe Analytics整合。
 
-請參閱 **[使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)** 以取得更多詳細資料。
+另請參閱 **[使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)** 以取得更多詳細資料。
 
 ### 已發行的AEM Screens Players
 

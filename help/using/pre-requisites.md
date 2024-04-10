@@ -2,9 +2,9 @@
 title: 必要條件 [!UICONTROL AEM Screens]
 description: 瞭解開始AEM Screens專案前的必要條件。
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 開始使用AEM Screens處理數位看板專案前，您需要具備Adobe Experience Manager (AEM)知識，並應在AEM Screens專案前完成。
 
-請參閱下列教學課程和資源，以便您可以學習Adobe Experience Manager 6.5：
+請參閱下列教學課程和資源，以便您學習Adobe Experience Manager 6.5：
 
 * **[Adobe Experience Manager快速入門](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction)**：探索Adobe Experience Manager的快速入門文章和教學課程影片。
 

@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 2%
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >請參閱 [建立和管理專案](creating-a-screens-project.md) 以瞭解如何建立AEM Screens專案。
+   >另請參閱 [建立和管理專案](creating-a-screens-project.md) 以瞭解如何建立AEM Screens專案。
 
 1. 建立標題為的順序頻道 **自助餐廳** 在 **頻道** 資料夾。
 
@@ -82,14 +82,14 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >請參閱 [頻道屬性](#channel-properties) 區段，以進一步瞭解管道指派屬性。
+   >另請參閱 [頻道屬性](#channel-properties) 區段，以進一步瞭解管道指派屬性。
 
 1. 從 **排程** 選項，選取 **啟用期間** 和 **遞回排程**.
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >請參閱 [頻道屬性](#channel-properties) 區段，以進一步瞭解管道指派屬性。
+   >另請參閱 [頻道屬性](#channel-properties) 區段，以進一步瞭解管道指派屬性。
 
 1. 按一下 **儲存** 設定您的偏好設定後。
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 此範例會在Chrome播放器上展示輸出。 將頻道指派給顯示區後，您必須將裝置註冊給播放器。
 
-請參閱 [裝置註冊](device-registration.md) 以瞭解如何在AEM Screens播放器上註冊裝置。
+另請參閱 [裝置註冊](device-registration.md) 以瞭解如何在AEM Screens播放器上註冊裝置。
 
 您可以在選擇的播放器上檢視下列輸出：
 

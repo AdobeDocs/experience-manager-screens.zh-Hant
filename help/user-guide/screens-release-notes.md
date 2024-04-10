@@ -13,9 +13,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -38,10 +38,10 @@ AEM Screens Feature Pack 201809的發行日期為2018年10月1日。
 
 * **Adobe Analytics可讓播放器快取播放事件，並將其傳送至Adobe Analytics**：請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以進一步瞭解。
 
-* **大量更新離線內容**：可讓您大量更新所有管道，並避免導覽至特定管道和更新內容的麻煩。 請參閱 [大量離線更新](bulk-offline-update.md) 以進一步瞭解。
+* **大量更新離線內容**：可讓您大量更新所有管道，並避免導覽至特定管道和更新內容的麻煩。 另請參閱 [大量離線更新](bulk-offline-update.md) 以進一步瞭解。
 
 * **大量發佈管道以發佈執行個體**
-* **增強型播放器記錄機制**：您可以指定AEM Screens播放器的記錄檔數目上限。 請參閱 [使用AEM Screens播放器](working-with-screens-player.md) 以取得更多詳細資料。
+* **增強型播放器記錄機制**：您可以指定AEM Screens播放器的記錄檔數目上限。 另請參閱 [使用AEM Screens播放器](working-with-screens-player.md) 以取得更多詳細資料。
 
 * **作者/發佈部署（強化）**
 

@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1176'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/channel-assign1.png)
 
-   您可以從以下位置設定屬性： **頻道指定任務** 對話方塊。 請參閱 [頻道屬性](#channel-properties) 區段，以進一步瞭解管道屬性。
+   您可以從以下位置設定屬性： **頻道指定任務** 對話方塊。 另請參閱 [頻道屬性](#channel-properties) 區段，以進一步瞭解管道屬性。
 
 ## 透過頻道指定任務瞭解頻道屬性 {#channel-properties}
 

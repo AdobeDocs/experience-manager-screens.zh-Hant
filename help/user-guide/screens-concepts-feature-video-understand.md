@@ -1,6 +1,5 @@
 ---
 title: AEM Screens概觀影片
-seo-title: AEM Screens Overview Video
 description: AEM Screens是數位看板解決方案，行銷人員可將此動態和互動式數位體驗發佈至不同型別的熒幕。
 contentOwner: dgordon
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -8,7 +7,7 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 1. Screens播放器
 
-若要下載AEM Screens Player，請按一下 [此處](https://download.macromedia.com/screens/). 此外，AEM Screens也適用於 [Google Play商店](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+若要下載AEM Screens Player，請選取 [此處](https://download.macromedia.com/screens/). 此外，AEM Screens也適用於 [Google Play商店](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 以下影片詳細說明如何建立新管道、撰寫新內容，以及將管道新增至可重複使用的排程。 大致上來說，它會遵循 [Screens Kickstart指南](kickstart-for-aem-screens.md).
 

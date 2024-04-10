@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1258'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 3%
 1. 按一下 **編輯** 從動作列的左上角，編輯色版屬性。 編輯器會開啟，讓您新增資產/元件至您要發佈的管道。
 
 >[!NOTE]
->您可以將元件新增至頻道。 請參閱 **[新增元件至管道](adding-components-to-a-channel.md)** 以取得更多詳細資料。
+>您可以將元件新增至頻道。 另請參閱 **[新增元件至管道](adding-components-to-a-channel.md)** 以取得更多詳細資料。
 
 ![demochannel1](assets/demochannel1.gif)
 

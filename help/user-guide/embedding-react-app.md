@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >此原型會建立最低限度的Adobe Experience Manager專案，作為您自己的SPA專案起點。 使用此原型時必須提供的屬性允許根據需要命名此專案的所有部分。
+   >此原型會建立最低限度的Adobe Experience Manager專案，作為您專屬SPA專案的起點。 使用此原型時必須提供的屬性允許根據需要命名此專案的所有部分。
 
-1. 依照Readme指示建立AEM SPA編輯器原型專案：
+1. 依照Readme說明建立AEM SPA編輯器原型專案：
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >我們使用 **群組ID** 作為 ***com.adobe.aem.screens*** 和 **ArtifactId** 作為 ***我的範例SPA*** （這是預設值）。 您可以視需要選擇自己的專案。
+   >我們使用 **群組ID** 作為 ***com.adobe.aem.screens*** 和 **ArtifactId** 作為 ***我的SPA範例*** （為預設值）。 您可以視需要選擇自己的網站。
 
 1. 建立專案後，請使用您選擇的IDE或編輯器並匯入產生的Maven專案。
 1. 使用命令部署到您的本機AEM執行個體 ***mvn全新安裝 — PautoInstallPackage***.
@@ -58,31 +58,31 @@ ht-degree: 0%
 
 若要編輯REACT應用程式中的內容：
 
-1. 導覽至 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` （如適用，請取代主機名稱、連線埠和專案名稱）。
-1. 您應該能夠編輯Hello world應用程式中顯示的文字。
+1. 瀏覽至 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` （適當時取代主機名稱、連線埠和專案名稱）。
+1. 您應該能夠編輯顯示在Hello world應用程式中的文字。
 
 ### 將互動式REACT應用程式新增至AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
 請依照下列步驟，將互動式REACT應用程式新增至AEM Screens：
 
-1. 建立新的AEM Screens專案。 請參閱 [建立和管理專案](creating-a-screens-project.md) 以取得更多詳細資料。
+1. 建立新的AEM Screens專案。 另請參閱 [建立和管理專案](creating-a-screens-project.md) 以取得更多詳細資料。
 
-1. 建立新的 **應用程式頻道** （最好是） （或1x1範本或多區域頻道） **頻道** 畫面專案的資料夾。
+1. 建立新的 **應用程式頻道** （最好是） （或1x1範本，或多區域管道） **頻道** 畫面專案的資料夾。
 
    >[!NOTE]
-   >**序列頻道** 不建議在此使用案例中使用，因為它們本身附帶的幻燈片邏輯將與體驗的互動性質衝突
-   >請參閱 [建立和管理管道](managing-channels.md) 以取得更多詳細資料。
+   >**順序頻道** 不建議在此使用案例中使用，因為其內建的幻燈片邏輯將會與體驗的互動性質衝突
+   >另請參閱 [建立和管理管道](managing-channels.md) 以取得更多詳細資料。
 
 
-1. 編輯任何序列頻道，並拖放內嵌的頁面元件。
+1. 編輯任何順序色版，並拖放內嵌的頁面元件。
 
-   請參閱 [新增元件至管道](adding-components-to-a-channel.md) 以取得更多詳細資料。
+   另請參閱 [新增元件至管道](adding-components-to-a-channel.md) 以取得更多詳細資料。
 
    >[!NOTE]
    >
    >請務必在指派頻道給顯示區時新增使用者互動事件。
 
-1. 按一下 **編輯** 以編輯頻道屬性。
+1. 按一下 **編輯** 以編輯該管道的屬性。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
@@ -95,9 +95,9 @@ ht-degree: 0%
    >[!NOTE]
    >請務必在指派頻道給顯示區時新增使用者互動事件。
 
-1. 針對此專案註冊播放器，並將其指派給顯示區。 您現在應該能夠看到您的互動式應用程式在AEM Screens上執行。
+1. 針對此專案註冊播放器，並將其指派給顯示區。 現在，您應該能夠看到互動式應用程式在AEM Screens上執行。
 
-   請參閱 [裝置註冊](device-registration.md) 以詳細瞭解如何註冊裝置。
+   另請參閱 [裝置註冊](device-registration.md) 以詳細瞭解註冊裝置。
 
 ## 透過AEM Screens將SPA與Adobe Analytics與離線功能整合 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,12 +105,12 @@ ht-degree: 0%
 
 1. 在AEM Screens中設定Adobe Analytics。
 
-   請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 瞭解如何使用AEM Screens在Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件。
+   另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 瞭解如何使用AEM Screens在Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件。
 
-1. 在您選擇的IDE/編輯器中編輯您的react應用程式（尤其是文字元件或您要開始發出事件的其他元件）。
+1. 在您選擇的IDE/編輯器中編輯您的react應用程式（尤其是文字元件或您想要開始發出事件的其他元件）。
 1. 在您要為元件擷取的點選事件或其他事件上，使用標準資料模型新增分析資訊。
 
-   請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)s以取得更多詳細資料。
+   另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)s以取得更多詳細資料。
 
 1. 呼叫AEM Screens Analytics API以離線儲存事件，並以突發方式傳送至Adobe Analytics。
 
@@ -140,4 +140,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >播放器韌體會自動將有關播放器及其執行階段環境的更多詳細資訊，新增至您傳送的自訂分析資料。 因此，除非絕對必要，否則您可能不需要擷取低階作業系統/裝置詳細資料。 您只需要專注於業務分析資料。
+   >播放器韌體會自動將有關播放器及其執行階段環境的更多詳細資訊，新增至您傳送的自訂分析資料。 因此，除非絕對必要，否則您可能不需要擷取低階作業系統/裝置的詳細資料。 您只需要專注於業務分析資料。

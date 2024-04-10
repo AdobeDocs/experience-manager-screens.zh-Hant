@@ -1,14 +1,14 @@
 ---
 title: Feature Pack 202203發行說明
-description: 請詳閱本頁，瞭解2022年3月25日發行的AEM Screens Feature Pack 202203的相關資訊。
+description: 請詳閱本頁，以取得2022年3月25日發行的AEM Screens Feature Pack 202203資訊。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: a6708e1d91383c076ed822b50b9f37de163361c8
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 6%
+source-wordcount: '265'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 AEM Screens已發行AEM 6.5 Feature Pack 11。
 
-您可以從以下網站下載AEM Screens 6.5.11版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP11**.
+若要下載AEM Screens 6.5.11版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP11**.
 
 ## 發行日期 {#release-date}
 
@@ -37,7 +37,7 @@ AEM Screens Feature Pack 202203的發行日期為2022年3月25日。
 
 * FP10之後，熒幕監視電子郵件無法運作。 此問題現在已修正。
 
-* 在直向模式下擷取熒幕擷圖時，Windows播放器當機。 此問題現在已修正。
+* 以直向模式擷取熒幕擷圖時，Windows播放器當機。 此問題現在已修正。
 
 * Screens SPA頻道導致Windows Player出現白色熒幕。 此問題現在已修正。
 
@@ -51,7 +51,7 @@ AEM Screens Feature Pack 202203的發行日期為2022年3月25日。
 
 下列AEM Screens Player已針對AEM 6.5 Feature Pack 11發行：
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Tizen
 * Android

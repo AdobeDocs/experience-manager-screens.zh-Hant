@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 1. 按一下 **儲存並關閉** 以更新設計路徑。
 
    >[!IMPORTANT]
-   >您可以選擇覆蓋現有的Screens範本，依預設插入您自己的設計或完全建立您自己的範本。 如需更多詳細資訊，請參閱以下步驟。
+   >您可以選擇覆蓋現有的Screens範本，依預設插入您自己的設計或完全建立您自己的範本。 如需詳細資訊，請參閱下列步驟。
 
 1. 若要依預設覆蓋現有的Screens範本以插入您自己的設計：
 

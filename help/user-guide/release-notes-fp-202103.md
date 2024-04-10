@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 2%
 
 ---
@@ -33,14 +33,14 @@ AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
   手動大量註冊數千個播放器不僅費時費力，而且增加了時間和成本。 為簡化此程式，「自動註冊播放器」功能可讓您在AEM中指定預先共用金鑰。 此金鑰可透過設定檔案或行動裝置管理(MDM)解決方案布建至播放器。
 
-  請參閱 [自動註冊播放器](/help/user-guide/auto-registration-players.md) 以取得更多詳細資料。
+  另請參閱 [自動註冊播放器](/help/user-guide/auto-registration-players.md) 以取得更多詳細資料。
 
 
 * **使用企業行動性管理大量布建Android™ Player**
 
   大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 強烈建議使用EMM （企業行動管理）解決方案，例如 `VMWare Airwatch`， `MobileIron`，或 `Samsung Knox` 從遠端布建及管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
 
-  請參閱 [使用企業行動性管理大量布建Android™ Player](/help/user-guide/implementing-android-player.md#implementation) 以取得更多詳細資料。
+  另請參閱 [使用企業行動性管理大量布建Android™ Player](/help/user-guide/implementing-android-player.md#implementation) 以取得更多詳細資料。
 
 
 ### 錯誤修正 {#bug-fixes}

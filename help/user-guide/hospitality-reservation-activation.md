@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在開始實行預訂啟用之前，您必須學習如何設定 ***資料存放區***， ***對象細分*** 和 ***啟用頻道目標定位*** 在AEM Screens專案中。
 
-請參閱 [在AEM Screens中設定ContextHub](configuring-context-hub.md) 以取得詳細資訊。
+另請參閱 [在AEM Screens中設定ContextHub](configuring-context-hub.md) 以取得詳細資訊。
 
 ## 基本流量 {#basic-flow}
 

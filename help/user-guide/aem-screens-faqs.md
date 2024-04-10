@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -214,9 +214,9 @@ Windows Player中沒有視窗模式。 永遠是全熒幕模式。
 ### 2.如何新增Oak索引資訊？ {#add-oak-index-info}
 
 AEM Screens會為產品使用的查詢建立索引定義。
-如果有任何 *查詢周遊WARN* 在 `error.log`，為您的查詢建立自訂索引。 請參閱 [設定索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) 以取得更多詳細資料。
+如果有任何 *查詢周遊WARN* 在 `error.log`，為您的查詢建立自訂索引。 另請參閱 [設定索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) 以取得更多詳細資料。
 
-您也可以參閱上的其他資源 [Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+您也可以在下看到其他資源： [Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3.設定v3資訊清單需要哪些條件？ {#configure-v3}

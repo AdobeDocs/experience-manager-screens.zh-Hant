@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Dispatcher是Adobe Experience Manager的快取和/或負載平衡工具。
 >如果沒有Dispatcher，請停用OSGi元件清單中的註冊servlet。
 
 在為AEM Screens專案設定Dispatcher之前，您必須先瞭解Dispatcher。
-請參閱 [設定Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 以取得更多詳細資料。
+另請參閱 [設定Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 以取得更多詳細資料。
 
 ## 為資訊清單版本v2設定Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->下列Dispatcher設定僅適用於Manifest版本v2。 請參閱 [資訊清單版本v3的Dispatcher設定](#configuring-dispatcherv3) 資訊清單版本v3。
+>下列Dispatcher設定僅適用於Manifest版本v2。 另請參閱 [資訊清單版本v3的Dispatcher設定](#configuring-dispatcherv3) 資訊清單版本v3。
 
 AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行個體中的資源。 因此，當您有多個發佈執行個體時，請求應一律移至相同的發佈執行個體，這樣已驗證的工作階段就會對來自AEM Screens播放器/裝置的所有請求有效。
 

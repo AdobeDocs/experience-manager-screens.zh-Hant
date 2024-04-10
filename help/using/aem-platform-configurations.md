@@ -1,57 +1,56 @@
 ---
-title: AEM 平台組態
-seo-title: AEM Platform Configurations
+title: AEM平台組態
 description: 此頁面說明AEM平台組態
-seo-description: The page describes AEM Platform Configurations
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '447'
+ht-degree: 3%
 
 ---
 
-# AEM 平台組態  {#platform-configurations}
+# AEM平台組態  {#platform-configurations}
 
 >[!NOTE]
 >
 >此活動的典型利害關係人是AEM實作人員。
 
-請依照下列各節所述，設定AEM平台設定，以開始使用AEM Screens。
+若要開始使用AEM Screens，請遵循以下區段來設定AEM平台設定
 
 ## 伺服器設定 {#server-configurations}
 
-若要設定伺服器組態，請參閱 [伺服器設定](https://helpx.adobe.com/experience-manager/6-5/screens/using/configuring-screens-introduction.html#ServerConfiguration).
+若要設定伺服器組態，請參閱 [伺服器設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Author-Publish {#author-publish}
 
-若要設定作者 — 發佈，請參閱 [在AEM Screens中設定作者和發佈](https://helpx.adobe.com/tw/experience-manager/6-5/screens/using/author-and-publish.html)
+另請參閱 [在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->如果只有一個作者和一個發佈，則您只需要遵循在[「在 AEM Screens 中設定作者和發佈」](https://helpx.adobe.com/tw/experience-manager/6-5/screens/using/author-and-publish.html)頁面中&#x200B;**「在作者上設定複製代理」**&#x200B;下方的步驟。
+>如果只有一個「作者」和一個「發佈」，您只能遵循下的步驟 **在作者上設定復寫代理** 在 [在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 頁面。
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 
-Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。使用 AEM 的 Dispatcher 也有助於保護您的 AEM 伺服器不受攻擊。因此，您可以搭配使用 Dispatcher 與企業級 Web 伺服器，以提高 AEM 例項的安全性。
+Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AEM 的 Dispatcher 也有助於保護您的 AEM 伺服器不受攻擊。因此，您可以將Dispatcher搭配企業級網頁伺服器使用，以提高AEM執行個體的安全性。
 
-請參閱 **[適用於AEM Screens的Dispatcher設定](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** 它會重點說明為AEM Screens專案設定Dispatcher的准則。
+另請參閱 **[適用於AEM Screens的Dispatcher設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** 它會強調為AEM Screens專案設定Dispatcher的准則。
 
 ## 安裝FFMpeg和視訊轉譯 {#installing-ffmpeg}
 
 請依照適當作業系統（通常是RHEL）的步驟安裝FFMpeg：
 
-1. 如果透過啟用EPEL和RPMFusion進行安裝，您可以安裝所有gstreamer轉碼器，以擴大對FFmpeg轉換的支援
-1. 如果AAC轉碼器標示為實驗性，ffmpeg轉換將會失敗。 為避免此問題，請在視訊設定檔中新增 — strict -2 (在AEM 6.3中為/etc/dam/video，在AEM 6.4中為/libs/settings/dam/video)
+1. 如果透過啟用EPEL和RPMFusion進行安裝，您可以安裝所有的gstreamer轉碼器，以擴大對FFmpeg轉換的支援
+1. 如果AAC轉碼器標示為實驗性，ffmpeg轉換會失敗。 若要避免此新增 `-strict -2` 至視訊設定檔(AEM 6.3中的/etc/dam/video，並移至AEM 6.4中的/libs/settings/dam/video)
+
    >[!NOTE]
    >
-   > 請注意，-strict -2必須是引數清單中的最後一個引數。 此外，在AEM 6.4中，您需要複製 */libs/settings/dam/video* 至 */conf/global/settings/dam/video* 如中所述 [視訊轉譯](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
-1. 確認正在發生視訊轉換且正在建立轉譯。
+   >此 `-strict -2` 必須是引數清單中的最後一個引數。 此外，在AEM 6.4中，您必須複製 */libs/settings/dam/video* 至 */conf/global/settings/dam/video* 如中所述 [視訊轉譯](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+1. 確認已進行視訊轉換，且正在建立轉譯。
 
 ## 密碼限制 {#password-restrictions}
 
-需要在AMS執行個體上停用AEM的密碼原則。 您可以使用Screens裝置服務，在Web主控台中另外設定此設定 *com.adobe.cq.screens.device.impl.DeviceService*
-請參閱 **密碼限制** 中的區段[在AEM Screens中設定作者和發佈](https://helpx.adobe.com/tw/experience-manager/6-5/screens/using/author-and-publish.html)
+必須在AMS執行個體上停用AEM的密碼原則。 這可以在Web主控台中使用Screens裝置服務進行交替設定 *com.adobe.cq.screens.device.impl.DeviceService*
+另請參閱 **密碼限制** 中的區段[在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## 設定環境 {#setting-up-environments}
 
@@ -59,17 +58,17 @@ Dispatcher 是 Adobe Experience manager 的快取和/或負載平衡工具。使
 
 * AEM Service Pack
 * Screens Feature Pack
-* AEM 累積修正套件
+* AEM Cumulative Fix Pack
 
 除了上述內容，請識別所需的任何開發套件（例如WCM核心元件）或協力廠商工具套件（例如SAP Hybris）。
-在本機開發環境中安裝相同的軟體套件。 指示您的使用者端在其所有QA、Stage和生產伺服器上採用相同的設定。 不相符的伺服器設定會在部署和測試時造成問題。
+在本機開發環境中安裝相同的軟體套件。 指示您的使用者端在其所有QA、Stage及生產伺服器上採用相同的設定。 不相符的伺服器設定會在部署和測試時造成問題。
 
 >[!NOTE]
 >
->若要安裝AEM Screens的最新Feature Pack，請參閱 [發行說明](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>若要安裝AEM Screens的最新Feature Pack，請參閱 [發行說明](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## 設定ACL {#setting-up-acls}
 
-設定ACL說明如何區隔專案，以便每個個人或團隊處理自己的專案。
+設定ACL說明如何區隔專案，讓每個個人或團隊處理自己的專案。
 
-請參閱 [設定ACL](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) 以取得更多詳細資料。
+請參閱 [設定ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) 以取得更多詳細資料。

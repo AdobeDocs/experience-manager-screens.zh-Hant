@@ -1,7 +1,7 @@
 ---
 title: Feature Pack 201907發行說明
 seo-title: Release Notes for Feature Pack 201907
-description: 請詳閱本頁，瞭解2019年7月31日發行的AEM Screens Feature Pack 201907的相關資訊。
+description: 請詳閱本頁，以取得2019年7月31日發行的AEM Screens Feature Pack 201907資訊。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
@@ -14,10 +14,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 2%
 
 ---
 
@@ -37,42 +37,42 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 * **資料觸發程式推動AEM Screens頻道中的資產變更**
 
-播放器會在收到緊急系統引發的事件時，切換至顯示緊急資訊的頻道。 此頻道會一直獨家播放，直到緊急狀況結束為止。
+播放器會在收到緊急系統引發的事件時，切換為顯示緊急資訊的頻道。 該頻道僅在緊急狀況結束後播放。
 
-請參閱 [緊急通道](emergency-channel.md) 實施的使用案例。
+另請參閱 [緊急通道](emergency-channel.md) 實作的使用案例。
 
 * **非同步元件已啟用鎖定目標
 
 現在可以針對AEM Screens專案中使用的資產啟用目標定位。
 
-若要進一步瞭解如何在AEM Screens專案中啟用資產目標定位，請參閱 [在AEM Screens中設定ContextHub](configuring-context-hub.md).
+若要深入瞭解如何在AEM Screens專案中啟用資產目標定位，請參閱 [在AEM Screens中設定ContextHub](configuring-context-hub.md).
 
-在您為AEM Screens專案設定ContextHub後，請依照不同的使用案例來瞭解資料觸發的資產如何在不同的產業中扮演重要角色：
+為AEM Screens專案設定ContextHub後，請依照不同使用案例瞭解資料觸發的資產如何在不同產業中扮演重要角色：
 
 **[零售詳細目錄目標啟動](retail-inventory-activation.md)**
 
 **[旅行中心溫度啟用](local-temperature-activation.md)**
 
-**[Hospality Reservation Activation](hospitality-reservation-activation.md)**
+**[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
 
 * **更新處理常式的改進**
 
 更新處理常式現在會剖析體驗片段並收集與其相關聯的任何影像、影片或產品。
 
-* **Launch**
+* **啟動**
 
-啟動可讓內容作者建立管道的未來版本。 在啟動項的協助下，作者可以預覽啟動項中的每個管道，且應該能夠起始稽核請求。 核准者群組將收到通知，可以核准或拒絕請求。 當到達上線日期時，內容會在裝置中播放。
-請參閱 [啟動](launches.md) 以取得更多詳細資料。
+啟動可讓內容作者建立未來版本的管道。 藉助啟動項，作者可預覽啟動項中的每個管道，且應能提出檢閱請求。 核准者群組將收到通知，可以核准或拒絕請求。 當到達上線日期時，內容會在裝置播放。
+另請參閱 [啟動](launches.md) 以取得更多詳細資料。
 
 * **體驗片段中的離線設定**
 
-您現在可以在設定Screens體驗片段時新增離線設定（使用者端程式庫和靜態檔案）。 請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
+您現在可以在設定Screens體驗片段時新增離線設定（使用者端程式庫和靜態檔案）。 另請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
 
 ### 已發行的AEM Screens Players {#released-aem-screens-players}
 
 下列AEM Screens Player已針對AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1發行：
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 

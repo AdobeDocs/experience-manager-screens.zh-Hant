@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要深入瞭解作者與發佈架構概覽，以及如何在AEM Author例項上撰寫內容，然後轉送復寫至多個Publish例項，請參閱 [製作與發佈架構概覽](author-publish-architecture-overview.md).
+>若要深入瞭解作者與發佈架構概覽，以及如何在AEM Author執行個體上製作內容，然後轉送復寫至多個Publish執行個體，請參閱 [製作與發佈架構概覽](author-publish-architecture-overview.md).
 
 以下章節說明如何在製作和發佈拓撲上設定復寫代理程式。
 
@@ -306,7 +306,7 @@ Screens需要三個復寫代理：
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-此 **管理發布** 功能可讓您傳遞從「作者」到「發佈至裝置」的內容更新。 您可以為整個AEM Screens專案或僅限其中一個管道、位置、裝置、應用程式或排程發佈/取消發佈內容。 若要進一步瞭解此功能，請參閱 [隨選內容更新](on-demand-content.md).
+此 **管理發布** 功能可讓您傳遞從「作者」到「發佈至裝置」的內容更新。 您可以為整個AEM Screens專案或僅限其中一個管道、位置、裝置、應用程式或排程發佈/取消發佈內容。 若要深入瞭解此功能，請參閱 [隨選內容更新](on-demand-content.md).
 
 ## 疑難排解提示 {#troubleshoot-tips}
 

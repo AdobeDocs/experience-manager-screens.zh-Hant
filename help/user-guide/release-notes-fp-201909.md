@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -30,13 +30,13 @@ AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
 
   現在提供建立AEM Screens專案的更新使用者介面。 只要按幾下滑鼠，即可建立畫面專案。 此外，每個專案的屬性標籤現在都有更直覺的使用者介面。
 
-  請參閱 [建立新的畫面專案](creating-a-screens-project.md) 以取得更多詳細資料。
+  另請參閱 [建立新的畫面專案](creating-a-screens-project.md) 以取得更多詳細資料。
 
 * **增強型裝置控制面板**
 
   裝置儀表板會顯示裝置資訊、狀態、熒幕擷取畫面、記錄、偏好設定，以及可讓您監視裝置活動和功能的裝置詳細資訊。 面板現已更新。
 
-  請參閱 [疑難排解裝置控制中心](monitoring-screens.md) 以取得更多詳細資料。
+  另請參閱 [疑難排解裝置控制中心](monitoring-screens.md) 以取得更多詳細資料。
 
 * **啟用逾時以允許鍵盤互動**
 
@@ -45,7 +45,7 @@ AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
 * **體驗片段中的離線設定**
 
   您現在可以在設定Screens體驗片段時新增離線設定（使用者端程式庫和靜態檔案）。
-請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
+另請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
 
 ### 已發行的AEM Screens Players
 

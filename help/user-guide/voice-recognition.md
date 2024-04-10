@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >使用語音辨識功能時，請遵循您所在地區的所有適用法律和道德准則（包括但不限於向使用者提供播放器正在使用語音辨識的可見通知）。 Adobe Inc不會接收、儲存或處理任何語音相關資訊。 AEM Screens播放器使用內建在瀏覽引擎中的標準網頁語音API。 在幕後，此API會將您語音的波形傳送至Google的伺服器，以進行從語音到文字的轉換，而此文字會由播放器根據設定的關鍵字進行比對。
 >
->請參閱 [網頁語音API的Google隱私權白皮書](https://www.google.com/chrome/privacy/whitepaper.html#speech) 以取得更多詳細資料。
+>另請參閱 [網頁語音API的Google隱私權白皮書](https://www.google.com/chrome/privacy/whitepaper.html#speech) 以取得更多詳細資料。
 
 
 語音辨識功能可讓AEM Screens頻道在語音互動驅動下變更內容。
@@ -173,7 +173,7 @@ ht-degree: 2%
 完成上述步驟後，您可以註冊Chrome裝置以檢視輸出。
 
 >[!NOTE]
->請參閱 [裝置註冊](device-registration.md) 以瞭解如何在AEM Screens播放器上註冊裝置。
+>另請參閱 [裝置註冊](device-registration.md) 以瞭解如何在AEM Screens播放器上註冊裝置。
 
 **順序頻道的所需輸出**
 

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >若要進一步瞭解如何在您的管道中建立多區域版面配置，請參閱 [多區域配置](multi-zone-layout-aem-screens.md).
+   >若要進一步瞭解如何在您的頻道中建立多區域版面配置，請參閱 [多區域配置](multi-zone-layout-aem-screens.md).
 
 
 1. 建立另一個標題為 **TakeoverChannel** 至您的 **頻道** 資料夾。

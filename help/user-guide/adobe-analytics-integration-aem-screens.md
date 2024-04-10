@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->此AEM Screens功能僅在您已安裝AEM 6.4.2 Feature Pack 2或AEM 6.3.3 Feature Pack 4的最低版本時可用。 若為AEM Screens雲端服務客戶，請聯絡您的Adobe關係管理員，以在Screens Cloud中啟用Adobe Analytics。
+>此AEM Screens功能僅在您已安裝AEM 6.4.2 Feature Pack 2或AEM 6.3.3 Feature Pack 4的最低版本時可用。 若為AEM Screens Cloud Service客戶，請聯絡您的Adobe關係管理員，以在Screens Cloud中啟用Adobe Analytics。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Adobe Analytics設定可從OSGi主控台進行設定。
 
 >[!CAUTION]
 >
->在您設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
+>在設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
 
 ![]()
 
@@ -81,7 +81,7 @@ Adobe Analytics設定可從OSGi主控台進行設定。
 
 >[!CAUTION]
 >
->在您設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
+>在設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
 
 下錶針對為AEM Screens設定Adobe Analytics的屬性及其說明提供重點說明：
 

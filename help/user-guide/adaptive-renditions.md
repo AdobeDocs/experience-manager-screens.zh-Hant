@@ -2,9 +2,9 @@
 title: 最適化轉譯架構概觀和設定
 description: 本頁面說明AEM Screens最適化轉譯之CRXDE Lite的架構概觀和設定。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 2%
 1. 您必須使用包含查詢運算式的值來新增運算式屬性。
 
    >[!NOTE]
-   >請參閱 [使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) 以進一步瞭解。
+   >另請參閱 [使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) 以進一步瞭解。
 
    按一下 **rule1** ，然後輸入 **運算式** 在 **名稱** 和 **(orientation：landscape)** 在 **值**，如下所示。 按一下 **新增**.
 

@@ -1,13 +1,13 @@
 ---
 title: Feature Pack 202109發行說明
-description: 請詳閱本頁，以取得2021年9月23日發行的AEM Screens Feature Pack 202109資訊。
+description: 瞭解關於2021年9月23日發行的AEM Screens Feature Pack 202109。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 # Feature Pack 202109發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
@@ -31,17 +31,17 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **影片的縮圖支援**
 
-  AEM Screens現在支援影片的縮圖支援。 內容作者可以定義影片的縮圖，讓影像可以當做預留位置使用，並適當測試內容播放和目標定位，同時由適當的團隊完成實際影片。 如果影片播放失敗，也可以使用該影像。
+  AEM Screens現在支援影片的縮圖支援。 內容作者會定義影片的縮圖，好讓影像可當做預留位置使用。 他們也會適當測試內容播放和目標定位，同時由適當的團隊完成實際影片。 如果影片播放失敗，也可以使用該影像。
 另請參閱 [影片的縮圖支援](/help/user-guide/thumbnail-support.md) 以取得更多詳細資料。
 
 * **基本播放監視**
 
-  AEM Screens現在可支援基本播放監控。 播放器現在會報告每次ping （預設為30秒鐘）的各種播放量度。 根據量度，它提供偵測各種邊緣情況（停滯體驗、空白熒幕、排程問題等）的能力。 此功能可讓團隊在遠端監視播放器是否正確播放內容、改善對空白熒幕的反應或現場中斷的體驗，並降低向一般使用者顯示中斷體驗的風險。
-另請參閱 [基本播放監視](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 以取得更多詳細資料。
+  AEM Screens現在可支援基本播放監控。 播放器現在會報告每次ping （預設為30秒鐘）的各種播放量度。 它會根據量度偵測各種邊緣情況（停滯體驗、空白熒幕、排程問題等）。 此功能可讓團隊在遠端監視播放器是否正確播放內容，並改善對空白熒幕或現場中斷體驗的反應能力。 這也會降低向一般使用者顯示中斷體驗的風險。
+另請參閱 [基本播放監視](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) 以取得更多詳細資料。
 
 * **內容指派報告的更新**
 
-  內容指派報告現已最佳化並改善，並包含增強型使用者體驗。 可下載的報表在一個試算表標籤中顯示已改良的播放器相關實體（例如位置、顯示和裝置），並在其他標籤中顯示內容提供者資訊（例如管道和資產）。
+  內容指派報告現已最佳化並改善，並包含增強型使用者體驗。 可下載的報表會在一個試算表標籤中顯示位置、顯示器和裝置等改良的播放器相關實體，並在其他標籤中顯示頻道和資產等內容提供者資訊。
 另請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
 
 * **最適化轉譯**
@@ -50,35 +50,35 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
   身為AEM Screens開發人員，您現在可以設定自動下載和播放裝置專屬的資產轉譯，而不需要手動建立所有內容變數。 另請參閱 [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md) 以取得更多詳細資料。
 
-  此外，身為AEM Screens內容作者，您可以設定資產以使用最適化轉譯，並移轉裝置至大型網路以在AEM Screens管道中使用此功能。 另請參閱 [在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 以取得更多詳細資料。
+  此外，身為AEM Screens內容作者，您可以設定資產以使用最適化轉譯。 您也可以移轉大型網路的裝置，以便在AEM Screens管道中使用此功能。 另請參閱 [在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 以取得更多詳細資料。
 
 * **支援V3資訊清單**
 
-  您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您需要：
+  您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您必須：
 
-   * 清除作者和已發佈中的任何擱置離線內容工作
+   * 清除作者和已發佈中的任何擱置離線內容工作。
 
-      * 在作者和發佈中導覽至crx/de
+      * 在「作者」和「發佈」中導覽至「CRXDE Lite」 。
 
-      * 按一下「工具>查詢」
+      * 按一下「工具」>「查詢」。
 
-      * 在查詢中使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * 在查詢中，使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * 這會列出佇列中目前正在執行或擱置的所有離線內容工作
+      * 這會列出佇列中目前正在執行或擱置的所有離線內容工作。
 
-      * 等到查詢傳回的離線內容工作已不存在
+      * 等到查詢傳回的離線內容工作已不存在。
 
-   * 在中停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+   * 在中停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * 在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   * 在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
-   * 更新Dispatcher
+   * 更新Dispatcher。
 
-   * 更新自訂元件
+   * 更新自訂元件。
 
 
-   * 另請參閱 [為資訊清單版本v3設定Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以取得更多詳細資料。
-   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * 另請參閱 [為資訊清單版本v3設定Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) 以取得更多詳細資料。
+   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### 錯誤修正 {#bug-fixes}
@@ -99,11 +99,11 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 已移除對的存取權 `cmd.exe` 和 `reg.exe` 在windows player中。
 
-* 播放器需要報告其上一個成功播放事件。
+* 播放器必須報告其最後成功的播放事件。
 
-* 播放器需要報告其播放狀態。
+* 播放器必須回報其播放狀態。
 
-* 播放器未在下列情況時重新下載資產： `ALL` 快取已清除。
+* 當發生下列情況時，播放器不會重新下載資產 `ALL` 快取已清除。
 
 * 身為播放器管理員，您現在可以選擇播放器名稱。
 
@@ -150,16 +150,16 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 視訊正在播放 `Tiny mode` 且未在裝置上以全熒幕視訊播放，問題已修正。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已發行的AEM Screens Players
 
 下列AEM Screens Player已針對AEM 6.5 Feature Pack 9發行：
 
 * Chrome OS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下載
 
 若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
