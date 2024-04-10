@@ -1,13 +1,11 @@
 ---
 title: 測試與品質保證
-seo-title: Testing and Quality Assurance for AEM Screens
-description: 頁面說明AEM Screens最佳實務指南的測試和品質保證
-seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+description: 在最佳實務指南中瞭解AEM Screens的測試和品質保證。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -16,14 +14,14 @@ ht-degree: 2%
 >[!NOTE]
 >此活動的一般利害關係人是A/V整合商。
 
-當我們更接近數位看板網路的實際部署時，應該建立測試與QA計畫，解決網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
-在這個階段中，應該建置並完整測試整個測試系統。
+當您接近部署數位看板網路時，請建立測試與QA計畫，解決網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
+在這個階段中，應該建置整個測試系統並進行完整測試。
 
-應建立檢查清單，識別所有先前定義的KPI，並根據它們測量交付成果。
+應建立檢查清單，以識別所有先前定義的KPI並測量其交付成果。
 
 >[!NOTE]
 >
->此階段也應作為建立安裝和使用手冊的工具，之後可隨裝置一併寄出，並保留在現場以供日後參考。
+>此階段也應作為建立安裝和使用者指南的工具，之後可隨裝置一併寄出，並保留在現場以供日後參考。
 
 應考慮以下元素：
 
@@ -52,7 +50,7 @@ ht-degree: 2%
 
 AEM Screens包含Device Control Center模組，可管理Screens播放器應用程式端點。
 
-這指任何 *播放器* 已安裝Screens播放器應用程式且已註冊至AEM執行個體的硬體裝置。
+這指任何 *播放器* 已安裝Screens播放器應用程式並註冊至AEM執行個體的硬體裝置。
 此模組可讓您：
 
 1. 監視播放器應用程式錯誤記錄
@@ -60,28 +58,28 @@ AEM Screens包含Device Control Center模組，可管理Screens播放器應用�
 1. 管理內容下載
 1. 管理應用程式重新啟動問題
 
-若要深入瞭解 ***裝置控制中心***，請參閱 [疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 在 **AEM Screens使用手冊**.
+若要深入瞭解 ***裝置控制中心***，請參閱 [疑難排解裝置控制中心](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 在 **AEM Screens使用手冊**.
 
 >[!CAUTION]
 >
-> 您不應使用「裝置控制中心」來：
-> 1. 安裝播放器應用程式的新版本
-> 1. 監視系統層級資源
-> 1. 疑難排解系統層級錯誤
-> 1. 允許遠端案頭介入
-
+>請勿使用Device Control Center：
+>
+>* 安裝新版本的播放器應用程式
+>* 監視系統層級資源
+>* 疑難排解系統層級錯誤
+>* 允許遠端案頭介入
 
 
 >[!NOTE]
 >
-> Adobe建議所有部署都應使用專用的第三方裝置管理平台。
+> Adobe建議使用專屬的協力廠商裝置管理平台進行所有部署。
 
-選擇的特定平台取決於許多因素，包括 ***目標作業系統***， ***專案需求*** 和 ***端點數目***.
+選擇的特定平台取決於多種因素，包括 ***目標作業系統***， ***專案需求***、和 ***端點數目***.
 
 以下是幾個範例：
 
 * Google Chrome裝置管理
 * 團隊檢視器
 * AirWatch
-* 42Gears
-* 專屬AV Integrator中介軟體
+* `42Gears`
+* 專屬AV整合器中介軟體

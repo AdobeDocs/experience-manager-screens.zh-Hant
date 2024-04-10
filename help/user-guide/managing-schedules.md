@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **時程表** 在AEM Screens中，您可以將管道組織成可重複使用的群組，如此您就不必針對您想要顯示內容的每個顯示分別重複其指派。
 
-與結合時的排程 ***日時段分割***，可讓您設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示設定的。
+排程，與合併時 ***日時段分割***，可讓您設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示設定的。
 
 >[!NOTE]
 >

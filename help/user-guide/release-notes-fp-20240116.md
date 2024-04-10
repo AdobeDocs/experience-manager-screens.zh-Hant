@@ -1,20 +1,21 @@
 ---
 title: Screens Feature Pack 20240116發行說明
-description: 請詳閱本頁，以取得2024年1月16日發行的AEM Screens Feature Pack 20240116資訊。
+description: 深入瞭解2024年1月16日發行的AEM Screens Feature Pack 20240116。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
 # Feature Pack 20240116發行說明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 我們可以從取得最新版本資訊 [此處](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以透過取得最新版本資訊 [此處](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 可用性 {#availability}
 
@@ -36,6 +37,6 @@ AEM Screens Feature Pack 202204的發行日期為2024年1月16日。
 
 * XSS問題位於 `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下載
 
 若要下載最新的AEM Screens播放器，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

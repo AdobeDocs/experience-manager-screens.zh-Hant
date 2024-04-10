@@ -1,33 +1,30 @@
 ---
 title: 使用AEM Screens設定Adobe Analytics
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: 請參照本節，進一步瞭解如何使用離線Adobe Analytics排序和傳送自訂事件
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: 進一步瞭解使用離線Adobe Analytics進行自訂事件排序和傳送。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 9%
+source-wordcount: '614'
+ht-degree: 10%
 
 ---
 
 # 使用AEM Screens設定Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->此AEM Screens功能僅在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時可用。
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->若要存取這兩個Feature Pack，您必須聯絡Adobe支援並請求存取權。 一旦您擁有許可權，就可以從「封裝共用」下載它。
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 本節涵蓋下列主題：
 
@@ -36,25 +33,25 @@ ht-degree: 9%
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-此 ***排序程式*** 從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送具有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存至索引DB，並進一步放入物件存放區。 管理員會根據排程設定，從物件存放區剪下資料，然後進一步在區塊存放區中傳輸資料。 它會嘗試在連線時傳送最大數量的資料。
+此 ***排序程式*** 從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送含有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存到索引DB中，並進一步放入物件存放區中。 它會根據管理員設定的排程剪下物件存放區的資料，然後進一步將資料傳輸到區塊存放區。 它會嘗試在連線時傳送最大數量的資料。
 
 ### 排序圖表 {#sequencing-diagram}
 
-下列順序圖說明Adobe Analytics與AEM Screens的整合：
+下列順序圖表說明Adobe Analytics與AEM Screens的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
 ## 使用離線Adobe Analytics傳送自訂事件 {#sending-custom-events-using-offline-adobe-analytics}
 
-下表總結列出事件的標準資料模型。 其中列出傳送至Adobe Analytics的所有欄位：
+下表摘要列出事件的標準資料模型。 其中列出傳送至Adobe Analytics的所有欄位：
 
 <table>
  <tbody>
   <tr>
-   <td><strong>章節</strong></td> 
+   <td><strong>區段</strong></td> 
    <td><strong>屬性標籤</strong></td> 
    <td><strong>屬性名稱/金鑰</strong></td> 
-   <td><strong>必要</strong></td> 
+   <td><strong>必填</strong></td> 
    <td><strong>資料類型</strong></td> 
    <td><strong>屬性型別</strong><br /> </td> 
    <td><strong>說明</strong></td> 
@@ -66,7 +63,7 @@ ht-degree: 9%
    <td>建議</td> 
    <td>字串</td> 
    <td>UUID</td> 
-   <td>識別事件執行個體的唯一ID</td> 
+   <td>識別事件例項的唯一ID</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -84,7 +81,7 @@ ht-degree: 9%
    <td>建議</td> 
    <td>字串</td> 
    <td>時間戳記 — UTC</td> 
-   <td>事件開始日期時間，如果您未指定此時間，則會將事件時間假設為伺服器收到該事件的時間</td> 
+   <td>事件開始日期時間，如果您未指定此時間，則會假設事件時間為伺服器收到該事件的時間</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,10 +105,10 @@ ht-degree: 9%
    <td> </td> 
    <td>主要DMe類別</td> 
    <td>event.category</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 —  <strong>我們傳送播放器</strong></td> 
+   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 —  <strong>播放器已傳送</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,13 +117,13 @@ ht-degree: 9%
    <td>建議</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>子類別 — 工作流程的區段或熒幕區域等。 （最近使用的檔案、CC檔案、行動裝置建立等）。</td> 
+   <td>子類別 — 工作流程的區段或熒幕的區域等。 （最近使用的檔案、CC檔案、行動建立等）。</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>事件/動作型別</td> 
    <td>event.type</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
    <td>事件型別（轉譯、按一下、捏合、縮放） — 主要使用者動作</td> 
@@ -138,7 +135,7 @@ ht-degree: 9%
    <td>建議</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>事件子型別（建立、更新、刪除、發佈等）  — 使用者動作的其他詳細資訊</td> 
+   <td>事件子型別（建立、更新、刪除、發佈等） — 使用者動作的詳細資訊</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -147,7 +144,7 @@ ht-degree: 9%
    <td>可選</td> 
    <td>布林值</td> 
    <td> </td> 
-   <td>動作離線/上線時產生事件(true/false)</td> 
+   <td>動作離線/上線(true/false)時產生事件</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -169,12 +166,12 @@ ht-degree: 9%
   </tr>
   <tr>
    <td> </td> 
-   <td>裝置GUI</td> 
+   <td>裝置GUID</td> 
    <td>event.device_guid</td> 
    <td>可選</td> 
    <td>字串<br /> </td> 
    <td>UUID</td> 
-   <td>識別裝置GUID （例如電腦ID或IP位址的雜湊+子網路遮罩+網路ID +使用者代理） — 我們將在這裡傳送註冊時產生的播放器使用者名稱。</td> 
+   <td>識別裝置GUID （例如，電腦ID或IP位址的雜湊+子網路遮罩+網路ID +使用者代理） — 傳送註冊時產生的播放器使用者名稱。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ ht-degree: 9%
    <td>可選</td> 
    <td>數字</td> 
    <td> </td> 
-   <td>事件發生的次數 — 我們在這裡傳送影片持續時間</td> 
+   <td>事件發生的次數 — 傳送視訊持續時間</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -210,11 +207,11 @@ ht-degree: 9%
    <td>可選</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>Web屬性或行動結構描述的URL — 必須包含完整限定的URL</td> 
+   <td>Web屬性或行動結構描述的URL — 必須包含完整URL</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>錯誤代碼</td> 
+   <td>錯誤碼</td> 
    <td>event.error_code</td> 
    <td> </td> 
    <td>字串</td> 
@@ -243,7 +240,7 @@ ht-degree: 9%
    <td><strong><em>來源/原始產品</em></strong></td> 
    <td>名稱</td> 
    <td>source.name</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
    <td>應用程式名稱(AEM Screens)</td> 
@@ -252,7 +249,7 @@ ht-degree: 9%
    <td> </td> 
    <td>版本</td> 
    <td>source.version</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
    <td>韌體版本</td> 
@@ -261,7 +258,7 @@ ht-degree: 9%
    <td> </td> 
    <td>Platform</td> 
    <td>source.platform</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -288,14 +285,14 @@ ht-degree: 9%
    <td><strong><em>內容</em></strong></td> 
    <td>動作</td> 
    <td>content.action</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>資產（包括實際播放的轉譯）的URL</td> 
+   <td>資產URL，包括播放的轉譯</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Mime型別</td> 
+   <td>Mime 類型</td> 
    <td>content.mimetype</td> 
    <td>可選</td> 
    <td>字串</td> 
@@ -306,7 +303,7 @@ ht-degree: 9%
    <td><strong><em>交易</em></strong></td> 
    <td>交易編號</td> 
    <td>trn.number</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td>UUID</td> 
    <td>最好遵守UUID v4的唯一ID</td> 
@@ -315,7 +312,7 @@ ht-degree: 9%
    <td> </td> 
    <td>產品說明</td> 
    <td>trn.product</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
    <td>資產的URL （不包括轉譯）</td> 
@@ -324,7 +321,7 @@ ht-degree: 9%
    <td> </td> 
    <td>數量</td> 
    <td>trn.quantity</td> 
-   <td>必填</td> 
+   <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
    <td>播放持續時間</td> 

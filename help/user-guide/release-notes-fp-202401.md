@@ -1,20 +1,21 @@
 ---
 title: Screens Feature Pack 202401發行說明
-description: 請詳閱本頁，以取得2024年1月2日發行的AEM Screens Feature Pack 202401資訊。
+description: 瞭解2024年1月2日發行的AEM Screens Feature Pack 202401。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
 # Feature Pack 202401發行說明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 我們可以從取得最新版本資訊 [此處](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以透過取得最新版本資訊 [此處](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 可用性 {#availability}
 

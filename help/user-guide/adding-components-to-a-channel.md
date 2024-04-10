@@ -1,29 +1,25 @@
 ---
 title: 新增元件至管道
-seo-title: Adding Components to a Channel
-description: 請依照本頁面的說明深入瞭解如何在AEM Screens專案中新增元件至管道。
-seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
-uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
+description: 進一步瞭解如何在AEM Screens專案中新增元件至管道。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1403'
 ht-degree: 5%
 
 ---
 
 # 新增元件至管道{#adding-components-to-a-channel}
 
-元件是AEM (Adobe Experience Manager)體驗的基本元素。 您可以在AEM Screens專案中使用許多元件，並將其新增到您的頻道。
+元件是AEM (Adobe Experience Manager)體驗的基本元素。 您可以在AEM Screens專案中使用數個元件，並將其新增至您的頻道。
 
 ## AEM Screens中的元件 {#components-in-aem-screens}
 
@@ -31,29 +27,29 @@ AEM Screens提供不同的AEM元件，這些元件可用於畫面專案。
 
 ### 檢視AEM Screens元件 {#viewing-aem-screens-components}
 
-每當您建立AEM Screens專案時，都會看到可新增至專案的預設元件清單。
+建立AEM Screens專案時，您會看到可新增至專案的預設元件清單。
 
 若要檢視畫面專案的預設元件，請遵循下列步驟：
 
-1. 選取頻道。 例如， **We.Retail商店內** > **頻道** > **閒置頻道**.
+1. 選取頻道。 例如， **`We.Retail In Store`** > **頻道** > **閒置頻道**.
 
-1. 按一下 **編輯** 以開啟AEM編輯器。
-1. 按一下 **+** 圖示來開啟元件。
+1. 選取 **編輯** 從動作列移除。
+1. 在AEM編輯器中，選取 **+** 圖示來檢查自己的位置。
 1. AEM Screens專案中預設包含的所有元件都會顯示，如下圖所示。
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### 新增元件 {#adding-a-new-component}
 
-AEM提供許多其他元件。 您一律可以新增其他元件（預設不包含）至專案，前提是這些元件與AEM Screens相容。
+AEM提供數個其他元件。 您一律可以新增其他元件（預設不包含）至專案，前提是這些元件與AEM Screens相容。
 
 下列範例說明如何將Livefyre元件新增至AEM Screens專案：
 
-1. 選取您要新增元件的通道。 例如， **We.Retail商店內** > **頻道** > **閒置頻道**.
+1. 選取您要新增元件的管道。 例如， **`We.Retail In Store`** > **頻道** > **閒置頻道**.
 
-1. 按一下 **編輯** 以開啟編輯器。
+1. 選取 **編輯** 從動作列移除。
 1. 選取 **設計** 模式。
-1. 選取右側的整個設計編輯器，然後按一下設定符號以開啟 **ParSys設計** 對話方塊。
+1. 選取右側的整個設計編輯器，然後選取設定符號，以便您能開啟 **Parsys設計** 對話方塊。
 1. 您可以選取要匯入AEM Screens專案的元件。 下列範例顯示新增的 **Livefyre** 元件至AEM Screens專案。
 
 ![adding_components](assets/adding_components.gif)
@@ -68,11 +64,11 @@ AEM提供許多其他元件。 您一律可以新增其他元件（預設不包�
 
 >[!NOTE]
 >
->若要檢視任何元件的屬性，請選取該元件，然後按一下槌子圖示以開啟/檢視屬性。
+>若要檢視任何元件的屬性，請選取該元件，然後選取槌子圖示以開啟/檢視屬性。
 
 ### 應用程式 {#application}
 
-此 **應用** 元件可讓您將應用程式新增到您的頻道。
+此 **應用** 元件可讓您將應用程式新增至您的頻道。
 
 應用程式元件具有下列屬性：
 
@@ -106,8 +102,8 @@ Channel元件具有以下屬性：
    <td>選取應用程式所在的絕對路徑。<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>持續時間 (毫秒)</em></strong></td>
-   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道將在特定頻道中執行其完整長度。</td>
+   <td><strong><em>持續時間（毫秒）</em></strong></td>
+   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道在特定頻道中執行其完整長度。</td>
   </tr>
  </tbody>
 </table>
@@ -129,8 +125,8 @@ Channel元件具有以下屬性：
    <td>選取此管道存在的絕對路徑。<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>持續時間 (毫秒)</em></strong></td>
-   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道將在特定頻道中執行其完整長度。</td>
+   <td><strong><em>持續時間（毫秒）</em></strong></td>
+   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道在特定頻道中執行其完整長度。</td>
   </tr>
  </tbody>
 </table>
@@ -139,7 +135,7 @@ Channel元件具有以下屬性：
 
 >[!NOTE]
 >
->請參閱 [內嵌順序](embedded-sequences.md) 在「製作畫面」區段下，您可以瞭解內嵌序列的詳細資訊。
+>若要深入瞭解內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在製作畫面區段下。
 
 內嵌序列可讓您在現有管道中新增內嵌序列管道（包含其他資產）。
 
@@ -156,21 +152,21 @@ Channel元件具有以下屬性：
    <td>選取您要包含在管道中的序列的絕對路徑。<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>持續時間 (毫秒)</em></strong></td>
-   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道將在特定頻道中執行其完整長度。</td>
+   <td><strong><em>持續時間（毫秒）</em></strong></td>
+   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道在特定頻道中執行其完整長度。</td>
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期上完全執行。 另一個可能的值是 <strong>單一</strong> 而且每次執行時只會顯示子序列的一個專案（例如，第一個回圈上的第一個專案，第二個回圈上的第二個專案，等等）。</td>
+   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期完全執行。 另一個可能的值是 <strong>單一</strong>. 每次執行時，這類值只會顯示一個子序列專案。 例如，第一個回圈上的第一個專案，以及第二個回圈上的第二個專案。</td>
   </tr>
  </tbody>
 </table>
 
 ### 動態內嵌序列 {#dynamic-embedded-sequence}
 
-動態內嵌序列可讓您新增與上述類似的序列（除了頻道角色以外）。
+動態內嵌序列可讓您新增與上述類似的序列，但頻道角色除外。
 
-請參閱 [內嵌順序](embedded-sequences.md) 在「製作畫面」區段下，您可以瞭解內嵌序列的詳細資訊。
+若要瞭解內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在製作畫面區段下。
 
 動態內嵌序列具有以下屬性：
 
@@ -185,12 +181,12 @@ Channel元件具有以下屬性：
    <td>輸入頻道角色。<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>持續時間 (毫秒)</em></strong></td>
-   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道將在特定頻道中執行其完整長度。</td>
+   <td><strong><em>持續時間（毫秒）</em></strong></td>
+   <td>選取管道的整個期間。 將持續時間設為–1表示內嵌頻道在特定頻道中執行其完整長度。</td>
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期上完全執行。 另一個可能的值是 <strong>單一</strong> 而且每次執行時只會顯示子序列的一個專案（例如，第一個回圈上的第一個專案，第二個回圈上的第二個專案，等等）。</td>
+   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期完全執行。 另一個可能的值是 <strong>單一</strong>. 每次執行時，這類值只會顯示子序列的一個專案。 例如，第一個回圈上的第一個專案，以及第二個回圈上的第二個專案。</td>
   </tr>
  </tbody>
 </table>
@@ -199,7 +195,7 @@ Channel元件具有以下屬性：
 
 體驗片段可讓您將體驗片段（一或多個元件的群組，包括可在頁面中參考的內容和版面）新增到您的AEM Screens頻道。 將元件拖放至AEM編輯器並選取體驗片段。
 
-要瞭解有關如何建立體驗片段並將其用於AEM Screens專案的詳細資訊，請參閱 [使用體驗片段](experience-fragments-in-screens.md).
+要瞭解有關如何建立體驗片段並將其套用至AEM Screens專案的詳細資訊，請參閱 [使用體驗片段](experience-fragments-in-screens.md).
 
 ![費用](assets/exp.gif)
 
@@ -209,12 +205,12 @@ Channel元件具有以下屬性：
 | ***體驗片段*** | 選取體驗片段。 |
 | ***持續時間*** | 選取在頻道中播放的體驗片段的整個期間。 |
 | **離線設定** |
-| ***使用者端資料庫*** | Javascript和CSS檔案。 |
+| ***使用者端資料庫*** | JavaScript和CSS檔案。 |
 | ***靜態檔案*** | 您可以新增為離線設定至體驗片段的靜態檔案。 |
 
 >[!NOTE]
 >
->此 **使用者端資料庫** 和 **靜態檔案** 您從此元件新增的專案除了已設定的專案外 **使用者端資料庫** 以及從體驗片段新增的靜態檔案 **屬性**.
+>此 **使用者端資料庫** 和 **靜態檔案** 您從此元件新增的專案，除了已設定的專案 **使用者端資料庫** 以及從體驗片段新增的靜態檔案 **屬性**.
 
 ### 影像 {#image}
 
@@ -237,13 +233,13 @@ Channel元件具有以下屬性：
 
 ### 切換 {#transition}
 
-「轉變」元件可讓您將轉變新增到Screens專案。
+「轉變」元件可讓您將轉變新增到您的Screens專案。
 
 下圖顯示編輯器中的轉變元件（透過拖放方式新增）。
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-選取轉變圖示，然後按一下 **設定** （扳手圖示）開啟 **轉變** 對話方塊。 此對話方塊包含三個索引標籤：
+選取轉變圖示並選取 **設定** （扳手圖示）開啟 **轉變** 對話方塊。 此對話方塊包含三個索引標籤：
 
 * **轉變**
 * **序列**
@@ -251,7 +247,7 @@ Channel元件具有以下屬性：
 
 >[!NOTE]
 >
->依預設，序列會設為600毫秒。 您可以使用將轉變序列更新為其他值 **序列** 標籤。
+>依預設，順序會設為600毫秒。 您可以使用將轉變序列更新為其他值 **序列** 標籤。
 
 ![轉變](assets/transition.gif)
 
@@ -328,7 +324,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><em><strong>轉譯</strong></em></td>
-   <td><p>如果視訊外觀比例不符合熒幕，您可以將演算調整為 <strong>contain</strong> 或 <strong>封面</strong>.</p> <p><em>包含</em> 表示顯示完整視訊，並以黑色邊框填補缺少的部分。</p> <p><em>封面</em> 表示視訊涵蓋整個檢視區，但兩側溢位的部分會隱藏。</p> </td>
+   <td><p>如果視訊外觀比例不符合熒幕，您可以將演算調整為 <strong>contain</strong> 或 <strong>封面</strong>.</p> <p><em>包含</em> 表示顯示完整視訊，並以黑色邊框填入遺失區域。</p> <p><em>封面</em> 這表示視訊涵蓋整個檢視區，但兩側溢位的部分會隱藏。</p> </td>
   </tr>
   <tr>
    <td><em><strong>大小</strong></em></td>
