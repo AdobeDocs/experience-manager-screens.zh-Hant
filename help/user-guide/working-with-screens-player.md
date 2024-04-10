@@ -1,34 +1,30 @@
 ---
 title: 使用AEM Screens Player
-seo-title: Working with Screens Player
-description: 請依照本頁瞭解Screens播放器。 本檔案也會說明管理員UI和管道切換器。
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: 瞭解如何使用AEM Screens播放器、管理員UI和管道切換器。
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
-# 使用AEM Screens Player {#working-with-aem-screens-player}
+# 使用AEM Screens Player
 
 您可以在AEM Screens Player上管理頻道內容和其他設定。
 
 >[!NOTE]
 >
->按下 ***Ctrl+Cmd+F*** 以結束OS X AEM Screens Player的全熒幕模式。
+>按下 ***Ctrl+Cmd+F*** 因此您可以結束OS X AEM Screens Player的全熒幕模式。
 
-將管道指派給顯示區後， AEM Screens Player就會顯示內容。 您可以使用管理員UI的偏好設定（從控制面板）或播放器本身來設定播放器的設定。
+將管道指派給顯示區後，AEM Screens Player就會顯示內容。 您可以使用管理員UI的偏好設定（從控制面板）或播放器本身來設定播放器的設定。
 
 ## 使用裝置控制面板 {#using-the-device-dashboard}
 
@@ -40,7 +36,7 @@ ht-degree: 1%
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 按一下裝置以開啟裝置控制面板。
+1. 按一下裝置，即可開啟裝置控制面板。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -52,17 +48,17 @@ ht-degree: 1%
 
 啟用 **管理員UI** 從偏好設定面板中，允許使用者從Screens播放器開啟管理員設定。 此外，如果您從裝置控制面板停用此選項，使用者將無法從播放器開啟管理員UI。
 
-若要從Screens播放器檢視Admin UI，請在左上角長按以開啟「管理員」功能表、在已啟用觸控功能的AEM Screens播放器上按一下，或使用滑鼠。 它會在註冊完成並載入管道後顯示資訊。
+若要從Screens播放器檢視Admin UI，請在觸控式AEM Screens播放器上或用滑鼠長按左上角以開啟Admin功能表。 完成註冊並載入通道後，資訊便會顯示。
 
 >[!NOTE]
 >
->此外，您也可以檢視AEM Screens Player應用程式運作時間，以檢查應用程式運作狀態。
+>您也可以檢視AEM Screens Player應用程式運作時間，以檢查應用程式運作狀態。
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
 #### 存取組態功能表選項 {#configuration-options}
 
-您可以更新設定，如果您選取 **設定** 側選單中的選項，如下圖所示：
+您可以更新您的設定，如果您選取 **設定** 側選單中的選項，如下圖所示：
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -70,7 +66,7 @@ ht-degree: 1%
 
 * 重設 **韌體**， **偏好設定**，或 **到工廠** 在此對話方塊中。
 
-* 指定AEM Screens播放器保留的最大記錄檔數 **最大數量 要保留的記錄檔**.
+* 指定您要為AEM Screens播放器保留的記錄檔數目上限 **最大數量 要保留的記錄檔**.
 
 * 啟用或停用 **管理功能表**， **頻道切換器**、和 **活動UI** 用於Screens播放器。
 
@@ -80,7 +76,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此 **更新韌體** 選項僅適用於Cordova，例如Android播放器。
+>此 **更新韌體** 選項僅適用於Cordova，例如Android™播放器。
 
 >[!NOTE]
 >
@@ -102,7 +98,7 @@ ht-degree: 1%
 
 您可以從Screens播放器切換並控制頻道的設定。
 
-若要從播放器檢視頻道切換程式，請在左下角長按以開啟頻道切換程式，以便切換頻道和其他功能。
+若要從播放器檢視頻道切換程式，請長按左下角，開啟可切換頻道和其他功能的頻道切換程式。
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
@@ -112,11 +108,11 @@ ht-degree: 1%
 >
 >(請參閱 *從Screens播放器變更偏好設定* （如下節所述）。
 
-### 從AEM Screens播放器管理偏好設定 {#managing-preferences-from-the-aem-screens-player}
+### 從AEM Screens播放器管理偏好設定
 
 您也可以從播放器本身變更管理員UI和頻道切換器的設定。
 
-請依照下列步驟，從您的播放器變更偏好設定：
+若要變更播放器的偏好設定：
 
 1. 長按閒置頻道左上角以開啟「管理」面板。
 1. 瀏覽至 **設定** 從左側動作功能表。
@@ -124,7 +120,7 @@ ht-degree: 1%
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## 疑難排解AEM Screens Player {#troubleshooting-aem-screens-player}
+## 疑難排解AEM Screens Player
 
 您可以針對AEM Screens Player （硬體和軟體）相關的各種問題進行疑難排解：
 
@@ -137,14 +133,14 @@ ht-degree: 1%
 | AEM Screens Player不會在播放器重新啟動/重新開機後自動啟動 | 檢查作業系統啟動資料夾或初始化程式 |
 | AEM Screens Player顯示錯誤/舊的內容 | 檢查網路連線 |
 
-### AEM Screens Player更新 {#updates-for-aem-screens-player}
+### AEM Screens Player更新
 
 AEM Screens Player有兩種型別的更新：
 
-| **方法** | **詳細資料** | **透過遠端** | **自動化** | **0停機時間** |
+| **方法** | **詳細資料** | **經由遠端** | **自動化** | **0停機時間** |
 |---|---|---|---|---|
-| 韌體更新 | 透過遠端命令套用至現有的已安裝播放器。 更新後，播放器將自動重新載入現有內容。 | 是 | 自訂 | 幾乎 — 1-3秒 |
-| 播放器殼層更新 | 這是要部署在播放器上的新可執行檔。 這需要在播放器上遠端複製新的二進位檔，並停止目前執行的專案，然後啟動新版本。 這可能需要重新下載套件的預先載入。 | 是（透過遠端shell） | 自訂 | 否 |
+| 韌體更新 | 透過遠端指令套用至現有的已安裝播放器。 更新後，播放器會自動重新載入現有的內容。 | 是 | 自訂 | 幾乎 — 1-3秒 |
+| 播放器殼層更新 | 這是要部署在播放器上的新可執行檔。 這需要在播放器上遠端複製新的二進位檔，並停止目前執行的專案，然後啟動新版本。 這可能需要再次下載套件的預先載入。 | 是（透過遠端shell） | 自訂 | 否 |
 
 ## 播放器裝置的硬體選擇准則 {#hardware-selection-guidelines-for-player-device}
 
@@ -174,11 +170,11 @@ AEM Screens Player有兩種型別的更新：
   <tr>
    <td>基本</td>
    <td>雙核心、i3或入門級四核心Intel® Atom處理器</td>
-   <td><p>4GB記憶體</p> <p>2MB快取記憶體</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128GB</p> </td>
+   <td><p>4 GB記憶體</p> <p>2 MB快取</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>主機板</td>
    <td>1920 x 1080</td>
-   <td>DVI、<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI<br /> 乙太網路/無線<br /> 2個USB</td>
    <td>
     <ul>
      <li>標準全熒幕循環<br /> </li>
@@ -187,9 +183,9 @@ AEM Screens Player有兩種型別的更新：
   </tr>
   <tr>
    <td>標準</td>
-   <td>四核心、Intel® Core i5處理器</td>
-   <td><p>8GB記憶體</p> <p>4MB快取記憶體</p> </td>
-   <td>128 GBB</td>
+   <td>四核心、Intel® Core™ i5處理器</td>
+   <td><p>8 GB記憶體</p> <p>4 MB快取</p> </td>
+   <td>128 GB</td>
    <td>主機板</td>
    <td>3840x2160 (4K)</td>
    <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 2個USB</td>
@@ -202,8 +198,8 @@ AEM Screens Player有兩種型別的更新：
   </tr>
   <tr>
    <td>進階</td>
-   <td>四核心含超執行緒、Intel® Core i7處理器</td>
-   <td><p>16GB記憶體</p> <p>8MB快取記憶體</p> </td>
+   <td>四核心含超執行緒、Intel® Core™ i7處理器</td>
+   <td><p>16 GB記憶體</p> <p>8 MB快取</p> </td>
    <td>256 GB</td>
    <td>專用圖形GPU</td>
    <td>3840x2160 (4K)</td>

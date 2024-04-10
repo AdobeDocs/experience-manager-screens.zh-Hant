@@ -1,12 +1,10 @@
 ---
 title: 支援監控
-seo-title: Support Monitoring for AEM Screens
-description: 頁面說明「AEM Screens支援監控最佳實務指南」
-seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+description: 瞭解AEM Screens最佳實務指南的支援監視。
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -22,27 +20,26 @@ ht-degree: 0%
 
 ## 內容監視 {#content-monitoring}
 
-內容監視可讓您疑難排解與畫面上未正確顯示內容相關的問題：
+內容監視可讓您疑難排解與熒幕未正確顯示內容相關的問題：
 
-1. 如果遇到空白熒幕問題：
+1. 如果發生空白熒幕問題：
 
-   * Check *預覽* 以檢視頻道是否顯示黑色熒幕
-   * 註冊 *本機chrome播放器* （作為擴充功能）顯示至該顯示器，並檢視是否顯示黑色熒幕。
-   * 按一下滑鼠右鍵，檢查並檢查 *適用的記錄*.
+   * 檢查 *預覽* 所以您可以檢視頻道是否顯示黑屏。
+   * 註冊 *本機chrome播放器* （作為擴充功能）連線到該顯示器，並檢視是否顯示黑色熒幕。
+   * 按一下滑鼠右鍵並檢查及 *適用的記錄*.
 
-   此外，如果這並非本機播放器上的動作，而是隻發生在裝置上的動作：
+   此外，如果本機播放器上未發生這種情況，但僅限於裝置上：
 
-   * Check *媒體型別* （正在使用）中，該裝置上可能有問題，並且還要確認內容是否已成功在本機下載（管理員UI清除頻道快取）。
+   * 檢查 *媒體型別* （正在使用）可能會對該裝置造成問題，也會確認內容是否已成功在本機下載（管理員UI清除頻道快取）。
    * 包含任何 *裝置記錄* 快速疑難排解的票證中。
    * *收集記錄* 從AEM裝置。
 
-
 ## 裝置監視 {#device-monitoring}
 
-與監視實體裝置相關的裝置監視（如果您遇到空白熒幕問題）：
+如果您遇到空白熒幕問題，與監視實體裝置相關的裝置監視：
 
-1. 如果遇到空白熒幕問題：
+1. 如果發生空白熒幕問題：
 
-   * 檢查 *顯示* 已開啟。
+   * 檢查 *顯示* 電源已開啟。
    * 檢查 *電腦* 已開啟電源，且正在傳送訊號。
-   * 按一下滑鼠右鍵，檢查並檢查 *適用的記錄*.
+   * 按一下滑鼠右鍵、檢查並檢查 *適用的記錄*.

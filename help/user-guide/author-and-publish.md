@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Screens需要三個復寫代理：
 1. 更新拓朴聯結器URL：新增符合以下條件的所有參與發佈執行個體的URL：
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **拓朴聯結器白名單清單**：調整成涵蓋所有發佈執行個體的IP或子網路。 請確定您已將所有沒有連線埠號碼的Publish執行個體的IP/主機名稱列入白名單。
+1. **拓撲聯結器 `Whitelist` 清單**：調整成涵蓋所有發佈執行個體的IP或子網路。 確定您 `whitelist` 所有沒有連線埠號碼的發佈執行個體的IP/主機名稱。
 
 1. 啟用 **自動停止本機回圈**
 
@@ -213,7 +213,7 @@ Screens需要三個復寫代理：
 >
 >若要開始使用此範例，請建立AEM Screens專案，接著在您的專案中建立位置、顯示和頻道。 新增內容至您的頻道，並將頻道指派給顯示區。
 
-#### 步驟1：啟動AEM Screens播放器（裝置） {#step-starting-an-aem-screens-player-device}
+#### 步驟1：啟動AEM Screens播放器（裝置）
 
 1. 啟動個別的瀏覽器視窗。
 1. 前往Screens播放器，使用 *網頁瀏覽器*，也就是`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` 或啟動AEM Screens應用程式。 開啟裝置時，請注意裝置狀態為「已取消註冊」。
@@ -280,7 +280,7 @@ Screens需要三個復寫代理：
 * *排程*  — 如果使用排程，請確保已發佈此排程
 * *位置、時程表和頻道資料夾*  — 如果對應的資源在資料夾內。
 
-請依照下列步驟操作，確認作者/發佈行為：
+請依照下列步驟操作，確認編寫和發佈行為：
 
 1. 更新Author例項上的部分管道內容。
 1. 執行 **管理發布** 以發佈對所有Publish執行個體的新變更。

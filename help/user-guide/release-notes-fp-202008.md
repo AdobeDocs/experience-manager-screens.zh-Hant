@@ -1,14 +1,14 @@
 ---
 title: Feature Pack 202008發行說明
-description: 「請詳閱本頁，瞭解2020年9月3日發行的AEM Screens Feature Pack 202008的相關資訊。」
+description: 進一步瞭解2020年9月3日發行的AEM Screens Feature Pack 202008。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 4%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
 AEM Screens已發行AEM 6.5 Feature Pack 5。
 
-您可以從以下網站下載AEM Screens 6.5.5版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得最新的Feature Pack。
+若要下載AEM Screens 6.5.5版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得最新的Feature Pack。
 
 ## 發行日期 {#release-date}
 
@@ -30,44 +30,44 @@ AEM Screens Feature Pack 202008的發行日期為2020年9月3日。
 
 ### 新增功能 {#what-is-new}
 
-* **排程儀表板上的時間表檢視**
+* **排程控制面板上的時間表檢視**
 
-   「時間軸檢視」可讓使用者從顯示控制面板檢視指派給頻道的排程。
+  「時間軸檢視」可讓使用者從顯示控制面板檢視指派給頻道的排程。
 
-   另請參閱 [時間表檢視](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) 以取得更多詳細資料。
+  另請參閱 [時間表檢視](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) 以取得更多詳細資料。
 
-* **週期排程**
+* **遞回排程**
 
-   週期排程可讓您設定頻道的週期排程。 您可以為管道設定多個週期排程。
+  週期排程可讓您設定頻道的週期排程。 您可以為通道設定多個週期排程。
 
-   另請參閱 [遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 以取得更多詳細資料。
+  另請參閱 [遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 以取得更多詳細資料。
 
 * **AEM Screens的語音辨識功能**
 
-   語音辨識功能可讓您在由語音互動驅動的AEM Screens頻道中變更內容。
+  語音辨識功能可讓您透過語音互動來變更AEM Screens頻道中的內容。
 
-   內容作者可以將顯示器設定為啟用語音。 此功能的目的是讓客戶利用語音作為與顯示器互動的方法。
+  內容作者可以將顯示器設定為啟用語音。 此功能的目的是讓客戶使用語音作為與顯示器互動的方法。
 
-   另請參閱 [語音辨識](voice-recognition.md) 以取得更多詳細資料。
+  另請參閱 [語音辨識](voice-recognition.md) 以取得更多詳細資料。
 
 ### 已知問題和修正 {#known-issues}
 
-如果您使用AEM Screens 6.5.5 Service Pack，則必須設定Windows或Android Player環境。
+如果您使用AEM Screens 6.5.5 Service Pack，請為Windows或Android™ Player設定環境。
 
 設定 **登入權杖Cookie的SameSite屬性** 從 **鬆散** 至 **無** 從 **Adobe Experience Manager Web主控台設定** 在所有AEM作者和發佈執行個體上。
 
 * 另請參閱 [實作Windows 10 Player](implementing-windows-player.md#fp-environment-setup) 以取得更多詳細資料。
 
-* 另請參閱 [實作Android Player](implementing-android-player.md#fp-environment-setup) 以取得更多詳細資料。
+* 另請參閱 [實作Android™ Player](implementing-android-player.md#fp-environment-setup) 以取得更多詳細資料。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已發行的AEM Screens Players
 
-下列AEM Screens Player已針對AEM Screens發行的AEM 6.5 Feature Pack 5發行。
+下列AEM Screens Player已針對AEM Screens發行AEM 6.5 Feature Pack 5。
 
 * Chrome作業系統
 * Windows
-* Android
+* Android™
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下載
 
 若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

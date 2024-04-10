@@ -1,9 +1,6 @@
 ---
 title: 實作Windows 10 Player
-seo-title: Implementing Windows 10 Player
-description: 請依照此頁面瞭解如何設定AEM Screens Windows 10播放器。
-seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
-uuid: da7e88bf-c251-481e-9029-f8fc4768b309
+description: 瞭解如何設定AEM Screens Windows 10播放器。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -14,9 +11,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -37,7 +34,7 @@ ht-degree: 1%
 ### 為AEM Screens 6.5.5 Service Pack設定環境 {#fp-environment-setup}
 
 >[!NOTE]
->如果您使用AEM Screens 6.5.5 Service Pack，則必須設定Windows Player環境。
+>如果您使用AEM Screens 6.5.5 Service Pack，請為Windows Player設定環境。
 
 設定 **登入權杖Cookie的SameSite屬性** 從 **鬆散** 至 **無** 從 **Adobe Experience Manager Web主控台設定** 在所有AEM作者和發佈執行個體上。
 
@@ -60,11 +57,11 @@ Ad-Hoc方法可讓您安裝最新的Windows Player (*.exe*)。 造訪 [**AEM 6.5
 
 1. 長按左上角以開啟「管理」面板。
 1. 瀏覽至 **設定** 從左側動作選單中輸入您要連線的AEM執行個體的位置（位址），然後按一下 **儲存**.
-1. 導覽至 **裝置** **註冊** 從左側動作功能表連結以檢查裝置註冊程式的狀態。
+1. 導覽至 **裝置** **註冊** 從左側動作功能表連結，以便您檢視裝置註冊程式的狀態。
 
 >[!NOTE]
 >
->如果 **狀態** 是 **已註冊**，您會注意到 **裝置ID** 欄位將會填入。
+>如果 **狀態** 是 **已註冊**，請注意 **裝置ID** 欄位會填入。
 >
 >如果 **狀態** 是 **未註冊**，您可以使用 **Token** 以註冊裝置。
 
@@ -77,13 +74,13 @@ Ad-Hoc方法可讓您安裝最新的Windows Player (*.exe*)。 造訪 [**AEM 6.5
 
 請依照下列步驟，在Windows Player中設定名稱：
 
-1. 按一下 **開始** > **執行**
-1. 輸入 `system.cpl`
-1. 使用電腦名稱標籤來設定電腦的主機名稱
+1. 按一下 **開始** > **執行**.
+1. 輸入 `system.cpl`.
+1. 使用電腦名稱標籤來設定電腦的主機名稱。
 
 ## 變更Windows Installer中的預設選項 {#changing-default-options}
 
-請依照本節瞭解如何變更Windows Installer中的預設選項以及可用的自訂清單。
+請依照本章節的說明進行，以便您瞭解如何變更Windows Installer中的預設選項以及可用的自訂清單。
 
 ## 使用CLI進行安裝(PowerShell) {#install-powershell}
 
@@ -106,9 +103,9 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## 大量註冊Windows Player {#bulk-registration}
 
-實作Windows Player時，您不需要手動設定每個單一播放器。 您可以在配置JSON檔案經過測試並準備好部署後進行更新。
+實作Windows Player時，您不需要手動設定每個播放器。 您可以在配置JSON檔案經過測試並準備好部署後進行更新。
 
-此設定會確保所有播放器都會偵測到設定檔案中提供的相同伺服器。 您仍然必須手動註冊每個播放器。
+此設定確保所有播放器都會偵測到設定檔案中提供的相同伺服器。 手動註冊每個播放器。
 
 請依照下列步驟設定Windows 10 Player：
 
@@ -129,8 +126,8 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 | rebootSchedule | 重新啟動播放器的排程。 |
 | enableAdminUI | 啟用管理員UI來設定站台上的裝置。 在完全設定並投入生產後，設為false。 |
 | enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定並投入生產後，請考慮將設為false 。 |
-| enableactivityui | 啟用以顯示活動的進度，例如下載和同步。 啟用以進行疑難排解，並在完全設定後停用。 |
-| cloudMode | 如果您希望Windows Player以as a Cloud Service方式連線至Screens，請設為true。 設定為false以便連線到AMS或內部部署AEM。 |
+| enableactivityui | 啟用，以便顯示下載和同步等活動的進度。 啟用以進行疑難排解，並在完全設定後停用。 |
+| cloudMode | 如果您希望Windows Player以as a Cloud Service方式連線至Screens，請設為true。 設為false可連線至AMS或內部部署AEM。 |
 | cloudToken | 註冊Token以針對Screensas a Cloud Service註冊。 |
 
 #### 原則JSON檔案範例 {#example-policy-json-file}
@@ -152,7 +149,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 >[!CAUTION]
 >
->Adobe建議使用裝置管理解決方案來啟用Windows的Kiosk。 如果您沒有裝置管理解決方案可啟用Kiosk模式，請依照下列步驟進行。 此方法使用Windows 10企業版和Edu中可用的殼層啟動器功能。 針對非UWP應用程式所建議的任何其他Microsoft方法也可套用以啟用Kiosk，尤其是在其他Windows版本上。
+>Adobe建議使用裝置管理解決方案來啟用Windows的Kiosk。 如果您沒有裝置管理解決方案可啟用Kiosk模式，請依照下列步驟進行。 此方法使用Windows 10企業版和Edu中可用的殼層啟動器功能。 您也可以套用Microsoft針對非UWP應用程式建議的任何其他方法，以啟用Kiosk，尤其是在其他Windows版本上。
 
 請依照下列步驟啟用Kiosk模式：
 
@@ -162,34 +159,34 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 1. 啟用殼層啟動器。
 
-   請參閱區段 ***設定殼層啟動器*** 在 **[殼層啟動器](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Microsoft Windows支援的頁面，以取得其他資訊。
+   另請參閱 ***設定殼層啟動器*** 在 **[殼層啟動器](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** 詳細資訊，請參閱Microsoft®Windows支援頁面。
 
 1. 建立一個非管理使用者（如果您還沒有的話），以用於Kiosk。 這可以是本機或網域使用者。
 1. 從安裝該Kiosk使用者的Windows Player [AEM Screens播放器下載](https://download.macromedia.com/screens/) 頁面。
-1. 請參閱 [使用Shell啟動器建立Windows 10資訊站](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) 修改PowerShell指令碼以取得詳細資訊。
+1. 另請參閱 [使用Shell啟動器建立Windows 10資訊站](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) 修改PowerShell指令碼以取得詳細資訊。
 
-   修改PowerShell指令碼，以您所建立的使用者名稱取代使用者名稱。 請確認應用程式可執行檔的路徑正確。 這會將自訂殼層設定為Kiosk使用者的Windows Player應用程式，並將其他使用者的預設設定為explorer.exe。
+   修改PowerShell指令碼，讓您可以用您建立的使用者名稱取代使用者名稱。 請確定應用程式可執行檔的路徑正確無誤。 這會將自訂殼層設定為Kiosk使用者的Windows Player應用程式，並將其他使用者的預設設定為explorer.exe。
 
 1. 以系統管理員身分執行PowerShell指令碼。
 1. 重新開機並以Kiosk使用者身分登入，播放器應用程式應該會立即啟動。
 
 ### 疑難排解 {#troubleshooting}
 
-如果您在以Kiosk使用者身份登入時看到黑屏，則表示您可能未正確指定Windows Player可執行檔的路徑。 以管理員身分重新登入，然後驗證並重新執行指令碼。
+如果您在以Kiosk使用者身分登入後出現黑屏，表示您可能未正確指定Windows Player可執行檔的路徑。 以管理員身分重新登入，然後驗證並重新執行指令碼。
 
 Windows Player的預設安裝路徑為：
 
 ***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
-連結中的範例指令碼將會啟用和停用自訂殼層。 因此，您可能需要將指令碼一分為二，並啟用/停用以下適用的行：
+連結中的範例指令碼會啟用和停用自訂殼層。 因此，請將指令碼分割為兩個並啟用/停用以下適用的行：
 
 >[!NOTE]
 >
->在某些Windows環境中，PowerShell指令碼可能會受到原則的限制（尤其是未簽署的指令碼）。 若要執行指令碼，您可能需要暫時停用並重新啟用此限制以執行指令碼。 開啟PowerShell視窗並使用這些指令。
+>在某些Windows環境中，PowerShell指令碼可能會受到原則的限制（尤其是未簽署的指令碼）。 若要執行指令碼，請暫時停用並重新啟用此限制以執行指令碼。 開啟PowerShell視窗並使用這些指令。
 >
->*set-executionpolicy不受限制*  — 暫時移除限制
+>*`set-executionpolicy unrestricted`*  — 暫時移除限制。
 >
->*set-executionpolicy已限制*  — 在執行指令碼後重新啟用限制
+>*`set-executionpolicy restricted`*  — 在執行指令碼後重新啟用限制。
 
 ```
 # Remove the new custom shells.

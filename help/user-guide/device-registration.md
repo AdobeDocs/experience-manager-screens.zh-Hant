@@ -1,23 +1,19 @@
 ---
 title: 裝置註冊
-seo-title: Device Registration
-description: 本頁說明AEM Screens專案中的裝置註冊程式。
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: 瞭解AEM Screens專案中的裝置註冊程式。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +23,7 @@ ht-degree: 1%
 
 ## 註冊裝置 {#registering-a-device}
 
-裝置註冊程式會在2台不同的電腦上完成：
+裝置註冊程式會在兩部不同的電腦上完成：
 
 * 要註冊的實際裝置，例如您的招牌顯示器
 * 用來註冊裝置的AEM伺服器
@@ -38,7 +34,7 @@ ht-degree: 1%
 >
 >1. 長按左上角以開啟「管理」面板。
 >1. 瀏覽至 **設定** 從左側動作功能表，然後輸入AEM執行個體的位置地址。 **伺服器** 並按一下 **儲存**.
->1. 按一下 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
+>1. 選取 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >若要取得在AEM儀表板中為Screens建立新專案的詳細資訊，請參閱 [建立和管理Screens專案](creating-a-screens-project.md).
+   >若要取得在AEM儀表板中建立畫面專案的詳細資訊，請參閱 [建立和管理Screens專案](creating-a-screens-project.md).
 
 1. 點選/按一下 **裝置管理員** 按鈕。
 
@@ -94,7 +90,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >若要進一步瞭解如何為您的Screens專案建立和管理顯示器，請參閱 [建立和管理顯示器](managing-displays.md).
+   >若要進一步瞭解如何建立和管理Screens專案的顯示器，請參閱 [建立和管理顯示器](managing-displays.md).
 
 ### 將裝置指派給顯示器 {#assigning-device-to-a-display}
 
@@ -116,7 +112,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您可以按一下「 」以檢視顯示控制面板 **完成**.
+   您也可以按一下以檢視顯示控制面板 **完成**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -145,16 +141,16 @@ ht-degree: 1%
 
 ### 搜尋功能的限制 {#limitations}
 
-* 使用者將能夠搜尋中現有的任何單字 *裝置ID* 或 *裝置名稱*.
+* 使用者可以搜尋中現有的任何單字 *裝置ID* 或 *裝置名稱*.
 
   >[!NOTE]
   >建議您以多個字詞來建立裝置名稱，例如 *波士頓商店大廳* 而不是單一的 *BostonStoreLobby*.
 
-* 如果您建立裝置名稱，例如 *波士頓商店大廳*，可搜尋任何字詞 *波士頓*， *儲存* 或 *大廳* 但如果裝置名稱是指 *BostonStoreLobby* 搜尋 *波士頓* 將不會顯示結果。
+* 如果您建立裝置名稱，例如 *波士頓商店大廳*，會搜尋任何單字 *波士頓*， *儲存*，或 *大廳*. 但是，如果裝置名稱為 *BostonStoreLobby*，然後搜尋 *波士頓* 未顯示任何結果。
 
 * 萬用字元， `*` 支援搜尋。 如果您想要尋找所有名稱開頭為的裝置 *波士頓*，您可以使用 *波士頓**.
 
-* 如果裝置名稱為 *BostonStoreLobby* 並搜尋 *波士頓* 不會改用傳回結果 *波士頓**會在您的搜尋條件中傳回結果。
+* 如果裝置名稱為 *BostonStoreLobby* 並搜尋 *波士頓* 不會傳回結果，然後使用 *波士頓**會在您的搜尋條件中傳回結果。
 
 ## 裝置註冊的限制 {#limitations-on-device-registration}
 
@@ -164,7 +160,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前產生的隨機密碼由36個ASCII字元組成，範圍從33到122個不等（幾乎包含所有特殊字元）。
+>目前產生的隨機密碼由36個ASCII字元組成，範圍介於33到122之間（幾乎包含所有特殊字元）。
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

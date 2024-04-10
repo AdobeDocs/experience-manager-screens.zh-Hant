@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
-user-guide-description: 了解如何使用數位簽署解決方案，輕鬆發佈動態的互動式數位體驗和互動。
+user-guide-description: 瞭解如何使用數位看板解決方案，讓您發佈動態的互動式數位體驗和互動。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Screens簡介](aem-screens-introduction.md)
 + 概覽和Kickstart指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
-   + [Screens最佳作法指南](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
+   + [Screens最佳作法指南](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [主要條款](screens-glossary.md)
 + 數位看板網路基本需知 {#digital-signage-network}
    + [第1部分：專案角色與責任](project-roles-responsibilities.md)
@@ -41,10 +41,10 @@ ht-degree: 11%
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器復寫至發佈伺服器](replicating-data-triggers.md)
    + [設定Screens復寫代理](configure-screens-replication.md)
-   + 使用者端特定考量事項 {#installing-client}
+   + 使用者端特有的考量事項 {#installing-client}
       + [Chrome作業系統播放器](implementing-chrome-os-player.md)
       + [使用Chrome播放器作為疑難排解的擴充功能](using-chrome-player-as-an-extension.md)
-      + [Android Player](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [雲端播放器](implementing-cloud-player.md)
