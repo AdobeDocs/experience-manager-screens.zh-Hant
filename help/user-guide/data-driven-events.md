@@ -1,10 +1,9 @@
 ---
 title: 資料導向事件
-description: null
+description: 空
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -18,18 +17,18 @@ ht-degree: 0%
 
 ## 針對資料導向事件使用Context Hub {#using-context-hub-for-data-driven-events}
 
-AEM Screens會透過Context Hub啟用資料導向事件。 Context Hub可讓您使用即時。
+AEM Screens會透過Context Hub啟用資料導向事件。 Context Hub可讓您即時使用。
 
 ### 分類資料導向事件 {#categorizing-data-driven-events}
 
-資料導向事件分為四個不同的類別：
+資料導向事件分為下列四個不同類別：
 
-* 營運中的資料
+* 作業中的資料
 * 簡報中的資料
 * 資料輸出可操作
 * 資料輸出簡報
 
-#### 營運中的資料 {#data-in-operational}
+#### 作業中的資料 {#data-in-operational}
 
 這可以進一步分類為通道插斷和預留位置。
 

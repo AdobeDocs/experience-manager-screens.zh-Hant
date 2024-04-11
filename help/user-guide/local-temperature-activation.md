@@ -1,22 +1,18 @@
 ---
 title: 旅行中心溫度啟用
-seo-title: Travel Center Temperature Activation
-description: 下列使用案例示範如何根據Google Sheets中填入的值，使用旅行中心本機溫度啟動。
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: 使用AEM Screens，瞭解此使用案例如何根據Google Sheets中填入的值，示範如何使用旅行中心當地溫度啟用。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ ht-degree: 0%
 
 ## 說明 {#description}
 
-針對此使用案例，如果您的Google工作表值小於50，則會顯示含有熱飲的影像，而如果值大於或等於50，則會顯示含有冷飲的影像。 如果有其他或沒有值，播放器會顯示預設影像。
+針對此使用案例，如果Google Sheets中的值小於50，則會顯示含有熱飲的影像。 如果值大於或等於50，則會顯示含有冷飲的影像。 如果有其他值或完全沒有值，播放器會顯示預設影像。
 
 ## 先決條件 {#preconditions}
 
@@ -42,7 +38,7 @@ ht-degree: 0%
 1. **填入Google工作表**
 
    1. 導覽至ContextHubDemo Google工作表。
-   1. 新增包含的欄 **標題1** 有對應的溫度值。
+   1. 新增包含的欄 **`Heading1`** 有對應的溫度值。
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ ht-degree: 0%
 
    1. 選取 **工作表A1 1** 並按一下 **編輯**.
 
-   1. 選取比較屬性，然後按一下設定圖示以編輯屬性。
+   1. 選取比較屬性，然後按一下設定圖示。
    1. 選取 **谷歌眼表/value/1/0** 從的下拉式清單 **屬性名稱**
 
    1. 選取 **運運算元** 作為 **大於或等於** 從下拉式功能表
@@ -61,7 +57,7 @@ ht-degree: 0%
 
    1. 同樣地，選取 **工作表A1 2** 並按一下 **編輯**.
 
-   1. 選取 **比較屬性 — 值** 並按一下「設定」圖示以編輯屬性。
+   1. 選取 **比較屬性 — 值** 並按一下設定圖示。
    1. 選取 **谷歌眼表/value/1/0** 從的下拉式清單 **屬性名稱**
 
    1. 選取 **運運算元** 作為 **小於** 從下拉式功能表
@@ -89,6 +85,6 @@ ht-degree: 0%
 1. **檢查預覽**
 
    1. 按一下 **預覽。** 此外，請開啟Google工作表並更新其值。
-   1. 將值變更為小於50，您應該就能檢視夏季飲料的影像。 如果「Google工作表」中的值為50或大於，則應該能夠檢視熱飲影像。
+   1. 將值變更為小於50。 您應該能夠檢視冷飲的影像。 如果「Google工作表」中的值為50或更大，您應該會看到熱飲的影像。
 
    ![result3](assets/result3.gif)
