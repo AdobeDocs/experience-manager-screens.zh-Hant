@@ -1,36 +1,32 @@
 ---
 title: REST API
-seo-title: REST API
-description: AEM Screens提供遵循Siren規格的簡單RESTful API。 請依照本頁面的說明操作，瞭解如何導覽內容結構並傳送命令至環境中的裝置。
-seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: 瞭解AEM Screens如何提供遵循Siren規格的簡單RESTful API。 也瞭解如何導覽內容結構並將命令傳送至環境中的裝置。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
 
 # REST API{#rest-apis}
 
-AEM Screens提供簡單的RESTful API，其會遵循 [警笛](https://github.com/kevinswiber/siren) 規格。 它可讓您導覽內容結構並傳送命令至環境中的裝置。
+AEM Screens提供簡單的RESTful API，其會遵循 [警笛](https://github.com/kevinswiber/siren) 規格。 它可讓您導覽內容結構並向環境中的裝置傳送命令。
 
-此API的存取網址為 [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
+API的存取位置為 [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
 ## 導覽內容結構 {#navigating-content-structure}
 
-API呼叫傳回的JSON會列出與目前資源相關的實體。 在所列出的自我連結後，這些實體中的每一個都可作為REST資源再次存取。
+API呼叫傳回的JSON會列出與目前資源相關的實體。 在列示的自我連結後，這些實體中的每一個都可以再次當作REST資源存取。
 
-例如，若要存取示範旗艦位置中的顯示區，您可以呼叫：
+例如，若要存取示範旗艦位置中的顯示，您可以呼叫下列專案：
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -121,7 +117,7 @@ Host: http://localhost:4502
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
-***結果:***
+***結果：***
 
 ```xml
 {
@@ -153,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-若要觸發此動作，系統會呼叫：
+若要觸發此動作，請呼叫下列專案：
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1

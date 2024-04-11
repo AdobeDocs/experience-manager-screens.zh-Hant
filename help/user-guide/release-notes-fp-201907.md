@@ -1,23 +1,19 @@
 ---
 title: Feature Pack 201907發行說明
-seo-title: Release Notes for Feature Pack 201907
-description: 請詳閱本頁，以取得2019年7月31日發行的AEM Screens Feature Pack 201907資訊。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: 瞭解關於2019年7月31日發行的AEM Screens Feature Pack 201907。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 AEM Screens已發行AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1，並提供下列詳細資料。
 
@@ -61,21 +57,21 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 * **啟動**
 
-啟動可讓內容作者建立未來版本的管道。 藉助啟動項，作者可預覽啟動項中的每個管道，且應能提出檢閱請求。 核准者群組將收到通知，可以核准或拒絕請求。 當到達上線日期時，內容會在裝置播放。
+啟動可讓內容作者建立未來版本的管道。 藉助Launches，作者可以預覽啟動中的每個管道，且應該能夠提出檢閱請求。 核准者群組取得通知，可以核准或拒絕要求。 當到達上線日期時，內容會在裝置播放。
 另請參閱 [啟動](launches.md) 以取得更多詳細資料。
 
 * **體驗片段中的離線設定**
 
 您現在可以在設定Screens體驗片段時新增離線設定（使用者端程式庫和靜態檔案）。 另請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已發行的AEM Screens Players
 
 下列AEM Screens Player已針對AEM 6.4.5 Feature Pack 5和AEM 6.5.1 Feature Pack 1發行：
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下載
 
 若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [AEM Screens播放器下載](https://download.macromedia.com/screens/).
