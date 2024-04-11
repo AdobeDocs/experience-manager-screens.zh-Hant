@@ -1,15 +1,12 @@
 ---
 title: 套用轉變
-seo-title: Applying Transitions
-description: 請依照本頁面的說明進行，瞭解如何將轉變套用至Screens專案。
-seo-description: Follow this page to learn how to apply transitions to your Screens projects.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
+description: 瞭解如何將轉換套用至您的AEM Screens專案。
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -19,7 +16,6 @@ ht-degree: 0%
 # 套用轉變 {#applying-transitions}
 
 本節說明如何套用 **轉變** 不同資產（影像和影片）之間的元件，以及管道中的內嵌順序。
-
 
 >[!CAUTION]
 >
@@ -47,6 +43,7 @@ ht-degree: 0%
 
 
 1. 拖放 **轉變** 元件至您的編輯器。
+
    >[!CAUTION]
    >
    >將轉變新增至管道中的資產之前，請務必不要在循序管道中的第一個資產之前新增轉變。 管道中的第一個專案必須是資產，而非轉變。
@@ -55,8 +52,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >依預設，轉變元件的屬性，例如 **型別** 設為 **淡化** 和 **持續時間** 設為 *1600毫秒*.  此外，不建議設定比套用資產長的轉變持續時間。
+   >依預設，轉變元件的屬性，例如 **型別** 設為 **淡化** 和 **持續時間** 設為 *1600毫秒*. 此外，不建議將轉換持續時間設定為超過套用到的資產。
 
-1. 此外，如果您新增 **內嵌順序** 元件（包含順序頻道）至此頻道編輯器，您可以在結尾新增轉變元件，以便內容依序播放，如下圖所示：
+1. 此外，如果您新增 **內嵌順序** 元件（包括順序色版）至此色版編輯器，您可以在結尾新增轉變元件。 這可確保內容以正確順序播放，如下圖所示：
 
    ![image3](assets/transitions5.png)
