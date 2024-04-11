@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
   AEM Screens播放器現在包含將裝置名稱傳送至Adobe Experience Manager (AEM)的功能。
 根據預設，當使用大量註冊來註冊裝置時，系統產生的使用者名稱會輸入在標題欄位中。 另外，客戶可能會使用資產標籤或其他易記名稱，以便在AEM中可見，且更易於指派適當內容。
 
-  請參閱下列檔案，瞭解如何在每個支援的作業系統中設定名稱：
+  請參閱下列檔案，瞭解如何在每個支援的作業系統中設定名稱的資訊：
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
