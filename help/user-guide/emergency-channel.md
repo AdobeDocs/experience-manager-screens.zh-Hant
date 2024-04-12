@@ -1,21 +1,17 @@
 ---
 title: 緊急通道
-seo-title: Emergency Channel
-description: 遵循此使用案例範例，瞭解如何建立和管理緊急通道，內容作者可在有先決條件的情況下從順序通道切換。
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: 瞭解如何建立和管理緊急頻道，內容作者可以在有先決條件時從順序頻道切換緊急頻道。
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 ## 使用案例說明 {#use-case-description}
 
-本節說明使用案例範例，著重於建立和管理緊急通道，內容作者可在有先決條件的情況下從順序通道切換。
+本節說明使用案例範例，著重於建立和管理緊急通道，如果存在先決條件，內容作者可從順序通道切換。
 
 ### 先決條件 {#preconditions}
 
@@ -52,7 +48,7 @@ ht-degree: 0%
 
 1. **建立順序頻道**
 
-   1. 選取 **頻道** 資料夾並按一下 **建立** 以開啟精靈建立管道。
+   1. 選取 **頻道** 資料夾並按一下 **建立**.
 
    1. 選取 **順序頻道** 並從精靈建立標題為 **MainAdChannel**.
 
@@ -61,14 +57,15 @@ ht-degree: 0%
 1. **新增內容至順序頻道**
 
    1. 選取通道(**MainAdChannel**)。
-   1. 按一下 **編輯** 以開啟編輯器。 將一些資產拖放至您的頻道。
+   1. 按一下 **編輯** 從動作列移除。
+   1. 將一些資產拖放至您的頻道。
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **建立緊急通道**
 
    1. 選取 **頻道** 資料夾。
-   1. 按一下 **建立** 以開啟精靈建立管道。
+   1. 按一下&#x200B;**建立**。
    1. 選取 **順序頻道** 並從精靈建立標題為 **緊急通道**.
 
    >[!NOTE]
@@ -80,7 +77,8 @@ ht-degree: 0%
 1. **新增內容至緊急通道**
 
    1. 選取通道(**緊急通道)**.
-   1. 按一下 **編輯** 以開啟編輯器。 將您要在緊急情況下執行的資產拖放到您的頻道。
+   1. 按一下 **編輯** 從動作列移除。
+   1. 將您要在緊急情況下執行的資產拖放到您的頻道。
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -93,14 +91,15 @@ ht-degree: 0%
 
 1. **在您的位置中建立顯示區**
 
-   導覽至您的位置(**儲存**)並按一下 **建立** 從動作列移除。 按照精靈建立兩個 **顯示區** 標題為 **StoreFront** 和 **StoreRear**.
+   導覽至您的位置(**儲存**)並按一下 **建立** 從動作列移除。 依照精靈建立兩個 **顯示區** 標題為 **StoreFront** 和 **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **建立排程**
 
    1. 導覽至 **時程表** 資料夾。
-   1. 按一下 **建立** 從動作列移除。 依照精靈建立標題為的排程 **StoreSchedule**.
+   1. 按一下 **建立** 從動作列移除。
+   1. 依照精靈，建立標題為的排程 **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -117,7 +116,7 @@ ht-degree: 0%
       1. 將支援的事件設為 **初始載入** 和 **閒置畫面**.
       1. 按一下 **儲存**
 
-      同樣地，您必須再次執行相同的步驟以指派 **緊急通道** 並設定其 **優先順序**.
+      同樣地，請再次遵循相同的步驟來指派 **緊急通道** 並設定其 **優先順序**.
 
    >[!NOTE]
    >
@@ -146,7 +145,7 @@ ht-degree: 0%
 
    1. 導覽至每個顯示畫面，例如 **緊急通道** > **位置** > **儲存** >**StoreFront**.
 
-   1. 按一下 **儀表板** 以開啟顯示控制面板。
+   1. 按一下 **儀表板** 從動作列移除。
    1. 按一下 **...** 從 **已指派的頻道與排程** 面板，然後按一下 **+指派排程**.
 
    1. 選取排程的路徑(例如， **緊急通道** > **時程表** >**StoreSchedule**)。
@@ -158,13 +157,13 @@ ht-degree: 0%
 
 1. **裝置註冊**
 
-   完成裝置註冊程式，註冊後即可在您的AEM Screens播放器上檢視以下輸出。
+   完成裝置註冊程式。 註冊後，您可以在AEM Screens播放器上檢視以下輸出。
 
    ![new30](assets/new30.gif)
 
 ## 切換到緊急頻道 {#switching-to-emergency-channel}
 
-發生緊急情況時，請執行以下步驟：
+如果發生緊急狀況，請執行下列步驟：
 
 1. 瀏覽至 **緊急通道** > **時程表** > **StoreSchedule** 並選取 **儀表板** 從動作列移除。
 
@@ -178,12 +177,12 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 管道的優先順序一更新，所有AEM Screens播放器就會顯示 **緊急通道** 內容，如下所示。
+1. 當管道的優先順序更新時，所有AEM Screens播放器都會顯示 **緊急通道** 內容。
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### 結論 {#conclusion}
 
-此 **緊急通道** 將繼續顯示其內容，直到內容作者將優先順序值重設為1。
+此 **緊急通道** 會持續顯示其內容，直到內容作者將優先順序值重設為1為止。
 
-一旦內容作者收到緊急狀況已清除的指示，他/她應更新 **MainAdChannel** 將會導致恢復正常播放。
+當內容作者收到緊急狀況已清除的指示時，他們應更新的 **MainAdChannel** 這會使正常播放繼續。

@@ -1,33 +1,31 @@
 ---
 title: 套用文字覆蓋圖的自訂品牌和樣式
-seo-title: Applying Custom Branding and Styling for Text Overlays
-description: 請依照本頁面瞭解如何套用文字覆蓋圖的自訂品牌和樣式。
-seo-description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
+description: 瞭解如何在AEM Screens頻道中套用文字覆蓋圖的自訂品牌和樣式。
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
 
 # 文字覆蓋圖的自訂品牌和樣式 {#creating-custom-branding-styling}
 
-請詳閱本頁面，瞭解如何在AEM Screens頻道中，將自訂品牌和樣式套用至您的資產。
+瞭解如何在AEM Screens頻道中，將文字覆蓋圖套用的自訂品牌和樣式套用至您的資產。
 
 ## 建立文字覆蓋圖的自訂品牌和樣式 {#steps-custom-branding}
 
 請依照下列步驟，建立文字覆蓋的自訂品牌和樣式：
 
-1. 建立AEM Screens專案。 此範例透過建立名為的專案來展示功能 **自訂樣式** 和標題為的頻道 **DemoBrand** ，如下圖所示。
+1. 建立AEM Screens專案。 此範例透過建立名為的專案來展示功能 **`customstyle`** 和標題為的頻道 **DemoBrand** ，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. 從編輯器拖放影像，並將文字覆蓋新增至資產。
+1. 從編輯器中，拖放影像並將文字覆蓋新增至資產。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -36,7 +34,7 @@ ht-degree: 1%
 
 1. 從您的AEM執行個體>工具>導覽至CRXDE Lite **CRXDE Lite**.
 
-1. 您必須在中建立自訂設計 `/apps/settings/wcm/designs/<your-project>/`例如，在此案例中，導覽至 `/apps/settings/wcm/designs/customstyle/`
+1. 在中建立自訂設計 `/apps/settings/wcm/designs/<your-project>/`例如，在此案例中，導覽至 `/apps/settings/wcm/designs/customstyle/`
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
@@ -67,7 +65,7 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. 複製專案的路徑，在此案例中，路徑將會是 `/apps/settings/wcm/designs/customstyle`.
+1. 複製專案的路徑，在此案例中，路徑為 `/apps/settings/wcm/designs/customstyle`.
 
 1. 瀏覽到標題為 **DemoBrand** (在步驟(1)中建立)，然後按一下 **屬性** 從動作列選取頻道後。
 
@@ -77,7 +75,7 @@ ht-degree: 1%
    >[!NOTE]
    >根據預設， **設計** 欄位會顯示指向libs資料夾中設計的路徑。
 
-1. 更新 **設計** 包含專案資料夾路徑的欄位。 在此案例中， `/apps/settings/wcm/designs/customstyle`.
+1. 更新 **設計** 包含專案資料夾路徑的欄位。 在此案例中，它是 `/apps/settings/wcm/designs/customstyle`.
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
@@ -89,16 +87,16 @@ ht-degree: 1%
 1. 若要依預設覆蓋現有的Screens範本以插入您自己的設計：
 
    1. 覆蓋 `/libs/screens/core/templates/sequencechannel` 在 `/apps/screens/core/templates/sequencechannel`.
-   1. 修改 *cq：designPath* 中的屬性 `/apps/screens/core/templates/sequencechannel/jcr:content` 以指向新設計。
+   1. 修改 *`cq:designPath`* 中的屬性 `/apps/screens/core/templates/sequencechannel/jcr:content` 因此它指向新的設計。
 
 1. 完全建立您自己的範本：
    1. 複製 `/libs/screens/core/templates/sequencechannel` 至 `/apps/customstyle/templates/styled-sequencechannel`.
-   1. 修改 *cq：designPath* 中的屬性 `/apps/customstyle/templates/styled-sequencechannel/jcr:content` 以指向新設計。
+   1. 修改 *`cq:designPath`* 中的屬性 `/apps/customstyle/templates/styled-sequencechannel/jcr:content` 因此它指向新的設計。
 
 
 ### 更新ACL {#updating-acls}
 
-您必須更新這些設計的ACL，以便播放器可以下載它們。
+更新這些設計的ACL，讓播放器可以下載它們。
 
 1. 導覽至使用者管理員，然後選擇 `screens-<project>-devices group` 並賦予其自訂設計路徑的讀取許可權。
 
@@ -106,27 +104,29 @@ ht-degree: 1%
 
 ## 檢視結果 {#viewing-the-result}
 
-完成上述步驟後，您就可以更新 *statis.css* 檔案來源 **CRXDE Lite** 並檢視已新增至資產的文字覆蓋更新。
+完成上述步驟後，您可以更新 *statis.css* 檔案來源 **CRXDE Lite** 因此，檢視已新增至資產的文字覆蓋更新。
 
 請依照下列步驟，檢視文字覆蓋的更新設計：
 
-1. 導覽至您的AEM Screens專案，標題為 **自訂樣式** > **頻道** > **DemoBrand**. 選取管道並按一下 **編輯** 以開啟編輯器。
+1. 導覽至您的AEM Screens專案，標題為 **`customstyle`** > **頻道** > **DemoBrand**. 選取管道並按一下 **編輯** 從動作列移除。
 
 1. 由於您現在已將設計新增至 **設計** 欄位，如上所述，按一下 **預覽** 在含有文字覆蓋的影像上檢視目前的樣式。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
 1. 導覽至 *static.css* CRXDE Lite檔案，並新增字型，例如， `font-family: "Lucida Console", Courier, monospace;` 至此檔案，如下所示。
+
    ![影像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. 儲存變更並重新載入預覽後，您將會看到文字覆蓋字型的更新，如下圖所示。
+1. 儲存變更並重新載入預覽時，您會看到文字覆蓋字型的更新，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. 此外，您也可以從移除程式碼的最後兩個區塊 *static.css* 檔案移除文字覆蓋周圍的盒裝樣式。
-   ![影像](/help/user-guide/assets/custom-brand/custom-brand10.png)
+1. 您也可以從移除程式碼的最後兩個區塊 *static.css* 檔案移除文字覆蓋周圍的盒裝樣式。
 
-1. 您將在影像中新增文字覆蓋的預覽中檢視更新的變更。
+![影像](/help/user-guide/assets/custom-brand/custom-brand10.png)
+
+1. 在影像中新增文字覆蓋的預覽中檢視更新的變更。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 

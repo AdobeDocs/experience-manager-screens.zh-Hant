@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->大規模部署數位看板的一般銷售週期為9至18個月。 有許多因素會影響最終時程，尤其是最終客戶在推出新解決方案時，如何衡量成功及避免業務合作夥伴的風險。
+>大規模部署數位看板的一般銷售週期為9到18個月。 有許多因素會影響最終時程，尤其是最終客戶在推出新解決方案時，如何衡量成功及避免業務合作夥伴的風險。
 
 例如，零售環境中數位看板方案的利害關係人可能包括以下內容：
 

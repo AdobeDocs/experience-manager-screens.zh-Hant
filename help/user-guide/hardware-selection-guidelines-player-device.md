@@ -1,9 +1,9 @@
 ---
 title: 播放器裝置的硬體選擇准則
-description: 播放器裝置的硬體選擇准則
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: 瞭解AEM Screens播放器裝置的硬體選擇准則。
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## 硬體組態 {#hardware-configurations}
 
-下表總結列出AEM Screens專案的硬體組態與典型使用案例：
+下表概述AEM Screens專案的硬體組態與典型使用案例：
 
 <table>
  <tbody>
@@ -35,31 +35,31 @@ ht-degree: 3%
    <td><strong>記憶體</strong></td>
    <td><strong>儲存固態硬碟</strong></td>
    <td><strong>GPU</strong></td>
-   <td><strong>顯示</strong></td>
+   <td><strong>顯示區</strong></td>
    <td><strong>I/O</strong></td>
    <td><strong>典型使用案例</strong></td>
   </tr>
   <tr>
    <td>基本</td>
    <td>雙核心、i3或入門級四核心Intel® Atom處理器</td>
-   <td><p>4GB記憶體</p> <p>2MB快取記憶體</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128GB</p> </td>
-   <td>內建</td>
-   <td>1920x1080</td>
-   <td>DVI、<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td><p>4 GB記憶體</p> <p>2 MB快取</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
+   <td>主機板</td>
+   <td>1920 x 1080</td>
+   <td>DVI<br /> 乙太網路/無線、<br /> 2個USB</td>
    <td>
     <ul>
-     <li>標準全熒幕回圈<br /> </li>
+     <li>標準全熒幕循環<br /> </li>
      <li>日時段分割</li>
     </ul> </td>
   </tr>
   <tr>
    <td>標準</td>
-   <td>四核心、Intel® Core i5處理器</td>
-   <td><p>8GB記憶體</p> <p>4MB快取記憶體</p> </td>
-   <td>128 GBB</td>
-   <td>內建</td>
-   <td>3840x2160 (4K)</td>
+   <td>四核心、Intel® Core™ i5處理器</td>
+   <td><p>8 GB記憶體</p> <p>4 MB快取</p> </td>
+   <td>128 GB</td>
+   <td>主機板</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 2個USB</td>
    <td>
     <ul>
@@ -70,17 +70,17 @@ ht-degree: 3%
   </tr>
   <tr>
    <td>進階</td>
-   <td>四核心，含超執行緒、Intel® Core i7處理器</td>
-   <td><p>16GB記憶體</p> <p>8MB快取記憶體</p> </td>
+   <td>四核心含超執行緒、Intel® Core™ i7處理器</td>
+   <td><p>16 GB記憶體</p> <p>8 MB快取</p> </td>
    <td>256 GB</td>
    <td>專用圖形GPU</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 4個USB</td>
    <td>
     <ul>
-     <li>4個或多個內容區域，同時播放視訊</li>
+     <li>4個或更多內容區域，同時播放視訊</li>
      <li>多頁互動式</li>
-     <li>多來源資料觸發程式</li>
+     <li>多來源資料觸發器</li>
     </ul> </td>
   </tr>
  </tbody>

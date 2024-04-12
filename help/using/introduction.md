@@ -1,17 +1,17 @@
 ---
-title: '[!UICONTROL AEM Screens] 簡介'
-description: 本頁為 AEM Screens 的介紹區段
+title: AEM Screens簡介
+description: 瞭解AEM Screens及其功用。
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 58%
+source-wordcount: '660'
+ht-degree: 56%
 
 ---
 
 # AEM Screens簡介 {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** 是數位看板解決方案，可讓您製作、發佈和播放動態的互動式數位體驗。 它涉及不同型別的場地內顯示熒幕，配合全方位的全頻道數位行銷策略。
+**AEM Screens** 是數位看板解決方案，可讓您製作、發佈和播放動態的互動式數位體驗。 它涉及不同型別的場地內顯示熒幕，配合全方位的全頻道數位行銷策略。
 
 AEM Screens可讓您建立：
 

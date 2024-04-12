@@ -1,13 +1,13 @@
 ---
 title: 內容指派報表
-description: 本頁面說明「內容指派報告」的下載和使用情形。
+description: 瞭解與AEM Screens相關的內容指派報告的下載和使用情況。
 feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -51,13 +51,13 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. 下載的試算表包含兩個標籤，例如 **位置** 和 **內容**. 「位置」標籤會顯示四欄，例如 **位置**， **顯示區**， **頻道**、和 **裝置** 可用來進一步調查與您的AEM Screens專案相關的這四個實體。
+1. 下載的試算表包含兩個標籤，例如 **位置** 和 **內容**. 「位置」標籤會顯示四欄，例如 **位置**， **顯示區**， **頻道**、和 **裝置** ，可用來進一步調查與您的AEM Screens專案相關的這四個實體。
 
    ![影像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
-   >試算表中顯示的資料會以容易讀取的格式依字母順序排序。
+   >試算表中顯示的資料會以容易閱讀的格式依字母順序排序。
 
-1. 您可以按一下 **頻道** 欄以開啟 **內容** 標籤會直接將您導覽至該頻道，也會提供與該特定頻道相關聯的資產（影像和影片）資訊，如下圖所示。
+1. 按一下任何來自 **頻道** 欄會開啟 **內容** 標籤。 接著，系統會直接將您導覽至該頻道，並提供與該特定頻道相關聯的資產（影像和影片）資訊。
 
    ![影像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

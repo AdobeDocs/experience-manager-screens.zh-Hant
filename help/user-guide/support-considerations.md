@@ -1,22 +1,18 @@
 ---
 title: 「第5部分：支援考量事項」
-seo-title: "Part 5: Support Considerations"
-description: 按照本教學課程瞭解如何解決硬體、軟體和連線問題。 探索現場支援的成本估算與架構。 此外，瞭解如何管理SLA引數、操作預算和NOC移交。
-seo-description: Follow this tutorial to learn how hardware, software and connectivity issues are addressed. Explore cost estimations and frameworks for onsite support. Additionally learn how SLA parameters, operational budgets, and NOC handoffs are managed.
-uuid: da2f82e2-81e7-490e-9123-6479f05918a4
+description: 瞭解如何解決硬體、軟體和連線問題。 探索現場支援的成本估算與架構。 此外，瞭解如何管理SLA引數、操作預算和NOC移交。
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -40,22 +36,22 @@ ht-degree: 0%
 
 * 解決硬體、軟體或連線故障
 * 平衡問題解決成本與最終客戶業務需求。
-* 找出在整個網路中調解問題的最佳方法。
+* 找出在整個網路中修正問題的最佳方法。
 * 推動AEM實作人員與AV整合商在制定第2天支援計畫時保持一致
 
 ## 第2天支援涉及的主要考量事項摘要 {#summary-of-key-considerations-involved-in-day-support}
 
 以下是第2天支援的一些主要考量事項：
 
-* 為確保一致性和從實作到營運支援的順利轉換，AEM實作人員必須與AV整合商合作，以確保在第2天支援計畫中定義適當的支援指令碼。
-* 在數位看板產業發展的這個階段，遠端裝置管理、服務檯可用性及現場技術人員支援等需求實際上已刻不容緩。 除了這些基本需求，AV整合經銷商也應該探索主動式與被動式監控與支援模式之間的成本變數。
+* 為確保協調一致，並順利從實作轉換至營運支援，AEM實作人員會與AV整合商合作，確保在第2天支援計畫中定義適當的支援指令碼。
+* 在數位看板產業發展的這個階段，遠端裝置管理、服務檯可用性及現場技術人員支援等需求實際上已刻不容緩。 除了此基本需求之外，AV整合經銷商也應該探索主動式與被動式監控與支援模式之間的成本變數。
 
-* 在數位看板產業發展的這個階段，遠端裝置管理、服務檯可用性及現場技術人員支援等需求實際上已刻不容緩。 除了這些基本需求，AV整合經銷商也應該探索主動式與被動式監控與支援模式之間的成本變數。
-* 為了準備長期成功，與AV整合商建立第2天支援等級協定（也稱為「S.L.A.」）是最重要的事。 SLA詳細說明部署後支援服務，並幫助設定使用者端期望。
+* 在數位看板產業發展的這個階段，遠端裝置管理、服務檯可用性及現場技術人員支援等需求實際上已刻不容緩。 除了此基本需求之外，AV整合經銷商也應該探索主動式與被動式監控與支援模式之間的成本變數。
+* 為了準備長期的成功，與AV整合商建立第2天支援等級協定（也稱為「S.L.A.」）是最重要的事。 SLA詳細說明部署後支援服務，並幫助設定使用者端期望。
 * 成功管理多個網路時所使用的關鍵資源是知識庫。 SharePoint是此型別資源的熱門平台。 知識庫包含預先撰寫的問答稿，供NOC代理程式遵循，確保傳入問題的解決請求以一致的方式處理。 知識庫通常包含系統組態和場地位置的參考資料，包括硬體剪裁表和系統軟體的參考資料。
-* 監控和管理功能主要取決於媒體播放器作業系統和熒幕功能。 Windows作業系統提供最詳盡的詳細資訊。 若為在Android或iOS裝置上執行的部署，則採用「行動裝置管理」（也稱為MDM）。
+* 監控和管理功能主要取決於媒體播放器作業系統和熒幕功能。 Windows作業系統提供最詳盡的詳細資訊。 對於在Android™或iOS裝置上執行的部署，會使用行動裝置管理（也稱為MDM）。
 * 有些熒幕製造商提供不受媒體播放器影響的熒幕監視功能，有些則需外接裝置。
-* AV整合經銷商運用多種技術，讓解決方案保持彈性，以最好地滿足一般使用者端的需求。
+* AV整合經銷商使用多種技術，因此解決方案仍可彈性地滿足一般使用者端的需求。
 
 ## 第5部分：關於支援考量的影片教學課程 {#part-video-tutorial-on-support-considerations}
 
@@ -69,4 +65,4 @@ ht-degree: 0%
 
 ## 結論 {#conclusion}
 
-這5個部分系列著重於確保專案成功的關鍵考量事項。 如需實作詳細資訊，請參閱AEM Screens使用指南的其他章節。
+這些五個部分的系列重點考慮了確保專案成功的關鍵考量。 如需實作詳細資訊，請參閱AEM Screens使用指南的其他章節。
