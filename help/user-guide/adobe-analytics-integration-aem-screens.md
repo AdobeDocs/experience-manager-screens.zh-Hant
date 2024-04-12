@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -74,8 +74,6 @@ Adobe Analytics設定可從OSGi主控台進行設定。
 >[!CAUTION]
 >
 >在設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
-
-![]()
 
 ### 設定屬性 {#configuring-the-properties}
 
