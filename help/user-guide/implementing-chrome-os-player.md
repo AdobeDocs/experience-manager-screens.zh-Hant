@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 請依照下列步驟設定Chrome管理主控台：
 
 1. 註冊Chrome管理主控台。 您必須取得Chrome管理主控台的授權。 連絡人 [Google支援](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) 管理Chrome裝置設定以取得詳細資訊。
-1. 將您的Chrome作業系統裝置註冊至網域，等待15分鐘讓裝置與Chrome管理主控台同步。 若要深入瞭解註冊鉻裝置，請按一下 [此處](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. 將您的Chrome作業系統裝置註冊至網域，等待15分鐘讓裝置與Chrome管理主控台同步。 若要深入瞭解註冊鉻制裝置，請選取 [此處](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome線上應用程式商店提供Chrome播放器。
 
 >[!NOTE]
@@ -65,7 +65,7 @@ ht-degree: 0%
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. 瀏覽至 **裝置管理** > **Chrome管理** > **裝置設定**.
-1. 向下捲動至 **資訊站設定** 並按一下 **管理資訊站應用程式**.
+1. 向下捲動至 **資訊站設定** 並選取 **管理資訊站應用程式**.
 
    ![資訊站](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 登入Chrome開發人員主控台。
 1. 瀏覽至 **裝置管理** > **Chrome裝置** 並選取您要控制的裝置。
-1. 按一下 **系統活動和疑難排解**.
+1. 選取 **系統活動和疑難排解**.
 1. 檢查 **重新啟動裝置** 和 **熒幕擷取** 裝置的屬性。 您也可以檢查裝置狀態與健全狀態資訊。
 
 >[!NOTE]
@@ -97,11 +97,11 @@ AEM Screens Player是啟用Kiosk的應用程式，也可啟用Chrome作業系統
 請依照下列步驟，設定播放器的各種選項：
 
 1. 登入Chrome管理主控台。
-1. 按一下 **裝置管理** > **Chrome管理** > **應用程式管理**. AEM Screens Player會顯示在清單中。
-1. 按一下應用程式 **AEM Screens Player**.
-1. 按一下 **資訊站設定** 並選取您的組織(*若使用測試環境*)。
-1. 按一下 **上傳設定檔** 並上傳設定原則(*JSon檔案*)。
-1. 按一下「**儲存**」。重新啟動裝置，以便同步處理原則。
+1. 選取 **裝置管理** > **Chrome管理** > **應用程式管理**. AEM Screens Player會顯示在清單中。
+1. 選取應用程式 **AEM Screens Player**.
+1. 選取 **資訊站設定** 並選取您的組織(*若使用測試環境*)。
+1. 選取 **上傳設定檔** 並上傳設定原則(*JSon檔案*)。
+1. 選取&#x200B;**儲存**。重新啟動裝置，以便同步處理原則。
 
 >[!NOTE]
 >

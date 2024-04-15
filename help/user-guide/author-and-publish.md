@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -248,7 +248,7 @@ Screens需要三個復寫代理：
 
 1. 瀏覽至使用者管理頁面。 例如，`https://localhost:4502/useradmin`。
 1. 搜尋 **`screens-devices-master`** 群組。
-1. 在群組上按一下滑鼠右鍵，然後選取 **啟動**.
+1. 以滑鼠右鍵按一下群組並選取「 」 **啟動**.
 
 >[!CAUTION]
 >

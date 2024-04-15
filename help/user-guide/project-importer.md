@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -23,13 +23,13 @@ ht-degree: 1%
 
 ## 簡介 {#introduction}
 
-如果您是第一次在組織中設定AEM Screens專案，也要建立所有位置。 如果您的專案涉及許多位置，則會導致繁瑣的工作，包括在UI中多次點按和等待。
+如果您是第一次在組織中設定AEM Screens專案，也要建立所有位置。 如果您的專案涉及許多位置，則會導致繁瑣的工作，包括在UI中選取和等待許多專案。
 
 此功能的目標是減少設定專案所需的時間，進而解決預算問題。
 
 藉由讓作者提供試算表作為輸入檔案，並讓系統自動在後端建立位置樹，此功能：
 
-* *比透過UI手動點選獲得更好的效能*
+* *獲得比透過UI手動選取更好的效能*
 * *可讓客戶從自己的系統匯出位置，並輕鬆地將位置直接匯入AEM*
 
 這樣在初始專案設定期間或將現有AEM Screens擴充到新位置時，就能節省時間和金錢。
@@ -107,11 +107,11 @@ ht-degree: 1%
 
 1. 此 **匯入** 精靈隨即顯示。 選取包含位置的專案檔案，或選取檔案(***最小檔案.xls***)您已從「 」下載 *必要條件* 區段。
 
-   選取檔案後，按一下 **下一個**.
+   選取檔案後，選取 **下一個**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從匯入精靈中驗證檔案的內容（位置），然後按一下 **匯入**.
+1. 從匯入精靈中驗證檔案的內容（位置）並選取 **匯入**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

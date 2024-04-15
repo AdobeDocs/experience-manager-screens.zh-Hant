@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 1. 導覽至您的AEM Screens專案，然後選取專案 **DemoScreens**.
 
-1. 按一下 **內容指派報表** 從動作列移除。
+1. 選取 **內容指派報表** 從動作列移除。
 
    ![影像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ ht-degree: 2%
    >[!NOTE]
    >試算表中顯示的資料會以容易閱讀的格式依字母順序排序。
 
-1. 按一下任何來自 **頻道** 欄會開啟 **內容** 標籤。 接著，系統會直接將您導覽至該頻道，並提供與該特定頻道相關聯的資產（影像和影片）資訊。
+1. 從「 」中選取任何通道 **頻道** 欄會開啟 **內容** 標籤。 接著，系統會直接將您導覽至該頻道，並提供與該特定頻道相關聯的資產（影像和影片）資訊。
 
    ![影像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

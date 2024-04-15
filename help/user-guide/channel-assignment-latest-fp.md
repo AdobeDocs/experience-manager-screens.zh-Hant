@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
-1. 點選/按一下 **指派頻道** 從動作列移除。
+1. 選取 **指派頻道** 從動作列移除。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或，
 
-   點選/按一下 **儀表板** ，然後按一下 **+指派頻道** 從 **已指派的頻道與排程** 面板。
+   選取 **儀表板** 從動作列並選取 **+指派頻道** 從 **已指派的頻道與排程** 面板。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ ht-degree: 2%
    >
    >若要深入瞭解管道指派屬性，請參閱 [頻道屬性](#channel-properties) 區段。
 
-1. 按一下 **儲存** 設定您的偏好設定後。
+1. 選取 **儲存** 設定您的偏好設定後。
 
 ### 在Chrome播放器中檢視內容 {#viewing-content-output}
 
@@ -111,11 +111,11 @@ ht-degree: 2%
 
 1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
-1. 點選/按一下 **指派頻道** 從動作列移除。
+1. 選取 **指派頻道** 從動作列移除。
 
    或，
 
-   點選/按一下 **儀表板** 並按一下 **時間表** 從 **已指派的頻道與排程** 面板。
+   選取 **儀表板** 並選取 **時間表** 從 **已指派的頻道與排程** 面板。
 
    ![影像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

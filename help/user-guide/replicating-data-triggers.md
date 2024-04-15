@@ -5,10 +5,10 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ### 步驟1：復寫ContextHub設定 {#replicating-contexthub-configurations}
 
-1. 瀏覽至 **工具** > **部署** > **分佈** > **發佈代理程式** 並按一下「發佈代理程式」 ，即可進行設定。
+1. 瀏覽至 **工具** > **部署** > **分佈** > **發佈代理程式** 並選取發佈代理程式，以便您進行設定。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ ht-degree: 1%
    >
    >或者，您可以使用 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 直接瀏覽至畫面以設定及測試連線。
 
-1. 按一下 **測試連線** 從動作列中，以驗證Author與Publishing例項的通訊，如下所示：
+1. 選取 **測試連線** 從動作列中，以驗證Author與Publishing例項的通訊，如下所示：
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 1. 選取 **新增** 從 **發佈代理程式** 熒幕樹狀結構並選取專案的設定路徑，例如 `/conf/screens/settings/cloudsettings/configuration`.
 
-1. 按一下「**提交**」。
+1. 選取 **提交**.
 
 ### 復寫對象 {#replicating-audiences}
 
@@ -60,9 +60,9 @@ ht-degree: 1%
 
 1. 從使用者介面中選取所有對象和區段。
 
-1. 按一下 **管理發布** 從動作列移除。
+1. 選取 **管理發布** 從動作列移除。
 
-1. 按一下 **下一個** 和 **發佈**.
+1. 選取 **下一個** 和 **發佈**.
 
 ### 復寫活動  {#replicating-activities}
 
@@ -72,9 +72,9 @@ ht-degree: 1%
 
 1. 從使用者介面中選取所有活動。
 
-1. 按一下 **管理發布** 從動作列移除。
+1. 選取 **管理發布** 從動作列移除。
 
-1. 按一下 **下一個** 和 **發佈**.
+1. 選取 **下一個** 和 **發佈**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 1. 導覽至工具> **部署** > **分佈** > **發佈代理程式**.
 
-1. 按一下 **編輯** 並確保中的端點URL **匯入工具端點** 欄位也指向發佈代理程式中的發佈伺服器URL。
+1. 選取 **編輯** 並確保中的端點URL **匯入工具端點** 欄位也指向發佈代理程式中的發佈伺服器URL。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則必須使用不同的使用者名稱和密碼來設定發佈代理程式。
@@ -110,10 +110,10 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. 按一下 **儲存**
+   1. 選取 **儲存**
    1. 使用 `Cmd +F` 以搜尋 **Apache Sling散發代理程式 — 轉送代理程式工廠** 以開啟設定並搜尋 **傳輸機密提供者**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 更新 `(name=default)` 替換為 `(name=slingTransportSecretProvider)`.
-   1. 按一下 **儲存** 並從重新執行測試連線 **發佈代理程式** 再次從您的AEM執行個體中熒幕。
+   1. 選取 **儲存** 並從重新執行測試連線 **發佈代理程式** 再次從您的AEM執行個體中熒幕。

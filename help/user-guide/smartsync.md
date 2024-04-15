@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -67,7 +67,7 @@ SmartSync功能可為您的AEM Screens專案提供下列幾項優點：
 
 1. 從ContentSync移轉至SmartSync需要先清除ContentSync快取，才能啟用SmartSync。
 
-   使用連結從您的執行個體導覽至ContentSync主控台 ***https://localhost:4502/libs/cq/contentsync/content/console.html*** 並按一下 **清除快取**，如下圖所示：
+   使用連結從您的執行個體導覽至ContentSync主控台 ***https://localhost:4502/libs/cq/contentsync/content/console.html*** 並選取 **清除快取**，如下圖所示：
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -85,7 +85,7 @@ SmartSync功能可為您的AEM Screens專案提供下列幾項優點：
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 按一下 **儲存** 以啟用 **Screens離線內容服務** 屬性，因此請針對AEM Screens使用SmartSync。
-1. 啟用SmartSync後，請瀏覽至您的專案並按一下 **更新離線內容** *（從動作列），* 如下圖所示。
+1. 選取 **儲存** 以啟用 **Screens離線內容服務** 屬性，因此請針對AEM Screens使用SmartSync。
+1. 啟用SmartSync後，請瀏覽至您的專案並選取 **更新離線內容** *（從動作列），* 如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

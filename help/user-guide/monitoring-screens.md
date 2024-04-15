@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 選取裝置(**NewTestDevice**)並按一下 **儀表板** 從動作列移除。
+1. 選取裝置(**NewTestDevice**)並選取 **儀表板** 從動作列移除。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 您可以從裝置檢視播放器熒幕擷圖 **播放器熒幕擷圖** 面板。
 
-按一下(**...**)，並選取「 」 **重新整理熒幕擷圖** 以檢視執行中播放器的快照。
+選取(**...**)，並選取「 」 **重新整理熒幕擷圖** 以檢視執行中播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 1. 導航到 **Adobe Experience Manager Web 控制台配置**，即 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
 1. **勾選allow.empty** 選項。
-1. 按一下「**儲存**」。
+1. 選取「**儲存**」。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

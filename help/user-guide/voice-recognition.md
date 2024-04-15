@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -57,7 +57,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-emb-1.png)
 
-1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並選取通道。 按一下 **編輯** 之後，根據您的需求新增內容（影像/影片）。 同樣地，將內容新增至兩者 **冷飲** 和 **熱飲** 頻道。
+1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並選取通道。 選取 **編輯** 之後，根據您的需求新增內容（影像/影片）。 同樣地，將內容新增至兩者 **冷飲** 和 **熱飲** 頻道。
 
    管道現在包含資產（影像），如下圖所示。
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並選取通道。
 
-1. 按一下 **屬性** 從動作列移除。
+1. 選取 **屬性** 從動作列移除。
 
    ![影像](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-emb-7.png)
 
-1. 按一下 **儲存並關閉** 完成後。
+1. 選取 **儲存並關閉** 完成後。
 
 
 ### 建立標記 {#creating-tags}
@@ -116,18 +116,18 @@ ht-degree: 2%
 
 1. 導覽至您的AEM執行個體。
 
-1. 按一下「工具」圖示> **標籤**.
+1. 選取工具圖示> **標籤**.
    ![影像](assets/voice-recognition/vr-7.png)
 
-1. 按一下 **建立** > **建立名稱空間**.
+1. 選取 **建立** > **建立名稱空間**.
    ![影像](assets/voice-recognition/vr-tag3.png)
 
-1. 輸入專案名稱，例如 **VoiceDemo** 並按一下 **建立**.
+1. 輸入專案名稱，例如 **VoiceDemo** 並選取 **建立**.
 
-1. 選取 **VoiceDemo** 專案並按一下 **建立標籤** 從動作列移除。
+1. 選取 **VoiceDemo** 專案並選取 **建立標籤** 從動作列移除。
    ![影像](assets/voice-recognition/vr-tag4.png)
 
-1. 輸入標簽名稱，然後按一下 **提交**.
+1. 輸入標籤名稱並選取 **提交**.
    ![影像](assets/voice-recognition/vr-tag5.png)
 
 現在，您可以在AEM Screens專案中使用這些標籤。

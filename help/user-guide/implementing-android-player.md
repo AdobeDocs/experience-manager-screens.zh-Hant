@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 1. 設定 **登入權杖Cookie的SameSite屬性** 從 **鬆散** 至 **無**.
    ![影像](/help/user-guide/assets/granite-updates.png)
 
-1. 按一下「**儲存**」。
+1. 選取「**儲存**」。
 
 
 ### 臨機方法 {#ad-hoc-method}
@@ -55,7 +55,7 @@ ht-degree: 0%
 下載應用程式後，請依照播放器上的步驟完成隨選安裝：
 
 1. 長按左上角以開啟「管理」面板。
-1. 瀏覽至 **設定** 從左側動作選單中輸入您要連線的AEM執行個體的位置（位址），然後按一下 **儲存**.
+1. 瀏覽至 **設定** 從左側動作功能表，輸入您要連線的AEM執行個體位置（位址），然後選取 **儲存**.
 
 1. 導覽至 **裝置** **註冊** 從左側動作功能表連結，以便您檢視裝置註冊程式的狀態。
 

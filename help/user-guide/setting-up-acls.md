@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 按一下 **群組** 並輸入ID （例如Acme）。
+1. 選取 **群組** 並輸入ID （例如Acme）。
 
    或者，使用此連結， `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
@@ -38,11 +38,11 @@ ht-degree: 2%
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 選取 **貢獻者** ，然後按兩下。
+1. 選取 **貢獻者** 從清單中並連按兩下。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 新增 **Acme** （您建立的專案） **新增成員至群組**. 按一下「**儲存**」。
+1. 新增 **Acme** （您建立的專案） **新增成員至群組**. 選取「**儲存**」。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 1. 設定群組的許可權 **Acme** 使用此 `(http://localhost:4502/useradmin)`.
 
-   選取群組 **Acme** 並按一下 **許可權**.
+   選取群組 **Acme** 並選取 **許可權**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

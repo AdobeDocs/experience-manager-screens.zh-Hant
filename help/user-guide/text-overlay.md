@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,11 +58,11 @@ ht-degree: 1%
 
 請依照下列步驟，在AEM Screens頻道中使用文字覆蓋：
 
-1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並按一下 **編輯** 從動作列移除。
+1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並選取 **編輯** 從動作列移除。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. 選取影像並按一下 **設定** （扳手圖示）以開啟「屬性」對話方塊。
+1. 選取影像並選取 **設定** （扳手圖示）以開啟「屬性」對話方塊。
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並按一下 **編輯** 從動作列移除。
+1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並選取 **編輯** 從動作列移除。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ ht-degree: 1%
    >[!NOTE]
    >如果您尚未設定ContextHub組態，則會停用專案的此選項。
 
-1. 輸入 **值** 在 **預留位置** 欄位。 選取您要從Google工作表取得值的列 **contexthub變數**. 在此情況下，值會從Google工作表中擷取自列2和欄1。 現在輸入 **預設值** 作為 **20**，如下圖所示。 完成後，按一下核取記號。
+1. 輸入 **值** 在 **預留位置** 欄位。 選取您要從Google工作表取得值的列 **contexthub變數**. 在此情況下，值會從Google工作表中擷取自列2和欄1。 現在輸入 **預設值** 作為 **20**，如下圖所示。 完成後，選取核取記號。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

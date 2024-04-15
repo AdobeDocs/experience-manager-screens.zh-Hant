@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![資產](assets/single-takeover2.png)
 
-1. 選取 **MainAdChannel** 並按一下 **編輯** 從動作列移除。 將部分資產（影像、影片、內嵌順序）拖放至您的頻道。
+1. 選取 **MainAdChannel** 並選取 **編輯** 從動作列移除。 將部分資產（影像、影片、內嵌順序）拖放至您的頻道。
 
    ![資產](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 建立 **接管** 接收內容的頻道 **MainAdChannel** 和只會播放特定日期和時間。
 
-1. 選取 **接管** 並按一下 **編輯** 從動作列移除。 將部分資產拖放至您的頻道。 下列範例將展示新增至此頻道的單一區域影像。
+1. 選取 **接管** 並選取 **編輯** 從動作列移除。 將部分資產拖放至您的頻道。 下列範例將展示新增至此頻道的單一區域影像。
 
    ![資產](assets/single-takeover4.png)
 
@@ -72,20 +72,20 @@ ht-degree: 0%
 
 **將頻道指派給顯示區**
 
-1. 選取顯示區 **MainLobbyDisplay** 從 **位置** 資料夾。 按一下 **指派頻道** 從動作列移除。
+1. 選取顯示區 **MainLobbyDisplay** 從 **位置** 資料夾。 選取 **指派頻道** 從動作列移除。
 
    ![資產](assets/single-takeover6.png)
 
    >[!NOTE]
    >若要瞭解如何將頻道指派給顯示區，請參閱 **[頻道指定任務](channel-assignment.md)**.
 
-1. 填入欄位(**頻道路徑**， **優先順序**、和 **支援的事件**)從 **頻道指定任務** 對話方塊並按一下 **儲存**. 您現在已指派 **MainAdChannel** 至您的顯示區。
+1. 填入欄位(**頻道路徑**， **優先順序**、和 **支援的事件**)從 **頻道指定任務** 對話方塊並選取 **儲存**. 您現在已指派 **MainAdChannel** 至您的顯示區。
 
    ![資產](assets/single-takeover7.png)
 
-1. 選取顯示區 **接管** 從 **位置** 資料夾。 按一下 **指派頻道** 從動作列指派單次使用接管管道。
+1. 選取顯示區 **接管** 從 **位置** 資料夾。 選取 **指派頻道** 從動作列指派單次使用接管管道。
 
-1. 指派 **接管** 在排程的時間進入您的顯示區，並填入以下欄位： **頻道指定任務** 對話方塊並按一下 **儲存**：
+1. 指派 **接管** 在排程的時間進入您的顯示區，並填入以下欄位： **頻道指定任務** 對話方塊並選取 **儲存**：
 
    * **頻道路徑**：選取接管管道的路徑
    * **優先順序**：將此管道的優先順序設定為大於 **MainAdChannel**. 例如，在此範例中設定的優先順序為8。
@@ -97,7 +97,7 @@ ht-degree: 0%
 
      ![資產](assets/single-takeover8.png)
 
-     瀏覽至顯示區，從 **SingleUseTover** > **位置** > **大廳** > **MainLobbyDisplay** 並按一下 **儀表板** ，以便您檢視指派的管道及其優先順序，如下所示。
+     瀏覽至顯示區，從 **SingleUseTover** > **位置** > **大廳** > **MainLobbyDisplay** 並選取 **儀表板** ，以便您檢視指派的管道及其優先順序，如下所示。
 
      >[!NOTE]
      >強制將接管管道的優先順序設定為最高。

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    **專案路徑** 指定AEM Screens專案的路徑。 路徑通常為 `/content/screens/<Name of your project>`.
 
-   *例如*， `/content/screens/we-retail`. 您可以選取AEM Screens底下的任何專案（不要按一下圖示），在URL中找到此路徑。
+   *例如*， `/content/screens/we-retail`. 您可以選取AEM Screens底下的任何專案（不要選取圖示），在URL中找到此路徑。
 
    >[!NOTE]
    >

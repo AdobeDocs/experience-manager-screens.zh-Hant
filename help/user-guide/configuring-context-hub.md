@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 1. **瀏覽至ContextHub**
 
-   導覽至您的AEM執行個體，然後按一下左側邊欄中的工具圖示。 按一下 **網站** > **ContextHub**，如下圖所示。
+   導覽至您的AEM執行個體，然後從左側邊欄選取工具圖示。 選取 **網站** > **ContextHub**，如下圖所示。
 
    ![影像](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **導覽** 至 **ContextHubDemo** > **建立** **ContentHub設定** 並按一下 **儲存**.
+   1. **導覽** 至 **ContextHubDemo** > **建立** **ContentHub設定** 並選取 **儲存**.
 
       >[!NOTE]
       > 在您選取之後 **儲存**，您位於 **ContextHub設定** 畫面。
@@ -110,7 +110,7 @@ ht-degree: 1%
    >
    >升級之前或之後，請依照「作者」和「發佈」中的這些步驟操作。
 
-   1. 輸入 **標題** 作為 **Google工作表**， **存放區名稱** 作為 **`googlesheets`**、和 **存放區型別** 作為 **c`ontexthub.generic-jsonp`** 並按一下 **下一個**.
+   1. 輸入 **標題** 作為 **Google工作表**， **存放區名稱** 作為 **`googlesheets`**、和 **存放區型別** 作為 **c`ontexthub.generic-jsonp`** 並選取 **下一個**.
 
       >[!CAUTION]
       >如果您正在使用Adobe Experience Manager (AEM) 6.4，請輸入 **設定標題** 作為 **`googlesheets`** 和 **存放區型別** 作為 **c`ontexthub.generic-jsonp`**.
@@ -154,7 +154,7 @@ ht-degree: 1%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. 按一下 **下一個** 然後 **儲存**.
+   1. 選取 **下一個** 然後 **儲存**.
 
       >[!NOTE]
       >跳過定義json的程式，並保留為空白。
@@ -166,16 +166,16 @@ ht-degree: 1%
 
    1. 從您的AEM執行個體瀏覽至 **個人化** > **受眾** > **畫面**.
 
-   1. 按一下 **建立** > **建立內容中心區段。** 此 **新ContextHub區段** 對話方塊開啟。
+   1. 選取 **建立** > **建立內容中心區段。** 此 **新ContextHub區段** 對話方塊開啟。
 
-   1. 輸入 **標題** 作為 `**Higherthan50**` 並按一下 **建立**. 同樣地，建立另一個標題為 `**Lowerthan50**`.
+   1. 輸入 **標題** 作為 `**Higherthan50**` 並選取 **建立**. 同樣地，建立另一個標題為 `**Lowerthan50**`.
 
       ![影像](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. 選取區段 `**Higherthan50**` 並按一下 **屬性** 從動作列移除。
+   1. 選取區段 `**Higherthan50**` 並選取 **屬性** 從動作列移除。
       ![影像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 選取 **個人化** 標籤從 **區段屬性**. 設定 **ContextHub路徑** 至 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **區段路徑** 至 `/conf/screens/settings/wcm/segments` 並按一下 **儲存**，如下圖所示。
+   1. 選取 **個人化** 標籤從 **區段屬性**. 設定 **ContextHub路徑** 至 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **區段路徑** 至 `/conf/screens/settings/wcm/segments` 並選取 **儲存**，如下圖所示。
 
    ![影像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -191,9 +191,9 @@ ht-degree: 1%
 
    1. 選取 **建立** > **建立品牌**.
 
-   1. 選取 **品牌** 從 **建立頁面** 精靈並按一下 **下一個**.
+   1. 選取 **品牌** 從 **建立頁面** 精靈並選取 **下一個**.
 
-   1. 輸入 **標題** 作為 **ScreensBrand** 並按一下 **建立**. 您的品牌現在已建立，如下所示。
+   1. 輸入 **標題** 作為 **ScreensBrand** 並選取 **建立**. 您的品牌現在已建立，如下所示。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -253,7 +253,7 @@ ht-degree: 1%
 
    1. 拖放 **比較：屬性 — 值** 元件至編輯器。
 
-   1. 按一下扳手圖示，即可開啟 **比較屬性與值** 對話方塊。
+   1. 選取扳手圖示，以開啟 **比較屬性與值** 對話方塊。
 
    1. 選取 **谷歌眼表/value/1/0** 從的下拉式清單 **屬性名稱**.
 
@@ -291,7 +291,7 @@ ht-degree: 1%
 
 1. 導覽至其中一個AEM Screens管道。 下列步驟示範如何使用啟用鎖定目標 **DataDrivenChannel** 在AEM Screens頻道中建立。
 
-1. 選取頻道 **TargetChannel** 並按一下 **屬性** 從動作列移除。
+1. 選取頻道 **TargetChannel** 並選取 **屬性** 從動作列移除。
 
    ![影像](/help/user-guide/assets/context-hub/context-hub19.png)
 
@@ -300,7 +300,7 @@ ht-degree: 1%
    1. 設定 **ContextHub路徑** 至 `/conf/screens/settings/wcm/segments` 和 **區段路徑** 至 `/conf/screens/settings/wcm/segments`.
    1. 將品牌設為 **ScreensBrand** 從下拉式清單和 **設定區域參考** 至 **ScreensValue**.
 
-   1. 按一下&#x200B;**「儲存並關閉」**。
+   1. 選取「**儲存並關閉**」。
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ ht-degree: 1%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. 導覽並選取 **TargetChannel** 頻道與點按 **編輯** 從動作列移除。
+   1. 導覽並選取 **TargetChannel** 頻道和選取 **編輯** 從動作列移除。
 
       >[!NOTE]
       >

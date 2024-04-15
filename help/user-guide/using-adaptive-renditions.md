@@ -2,7 +2,7 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 瞭解如何在AEM Screens中使用最適化轉譯。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -35,12 +35,12 @@ ht-degree: 0%
 1. 導覽至 **資產** AEM檔案夾。
 1. 建立更適合招牌顯示的資產版本，例如， `seahorse.jpg`.
 1. 選擇轉譯命名模式，例如`landscape`，類似於中定義的 **圖樣** 中的屬性 **CRXDE Lite**. 另請參閱 [新增轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 以取得更多詳細資料。
-1. 按一下 **新增轉譯** 上傳轉譯，如下圖所示。
+1. 選取 **新增轉譯** 上傳轉譯，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
 1. 選取已重新命名的資產檔案。 您新增的轉譯必須包含模式（在步驟3中定義），例如： `seahorse-landscape.png`.
-1. 新增資產後，請選取資產並按一下 **管理發布** 以發佈資產。
+1. 新增資產後，請選取資產並選取「 」 **管理發布** 以發佈資產。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

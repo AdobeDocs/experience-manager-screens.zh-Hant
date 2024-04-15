@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![影像](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. 選取頻道 **Futurelaunch** 並按一下 **建立啟動項** 從動作列移除。
+1. 選取頻道 **Futurelaunch** 並選取 **建立啟動項** 從動作列移除。
 
    ![影像](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. 此 **建立啟動項** 精靈開啟。 您可以選取已在精靈中顯示的管道，或按一下 **+新增頻道** ，以新增您要建立啟動項的管道。
+1. 此 **建立啟動項** 精靈開啟。 您可以選取已在精靈中顯示的管道，或選取 **+新增頻道** ，以新增您要建立啟動項的管道。
 
-1. 按一下 **下一個** 從 **建立啟動項** 精靈。 此 **包含子頁面** 選項預設為選取。
+1. 選取 **下一個** 從 **建立啟動項** 精靈。 此 **包含子頁面** 選項預設為選取。
 
    ![影像](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >您可以使用 **+新增頻道** 用於新增另一個要為其建立啟動項的管道的選項。
 
-   使用 **新增頻道** 選項，導覽至您要建立啟動項的頻道，然後按一下 **選取**.
+   使用 **新增頻道** 選項，導覽至您要建立啟動項的頻道，然後選取 **選取**.
 
    此 **選取** 如果您嘗試選取多個管道或資料夾來新增啟動項，選項會停用。
 
    ![影像](/help/user-guide/assets/launches-images/launches-14.png)
 
-   選取色版/色版後，按一下 **下一個**.
+   選取通道/通道後，選取 **下一個**.
 
 
-1. 輸入 **啟動項標題** 作為 **SummerPromotions** 而且您不需要設定 **啟動日期**，如下圖所示。 按一下&#x200B;**建立**。
+1. 輸入 **啟動項標題** 作為 **SummerPromotions** 而且您不需要設定 **啟動日期**，如下圖所示。 選取「**建立**」。
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![影像](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 選取啟動項並按一下 **啟動項屬性** 從 **啟動專案等待處理中** 面板。
+1. 選取啟動項，然後選取 **啟動項屬性** 從 **啟動專案等待處理中** 面板。
 
    ![影像](/help/user-guide/assets/launches-images/launches-19.png)
 

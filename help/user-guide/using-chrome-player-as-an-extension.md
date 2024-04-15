@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ ChromeOS播放器可在開發人員模式中安裝為Chrome瀏覽器外掛程式
 
 請依照本頁面瞭解安裝Chrome播放器做為瀏覽器擴充功能的相關資訊。
 
-1. 按一下 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
+1. 選取 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
 
 1. 解壓縮並儲存在磁碟上。
 
-1. 開啟Chrome瀏覽器，然後按一下3點選單並選取「 」 **更多工具** 從 **擴充功能** 或直接導覽至「 」 `chrome://extensions`.
+1. 開啟Chrome瀏覽器，選取3點選單並選取「 」 **更多工具** 從 **擴充功能** 或直接導覽至「 」 `chrome://extensions`.
 
 1. 切換至 **開發人員** 模式從右上角。
 
-1. 按一下 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
+1. 選取 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
 
 1. 如果擴充功能清單中有AEM Screens Chrome Player外掛程式，請勾選該外掛程式。
 
-1. 開啟新標籤，然後從左上角按一下「應用程式」圖示，或直接導覽至 `chrome://apps`.
+1. 開啟新標籤，然後從左上角選取「應用程式」圖示，或直接導覽至 `chrome://apps`.
 
-1. 按一下 **AEM Screens外掛程式** 以便啟動Chrome播放器。
+1. 選取 **AEM Screens外掛程式** 以便啟動Chrome播放器。
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ ChromeOS播放器可在開發人員模式中安裝為Chrome瀏覽器外掛程式
 1. 重新命名包含播放器檔案的舊資料夾
 1. 在與舊資料夾相同的位置解壓縮新的zip
 1. 啟動Chrome並瀏覽至 `chrome://extensions`
-1. 核取播放器圖示，然後按一下重新整理或重新載入按鈕
+1. 核取播放器圖示，然後選取重新整理或重新載入按鈕

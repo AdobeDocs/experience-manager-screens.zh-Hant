@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 請依照下列步驟自動產生Full HD轉譯：
 
-1. 選取Adobe Experience Manager連結（左上方），然後按一下槌子圖示，讓您選取 **工作流程**.
+1. 選取Adobe Experience Manager連結（左上方），然後選取槌子圖示，讓您選取 **工作流程**.
 
-   按一下 **模型**.
+   選取 **模型**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 在工作流程模型管理中，選取 **DAM更新資產** 模型和按一下 **編輯** 從動作列移除。
+1. 在工作流程模型管理中，選取 **DAM更新資產** 模型和選擇 **編輯** 從動作列移除。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -47,15 +47,15 @@ ht-degree: 0%
 1. 選取 **程式** 標籤。
 1. 輸入Full HD設定檔至中的清單 **引數** 如下所示：
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. 按一下&#x200B;**「確定」**。
+1. 選取 **確定**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 按一下 **儲存** 左側的 **DAM更新資產** 畫面。
+1. 選取 **儲存** 左側的 **DAM更新資產** 畫面。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 瀏覽至 **資產** 並上傳新影片。 按一下視訊，然後開啟「轉譯」側欄。 請注意兩部Full HD影片。
+1. 瀏覽至 **資產** 並上傳新影片。 選取視訊並開啟「轉譯」側欄。 請注意兩部Full HD影片。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ ht-degree: 0%
 
 請依照下列步驟手動產生Full HD轉譯：
 
-1. 選取Adobe Experience Manager連結（左上方），然後按一下槌子圖示，讓您能夠選取工具並選取 **工作流程**.
+1. 選取Adobe Experience Manager連結（左上方），然後選取槌子圖示，讓您選取工具並選取 **工作流程**.
 
-   按一下 **模型**.
+   選取 **模型**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 在工作流程模型管理中，選取 **畫面更新資產** 模型，然後按一下 **開始工作流程** 以開啟 **執行工作流程** 對話方塊。
+1. 在工作流程模型管理中，選取 **畫面更新資產** 模型，並選取 **開始工作流程** 以開啟 **執行工作流程** 對話方塊。
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 在「 」中選取所需的視訊 **裝載** 並按一下 **執行**.
+1. 在「 」中選取所需的視訊 **裝載** 並選取 **執行**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. 瀏覽至 **資產**，深入研究您的資產，然後按一下它。
+1. 瀏覽至 **資產**，深入研究您的資產，然後選取它。
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

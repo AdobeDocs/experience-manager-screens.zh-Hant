@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 2%
@@ -79,9 +79,9 @@ Screens播放器使用 ***ContentSync*** 技術。
 
 1. 開啟 `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. 在清單中選取您的設定
-1. 按一下清除快取
-1. 按一下更新快取
-1. 按一下「下載完整部分」
+1. 選取清除快取
+1. 選取更新快取
+1. 選取下載完整部分
 1. 解壓縮zip檔案
 1. 在擷取的資料夾中啟動本機伺服器
 1. 開啟您的開始頁面並檢查您的應用程式狀態
@@ -95,16 +95,16 @@ Screens播放器使用 ***ContentSync*** 技術。
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. 導覽至頻道控制面板。
-1. 按一下 **...** 在 **頻道資訊** 面板。
+1. 選取 **...** 在 **頻道資訊** 面板。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. 導覽至管道屬性。
-1. 在(（管道）)標籤下，確認核取方塊已停用，然後按一下 **儲存並關閉**.
+1. 在(（管道）)標籤下，確認核取方塊已停用，然後選取 **儲存並關閉**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   在將內容正確部署到裝置之前，請按一下 **更新離線內容**.
+   在將內容正確部署到裝置之前，請選取 **更新離線內容**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 
    ![影像](assets/config/empty-ref2.png)
 
-1. 按一下 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
+1. 選取 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
 
 
 #### Apache Felix Jetty型HTTP服務 {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![影像](assets/config/config-1.png)
 
-1. 按一下 **儲存** 以啟用 *http* 服務。
+1. 選取 **儲存** 以啟用 *http* 服務。
 
 #### 啟用AEM Screens的Touch UI {#enable-touch-ui-for-aem-screens}
 

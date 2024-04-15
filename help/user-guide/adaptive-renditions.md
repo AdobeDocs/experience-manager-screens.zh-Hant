@@ -2,10 +2,10 @@
 title: 最適化轉譯架構概觀和設定
 description: 瞭解AEM Screens最適化轉譯之CRXDE Lite的架構概觀和設定。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -58,11 +58,11 @@ ht-degree: 2%
 請依照下列步驟，在「轉譯對應」下新增節點：
 
 1. 導覽至此路徑 `/conf/screens/sling:configs/rendition-mapping` 從 **CRXDE Lite**.
-1. 在下建立節點 **轉譯 — 對應**. 按一下右鍵 **轉譯 — 對應** 並按一下 **建立** > **建立節點**，如下圖所示。
+1. 在下建立節點 **轉譯 — 對應**. 按一下右鍵 **轉譯 — 對應** 並選取 **建立** > **建立節點**，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 輸入 **名稱** 對應規則的資訊，例如 **rule1** 和節點 **型別** 作為 **`nt:unstructured`** 在 **建立節點** 對話方塊。 按一下&#x200B;**「確定」**。
+1. 輸入 **名稱** 對應規則的資訊，例如 **rule1** 和節點 **型別** 作為 **`nt:unstructured`** 在 **建立節點** 對話方塊。 選取 **確定**.
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ ht-degree: 2%
    >[!NOTE]
    >另請參閱 [使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 以進一步瞭解。
 
-   按一下 **rule1** ，然後輸入 **運算式** 在 **名稱** 和 **(orientation：landscape)** 在 **值**，如下所示。 按一下 **新增**.
+   選取 **rule1** ，然後輸入 **運算式** 在 **名稱** 和 **(orientation：landscape)** 在 **值**，如下所示。 選取「**新增**」。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ ht-degree: 2%
    >[!NOTE]
    >如果運算式的計算結果為true，則在pattern屬性中定義的值會符合新的資產轉譯，並會選取該值。
 
-   若要新增模式屬性，請按一下 **rule1** ，然後輸入 **圖樣** 在 **名稱** 和 **橫向** 在 **值**，如下所示。 按一下 **新增**.
+   若要新增模式屬性，請選取 **rule1** ，然後輸入 **圖樣** 在 **名稱** 和 **橫向** 在 **值**，如下所示。 選取「**新增**」。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 按一下 **全部儲存** 並注意您在下建立的節點下的屬性 **轉譯 — 對應**.
+1. 選取 **全部儲存** 並注意您在下建立的節點下的屬性 **轉譯 — 對應**.
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

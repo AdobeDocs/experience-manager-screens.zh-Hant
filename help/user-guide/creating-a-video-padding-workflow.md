@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ ht-degree: 0%
 請依照下列步驟，為您的影片建立工作流程：
 
 1. 導覽至您的AEM執行個體。
-1. 按一下側邊欄中的工具。
+1. 從側邊欄選取工具。
 1. 選取 **工作流程** > **模型** 以便建立模型。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 按一下 **模型** > **建立** > **建立模型**. 輸入 **標題** (as **視訊轉譯**)和 **名稱** 在 **新增工作流程模型**. 按一下 **完成** 以新增工作流程模型。
+1. 選取 **模型** > **建立** > **建立模型**. 輸入 **標題** (as **視訊轉譯**)和 **名稱** 在 **新增工作流程模型**. 選取 **完成** 以新增工作流程模型。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. 建立工作流程模型後，請選取模型(**視訊轉譯**)，然後按一下 **編輯** 從動作列移除。
+1. 建立工作流程模型後，請選取模型(**視訊轉譯**)，然後選取 **編輯** 從動作列移除。
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ ht-degree: 0%
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. 選取工作流程(**視訊轉譯**)。
-1. 按一下 **開始工作流程** 從動作列移除。
+1. 選取 **開始工作流程** 從動作列移除。
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. 在 **執行工作流程** 對話方塊中，選取您的資產在 **裝載** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)並輸入 **標題** 作為 ***RunVideo*** 並按一下 **執行**.
+1. 在 **執行工作流程** 對話方塊中，選取您的資產在 **裝載** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)並輸入 **標題** 作為 ***RunVideo*** 並選取 **執行**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. 按一下 **編輯** 從動作列移除。 拖放您最初上傳的視訊 **資產**.
+1. 選取 **編輯** 從動作列移除。 拖放您最初上傳的視訊 **資產**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. 上傳視訊後，按一下 **預覽** 以檢視輸出。
+1. 上傳影片後，選取「 」 **預覽** 以檢視輸出。
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

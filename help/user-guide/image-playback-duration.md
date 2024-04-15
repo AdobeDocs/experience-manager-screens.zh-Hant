@@ -2,7 +2,7 @@
 title: 影像播放持續時間
 description: 瞭解AEM Screens中的影像播放持續時間。
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 按一下 **編輯** 從動作列移除。
+1. 選取 **編輯** 從動作列移除。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   編輯 **持續時間** 從8000 （毫秒）到3000 （毫秒），即3秒。 按一下右上方的勾號 **頁面** 對話方塊，以便儲存變更。
+   編輯 **持續時間** 從8000 （毫秒）到3000 （毫秒），即3秒。 選取右上方的核取標籤 **頁面** 對話方塊，以便儲存變更。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

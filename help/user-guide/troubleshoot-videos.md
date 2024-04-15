@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 若要觀看影片：
 
 1. 導覽至您的影片，例如 `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 按一下視訊並展開左上角功能表，然後按一下 **轉譯**.
+1. 選取視訊並展開左上角的功能表，然後選取「 」 **轉譯**.
 
 應該有不同的轉譯（MP4或M4V）。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 >
 >如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
 >
->按一下 [此處](https://www.ffmpeg.org/download.html) 以安裝ffmpeg。
+>選取 [此處](https://www.ffmpeg.org/download.html) 以安裝ffmpeg。
 
 ## 視訊資產 {#video-assets}
 
@@ -51,11 +51,11 @@ ht-degree: 1%
 
 ### 正在檢查視訊設定檔 {#checking-video-profile}
 
-1. 導覽至 **視訊設定檔**，也就是 `http://localhost:4502/etc/dam/video.html` 並按一下 **上傳測試視訊**.
+1. 導覽至 **視訊設定檔**，也就是 `http://localhost:4502/etc/dam/video.html` 並選取 **上傳測試視訊**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 上傳測試視訊並按一下 **確定** 以便您開始轉碼。
+1. 上傳測試視訊並選取 **確定** 以便您開始轉碼。
 
    如果轉碼後的視訊失敗，請展開ffmpeg輸出來瞭解ffmpeg主控台輸出中的任何錯誤。
 

@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 1. 瀏覽至 **Adobe Experience Manager Web主控台設定**
 1. 檢查 **allow.empty** 選項。
-1. 按一下「**儲存**」。
+1. 選取「**儲存**」。
 
 ### 3.如果在註冊AEM Screens播放器時，裝置顯示失敗且主控台記錄顯示ENAME_NOT_FOUND錯誤，如何進行疑難排解？
 
@@ -133,13 +133,13 @@ ht-degree: 0%
 
 ChromeOS播放器可在開發人員模式中安裝為Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。 請依照下列步驟進行安裝：
 
-1. 按一下 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
+1. 選取 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
 1. 解壓縮並儲存在磁碟上。
 1. 開啟Chrome瀏覽器並選取 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
 1. 切換至 **開發人員模式** 從右上角。
 1. 選取 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
 1. 如果擴充功能清單中有提供，請核取 **AEM Screens Chrome Player** 外掛程式。
-1. 開啟新標籤，然後按一下 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
+1. 開啟新標籤並選取 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
 1. 選取 **AEM Screens** 外掛程式。 依預設，播放器會以全熒幕模式啟動。 按下 **Esc** 以結束全熒幕模式。
 
 ### 2.如果Screens播放器無法透過使用自訂錯誤處理常式的發佈執行個體進行驗證，該如何進行疑難排解？

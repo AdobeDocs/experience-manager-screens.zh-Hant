@@ -10,7 +10,7 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -97,11 +97,11 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 1. **建立體驗片段的即時副本**
 
    1. 導覽至AEM首頁。
-   1. 選取 **體驗片段** 並反白顯示 **ScreensFragment** 並按一下 **變數為live-copy**，如下圖所示：
+   1. 選取 **體驗片段** 並反白顯示 **ScreensFragment** 並選取 **變數為live-copy**，如下圖所示：
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c.選取 **ScreensFragment** 從 **建立即時副本** 精靈並按一下 **下一個**.
+   c.選取 **ScreensFragment** 從 **建立即時副本** 精靈並選取 **下一個**.
 
    d.輸入 **標題** 和 **名稱** 作為 **Screens**.
 
@@ -113,11 +113,11 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
    >[!NOTE]
    >
-   >建立AEM Screens片段後，您可以編輯片段的屬性。 選取片段並按一下 **屬性** 從動作列移除。
+   >建立AEM Screens片段後，您可以編輯片段的屬性。 選取片段並選取 **屬性** 從動作列移除。
 
    **編輯畫面片段的屬性**
 
-   1. 導覽至 **ScreensFragment** （您已在前述步驟中建立），然後按一下 **屬性** 從動作列移除。
+   1. 導覽至 **ScreensFragment** （您在前面步驟中建立）並選取 **屬性** 從動作列移除。
 
    1. 選取 **離線設定** 標籤，如下圖所示。
 
@@ -128,9 +128,9 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 1. **在畫面頻道中使用體驗片段作為元件**
 
    1. 導覽至畫面頻道，您想在此使用 **Screens** 片段。
-   1. 選取 **TestChannel** 並按一下 **編輯** 從動作列移除。
+   1. 選取 **TestChannel** 並選取 **編輯** 從動作列移除。
 
-   1. 按一下側邊標籤中的元件圖示。
+   1. 從側邊標籤中選取元件圖示。
    1. 拖放 **體驗片段** 至您的頻道。
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -179,11 +179,11 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
 請依照下列步驟，將變更從主要管道傳播至您的目的地管道：
 
-1. 從中選擇體驗片段 **網站** （主要）頁面，然後按一下鉛筆圖示，這樣您就可以編輯體驗片段中的專案。
+1. 從中選擇體驗片段 **網站** （主要）頁面並選取鉛筆圖示，如此您便可編輯體驗片段中的專案。
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. 選取體驗片段並按一下扳手圖示，即可開啟對話方塊以編輯影像。
+1. 選取「體驗片段」並選取扳手圖示，即可開啟對話方塊以編輯影像。
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -195,7 +195,7 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. 選取體驗片段並按一下轉出圖示，這樣您就可以將變更傳播到您的頻道中使用的片段。
+1. 選取「體驗片段」並選取「轉出」圖示，這樣您就可以將變更傳播到您的頻道中使用的片段。
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -211,7 +211,7 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
 1. 導覽至 **Screens** > **頻道** > **TestChannel**.
 
-1. 按一下 **預覽** 從動作列移除。
+1. 選取 **預覽** 從動作列移除。
 
 下圖說明中的變更， **TestChannel**：\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
