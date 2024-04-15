@@ -1,22 +1,18 @@
 ---
 title: Hospitality Reservation Activation
-seo-title: Hospitality Reservation Activation
-description: 下列使用案例示範如何根據Google Sheets中填入的值，使用醫院預約啟用。
-seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
-uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
+description: 瞭解此使用案例如何示範如何根據Google Sheets中填入的值來使用旅館業預訂啟用。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -27,9 +23,9 @@ ht-degree: 0%
 
 ## 說明 {#description}
 
-在此使用案例中，Google工作表會填入兩家餐廳的預訂百分比 **餐廳1** 和 **餐廳2**. 根據Restaurant1和Restaurant2的值套用公式，並根據公式，將值1或2指派給 **adtarget** 欄。
+在此使用案例中，Google工作表會填入兩個餐廳的訂位百分比 **`Restaurant1`** 和 **`Restaurant2`**. 根據下列的值套用公式： `Restaurant1` 和 `Restaurant2` 而且根據公式，值1或2會指派給 **adtarget** 欄。
 
-如果 **餐廳1** > **餐廳2**，然後 **AdTarget** 已指派值 **1** 否則 **adtarget** 已指派值 **2**. 值1產生 *牛排食品* 選項和值2導致顯示 *泰國菜* 選項。
+如果 **`Restaurant1`** > **`Restaurant2`**，然後 **AdTarget** 已指派值 **1** 否則 **adtarget** 已指派值 **2**. 值1產生 *牛排食品* 選項和值二會顯示 *泰國菜* 選項。
 
 ## 先決條件 {#preconditions}
 
@@ -39,9 +35,9 @@ ht-degree: 0%
 
 ## 基本流量 {#basic-flow}
 
-請依照下列步驟，為您的AEM Screens專案實作旅館預訂啟用使用案例：
+請依照下列使用案例步驟，為您的AEM Screens專案實作旅館業保留啟用：
 
-1. **填入Google工作表並新增公式。**
+1. **填入Google工作表並新增公式**.
 
    例如，將公式套用至第三欄 **adtarget**，如下圖所示。
 
@@ -50,22 +46,15 @@ ht-degree: 0%
 1. **根據需求在Audiences中設定區段**
 
    1. 導覽至您對象中的區段(請參閱 ***步驟2：設定對象細分*** 在 **[在AEM Screens中設定ContextHub](configuring-context-hub.md)** 頁面（以取得更多詳細資料）。
-
    1. 選取 **工作表A1 1** 並按一下 **編輯**.
-
-   1. 選取比較屬性，然後按一下設定圖示以編輯屬性。
-   1. 選取 **谷歌眼表/value/1/2** 從的下拉式清單 **屬性名稱**
-
-   1. 選取 **運運算元** 作為 **等於** 從下拉式功能表
-
-   1. 輸入 **值** 作為 **1**
-
+   1. 選取比較屬性，然後按一下 **設定** 圖示。
+   1. 選取 **谷歌眼表/value/1/2** 從的下拉式清單 **屬性名稱**.
+   1. 選取 **運運算元** 作為 **等於** （從下拉式功能表）。
+   1. 輸入 **值** 作為 **1**.
    1. 同樣地，選取 **工作表A1 2** 並按一下 **編輯**.
-
-   1. 選取比較屬性，然後按一下設定圖示以編輯屬性。
-   1. 選取 **谷歌眼表/value/1/2** 從的下拉式清單 **屬性名稱**
-
-   1. 選取 **運運算元** 作為 **2**
+   1. 選取比較屬性，然後按一下 **設定** 圖示。
+   1. 選取 **谷歌眼表/value/1/2** 從的下拉式清單 **屬性名稱**.
+   1. 選取 **運運算元** 作為 **2**.
 
 1. 導覽並選取您的管道()，然後按一下 **編輯** 從動作列移除。 在以下範例中， **DataDrivenRestaurant**，循序頻道可用來展示此功能。
 
@@ -85,6 +74,6 @@ ht-degree: 0%
 1. **檢查預覽**
 
    1. 按一下 **預覽。** 此外，請開啟Google工作表並更新其值。
-   1. 更新中的值 **餐廳1** 和 **餐廳2** 欄。 如果 **餐廳1** > **餐廳2，** 您應該能夠檢視 *牛排* 其他食物， *泰文* 食品影像會顯示在您的熒幕上。
+   1. 更新中的值 **`Restaurant1`** 和 **`Restaurant2`** 欄。 如果 **`Restaurant1`** > **`Restaurant2`，** 您應該能夠檢視 *牛排* 其他食物， *泰文* 食品影像會顯示在您的熒幕上。
 
    ![result5](assets/result5.gif)

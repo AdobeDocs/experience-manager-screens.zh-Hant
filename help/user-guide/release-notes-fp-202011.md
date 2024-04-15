@@ -1,21 +1,21 @@
 ---
 title: Feature Pack 202011發行說明
-description: 「請詳閱本頁，以取得2020年11月30日發行的AEM Screens Feature Pack 202011相關資訊。」
+description: 進一步瞭解2020年11月30日發行的AEM Screens Feature Pack 202011。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 # Feature Pack 202011發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
@@ -49,16 +49,16 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
   在這個版本中，預設的Ping間隔現在設定為30秒。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已發行的AEM Screens Players
 
 下列AEM Screens Player已針對AEM 6.5 Feature Pack 6發行：
 
 * Chrome作業系統
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下載
 
 若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

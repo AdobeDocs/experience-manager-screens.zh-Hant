@@ -1,12 +1,10 @@
 ---
 title: 裝置規格
-seo-title: Device Specifications
-description: 本頁說明裝置規格
-seo-description: The page describes device specifications
+description: 瞭解更多有關AEM Screens的裝置規格。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 * 播放器是否需要網際網路連線，才能與AEM伺服器同步處理畫面？
 
-* 何時會更新播放器上的內容？
+* 播放器上的內容何時更新？
 
 * 如果您正在執行影片，請務必瞭解裝置的規格，以便正確顯示內容。
 
@@ -40,4 +38,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->驗證所選取硬體的規格也很重要，以確保其可支援正在開發的應用程式。 例如，如果應用程式打算同時執行五部HD視訊，硬體是否支援？
+>驗證所選取硬體的規格也很重要，以確保其可支援正在開發的應用程式。 例如，如果應用程式要同時執行5個高解析度視訊，硬體是否支援？

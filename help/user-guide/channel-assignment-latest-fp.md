@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >
 >本節重點說明AEM 6.5.5 Screens Feature Pack及更新版本的頻道指定與頻道排程。
 
-設定顯示後，您必須將頻道指派給顯示以檢視您的內容。
+設定顯示後，將頻道指派給顯示以檢視您的內容。
 
 此頁面顯示指派管道給您的顯示器、瞭解管道屬性和DayParting。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 ### 在Chrome播放器中檢視內容 {#viewing-content-output}
 
-此範例會在Chrome播放器上展示輸出。 將頻道指派給顯示區後，您必須將裝置註冊給播放器。
+此範例會在Chrome播放器上展示輸出。 將頻道指派給顯示區後，請將裝置註冊給播放器。
 
 若要瞭解如何在AEM Screens播放器上註冊裝置，請參閱 [裝置註冊](device-registration.md).
 
