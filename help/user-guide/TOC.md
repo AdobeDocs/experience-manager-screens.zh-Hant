@@ -4,14 +4,14 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 說明
 breadcrumb-title: AEM Screens 指南
-user-guide-description: 瞭解如何使用數位看板解決方案，讓您發佈動態的互動式數位體驗和互動。
+user-guide-description: 了解如何使用數位簽署解決方案，發佈動態的互動式數位體驗和互動。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
