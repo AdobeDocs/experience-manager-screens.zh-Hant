@@ -1,14 +1,13 @@
 ---
 title: 使用資料觸發器製作
-seo-title: Authoring with Data Triggers
-description: 請依照本頁面瞭解如何使用資料觸發器進行創作。
+description: 進一步瞭解如何在AEM Screens頻道中使用資料觸發器進行創作。
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -50,11 +49,11 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 選取 **個人化** 索引標籤以設定ContextHub設定，並選取ContextHub和區段路徑。
+1. 選取 **個人化** 標籤，讓您能夠設定ContextHub設定並選取ContextHub和區段路徑。
 
    1. 選取 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並按一下 **選取**.
 
-   1. 選取 **區段路徑** 作為 **conf** > **We.Retail** > **設定** > **wcm** > **區段** 並按一下 **選取**.
+   1. 選取 **區段路徑** 作為 **conf** > **`We.Retail`** > **設定** > **wcm** > **區段** 並按一下 **選取**.
 
    1. 按一下&#x200B;**「儲存並關閉」**。
 
@@ -68,7 +67,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您已正確設定一切，您將會看到 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
+   >如果您已正確設定所有專案，請檢視 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

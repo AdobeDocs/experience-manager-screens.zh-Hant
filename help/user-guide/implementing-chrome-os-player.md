@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 請依照下列步驟，在Chrome播放器中設定名稱：
 
-1. 您可以選擇允許AV整合經銷商或IT管理員設定資產ID和位置，作為企業註冊的一部分。
+1. 您可以選擇允許音訊/視訊整合商或IT管理員設定資產ID和位置，以作為企業註冊的一部分。
 
    ![影像](/help/user-guide/assets/chrome-device/chrome1.png)
 

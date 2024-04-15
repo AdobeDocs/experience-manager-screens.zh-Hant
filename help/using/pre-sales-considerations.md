@@ -1,12 +1,10 @@
 ---
 title: 限定範圍專案的考量
-seo-title: Considerations as Projects are Scoped
-description: 本頁面說明限定範圍專案的考量事項
-seo-description: The page describes Considerations as Projects are Scoped
+description: 深入瞭解AEM Screens專案設定範圍時的考量事項。
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 >此活動的一般利害關係人是行銷/業務策略師。
 
 此階段包含完整定義專案範圍所需的所有售前和探索工作。 在Day Zero期間完成的工作會設定專案其餘部分的基調，並影響正在建置的應用程式的整體成功。
-在此階段，主要廠商會被識別並彙集在一起，協助制定專案計畫。 在此階段中，客戶公司內的重要專案關係人（例如銷售主管、行銷經理和IT團隊）也必須建立加入機制，因為他們在應用程式的開發及其持續維護中都會扮演重要角色。
+在此階段，主要廠商會被識別並彙集在一起，協助制定專案計畫。 在此階段中，客戶公司內部的重要專案利害關係人也必須建立加入機制。 這些利害關係人包括銷售主管、行銷經理和IT團隊。 這些人在應用程式的開發及持續維護中都有重要角色。
 
 ## 主要交付專案 {#key-deliverables}
 
@@ -31,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->儘快識別應用程式所需的資料，以及資料的來源。 雖然實施期間將進行更深入的探索，但請花時間 *第0天* 瞭解使用者端打算使用哪些資料、目前儲存這些資料的位置，以及建置的應用程式如何存取這些資料。 在開發團隊面臨挑戰之前通知他們，將有助於讓實作更順暢。
+>儘快識別應用程式所需的資料，以及資料的來源。 實施期間會進行更深入的探索。 不過，請務必在以下期間花些時間： *第0天* 以瞭解使用者端打算使用哪些資料。 瞭解該資料目前的儲存位置，以及建置的應用程式如何存取該資料。 在挑戰出現之前通知開發團隊有助於讓實施更順暢。
 
-請參閱教學課程影片，位置在： [限定範圍專案的考量](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) 以取得詳細資訊。
+請參閱教學課程影片 [「限定範圍專案的考量事項」](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

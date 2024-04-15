@@ -2,10 +2,10 @@
 title: 關於本指南
 description: 瞭解AEM Screens專案在規劃及執行專案時的最佳實務，範圍從策略與設計簡介、部署，到支援後都包括在內。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 34%
+source-wordcount: '255'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ AEM Screens 最佳實務指南旨在指導如何成功規劃和執行 AEM Screen
 本檔案的目標對象為：
 
 * *AEM 實作人員*
-* *AV 整合廠商*
+* *音訊/視訊整合廠商*
 * *商業策略師*
 * *專案經理*
 * *顧問*
