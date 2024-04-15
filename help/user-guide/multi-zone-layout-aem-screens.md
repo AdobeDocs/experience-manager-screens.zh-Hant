@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1126'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 1%
 
 根據專案需求，您有時需要在通道中擁有多個區域，並將它們編輯為一個完整的單位。 例如，具有相關社群媒體摘要的產品序列，在單一頻道上的三個獨立區域中執行。
 
+>[!NOTE]
+>在多區域管道中，由於潛在的衝突和意外行為，不建議進行資產層級排程。 如果資產層級排程是必要的，建議建立個別的順序管道，並在該管道內套用排程邏輯。 接下來，將順序頻道嵌入到多區域頻道中。
 
 ### 先決條件 {#prerequisites}
 
