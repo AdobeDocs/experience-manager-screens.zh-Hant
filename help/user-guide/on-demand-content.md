@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ ht-degree: 0%
 
 ### 頻道與裝置重新指派： {#channel-and-device-re-assignment}
 
-如果您已重新指定裝置，則一旦裝置重新指定至新顯示時，您必須同時發佈初始顯示和新顯示。
+如果您已重新指定裝置，請在裝置重新指定至新顯示後，發佈初始顯示和新顯示。
 
-同樣地，如果您已重新指定管道，則一旦將管道重新指定給新顯示，您必須同時發佈初始顯示和新顯示。
+同樣地，如果您已重新指定管道，一旦管道重新指定給新顯示時，請發佈初始顯示和新顯示。

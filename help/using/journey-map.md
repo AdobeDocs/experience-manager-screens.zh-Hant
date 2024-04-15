@@ -1,9 +1,8 @@
 ---
 title: 歷程圖
 description: 瞭解適用於AEM Screens的Journey Map。
-seo-description: The page describes Journey Map for AEM Screens
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%

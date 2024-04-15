@@ -1,9 +1,9 @@
 ---
 title: 直接放置工作流程設定
 description: 本頁面主要說明直接放置工作流程設定。
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->開始設定前，您必須先安裝 `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. 安裝套件後，您應該能夠從AEM執行個體>工具（圖示） >檢視及存取套件 **工作流程** > **工作流程模型**.
+>開始設定前，請先安裝 `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. 安裝套件後，您應該能夠從AEM執行個體>工具（圖示） >檢視及存取套件 **工作流程** > **工作流程模型**.
 
 請依照下列步驟設定直接放置工作流程：
 

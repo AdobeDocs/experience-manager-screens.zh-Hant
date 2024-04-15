@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
    >
    >本檔案使用 **群組ID** 作為 ***com.adobe.aem.screens*** 和 **ArtifactId** 作為 ***我的SPA範例*** （為預設值）。 您可以視需要選擇自己的網站。
 
-1. 建立專案後，請使用您選擇的IDE或編輯器並匯入產生的Maven專案。
+1. 建立專案後，使用您選擇的IDE或編輯器並匯入產生的Maven專案。
 1. 使用命令部署到您的本機AEM執行個體 ***mvn全新安裝 — PautoInstallPackage***.
 
 ### 在REACT應用程式中編輯內容 {#editing-content-in-the-react-app}

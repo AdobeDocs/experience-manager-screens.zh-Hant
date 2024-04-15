@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->指派裝置之前，您必須先註冊該裝置。 如需詳細資訊，請參閱 [裝置註冊](device-registration.md).
+>指派裝置之前，請先註冊該裝置。 另請參閱 [裝置註冊](device-registration.md).
 
 ## 裝置指派 {#device-assignment}
 
@@ -69,6 +69,4 @@ ht-degree: 6%
 
 ### 後續步驟 {#the-next-steps}
 
-熟悉指定顯示區之管道後，請參閱下列資源：
-
-* [監視和疑難排解](monitoring-screens.md)
+熟悉指定顯示區通道後，請參閱[監視和疑難排解](monitoring-screens.md).

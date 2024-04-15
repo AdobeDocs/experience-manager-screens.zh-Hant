@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ POC的目的是取得解決方案關鍵功能的初始意見回饋。 它也能�
 
 系統與軟體整合測試從音訊/視訊整合商的IT工程團隊開始。 IT工程團隊會參考核准的系統設計，設定、實作並監督音訊/視訊整合器設施中「實驗室環境」中硬體元件的安裝。 如此一來，您便可針對品質控制密切檢閱及測試整個解決方案。
 
-QC測試完成後，IT工程團隊會建立檔案、工作流程和訓練，以供第二天支援期間參考。 要測試的系統方面包括：
+QC測試完成後，IT工程團隊會建立檔案、工作流程和訓練，以供第二天支援期間參考。 要測試的系統方面包括以下內容：
 
-* AEM實作人員整合
-* 協力廠商系統整合
-* 軟體
-* 硬體
-* 連線能力
+* AEM實作或整合。
+* 第三方系統整合。
+* 軟體。
+* 硬體。
+* 連線能力。
 * 內容部署工作流程包括手動、自動化和條件式部署。
 
 ## 第3部分：測試、POC、試行方案和轉出的影片教學課程 {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ QC測試完成後，IT工程團隊會建立檔案、工作流程和訓練，以�
 
 ## 下一步 {#the-next-step}
 
-在徹底進行測試、概念證明、試行方案和推出後，請遵循下一個教學課程，深入探討專案管理和相關流程。
+當您完成測試、概念證明、試行方案和推出時，請遵循下一個教學課程，深入探討專案管理和相關流程。
 
 瀏覽至 **[第4部分：專案管理與部署](project-management-and-deployment.md)** 以取得更多詳細資料。

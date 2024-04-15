@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此AEM Screens功能僅在您已安裝AEM 6.3 Sites Feature Pack 1時可用。 若要存取此Feature Pack，您必須聯絡Adobe支援並要求存取權。 取得必要許可權後，即可從「封裝共用」下載。
+>此AEM Screens功能僅在您已安裝AEM 6.3 Sites Feature Pack 1時可用。 若要存取此Feature Pack，請聯絡Adobe支援並要求存取權。 取得必要許可權後，即可從「封裝共用」下載。
 
 ## 建立排程 {#creating-a-schedule}
 

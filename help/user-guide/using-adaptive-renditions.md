@@ -2,7 +2,7 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 瞭解如何在AEM Screens中使用最適化轉譯。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 ## 在頻道中使用最適化轉譯 {#using-adaptive-renditions}
 
 >[!NOTE]
->一旦您新增 [轉譯 — 對應屬性至畫面專案](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，身為內容作者，您現在可以將轉譯套用至資產。
+>新增之後 [轉譯 — 對應屬性至畫面專案](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，身為內容作者，您現在可以將轉譯套用至資產。
 
 ### 將轉譯套用至資產 {#apply-renditions-assets}
 

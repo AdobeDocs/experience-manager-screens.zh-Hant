@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ### 將頻道指派到顯示器 {#assigning-channel-to-display}
 
-專案設定完成後，您必須將頻道指派給顯示區，以便檢視內容。
+專案設定完成後，將頻道指派給顯示區，以檢視內容。
 
 1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 ## 時間表檢視 {#timeline-view}
 
-將管道指派給顯示並設定遞回排程表後，您就可以從 **已指派的頻道與排程** 面板。
+將管道指派給顯示並設定遞回排程表時，您可以從以下位置檢視時間軸： **已指派的頻道與排程** 面板。
 
 請依照下列步驟導覽至時間表檢視：
 

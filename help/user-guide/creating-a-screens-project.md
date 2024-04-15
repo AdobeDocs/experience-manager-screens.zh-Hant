@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 檢視屬性 {#viewing-properties}
 
-建立Screens專案後，請選取該專案並按一下 **屬性** 以編輯專案的屬性。
+建立畫面專案後，選取該專案並按一下 **屬性** 以編輯專案的屬性。
 
 下列選項可讓您編輯/變更您的屬性 **TestScreens**.
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 ### 後續步驟 {#the-next-steps}
 
-在您建立自己的專案後，請參閱 [頻道管理](managing-channels.md) 以建立和管理您頻道中的內容。
+當您建立自己的專案時，請參閱 [頻道管理](managing-channels.md) 以建立和管理您頻道中的內容。

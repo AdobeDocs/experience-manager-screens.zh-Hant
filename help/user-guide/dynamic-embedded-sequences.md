@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >「動態內嵌序列」類似於內嵌序列，但可讓使用者遵循階層，對其中一個管道所做的變更/更新會傳播至相關的另一個管道。 它遵循上下階層，也包含影像或視訊等資產。
 >
->***動態內嵌序列*** 可讓您顯示特定位置的內容，但 ***內嵌順序*** 只顯示內容的一般投影片放映。 此外，在設定動態內嵌序列時，您必須使用頻道角色和名稱來設定頻道。 如需實際實施，請參閱下列步驟。
+>***動態內嵌序列*** 可讓您顯示特定位置的內容，但 ***內嵌順序*** 只顯示內容的一般投影片放映。 此外，在設定動態內嵌序列時，請使用頻道角色和名稱來設定頻道。 如需實際實施，請參閱下列步驟。
 >
 >若要深入瞭解如何實作內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在AEM Screens中。
 

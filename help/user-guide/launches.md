@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 例如，如果作者想要建立未來版本的c1、c2 （管道），則會建立啟動並設定上線日期（例如11月10日上午8:00）。 內容中的任何其他更新都會寄出以供檢閱。
 
-核准後上線日期（11月10日上午8:00）後，此啟動會在裝置或播放器上播放內容。
+在核准後並在上線日期（11月10日上午8:00）上，此啟動會在裝置或播放器上播放內容。
 
 ## 要求 {#requirements}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ### 瞭解寬限期 {#understanding-grace-period}
 
-為了讓播放器能在設定的上線日期開始播放內容，您必須在上線日期之前開始進行先前的活動。
+為了讓播放器能夠在設定的上線日期開始播放內容，請在上線日期之前開始進行先前的活動。
 
 如果上線日期為 *11月24日，上午9點* 寬限期為 *24小時*，則上述動作順序將於（上線日期 — 寬限期）開始，即11月23日伺服器時間上午9:00。 這可讓內容24小時完成上述所有動作，以便連絡播放器。 播放器瞭解這是啟動內容。 因此，內容不會立即播放，但播放器可將此內容儲存為未來版本，並讓內容在播放器時區的設定上線日期完全開始播放。
 
@@ -120,7 +120,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![影像](/help/user-guide/assets/launches-images/launches-14.png)
 
-   選取管道/管道後，按一下 **下一個**.
+   選取色版/色版後，按一下 **下一個**.
 
 
 1. 輸入 **啟動項標題** 作為 **SummerPromotions** 而且您不需要設定 **啟動日期**，如下圖所示。 按一下&#x200B;**建立**。

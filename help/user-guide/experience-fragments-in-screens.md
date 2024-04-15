@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
    >[!NOTE]
    >
-   >建立畫面片段後，您可以編輯片段的屬性。 選取片段並按一下 **屬性** 從動作列移除。
+   >建立AEM Screens片段後，您可以編輯片段的屬性。 選取片段並按一下 **屬性** 從動作列移除。
 
    **編輯畫面片段的屬性**
 

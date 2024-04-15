@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 0%
    1. 選取「**儲存**」。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. 同樣地，您必須指派其他兩個內嵌管道(**`Zone1`** 和 **`Zone2`**)重新命名為。
+   1. 同樣地，指派其他兩個內嵌管道(**`Zone1`** 和 **`Zone2`**)重新命名為。
    1. 將全部三個管道指派給 **大廳** 顯示，您應該能夠從「顯示」控制面板檢視指派的管道。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-img8.png)

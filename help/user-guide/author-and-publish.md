@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此AEM Screens功能僅在您已安裝AEM 6.4 Screens Feature Pack 2時可用。 若要存取此Feature Pack，您必須聯絡Adobe支援並要求存取權。 取得許可權後，即可從「封裝共用」下載。
+>此AEM Screens功能僅在您已安裝AEM 6.4 Screens Feature Pack 2時可用。 若要存取此Feature Pack，請聯絡Adobe支援並要求存取權。 取得許可權後，即可從「封裝共用」下載。
 
 >[!IMPORTANT]
 >
->如果您想要搭配Dispatcher使用多個發佈執行個體，您必須更新Dispatcher。 另請參閱 [啟用粘性工作階段](dispatcher-configurations-aem-screens.md#enable-sticky-session) 以取得更多詳細資料。
+>如果您想要搭配Dispatcher使用多個發佈執行個體，請更新Dispatcher。 另請參閱 [啟用粘性工作階段](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## 設定作者和發佈執行個體 {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 在作者上設定復寫代理 {#setting-replication-agents}
 
-若要建立復寫代理，您必須瞭解如何建立標準復寫代理。
+若要建立復寫代理，請瞭解如何建立標準復寫代理。
 
 Screens需要三個復寫代理：
 

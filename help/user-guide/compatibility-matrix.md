@@ -1,17 +1,13 @@
 ---
 title: AEM Screens Player相容性矩陣
-seo-title: Compatibility Matrix for AEM Screens Player
-description: 本頁面列出AEM Screens播放器及其各自的AEM Screens版本。
-seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
+description: 進一步瞭解AEM Screens Player及其各自的AEM Screens版本。
 page-status-flag: de-activated
-uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
-discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 9%
+source-wordcount: '301'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +16,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->下列資訊自2018年5月14日起更新。
+>下列資訊自2018年5月14日起已更新。
 
 下節列出Adobe Experience Manager (AEM) Screens播放器及其各自的AEM Screens版本。
 
@@ -37,7 +33,7 @@ ht-degree: 9%
    <td><p><strong>3.2.72</strong>  — 可在Apple商店取得</p> <p> </p> </td> 
   </tr>
   <tr>
-   <td><strong><strong>AEM 6.3+SP1+Screens FP2 (1.0.298)</strong></strong></td> 
+   <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
    <td><p><strong>3.3.0</strong> </p> <p> </p> </td> 
   </tr>
   <tr>
@@ -55,20 +51,20 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 [取得檔案](assets/aem-screens-player-ios-330ipa.zip)
 
-## Windows10播放器 {#windows-player}
+## Windows 10播放器 {#windows-player}
 
 <table>
  <tbody>
   <tr>
    <td><strong>AEM伺服器版本</strong></td> 
-   <td><strong>Windows10播放器</strong></td> 
+   <td><strong>Windows 10播放器</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
    <td><strong>1.0.12</strong><br /> </td> 
   </tr>
   <tr>
-   <td><strong><strong>AEM 6.3+SP1+Screens FP2 (1.0.298)</strong></strong></td> 
+   <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
    <td><strong>1.0.48 </strong></td> 
   </tr>
   <tr>
@@ -80,23 +76,23 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### 下載連結 {#download-link-1}
 
-按一下Windows10 Player的下載連結：
+按一下Windows 10 Player的下載連結：
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
 [取得檔案](assets/aem-screens-player-windows-1048-signedexe.zip)
 
-## Android Player {#android-player}
+## Android™ Player {#android-player}
 
-| **AEM伺服器版本** | **Android Player** |
+| **AEM伺服器版本** | **Android™ Player** |
 |---|---|
-| **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -** (可在Macromedia網站上取得)和Google Play商店 |
-| **AEM 6.3+SP1+Screens FP2 (1.0.298)** | **3.3.0** |
+| **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68至** (可在Macromedia網站上取得)與Google Play商店 |
+| **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3.3.0** |
 | **AEM 6.4** | **3.3.0** |
 
 ### 下載連結 {#download-link-2}
 
-按一下Android Player的下載連結：
+按一下Android™ Player的下載連結：
 
 aem-screens-player-android-3.3.0.apk.zip
 
@@ -107,29 +103,29 @@ aem-screens-player-android-3.3.0.apk.zip
   <tr>
    <td><strong>AEM伺服器版本</strong></td> 
    <td><strong>iOS Player</strong></td> 
-   <td><strong>Windows10播放器</strong></td> 
+   <td><strong>Windows 10播放器</strong></td> 
    <td><strong>Chrome作業系統播放器</strong><br /> </td> 
-   <td><strong>Android Player</strong></td> 
+   <td><strong>Android™ Player</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72 - </strong>可在Apple商店中取得</p> <p><strong>3.3.0</strong>  — 無法運作</p> <p> </p> </td> 
+   <td><p><strong>3.2.72至 </strong>可於Apple商店取得</p> <p><strong>3.3.0</strong>  — 無法運作</p> <p> </p> </td> 
    <td><strong>1.0.12</strong> - (可在Macromedia上取得)</td> 
-   <td><p><strong>1.0.30 -</strong> 可在Chrome商店取得。</p> <p>不支援Feature Pack1</p> </td> 
-   <td><strong>3.2.68 -</strong> (可在Macromedia網站上取得)和Google Play商店</td> 
+   <td><p><strong>1.0.30 -</strong> 可在Chrome商店取得。</p> <p>不支援Feature Pack 1</p> </td> 
+   <td><strong>3.2.68至</strong> (可在Macromedia網站上取得)與Google Play商店</td> 
   </tr>
   <tr>
-   <td><strong><strong>AEM 6.3+SP1+Screens FP2 (1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>將發佈至Apple市集</p> <p> </p> </td> 
+   <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即將發佈至Apple市集</p> <p> </p> </td> 
    <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>即將發佈在Chrome商店上</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>即將在Chrome商店發佈</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>將發佈至Apple市集</p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即將發佈至Apple市集</p> </td> 
    <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>即將發佈在Chrome商店上</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>即將在Chrome商店發佈</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
  </tbody>

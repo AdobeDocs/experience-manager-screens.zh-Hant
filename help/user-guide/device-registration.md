@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
    >
    >此 **指派顯示區** 可讓您直接將裝置新增至顯示器。
 
-   如果您按一下 **完成**，您必須將裝置指派給顯示器。
+   如果您按一下 **完成**，將裝置指派給顯示器。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ## 從「裝置管理員」搜尋裝置 {#search-device}
 
-將裝置註冊到播放器後，您就可以從「裝置管理員UI」檢視所有裝置。
+將裝置註冊到播放器後，您就可以從「裝置管理員」UI檢視所有裝置。
 
 1. 例如，從您的AEM Screens專案導覽至「裝置管理員UI」 。 **DemoScreens** > **裝置**.
 

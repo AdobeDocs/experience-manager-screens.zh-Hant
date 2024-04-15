@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ## 下載內容指派報告 {#downloading-content-assignment-report-fp}
 
-設定AEM Screens專案並將顯示指派給各位置後（如前述步驟所示），您就可以下載「內容指派報表」 。
+當您設定AEM Screens專案並依前述步驟所示指派顯示給每個位置時，請下載「內容指派報表」 。
 
 >[!NOTE]
 >「內容指定報表」功能只能在專案層級存取。

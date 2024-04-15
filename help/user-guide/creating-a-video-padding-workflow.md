@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 建立視訊邊框間距工作流程 {#creating-a-video-padding-workflow-1}
 
-若要建立視訊填補工作流程，您必須為視訊建立工作流程，然後在AEM Screens專案頻道中使用相同的工作流程。
+若要建立視訊邊框間距工作流程，請為視訊建立工作流程，然後在AEM Screens專案頻道中使用相同的工作流程。
 
 請依照下列步驟建立及使用工作流程：
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. 上傳視訊後，請按一下 **預覽** 以檢視輸出。
+1. 上傳視訊後，按一下 **預覽** 以檢視輸出。
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

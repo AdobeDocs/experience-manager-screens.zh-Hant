@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 使用MDM、ADB或Android™ Studio檔案總管將此原則JSON檔案拖放至 *sdcard* Android™裝置上的資料夾。
 
-1. 部署檔案後，請使用MDM安裝播放器應用程式。
+1. 部署檔案時，請使用MDM安裝播放器應用程式。
 
 1. 播放器應用程式啟動時，會讀取此設定檔，並指向適用的AEM伺服器（在其中註冊並接著控制）。
 

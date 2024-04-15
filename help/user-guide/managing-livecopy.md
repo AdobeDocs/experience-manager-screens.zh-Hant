@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '697'
 ht-degree: 4%
 
 ---
@@ -99,7 +99,7 @@ A ***即時副本*** 是特定網站內容的復本，其中會維持與原始�
 
 ### 將變更傳播至即時副本頻道 {#propagating-changes-to-the-live-copy-channel}
 
-如果您在原始頻道中進行變更/更新，則也必須將這些變更傳播至您的即時副本頻道。
+如果您在原始頻道中進行變更或更新，請將這些變更傳播到您的Live Copy頻道。
 
 請依照下列步驟操作，以確保您的變更從原始頻道傳播到即時副本頻道：
 

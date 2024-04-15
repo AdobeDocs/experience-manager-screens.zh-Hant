@@ -1,41 +1,37 @@
 ---
 title: 離線頻道
-seo-title: Offline Channels
-description: AEM Screens播放器運用ContentSync技術，提供管道的離線支援。 請依照本頁瞭解更多有關更新處理常式及啟用管道離線設定的資訊。
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: 深入瞭解AEM Screens Player如何使用ContentSync技術為頻道提供離線支援。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
 
 # 離線頻道 {#offline-channels}
 
-Screens播放器會利用 ***ContentSync*** 技術。
+Screens播放器使用 ***ContentSync*** 技術。
 
 播放器會使用本機http伺服器來提供解壓縮的內容。
 
-當通道設定為執行時 *線上*，播放器會存取AEM伺服器來提供管道資源，但若將管道設定為執行 *離線*，播放器會從本機http伺服器提供管道資源。
+當通道設定為執行時 *線上*，播放器會存取AEM伺服器以提供頻道資源。 但是，當通道設定為執行時 *離線*，播放器會從本機http伺服器提供管道資源。
 
 處理的工作流程如下：
 
-1. 剖析所需頁面
-1. 收集所有相關資產
-1. 將所有內容封裝在zip檔案中
-1. 下載壓縮檔並在本機解壓縮
-1. 顯示內容的本機復本
+1. 剖析所需頁面。
+1. 收集所有相關資產。
+1. 將所有內容封裝在zip檔案中。
+1. 下載壓縮檔並在本機解壓縮。
+1. 顯示內容的本機復本。
 
 ## 更新處理常式 {#update-handlers}
 
@@ -55,22 +51,22 @@ Screens播放器會利用 ***ContentSync*** 技術。
    <td><strong>選項</strong></td> 
   </tr>
   <tr>
-   <td>管道</td> 
+   <td><code>channels</code></td> 
    <td>收集頻道</td> 
    <td>擴充功能：要收集的資源的擴充功能<br /> [pathSuffix="]：要新增至管道路徑的尾碼<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>收集指定的使用者端程式庫</td> 
    <td>[extension="]：可以是css或js，以僅收集前者，或僅收集後者</td> 
   </tr>
   <tr>
-   <td>assetrendations</td> 
+   <td><code>assetrenditions</code></td> 
    <td>收集資產轉譯</td> 
    <td>[renditions=[]]：要收集的轉譯清單。 預設為原始轉譯</td> 
   </tr>
   <tr>
-   <td>複製</td> 
+   <td><code>copy</code></td> 
    <td>從路徑複製指定的結構</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ Screens播放器會利用 ***ContentSync*** 技術。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. 導覽至頻道控制面板，然後按一下 **...** 在 **頻道資訊** 面板以變更屬性。
+1. 導覽至頻道控制面板。
+1. 按一下 **...** 在 **頻道資訊** 面板。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. 導覽至管道屬性，並確認下方的核取方塊為停用狀態。 **頻道** 標籤。 按一下&#x200B;**「儲存並關閉」**。
+1. 導覽至管道屬性。
+1. 在(（管道）)標籤下，確認核取方塊已停用，然後按一下 **儲存並關閉**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

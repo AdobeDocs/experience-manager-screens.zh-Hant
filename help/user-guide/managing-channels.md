@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 3%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
-> 建立內容並新增至管道後，下一步就是建立位置，然後建立顯示。 此外，您必須將該頻道指派給顯示區。 請參閱以下章節結尾的資源。
+>建立內容並新增至管道後，下一步就是建立位置，然後建立顯示。 此外，將該頻道指派給顯示器。 請參閱以下章節結尾的資源。
 
 ## 使用管道 {#working-with-channels}
 

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 顯示器是彼此相鄰放置之熒幕的虛擬群組。 顯示相對於安裝是永久性的。 這是內容作者所使用的物件，且一律會參照為邏輯顯示，而非其實體計數器部分。
 
-建立位置後，您必須為位置建立顯示。
+當您建立位置時，必須建立位置的顯示。
 
 此頁面顯示建立及管理Screens的顯示畫面。
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 >
 >**下一步**：
 >
->當您為位置建立顯示區時，必須指派頻道給顯示區，才能使用內容。
+>當您為位置建立顯示區時，請為顯示區指派頻道，以使用內容。
 >
 >另請參閱 [指派管道](channel-assignment.md) 一節，以瞭解如何指派管道給顯示。
 
@@ -74,11 +74,9 @@ ht-degree: 1%
 
 ![裝置設定](assets/deviceconfig.gif)
 
-一旦將裝置設定設定為在該位置的顯示器，下一步就是將頻道指派給您的顯示器。
-
 >[!NOTE]
 >
->一旦將裝置設定設定為在該位置的顯示器，下一步就是將頻道指派給您的顯示器。
+>當裝置設定設定為顯示在該位置時，下一步將指派頻道給您的顯示。
 >
 >如果裝置設定在「 」中顯示為「未指派」，如下圖所示 **裝置** 面板（如果沒有指派頻道給該特定裝置設定）。
 >

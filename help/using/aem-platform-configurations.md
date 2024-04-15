@@ -2,9 +2,9 @@
 title: AEM平台組態
 description: 此頁面說明AEM平台組態
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
    >[!NOTE]
    >
-   >此 `-strict -2` 必須是引數清單中的最後一個引數。 此外，在AEM 6.4中，您必須複製 */libs/settings/dam/video* 至 */conf/global/settings/dam/video* 如中所述 [視訊轉譯](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >此 `-strict -2` 必須是引數清單中的最後一個引數。 此外，在AEM 6.4中，複製 */libs/settings/dam/video* 至 */conf/global/settings/dam/video* 如中所述 [視訊轉譯](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. 確認已進行視訊轉換，且正在建立轉譯。
 
 ## 密碼限制 {#password-restrictions}

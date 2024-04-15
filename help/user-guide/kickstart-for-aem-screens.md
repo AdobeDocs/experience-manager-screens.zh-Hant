@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
    ![影像](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >建立專案後，您會回到「畫面專案」首頁。 您現在可以選取專案。 在專案中，有5個標題為 **應用**， **頻道**， **裝置**， **位置**、和 **時程表**.
+   >建立專案後，系統會帶您回到AEM Screens專案首頁。 您現在可以選取專案。 在專案中，有5個標題為 **應用**， **頻道**， **裝置**， **位置**、和 **時程表**.
 
 ### 建立頻道 {#creating-channel}
 
-建立AEM Screens專案後，您必須建立管理內容的管道。
+建立AEM Screens專案後，請建立管理內容的管道。
 
 請依照下列步驟，為您的專案建立管道：
 
@@ -146,7 +146,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 ### 指派管道 {#assigning-channel}
 
-專案設定完成後，您必須將頻道指派給顯示區，以便檢視內容。
+專案設定完成後，將頻道指派給顯示區，以檢視內容。
 
 1. 從以下位置瀏覽至所需的顯示區： **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay**.
 
@@ -194,7 +194,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 >1. 開啟新標籤，然後按一下 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
 >1. 按一下 **AEM Screens** 外掛程式，方便您啟動Chrome Player。 依預設，播放器會以全熒幕模式啟動。 按下 **Esc** 以結束全熒幕模式。
 
-開啟您的Chrome作業系統播放器後，請依照下列步驟註冊Chrome裝置。
+在您的Chrome作業系統播放器啟動後，請依照下列步驟註冊Chrome裝置。
 
 1. 導覽至 **裝置** 從AEM執行個體選取的專案資料夾。
 

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 ### 正在與主要播放器同步 {#sync-up-primary}
 
-1. 將Chrome裝置設定為主要裝置後，您就可以同步處理其他裝置（在此例中為Windows Player），以便與主要裝置同步。
-從中選擇其他裝置（在此例中為Windows Player） **裝置** 面板並按一下 **同步處理至主要裝置**，如下圖所示。
+1. 將Chrome裝置設定為主要裝置後，請將其他裝置（在此例中為Windows Player）同步至主要裝置。
+從中選擇其他裝置（在此例中為Windows Player） **裝置** 面板並按一下 **同步處理至主要裝置**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 正在與主要播放器取消同步 {#desync-up-primary}
 
-將一或多個裝置同步至主要裝置後，您就可以從該裝置解除同步指派。
+將一或多個裝置同步至主要裝置後，即可從該裝置解除同步指派。
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dispatcher是Adobe Experience Manager的快取和/或負載平衡工具。
 >
 >如果沒有Dispatcher，請停用OSGi元件清單中的註冊servlet。
 
-在為AEM Screens專案設定Dispatcher之前，您必須先瞭解Dispatcher。
+在為AEM Screens專案設定Dispatcher之前，請先瞭解Dispatcher。
 另請參閱 [設定Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 以取得更多詳細資料。
 
 ## 為資訊清單版本v2設定Dispatcher {#configuring-dispatcher}
@@ -94,7 +94,7 @@ AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行
 
 Screens播放器會使用已驗證的工作階段，因此Dispatcher不會快取播放器請求的任何畫面 `channels/assets`.
 
-若要啟用資產的快取，以便從Dispatcher快取中提供資產，您必須：
+若要啟用資產的快取，以便從Dispatcher快取中提供資產，請執行以下操作：
 
 * 新增 `/allowAuthorization 1` 在 `/cache` 區段
 * 將下列規則新增至 `/rules` 部分 `/cache`

@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
 1. 按一下 **選單** 按鈕從裝置的遠端向下捲動至 **系統** 從左側導覽列。
 1. 向下捲動並選取 **透過播放** 選項並變更為 **URL啟動器** 選項。
    ![影像](/help/user-guide/assets/tizen/rms-2.png)
-1. 設定URL啟動器後，按下 **首頁** 遙控器上的按鈕。
+1. 設定URL啟動器時，按下 **首頁** 遙控器上的按鈕。
 1. 導覽至 **URL啟動器設定** 並輸入localhost伺服器的IP位址，然後按一下 **完成**.
 
    >[!NOTE]

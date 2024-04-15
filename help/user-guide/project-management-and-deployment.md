@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -86,6 +86,4 @@ Day Zero包含八個主要步驟，涵蓋專案管理提升的所有層面：
 
 ## 下一步 {#the-next-step}
 
-在針對AEM Screens部署的專案管理進行周密而重要的考量後；
-
-瀏覽至 **[第5部分：支援考量事項](support-considerations.md)** 以便您瞭解第2天支援和相關流程。
+當您完成與AEM Screens部署的專案管理相關的主要考量時，請導覽至 **[第5部分：支援考量事項](support-considerations.md)** 以便您瞭解第2天支援和相關流程。

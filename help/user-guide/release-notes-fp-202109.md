@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **支援V3資訊清單**
 
-  您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，您必須：
+  您現在可以為資訊清單版本v3設定Dispatcher。 若要啟用v3資訊清單，請執行下列動作：
 
    * 清除作者和已發佈中的任何擱置離線內容工作。
 

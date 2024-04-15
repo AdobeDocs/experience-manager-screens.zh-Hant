@@ -4,9 +4,9 @@ description: 瞭解如何設定Screens復寫代理。
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 4%
 
 ---
@@ -125,7 +125,7 @@ Screens復寫代理程式負責帶入命令資料，例如 *使用者*， *密�
 
 1. 按一下&#x200B;**「確定」**。
 
-1. 完成上述步驟後，您可以按一下 **測試連線** 以驗證連線。
+1. 完成上述步驟後，請按一下 **測試連線** 以驗證連線。
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
