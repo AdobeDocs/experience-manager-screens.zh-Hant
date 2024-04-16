@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 請依照下列步驟，為您的頻道建立排程：
 
-1. 選取Adobe Experience Manager連結（左上方），然後選取Screens。 或者，您可以直接前往： `http://localhost:4502/screens.html/content/screens`.
-1. 導覽至畫面專案並選取 **時程表**.
-1. 選取 **建立** 從動作列移除。
-1. 選取 **排程** 從 **建立** 精靈並選取 **下一個**.
+1. 按一下Adobe Experience Manager連結（左上方），然後按一下Screens。 或者，您可以直接前往： `http://localhost:4502/screens.html/content/screens`.
+1. 導覽至畫面專案，然後按一下 **時程表**.
+1. 按一下 **建立** 從動作列移除。
+1. 按一下 **排程** 從 **建立** 精靈並按一下 **下一個**.
 
-1. 輸入 **名稱** 和 **標題** 並選取 **建立**.
+1. 輸入 **名稱** 和 **標題** 並按一下 **建立**.
 
 您可以在專案中看到具有指定名稱和標題的排程資料夾。
 
@@ -52,14 +52,14 @@ ht-degree: 0%
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. 選取 **儀表板** 從動作列移除。
+1. 按一下 **儀表板** 從動作列移除。
 
    您可以檢視三個不同的面板，例如 **排程資訊**， **已指派的管道**、和 **指派的顯示區**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **排程資訊面板** 從「排程資訊面板」的右上角選取「屬性」以檢視/變更排程的屬性。
+   **排程資訊面板** 按一下「排程資訊面板」右上角的「屬性」以檢視/變更排程的屬性。
 
-   **已指派的色版面板** 從「指定色版」面板的右上角選取「+指定色版」，以開啟「指定色版」對話方塊。
+   **已指派的色版面板** 按一下「指定色版」面板右上角的+指定色版，開啟「指定色版」對話方塊。
 
-   **指派的顯示面板** 從「指定的顯示面板」中選取任何顯示以開啟顯示圖示板。
+   **指派的顯示面板** 按一下「指派的顯示面板」中的任一顯示，以開啟顯示圖示板。

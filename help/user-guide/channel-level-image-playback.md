@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 選取 **編輯** 從動作列移除。
+1. 按一下 **編輯** 從動作列移除。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. 選取色版中的所有影像，並選取左上角的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
+1. 按一下色版中的所有影像，然後按一下左上角的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   編輯 **持續時間** 從8000 （毫秒）到3000 （毫秒），即3秒。 選取右上方的核取標籤 **頁面** 對話方塊，以便儲存變更。
+   編輯 **持續時間** 從8000 （毫秒）到3000 （毫秒），即3秒。 按一下右上方的勾號 **頁面** 對話方塊，以便儲存變更。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

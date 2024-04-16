@@ -2,7 +2,7 @@
 title: AEM Screens影片的縮圖支援
 description: 瞭解如何在AEM Screens中新增影片的縮圖支援。
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 導覽至現有的AEM Screens頻道或建立頻道。
 
-1. 選取管道並選取 **編輯** 從動作列移除。
+1. 按一下頻道，然後按一下 **編輯** 從動作列移除。
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. 選取視訊並選取 *扳手* 圖示。
+1. 按一下視訊，然後按一下 *扳手* 圖示。
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. 將影像從資產選擇器拖放至 **縮圖** 拖放區域並選取 **完成**.
+1. 將影像從資產選擇器拖放至 **縮圖** 放置區域並按一下 **完成**.
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. 選取 **預覽**.
+1. 按一下 **預覽**.
 
 1. 若已在元件上設定視訊，則會播放視訊。 如果沒有，且已設定縮圖，則會播放縮圖。 否則，元件會視為未設定並略過。
 

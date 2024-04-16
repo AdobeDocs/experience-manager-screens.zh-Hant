@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 請依照下列步驟執行資產層次排程：
 
-1. 選取任一管道，然後選取「 」 **編輯** 從動作列移除。
+1. 按一下任何管道，然後按一下 **編輯** 從動作列移除。
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ ht-degree: 1%
    >* 建立專案，請參閱 [建立新專案](creating-a-screens-project.md).
    >* 建立內容並新增至管道，請參閱 [管理管道](managing-channels.md).
 
-1. 選取 **編輯** 因此您可以開啟管道編輯器，並選取您要套用排程的資產。
+1. 按一下 **編輯** 因此您可以開啟管道編輯器，然後按一下您要套用排程的資產。
 
    ![影像](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. 選取資產，然後選取左上方 **設定** （扳手圖示）。
+1. 按一下資產，然後按一下左上方 **設定** （扳手圖示）。
 
-   選取 **啟用** 標籤。
+   按一下 **啟用** 標籤。
 
    ![影像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. 您可以使用以下專案指定日期選擇器的日期 **啟用開始日期** 和 **啟用結束日期** 欄位。
 
-   如果您選取 **啟用開始日期** 和 **啟用結束日期** 日期與時間，資產只會分別顯示該開始日期/時間與結束日期/時間之間的顯示和回圈。
+   如果您按一下 **啟用開始日期** 和 **啟用結束日期** 日期與時間，資產只會分別顯示該開始日期/時間與結束日期/時間之間的顯示和回圈。
 
    ![影像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ### 日時段分割 {#day-parting}
 
-1. 選取資產並選取 **設定** （扳手圖示）以開啟「屬性」對話方塊。
+1. 按一下資產，然後按一下 **設定** （扳手圖示）以開啟「屬性」對話方塊。
 
 1. 輸入開始日期/時間和結束/日期時間後，您可以使用運算式或自然文字版本來指定週期性排程。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ### 周劃分 {#week-parting}
 
-1. 選取資產，然後選取 **設定** （扳手圖示）。
+1. 按一下資產，然後按一下 **設定** （扳手圖示）。
 
 1. 輸入開始日期/時間和結束/日期時間後，您可以使用運算式或自然文字版本來指定週期性排程。
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 ### MonthParting {#month-parting}
 
-1. 選取資產，然後選取 **設定** （扳手圖示）。
+1. 按一下資產，然後按一下 **設定** （扳手圖示）。
 
 1. 輸入開始日期/時間和結束/日期時間後，您可以使用運算式或自然文字版本來指定週期性排程。
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 ### 零件組合 {#combined-parting}
 
-1. 選取資產，然後選取 **設定** （扳手圖示）。
+1. 按一下資產，然後按一下 **設定** （扳手圖示）。
 
 1. 輸入開始日期/時間和結束/日期時間後，您可以使用運算式或自然文字版本來指定週期性排程。
 
@@ -189,7 +189,7 @@ ht-degree: 1%
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***多資產啟用*** 可讓使用者選取多個資產，並將播放排程套用至所有選取的資產。
+***多資產啟用*** 可讓使用者按一下多個資產，並將播放排程套用至所有選取的資產。
 
 ### 先決條件 {#prerequisites}
 
@@ -200,21 +200,21 @@ ht-degree: 1%
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-請依照下列步驟選取多個資產，並排程在AEM Screens專案中顯示這些資產：
+請依照下列步驟，按一下多個資產並排程其在AEM Screens專案中的顯示：
 
-1. 選取 **MultiAssetChannel**，然後選取 **編輯** 從動作列移除。
+1. 按一下 **MultiAssetChannel**，然後按一下 **編輯** 從動作列移除。
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. 從編輯器選取多個資產，然後選取「 」 **編輯啟用** （左上角圖示）。
+1. 從編輯器按一下多個資產，然後按一下 **編輯啟用** （左上角圖示）。
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. 選取日期和時間 **啟用開始日期** 和 **啟用結束日期** 從 **元件啟用** 對話方塊。 選取完排程後，選取核取記號圖示。
+1. 按一下日期和時間 **啟用開始日期** 和 **啟用結束日期** 從 **元件啟用** 對話方塊。 選取完排程後，按一下核取記號圖示。
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. 選取重新整理以檢查套用了多資產排程的資產。
+1. 按一下重新整理以檢查套用了多資產排程的資產。
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ ht-degree: 1%
 
 通用開始時間的全域覆寫可透過設定 **啟用** 索引標籤來存取資產的屬性。 請依照下列步驟，執行資產排程的「全域覆寫」：
 
-1. 選取任一管道，然後選取「 」 **編輯** 以新增或編輯頻道中的內容。
+1. 按一下任何管道，然後按一下 **編輯** 以新增或編輯頻道中的內容。
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. 選取&#x200B;**編輯**。
-1. 在管道編輯器中，選取您要套用其排程的資產。
+1. 按一下 **編輯**.
+1. 在管道編輯器中，按一下要套用其排程的資產。
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

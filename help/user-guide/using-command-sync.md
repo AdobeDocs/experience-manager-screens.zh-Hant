@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
    >若要瞭解如何將頻道指派給顯示區，請參閱 [建立和管理顯示器](/help/user-guide/managing-displays.md).
 
 1. 瀏覽至 **裝置** 資料夾。
-1. 選取 **裝置管理員** 從動作列移除。
+1. 按一下 **裝置管理員** 從動作列移除。
 
    ![image1](assets/command-sync5.png)
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 ### 更新頻道設定
 
 1. 瀏覽至 **頻道大廳**.
-1. 選取 **編輯** 從動作列移除。
-1. 選取整個通道，如下圖所示。
+1. 按一下 **編輯** 從動作列移除。
+1. 按一下整個通道，如下圖所示。
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. 選取扳手圖示。
+1. 按一下扳手圖示。
    ![image1](assets/command-sync/command-sync8-1.png)
 
 1. 在 **頁面** 對話方塊中，輸入 *已同步* 中的關鍵字 **策略** 欄位。
@@ -90,15 +90,15 @@ ht-degree: 0%
 
 ### 設定主要 {#setting-up-primary}
 
-1. 從以下位置導覽至顯示控制面板： **CommandSyncDemo** > **位置**  > **大廳** > **LobbyDisplay** 並選取 **儀表板** 從動作列移除。
+1. 從以下位置導覽至顯示控制面板： **CommandSyncDemo** > **位置**  > **大廳** > **LobbyDisplay** 並按一下 **儀表板** 從動作列移除。
 請注意中的兩個裝置（chrome和windows player） **裝置** 面板，如下列所示：
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. 從 **裝置** 面板中，選取要設為主要裝置的裝置。 下列範例示範如何將Chrome裝置設為主要裝置。 選取 **設為主要裝置**.
+1. 從 **裝置** 面板，按一下要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設為主要裝置。 按一下 **設為主要裝置**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. 在中輸入IP位址 **設為主要裝置** 並選取 **儲存**.
+1. 在中輸入IP位址 **設為主要裝置** 並按一下 **儲存**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,11 +109,11 @@ ht-degree: 0%
 ### 正在與主要播放器同步 {#sync-up-primary}
 
 1. 將Chrome裝置設定為主要裝置後，請將其他裝置（在此例中為Windows Player）同步至主要裝置。
-從中選擇其他裝置（在此例中為Windows Player） **裝置** 面板並選取 **同步處理至主要裝置**.
+按一下中的另一個裝置（在此例中為Windows Player） **裝置** 面板並按一下 **同步處理至主要裝置**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. 從清單中選取裝置，然後選取 **儲存**.
+1. 從清單中按一下裝置，然後按一下 **儲存**.
 
    >[注意：]
    > 此 **同步處理至主要裝置** 對話方塊會顯示主要裝置的清單。 選取偏好的專案。
@@ -132,13 +132,13 @@ ht-degree: 0%
 
 若要從主要裝置移除同步處理，請遵循下列步驟：
 
-1. 導覽至 **裝置** 面板並選取裝置。
+1. 導覽至 **裝置** 面板，然後按一下裝置。
 
-1. 選取 **取消同步處理裝置** 以便從主要裝置取消同步處理使用者端。
+1. 按一下 **取消同步處理裝置** 以便從主要裝置取消同步處理使用者端。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 選取 **確認** 將選取的裝置從主要裝置取消同步。
+1. 按一下 **確認** 將選取的裝置從主要裝置取消同步。
 
    >[注意：]
-   > 如果您選取主要裝置並使用「解除同步」選項，則所有連線至主要裝置的裝置都會在單一步驟中解除同步。
+   > 如果您按一下主要裝置並使用「取消同步」選項，則所有連線至主要裝置的裝置都會在單一步驟中取消同步。

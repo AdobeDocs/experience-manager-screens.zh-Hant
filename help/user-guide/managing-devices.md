@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 7%
@@ -36,26 +36,26 @@ ht-degree: 7%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. 選取您的 **裝置** 資料夾並選取 **裝置管理員** 於動作列中。 已指派和未指派的裝置隨即顯示。
+1. 按一下 **裝置** 資料夾並按一下 **裝置管理員** 於動作列中。 已指派和未指派的裝置隨即顯示。
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 從清單中選取未指派的裝置，然後選取 **指派裝置** 於動作列中。
+1. 從清單中按一下未指派的裝置，然後按一下 **指派裝置** 於動作列中。
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. 從清單中選取您要指派裝置的顯示畫面，然後選取 **指派**.
+1. 從清單中按一下您要指派裝置的顯示畫面，然後按一下 **指派**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. 選取 **完成** 以完成指定流程。
+1. 按一下 **完成** 以完成指定流程。
 
 
    顯示控制面板會在 **裝置** 面板。
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   選取(**...**)的右上角 **裝置** 面板以新增裝置設定或更新裝置。
+   按一下(**...**)的右上角 **裝置** 面板以新增裝置設定或更新裝置。
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

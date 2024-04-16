@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **最適化轉譯**
 
-  最適化轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。
+  最適化轉譯可讓裝置根據客戶定義的規則，自動針對裝置按一下最佳轉譯。
 
   身為AEM Screens開發人員，您現在可以設定自動下載和播放裝置專屬的資產轉譯，而不需要手動建立所有內容變數。 另請參閱 [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md) 以取得更多詳細資料。
 
@@ -60,7 +60,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
       * 在「作者」和「發佈」中導覽至「CRXDE Lite」 。
 
-      * 選取「工具」>「查詢」。
+      * 按一下「工具」>「查詢」。
 
       * 在查詢中，使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

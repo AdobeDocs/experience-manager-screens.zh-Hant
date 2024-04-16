@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -32,11 +32,11 @@ ht-degree: 2%
 
    ![影像](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. 選取 **指派頻道** 於動作列中。
+1. 按一下 **指派頻道** 於動作列中。
 
    或，
 
-   選取 **儀表板** 並選取 **+指派頻道** 從 **已指派的管道** 面板，讓您可以開啟 **頻道指定任務** 對話方塊。
+   按一下 **儀表板** 並按一下 **+指派頻道** 從 **已指派的管道** 面板，讓您可以開啟 **頻道指定任務** 對話方塊。
 
    ![影像](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 作為內容作者，請指定頻道何時中斷，以便您可選擇剪下非關鍵性內容，但因排程而在剪下播放之前選擇性地讓重要內容播放。
 
-從下列選項中選取，這些選項可用於設定中斷方法： **頻道指定任務** 對話方塊：
+從下列其中一個選項按一下，這些選項可用於設定中斷方法，從 **頻道指定任務** 對話方塊：
 
 * **立即**  — 每當排程啟動或收到更新時，您都可以中斷播放並立即重新整理或播放新內容。
 * **在目前專案結束時**  — 啟動新排程或收到更新時，您可以選擇等待序列中的目前專案完成播放。 之後才能重新整理或播放新內容。

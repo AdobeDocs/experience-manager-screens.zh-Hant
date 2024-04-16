@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -43,8 +43,8 @@ ht-degree: 1%
 
 1. **建立多區域畫面頻道**
 
-   1. 選取 **頻道** 資料夾並選取 **建立** 並開啟精靈，以建立管道。
-   1. 選取 **左側L列拆分畫面頻道** 並從精靈建立標題為 **MultiZoneLayout**.
+   1. 按一下 **頻道** 資料夾並按一下 **建立** 並開啟精靈，以建立管道。
+   1. 按一下 **左側L列拆分畫面頻道** 並從精靈建立標題為 **MultiZoneLayout**.
    1. 新增內容至頻道。 將資產拖放至每個區域。 下列範例顯示 **MultiZoneLayout** 包含影片、影像和文字橫幅（以內嵌順序）的頻道，如下所示。
 
    ![資產](assets/mz-to-sz2.png)
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    ![資產](assets/mz-to-sz3.png)
 
-1. 選取 **編輯** 以新增內容至此管道。 新增 **頻道** 您要為此色版切換為的元件和影像資產，如下圖所示：
+1. 按一下 **編輯** 以新增內容至此管道。 新增 **頻道** 您要為此色版切換為的元件和影像資產，如下圖所示：
 
    ![資產](assets/mz-to-sz4.png)
 

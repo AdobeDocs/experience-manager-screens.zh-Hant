@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -45,17 +45,17 @@ ht-degree: 1%
 
 1. 導覽至其中一個AEM Screens管道。 下列步驟示範如何使用啟用鎖定目標 **DataDrivenRetail** *（順序頻道）* 在AEM Screens頻道中建立。
 
-1. 選取頻道 **DataDrivenRetail** 並選取 **屬性** 從動作列移除。
+1. 按一下頻道 **DataDrivenRetail** 並按一下 **屬性** 從動作列移除。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 選取 **個人化** 標籤，讓您能夠設定ContextHub設定並選取ContextHub和區段路徑。
+1. 按一下 **個人化** 標籤，讓您能夠設定ContextHub設定，然後按一下ContextHub和區段路徑。
 
-   1. 選取 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並選取 **選取**.
+   1. 按一下 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並按一下 **按一下**.
 
-   1. 選取 **區段路徑** 作為 **conf** > **`We.Retail`** > **設定** > **wcm** > **區段** 並選取 **選取**.
+   1. 按一下 **區段路徑** 作為 **conf** > **`We.Retail`** > **設定** > **wcm** > **區段** 並按一下 **按一下**.
 
-   1. 選取「**儲存並關閉**」。
+   1. 按一下&#x200B;**「儲存並關閉」**。
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 導覽並選取 **DataDrivenRetail** 從 **DataDrivenAssets** > **頻道** 並選取 **編輯** 從動作列移除。 在管道編輯器中拖放資產。
+1. 瀏覽並按一下 **DataDrivenRetail** 從 **DataDrivenAssets** > **頻道** 並按一下 **編輯** 從動作列移除。 在管道編輯器中拖放資產。
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 選取 **目標定位**.
+1. 按一下 **目標定位**.
 
-1. 選取 **品牌** 和 **活動** 從下拉式功能表中選取 **開始定位**.
+1. 按一下 **品牌** 和 **活動** 從下拉式功能表，然後按一下 **開始定位**.
 
 ### 瞭解更多：範例使用案例 {#learn-more-example-use-cases}
 

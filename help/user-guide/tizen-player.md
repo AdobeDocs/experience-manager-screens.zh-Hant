@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 請依照下列步驟，在Tizen播放器中設定名稱：
 
-1. 選取您遙控器上的功能表按鈕。
+1. 按一下遠端上的功能表按鈕。
 1. 瀏覽至 **網路** > **裝置名稱** 以便您指派名稱給播放器。
 
 ### 在Samsung裝置上設定更新 {#config-updates}
@@ -55,11 +55,11 @@ ht-degree: 1%
 在Samsung裝置上依照下列步驟操作，就能在裝置上完成AEM Screens播放器的安裝：
 
 1. 導覽至您的Samsung裝置並開啟。
-1. 選取 **選單** 按鈕從裝置的遠端向下捲動至 **系統** 從左側導覽列。
-1. 向下捲動並選取 **透過播放** 選項並變更為 **URL啟動器** 選項。
+1. 按一下 **選單** 按鈕從裝置的遠端向下捲動至 **系統** 從左側導覽列。
+1. 向下捲動並按一下 **透過播放** 選項並變更為 **URL啟動器** 選項。
    ![影像](/help/user-guide/assets/tizen/rms-2.png)
 1. 設定URL啟動器時，按下 **首頁** 遙控器上的按鈕。
-1. 導覽至 **URL啟動器設定** 並輸入localhost伺服器的IP位址，然後選取 **完成**.
+1. 導覽至 **URL啟動器設定** 並輸入localhost伺服器的IP位址，然後按一下 **完成**.
 
    >[!NOTE]
    >Tizen播放器應能連線至http伺服器。
@@ -145,29 +145,29 @@ Tizen播放器會在啟動時（以及每次重新開機）安裝並套用設定
 
 1. 導覽至「伺服器位址」，並輸入MagicInfo URL存取權，然後按下 **完成**.
 
-1. 設定TLS （如有必要）。 瀏覽至連線埠，並從伺服器選取連線埠號碼，然後選取 **儲存**.
+1. 設定TLS （如有必要）。 瀏覽至連線埠，然後按一下伺服器的連線埠號碼，再按一下 **儲存**.
 
-1. 導覽至 **裝置** 標籤並檢查您設定的裝置。 找到裝置時，選取核取方塊，然後選取 **核准**.
+1. 導覽至 **裝置** 標籤並檢查您設定的裝置。 找到裝置時，按一下核取方塊，然後按一下 **核准**.
 
    >![影像](/help/user-guide/assets/tizen/rms-3.png)
 
-1. 填寫所需資訊，然後選取裝置群組。 選取 **確定**.
+1. 填寫必要資訊，然後按一下裝置群組。 按一下&#x200B;**「確定」**。
 
    >![影像](/help/user-guide/assets/tizen/rms-7.png)
 
-1. 裝置獲得核准後，就會出現在「裝置清單」上。 選取 *資訊* （位於裝置方塊上），如下所示。
+1. 裝置獲得核准後，就會出現在「裝置清單」上。 按一下 *資訊* （位於裝置方塊上），如下所示。
 
    >![影像](/help/user-guide/assets/tizen/rms-6.png)
 
-1. 裝置資訊對話方塊隨即顯示。 選取 **裝置資訊** 標籤並選取 **編輯**.
+1. 裝置資訊對話方塊隨即顯示。 按一下 **裝置資訊** 標籤並按一下 **編輯**.
 
    >![影像](/help/user-guide/assets/tizen/rms-5.png)
 
-1. 編輯裝置選項並選取 **設定** 標籤。 瀏覽至 **URL啟動器** 區段，並輸入託管wgt的URL和 `SSSP config file` 以便您安裝 `SSSP` 應用程式，如下圖所示。
+1. 編輯裝置選項，然後按一下 **設定** 標籤。 瀏覽至 **URL啟動器** 區段，並輸入託管wgt的URL和 `SSSP config file` 以便您安裝 `SSSP` 應用程式，如下圖所示。
 
    ![影像](/help/user-guide/assets/tizen/rms-9.png)
 
-1. 選取「**儲存**」。
+1. 按一下「**儲存**」。
 
 ### 使用Screens遙控器 {#using-remote-control}
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -32,12 +32,12 @@ ht-degree: 1%
 
 建立Screens專案後，請依照下列步驟建立Screens專案的位置：
 
-1. 選取Adobe Experience Manager連結（左上方），然後選取Screens。 或者，您可以直接導覽至： `http://localhost:4502/screens.html/content/screens`.
-1. 導覽至畫面專案並選取 **位置**.
-1. 選取 **建立** 加號圖示旁。
-1. 選取範本 **位置** 從精靈中並選取 **下一個**.
+1. 按一下Adobe Experience Manager連結（左上方），然後按一下Screens。 或者，您可以直接導覽至： `http://localhost:4502/screens.html/content/screens`.
+1. 導覽至畫面專案，然後按一下 **位置**.
+1. 按一下 **建立** 加號圖示旁。
+1. 按一下範本 **位置** 從精靈中並按一下 **下一個**.
 1. 輸入以下專案的屬性： **標題和標籤**， **更多標題和說明**， **開啟/關閉時間**、和 **虛名URL**.
-1. 選取 **建立** 且位置會建立並新增至您的位置資料夾。
+1. 按一下 **建立** 且位置會建立並新增至您的位置資料夾。
 
 請參閱下列步驟，瞭解如何建立AEM Screens專案的位置。 為了示範，新位置(SanJose)建立於 *示範專案*.
 
@@ -49,8 +49,8 @@ ht-degree: 1%
 
 若要編輯/存取位置的屬性：
 
-1. 選取位置。
-1. 選取 **屬性** 從動作列移除。
+1. 按一下位置。
+1. 按一下 **屬性** 從動作列移除。
 
 ![player3](assets/player3.gif)
 

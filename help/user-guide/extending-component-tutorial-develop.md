@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -192,7 +192,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
 
    屬性 `sling:hideChildren`= `"[linkURL,size]`「 」用於 `items` 節點，以確保 **linkURL** 和 **大小** 對話方塊中的欄位會隱藏。 從海報對話方塊中移除這些節點是不夠的。 屬性 `sling:hideResource="{Boolean}true"` 「輔助功能」標籤上的是用來隱藏整個標籤。
 
-   對話方塊中新增兩個選取欄位，讓作者可以控制標題和說明的文字位置和顏色。
+   在對話方塊中新增兩個按一下欄位，讓作者可以控制「標題」和「說明」的文字位置和顏色。
 
    ![海報 — 最後一個對話方塊結構](assets/2018-05-03_at_4_49pm.png)
 

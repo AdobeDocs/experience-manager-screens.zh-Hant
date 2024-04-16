@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -71,7 +71,7 @@ ht-degree: 1%
    ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >選取 **全部儲存** 每次建立、編輯內容或將內容複製到任何節點時，都會從CRXDE Lite中的動作列複製內容。 否則，您無法認可更新。
+   >按一下 **全部儲存** 每次建立、編輯內容或將內容複製到任何節點時，都會從CRXDE Lite中的動作列複製內容。 否則，您無法認可更新。
 
 1. 複製左方欄範本來源 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 至 `/apps/customtemplate/template`.
 
@@ -140,11 +140,11 @@ ht-degree: 1%
 
 請依照下列步驟，在您的AEM Screens專案中使用上述自訂範本：
 
-1. 導覽至您在步驟(1)中建立的Screens專案，然後選取 **頻道** 資料夾。
+1. 導覽至您在步驟(1)中建立的Screens專案，然後按一下 **頻道** 資料夾。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. 選取 **建立** 從動作列選取範本 **`Left20-LandscapeHD3Zone`** 從 **建立** 精靈。
+1. 按一下 **建立** 然後按一下範本 **`Left20-LandscapeHD3Zone`** 從 **建立** 精靈。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 複製專案的路徑，在此案例中，路徑為 `/apps/settings/wcm/designs/customstyle`.
 
-1. 瀏覽到標題為 **DemoBrand** (在步驟(1)中建立)並選取 **屬性** 從動作列選取頻道後。
+1. 瀏覽到標題為 **DemoBrand** (在步驟(1)中建立)，然後按一下 **屬性** 從動作列選取頻道後。
 
 1. 導覽至 **進階** 標籤並核取 **設計** 欄位。
    ![影像](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. 選取 **儲存並關閉** 以更新設計路徑。
+1. 按一下 **儲存並關閉** 以更新設計路徑。
 
    >[!IMPORTANT]
    >您可以選擇覆蓋現有的Screens範本，依預設插入您自己的設計或完全建立您自己的範本。 如需詳細資訊，請參閱下列步驟。
@@ -108,9 +108,9 @@ ht-degree: 1%
 
 請依照下列步驟，檢視文字覆蓋的更新設計：
 
-1. 導覽至您的AEM Screens專案，標題為 **`customstyle`** > **頻道** > **DemoBrand**. 選取管道並選取 **編輯** 從動作列移除。
+1. 導覽至您的AEM Screens專案，標題為 **`customstyle`** > **頻道** > **DemoBrand**. 按一下頻道，然後按一下 **編輯** 從動作列移除。
 
-1. 由於您現在已將設計新增至 **設計** 欄位，如上所述，選取 **預覽** 在含有文字覆蓋的影像上檢視目前的樣式。
+1. 由於您現在已將設計新增至 **設計** 欄位，如上所述，按一下 **預覽** 在含有文字覆蓋的影像上檢視目前的樣式。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

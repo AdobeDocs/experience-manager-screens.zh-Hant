@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
    >
    >您只能輸入一個電子郵件地址。 若要傳送大量電子郵件，請使用相關使用者建立群組或通訊群組清單。
 
-1. 選取 **儲存** 若要透過電子郵件為AEM Screens裝置設定監視器活動。
+1. 按一下 **儲存** 若要透過電子郵件為AEM Screens裝置設定監視器活動。
 
 ## 電子郵件通知 {#email-notification}
 

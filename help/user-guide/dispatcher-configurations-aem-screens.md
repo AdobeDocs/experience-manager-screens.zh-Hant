@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行
  }
 ```
 
-如果您有一個發佈執行個體由一個Dispatcher做前端，在Dispatcher上啟用粘著沒有幫助，因為負載平衡器可能會將每個請求傳送給Dispatcher。 在此情況下，請選取 **啟用** 在 **粘著度** 欄位，以在您的負載平衡器層級將其開啟，如下圖所示：
+如果您有一個發佈執行個體由一個Dispatcher做前端，在Dispatcher上啟用粘著沒有幫助，因為負載平衡器可能會將每個請求傳送給Dispatcher。 在此情況下，請按一下 **啟用** 在 **粘著度** 欄位，以在您的負載平衡器層級將其開啟，如下圖所示：
 
 ![影像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

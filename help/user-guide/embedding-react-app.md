@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,11 +77,11 @@ ht-degree: 0%
    >
    >請務必在指派頻道給顯示區時新增使用者互動事件。
 
-1. 選取 **編輯** 以編輯該管道的屬性。
+1. 按一下 **編輯** 以編輯該管道的屬性。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 拖放 **內嵌頁面** 元件，或重複使用應用程式通道中的現有元件，然後選取mysamplespa應用程式下的首頁，例如， ***/content/mysamplespa/en/home***.
+1. 拖放 **內嵌頁面** 元件，或重複使用應用程式通道中的現有元件，然後按一下mysamplespa應用程式下的首頁，例如， ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ ht-degree: 0%
    另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 如需如何使用AEM Screens在Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件的詳細資訊。
 
 1. 在您選擇的IDE/編輯器中編輯您的react應用程式（尤其是文字元件或您想要開始發出事件的其他元件）。
-1. 在要擷取元件的選取事件或其他事件上，使用標準資料模型新增分析資訊。
+1. 在您要為元件擷取的點選事件或其他事件上，使用標準資料模型新增分析資訊。
 
    另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以取得更多詳細資料。
 

@@ -2,7 +2,7 @@
 title: 專案層級影像播放持續時間
 description: 瞭解如何在專案層級定義影像播放持續時間。
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -43,10 +43,10 @@ ht-degree: 1%
 
 請依照下列步驟瞭解如何更新專案層級的影像播放持續時間：
 
-1. 導覽至您的專案 **ProjectLevelPlayback** 並選取 **屬性** 從動作列移除。
+1. 導覽至您的專案 **ProjectLevelPlayback** 並按一下 **屬性** 從動作列移除。
    ![資產](assets/image_playback3.png)
 
-1. 選取色版中的所有影像，並選取左上角的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
+1. 按一下色版中的所有影像，然後按一下左上方的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

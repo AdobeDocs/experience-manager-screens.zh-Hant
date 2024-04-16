@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >建立AEM Screens專案 **測試專案** 使用管道 **TestTransition**. 此外，設定位置和顯示以檢視輸出。
 
-1. 導覽至頻道 **TestTransition** 並選取 **編輯** 從動作列移除。
+1. 導覽至頻道 **TestTransition** 並按一下 **編輯** 從動作列移除。
 
    ![image1](assets/transitions1.png)
 

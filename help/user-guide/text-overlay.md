@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,15 +58,15 @@ ht-degree: 1%
 
 請依照下列步驟，在AEM Screens頻道中使用文字覆蓋：
 
-1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並選取 **編輯** 從動作列移除。
+1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並按一下 **編輯** 從動作列移除。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. 選取影像並選取 **設定** （扳手圖示）以開啟「屬性」對話方塊。
+1. 按一下影像，然後按一下 **設定** （扳手圖示）以開啟「屬性」對話方塊。
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. 選取 **文字覆蓋** 對話方塊之導覽列中的選項，如下圖所示。
+1. 按一下 **文字覆蓋** 對話方塊之導覽列中的選項，如下圖所示。
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ ht-degree: 1%
 
 在您設定專案所需的設定後，請依照下列步驟使用Google工作表中的值：
 
-1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並選取 **屬性** 從動作列移除。
+1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並按一下 **屬性** 從動作列移除。
 
-1. 選取 **個人化** 標籤，讓您能夠設定ContextHub設定。
+1. 按一下 **個人化** 標籤，讓您能夠設定ContextHub設定。
 
-   1. 選取 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並選取 **選取**.
+   1. 按一下 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並按一下 **選取**.
 
-   1. 選取 **區段路徑** 作為 **conf** > **畫面** > **設定** > **wcm** > **區段** 並選取 **選取**.
+   1. 按一下 **區段路徑** 作為 **conf** > **畫面** > **設定** > **wcm** > **區段** 並按一下 **選取**.
 
-   1. 選取「**儲存並關閉**」。
+   1. 按一下&#x200B;**「儲存並關閉」**。
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並選取 **編輯** 從動作列移除。
+1. 瀏覽至 **TextOverlayDemo** > **頻道** > **文字範例** 並按一下 **編輯** 從動作列移除。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 將影像和文字覆蓋元件新增至您的影像，如所述 [使用文字覆蓋](/help/user-guide/text-overlay.md#using-text-overlay) 的區段。
 
-1. 選擇於 **設定** （扳手圖示）開啟 **影像** 對話方塊。
+1. 按一下 **設定** （扳手圖示）開啟 **影像** 對話方塊。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. 導覽至 **ContextHub** 標籤從 **影像** 對話方塊。 選取「**新增**」。
+1. 導覽至 **ContextHub** 標籤從 **影像** 對話方塊。 按一下 **新增**.
 
    >[!NOTE]
    >如果您尚未設定ContextHub組態，則會停用專案的此選項。
 
-1. 輸入 **值** 在 **預留位置** 欄位。 選取您要從Google工作表取得值的列 **contexthub變數**. 在此情況下，值會從Google工作表中擷取自列2和欄1。 現在輸入 **預設值** 作為 **20**，如下圖所示。 完成後，選取核取記號。
+1. 輸入 **值** 在 **預留位置** 欄位。 按一下您要從Google工作表取得值的列 **contexthub變數**. 在此情況下，值會從Google工作表中擷取自列2和欄1。 現在輸入 **預設值** 作為 **20**，如下圖所示。 完成後，按一下核取記號。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ ht-degree: 1%
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. 選取 **預覽**.
+1. 按一下 **預覽**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

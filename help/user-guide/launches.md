@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![影像](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. 選取頻道 **Futurelaunch** 並選取 **建立啟動項** 從動作列移除。
+1. 按一下頻道 **Futurelaunch** 並按一下 **建立啟動項** 從動作列移除。
 
    ![影像](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. 此 **建立啟動項** 精靈開啟。 您可以選取已在精靈中顯示的管道，或選取 **+新增頻道** ，以新增您要建立啟動項的管道。
+1. 此 **建立啟動項** 精靈開啟。 您可以按一下已在精靈中顯示的管道，或按一下 **+新增頻道** ，以新增您要建立啟動項的管道。
 
-1. 選取 **下一個** 從 **建立啟動項** 精靈。 此 **包含子頁面** 選項預設為選取。
+1. 按一下 **下一個** 從 **建立啟動項** 精靈。 此 **包含子頁面** 選項預設為選取。
 
    ![影像](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >您可以使用 **+新增頻道** 用於新增另一個要為其建立啟動項的管道的選項。
 
-   使用 **新增頻道** 選項，導覽至您要建立啟動項的頻道，然後選取 **選取**.
+   使用 **新增頻道** 選項，導覽至您要建立啟動項的頻道，然後按一下 **選取**.
 
-   此 **選取** 如果您嘗試選取多個管道或資料夾來新增啟動項，選項會停用。
+   此 **選取** 如果您嘗試按一下多個管道或資料夾以新增啟動項，選項會停用。
 
    ![影像](/help/user-guide/assets/launches-images/launches-14.png)
 
-   選取通道/通道後，選取 **下一個**.
+   按一下通道/通道後，按一下 **下一個**.
 
 
-1. 輸入 **啟動項標題** 作為 **SummerPromotions** 而且您不需要設定 **啟動日期**，如下圖所示。 選取「**建立**」。
+1. 輸入 **啟動項標題** 作為 **SummerPromotions** 而且您不需要設定 **啟動日期**，如下圖所示。 按一下&#x200B;**建立**。
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
      >
      >啟動的上線日期依照播放器/裝置的時區，而非伺服器的時區。
 
-1. 請注意，您的啟動項已建立。 您可以選取 **開啟** 在編輯器中檢視頁面，或選取 **完成** 以導覽回您的專案。
+1. 請注意，您的啟動項已建立。 您可以按一下 **開啟** 在編輯器中檢視頁面，或按一下 **完成** 以導覽回您的專案。
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 請依照下列步驟編輯啟動項屬性：
 
-1. 導覽至該管道 **Futurelaunch** *（啟動項等待處理中）*，然後選取頻道，如下圖所示。
+1. 導覽至該管道 **Futurelaunch** *（啟動項等待處理中）*，然後按一下頻道，如下圖所示。
 
    ![影像](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. 選取 **儀表板** 從動作列中，您會看到 **啟動專案等待處理中** 面板進行修改。
+1. 按一下 **儀表板** 從動作列中，您會看到 **啟動專案等待處理中** 面板進行修改。
 
    ![影像](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 選取啟動項，然後選取 **啟動項屬性** 從 **啟動專案等待處理中** 面板。
+1. 按一下啟動，然後按一下 **啟動項屬性** 從 **啟動專案等待處理中** 面板。
 
    ![影像](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 建立啟動後，您可以使用將管道新增或移除至現有的啟動 **編輯啟動項** 選項。
 
-完成後，選取 **儲存** 以導覽回 **Futurelaunch** 頻道。
+完成後，按一下 **儲存** 以導覽回 **Futurelaunch** 頻道。
 
 ### 手動提升畫面啟動{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    * **提升已修改的頁面**  — 只會提升已修改的啟動資源。 在不需要啟動檢閱時使用此選項。
    * **推廣已核准的頁面**  — 此選項需要在啟動管道上執行啟動核准工作流程。 只有核准的頁面會在設定的上線日期提升。
    * **提升目前頁面**  — 此選項會要求啟動核准工作流程只對目前頁面執行。
-1. 選取 **下一個** 在 **提升啟動** 精靈。
-1. 選取 **提升** 以提升啟動。
+1. 按一下 **下一個** 在 **提升啟動** 精靈。
+1. 按一下 **提升** 以提升啟動。
 
 ### 刪除畫面啟動項
 

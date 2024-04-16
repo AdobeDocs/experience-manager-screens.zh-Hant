@@ -5,7 +5,7 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 2%
@@ -46,7 +46,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
    ![影像](assets/config/empty-ref2.png)
 
-1. 選取 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
+1. 按一下 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
 
 ## 在5分鐘內建立數位看板體驗 {#creating-a-digital-signage-experience-in-minutes}
 
@@ -54,15 +54,15 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 第一步是建立AEM Screens專案。
 
-1. 導覽至您的Adobe Experience Manager (AEM)執行個體並選取「 」 **Screens**. 或者，您可以直接從 `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. 導覽至您的Adobe Experience Manager (AEM)執行個體，然後按一下 **Screens**. 或者，您可以直接從 `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. 選取 **建立畫面專案** 以便建立畫面專案。
-1. 輸入標題為 **DemoScreens**，然後選取 **儲存**.
+1. 按一下 **建立畫面專案** 以便建立畫面專案。
+1. 輸入標題為 **DemoScreens**，然後按一下 **儲存**.
 
    ![影像](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >建立專案後，系統會帶您回到AEM Screens專案首頁。 您現在可以選取專案。 在專案中，有5個標題為 **應用**， **頻道**， **裝置**， **位置**、和 **時程表**.
+   >建立專案後，系統會帶您回到AEM Screens專案首頁。 您現在可以按一下專案。 在專案中，有5個標題為 **應用**， **頻道**， **裝置**， **位置**、和 **時程表**.
 
 ### 建立頻道 {#creating-channel}
 
@@ -70,14 +70,14 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 請依照下列步驟，為您的專案建立管道：
 
-1. 建立專案後，選取 **DemoScreens** 專案並選取 **頻道** 資料夾，如下圖所示。 選取 **+建立** 從動作列移除。
+1. 建立專案後，按一下 **DemoScreens** 專案並按一下 **頻道** 資料夾，如下圖所示。 按一下 **+建立** 從動作列移除。
 
    ![影像](assets/kickstart/demo-2.png)
 
-1. 選擇 **順序頻道** 從精靈中並選取 **下一個**.
+1. 選擇 **順序頻道** 從精靈中並按一下 **下一個**.
    ![影像](assets/kickstart/demo-3.png)
 
-1. 輸入 **標題** 作為 **TestChannel** 並選取 **建立**.
+1. 輸入 **標題** 作為 **TestChannel** 並按一下 **建立**.
 
    ![影像](assets/kickstart/demo-4.png)
 
@@ -91,13 +91,13 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 請依照下列步驟，將內容新增至頻道(**TestChannel**)時，請使用電子郵件通知您：
 
-1. 導覽至 **示範專案** 您已建立並選取 **TestChannel** 從 **頻道** 資料夾。
+1. 導覽至 **示範專案** 您已建立並按一下 **TestChannel** 從 **頻道** 資料夾。
 
-1. 選取 **編輯** （請參閱下圖）。 的編輯器 **TestChannel** 隨即開啟。
+1. 按一下 **編輯** （請參閱下圖）。 的編輯器 **TestChannel** 隨即開啟。
 
    ![影像](assets/kickstart/demo-6.png)
 
-1. 選取可切換動作列左側側面板的圖示，以開啟資產和元件。
+1. 按一下可切換動作列左側側面板的圖示，以開啟資產和元件。
 
 1. 拖放您要新增至頻道的元件。
 
@@ -112,10 +112,10 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 請依照下列步驟，為您的專案建立位置：
 
-1. 導覽至 **示範專案** 您已建立並選取 **位置** 資料夾。
-1. 選取 **+建立** 從動作列移除。
-1. 選取 **位置** 從精靈中並選取 **下一個**.
-1. 輸入 **名稱** 針對您的位置(輸入標題為 **TestLocation**)並選取 **建立**.
+1. 導覽至 **示範專案** 您已建立並按一下 **位置** 資料夾。
+1. 按一下 **+建立** 從動作列移除。
+1. 按一下 **位置** 從精靈中並按一下 **下一個**.
+1. 輸入 **名稱** 針對您的位置(輸入標題為 **TestLocation**)並按一下 **建立**.
 
 此 **TestLocation** 已建立並新增至您的 **位置** 資料夾。
 
@@ -127,16 +127,16 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 >[!NOTE]
 >***顯示*** 代表在一或多個熒幕上執行的數位體驗。
 
-1. 導覽至 **TestLocation** 並加以選取。
-1. 選取 **建立** 從動作列移除。
+1. 導覽至 **TestLocation** 並按一下。
+1. 按一下 **建立** 從動作列移除。
 
    ![影像](assets/kickstart/demo-disp1.png)
 
-1. 選取 **顯示** 從 **建立** 精靈並選取 **下一個**.
+1. 按一下 **顯示** 從 **建立** 精靈並按一下 **下一個**.
 
    ![影像](assets/kickstart/demo-disp2.png)
 
-1. 輸入 **標題** 作為 **LobbyDisplay** 並選取 **建立**.
+1. 輸入 **標題** 作為 **LobbyDisplay** 並按一下 **建立**.
 
    ![影像](assets/kickstart/demo-disp3.png)
 
@@ -150,13 +150,13 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 1. 從以下位置瀏覽至所需的顯示區： **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay**.
 
-1. 選取 **指派頻道** 從動作列移除。
+1. 按一下 **指派頻道** 從動作列移除。
 
    ![影像](assets/kickstart/demo-assign1.png)
 
    或，
 
-   選取 **儀表板** 從動作列並選取 **+指派頻道** 從 **已指派的頻道與排程** 面板。
+   按一下 **儀表板** ，然後按一下 **+指派頻道** 從 **已指派的頻道與排程** 面板。
 
    ![影像](assets/kickstart/demo-assign2.png)
 
@@ -170,13 +170,13 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
    ![影像](assets/kickstart/demo-assign3.png)
 
-   此外，您也可以選取 **啟用期間** 和 **遞回排程**.
+   此外，您也可以按一下 **啟用期間** 和 **遞回排程**.
 
    >[!NOTE]
    >此 *遞回排程* 可讓您設定頻道的週期性排程。 您可以為通道設定多個週期排程。
    >另請參閱 [遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 以取得更多詳細資料。
 
-1. 選取 **儲存** 設定您的偏好設定後。
+1. 按一下 **儲存** 設定您的偏好設定後。
 
 ### 註冊裝置並將裝置指定到顯示器 {#registering-device}
 
@@ -185,43 +185,43 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 >[!IMPORTANT]
 >Chrome OS播放器可在開發人員模式下安裝為Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。 請依照下列步驟進行安裝：
 >
->1. 選取 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
+>1. 按一下 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
 >1. 解壓縮並儲存在磁碟上。
->1. 開啟Chrome瀏覽器並選取 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
+>1. 開啟Chrome瀏覽器並按一下 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
 >1. 切換至 **開發人員模式** 從右上角。
->1. 選取 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
+>1. 按一下 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
 >1. 檢查 **AEM Screens Chrome Player** 外掛程式（如果可在擴充功能清單中取得）。
->1. 開啟新標籤並選取 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
->1. 選取 **AEM Screens** 外掛程式，方便您啟動Chrome Player。 依預設，播放器會以全熒幕模式啟動。 按下 **Esc** 以結束全熒幕模式。
+>1. 開啟新標籤，然後按一下 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
+>1. 按一下 **AEM Screens** 外掛程式，方便您啟動Chrome Player。 依預設，播放器會以全熒幕模式啟動。 按下 **Esc** 以結束全熒幕模式。
 
 在您的Chrome作業系統播放器啟動後，請依照下列步驟註冊Chrome裝置。
 
 1. 導覽至 **裝置** 從AEM執行個體選取的專案資料夾。
 
-1. 選取 **裝置管理員** 從動作列移除。
+1. 按一下 **裝置管理員** 從動作列移除。
 
    ![影像](assets/kickstart/demo-register1.png)
 
-1. 選取 **裝置註冊** 從右上角。
+1. 按一下 **裝置註冊** 從右上角。
 
-1. 選取所需的裝置，然後選取 **註冊裝置**.
+1. 按一下所需的裝置，然後按一下 **註冊裝置**.
 
    ![影像](assets/kickstart/demo-register2.png)
 
 1. 等候裝置傳送其註冊代碼，同時檢查 **註冊代碼** 從您的Chrome裝置。
    ![影像](assets/kickstart/demo-register3.png)
 
-1. 如果 **註冊代碼** 兩台機器上的相同，請選取 **驗證** 在AEM中。
+1. 如果 **註冊代碼** 兩台機器上的相同，請按一下 **驗證** 在AEM中。
 
-1. 將所需的名稱設為 **ChromeDeviceforDemo** 至裝置，並選取 **註冊**.
+1. 將所需的名稱設為 **ChromeDeviceforDemo** ，然後按一下 **註冊**.
 
    ![影像](assets/kickstart/demo-register4.png)
 
-1. 選取 **指派顯示區** 從 **裝置註冊成功** 對話方塊。
+1. 按一下 **指派顯示區** 從 **裝置註冊成功** 對話方塊。
 
    ![影像](assets/kickstart/demo-register5.png)
 
-1. 選取要顯示為的路徑 **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay** 並選取 **指派**.
+1. 按一下要顯示為的路徑 **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay** 並按一下 **指派**.
 
    ![影像](assets/kickstart/demo-device6.png)
 
@@ -229,7 +229,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
    ![影像](assets/kickstart/demo-register8.png)
 
-1. 選取 **完成** 以完成註冊程式。 您現在可以從顯示儀表板檢視已註冊的裝置。
+1. 按一下 **完成** 以完成註冊程式。 您現在可以從顯示儀表板檢視已註冊的裝置。
 
    ![影像](assets/kickstart/demo-register9.png)
 

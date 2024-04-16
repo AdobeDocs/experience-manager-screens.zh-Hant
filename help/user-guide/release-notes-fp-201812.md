@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -37,7 +37,7 @@ AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
 
 * **多資產排程**：
 
-  多資產排程可讓使用者選取多個資產，並將播放排程套用至所有選取的資產。 另請參閱 **多資產排程**&#x200B;中的區段&#x200B;**[資產排程](asset-level-scheduling.md)**.
+  多資產排程可讓使用者按一下多個資產，並將播放排程套用至所有選取的資產。 另請參閱 **多資產排程**&#x200B;中的區段&#x200B;**[資產排程](asset-level-scheduling.md)**.
 
 * **多區域配置**：
 

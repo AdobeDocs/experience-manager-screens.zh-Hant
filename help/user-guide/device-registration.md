@@ -10,7 +10,7 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -33,8 +33,8 @@ ht-degree: 0%
 >下載最新的Windows Player之後(*.exe*)，從 [AEM 6.4播放器下載](https://download.macromedia.com/screens/) 請依照播放器上的步驟完成隨選安裝：
 >
 >1. 長按左上角以開啟「管理」面板。
->1. 瀏覽至 **設定** 從左側動作功能表，然後輸入AEM執行個體的位置地址。 **伺服器** 並選取 **儲存**.
->1. 選取 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
+>1. 瀏覽至 **設定** 從左側動作功能表，然後輸入AEM執行個體的位置地址。 **伺服器** 並按一下 **儲存**.
+>1. 按一下 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -49,15 +49,15 @@ ht-degree: 0%
    >
    >若要取得在AEM儀表板中建立畫面專案的詳細資訊，請參閱 [建立和管理Screens專案](creating-a-screens-project.md).
 
-1. 選取 **裝置管理員** 按鈕。
+1. 按一下 **裝置管理員** 按鈕。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 選取 **裝置註冊** 按鈕。
+1. 按一下 **裝置註冊** 按鈕。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 選取所需的裝置（與步驟1相同），然後選取 **註冊裝置**.
+1. 按一下所需的裝置（與步驟1相同），然後按一下 **註冊裝置**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果 **註冊代碼** 兩台機器上的相同，請選取 **驗證** AEM按鈕，如步驟(6)所示。
-1. 為裝置設定所要的名稱，然後選取 **註冊**.
+1. 如果 **註冊代碼** 兩台機器上的相同，請按一下 **驗證** AEM按鈕，如步驟(6)所示。
+1. 為裝置設定所要的名稱，然後按一下 **註冊**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 選取 **完成** 以完成註冊程式。
+1. 按一下 **完成** 以完成註冊程式。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
    >
    >此 **指派顯示區** 可讓您直接將裝置新增至顯示器。
 
-   如果您選取 **完成**，將裝置指派給顯示器。
+   如果您按一下 **完成**，將裝置指派給顯示器。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,19 +96,19 @@ ht-degree: 0%
 
 如果您尚未將裝置指派給顯示區，請依照下列步驟，將裝置指派給AEM Screens專案中的顯示區：
 
-1. 選取裝置，然後選取 **指派裝置** 從動作列移除。
+1. 按一下裝置，然後按一下 **指派裝置** 從動作列移除。
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 選取顯示的路徑 **顯示器/裝置設定路徑**.
+1. 按一下顯示的路徑 **顯示器/裝置設定路徑**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 選取 **指派** 當您選取路徑時。
+1. 按一下 **指派** 當您按一下路徑時。
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 選取 **完成** 成功指派裝置後，如下圖所示。
+1. 按一下 **完成** 成功指派裝置後，如下圖所示。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 例如，從您的AEM Screens專案導覽至「裝置管理員UI」 。 **DemoScreens** > **裝置**.
 
-1. 選取 **裝置** 資料夾並選取 **裝置管理員** 從動作列移除。
+1. 按一下 **裝置** 資料夾並按一下 **裝置管理員** 從動作列移除。
 
    ![影像](/help/user-guide/assets/device-manager/device-manager-1.png)
 

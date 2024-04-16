@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
 
 1. **導覽至AEM Screens > `We.Retail` 執行專案：**
 
-   從AEM開始功能表中，選取畫面圖示。 驗證 `We.Retail` 出現執行專案。
+   從AEM「開始」功能表，按一下畫面圖示。 驗證 `We.Retail` 出現執行專案。
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ AEM Screens使用 [靜態頁面範本](https://experienceleague.adobe.com/en/doc
 
 Hello World元件適用於序列頻道。 若要測試元件，則會建立新的「順序頻道」。
 
-1. 從AEM「開始」功能表，導覽至 **Screens** > **`We.Retail`執行** >並選取 **頻道**.
+1. 從AEM「開始」功能表，導覽至 **Screens** > **`We.Retail`執行** >並按一下 **頻道**.
 
-1. 選取 **建立** 按鈕
+1. 按一下 **建立** 按鈕
 
    1. 選擇 **建立實體**
 
@@ -435,9 +435,9 @@ Hello World元件適用於序列頻道。 若要測試元件，則會建立新�
 
 1. 切換頁面模式至 **設計** 模式。
 
-   1. 選取 **扳手** 圖示來設定允許的元件。
+   1. 按一下 **扳手** 圖示來設定允許的元件。
 
-   1. 選取 **Screens** 群組與 **`We.Retail`執行 — 內容** 群組。
+   1. 按一下 **Screens** 群組與 **`We.Retail`執行 — 內容** 群組。
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

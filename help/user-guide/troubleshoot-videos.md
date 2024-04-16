@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 若要觀看影片：
 
 1. 導覽至您的影片，例如 `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 選取視訊並展開左上角的功能表，然後選取「 」 **轉譯**.
+1. 按一下視訊並展開左上角功能表，然後按一下 **轉譯**.
 
 應該有不同的轉譯（MP4或M4V）。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 >
 >如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
 >
->選取 [此處](https://www.ffmpeg.org/download.html) 以安裝ffmpeg。
+>按一下 [此處](https://www.ffmpeg.org/download.html) 以安裝ffmpeg。
 
 ## 視訊資產 {#video-assets}
 
@@ -51,11 +51,11 @@ ht-degree: 1%
 
 ### 正在檢查視訊設定檔 {#checking-video-profile}
 
-1. 導覽至 **視訊設定檔**，也就是 `http://localhost:4502/etc/dam/video.html` 並選取 **上傳測試視訊**.
+1. 導覽至 **視訊設定檔**，也就是 `http://localhost:4502/etc/dam/video.html` 並按一下 **上傳測試視訊**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 上傳測試視訊並選取 **確定** 以便您開始轉碼。
+1. 上傳測試視訊並按一下 **確定** 以便您開始轉碼。
 
    如果轉碼後的視訊失敗，請展開ffmpeg輸出來瞭解ffmpeg主控台輸出中的任何錯誤。
 
@@ -73,14 +73,14 @@ ht-degree: 1%
 
 如果視訊元件未正確設定，請檢查頁面設計中的設定檔清單。
 
-1. 導覽至您的頻道，然後選取 **設計** 模式。
+1. 導覽至您的頻道，然後按一下 **設計** 模式。
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. 選取視訊並開啟 **編輯** 對話方塊。 開啟 **設定檔** 標籤。
+1. 按一下視訊並開啟 **編輯** 對話方塊。 開啟 **設定檔** 標籤。
 
    >[!NOTE]
-   >選取不同的設定檔（至少應有「高品質H.264」設定檔）。
+   >按一下不同的設定檔（至少應有「高品質H.264」設定檔）。
 
 ### 在網頁播放器中檢查視訊 {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ ht-degree: 1%
 若要使用DAM工作流程來建立FullHD轉譯，請執行以下操作：
 
 1. 導覽至 *工作流程模型管理員* 即 `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. 選取 **畫面更新資產** 模型。
-1. 選取 **開始工作流程** 從動作列移除。
-1. 從 **執行工作流程** 對話方塊中，選取您的視訊資產， **裝載**.
-1. 選取 **執行**.
+1. 按一下 **畫面更新資產** 模型。
+1. 按一下 **開始工作流程** 從動作列移除。
+1. 從 **執行工作流程** 對話方塊中，按一下 **裝載**.
+1. 按一下 **執行**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 請依照下列步驟設定絕對策略：
 
-1. 導覽至您的管道作者，然後選取順序元件，如下圖所示。
+1. 導覽至您的管道作者，然後按一下順序元件，如下圖所示。
 1. 開啟其設定對話方塊。
 1. 編輯 **策略** 並新增絕對。
 

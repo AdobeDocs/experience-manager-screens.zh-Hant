@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 1. 設定 **登入權杖Cookie的SameSite屬性** 從 **鬆散** 至 **無**.
    ![影像](/help/user-guide/assets/granite-updates.png)
 
-1. 選取「**儲存**」。
+1. 按一下「**儲存**」。
 
 
 ### 臨機方法 {#ad-hoc-method}
@@ -55,7 +55,7 @@ ht-degree: 0%
 下載應用程式後，請依照播放器上的步驟完成隨選安裝：
 
 1. 長按左上角以開啟「管理」面板。
-1. 瀏覽至 **設定** 從左側動作功能表，輸入您要連線的AEM執行個體位置（位址），然後選取 **儲存**.
+1. 瀏覽至 **設定** 從左側動作選單中輸入您要連線的AEM執行個體的位置（位址），然後按一下 **儲存**.
 
 1. 導覽至 **裝置** **註冊** 從左側動作功能表連結，以便您檢視裝置註冊程式的狀態。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
 1. 確認您的Android™裝置支援Google Play服務。
 1. 使用您最愛的支援AppConfig的EMM解決方案註冊您的Android™播放器裝置。
 1. 登入您的EMM主控台，並從Google Play提取AEM Screens Player應用程式。
-1. 選取Managed組態或相關選項。
+1. 按一下Managed Configuration或相關選項。
 1. 您現在應該會看到可設定的播放器選項清單，例如伺服器和大量註冊代碼。
 1. 設定這些引數、儲存原則，並將其部署至裝置。
 

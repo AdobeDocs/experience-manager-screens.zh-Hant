@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -101,17 +101,17 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 選取專案，** DemoProjectImporter **>** 建立 **>** 匯入位置**從側邊列。
+1. 按一下專案，**DemoProjectImporter **>** 建立 **>** 匯入位置**從側邊列。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 此 **匯入** 精靈隨即顯示。 選取包含位置的專案檔案，或選取檔案(***最小檔案.xls***)您已從「 」下載 *必要條件* 區段。
+1. 此 **匯入** 精靈隨即顯示。 按一下包含位置的專案檔案，或按一下檔案(***最小檔案.xls***)您已從「 」下載 *必要條件* 區段。
 
-   選取檔案後，選取 **下一個**.
+   選取檔案後，按一下 **下一個**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從匯入精靈中驗證檔案的內容（位置）並選取 **匯入**.
+1. 從匯入精靈中驗證檔案的內容（位置），然後按一下 **匯入**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

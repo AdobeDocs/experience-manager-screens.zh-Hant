@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 1. 建立標題為的順序頻道 **自助餐廳** 在 **頻道** 資料夾。
 
-1. 選取頻道，然後選取「 」 **編輯** 從動作列移除。
+1. 按一下頻道，然後按一下 **編輯** 從動作列移除。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
-1. 選取 **指派頻道** 從動作列移除。
+1. 按一下 **指派頻道** 從動作列移除。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或，
 
-   選取 **儀表板** 從動作列並選取 **+指派頻道** 從 **已指派的頻道與排程** 面板。
+   按一下 **儀表板** ，然後按一下 **+指派頻道** 從 **已指派的頻道與排程** 面板。
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ ht-degree: 2%
    >
    >若要深入瞭解管道指派屬性，請參閱 [頻道屬性](#channel-properties) 區段。
 
-1. 從 **排程** 選項，選取 **啟用期間** 和 **遞回排程**.
+1. 從 **排程** 選項，按一下 **啟用期間** 和 **遞回排程**.
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >若要深入瞭解管道指派屬性，請參閱 [頻道屬性](#channel-properties) 區段。
 
-1. 選取 **儲存** 設定您的偏好設定後。
+1. 按一下 **儲存** 設定您的偏好設定後。
 
 ### 在Chrome播放器中檢視內容 {#viewing-content-output}
 
@@ -111,11 +111,11 @@ ht-degree: 2%
 
 1. 導覽至所需的顯示畫面，例如， **DemoScreens** > **位置** > **SanJose** > **大廳**.
 
-1. 選取 **指派頻道** 從動作列移除。
+1. 按一下 **指派頻道** 從動作列移除。
 
    或，
 
-   選取 **儀表板** 並選取 **時間表** 從 **已指派的頻道與排程** 面板。
+   按一下 **儀表板** 並按一下 **時間表** 從 **已指派的頻道與排程** 面板。
 
    ![影像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 ### 週期排程 {#recurrence-schedule}
 
-週期性排程表可讓您設定內容的週期性排程表。 選取 **+新增排程** 以新增週期排程至您的頻道。
+週期性排程表可讓您設定內容的週期性排程表。 按一下 **+新增排程** 以新增週期排程至您的頻道。
 
 >[!NOTE]
 >您可以將多個週期性排程新增到您的頻道。

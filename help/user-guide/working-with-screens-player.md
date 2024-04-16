@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 1. 從您的專案導覽至裝置控制面板，例如 ***測試專案*** > ***裝置***.
 
-   選取 **裝置** 和 **裝置管理員** 從動作列移除。
+   按一下 **裝置** 和 **裝置管理員** 從動作列移除。
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 選取裝置，以便開啟裝置控制面板。
+1. 按一下裝置，即可開啟裝置控制面板。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 #### 存取組態功能表選項 {#configuration-options}
 
-您可以更新您的設定，如果您選取 **設定** 側選單中的選項，如下圖所示：
+您可以更新您的設定，如果您按一下 **設定** 側選單中的選項，如下圖所示：
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 您可以從AEM Screens播放器中的管理員UI清除管道和應用程式的快取。
 
-選取 **內容快取** 以更新快取。
+按一下 **內容快取** 以更新快取。
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

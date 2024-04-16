@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -57,7 +57,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-emb-1.png)
 
-1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並選取通道。 選取 **編輯** 之後，根據您的需求新增內容（影像/影片）。 同樣地，將內容新增至兩者 **冷飲** 和 **熱飲** 頻道。
+1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並按一下頻道。 按一下 **編輯** 之後，根據您的需求新增內容（影像/影片）。 同樣地，將內容新增至兩者 **冷飲** 和 **熱飲** 頻道。
 
    管道現在包含資產（影像），如下圖所示。
 
@@ -83,13 +83,13 @@ ht-degree: 2%
 
 請依照下列步驟，將標籤新增至您的頻道：
 
-1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並選取通道。
+1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** > **頻道** > **主要** 並按一下頻道。
 
-1. 選取 **屬性** 從動作列移除。
+1. 按一下 **屬性** 從動作列移除。
 
    ![影像](assets/voice-recognition/vr-5.png)
 
-1. 導覽至 **基本知識** 標籤，然後從標籤中選取現有標籤 **標籤** 欄位，或建立一個。
+1. 導覽至 **基本知識** 標籤，然後按一下中的現有標籤 **標籤** 欄位，或建立一個。
 
    您可以輸入標籤的新名稱來建立標籤，然後點選 `return` 鍵，如下圖所示：
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
    或，
 
-   您也可以預先從專案的AEM例項建立標籤，並加以選取。 依照中說明的步驟操作後， [建立標籤](#creating-tags)，您可以從位置選取標籤並將其新增至您的頻道，如下圖所示：
+   您也可以預先從專案的AEM例項建立標籤，然後按一下這些標籤。 依照中說明的步驟操作後， [建立標籤](#creating-tags)，您可以按一下位置中的標籤，並將其新增至您的頻道，如下圖所示：
 
    ![影像](assets/voice-recognition/vr-tag1.png)
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-emb-7.png)
 
-1. 選取 **儲存並關閉** 完成後。
+1. 按一下 **儲存並關閉** 完成後。
 
 
 ### 建立標記 {#creating-tags}
@@ -116,18 +116,18 @@ ht-degree: 2%
 
 1. 導覽至您的AEM執行個體。
 
-1. 選取工具圖示> **標籤**.
+1. 按一下「工具」圖示> **標籤**.
    ![影像](assets/voice-recognition/vr-7.png)
 
-1. 選取 **建立** > **建立名稱空間**.
+1. 按一下 **建立** > **建立名稱空間**.
    ![影像](assets/voice-recognition/vr-tag3.png)
 
-1. 輸入專案名稱，例如 **VoiceDemo** 並選取 **建立**.
+1. 輸入專案名稱，例如 **VoiceDemo** 並按一下 **建立**.
 
-1. 選取 **VoiceDemo** 專案並選取 **建立標籤** 從動作列移除。
+1. 按一下 **VoiceDemo** 專案並按一下 **建立標籤** 從動作列移除。
    ![影像](assets/voice-recognition/vr-tag4.png)
 
-1. 輸入標籤名稱並選取 **提交**.
+1. 輸入標簽名稱，然後按一下 **提交**.
    ![影像](assets/voice-recognition/vr-tag5.png)
 
 現在，您可以在AEM Screens專案中使用這些標籤。
@@ -159,7 +159,7 @@ ht-degree: 2%
    >
    >若要瞭解如何將頻道指派給顯示區，請參閱 [建立和管理顯示器](/help/user-guide/managing-displays.md).
 
-1. 將管道指派給顯示區後，導覽至 **LobbyDisplay** 並選取顯示。 選取 **屬性** 從動作列移除。
+1. 將管道指派給顯示區後，導覽至 **LobbyDisplay** 並按一下顯示。 按一下 **屬性** 從動作列移除。
 
 1. 導覽至 **顯示** 標籤並啟用 **啟用語音** 下的選項 **內容**.
 

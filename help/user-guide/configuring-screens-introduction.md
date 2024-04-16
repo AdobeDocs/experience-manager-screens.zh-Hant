@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
    ![資產](assets/health-check1.png)
 
 
-2. 選取 **執行選取的運行狀況檢查** 因此您可以對上述兩個屬性執行驗證。
+2. 按一下 **執行選取的運行狀況檢查** 因此您可以對上述兩個屬性執行驗證。
 
    如果兩個篩選器皆已啟用，則 **Screens設定健康情況服務** 顯示 **結果** 作為 **確定** 且兩個設定均已啟用。
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
    ![影像](assets/config/empty-ref2.png)
 
-1. 選取 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
+1. 按一下 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
 
 
 #### Apache Felix Jetty型HTTP服務 {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![影像](assets/config/config-1.png)
 
-1. 選取 **儲存** 以啟用 *http* 服務。
+1. 按一下 **儲存** 以啟用 *http* 服務。
 
 #### 啟用AEM Screens的Touch UI {#enable-touch-ui-for-aem-screens}
 

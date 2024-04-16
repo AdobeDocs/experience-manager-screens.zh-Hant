@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 請依照下列步驟實作播放器的自動註冊：
 
-1. 登入您的AEM執行個體並選取您的AEM Screens專案，然後選取 **屬性** 從動作列移除。
-1. 選取 **進階** 標籤，讓您可以檢視 **裝置註冊** 區段。
+1. 登入您的AEM執行個體，按一下您的AEM Screens專案，然後按一下 **屬性** 從動作列移除。
+1. 按一下 **進階** 標籤，讓您可以檢視 **裝置註冊** 區段。
 
 1. 在中指定自動註冊代碼 **大量註冊代碼** 欄位和選用的預設顯示位置 **預設顯示指派** 以指派給自動註冊的播放器。
 
    >[!NOTE]
-   >輸入您選擇的程式碼，並視需要選取預設顯示。
+   >輸入您選擇的程式碼，並視需要按一下預設顯示。
 
    ![影像](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. 使用MDM或設定JSON檔案為播放器布建適當的伺服器URL和註冊代碼。

@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
    ![影像](/help/user-guide/assets/cloud-player-install.png)
 
-1. 在確認對話方塊中選取安裝圖示和安裝按鈕。 Cloud Player是以獨立應用程式的形式安裝在您的裝置上，並可使用圖示啟動。
+1. 按一下確認對話方塊上的安裝圖示和安裝按鈕。 Cloud Player是以獨立應用程式的形式安裝在您的裝置上，並可使用圖示啟動。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
 ## AEM執行個體上所需的設定 {#bulk-provisioning-config-aem}
 
-根據AEM執行個體的型別，選取下列其中一項指南，以啟用AEM和雲端上的CORS播放器：
+根據AEM執行個體的型別，按一下以下其中一項指南，以啟用AEM和雲端上的CORS播放器：
 * [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

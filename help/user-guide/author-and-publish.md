@@ -2,7 +2,7 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -66,23 +66,23 @@ Screens需要三個復寫代理：
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. 選取 **復寫** 從左側導覽樹狀結構。
+1. 按一下 **復寫** 從左側導覽樹狀結構。
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. 選取 **作者上的代理程式** 從 **復寫** 資料夾並選取 **新增** 建立新的標準復寫代理程式。
+1. 按一下 **作者上的代理程式** 從 **復寫** 資料夾並按一下 **新增** 建立新的標準復寫代理程式。
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. 輸入 **標題** 和 **名稱** 以便建立復寫代理程式，然後選取 **建立**.
+1. 輸入 **標題** 和 **名稱** 以便建立復寫代理程式，然後按一下 **建立**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. 在復寫代理程式上按一下滑鼠右鍵，然後選取「 」 **開啟** 以編輯設定。
+1. 在復寫代理程式上按一下滑鼠右鍵，然後按一下 **開啟** 以編輯設定。
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. 選取&#x200B;**編輯**。
+1. 按一下 **編輯**.
 
 1. 在 **代理程式設定** 對話方塊中，輸入詳細資料。
 
@@ -128,7 +128,7 @@ Screens需要三個復寫代理：
 對於每個發佈執行個體：
 
 1. 瀏覽至 `https://<host>:<port>/system/console/configMgr`
-1. 選取 **Apache Sling Oak型探索服務** 設定。
+1. 按一下 **Apache Sling Oak型探索服務** 設定。
 1. 更新拓朴聯結器URL：新增符合以下條件的所有參與發佈執行個體的URL：
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -151,7 +151,7 @@ Screens需要三個復寫代理：
 
 1. 在OSGi主控台，導覽至 **主要** > **Crypto支援** (`https://<host>:<port>/system/console/crypto`)。
 1. 在中輸入所需的純文字密碼（所有執行個體都相同） **純文字**
-1. 選取 **Protect**.
+1. 按一下 **Protect**.
 1. 複製值 **受保護的文字** 至記事本或文字編輯器。 此值可用於ActiveMQ的OSGi設定。
 
 因為每個發佈執行個體預設都有唯一的加密編譯金鑰，請在每個發佈執行個體執行此步驟，並儲存唯一的金鑰以供下一個設定使用。
@@ -166,7 +166,7 @@ Screens需要三個復寫代理：
 在每個發佈執行個體上：
 
 1. 導覽至OSGi設定管理員 `https://<host>:<port>/system/console/configMgr`
-1. 選取 **Apache ActiveMQ Artemis JMS提供者** 設定
+1. 按一下 **Apache ActiveMQ Artemis JMS提供者** 設定
 1. 更新下列專案：
 
    * ***叢集密碼***：針對各個執行個體使用先前步驟的加密值
@@ -191,7 +191,7 @@ Screens需要三個復寫代理：
 
 例如，下列影像會顯示在ActiveMQ Artemis伺服器的成功設定上。
 
-如果您沒有從看到下列設定 */system/console/mq*，然後導覽至 */system/console/mq* 並選取 **重新啟動** 以重新啟動Broker。
+如果您沒有從看到下列設定 */system/console/mq*，然後導覽至 */system/console/mq* 並按一下 **重新啟動** 以重新啟動Broker。
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -200,7 +200,7 @@ Screens需要三個復寫代理：
 請依照每個Publish執行個體上的步驟操作：
 
 1. 導覽至 **OSGi控制檯** > **組態管理員**
-1. 選取 **Apache Sling查閱者篩選器**
+1. 按一下 **Apache Sling查閱者篩選器**
 1. 更新設定和 **勾選允許空白**
 
 ### 設定作者和發佈例項 {#configuring-author-and-publish-instance}
@@ -224,19 +224,19 @@ Screens需要三個復寫代理：
 
 #### 步驟2：在作者上註冊裝置 {#step-registering-a-device-on-author}
 
-1. 前往 `https://localhost:4502/screens.html/content/screens/we-retail` 或選取您的專案，並導覽至「裝置>裝置管理員」。
-1. 選取 **註冊裝置**.
-1. 選取 **裝置註冊**.
-1. 選取您要註冊的裝置，然後選取 **註冊裝置**.
-1. 驗證註冊代碼，然後選取 **驗證**.
-1. 輸入裝置的標題，然後選取 **註冊**.
+1. 前往 `https://localhost:4502/screens.html/content/screens/we-retail` 或按一下您的專案，然後導覽至「裝置>裝置管理員」。
+1. 按一下 **註冊裝置**.
+1. 按一下 **裝置註冊**.
+1. 按一下您要註冊的裝置，然後按一下 **註冊裝置**.
+1. 驗證註冊代碼，然後按一下 **驗證**.
+1. 輸入裝置的標題，然後按一下 **註冊**.
 
 #### 步驟3：指派要顯示的裝置 {#step-assigning-the-device-to-display}
 
-1. 選取 **指派顯示區** 從對話方塊中選取。
-1. 從中選擇頻道的顯示路徑 **位置** 資料夾。
-1. 選取 **指派**.
-1. 選取 **完成** 完成程式，現在裝置已指派。
+1. 按一下 **指派顯示區** 從對話方塊中選取。
+1. 從以下位置按一下頻道的顯示路徑： **位置** 資料夾。
+1. 按一下 **指派**.
+1. 按一下 **完成** 完成程式，現在裝置已指派。
 
 檢查您的播放器，並注意您在頻道中新增的內容。
 
@@ -248,7 +248,7 @@ Screens需要三個復寫代理：
 
 1. 瀏覽至使用者管理頁面。 例如，`https://localhost:4502/useradmin`。
 1. 搜尋 **`screens-devices-master`** 群組。
-1. 以滑鼠右鍵按一下群組並選取「 」 **啟動**.
+1. 以滑鼠右鍵按一下群組，然後按一下 **啟動**.
 
 >[!CAUTION]
 >
@@ -257,14 +257,14 @@ Screens需要三個復寫代理：
 您也可以從「裝置管理主控台」啟動裝置。 請遵循下列步驟：
 
 1. 導覽至您的畫面專案> **裝置**.
-1. 選取 **裝置管理員** 從動作列移除。
-1. 選取裝置，然後選取 **啟動** 從動作列中，如下圖所示。
+1. 按一下 **裝置管理員** 從動作列移除。
+1. 按一下裝置，然後按一下 **啟動** 從動作列中，如下圖所示。
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->或者，在啟動裝置後，您也可以編輯或更新伺服器URL。 選取 **編輯伺服器URL** 之後，您的變更會從動作列傳播至AEM Screens播放器，如下圖所示。
+>或者，在啟動裝置後，您也可以編輯或更新伺服器URL。 按一下 **編輯伺服器URL** 之後，您的變更會從動作列傳播至AEM Screens播放器，如下圖所示。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -293,16 +293,16 @@ Screens需要三個復寫代理：
 #### 步驟5：在管理面板中將裝置指向發佈執行個體 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. 從Screens播放器檢視Admin UI，長按左上角，就能在已啟用觸控功能的AEM Screens播放器上或使用滑鼠開啟Admin功能表。
-1. 選取 **設定** 選項。
+1. 按一下 **設定** 選項。
 1. 在中將作者執行個體變更為發佈執行個體 **伺服器**.
 
 在AEM Screens播放器中檢視變更。
 
 或者，您也可以使用下列步驟，從裝置管理主控台更新/編輯伺服器URL：
 
-1. 導覽至您的AEM Screens專案，然後選取 **裝置** 資料夾。
-1. 選取 **裝置管理員** 從動作列移除。
-1. 選取裝置，然後選取 **編輯伺服器URL** 從動作列中（如下圖所示），您的變更會傳播至AEM Screens播放器。
+1. 導覽至您的AEM Screens專案，然後按一下 **裝置** 資料夾。
+1. 按一下 **裝置管理員** 從動作列移除。
+1. 按一下裝置，然後按一下 **編輯伺服器URL** 從動作列中（如下圖所示），您的變更會傳播至AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
