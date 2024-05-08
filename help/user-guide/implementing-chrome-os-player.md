@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 
 ## 命名Chrome作業系統播放器 {#name-chrome}
 
-您可以指派好記的裝置名稱給您的Chrome播放器，然後將指派的裝置名稱傳送給Adobe Experience Manager (AEM)。 此功能不僅可讓您為Chrome播放器命名，也可讓您輕鬆指派適當的內容。
+您可以指派好記的裝置名稱給您的Chrome播放器，然後將指派的裝置名稱傳送給Adobe Experience Manager (AEM)。 此功能不僅可讓您為Chrome播放器命名，也可讓您輕鬆指派適當內容。
 
 >[!NOTE]
 >您只能在註冊之前選擇播放器名稱。 播放器註冊後，播放器名稱就無法再變更。
 
-請依照下列步驟，在Chrome播放器中設定名稱：
+請依照下列步驟，在Chrome Player中設定名稱：
 
 1. 您可以選擇允許音訊/視訊整合商或IT管理員設定資產ID和位置，以作為企業註冊的一部分。
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-***AEM Screens通知服務*** 如果AEM Screens播放器未在可設定的時間ping通，管理員即可收到電子郵件。
+***AEM Screens通知服務*** 如果AEM Screens Player未在可設定的時間ping通，管理員即可收到電子郵件。
 
 此服務可在OSGi Web主控台中設定。
 

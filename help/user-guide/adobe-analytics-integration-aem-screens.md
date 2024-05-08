@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics與AEM Screens整合
-description: 瞭解開箱即用的AEM Screens與Adobe Analytics整合，並為您提供遊戲證明。
+description: 瞭解AEM Screens與Adobe Analytics立即可用的整合，並為您提供播放證明。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ AEM Screens提供與Adobe Analytics的現成整合，並為您提供播放證明
 * 允許依資產播放報告的證明
 * 確保擷取所有播放器事件並加上時間戳記
 * 如果播放未連線至網路，請確定所有播放器事件都儲存在本機
-* 允許建立回饋迴路，以追蹤一段時間內的播放事件
-* 允許系統根據內容作者定義的成功標準修改內容和版面
+* 可以建立回饋迴路，以追蹤一段時間內的播放事件
+* 可讓系統根據內容作者定義的成功標準編輯內容和版面
 
 因此，Adobe Analytics與AEM Screens的整合會強制進行下列作業 *目標*：
 
@@ -55,7 +55,7 @@ AEM Screens提供與Adobe Analytics的現成整合，並為您提供播放證明
 
 ## 架構詳細資料 {#architectural-details}
 
-AEM Screens客戶想要瞭解內容在何時顯示，以及顯示時間（彙總）。 這是招牌解決方案的常見功能。 AEM Screens使用Adobe Analytics，而非建立個別的分析應用程式。 此組合可讓我們達成市場上獨一無二的目標 — 跨管道分析，協助將位置中顯示的內容與其他資料來源建立關聯。
+AEM Screens客戶想要瞭解內容在何時顯示，以及顯示時間（彙總）。 此必要性是招牌解決方案的常見功能。 AEM Screens使用Adobe Analytics，而非建立個別的分析應用程式。 此組合可讓我們達成市場上獨一無二的目標 — 跨管道分析，協助將位置中顯示的內容與其他資料來源建立關聯。
 
 下列架構圖表說明Adobe Analytics與AEM Screens的整合：
 
@@ -119,7 +119,7 @@ Adobe Analytics設定可從OSGi主控台進行設定。
 
 #### 在AEM Screens中使用Adobe Analytics服務 {#using-adobe-analytics-service-in-aem-screens}
 
-此情境會透過韌體中Analytics服務的REST呼叫叫用Analytics API。 它也會檢測AEM Screens核心元件，以明確建立和傳送特定使用案例的特定事件。 同時具備擴充功能，可從自訂開發的頻道將任何自訂訊息傳送至Analytics。
+此情境會透過韌體中Analytics服務的REST呼叫叫用Analytics API。 它也會檢測AEM Screens核心元件，以建立和傳送特定使用案例的特定事件。 具備上述所有功能，且可擴充，讓任何自訂訊息可從自訂開發的頻道傳送至Analytics。
 
 Analytics事件會離線儲存在indexedDB中，並在稍後加入區塊並傳送至雲端。
 

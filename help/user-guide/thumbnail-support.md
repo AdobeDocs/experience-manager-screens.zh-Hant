@@ -2,9 +2,9 @@
 title: AEM Screens影片的縮圖支援
 description: 瞭解如何在AEM Screens中新增影片的縮圖支援。
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 2%
 
 ---

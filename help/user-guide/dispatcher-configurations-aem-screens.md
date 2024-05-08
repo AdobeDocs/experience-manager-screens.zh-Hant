@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Screens播放器會使用已驗證的工作階段，因此Dispatcher不會快取
 
 ### 為segments.js新增失效規則 {#invalidsegmentjs}
 
-如果您透過AEM Screens使用目標式行銷活動，則 `segments.js file` 當您在AEM上新增和發佈新區段時，Dispatcher提供的服務必須失效。 如果沒有此失效規則，新的目標定位行銷活動將無法在AEM Screens播放器上運作（而是顯示預設內容）。
+如果您透過AEM Screens使用目標式行銷活動，則 `segments.js file` 當您在AEM上新增和發佈新區段時，Dispatcher提供的服務必須失效。 如果沒有此失效規則，新的目標定位行銷活動將無法在AEM Screens Player上運作（而是顯示預設內容）。
 
 * 新增失效規則至 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 以下是新增的規則：
 

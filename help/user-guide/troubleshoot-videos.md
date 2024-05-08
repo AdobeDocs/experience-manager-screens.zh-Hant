@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # 視訊播放設定及疑難排解 {#video-playback-configuration-and-troubleshooting}
 
-上傳影片至DAM並將其新增至您的頻道時，您可能會遇到影片無法在AEM Screens播放器播放的問題。
+上傳影片至DAM並將其新增至您的頻道時，您可能會遇到影片無法在AEM Screens Player中播放的問題。
 
 以下章節說明如何在您的頻道中針對播放視訊進行除錯和疑難排解。
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 #### 疑難排解自動播放原則標幟 {#troubleshooting-autoplay-policy-flag}
 
-如果AEM Screens播放器擷取視訊但未顯示，請排除自動播放原則標幟的故障。
+如果AEM Screens Player擷取視訊但未顯示，請對「自動播放原則」標幟進行疑難排解。
 
 請依照下列步驟，針對Google的自動播放原則標幟問題進行疑難排解：
 

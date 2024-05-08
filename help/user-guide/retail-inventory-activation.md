@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 說明 {#description}
 
-此使用案例顯示三種不同顏色運動衫的零售庫存量。 根據Google Sheets中記錄的可用庫存運動衫數量，畫面上會顯示數量最高的影像（紅色、綠色或藍色運動衫）。
+此使用案例展示了三種不同顏色運動衫的零售庫存量。 根據Google Sheets中記錄的可用庫存運動衫數量，畫面上會顯示數量最高的影像（紅色、綠色或藍色運動衫）。
 
 在此使用案例中，熒幕上會根據可用毛衣數量上限顯示紅色、綠色或藍色毛衣。
 

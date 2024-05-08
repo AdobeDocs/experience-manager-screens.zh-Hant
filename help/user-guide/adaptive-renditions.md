@@ -2,9 +2,9 @@
 title: 最適化轉譯架構概觀和設定
 description: 瞭解AEM Screens最適化轉譯之CRXDE Lite的架構概觀和設定。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## 簡介 {#introduction}
 
-最適化轉譯可讓裝置根據客戶定義的規則，自動針對裝置按一下最佳轉譯。 裝置會根據這些規則，自動下載並播放最適合的資產轉譯，讓客戶僅能專注於設計 *主要* 體驗。
+最適化轉譯可讓裝置根據客戶定義的規則，自動針對裝置按一下最佳轉譯。 裝置會根據這些規則，自動下載並播放最適當的資產轉譯，讓客戶專注於設計 *主要* 僅限體驗。
 
 ## 目標 {#objective}
 
@@ -72,7 +72,7 @@ ht-degree: 2%
    >[!NOTE]
    >另請參閱 [使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 以進一步瞭解。
 
-   按一下 **rule1** ，然後輸入 **運算式** 在 **名稱** 和 **(orientation：landscape)** 在 **值**，如下所示。 按一下 **新增**.
+   按一下 **rule1** 建立的，並輸入 **運算式** 在 **名稱** 和 **(orientation：landscape)** 在 **值**，如下所示。 按一下 **新增**.
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ ht-degree: 2%
    >[!NOTE]
    >如果運算式的計算結果為true，則在pattern屬性中定義的值會符合新的資產轉譯，並會選取該值。
 
-   若要新增模式屬性，請按一下 **rule1** ，然後輸入 **圖樣** 在 **名稱** 和 **橫向** 在 **值**，如下所示。 按一下 **新增**.
+   若要新增模式屬性，請按一下 **rule1** 建立的，並輸入 **圖樣** 在 **名稱** 和 **橫向** 在 **值**，如下所示。 按一下 **新增**.
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ ht-degree: 2%
 
 ## 後續步驟 {#next-steps}
 
-新增轉譯對應屬性和規則後，身為內容作者，您可以設定資產。 做法是使用最適化轉譯，並將裝置移轉給大型網路，以便在AEM Screens管道中使用此功能。 另請參閱 [在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 以取得詳細資訊。
+新增轉譯對應屬性和規則後，身為內容作者，您可以設定資產。 您可以使用最適化轉譯，也可以移轉大型網路的裝置，以便在AEM Screens管道中使用此功能。 另請參閱 [在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md) 以取得詳細資訊。

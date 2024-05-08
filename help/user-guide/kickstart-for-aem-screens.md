@@ -1,13 +1,13 @@
 ---
 title: Kickstart指南
-description: 瞭解如何建立示範AEM Screens專案。 這可協助您建立數位看板體驗，從安裝和設定新專案開始，一直到在AEM Screens播放器中檢視您的內容。
+description: 瞭解如何建立示範AEM Screens專案。 這可協助您建立數位看板體驗，從安裝和設定新專案開始，一直到在AEM Screens Player中檢視您的內容。
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 請依照下列步驟，為AEM Screens建立範例專案，並進一步將內容發佈到Screens播放器。
 
 >[!NOTE]
->下列教學課程示範如何在Chrome作業系統播放器中播放您的管道內容。
+>下列教學課程示範如何在Chrome作業系統播放器中播放管道的內容。
 
 >[!IMPORTANT]
 >**OSGi組態設定**
@@ -87,7 +87,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 ### 新增內容至頻道 {#adding-content}
 
-管道就緒後，請將內容新增至AEM Screens播放器可顯示的管道。
+管道就緒後，請將內容新增至AEM Screens Player可顯示的管道。
 
 請依照下列步驟，將內容新增至頻道(**TestChannel**)時，請使用電子郵件通知您：
 
@@ -162,11 +162,11 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 1. 此 **頻道指定任務** 對話方塊開啟。
 
-1. 從 **設定** 選項，選擇頻道 **依路徑**  和 **支援的事件** 作為 **初始載入** 和 **閒置畫面**.
+1. 從 **設定** 選項，選擇頻道 **依路徑** 和 **支援的事件** 例如 **初始載入** 和 **閒置畫面**.
 
    >[!NOTE]
    >
-   >此 **頻道角色**， **優先順序**、和 **中斷方法** 預設會全部填入。 另請參閱 [頻道屬性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 區段，以取得有關頻道指定任務屬性的詳細資訊。
+   >此 **頻道角色**， **優先順序**、和 **中斷方法** 預設會全部填入。 請參閱 [頻道屬性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 區段，以取得有關頻道指定任務屬性的詳細資訊。
 
    ![影像](assets/kickstart/demo-assign3.png)
 
@@ -183,11 +183,11 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 使用AEM儀表板註冊裝置。
 
 >[!IMPORTANT]
->Chrome OS播放器可在開發人員模式下安裝為Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。 請依照下列步驟進行安裝：
+>Chrome作業系統播放器可安裝為開發人員模式的Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。 請依照下列步驟進行安裝：
 >
 >1. 按一下 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome播放器。
 >1. 解壓縮並儲存在磁碟上。
->1. 開啟Chrome瀏覽器並按一下 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
+>1. 開啟Chrome瀏覽器，然後按一下 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
 >1. 切換至 **開發人員模式** 從右上角。
 >1. 按一下 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
 >1. 檢查 **AEM Screens Chrome Player** 外掛程式（如果可在擴充功能清單中取得）。

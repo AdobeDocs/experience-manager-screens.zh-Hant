@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -76,7 +76,7 @@ ht-degree: 2%
 >
 > 此選項僅適用於 <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4。
 
-作為內容作者，請指定頻道何時中斷，以便您可選擇剪下非關鍵性內容，但因排程而在剪下播放之前選擇性地讓重要內容播放。
+作為內容作者，請指定頻道何時中斷，以便您可選擇剪下非關鍵內容，但因排程而在剪下播放之前選擇性地讓重要內容播放。
 
 從下列其中一個選項按一下，這些選項可用於設定中斷方法，從 **頻道指定任務** 對話方塊：
 

@@ -2,7 +2,7 @@
 title: 直接行動網路
 description: 瞭解AEM Screens中的直接行動網路設定。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -71,7 +71,7 @@ AEM Screens Player也可以使用至少執行3G網路的行動或行動資料網
 >例如，對於媒體檔案的初始上傳，在整合新播放器時，必須預期較高的資料量和增加的下載時間，並反映在上述假設中。 4G網路搭配 *好* 涵蓋範圍及 *無限制* 資料應符合此網路設定中最常見的安裝。
 
 >[!NOTE]
->具備良好網路涵蓋範圍的最低3G計畫，應該會為AEM Screens播放器帶來可接受的下載效能。 如果特定位置只有公平的涵蓋範圍，請考慮將整體網路設定切換為 [具有行動資料路由器和主動式網路元件的行動網路](/help/using/mobile-network-router.md).
+>具備良好網路涵蓋範圍的最低3G計畫應可為AEM Screens Player帶來可接受的下載效能。 如果特定位置只有公平的涵蓋範圍，請考慮將整體網路設定切換為 [具有行動資料路由器和主動式網路元件的行動網路](/help/using/mobile-network-router.md).
 
 
 ### 區域網路 {#lan-connection}

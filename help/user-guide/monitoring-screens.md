@@ -1,6 +1,6 @@
 ---
 title: 疑難排解裝置控制中心
-description: 瞭解如何使用裝置儀表板來監控和疑難排解AEM Screens播放器活動和裝置的效能。
+description: 瞭解如何使用裝置儀表板來監控和疑難排解AEM Screens Player活動和裝置的效能。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 # 疑難排解裝置控制中心 {#troubleshooting-device-control-center}
 
-您可以使用裝置控制面板，監控及疑難排解AEM Screens播放器活動和裝置的效能。 此頁面提供如何監視和疑難排解Screens播放器和指派之裝置的感知效能問題的相關資訊。
+您可以使用裝置控制面板，監控及疑難排解AEM Screens Player活動和裝置的效能。 此頁面提供如何監視和疑難排解Screens播放器和指派之裝置的感知效能問題的相關資訊。
 
 ## 從裝置控制中心進行監控和疑難排解 {#monitor-and-troubleshoot-from-device-control-center}
 
-您可以使用Device Dashboard監控活動，進而疑難排解AEM Screens播放器。
+您可以使用Device Dashboard監控活動，進而疑難排解AEM Screens Player。
 
 ### 裝置控制面板 {#device-dashboard}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ### 監視裝置活動 {#monitor-device-activity}
 
-此 **活動** 面板會顯示您的AEM Screens播放器最後一次ping的時間戳記。 最後一個ping對應到裝置上次連線伺服器的時間。
+此 **活動** 面板會顯示您的AEM Screens Player最後一次Ping的時間戳記。 最後一個ping對應到裝置上次連線伺服器的時間。
 
 ![chlimage_1](assets/chlimage_1.png)
 

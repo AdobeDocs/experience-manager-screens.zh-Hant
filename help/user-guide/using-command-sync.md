@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
    >
    >若要瞭解如何註冊裝置，請參閱 [裝置註冊](/help/user-guide/device-registration.md)
 
-1. 為了示範之用，此範例將Chrome裝置和Windows Player顯示為兩個獨立的裝置。 兩個裝置都指向相同的顯示器。
+1. 為了示範，此範例將一個Chrome裝置和Windows Player顯示為兩個獨立的裝置。 兩個裝置都指向相同的顯示器。
    ![image1](assets/command-sync6.png)
 
 ### 更新頻道設定
@@ -91,7 +91,7 @@ ht-degree: 0%
 ### 設定主要 {#setting-up-primary}
 
 1. 從以下位置導覽至顯示控制面板： **CommandSyncDemo** > **位置**  > **大廳** > **LobbyDisplay** 並按一下 **儀表板** 從動作列移除。
-請注意中的兩個裝置（chrome和windows player） **裝置** 面板，如下列所示：
+請注意中的兩個裝置（chrome和Windows Player） **裝置** 面板，如下列所示：
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. 從 **裝置** 面板，按一下要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設為主要裝置。 按一下 **設為主要裝置**.
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 ### 正在與主要播放器同步 {#sync-up-primary}
 
-1. 將Chrome裝置設定為主要裝置後，請將其他裝置（在此例中為Windows Player）同步至主要裝置。
-按一下中的另一個裝置（在此例中為Windows Player） **裝置** 面板並按一下 **同步處理至主要裝置**.
+1. 將Chrome裝置設為主要裝置後，請同步處理其他裝置（在此例中為Windows Player），以便與主要裝置同步。
+按一下上的另一個裝置（在此例中為Windows Player） **裝置** 面板並按一下 **同步處理至主要裝置**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
    >[注意：]
    > 此 **同步處理至主要裝置** 對話方塊會顯示主要裝置的清單。 選取偏好的專案。
 
-1. 當裝置(Windows Player)同步至主要裝置(Chrome Player)時，您會看到該裝置已在 **裝置** 面板。
+1. 當裝置(Windows Player)同步至主要裝置(Chrome Player)時，您會在中看到已同步的裝置 **裝置** 面板。
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

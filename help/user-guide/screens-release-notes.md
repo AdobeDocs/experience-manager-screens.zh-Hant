@@ -9,9 +9,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ AEM Screens Feature Pack 201809的發行日期為2018年10月1日。
 * **大量更新離線內容**：可讓您大量更新所有頻道，並避免導覽至特定頻道和更新內容的麻煩。 另請參閱 [大量離線更新](bulk-offline-update.md) 以進一步瞭解。
 
 * **將管道大量發佈到所有發佈執行個體**
-* **增強型播放器記錄機制**：您可以指定AEM Screens播放器的記錄檔數目上限。 另請參閱 [使用AEM Screens播放器](working-with-screens-player.md) 以取得更多詳細資料。
+* **增強型播放器記錄機制**：您可以指定AEM Screens Player的記錄檔數目上限。 另請參閱 [使用AEM Screens播放器](working-with-screens-player.md) 以取得更多詳細資料。
 
 * **作者/發佈部署（強化）**
 
@@ -52,4 +52,4 @@ AEM Screens Feature Pack 201809的發行日期為2018年10月1日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [AEM Screens播放器下載](https://download.macromedia.com/screens/).
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 [AEM Screens播放器下載](https://download.macromedia.com/screens/).

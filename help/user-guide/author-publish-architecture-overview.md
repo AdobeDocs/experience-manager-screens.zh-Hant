@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 AEM Screens架構類似傳統的AEM Sites架構。 內容會在AEM編寫執行個體上編寫，然後轉送復寫到多個發佈執行個體。 AEM Screens上的裝置現在可以透過負載平衡器連線至AEM發佈陣列。 可以新增多個AEM發佈執行個體以繼續擴充發佈陣列。
 
-*例如*，AEM Screens內容作者會在編寫系統上為特定裝置發出命令。 該裝置已設定為與發佈伺服器陣列或AEM Screens內容作者互動，後者取得關於已設定為與發佈伺服器陣列互動之裝置的資訊。
+*例如*，AEM Screens內容作者會在編寫系統上為特定裝置發出命令。 該裝置已設定為與發佈伺服器陣列或AEM Screens內容作者互動，後者會取得關於已設定為與發佈伺服器陣列互動之裝置的資訊。
 
 下圖說明作者環境和發佈環境。
 

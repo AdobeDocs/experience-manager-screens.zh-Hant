@@ -1,12 +1,12 @@
 ---
-title: 多區域到單一區域轉換使用案例
+title: MultiZone到SingleZone的轉換使用案例
 description: 請依照本頁面的說明進行，以便您瞭解MultiZone to SingleZone Transitions使用案例。
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%

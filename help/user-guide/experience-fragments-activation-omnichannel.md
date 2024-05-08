@@ -1,7 +1,7 @@
 ---
 title: 體驗片段啟用
 description: 此使用案例範例可協助您瞭解與AEM Screens相關的體驗片段啟用。
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%

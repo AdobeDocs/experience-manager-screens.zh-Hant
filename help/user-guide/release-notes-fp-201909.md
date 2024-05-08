@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -57,4 +57,4 @@ AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).

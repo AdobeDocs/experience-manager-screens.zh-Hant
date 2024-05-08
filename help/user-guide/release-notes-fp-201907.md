@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,10 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 * **資料觸發程式推動AEM Screens頻道中的資產變更**
 
-播放器會在收到緊急系統引發的事件時，切換為顯示緊急資訊的頻道。 該頻道僅在緊急狀況結束後播放。
+播放器會切換至顯示緊急資訊的頻道。 緊急系統會在收到事件時傳送此資訊。 該頻道僅在緊急狀況結束後播放。
 
-另請參閱 [緊急通道](emergency-channel.md) 實作的使用案例。
+
+另請參閱 [緊急通道](emergency-channel.md) 實施的使用案例。
 
 * **非同步元件已啟用鎖定目標
 
@@ -74,4 +75,4 @@ AEM Screens Feature Pack 201907的發行日期為2019年7月31日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [AEM Screens播放器下載](https://download.macromedia.com/screens/).
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 [AEM Screens播放器下載](https://download.macromedia.com/screens/).

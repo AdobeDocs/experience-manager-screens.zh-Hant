@@ -2,7 +2,7 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Screens需要三個復寫代理：
 
 >[!NOTE]
 >
->您可以使用下載的AEM Screens應用程式或網頁瀏覽器來開啟AEM Screens播放器。
+>您可以使用下載的AEM Screens應用程式或網頁瀏覽器開啟AEM Screens Player。
 
 #### 步驟2：在作者上註冊裝置 {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Screens需要三個復寫代理：
 
 >[!NOTE]
 >
->或者，在啟動裝置後，您也可以編輯或更新伺服器URL。 按一下 **編輯伺服器URL** 之後，您的變更會從動作列傳播至AEM Screens播放器，如下圖所示。
+>或者，在啟動裝置後，您也可以編輯或更新伺服器URL。 按一下 **編輯伺服器URL** 之後，您的變更會從動作列傳播至AEM Screens Player，如下圖所示。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -286,13 +286,13 @@ Screens需要三個復寫代理：
 1. 執行 **管理發布** 以發佈對所有Publish執行個體的新變更。
 1. 按下 **啟動** 以從啟動裝置 **裝置管理員**.
 1. **編輯URL** 從製作執行個體URL至其中一個發佈執行個體URL。
-1. 驗證AEM Screens播放器上是否顯示更新的頻道內容。
+1. 驗證AEM Screens Player上是否顯示更新的頻道內容。
 1. 使用不同的Publish例項重複這些步驟。
 
 
 #### 步驟5：在管理面板中將裝置指向發佈執行個體 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. 從Screens播放器檢視Admin UI，長按左上角，就能在已啟用觸控功能的AEM Screens播放器上或使用滑鼠開啟Admin功能表。
+1. 從Screens播放器檢視Admin UI，長按左上角，以開啟「管理員」功能表、開啟觸控式AEM Screens Player或使用滑鼠。
 1. 按一下 **設定** 選項。
 1. 在中將作者執行個體變更為發佈執行個體 **伺服器**.
 
@@ -302,7 +302,7 @@ Screens需要三個復寫代理：
 
 1. 導覽至您的AEM Screens專案，然後按一下 **裝置** 資料夾。
 1. 按一下 **裝置管理員** 從動作列移除。
-1. 按一下裝置，然後按一下 **編輯伺服器URL** 從動作列中（如下圖所示），您的變更會傳播至AEM Screens播放器。
+1. 按一下裝置，然後按一下 **編輯伺服器URL** 從動作列傳入，如下圖所示，而您的變更會傳播至AEM Screens Player。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

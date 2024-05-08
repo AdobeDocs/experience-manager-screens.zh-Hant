@@ -1,6 +1,6 @@
 ---
-title: 實作Windows 10 Player
-description: 瞭解如何設定AEM Screens Windows 10播放器。
+title: 實作Windows Player
+description: 瞭解如何在AEM Screens中設定Windows Player。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
 
-# 實作Windows 10 Player {#implementing-windows-player}
+# 實作Windows Player {#implementing-windows-player}
 
-本節說明如何設定AEM Screens Windows 10 Player。 它提供設定檔和可用選項的資訊，以及開發和測試使用哪些設定的建議。
+本節說明如何在AEM Screens中設定Windows Player。 它提供設定檔和可用選項的資訊，以及開發和測試使用哪些設定的建議。
 
 ## 安裝Windows Player {#installing-windows-player}
 
@@ -28,12 +28,12 @@ ht-degree: 1%
 造訪 [**AEM 6.5播放器下載**](https://download.macromedia.com/screens/) 頁面。
 
 >[!NOTE]
->Windows Player中沒有視窗模式。 永遠是全熒幕模式。
+>Windows Player中沒有視窗模式。 永遠處於全熒幕模式。
 
 ### 為AEM Screens 6.5.5 Service Pack設定環境 {#fp-environment-setup}
 
 >[!NOTE]
->如果您使用AEM Screens 6.5.5 Service Pack，請為Windows Player設定環境。
+>如果您使用AEM Screens 6.5.5 Service Pack，請設定Windows Player環境。
 
 設定 **登入權杖Cookie的SameSite屬性** 從 **鬆散** 至 **無** 從 **Adobe Experience Manager Web主控台設定** 在所有AEM作者和發佈執行個體上。
 
@@ -66,7 +66,7 @@ Ad-Hoc方法可讓您安裝最新的Windows Player (*.exe*)。 造訪 [**AEM 6.5
 
 ## 命名Windows Player {#name-windows}
 
-您可以將好記的裝置名稱指派給您的Windows播放器，藉此將指派的裝置名稱傳送給Adobe Experience Manager (AEM)。 此功能不僅可讓您為Windows播放器命名，也可讓您輕鬆指派適當的內容。
+您可以將好記的裝置名稱指派給Windows Player，然後將指派的裝置名稱傳送給Adobe Experience Manager (AEM)。 此功能不僅可讓您為Windows Player命名，也讓您輕鬆指派適當的內容。
 
 >[!NOTE]
 >您只能在註冊之前選擇播放器名稱。 播放器註冊後，播放器名稱就無法再變更。
@@ -84,7 +84,7 @@ Ad-Hoc方法可讓您安裝最新的Windows Player (*.exe*)。 造訪 [**AEM 6.5
 ## 使用CLI進行安裝(PowerShell) {#install-powershell}
 
 1. 建立自訂位置 **專用** 例如，對於Screens播放器：
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. 安裝
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. 開啟
@@ -148,7 +148,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 >[!CAUTION]
 >
->Adobe建議使用裝置管理解決方案來啟用Windows的Kiosk。 如果您沒有裝置管理解決方案可啟用Kiosk模式，請依照下列步驟進行。 此方法使用Windows 10企業版和Edu中可用的殼層啟動器功能。 您也可以套用Microsoft針對非UWP應用程式建議的任何其他方法，以啟用Kiosk，尤其是在其他Windows版本上。
+>Adobe建議使用裝置管理解決方案來啟用Windows的Kiosk。 如果您沒有裝置管理解決方案可啟用Kiosk模式，請依照下列步驟進行。 此方法使用Windows 10 Enterprise和Edu中可用的殼層啟動器功能。 您也可以套用Microsoft針對非UWP應用程式建議的任何其他方法來啟用Kiosk，尤其是在其他Windows版本上。
 
 請依照下列步驟啟用Kiosk模式：
 
@@ -160,7 +160,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
    另請參閱 ***設定殼層啟動器*** 在 **[殼層啟動器](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** 詳細資訊，請參閱Microsoft®Windows支援頁面。
 
-1. 建立一個非管理使用者（如果您還沒有的話），以用於Kiosk。 這可以是本機或網域使用者。
+1. 建立一個非管理使用者（如果您還沒有的話），以用於Kiosk。 可以是本機或網域使用者。
 1. 從安裝該Kiosk使用者的Windows Player [AEM Screens播放器下載](https://download.macromedia.com/screens/) 頁面。
 1. 另請參閱 [使用Shell啟動器建立Windows 10資訊站](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) 修改PowerShell指令碼以取得詳細資訊。
 

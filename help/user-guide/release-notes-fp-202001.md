@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens已發行AEM 6.5 Feature Pack 3。
 
-若要下載AEM Screens 6.5.3版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP3**.
+若要下載AEM Screens 6.5.3版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP3**.
 
 ## 發行日期 {#release-date}
 
@@ -57,4 +57,4 @@ Command Sync允許跨不同播放器同步處理播放。 播放器可播放不�
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).

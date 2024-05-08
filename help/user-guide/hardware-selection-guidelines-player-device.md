@@ -1,7 +1,7 @@
 ---
 title: 播放器裝置的硬體選擇准則
-description: 瞭解AEM Screens播放器裝置的硬體選擇准則。
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+description: 瞭解AEM Screens Player裝置的硬體選擇准則。
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # 播放器裝置的硬體選擇准則 {#hardware-selection}
 
-下節提供AEM Screens播放器的硬體選擇准則。
+下節提供AEM Screens Player的硬體選擇准則。
 
 ## 重要考量 {#important-considerations}
 

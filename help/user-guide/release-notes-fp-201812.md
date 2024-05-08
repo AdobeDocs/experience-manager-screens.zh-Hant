@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
 
 * **在管道中的資產上覆蓋文字**：
 
-  文字覆蓋是AEM Screens中提供的功能，可讓您在序列頻道中提供覆蓋在影像上的標題或說明，以建立引人入勝的體驗。 另請參閱 [**文字覆蓋**](text-overlay.md).
+  「文字覆蓋」是AEM Screens提供的功能。 它讓您透過在影像上方提供標題或說明，在順序頻道中建立引人入勝的體驗。 另請參閱 [**文字覆蓋**](text-overlay.md).
 
 * **多資產排程**：
 
@@ -57,4 +57,4 @@ AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).

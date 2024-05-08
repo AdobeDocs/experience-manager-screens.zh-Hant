@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 1. **裝置註冊**
 
-   完成裝置註冊程式。 註冊後，您可以在AEM Screens播放器上檢視以下輸出。
+   完成裝置註冊程式。 註冊後，您可以在AEM Screens Player上檢視以下輸出。
 
    ![new30](assets/new30.gif)
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 當管道的優先順序更新時，所有AEM Screens播放器都會顯示 **緊急通道** 內容。
+1. 當管道的優先順序更新時，所有AEM Screens Player都會顯示 **緊急通道** 內容。
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 

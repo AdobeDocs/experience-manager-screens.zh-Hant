@@ -1,7 +1,7 @@
 ---
 title: 直接放置工作流程設定
 description: 本頁面主要說明直接放置工作流程設定。
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 直接放置工作流程設定會將AEM Screens專案頻道對應至資產中的特定資料夾，並可在該資料夾中放置任何資產。 Adobe建議您觸發大量離線更新，以完成發佈。
 
-或者，作為內容作者，您可以手動按一下 **更新離線內容**.
+或者，身為內容作者，您可以手動按一下 **更新離線內容**.
 
 >[!NOTE]
 >

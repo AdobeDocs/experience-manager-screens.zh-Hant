@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens已發行AEM 6.5 Feature Pack 7。
 
-若要下載AEM Screens 6.5.7版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP7**.
+若要下載AEM Screens 6.5.7版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP7**.
 
 ## 發行日期 {#release-date}
 
@@ -38,7 +38,7 @@ AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
 * **使用企業行動性管理大量布建Android™ Player**
 
-  大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 強烈建議使用EMM （企業行動管理）解決方案，例如 `VMWare Airwatch`， `MobileIron`，或 `Samsung Knox` 從遠端布建及管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
+  大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 強烈建議使用EMM （企業行動管理）解決方案，例如 `VMWare Airwatch`， `MobileIron`，或 `Samsung Knox` 從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
 
   另請參閱 [使用企業行動性管理大量布建Android™ Player](/help/user-guide/implementing-android-player.md#implementation) 以取得更多詳細資料。
 
@@ -53,13 +53,13 @@ AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
 * 更新 `Tizen` 因為不支援反向連結原則strict-origin-when-cross-origin而中斷的播放器。
 
-* 變更指派頻道的排程 *重複* 欄位損壞UI。
+* 變更指派的頻道排程 *重複* 欄位損壞UI。
 
 * 更新離線內容失敗，發生查詢例外。
 
 * 互動式體驗互動期間，轉換之間的時間延遲現在已修正。
 
-* 失敗的設定更新要求造成空白畫面。
+* 失敗的設定更新要求造成空白熒幕。
 
 ### 已發行的AEM Screens Players
 
@@ -71,4 +71,4 @@ AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

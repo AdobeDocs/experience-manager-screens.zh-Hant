@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens已發行AEM 6.4 Feature Pack 8和AEM 6.5 Feature Pack 4。
 
-若要下載AEM Screens 6.4.8或AEM Screens 6.5.4版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得最新的Feature Pack。
+您可以從以下網站下載AEM Screens 6.4.8或AEM Screens 6.5.4版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得最新的Feature Pack。
 
 ## 發行日期 {#release-date}
 
@@ -32,13 +32,13 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
 * **播放中斷策略選項**
 
-  作為內容作者，請指定頻道何時中斷，以便您可選擇剪下非關鍵性內容，但因排程之故，可選擇讓重要內容完全在剪下播放之前播放。
+  作為內容作者，請指定頻道何時中斷。 此動作可協助您選擇切斷非關鍵內容，但可選擇讓重要內容完全播放，然後再因排程而切斷播放。
 
-  若要進一步瞭解可用的選項，請前往 **頻道指定任務** 對話方塊若要在AEM Screens專案中實作此功能，請參閱區段 **[中斷方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  若要進一步瞭解可用的選項，請參閱 **頻道指定任務** 對話方塊若要在AEM Screens專案中實作此功能，請參閱區段 **[中斷方法](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **畫面啟動**
 
-  內容作者使用者體驗流程已經過改善，並且減少使用未來發佈的點按次數。
+  內容作者使用者體驗流程已經過改良，並且減少使用未來發佈的點按次數。
 
   另請參閱 **[使用Screens啟動項更新內容](launches.md)** 以取得更多詳細資料。
 
@@ -61,7 +61,7 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
 * **命令同步處理中的改進**
 
-  透過此Feature Pack發行，反映了資產變更之間命令同步延遲的改善。
+  透過此Feature Pack版本，可改善資產變更之間的命令同步處理延遲。
 
   另請參閱 **[命令同步](using-command-sync.md)** 以取得更多詳細資料。
 
@@ -75,4 +75,4 @@ AEM Screens Feature Pack 202004的發行日期為2020年4月20日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/)**.
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/)**.

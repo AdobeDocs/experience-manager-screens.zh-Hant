@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens已發行AEM 6.5 Feature Pack 9。
 
-若要下載AEM Screens 6.5.9版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP9**.
+若要下載AEM Screens 6.5.9版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP9**.
 
 ## 發行日期 {#release-date}
 
@@ -31,7 +31,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **影片的縮圖支援**
 
-  AEM Screens現在支援影片的縮圖支援。 內容作者會定義影片的縮圖，好讓影像可當做預留位置使用。 他們也會適當測試內容播放和目標定位，同時由適當的團隊完成實際影片。 如果影片播放失敗，也可以使用該影像。
+  AEM Screens現在支援影片的縮圖支援。 內容作者會定義影片的縮圖，好讓影像可當做預留位置使用。 他們也會適當測試內容播放和目標定位，而由適當的團隊最終確定實際影片。 如果影片播放失敗，也可以使用該影像。
 另請參閱 [影片的縮圖支援](/help/user-guide/thumbnail-support.md) 以取得更多詳細資料。
 
 * **基本播放監視**
@@ -41,7 +41,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * **內容指派報告的更新**
 
-  內容指派報告現已最佳化並改善，並包含增強型使用者體驗。 可下載的報表會在一個試算表標籤中顯示位置、顯示器和裝置等改良的播放器相關實體，並在其他標籤中顯示頻道和資產等內容提供者資訊。
+  內容指派報告現已最佳化並改善，並擁有增強的使用者體驗。 可下載的報表會顯示改良的播放器相關實體。 這類實體包括位置、顯示器和一個試算表標籤中的裝置。 它也包括內容提供者資訊，例如其他索引標籤中的管道和資產。
 另請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
 
 * **最適化轉譯**
@@ -97,7 +97,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 已將對應轉換為轉譯金鑰清單。
 
-* 已移除對的存取權 `cmd.exe` 和 `reg.exe` 在windows player中。
+* 已移除對的存取權 `cmd.exe` 和 `reg.exe` 在Windows Player中。
 
 * 播放器必須報告其最後成功的播放事件。
 
@@ -124,13 +124,13 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 分割畫面頻道的預覽模式顯示空白。
 
-* 視訊縮圖會以啟用的最適化轉譯來轉譯為空白。
+* 啟用最適化轉譯後，視訊縮圖會呈現為空白。
 
 * 如果已發佈參考的頁面，則自動更新管道資訊清單。
 
 * 刪除的裝置現在不會封鎖Screens復寫佇列。
 
-* 資訊清單未包含目標內容或網站內嵌頁面。 此問題現已修正。
+* 資訊清單未包含目標內容或網站內嵌頁面。 此錯誤現已修正。
 
 * 新的核心影像元件現已新增至頻道資訊清單。
 
@@ -140,7 +140,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 * 新增對多個內容提供者型別的支援
 
-* 內嵌序列播放策略已中斷，此問題現已修正。
+* 內嵌序列播放策略已失效，此錯誤現已修正。
 
 * 使用請求引數的離線資訊清單 `wcmmode` 用於html輸入，使其不可快取。
 
@@ -162,4 +162,4 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

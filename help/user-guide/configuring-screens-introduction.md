@@ -1,6 +1,6 @@
 ---
 title: 設定和部署AEM Screens
-description: AEM Screens播放器適用於Android&trade；、Chrome作業系統、iOS和Windows。 瞭解AEM Screens的設定和部署。
+description: AEM Screens Player適用於Android&trade；、Chrome作業系統、iOS和Windows。 瞭解AEM Screens的設定和部署。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->AEM Screens播放器沒有使用跨網站請求偽造(CSRF)權杖。 因此，若要設定AEM伺服器以準備用於AEM Screens，請允許空白反向連結以略過反向連結篩選器。
+>AEM Screens Player不使用跨網站請求偽造(CSRF)權杖。 因此，若要設定AEM伺服器以準備用於AEM Screens，請允許空白反向連結以略過反向連結篩選器。
 
 ## 健康情況檢查架構 {#health-check-framework}
 
@@ -93,11 +93,11 @@ ht-degree: 1%
 
    ![影像](assets/config/config-1.png)
 
-1. 按一下 **儲存** 以啟用 *http* 服務。
+1. 按一下 **儲存** 以啟用 *Http* 服務。
 
 #### 啟用AEM Screens的Touch UI {#enable-touch-ui-for-aem-screens}
 
-AEM Screens需要TOUCH UI，無法搭配Adobe Experience Manager (AEM)的CLASSIC UI使用。
+AEM Screens需要TOUCH UI，無法搭配Adobe Experience Manager (AEM)的Classic UI使用。
 
 1. 瀏覽至 `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. 確保 **預設編寫UI模式** 設為 **觸控**，如下圖所示
@@ -116,7 +116,7 @@ AEM Screens需要TOUCH UI，無法搭配Adobe Experience Manager (AEM)的CLASSIC
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
-這是AEM Screens Player播放線上頻道所需的專案。
+您必須移除此專案，AEM Screens Player才能播放線上頻道。
 
 #### 密碼限制 {#password-restrictions}
 

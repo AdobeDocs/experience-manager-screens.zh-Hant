@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 此範例會在Chrome播放器上展示輸出。 將頻道指派給顯示區後，請將裝置註冊給播放器。
 
-若要瞭解如何在AEM Screens播放器上註冊裝置，請參閱 [裝置註冊](device-registration.md).
+若要瞭解如何在AEM Screens Player上註冊裝置，請參閱 [裝置註冊](device-registration.md).
 
 您可以在選擇的播放器上檢視下列輸出：
 

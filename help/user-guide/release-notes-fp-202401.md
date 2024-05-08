@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 4%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 4%
 # Feature Pack 202401發行說明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 從取得最新版本資訊 [此處](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 從取得最新版本資訊 [此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## 可用性 {#availability}
 
-AEM Screens已發行AEM 6.5 Feature Pack 11.1 。
+AEM Screens已發行AEM 6.5 Feature Pack 11.1。
 
-若要下載AEM Screens 6.5.11.1版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 瀏覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP11.1**.
+若要下載AEM Screens 6.5.11.1版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP11.1**.
 
 ## 發行日期 {#release-date}
 

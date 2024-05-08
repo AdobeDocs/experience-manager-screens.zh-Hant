@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 可用的Screens播放器 {#available-players}
 
-AEM Screens播放器適用於Android™、Chrome OS和Windows。
+AEM Screens Player適用於Android™、Chrome作業系統及Windows。
 
 若要下載 **AEM Screens Player**，造訪 [AEM 6.5播放器下載](https://download.macromedia.com/screens/) 頁面。
 
@@ -33,9 +33,9 @@ AEM Screens播放器適用於Android™、Chrome OS和Windows。
 
 ## 基本播放監視 {#playback-monitoring}
 
-播放器會報告各種播放量度，每種 `ping` 預設為30秒。 根據這些量度，它可以偵測各種邊緣情況，例如停滯體驗、空白畫面和排程問題。 這可讓我們瞭解裝置的問題並進行疑難排解，因此可加快與您進行調查和採取修正措施。
+播放器會報告各種播放量度，每種 `ping` 預設為30秒。 根據這些量度，它可以偵測各種邊緣情況，例如停滯體驗、空白畫面和排程問題。 它可讓我們瞭解裝置的問題並進行疑難排解，為您加快調查和修正措施。
 
-AEM Screens播放器中的基本播放監視可讓您進行以下操作：
+AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
 * 遠端監視（如果播放器正確播放內容）。
 
@@ -65,15 +65,15 @@ AEM Screens播放器中的基本播放監視可讓您進行以下操作：
 
 ### 限制 {#limitations}
 
-基本播放監視的幾項限制列於下方：
+基本播放監視的幾個限制列於下方：
 
 * 播放器會向伺服器報告自己的播放狀態，因此需要使用中的連線。
 
-* 此 `isContentRendering` 檢查GPU的屬性太耗用資源，預設無法啟用，且需要播放器偏好設定中的明確選擇加入。 Adobe建議您不要在生產環境中的影片中使用。
+* 此 `isContentRendering` 檢查GPU的屬性會耗費更多資源，預設為啟用，且需要播放器偏好設定中的明確選擇加入。 Adobe建議您不要在生產環境中的影片中使用。
 
 * 此功能僅支援序列頻道，尚未涵蓋互動式頻道(SPA)使用案例。
 
-* 這些量度尚未完整開放給客戶，Adobe正致力於儘快啟用類似控制面板的報告和警報機制。
+* 這些量度尚未完整開放給客戶，但Adobe正在努力儘快啟用類似控制面板的報告和警報機制。
 
 ### 其他資源 {#additional-resources}
 

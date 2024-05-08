@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -251,27 +251,27 @@ ht-degree: 1%
 
 ## 檢視結果 {#viewing-the-results}
 
-設定好管道並顯示完成時，請啟動AEM Screens播放器以檢視內容。
+設定好管道並顯示完成時，請啟動AEM Screens Player以檢視內容。
 
 >[!NOTE]
 >
 >若要瞭解AEM Screens Player，請參閱下列資源：
 >
->* [下載AEM Screens播放器](https://download.macromedia.com/screens/)
+>* [下載AEM Screens Player](https://download.macromedia.com/screens/)
 >* [使用AEM Screens Player](working-with-screens-player.md)
 
 
-以下輸出會根據顯示路徑，確認您在AEM Screens播放器中的管道內容。
+以下輸出會根據顯示路徑，確認您在AEM Screens Player中的管道內容。
 
 **案例1**：
 
-如果您將顯示路徑指派為 **示範** > **位置** > **地區A** > **商店1** > **`Store1Display`**，下列內容會顯示在AEM Screens播放器中。
+如果您將顯示路徑指派為 **示範** > **位置** > **地區A** > **商店1** > **`Store1Display`**，下列內容會顯示在AEM Screens播放器上。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **案例1**：
 
-如果您將顯示路徑指派為 **示範** > **位置** > **區域B** > **商店3** > **`Store3Display`**，下列內容會顯示在AEM Screens播放器中。
+如果您將顯示路徑指派為 **示範** > **位置** > **區域B** > **商店3** > **`Store3Display`**，下列內容會顯示在AEM Screens播放器上。
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 

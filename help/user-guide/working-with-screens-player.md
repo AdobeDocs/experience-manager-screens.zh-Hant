@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -66,11 +66,11 @@ ht-degree: 1%
 
 * 重設 **韌體**， **偏好設定**，或 **到工廠** 在此對話方塊中。
 
-* 指定您要為AEM Screens播放器保留的記錄檔數目上限 **最大數量 要保留的記錄檔**.
+* 指定您要為AEM Screens Player保留的記錄檔數目上限 **最大數量 要保留的記錄檔**.
 
 * 啟用或停用 **管理功能表**， **頻道切換器**、和 **活動UI** 用於Screens播放器。
 
-  如果 **活動UI** 啟用於 **設定** 功能表，AEM Screens播放器會顯示 *播放器活動通知* 位於播放器右上角，如下圖所示。
+  如果 **活動UI** 啟用於 **設定** 功能表，AEM Screens Player會顯示 *播放器活動通知* 位於播放器右上角，如下圖所示。
 
   ![影像](/help/user-guide/assets/activity_ui.png)
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 #### 存取內容快取功能表選項 {#content-cache-options}
 
-您可以從AEM Screens播放器中的管理員UI清除管道和應用程式的快取。
+您可以從AEM Screens Player的管理員UI中清除管道和應用程式的快取。
 
 按一下 **內容快取** 以更新快取。
 
