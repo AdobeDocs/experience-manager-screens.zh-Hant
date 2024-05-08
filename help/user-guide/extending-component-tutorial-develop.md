@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -339,7 +339,7 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
 
    此 `categories` 屬性是識別使用者端程式庫的字串。 此 `cq.screens.components` 類別會用於編輯和預覽/生產模式。 因此，中定義的任何CSS/JS `shared` clientlib會在所有模式中載入。
 
-   最佳實務是絕對不要在生產環境中直接向/apps公開任何路徑。 此 `allowProxy` 屬性會確保透過前置詞參照使用者端程式庫CSS和JS `/etc.clientlibs`. 關於的更多資訊 [您可在此處找到allowProxy屬性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   最佳實務是絕對不要在生產環境中直接向/apps公開任何路徑。 此 `allowProxy` 屬性可確保透過前置詞來參考使用者端程式庫CSS和JS。 `/etc.clientlibs`. 關於的更多資訊 [您可在此處找到allowProxy屬性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 建立名為的檔案 `css.txt` 共用資料夾的下方。
 

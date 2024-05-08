@@ -2,9 +2,9 @@
 title: Analytics與AEM Screens
 description: 瞭解使用Adobe Experience Manager Screens的Adobe Analytics。
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ AEM Screens提供在本機擷取每個播放器裝置執行之每個可追蹤事
 
 在回饋回圈使用案例中，您不需要關注視覺化報表或控制面板，而是想要定義AEM可針對內容修改執行的規則。 透過消費和處理特定時段的所有Screens播放器事件資料，您可以定義評估image1與image2效能的規則。 透過結合銷售資料與播放資料，AEM可以判斷image1對銷售的影響更大，並自動指示所有播放器使用image1。
 
-使用分析的第二個使用案例是透過報表和儀表板處理播放事件和使用資料，以消耗人力。
+使用分析的第二個使用案例是透過報表和儀表板處理播放事件和使用資料，以供人類消耗。
 您可以使用此資料建立互動式體驗的熱度圖，以透過應用程式決定偏好的歷程圖。 您也可以選擇建立控制面板，以圖形化方式解譯消費者與應用程式互動的次數。

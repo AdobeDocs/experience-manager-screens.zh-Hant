@@ -2,9 +2,9 @@
 title: AEM Screens的業務內容策略
 description: 瞭解更多有關AEM Screens的行銷和業務內容策略。
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---

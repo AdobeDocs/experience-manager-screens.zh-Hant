@@ -2,7 +2,7 @@
 title: 直接行動網路
 description: 瞭解AEM Screens中的直接行動網路設定。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -92,6 +92,6 @@ AEM Screens為數位看板使用者提供顯著的優勢。 它會下載並在�
 
 >[!NOTE]
 >
->所有資訊均指要求及下載網際網路來源之網路中每個裝置的耗用量。 每個要求都會增加並延長下載時間。
+>所有資訊都表示網路中要求及下載網際網路來源之每個裝置的耗用量。 每個要求都會增加並延長下載時間。
 
 ![](/help/using/assets/download-times-mobile.png)

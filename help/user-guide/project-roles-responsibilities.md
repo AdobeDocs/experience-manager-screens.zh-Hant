@@ -5,9 +5,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Adobe包括AdobeManaged Services資源，例如CSE （客戶成功工程師）�
 
 處理最終客戶UX （使用者體驗）引數所需的自訂功能也會透過此程式擷取和傳遞。
 
-AEM實作者通常會在一段時間內分階段將自訂功能部署到位置。 例如，他們可能會先建立對基本回圈視訊或靜態圖形內容播放的支援。 下一個階段包括啟用透過動態範本和中繼資料標籤支援播放當地語系化內容的功能，而其他階段則整合透過觸控熒幕、感應器、動態觸發程式等支援互動式元素。
+AEM實作者通常會在一段時間內分階段將自訂功能部署到位置。 例如，他們可能會先建立對基本回圈視訊或靜態圖形內容播放的支援。 下一個階段包括啟用透過動態範本和中繼資料標籤支援播放當地語系化內容的能力，而其他階段則整合透過觸控熒幕、感應器、動態觸發程式等支援互動式元素。
 
 #### 音訊/視訊整合廠商 {#av-integrators}
 

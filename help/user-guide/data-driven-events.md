@@ -3,9 +3,9 @@ title: 資料導向事件
 description: 空
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ AEM Screens會透過Context Hub啟用資料導向事件。 Context Hub可讓您�
 
 #### 作業中的資料 {#data-in-operational}
 
-這可以進一步分類為通道插斷和預留位置。
+此事件可進一步分類為通道插斷和預留位置。
 
 #### 簡報中的資料 {#data-in-presentation}
 

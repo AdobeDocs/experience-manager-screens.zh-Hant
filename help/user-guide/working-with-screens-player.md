@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## 使用裝置控制面板 {#using-the-device-dashboard}
 
-您可以從「裝置控制面板」設定裝置的偏好設定，並可透過AEM編寫執行個體存取。
+您可以從裝置控制面板設定裝置的偏好設定，您可以透過AEM編寫執行個體來存取。
 
 1. 從您的專案導覽至裝置控制面板，例如 ***測試專案*** > ***裝置***.
 

@@ -2,9 +2,9 @@
 title: 限定範圍專案的考量
 description: 深入瞭解AEM Screens專案設定範圍時的考量事項。
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ ht-degree: 0%
 >
 >儘快識別應用程式所需的資料，以及資料的來源。 實施期間會進行更深入的探索。 不過，請務必在以下期間花些時間： *第0天* 以瞭解使用者端打算使用哪些資料。 瞭解該資料目前的儲存位置，以及建置的應用程式如何存取該資料。 在挑戰出現之前通知開發團隊有助於讓實施更順暢。
 
-請參閱教學課程影片 [「限定範圍專案的考量事項」](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+觀看影片 [限定範圍專案的考量](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

@@ -2,9 +2,9 @@
 title: 測試與品質保證
 description: 在最佳實務指南中瞭解AEM Screens的測試和品質保證。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 測試與品質保證 {#testing-quality}
 
 >[!NOTE]
->此活動的一般利害關係人是音訊/視訊整合商。
+>此活動的典型利害關係人是音訊/視訊整合商。
 
 當您接近部署數位看板網路時，請建立測試與QA計畫，解決網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
 在這個階段中，應該建置整個測試系統並進行完整測試。
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此階段也應作為建立安裝和使用者指南的工具，之後可隨裝置一併寄出，並保留在現場以供日後參考。
+>此階段也應作為建立安裝和使用者指南的工具。 兩者稍後都可以隨裝置出貨，並保留在現場以供日後參考。
 
 應考慮以下元素：
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 ## 3.裝置管理考量事項 {#device-management-considerations}
 
-AEM Screens包含Device Control Center模組，可管理Screens播放器應用程式端點。
+AEM Screens包含裝置控制中心模組，可管理Screens播放器應用程式端點。
 
-這指任何 *播放器* 已安裝Screens播放器應用程式並註冊至AEM執行個體的硬體裝置。
+它是指任何 *播放器* 已安裝Screens播放器應用程式並註冊至AEM執行個體的硬體裝置。
 此模組可讓您：
 
 1. 監視播放器應用程式錯誤記錄
@@ -62,7 +62,7 @@ AEM Screens包含Device Control Center模組，可管理Screens播放器應用�
 
 >[!CAUTION]
 >
->請勿使用Device Control Center：
+>請勿使用「裝置控制中心」來：
 >
 >* 安裝新版本的播放器應用程式
 >* 監視系統層級資源

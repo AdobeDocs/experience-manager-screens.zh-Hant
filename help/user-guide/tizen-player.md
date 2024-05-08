@@ -1,26 +1,26 @@
 ---
-title: Tizen Player
-description: 本頁說明Tizen Player的安裝和運作。
+title: Tizen播放器
+description: 瞭解Tizen播放器的安裝和運作方式。
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
 
 # 實作Tizen播放器 {#tizen-player}
 
-## 安裝Tizen Player {#installing-tizen-player}
+## 安裝Tizen播放器 {#installing-tizen-player}
 
-請依照下列步驟實作AEM Screens的Tizen Player：
+請依照下列步驟，實作AEM Screens的Tizen播放器：
 
-1. 導覽至 [AEM Screens播放器下載](https://download.macromedia.com/screens/) 頁面，方便您下載Tizen Player。
+1. 導覽至 [AEM Screens播放器下載](https://download.macromedia.com/screens/) 頁面，讓您可以下載Tizen播放器。
 
-1. 安裝Tizen播放器 *(.zip)* 來自本機電腦的檔案。
+1. 安裝Tizen播放器 *(.zip)* 檔案。
 
 ## 設定http伺服器 {#setting-local-server}
 
@@ -56,13 +56,13 @@ ht-degree: 1%
 
 1. 導覽至您的Samsung裝置並開啟。
 1. 按一下 **選單** 按鈕從裝置的遠端向下捲動至 **系統** 從左側導覽列。
-1. 向下捲動並按一下 **透過播放** 選項並變更為 **URL啟動器** 選項。
+1. 向下捲動並按一下 **播放方式** 選項，並將其變更為 **URL啟動器** 選項。
    ![影像](/help/user-guide/assets/tizen/rms-2.png)
 1. 設定URL啟動器時，按下 **首頁** 遙控器上的按鈕。
 1. 導覽至 **URL啟動器設定** 並輸入localhost伺服器的IP位址，然後按一下 **完成**.
 
    >[!NOTE]
-   >Tizen播放器應能連線至http伺服器。
+   >Tizen播放器應能連線至HTTP伺服器。
 
 1. AEM Screens Player會自動在您的Samsung裝置上安裝及啟動。
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 1. AEM重新啟動後，前往 `/system/console/configMgr` 並搜尋 **AdobeGranite權杖驗證處理常式**. 設定值 **SameSite** 值至 **無**.
 
-1. 您應該會看到新選項 *`User agents to be exempted from samesite attribute`*. 將對應至使用者代理程式（與）不相容的規則運算式填入此運算式 *SameSite=None* 屬性。
+1. 您應該會看到新選項 *`User agents to be exempted from samesite attribute`*. 以對應至使用者代理程式（與）不相容的規則運算式填入此選項 *SameSite=None* 屬性。
 
    >[!NOTE]
    >
@@ -91,13 +91,13 @@ ht-degree: 1%
 
 1. 針對您的AEM 6.5.5及更高版本例項註冊Tizen播放器，它應該會正常註冊並顯示內容。
 
-## 遠端布建Tizen播放器 {#remote-provisioning}
+## 從遠端布建Tizen播放器 {#remote-provisioning}
 
-從遠端布建Tizen Player，讓您輕鬆部署成百上千的Samsung Tizen顯示器。 這樣可以避免手動使用伺服器URL和大量註冊代碼或其他引數來設定每個播放器。 此外，如果有AEM Screensas a Cloud Service，請設定雲端模式和雲端代號。
+從遠端布建Tizen播放器，讓您輕鬆部署成百上千的Samsung Tizen顯示器。 這樣可以避免手動使用伺服器URL和大量註冊代碼或其他引數來設定每個播放器。 此外，如果有AEM Screensas a Cloud Service，請設定雲端模式和雲端代號。
 
 此功能可讓您在遠端設定Tizen播放器，並視需要集中更新這些設定。 您只需要使用 `HTTP` 用來裝載Tizen應用程式的伺服器 `(wgt and xml file)` 以及文字編輯器，以儲存 `config.json` 搭配適當的引數。
 
-請確定您已在Tizen裝置上設定URL啟動器位址，也就是「首頁」按鈕> URL啟動器設定。
+請確定您已在Tizen裝置上設定URL啟動器位址。 按一下「首頁」按鈕> URL啟動器設定。
 在 `HTTP` 裝載Tizen應用程式的伺服器，放置檔案 `config.json` 與位於相同位置 `wgt` 檔案。 檔案名稱必須是 `config.json`.
 Tizen播放器會在啟動時（以及每次重新開機）安裝並套用設定， `config.json` 檔案。
 
@@ -118,7 +118,7 @@ Tizen播放器會在啟動時（以及每次重新開機）安裝並套用設定
 下表摘要列出這些原則及其功能。
 
 >[!NOTE]
->原則設定會嚴格執行，且不會在播放器的管理員UI中手動覆寫。 若要允許特定原則的手動播放器設定，請勿在原則設定中指定原則。
+>播放器的管理員UI原則設定會嚴格強制執行，且不會手動覆寫。 若要允許特定原則的手動播放器設定，請勿在原則設定中指定原則。
 >例如，如果您要允許手動設定重新開機排程，請勿指定索引鍵 `rebootSchedule` 在原則設定中。 每次播放器重新載入時都會讀取原則設定。
 
 | **原則名稱** | **用途** |
@@ -143,7 +143,7 @@ Tizen播放器會在啟動時（以及每次重新開機）安裝並套用設定
 
 1. 瀏覽至 **選單** -> **網路** -> **伺服器網路設定** 然後按下 **輸入**.
 
-1. 導覽至「伺服器位址」，並輸入MagicInfo URL存取權，然後按下 **完成**.
+1. 導覽至「伺服器」位址，並輸入MagicInfo URL存取，然後按下 **完成**.
 
 1. 設定TLS （如有必要）。 瀏覽至連線埠，然後按一下伺服器的連線埠號碼，再按一下 **儲存**.
 

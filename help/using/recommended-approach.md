@@ -2,7 +2,7 @@
 title: 建議做法
 description: 瞭解AEM Screens專案中的建議方法。
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '225'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ AEM Screens Feature Pack 202204的發行日期為2024年1月2日。
 
 * AEM Screens裝置的「閒置文字」欄位發生XSS問題。 (SCRNS-2614)
 
-* XSS問題位於 `screens/dashboard/device.html` 透過 `Clear cache` 動作對話方塊。 (SCRNS-2632)
+* XSS問題位於 `screens/dashboard/device.html` 流經 `Clear cache` 動作對話方塊。 (SCRNS-2632)
 
 * Screens播放器設定中的XSS問題位於 `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -45,7 +45,7 @@ AEM Screens Feature Pack 202204的發行日期為2024年1月2日。
 
 * 透過引數反映的XSS `item` 在 `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* 在中反映的XSS `screens/dashboard/device.html` 透過 `returnPage` 引數。 (SCRNS-3056)
+* 在中反映的XSS `screens/dashboard/device.html` 流經 `returnPage` 引數。 (SCRNS-3056)
 
 * 在assign-device-wizard.html上開啟「重新導向」。 (SCRNS-3444)
 
