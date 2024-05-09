@@ -2,9 +2,9 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 瞭解如何在AEM Screens中使用最適化轉譯。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ## 簡介 {#introduction}
 
-最適化轉譯可讓裝置根據客戶定義的規則，自動針對裝置按一下最佳轉譯。 裝置會根據這些規則，自動下載並播放最適合的資產轉譯，讓客戶僅能專注於設計 *主要* 體驗。
+最適化轉譯可讓裝置根據客戶定義的規則，自動針對裝置按一下最佳轉譯。 裝置會根據這些規則，自動下載並播放最適當的資產轉譯。 可讓客戶專注於設計 *主要* 體驗。
 
 ## 目標 {#objective}
 
-身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設為自動下載和播放，而不需要手動建立所有內容變數。
-開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道。
+作為AEM Scrßens內容作者，您現在可以設定要自動下載和播放的特定於裝置的資產轉譯，而不必手動建立所有內容變化。
+開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道了。
 
 >[!IMPORTANT]
 >開始在AEM Screens頻道中使用最適化轉譯之前，Adobe建議您瞭解此功能的架構概觀和設定。 另請參閱 [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md).
@@ -26,11 +26,11 @@ ht-degree: 0%
 ## 在頻道中使用最適化轉譯 {#using-adaptive-renditions}
 
 >[!NOTE]
->新增之後 [轉譯 — 對應屬性至畫面專案](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，身為內容作者，您現在可以將轉譯套用至資產。
+>在您新增 [轉譯 — 對應屬性至畫面專案](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，身為內容作者，您現在可以將轉譯套用至資產。
 
 ### 將轉譯套用至資產 {#apply-renditions-assets}
 
-若要將轉譯套用至您要在導覽Screens頻道中使用的資產，請執行以下操作。
+若要將轉譯套用至您要在「導覽畫面」頻道中使用的資產，請執行下列動作。
 
 1. 導覽至 **資產** AEM檔案夾。
 1. 建立更適合招牌顯示的資產版本，例如， `seahorse.jpg`.

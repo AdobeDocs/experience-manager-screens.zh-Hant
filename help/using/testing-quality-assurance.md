@@ -2,9 +2,9 @@
 title: 測試與品質保證
 description: 在最佳實務指南中瞭解AEM Screens的測試和品質保證。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 測試與品質保證 {#testing-quality}
 
 >[!NOTE]
->此活動的典型利害關係人是音訊/視訊整合商。
+>此活動的典型利害關係人為音訊 — 視訊整合商。
 
 當您接近部署數位看板網路時，請建立測試與QA計畫，解決網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
 在這個階段中，應該建置整個測試系統並進行完整測試。
@@ -82,4 +82,4 @@ AEM Screens包含裝置控制中心模組，可管理Screens播放器應用程�
 * 團隊檢視器
 * AirWatch
 * `42Gears`
-* 專屬音訊/視訊整合器中介軟體
+* 專屬音訊整合器中介軟體

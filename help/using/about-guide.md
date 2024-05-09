@@ -2,10 +2,10 @@
 title: 關於本指南
 description: 瞭解AEM Screens專案在規劃及執行專案時的最佳實務，範圍從策略與設計簡介、部署，到支援後都包括在內。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 33%
+source-wordcount: '254'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ AEM Screens 最佳實務指南旨在指導如何成功規劃和執行 AEM Screen
 本檔案的目標對象為：
 
 * *AEM 實作人員*
-* *音訊/視訊整合廠商*
+* *音訊 — 視訊整合廠商*
 * *商業策略師*
 * *專案經理*
 * *顧問*
@@ -25,7 +25,7 @@ AEM Screens 最佳實務指南旨在指導如何成功規劃和執行 AEM Screen
 
 AEM Screens是Adobe Experience Manager (AEM)的新擴充功能。 由於這些工具是新的，潛在應用程式也各有不同，因此務必識別開發和部署AEM Screens時涉及的重要考量和常見風險因素。
 
-本指南提供全方位的深入分析和實用建議，協助您構想及設計意向式客戶體驗，並在數位招牌實作中具體實現。 此外還可引導您在AEM Screens中部署數位招牌專案時，使用部分下列最佳實務來為您的企業帶來正面影響。
+本指南提供全方位的深入分析和實用建議，協助您構想及設計意向式客戶體驗，並在數位招牌實作中具體實現。 此指南還可指引您在 AEM Screens 中部署數位看板專案時，如何使用需遵守的一些最佳實務並對您的業務產生正面影響。
 
 >[!IMPORTANT]
 >

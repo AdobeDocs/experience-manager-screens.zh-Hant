@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-此 ***排序程式*** 從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送含有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存到索引DB中，並進一步放入物件存放區中。 它會根據管理員設定的排程剪下物件存放區的資料，然後進一步將資料傳輸到區塊存放區。 它會嘗試在連線時傳送最大數量的資料。
+此 ***排序程式*** 從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送含有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存至索引DB，並進一步放入物件存放區。 它會根據管理員設定的排程剪下物件存放區的資料，然後進一步將資料傳輸到區塊存放區。 它會嘗試在連線時傳送最大數量的資料。
 
 ### 排序圖表 {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ ht-degree: 10%
    <td>建議</td> 
    <td>字串</td> 
    <td>時間戳記 — UTC</td> 
-   <td>事件開始日期時間，如果您未指定此時間，則會假設事件時間為伺服器收到該事件的時間</td> 
+   <td>事件開始日期時間，如果您未指定此時間，則事件時間會假設為伺服器收到時的時間。</td> 
   </tr>
   <tr>
    <td> </td> 

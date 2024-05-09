@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 * 內容策略
 * 業務營運需求
 * IT與網路環境探索
-* 音訊/視訊需求
+* 音訊 — 視訊需求
 * 裝置規格
 * 網站整備
 
@@ -67,7 +67,7 @@ I/O會根據感應到的受眾鄰近度來推動有條件的內容播放。 例�
 
 在內容策略對話中，業務運作也需定義。 將最終客戶的支援需求正規化，有助於管理部署後的期望，確保支援工作得到適當的衡量。
 
-### 音訊/視訊需求 {#a-v-requirements}
+### 音訊 — 視訊需求 {#a-v-requirements}
 
 掛載情況也需要定義，裝置維修時關於裝置存取的考量也是如此。 這不僅會影響初始安裝人力和裝置建議，也會決定持續的服務與支援需求。
 

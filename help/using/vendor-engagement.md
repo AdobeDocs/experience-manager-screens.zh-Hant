@@ -2,9 +2,9 @@
 title: 廠商參與
 description: 瞭解AEM Screens最佳實務指南的廠商參與度。
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 廠商參與 {#vendor-engagement}
 
 >[!NOTE]
->此活動的典型利害關係人是音訊/視訊整合商。
+>此活動的典型利害關係人為音訊 — 視訊整合商。
 
 在本練習中，請務必識別組裝及提供網路與任何合作夥伴相依性所需的所有主要廠商：
 
