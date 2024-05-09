@@ -1,27 +1,27 @@
 ---
 title: 套用文字覆蓋圖的自訂品牌和樣式
-description: 瞭解如何在AEM Screens頻道中套用文字覆蓋圖的自訂品牌和樣式。
+description: 瞭解如何在AEM Screens管道中，為套用至資產的文字覆蓋圖套用自訂品牌和樣式。
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # 文字覆蓋圖的自訂品牌和樣式 {#creating-custom-branding-styling}
 
-瞭解如何在AEM Screens頻道中，將文字覆蓋圖套用的自訂品牌和樣式套用至您的資產。
+瞭解如何在AEM Screens頻道中，針對套用至資產的文字覆蓋圖套用自訂品牌和樣式。
 
 ## 建立文字覆蓋圖的自訂品牌和樣式 {#steps-custom-branding}
 
 請依照下列步驟，建立文字覆蓋的自訂品牌和樣式：
 
-1. 建立AEM Screens專案。 此範例透過建立名為的專案來展示功能 **`customstyle`** 和標題為的頻道 **DemoBrand** ，如下圖所示。
+1. 建立AEM Screens專案。 此範例透過建立名為的專案來展示功能 **`customstyle`** 和標題為的頻道 **DemoBrand**，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 ### 更新ACL {#updating-acls}
 
-更新這些設計的ACL，讓播放器可以下載它們。
+更新這些設計的ACL，讓播放器可以下載。
 
 1. 導覽至使用者管理員，然後選擇 `screens-<project>-devices group` 並賦予其自訂設計路徑的讀取許可權。
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. 您也可以從移除程式碼的最後兩個區塊 *static.css* 檔案移除文字覆蓋周圍的盒裝樣式。
+1. 您也可以從以下專案移除最後兩個程式碼區塊： *static.css* 檔案移除文字覆蓋周圍的盒裝樣式。
 
 ![影像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
@@ -130,4 +130,4 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   現在您已準備好更新您的品牌和新增至資產的文字覆蓋的自訂樣式。
+   現在，您已準備好更新您的品牌和新增至資產的文字覆蓋的自訂樣式。

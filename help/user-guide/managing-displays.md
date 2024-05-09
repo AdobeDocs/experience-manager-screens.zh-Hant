@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # 建立和管理顯示器 {#creating-and-managing-displays}
 
-顯示器是彼此相鄰放置之熒幕的虛擬群組。 顯示相對於安裝是永久性的。 這是內容作者所使用的物件，且一律會參照為邏輯顯示，而非其實體計數器部分。
+顯示器是彼此相鄰放置之熒幕的虛擬群組。 顯示相對於安裝是永久性的。 它是內容作者搭配使用的物件，且一律會參照為邏輯顯示，而不是其實體計數器部分。
 
 當您建立位置時，必須建立位置的顯示。
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 1. 導覽至適當位置，例如 `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. 按一下您的位置資料夾，然後按一下 **建立** 位於動作列中的加號圖示旁。
 1. 按一下 **顯示** 從 **建立** 精靈，然後按一下 **下一個**.
-1. 輸入 **名稱** 和 **標題** 以取得您的顯示位置。
+1. 輸入您的 **名稱** 和 **標題** 以取得您的顯示位置。
 1. 在 **顯示** 頁簽，選擇配置圖的詳細資訊。 選擇所需的 **解析度**，例如 **Full HD**. 選擇水平與垂直裝置數量。
 1. 按一下&#x200B;**建立**。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ![顯示](assets/display.gif)
 
-當顯示已就位時，下一步就是為該特定顯示建立裝置設定。
+當您有顯示器就位時，下一步就是為該特定顯示器建立裝置設定。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 1%
 >
 >當您為位置建立顯示區時，請為顯示區指派頻道，以使用內容。
 >
->另請參閱 [指派管道](channel-assignment.md) 一節，以瞭解如何指派管道給顯示。
+>請參閱 [指派管道](channel-assignment.md) 一節，以瞭解如何指派管道給顯示。
 
 ## 建立新的裝置設定 {#creating-a-new-device-config}
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 ## 顯示控制面板 {#display-dashboard}
 
-顯示儀表板提供您不同的面板，用於管理裝置的顯示裝置和裝置配置。
+顯示儀表板提供您管理顯示裝置的不同面板。 它也可讓您設定裝置。
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ ht-degree: 1%
 
 按一下 **屬性** 以便檢視或變更顯示內容。
 
-此外，您也可以在中調整互動式頻道的事件計時器值 **閒置逾時** 下的屬性 **顯示** 標籤。 預設值設為 *300秒*.
+此外，您也可以調整下方的互動式管道事件計時器值 **顯示** 標籤。 預設值設為 *300秒*.
 
-使用 **CRXDE Lite**，以存取 **idleTimeout** 屬性，也就是說， `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+使用 **CRXDE Lite**，以存取 **idleTimeout** 屬性，也就是說， `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### 已指派的色版面板 {#assigned-channels-panel}

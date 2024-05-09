@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-文字覆蓋是AEM Screens中提供的功能，可讓您在序列頻道中提供覆蓋在影像上的標題或說明，以建立引人入勝的體驗。
+「文字覆蓋」是AEM Screens提供的功能。 它讓您透過在影像上方提供標題或說明，在順序頻道中建立引人入勝的體驗。
 
 若要瞭解如何建立自己的自訂元件，請參閱 **擴充AEM Screens元件**.
 
-本節僅說明如何在AEM Screens專案中使用和套用海報元件，並在其中一個序列頻道中作為文字覆蓋使用。
+本節僅說明如何在AEM Screens專案中使用和套用海報元件。 它也會示範在其中一個序列色版中作為文字覆蓋圖使用。
 
 ## 使用文字覆蓋 {#using-text-overlay}
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要正確使用微調工具，請務必以(px)做為尾碼來識別正確的畫素位置，例如200畫素。 此運算式的結果是從起點算起為200畫素。
+>使用微調工具時，請務必以(px)作為尾碼來識別正確的畫素位置，例如200畫素。 此運算式的結果是從起點算起，為200畫素。
 
 ## 在文字覆蓋中使用ContextHub值 {#using-text-overlay-context-hub}
 
-下節將說明資料存放區中值的用法，例如，文字覆蓋元件中的Google工作表。
+下節說明資料存放區中值的用法，例如，文字覆蓋元件中的google sheets 。
 
 **必備條件**
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. 將影像和文字覆蓋元件新增至您的影像，如所述 [使用文字覆蓋](/help/user-guide/text-overlay.md#using-text-overlay) 的區段。
+1. 將影像和文字覆蓋元件新增至您的影像，如 [使用文字覆蓋](/help/user-guide/text-overlay.md#using-text-overlay) 的區段。
 
 1. 按一下 **設定** （扳手圖示）開啟 **影像** 對話方塊。
 
@@ -129,7 +129,7 @@ ht-degree: 1%
    >[!NOTE]
    >如果您尚未設定ContextHub組態，則會停用專案的此選項。
 
-1. 輸入 **值** 在 **預留位置** 欄位。 按一下您要從Google工作表取得值的列 **contexthub變數**. 在此情況下，值會從Google工作表中擷取自列2和欄1。 現在輸入 **預設值** 作為 **20**，如下圖所示。 完成後，按一下核取記號。
+1. 輸入 **值** 在 **預留位置** 欄位。 按一下您要從Google工作表取得值的列 **contexthub變數**. 在此情況下，值會從Google工作表中擷取自列2和欄1。 現在，輸入 **預設值** 作為 **20**，如下圖所示。 完成後，按一下核取記號。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您也可以在選取時檢視顯示控制面板 **完成**.
+   您也可以選取「 」，檢視顯示控制面板 **完成**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -144,19 +144,19 @@ ht-degree: 0%
 * 使用者可以搜尋中現有的任何單字 *裝置ID* 或 *裝置名稱*.
 
   >[!NOTE]
-  >建議您以多個字詞來建立裝置名稱，例如 *波士頓商店大廳* 而不是單一的 *BostonStoreLobby*.
+  >建議您以多個字詞來建立裝置名稱，例如 *`Boston Store Lobby`* 而不是單一的 *`BostonStoreLobby`*.
 
-* 如果您建立裝置名稱，例如 *波士頓商店大廳*，會搜尋任何單字 *波士頓*， *儲存*，或 *大廳*. 但是，如果裝置名稱為 *BostonStoreLobby*，然後搜尋 *波士頓* 未顯示任何結果。
+* 如果您建立了裝置名稱，例如 *`Boston Store Lobby`*，會搜尋任何單字 *`boston`*， *`store`*，或 *`lobby`*. 但是，如果裝置名稱為 *`BostonStoreLobby`*，然後搜尋 *`boston`* 未顯示任何結果。
 
-* 萬用字元， `*` 支援搜尋。 如果您想要尋找所有名稱開頭為的裝置 *波士頓*，您可以使用 *波士頓**.
+* 萬用字元， `*` 支援搜尋。 如果您想要尋找所有名稱開頭為的裝置 *`boston`*，您可以使用*`boston`**。
 
-* 如果裝置名稱為 *BostonStoreLobby* 並搜尋 *波士頓* 不會傳回結果，然後使用 *波士頓**會在您的搜尋條件中傳回結果。
+* 如果裝置名稱為 *`BostonStoreLobby`* 並搜尋 *`boston`* 不會傳回結果，然後使用 *`boston`**會在您的搜尋條件中傳回結果。
 
 ## 裝置註冊的限制 {#limitations-on-device-registration}
 
 系統範圍的使用者密碼限制可能會導致裝置註冊失敗。 裝置註冊會使用隨機產生的密碼來建立裝置使用者。
 
-如果密碼受 *AuthorizableActionProvider* 設定，建立裝置使用者可能會失敗。
+如果 *AuthorizableActionProvider* 設定會限制密碼，建立裝置使用者可能會失敗。
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他資源 {#additional-resources}
 
-若要瞭解AEM Screens Player，請參閱 [AEM Screens Player](working-with-screens-player.md).
+若要進一步瞭解AEM Screens Player，請參閱 [AEM Screens Player](working-with-screens-player.md).

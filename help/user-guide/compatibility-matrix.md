@@ -4,9 +4,9 @@ description: 進一步瞭解AEM Screens Player及其各自的AEM Screens版本�
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '309'
 ht-degree: 5%
 
 ---
@@ -116,16 +116,16 @@ aem-screens-player-android-3.3.0.apk.zip
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即將發佈至Apple市集</p> <p> </p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即將在Apple商店發佈</p> <p> </p> </td> 
    <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>即將在Chrome商店發佈</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>即將發佈在Chrome商店上</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即將發佈至Apple市集</p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即將在Apple商店發佈</p> </td> 
    <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>即將在Chrome商店發佈</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>即將發佈在Chrome商店上</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
  </tbody>
