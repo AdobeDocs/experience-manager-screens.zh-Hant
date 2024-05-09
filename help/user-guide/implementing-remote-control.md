@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# 使用Screens遙控器  {#implementing-remote-control}
+# 使用Screens遙控器 {#implementing-remote-control}
 
-遠端控制功能可讓您更輕鬆地存取管理員UI、管道切換器或清除快取及重新載入等功能。 此外，它提供您檢視本機韌體版本和播放器系統資訊的方法。 這特別實用，因為在使用滑鼠連線及操作無法連線的生產裝置時相當困難，當播放器失去與AEM的連線時，更是如此。 使用Samsung RMS時，這個功能也相當實用，因為解析度的差異可能會讓使用者難以找到並使用滑鼠開啟Admin UI。
+遠端控制功能可讓您更輕鬆地存取管理員UI、管道切換器或清除快取及重新載入等功能。 此外，它提供您檢視本機韌體版本和播放器系統資訊的方法。 這項功能特別有用，因為連線滑鼠可能很困難。 或者，在無法存取的生產裝置上操作，如果播放器失去與AEM的連線，更是如此。 使用Samsung RMS時，它也很有用，因為解析度的差異可能會讓使用者難以找到並使用滑鼠開啟Admin UI。
 
 ## 通用遠端修飾鍵組合 {#using-common-remote-control}
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 ![影像](assets/tizen/remote.png)
 
 >[!NOTE]
->如果您將enableAdminUI和/或enableOSD的裝置設定值設為false，遠端不會切換管理員UI和頻道切換器。 您無法使用方向鍵來導覽一個或多個管理員UI。 不過，您仍可清除快取並重新載入播放器。 如果有任何鍵盤組合與使用下列程式碼的互動式內容衝突，您可以停用遠端控制功能：
+>如果您將enableAdminUI和/或enableOSD的裝置設定值設為false，遠端不會切換管理員UI和頻道切換器。 您無法使用方向鍵來導覽Admin UI或管道。 不過，您仍可清除快取並重新載入播放器。 如果有任何鍵盤組合與使用下列程式碼的互動式內容衝突，您可以停用遠端控制功能：
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

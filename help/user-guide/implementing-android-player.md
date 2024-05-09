@@ -1,6 +1,6 @@
 ---
-title: 實作Android&trade；播放器
-description: 瞭解Android&trade； Watchdog的實作，此解決方案可讓您將Android&trade；播放器從當機中復原。
+title: 實作Android Player
+description: 瞭解Android Watchdog的實作，此解決方案可讓您復原Android播放器，使其從當機狀態中復原。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本節說明如何設定Android™播放器。 它提供設定檔和可用選項的資訊，以及開發和測試使用哪些設定的建議。
 
-另外， **看門狗** 是讓播放器從當機復原的解決方案。 應用程式必須向看門狗服務註冊自己，然後定期傳送訊息給處於使用狀態的服務。 如果watchdog服務未在規定的時間內收到保持連線訊息，服務會嘗試重新啟動裝置以進行乾淨的復原（如果它有足夠的許可權）或重新啟動應用程式。
+另外， **看門狗** 是讓播放器從當機復原的解決方案。 應用程式必須向看門狗服務註冊自己，然後定期傳送訊息給處於使用狀態的服務。 如果監視程式服務未在規定的時間內收到保持連線訊息，則服務會嘗試重新啟動裝置。 如此可完全復原（如果它有足夠的許可權）或重新啟動應用程式。
 
 ## 安裝Android™ Player {#installing-android-player}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 實作Android™ Watchdog {#implementing-android-watchdog}
 
-由於Android™的架構，重新啟動裝置需要應用程式具有系統許可權。 要執行此操作，請使用製造商的簽署金鑰簽署應用程式，否則監視器會重新啟動播放器應用程式，而不會重新啟動裝置。
+由於Android™的架構，重新啟動裝置需要應用程式具有系統許可權。 使用製造商的簽署金鑰簽署應用程式，否則監視程式可以重新啟動播放器應用程式，而不會重新啟動裝置。
 
 ### Android™的招牌 `apks` 使用製造商金鑰 {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -84,9 +84,9 @@ ht-degree: 0%
 1. 從Google Play或下載應用程式 [AEM Screens播放器下載](https://download.macromedia.com/screens/) 頁面
 1. 向製造商取得平台金鑰，以便您取得 *pk8* 和 *pem* 檔案
 
-1. 找到 `apksigner` Android™ sdk中的工具（使用尋找） `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. 找到 `apksigner` Android™ SDK中的工具（使用尋找） `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. 尋找Android™ sdk中zip對齊工具的路徑
+1. 尋找Android™ SDK中zip對齊工具的路徑
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 安裝 ***aemscreensaligned.apk*** 在裝置上使用adb安裝
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 大量布建Android™ Player {#bulk-provision-android-player}
 
-大量推出Android™播放器時，需要布建播放器以指向AEM執行個體並設定其他屬性，而不需在管理員UI中手動輸入那些屬性。
+大量推出Android™播放器時，需要布建播放器以指向AEM執行個體並設定其他屬性，而不需在管理員UI中手動輸入。
 
 >[!NOTE]
 >Android™播放器42.0.372提供此功能。
@@ -139,7 +139,7 @@ ht-degree: 0%
 | *解析度* | 裝置的解析度。 |
 | *rebootSchedule* | 重新開機的排程適用於所有平台。 |
 | *enableAdminUI* | 啟用管理員UI來設定站台上的裝置。 將設為 *false* 完成設定並投入生產後。 |
-| *enableOSD* | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 考慮將設為 *false* 完成設定並投入生產後。 |
+| *enableOSD* | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 考慮將其設為 *false* 完成設定並投入生產後。 |
 | *enableactivityui* | 如果想要顯示下載和同步等活動的進度，請啟用此選項。 啟用以進行疑難排解，並在完全設定後停用。 |
 | *enableNativeVideo* | 如果您想要使用原生硬體加速來播放視訊(僅限Android™)，請啟用此選項。 |
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 ## 使用企業行動性管理大量布建Android™ Player {#bulk-provisioning}
 
-大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 強烈建議使用EMM （企業行動管理）解決方案，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、 MobileIron或Samsung Knox可從遠端布建及管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
+大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 使用EMM （企業行動管理）解決方案，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、MobileIron或Samsung Knox，讓您可從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
 
 ## 命名Android™ Player {#name-android}
 
@@ -193,12 +193,12 @@ ht-degree: 0%
 1. 確認您的Android™裝置支援Google Play服務。
 1. 使用您最愛的支援AppConfig的EMM解決方案註冊您的Android™播放器裝置。
 1. 登入您的EMM主控台，並從Google Play提取AEM Screens Player應用程式。
-1. 按一下Managed Configuration或相關選項。
+1. 按一下Managed組態或相關選項。
 1. 您現在應該會看到可設定的播放器選項清單，例如伺服器和大量註冊代碼。
 1. 設定這些引數、儲存原則，並將其部署至裝置。
 
    >[!NOTE]
-   >裝置應該會連同設定一起接收應用程式，並以選取的設定指向正確的AEM伺服器。 如果您選擇設定大量註冊程式碼，並使其與AEM中的設定相同，播放器應該能夠自動註冊自身。 如果您設定了預設顯示，它也可以下載並顯示某些預設內容（稍後可視您的便利性進行變更）。
+   >裝置應該會同時接收應用程式和設定。 它應該以選取的設定指向正確的AEM伺服器。 如果您選擇設定大量註冊程式碼，並使其與AEM中的設定相同，則播放器應能自動註冊自身。 如果您設定了預設顯示，它也可以下載並顯示某些預設內容（稍後可視您的便利性進行變更）。
 
 此外，您也應該向EMM供應商洽詢AppConfig支援。 最受歡迎的內容，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)， [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)， [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)， [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)， [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、和 [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) 其他支援此產業標準。
 

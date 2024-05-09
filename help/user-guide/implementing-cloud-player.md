@@ -8,14 +8,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
-# 實作Cloud Player  {#implementing-cloud-player}
+# 實作Cloud Player {#implementing-cloud-player}
 
 AEM Screens傳統上提供各種平台專屬的原生播放器應用程式，包括ChromeOS、Windows™Android和 `Tizen`. 然而，為因應使用者不斷變化的需求，Adobe推出了創新解決方案 — AEM Screens Cloud Player。
 
@@ -34,20 +34,20 @@ Cloud Player與Adobe先前的原生應用程式有很大差異。 這是漸進�
 Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代化瀏覽器的平台，都可以依照以下步驟執行雲端播放器應用程式：
 
 1. 開啟瀏覽器並輸入 [雲端播放器URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) 位址列中的。
-1. 瀏覽器會檢查雲端播放器是否可安裝，然後在位址列中顯示安裝圖示。
+1. 瀏覽器會檢查Cloud Player是否可安裝，然後在位址列中顯示安裝圖示。
 
    ![影像](/help/user-guide/assets/cloud-player-install.png)
 
-1. 按一下確認對話方塊上的安裝圖示和安裝按鈕。 Cloud Player是以獨立應用程式的形式安裝在您的裝置上，並可使用圖示啟動。
+1. 在確認對話方塊中，按一下安裝圖示和安裝按鈕。 Cloud Player是以獨立應用程式的形式安裝在您的裝置上，並可使用圖示啟動。
 
 >[!NOTE]
 >
 >### Cloud Player安裝選項 {#cloud-player-install-option}
 >
-1. PWA的安裝選項也稱為「新增至主畫面」或A2HS功能。 支援從網頁安裝PWA，因瀏覽器和平台而異。
-1. 每個瀏覽器都有不同的條件可檢查PWA應用程式是否可安裝。 通常瀏覽器會檢查這些專案（如需詳細資訊，請參閱此處）：
+1. PWA的安裝選項也稱為「新增至主畫面」或A2HS功能。 支援從Web安裝PWA的方式因瀏覽器和平台而異。
+1. 每個瀏覽器都有不同的條件可檢查PWA應用程式是否可安裝。 一般而言，瀏覽器可以檢查（更多詳細資訊請參閱此處）：
 >
-* 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，亦即，名稱、圖示、start_url、顯示
+* 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，即名稱、圖示、start_url、顯示
 * 如果應用程式的Service Worker檔案具有擷取事件監聽器
 * 應用程式必須透過https提供
 >
@@ -62,18 +62,21 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
    1. 將config.json託管在伺服器上，使其可供存取，例如： `https://<config_server_host>/config.json`
    1. 若要安裝雲端播放器並套用託管設定，請使用雲端播放器URL，例如： `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. Cloud Player應用程式會在的根目錄中尋找config.json &lt;config_server_host>，剖析config.json以取得自訂設定並套用這些設定。
+   1. Cloud Player應用程式會在的根目錄中尋找config.json &lt;config_server_host>，然後解析config.json以取得自訂設定並套用這些設定。
    1. 這些設定會套用到播放器的每次重新載入。
 
 ## 在Chrome作業系統上大量布建 {#bulk-provisioning-chrome}
 
-深入瞭解Chrome作業系統上的大量布建，請參閱 [在Chrome作業系統上安裝Cloud Player](https://www.adobe.com/go/aem_screens_cloud_player_en).
+深入瞭解Chrome作業系統上的大量布建。 另請參閱 [在Chrome作業系統上安裝Cloud Player](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## AEM執行個體上所需的設定 {#bulk-provisioning-config-aem}
 
-根據AEM執行個體的型別，按一下以下其中一項指南，以啟用AEM和雲端上的CORS播放器：
-* [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
-* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
+根據AEM執行個體的型別，按一下以下其中一項指南，以啟用AEM和Cloud Player下的CORS：
+
+* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+
 
 >[!NOTE]
 >
@@ -89,9 +92,9 @@ Google已主動淘汰Chrome應用程式而改用PWA應用程式，並計畫在20
 
 ## 外部內容擷取的離線支援 {#offline-support}
 
-在各種使用案例中，管道可能要求從本身無法提供離線支援的外部來源（例如，氣象Widget或Commerce整合式單頁應用程式）擷取內容。 為了針對這些特定使用案例啟用離線功能，Cloud Player提供對自訂標題的支援。
+在各種使用案例中，管道可能會要求從本身無法提供離線支援的外部來源(例如，天氣小工具或Commerce整合式單頁應用程式)擷取內容。 為了針對這些特定使用案例啟用離線功能，Cloud Player提供對自訂標題的支援。
 
-Cloud Player採用「網路優先」快取策略，這表示它會嘗試從網路擷取內容（然後使用最新內容更新快取），如果有的話，會退回快取內容。 若要針對這類內容擷取實作離線支援，要求中必須包含自訂標頭。 接著，具有自訂標頭的請求會在播放器上快取，方便離線存取內容，同時維持「網路優先」快取策略。
+Cloud Player採用「網路優先」快取策略，這表示它會嘗試從網路擷取內容（然後以最新內容更新快取），如果有的話，會退回快取內容。 若要針對這類內容擷取實作離線支援，要求中必須包含自訂標頭。 接著，具有自訂標頭的請求會在播放器上快取，方便離線存取內容，同時維持「網路優先」快取策略。
 
 ```
 // Sample fetch request with the 'X-Cache-Strategy' header
