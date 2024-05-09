@@ -2,9 +2,9 @@
 title: 轉換至平台
 description: 瞭解AEM Screens中的轉換至平台。
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >此活動的典型利害關係人是AEM實作人員。
 
-隨著您的專案從策略性願景走向線框現實，您現在應該開始準備在AEM中實際建立您可部署的Screens專案所需的工作。
+當您的專案從策略性願景走向線框化現即時，您應該準備在AEM中實際建立Screens專案，以便進行部署。
 
 此專案包括平台特定組態對應至原型階段中定義之鬆散需求。
 

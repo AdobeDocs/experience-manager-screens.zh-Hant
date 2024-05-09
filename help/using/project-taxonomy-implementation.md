@@ -2,9 +2,9 @@
 title: 專案分類法
 description: 瞭解更多有關AEM Screens的專案分類法。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ ht-degree: 0%
 * **正在排程**
 * **預覽內容**
 
-若要瞭解這些詞語，請參閱 [字彙表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+若要進一步瞭解這些術語，請參閱 [字彙表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >最佳實務是考慮使用：
 >
 >* 自動填入Screens專案的硬體資產資料庫
->* 文字設定檔，可自動將每個播放器指向AEM的特定例項
+>* 文字設定檔案會自動將每個播放器指向AEM的特定執行個體
 
 ## 實作AEM Screens專案 {#creating-a-project}
 

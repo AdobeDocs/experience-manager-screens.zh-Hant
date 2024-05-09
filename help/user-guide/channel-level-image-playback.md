@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-當您建立序列色版並在其中新增影像時，根據預設，所有影像都會採用色版等級設定中定義的播放持續時間。 任何個別影像仍可覆寫預設值，並具有不同的播放持續時間，這是透過編輯特定影像元件的播放持續時間來完成的。
+當您建立序列色版並在其中新增影像時，根據預設，所有影像都會採用色版等級設定中定義的播放持續時間。 任何個別影像仍可覆寫預設值，並具有不同的播放持續時間。 此功能可透過編輯特定影像元件的播放持續時間來完成。
 
 ### 先決條件 {#prerequisites}
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. 按一下色版中的所有影像，然後按一下左上角的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
+1. 按一下色版中的所有影像，然後按一下左上方的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

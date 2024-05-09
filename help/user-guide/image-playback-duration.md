@@ -2,9 +2,9 @@
 title: 影像播放持續時間
 description: 瞭解AEM Screens中的影像播放持續時間。
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-建立連續色版並將影像新增至其中後，依預設，所有影像會假設色版層級設定中定義的播放持續時間。 任何個別影像仍可覆寫預設值，並具有不同的播放持續時間，這是透過編輯特定影像元件的播放持續時間來完成的。
+建立連續色版並將影像新增至其中後，依預設，所有影像會假設色版層級設定中定義的播放持續時間。 任何個別影像仍可覆寫預設值，並具有不同的播放持續時間。 此功能可透過編輯特定影像元件的播放持續時間來完成。
 
 ### 先決條件 {#prerequisites}
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **頁面** 對話方塊開啟。
+1. 此 **頁面** 對話方塊開啟。
 
    >[!NOTE]
    >
