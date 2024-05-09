@@ -1,22 +1,22 @@
 ---
 title: 適用於AEM Screens的Dispatcher設定
-description: 此頁面主要說明為AEM Screens專案設定Dispatcher的准則。
+description: 本頁面著重說明為AEM Screens專案設定Dispatcher的准則。
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # 適用於AEM Screens的Dispatcher設定{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher是Adobe Experience Manager的快取和/或負載平衡工具。
+Dispatcher是Adobe Experience Manager的快取或/及負載平衡工具。
 
-以下頁面提供為AEM Screens專案設定Dispatcher的准則。
+以下頁面提供為AEM Screens專案設定Dispatcher的指引。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Dispatcher是Adobe Experience Manager的快取和/或負載平衡工具。
 >[!IMPORTANT]
 >下列Dispatcher設定僅適用於Manifest版本v2。 另請參閱 [資訊清單版本v3的Dispatcher設定](#configuring-dispatcherv3) 資訊清單版本v3。
 
-AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行個體中的資源。 因此，當您有多個發佈執行個體時，請求應一律移至相同的發佈執行個體，這樣已驗證的工作階段就會對來自AEM Screens播放器/裝置的所有請求有效。
+AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行個體中的資源。 如果有多個發佈執行個體，請求應一律移至相同的發佈執行個體，使已驗證的工作階段對來自AEM Screens播放器或裝置的所有請求有效。
 
 請依照下列步驟，為AEM Screens專案設定Dispatcher。
 
@@ -67,7 +67,7 @@ AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行
 
 ### 步驟2：設定畫面篩選器 {#step-configure-screens-filters}
 
-若要設定Screens篩選器，請將下列專案新增至 ***/filter***.
+若要設定Screens篩選器，請將下列專案新增至***`/filter`***。
 
 ```
 ## AEM Screens Filters
@@ -129,7 +129,7 @@ Screens播放器會使用已驗證的工作階段，因此Dispatcher不會快取
 
 ## 為資訊清單版本v3設定Dispatcher{#configuring-dispatcherv3}
 
-請務必允許這些篩選器和快取規則位於發佈執行個體前端的Dispatcher中，以便Screens正常運作。
+請確保在發佈執行個體前端的Dispatcher中允許這些篩選器和快取規則，以便Screens正常運作。
 
 ### 資訊清單版本v3的先決條件{#prerequisites3}
 
@@ -143,7 +143,7 @@ Screens播放器會使用已驗證的工作階段，因此Dispatcher不會快取
 
   ![影像](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### 篩選條件  {#filter-v3}
+### 篩選條件 {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ Screens播放器會使用已驗證的工作階段，因此Dispatcher不會快取
 
 * 新增 `/allowAuthorized "1"` 至 `/cache` 中的區段 `publish_farm.any`.
 
-* 所有AEM Screens播放器都使用已驗證的工作階段來連線至AEM （作者/發佈）。 現成可用的Dispatcher不會快取這些URL，因此您應該啟用這些URL。
+* 所有AEM Screens播放器都會使用已驗證的工作階段來連線至AEM （作者/發佈）。 Dispatcher不會快取這些URL，因此您應該啟用它們。
 
 * 新增 `statfileslevel "10"` 至 `/cache` 中的區段 `publish_farm.any`
-這支援快取docroot中的最多10個層級，並在內容發佈時據以失效，而不是讓所有內容失效。 您可以根據內容結構的深度，隨時變更此層級
+此規則支援快取docroot中的最多10個層級，並在內容發佈時據以失效，而不是讓所有內容失效。 您可以根據內容結構的深度，隨時變更此層級
 
 * 將下列專案新增至 `/invalidate section in publish_farm.any`
 

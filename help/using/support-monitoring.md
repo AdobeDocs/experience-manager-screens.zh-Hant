@@ -2,7 +2,7 @@
 title: 支援監控
 description: 瞭解AEM Screens最佳實務指南的支援監視。
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 1. 如果發生空白熒幕問題：
 
    * 檢查 *預覽* 所以您可以檢視頻道是否顯示黑屏。
-   * 註冊 *本機chrome播放器* （作為擴充功能）連線到該顯示器，並檢視是否顯示黑色熒幕。
+   * 註冊 *本機Chrome播放器* （作為擴充功能）連線到該顯示器，並檢視是否顯示黑色熒幕。
    * 按一下滑鼠右鍵，檢查並檢查 *適用的記錄*.
 
    此外，如果問題不是發生在本機播放器上，而是隻發生在裝置上：

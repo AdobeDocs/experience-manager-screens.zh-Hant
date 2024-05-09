@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 1%
 
 1. **命名慣例**：
 
-   在瞭解如何建立要在AEM Screens專案中使用的自訂多區域範本之前，請先瞭解您要建立的範本版本。
+   它有助於瞭解如何建立自訂多區域範本，以便在AEM Screens專案中使用。 但首先，您必須瞭解要建立的範本的措辭。
 
    | **配置名稱** | **說明** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 三區域橫向配置可讓您建立三個區域：<br>*區域1是水平與垂直畫面的20% （從左側算起）<br>*區域2為水準熒幕的80%與垂直熒幕的20%向右對齊<br>*區域3為100%的水準熒幕與80%的垂直熒幕，外觀比例為16:9 |
+   | `Left20-LandscapeHD3Zone` | 三區域橫向配置可讓您建立三個區域：<br>*區域1是水平與垂直畫面的20% （從左側算起）<br>*區域2為水準熒幕的80%與垂直熒幕的20%向右對齊<br>*區域3是水準熒幕的100%和垂直熒幕的80%。 外觀比例為16:9 |
    | `Upper20-PortraitHD2Zone` | 雙區直向範本從上到下佔熒幕的20%，外觀比例為16:9 |
-   | `Right20-LandscapeSD3Zone` | 三區範本從右側覆蓋20%的熒幕，外觀比例為4:3 |
+   | `Right20-LandscapeSD3Zone` | 三區範本從右側涵蓋熒幕的20%，外觀比例為4:3 |
 
    >[!IMPORTANT]
    >自訂配置中定義的區域可能與整個配置的整體外觀比例不符。 本檔案遵循的命名慣例會指定自訂配置整體之外觀比例。
@@ -90,11 +90,11 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. 參照您複製lbar左側範本的步驟(4)，您可以檢視下方的三個回應式格點 `my-custom-layout/jcr:content`. 將自訂css類別新增至 *`cq:cssClass`* 屬性，例如， *my-custom-layout — 左上方* 的 *r1c1* 節點。
+1. 參照您複製lbar左側範本的步驟(4)，您可以檢視下方的三個回應式格點 `my-custom-layout/jcr:content`. 將自訂css類別新增至 *`cq:cssClass`* 屬性，例如， *my-custom-layout-top-left* 的 *r1c1* 節點。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   同樣地，新增 *my-custom-layout — 右上方* 的 *r1c2*  和 *my-custom-layout — 底部* 的 *r2c1* 節點。
+   同樣地，新增 *my-custom-layout-top-right* 的 *r1c2* 和 *my-custom-layout-bottom* 的 *r2c1* 節點。
 
    >[!NOTE]
    >這些自訂類別用於css，以設定這些回應式格點的寬度/高度。
@@ -152,13 +152,13 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 插入影像做為背景圖層  {#inserting-image}
+## 插入影像做為背景圖層 {#inserting-image}
 
 您可以將影像作為背景圖層插入版面：
 
 您可以調整CSS規則以使用「data-uri」並直接內嵌影像(`Base64` (encoded)，位於您於中建立的CSS檔案中（步驟13）， *static.css*.
 
-這麼做如下：
+此安排如下：
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 或者，您可以遵循下列步驟：

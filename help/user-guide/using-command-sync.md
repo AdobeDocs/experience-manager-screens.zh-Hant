@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-數位看板解決方案必須支援視訊牆壁和同步播放，以支援新年倒數或分割為可在多個熒幕播放的大型視訊等情境，這也是Command Sync發揮作用的地方。
+數位看板解決方案必須支援視訊牆面與同步播放。 如果您嘗試支援新年倒數或大型影片片段在多個熒幕播放等情境，則此情境為真。 在這些情況下，「命令同步」就會發揮作用。
 
 若要使用Command Sync，單一播放器可充當 *主要* 並傳送指令，而所有其他播放器則充當 *使用者端* 並在收到指令時播放。
 
-此 *主要* 即將開始播放專案時，會傳送命令給所有已註冊的使用者端。 此專案的裝載可以是要播放專案的索引及/或要播放的元素的外部HTML。
+此 *主要* 即將開始播放專案時，會傳送命令給所有已註冊的使用者端。 此動作的裝載可以是要播放專案的索引、要播放的元素的外部HTML，或兩者皆有。
 
 ## 實作命令同步 {#using-command-sync}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 設定專案 {#setting-up}
 
-在使用Command Sync功能之前，請確定您擁有專案和通道，其中包含專案設定的內容。
+使用「命令同步」功能之前，請確定您擁有專案和管道，且管道中有專案設定的內容。
 
 1. 以下範例示範專案 **CommandSyncDemo** 和順序頻道 **頻道大廳**.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    >
    >若要瞭解如何將頻道指派給顯示區，請參閱 [建立和管理顯示器](/help/user-guide/managing-displays.md).
 
-1. 瀏覽至 **裝置** 資料夾。
+1. 導覽至 **裝置** 資料夾。
 1. 按一下 **裝置管理員** 從動作列移除。
 
    ![image1](assets/command-sync5.png)
@@ -71,7 +71,7 @@ ht-degree: 0%
    >
    >若要瞭解如何註冊裝置，請參閱 [裝置註冊](/help/user-guide/device-registration.md)
 
-1. 為了示範，此範例將一個Chrome裝置和Windows Player顯示為兩個獨立的裝置。 兩個裝置都指向相同的顯示器。
+1. 為了示範，此範例將Chrome裝置和Windows Player顯示為兩個獨立的裝置。 兩個裝置都指向相同的顯示器。
    ![image1](assets/command-sync6.png)
 
 ### 更新頻道設定
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 ### 設定主要 {#setting-up-primary}
 
-1. 從以下位置導覽至顯示控制面板： **CommandSyncDemo** > **位置**  > **大廳** > **LobbyDisplay** 並按一下 **儀表板** 從動作列移除。
-請注意中的兩個裝置（chrome和Windows Player） **裝置** 面板，如下列所示：
+1. 從以下位置導覽至顯示控制面板： **CommandSyncDemo** > **位置**  > **大廳** > **LobbyDisplay**. 然後按一下 **儀表板** 從動作列移除。
+請注意中的兩個裝置（Chrome和Windows Player） **裝置** 面板，如下列所示：
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. 從 **裝置** 面板，按一下要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設為主要裝置。 按一下 **設為主要裝置**.
+1. 從 **裝置** 面板，按一下要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設定為主要裝置。 按一下 **設為主要裝置**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 

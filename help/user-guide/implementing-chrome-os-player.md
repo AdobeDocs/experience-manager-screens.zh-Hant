@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 請依照下列步驟設定Chrome管理主控台：
 
 1. 註冊Chrome管理主控台。 您必須取得Chrome管理主控台的授權。 連絡人 [Google支援](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) 管理Chrome裝置設定以取得詳細資訊。
-1. 將您的Chrome作業系統裝置註冊至網域，並等待15分鐘讓裝置與Chrome管理主控台同步。 若要深入瞭解註冊鉻裝置，請按一下 [此處](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. 將您的Chrome作業系統裝置註冊至網域，並等待15分鐘讓裝置與Chrome管理主控台同步。 若要進一步瞭解如何註冊Chrome裝置，請按一下 [此處](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome線上應用程式商店提供Chrome播放器。
 
 >[!NOTE]
@@ -54,7 +54,7 @@ ht-degree: 0%
    ![影像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome播放器必須於企業註冊中註冊，且Chrome播放器必須透過Chrome管理控制檯進行部署，否則資產ID會傳回空白（例如，將chrome作為擴充功能）。 裝置名稱僅在註冊時記錄。 Adobe Experience Manager (AEM)不會擷取未來的變更。
+   >Chrome播放器必須於企業註冊中註冊，且Chrome播放器必須透過Chrome管理控制檯進行部署，否則資產ID會傳回空白（例如，將Chrome作為擴充功能）。 裝置名稱僅在註冊時記錄。 Adobe Experience Manager (AEM)不會擷取未來的變更。
 
 ### 啟用資訊站模式 {#enabling-kiosk-mode}
 
