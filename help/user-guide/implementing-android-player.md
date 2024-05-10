@@ -1,6 +1,6 @@
 ---
-title: 實作Android Player
-description: 瞭解Android Watchdog的實作，此解決方案可讓您復原Android播放器，使其從當機狀態中復原。
+title: 實作Android&trade；播放器
+description: 瞭解Android&trade； Watchdog的實作，此解決方案可讓您將Android&trade；播放器從當機中復原。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---

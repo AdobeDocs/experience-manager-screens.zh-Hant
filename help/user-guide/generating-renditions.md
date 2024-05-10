@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 您可以產生手動和自動Full HD轉譯。 下節將說明將轉譯新增至資產的工作流程。
 
-## 自動產生Full HD轉譯  {#automatically-generating-full-hd-renditions}
+## 自動產生Full HD轉譯 {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->如果AEM Screens視訊轉譯無法在您的裝置上以最佳方式播放，請聯絡硬體廠商，以取得視訊的規格。 這有助於在裝置上取得最佳效能，因此可建立您自己的自訂視訊設定檔，您可以在其中提供適當的引數讓FFMPEG產生轉譯。 然後，使用以下步驟，將您的自訂視訊設定檔新增到設定檔清單。
+>如果AEM Screens視訊轉譯無法在您的裝置上以最佳方式播放，請聯絡硬體廠商，以取得視訊的規格。 這麼做有助於讓裝置發揮最佳效能。 它可協助您建立自己的自訂視訊設定檔，讓您為FFMPEG提供適當的引數以產生轉譯。 然後，使用以下步驟，將您的自訂視訊設定檔新增到設定檔清單。
 >
 >另請參閱 [疑難排解影片](troubleshoot-videos.md) 若要在您的頻道中針對視訊播放進行除錯和疑難排解。
 
-請依照下列步驟自動產生Full HD轉譯：
+請依照下列步驟，自動產生Full HD轉譯：
 
 1. 按一下Adobe Experience Manager連結（左上方），然後按一下槌子圖示，這樣您就可以按一下 **工作流程**.
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 手動產生Full HD轉譯 {#manually-generating-full-hd-renditions}
 
-請依照下列步驟手動產生Full HD轉譯：
+請依照下列步驟，手動產生Full HD轉譯：
 
 1. 按一下Adobe Experience Manager連結（左上方），然後按一下槌子圖示，這樣您就可以按一下「工具」並按 **工作流程**.
 

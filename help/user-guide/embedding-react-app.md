@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-您可以使用REACT (或Angular)內嵌互動式單頁應用程式。 您可以使用AEM SPA編輯器(由AEM中的商務專業人士設定)來執行此操作。 您也可以瞭解如何將互動式應用程式與離線Adobe Analytics整合。
+您可以使用REACT (或Angular)內嵌互動式單頁應用程式。 您可以使用AEM SPA編輯器來執行此操作，由AEM中的商務專業人士進行設定。 您也可以瞭解如何將互動式應用程式與離線Adobe Analytics整合。
 
 ## 使用AEM SPA編輯器 {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 若要編輯REACT應用程式中的內容：
 
 1. 瀏覽至 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` （適當時取代主機名稱、連線埠和專案名稱）。
-1. 您應該能夠編輯顯示在Hello world應用程式中的文字。
+1. 能夠編輯Hello World應用程式中顯示的文字。
 
 ### 將互動式REACT應用程式新增至AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
    >[!NOTE]
    >請務必在指派頻道給顯示區時新增使用者互動事件。
 
-1. 針對此專案註冊播放器，並將其指派給顯示區。 現在，您應該能夠看到互動式應用程式在AEM Screens上執行。
+1. 針對此專案註冊播放器，並將其指派給顯示區。 您現在可以看到互動式應用程式在AEM Screens上執行。
 
    另請參閱 [裝置註冊](device-registration.md) 以取得註冊裝置的詳細資訊。
 
@@ -102,8 +102,8 @@ ht-degree: 0%
 
    另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 如需如何使用AEM Screens在Adobe Analytics中執行排序，以及使用離線Adobe Analytics傳送自訂事件的詳細資訊。
 
-1. 在您選擇的IDE/編輯器中編輯您的react應用程式（尤其是文字元件或您想要開始發出事件的其他元件）。
-1. 在您要為元件擷取的點選事件或其他事件上，使用標準資料模型新增分析資訊。
+1. 在您選擇的IDE/編輯器中編輯您的react應用程式（尤其是文字元件或您要開始發出事件的其他元件）。
+1. 在點選事件或您要為元件擷取的其他事件上，使用標準資料模型新增分析資訊。
 
    另請參閱 [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以取得更多詳細資料。
 

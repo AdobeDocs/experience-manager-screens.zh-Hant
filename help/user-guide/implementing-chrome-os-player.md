@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 #### 正在檢查遠端裝置狀態 {#checking-remote-device-status}
 
 1. 登入Chrome開發人員主控台。
-1. 瀏覽至 **裝置管理** > **Chrome裝置** 然後按一下您要控制的裝置。
+1. 瀏覽至 **裝置管理** > **Chrome裝置** ，然後按一下您要控制的裝置。
 1. 按一下 **系統活動和疑難排解**.
 1. 檢查 **重新啟動裝置** 和 **熒幕擷取** 裝置的屬性。 您也可以檢查裝置狀態與健全狀態資訊。
 

@@ -1,6 +1,6 @@
 ---
 title: 使用AEM Screens Player
-description: 瞭解如何使用AEM Screens播放器、管理員UI和管道切換器。
+description: 瞭解如何使用AEM Screens Player、管理員UI和管道切換器。
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
@@ -40,15 +40,15 @@ ht-degree: 1%
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. 檢查 **偏好設定** 面板。 您可以啟用/停用 **管理員UI** 和 **頻道切換器** 這兩個選項可為您的播放器提供。
+1. 檢查 **偏好設定** 面板。 您可以啟用或停用 **管理員UI** 和 **頻道切換器** 這兩個選項可為您的播放器提供。
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### 管理員UI {#the-admin-ui}
 
-啟用 **管理員UI** 從偏好設定面板中，允許使用者從Screens播放器開啟管理員設定。 此外，如果您從裝置控制面板停用此選項，使用者將無法從播放器開啟管理員UI。
+啟用 **管理員UI** 從偏好設定面板中，允許使用者從Screens播放器開啟管理員設定。 此外，如果您從裝置控制面板停用此選項，使用者將無法從播放器開啟Admin UI 。
 
-若要從Screens播放器檢視Admin UI，請在觸控式AEM Screens播放器上或用滑鼠長按左上角以開啟Admin功能表。 完成註冊並載入通道後，資訊便會顯示。
+若要從Screens播放器檢視Admin UI，請在觸控式AEM Screens播放器上按一下左上角以開啟Admin功能表，或使用滑鼠來開啟。 完成註冊並載入通道後，資訊便會顯示。
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 ### 頻道切換器 {#the-channel-switcher}
 
-啟用 **頻道切換器** 從偏好設定面板中，可讓使用者從Screens播放器開啟頻道選擇/設定。
+啟用 **頻道切換器** 從「偏好設定」面板中，使用者可從Screens播放器開啟頻道選取設定。
 
 此外，如果您從裝置儀表板停用此選項，使用者將無法從Screens播放器控制頻道偏好設定。
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 長按閒置頻道左上角以開啟「管理」面板。
 1. 瀏覽至 **設定** 從左側動作功能表。
-1. 啟用/停用設定 **管理員UI** 或 **頻道切換器**.
+1. 啟用或停用設定 **管理員UI** 或 **頻道切換器**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -127,11 +127,11 @@ ht-degree: 1%
 | **問題** | **Recommendations** |
 |---|---|
 | 播放器儲存空間已滿 | 消除不必要的檔案 |
-| 播放器網路中斷 | 使用Cat-5/Cat-6纜線。 若使用Wifi，請縮短路由器與播放器裝置的距離 |
+| 播放器網路中斷 | 使用Cat-5或Cat-6纜。 若使用Wifi，請縮短路由器與播放器裝置的距離 |
 | AEM Screens Player當機 | 建議使用監視程式應用程式，以確保AEM Screens Player一律執行 |
 | AEM Screens Player遺失設定 | 檢查與AEM伺服器的連線 |
-| AEM Screens Player不會在播放器重新啟動/重新開機後自動啟動 | 檢查作業系統啟動資料夾或初始化程式 |
-| AEM Screens Player顯示錯誤/舊的內容 | 檢查網路連線 |
+| AEM Screens Player不會在播放器重新啟動或重新開機後自動啟動 | 檢查作業系統啟動資料夾或初始化程式 |
+| AEM Screens Player顯示錯誤或舊內容 | 檢查網路連線 |
 
 ### AEM Screens Player更新
 
@@ -140,7 +140,7 @@ AEM Screens Player有兩種型別的更新：
 | **方法** | **詳細資料** | **經由遠端** | **自動化** | **0停機時間** |
 |---|---|---|---|---|
 | 韌體更新 | 透過遠端指令套用至現有的已安裝播放器。 更新後，播放器會自動重新載入現有的內容。 | 是 | 自訂 | 幾乎 — 1-3秒 |
-| 播放器殼層更新 | 這是要部署在播放器上的新可執行檔。 這需要在播放器上遠端複製新的二進位檔，並停止目前執行的專案，然後啟動新版本。 這可能需要再次下載套件的預先載入。 | 是（透過遠端shell） | 自訂 | 否 |
+| 播放器殼層更新 | 部署在播放器上的新可執行檔。 此功能需要您在播放器上遠端複製新的二進位檔，並停止目前執行的專案，然後啟動新版本。 它可能需要再次下載套件的預先載入。 | 是（透過遠端shell） | 自訂 | 否 |
 
 ## 播放器裝置的硬體選擇准則 {#hardware-selection-guidelines-for-player-device}
 
