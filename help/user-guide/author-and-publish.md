@@ -2,9 +2,9 @@
 title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Screens需要三個復寫代理：
 
    >[!NOTE]
    >
-   >使用者必須檢查 **已啟用** 以啟用復寫代理。 在「預設」、「畫面」和「反向復寫代理」上核取此選項。
+   >使用者必須檢查 **已啟用** 以啟用復寫代理程式。 在「預設」、「畫面」和「反向復寫代理」上核取此選項。
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -101,14 +101,14 @@ Screens需要三個復寫代理：
    >您也可以複製和重新命名現有的預設復寫代理程式。
 
 
-#### 建立標準復寫代理  {#creating-standard-replication-agents}
+#### 建立標準復寫代理 {#creating-standard-replication-agents}
 
 1. 為pub1建立標準復寫代理程式（應已設定立即可用的預設代理程式）。 例如 *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
 1. 建立pub2的標準復寫代理程式。 您可以複製pub1的復寫代理程式，並變更傳輸組態中的連線埠，更新要用於pub2的傳輸。 例如，*`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*。
 
 #### 建立Screens復寫代理 {#creating-screens-replication-agents}
 
-1. 建立pub1的AEM Screens復寫代理程式。 現成可用的有一個名為Screens的復寫代理程式指向連線埠4503。 啟用它。
+1. 建立pub1的AEM Screens復寫代理程式。 現成可用的一個已命名的Screens復寫代理程式指向連線埠4503。 啟用它。
 1. 建立pub2的AEM Screens復寫代理程式。 複製pub1的Screens復寫代理程式，並將pub2的連線埠變更為指向4504。
 
    >[!NOTE]
@@ -169,7 +169,7 @@ Screens需要三個復寫代理：
 1. 按一下 **Apache ActiveMQ Artemis JMS提供者** 設定
 1. 更新下列專案：
 
-   * ***叢集密碼***：針對各個執行個體使用先前步驟的加密值
+   * ***叢集密碼***：針對個別執行個體使用先前步驟的加密值
    * ***主題***： `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### 驗證ActiveMQ Artemis叢集 {#verify-activemq-artemis-cluster}
@@ -197,7 +197,7 @@ Screens需要三個復寫代理：
 
 #### 移除反向連結標題要求 {#remove-referrer-header-requirement}
 
-請依照每個Publish執行個體上的步驟操作：
+請依照每個發佈執行個體中的步驟操作：
 
 1. 導覽至 **OSGi控制檯** > **組態管理員**
 1. 按一下 **Apache Sling查閱者篩選器**
@@ -252,7 +252,7 @@ Screens需要三個復寫代理：
 
 >[!CAUTION]
 >
->請勿啟動author-publish-screens-service，因為它是作者工作使用的系統使用者。
+>請勿啟用author-publish-screens-service，因為它是作者工作使用的系統使用者。
 
 您也可以從「裝置管理主控台」啟動裝置。 請遵循下列步驟：
 
@@ -264,7 +264,7 @@ Screens需要三個復寫代理：
 
 >[!NOTE]
 >
->或者，在啟動裝置後，您也可以編輯或更新伺服器URL。 按一下 **編輯伺服器URL** 之後，您的變更會從動作列傳播至AEM Screens Player，如下圖所示。
+>或者，在啟動裝置後，您也可以編輯或更新伺服器URL。 在動作列中，按一下 **編輯伺服器URL**，如下圖所示。 您的變更會傳播至AEM Screens Player。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,12 +272,12 @@ Screens需要三個復寫代理：
 
 下列幾點為「發佈檢查」清單的摘要：
 
-* *熒幕裝置使用者*  — 這會儲存為AEM使用者，並且可從以下位置啟用： **工具** > **安全性** > **使用者**. 使用者會以含有長序列化字串的「畫面」為前置詞。
+* *熒幕裝置使用者*  — 此資訊會儲存為AEM使用者，並且可從以下位置啟用： **工具** > **安全性** > **使用者**. 使用者會以含有長序列化字串的「畫面」為前置詞。
 
 * *專案* - AEM Screens專案。
-* *位置*  — 裝置所連線的位置。
-* *頻道*  — 此位置顯示的一或多個色版
-* *排程*  — 如果使用排程，請確保已發佈此排程
+* *位置*  — 裝置連線的位置。
+* *頻道*  — 此位置顯示的一或多個色版。
+* *排程*  — 如果使用排程，請確定此排程已發佈。
 * *位置、時程表和頻道資料夾*  — 如果對應的資源在資料夾內。
 
 請依照下列步驟操作，確認編寫和發佈行為：
@@ -285,14 +285,14 @@ Screens需要三個復寫代理：
 1. 更新Author例項上的部分管道內容。
 1. 執行 **管理發布** 以發佈對所有Publish執行個體的新變更。
 1. 按下 **啟動** 以從啟動裝置 **裝置管理員**.
-1. **編輯URL** 從製作執行個體URL至其中一個發佈執行個體URL。
+1. 選取 **編輯URL** 從製作執行個體URL至其中一個發佈執行個體URL。
 1. 驗證AEM Screens Player上是否顯示更新的頻道內容。
 1. 使用不同的Publish例項重複這些步驟。
 
 
 #### 步驟5：在管理面板中將裝置指向發佈執行個體 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. 從Screens播放器檢視Admin UI，長按左上角，以開啟「管理員」功能表、開啟觸控式AEM Screens Player或使用滑鼠。
+1. 從Screens播放器檢視Admin UI，長按左上角，就能在觸控式AEM Screens Player上或使用滑鼠開啟Admin功能表。
 1. 按一下 **設定** 選項。
 1. 在中將作者執行個體變更為發佈執行個體 **伺服器**.
 
@@ -302,7 +302,7 @@ Screens需要三個復寫代理：
 
 1. 導覽至您的AEM Screens專案，然後按一下 **裝置** 資料夾。
 1. 按一下 **裝置管理員** 從動作列移除。
-1. 按一下裝置，然後按一下 **編輯伺服器URL** 從動作列傳入，如下圖所示，而您的變更會傳播至AEM Screens Player。
+1. 按一下裝置，然後從動作列按一下 **編輯伺服器URL**，如下圖所示。 您的變更會傳播至AEM Screens Player。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -325,4 +325,4 @@ Screens需要三個復寫代理：
 ### 如何解決Screens復寫代理錯誤？ {#replication-agent}
 
 **解決方案**
-請確定您尚未在代理程式設定中勾選「使用反向復寫」選項。 Screens復寫代理程式無法當作反向復寫代理程式使用，此功能的範圍是將裝置命令從製作轉送至發佈。
+請確定您尚未在代理程式設定中勾選「使用反向復寫」選項。 Screens復寫代理程式無法當作反向復寫代理程式使用，此功能的範圍是將裝置命令從Author轉送到Publish。
