@@ -2,14 +2,14 @@
 title: AEM平台組態
 description: 此頁面說明AEM平台組態
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-# AEM平台組態  {#platform-configurations}
+# AEM平台組態 {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如果只有一個「作者」和一個「發佈」，您只能遵循下的步驟 **在作者上設定復寫代理** 在 [在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 頁面。
+>如果只有一個作者和一個發佈，您只能遵循下的步驟 **在作者上設定復寫代理** 在 [在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 頁面。
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
 ## 密碼限制 {#password-restrictions}
 
-必須在AMS執行個體上停用AEM的密碼原則。 這可以在Web主控台中使用Screens裝置服務進行交替設定 *com.adobe.cq.screens.device.impl.DeviceService*
+必須在AMS執行個體上停用AEM的密碼原則。 您也可以使用Screens裝置服務在Web主控台中交替進行設定 *com.adobe.cq.screens.device.impl.DeviceService*
 另請參閱 **密碼限制** 中的區段[在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## 設定環境 {#setting-up-environments}
@@ -71,4 +71,4 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
 設定ACL說明如何區隔專案，讓每個個人或團隊處理自己的專案。
 
-請參閱 [設定ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) 以取得更多詳細資料。
+另請參閱 [設定ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) 以取得更多詳細資料。

@@ -1,9 +1,9 @@
 ---
 title: AEM Screens的安全性檢查清單
 description: 進一步瞭解AEM Screens的安全性檢查清單。
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # AEM Screens的系統安全性考量事項 {#security-checklist}
 
 >[!IMPORTANT]
->這是內部Git資源。
+>內部Git資源。
 
 本頁面著重說明AEM Screens的系統安全性考量事項。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## AEM Screens安全性常見問題集 {#faqs-screens}
 
-下列常見問題集假設已驗證並註冊的播放器架構使用HTTPS作為播放器與AEM伺服器之間的通訊通訊協定。
+下列常見問題集採用已驗證的註冊播放器架構。 它使用HTTPS作為播放器與AEM伺服器之間的通訊協定。
 
 ### 常見問題集1 {#faq1}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 **回答**
 
-使用HTTP。 如果您擔心安全性，這是必備條件。 若使用HTTP，播放器與伺服器之間的通訊會經過加密，且將無法攔截內容或進行修改。
+使用HTTP。 如果您擔心安全性，此通訊協定是必要的。 若使用HTTP，播放器與伺服器之間的通訊會經過加密，且將無法攔截內容或進行修改。
 
 
 ### 常見問題集3 {#faq3}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **回答**
 
-每個資產都會由伺服器簽署(SHA)，然後由播放器針對相同的雜湊進行驗證，以確保完整性。
+每個資產都由伺服器簽署(SHA)。 然後播放器會針對相同的雜湊驗證該檔案，以確保完整性。
 如果雜湊不符，軟體會嘗試重新驗證三次。 在第三次嘗試後，下載命令會被視為無效。
 
 

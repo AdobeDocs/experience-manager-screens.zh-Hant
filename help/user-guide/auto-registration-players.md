@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 登入您的AEM執行個體，按一下您的AEM Screens專案，然後按一下 **屬性** 從動作列移除。
 1. 按一下 **進階** 標籤，讓您可以檢視 **裝置註冊** 區段。
 
-1. 在中指定自動註冊代碼 **大量註冊代碼** 欄位和選用的預設顯示位置 **預設顯示指派** 以指派給自動註冊的播放器。
+1. 在中指定自動註冊代碼 **大量註冊代碼** 欄位。 然後，選用的預設會顯示在 **預設顯示指派** 以指派給自動註冊的播放器。
 
    >[!NOTE]
    >輸入您選擇的程式碼，並視需要按一下預設顯示。
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 * 確保註冊代碼不會受損 — 在開始大量註冊之前先在AEM中設定代碼，完成後，清除該欄位並儲存在AEM中。
 
-* 您可以設定路徑 `/bin/screens/registration` 僅在已知IP範圍中可存取（如果可能）。
+* 您可以設定路徑 `/bin/screens/registration` 因此可能的話，也只能從已知的IP範圍存取。
 
 * 考慮使用MDM以設定布建播放器。
 
 * 永遠使用 `HTTPS` 而非 `HTTP` 用於與AEM的播放器通訊。
 
   >[!NOTE]
-  >預設顯示指定目前僅適用於大量註冊，不適用於沒有註冊代碼的手動註冊。
+  >預設顯示指派目前僅適用於大量註冊。 當註冊代碼不可用時，它無法用於手動註冊。

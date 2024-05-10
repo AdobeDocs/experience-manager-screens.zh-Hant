@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2161'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
 
 1. 此 **screens-weretail-run.ui.apps** 套件會在下方安裝程式碼 `/apps/weretail-run`.
 
-   此套件包含負責呈現專案自訂元件的程式碼。 此套件包含元件程式碼以及所需的任何JavaScript或CSS。 此套件也會嵌入 **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** 其中包含專案所需的任何Java™程式碼。
+   此套件包含負責呈現專案自訂元件的程式碼。 此套件包含元件程式碼以及所需的任何JavaScript或CSS。 此套件也會嵌入 **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** 包含專案所需的任何Java™程式碼。
 
    >[!NOTE]
    >
@@ -84,11 +84,11 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   此套件包含專案所需的起始內容和設定結構。 **`/conf/we-retail-run`** 包含的所有設定 `We.Retail` 執行專案。 **`/content/dam/we-retail-run`** 包括開始專案的數位資產。 **`/content/screens/we-retail-run`** 包含Screens內容結構。 所有這些路徑下的內容主要是在AEM中更新。 為了提高環境（本機、開發、舞台、生產）之間的一致性，通常會將基本內容結構儲存在原始檔控制中。
+   此套件包含專案所需的起始內容和設定結構。 **`/conf/we-retail-run`** 包含的所有設定 `We.Retail` 執行專案。 **`/content/dam/we-retail-run`** 包括開始專案的數位資產。 **`/content/screens/we-retail-run`** 包含Screens內容結構。 所有這些路徑的內容主要是在AEM中更新。 為了提高環境（本機、開發、舞台、生產）之間的一致性，通常會將基本內容結構儲存在原始檔控制中。
 
 1. **導覽至AEM Screens > `We.Retail` 執行專案：**
 
-   從AEM「開始」功能表，按一下畫面圖示。 驗證 `We.Retail` 出現執行專案。
+   從AEM「開始」功能表，按一下「畫面」圖示。 驗證 `We.Retail` 出現執行專案。
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -116,7 +116,7 @@ AEM Screens有一些有趣的限制，不適用於傳統WCM Sites元件。
 
    /apps/weretail-run/components/content/helloworld的屬性
 
-   此 **Hello World** 元件延伸 **foundation/components/parbase** 元件，以便在序列頻道中正確使用。
+   此 **Hello World** 元件延伸 **foundation，元件， parbase** 元件，以便在序列頻道中正確使用。
 
 1. 在下方建立檔案 `/apps/weretail-run/components/content/helloworld` 已命名 `helloworld.html.`
 
@@ -158,7 +158,7 @@ AEM Screens有一些有趣的限制，不適用於傳統WCM Sites元件。
    </div>
    ```
 
-   以上是Hello World元件的生產標籤。 A `data-duration` 屬性包含在內，因為元件用於序列頻道上。 此 `data-duration` 屬性是序列管道用來瞭解序列專案要顯示多久。
+   以上是Hello World元件的生產標籤。 A `data-duration` 屬性包含在內，因為元件用於序列頻道上。 此 `data-duration` 「序列」管道會使用屬性來瞭解序列專案要顯示多久。
 
    元件會呈現 `div` 和 `h1` 標籤文字。 `${properties.message}` 是HTL指令碼的一部分，會輸出名為的JCR屬性的內容 `message`. 稍後會建立一個對話方塊，讓使用者可以輸入 `message` 屬性文字。
 
@@ -191,13 +191,13 @@ AEM Screens有一些有趣的限制，不適用於傳統WCM Sites元件。
 
    以上是Hello World元件的已編輯標籤。 如果已填入對話方塊訊息，第一個區塊會顯示元件的已編輯版本。
 
-   如果沒有輸入對話方塊訊息，則會轉譯第二個區塊。 此 `cq-placeholder` 和 `data-emptytext` 轉譯標籤 ***Hello World*** 在該情況下為預留位置。 可使用i18n將標籤的字串國際化，以支援在多個語言環境中撰寫。
+   如果未輸入任何對話方塊訊息，則會轉譯第二個區塊。 此 `cq-placeholder` 和 `data-emptytext` 轉譯標籤 ***Hello World*** 在該情況下為預留位置。 可使用i18n將標籤的字串國際化，以支援在多個語言環境中撰寫。
 
 1. **複製Screens影像對話方塊以用於Hello World元件。**
 
-   最簡單的方式是從現有的對話方塊開始，然後進行修改。
+   最簡單的做法是從現有的對話方塊開始，然後進行修改。
 
-   1. 複製對話方塊來源： `/libs/screens/core/components/content/image/cq:dialog`
+   1. 從下列位置複製對話方塊： `/libs/screens/core/components/content/image/cq:dialog`
    1. 在下方貼上對話方塊 `/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
@@ -272,7 +272,7 @@ AEM Screens有一些有趣的限制，不適用於傳統WCM Sites元件。
 
 使用者端資料庫提供一種機制，可整理和管理AEM實施所需的CSS和JavaScript檔案。
 
-AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同。 已建立兩個使用者端程式庫：一個用於編輯模式，另一個用於預覽/生產模式。
+AEM Screens元件在編輯模式與預覽 — 生產模式中的轉譯方式不同。 已建立兩個使用者端程式庫：一個用於編輯模式，另一個用於預覽 — 生產模式。
 
 1. 為Hello World元件的使用者端資料庫建立資料夾。
 
@@ -294,9 +294,9 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared的屬性
 
-   categories屬性是識別使用者端程式庫的字串。 cq.screens.componentscategory會用於編輯和預覽/生產模式。 因此，在sharedclientlib中定義的任何CSS/JS都會以所有模式載入。
+   categories屬性是識別使用者端程式庫的字串。 cq.screens.componentscategory會用於編輯和預覽生產模式。 因此，在sharedclientlib中定義的任何CSS或JS都會以所有模式載入。
 
-   最佳實務是絕對不要在生產環境中直接向/apps公開任何路徑。 allowProxy屬性可確保透過前置詞of/etc.clientlibs來參考使用者端程式庫CSS和JS。
+   最佳實務是，任何直接 `/apps` 絕不應該在生產環境中公開。 allowProxy屬性可確保透過前置詞參考使用者端程式庫CSS和JS。 `/etc.clientlibs`.
 
 1. 建立名為的檔案 `css.txt` 共用資料夾的下方。
 
@@ -342,7 +342,7 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
 
 1. 更新 `categories` 要建置的生產使用者端程式庫屬性 `cq.screens.components.production.`
 
-   這可確保僅在「預覽/生產」模式中載入樣式。
+   這麼做可確保只在「預覽 — 生產」模式中載入樣式。
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/production的屬性](assets/2018-04-30_at_5_04pm.png)
 
@@ -394,7 +394,7 @@ AEM Screens使用 [靜態頁面範本](https://experienceleague.adobe.com/en/doc
    | 名稱 | 類型 | 值 |
    |---|---|---|
    | `jcr:title` | 字串 | `We.Retail` 執行 |
-   | `sling:resourceType` | 字串 | wcm/core/components/designer |
+   | `sling:resourceType` | 字串 | `wcm`， `core`， `components`， `designer` |
    | `cq:doctype` | 字串 | html_5 |
 
    ![位於/apps/settings/wcm/designs/we-retail-run的設計頁面](assets/2018-05-07_at_1219pm.png)
@@ -403,7 +403,7 @@ AEM Screens使用 [靜態頁面範本](https://experienceleague.adobe.com/en/doc
 
 ## 建立順序頻道 {#create-sequence-channel}
 
-Hello World元件適用於序列頻道。 若要測試元件，則會建立新的「順序頻道」。
+Hello World元件適用於序列頻道。 為了測試元件，會建立新的「序列」通道。
 
 1. 從AEM「開始」功能表，導覽至 **Screens** > **`We.Retail`執行** >並按一下 **頻道**.
 
@@ -441,7 +441,7 @@ Hello World元件適用於序列頻道。 若要測試元件，則會建立新�
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. 切換頁面模式至 **編輯**. 現在可將Hello World元件新增至頁面，並與其他序列頻道元件結合。
+1. 切換頁面模式至 **編輯**. Hello World元件現在可以新增到頁面，並與其他「序列」頻道元件結合。
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
@@ -453,11 +453,11 @@ Hello World元件適用於序列頻道。 若要測試元件，則會建立新�
 
 ## 自訂處理常式的範本 {#custom-handlers}
 
-如果您的自訂元件使用外部資源，例如資產（影像、影片、字型和圖示）、特定資產轉譯或使用者端資料庫（css和js），這些不會自動新增到離線設定。 原因是因為預設只會整合HTML標示。
+如果您的自訂元件使用外部資源，例如資產（影像、影片、字型和圖示）、特定資產轉譯或使用者端資料庫（css和js），這些資源不會自動新增到離線設定。 原因是因為預設只會整合HTML標示。
 
-為了讓您自訂並最佳化下載至播放器的確切資產，Adobe為自訂元件提供擴充機制，向AEM Screens中的離線快取邏輯公開其相依性。
+為了讓您自訂並最佳化下載至播放器的確切資產，Adobe提供擴充功能機制。 此機制可供自訂元件向AEM Screens中的離線快取邏輯公開其相依性。
 
-下節將展示自訂離線資源處理常式的範本，以及 `pom.xml` 特定專案的。
+下節將展示自訂離線資源處理常式的範本。 它也會顯示 `pom.xml` 特定專案的。
 
 ```java
 package …;
@@ -546,7 +546,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
       </dependencies>
 ```
 
-**注意** ：若是AEMaaCS，請在中使用以下相依性 `pom.xml` 特定專案的。
+**注意** ：如果有AEMas a Cloud Service，請在中使用以下相依性 `pom.xml` 特定專案的。
 
 ```css
    <dependencies>
@@ -574,7 +574,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 1. 不要直接擴充 `foundation/components/parbase`，您必須擴充其中一項 `screens/core/components/content/page` 或 `screens/core/components/content/experiencefragment`
 2. 您用來參照內嵌內容的屬性名稱必須是 `pagePath`.
 
-使用這兩個Screens核心元件也隨附其他好處，讓這些元件能妥善套件您所需的部分相依性（使用者端程式庫、字型等）。 作法是透過「元件」對話方塊中的離線設定選項來執行，如此一來，您便不需負責處理必須使用的任何自訂離線處理常式。 有時甚至可以完全移除一開始使用測試的需求。
+使用這兩個Screens核心元件也隨附其他好處，讓這些元件能妥善套件您所需的部分相依性（使用者端程式庫、字型等）。 此功能是透過元件對話方塊中的離線組態選項來完成。 如此一來，您將無需負責任何自訂離線處理常式。 有時甚至可以完全移除一開始使用測試的需求。
 
 ## 完成的程式碼 {#finished-code}
 
