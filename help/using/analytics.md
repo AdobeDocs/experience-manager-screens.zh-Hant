@@ -2,9 +2,9 @@
 title: Analytics與AEM Screens
 description: 瞭解使用Adobe Experience Manager Screens的Adobe Analytics。
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >此活動的一般利害關係人為行銷/業務策略師。
 
-AEM Screens提供在本機擷取每個播放器裝置執行之每個可追蹤事件的功能。 此資料會儲存在本機，直到可以上傳至雲端進行處理為止。 除了所有事件資料外，也會新增deviceID和timestamp。 這可確保來自一個播放器的資料可與來自另一個播放器的資料區分開來，並可在當天不同時間執行的資料（如有需要）。
+AEM Screens可以在本機擷取每個播放器裝置執行的每個可追蹤事件。 此資料會儲存在本機，直到可以上傳至雲端進行處理為止。 除了所有事件資料外，也會新增deviceID和timestamp。 此功能可確保將一個播放器的資料與其他播放器區分開來。 此外，一天中不同時間執行的資料可視需要個別評估。
 
 您擷取此資料有兩個基本原因。
 

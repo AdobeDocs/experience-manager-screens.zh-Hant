@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 說明 {#description}
 
-在此使用案例中，Google工作表會填入兩家餐廳的訂位百分比 **`Restaurant1`** 和 **`Restaurant2`**. 根據下列的值套用公式： `Restaurant1` 和 `Restaurant2` 而且根據公式，值1或2會指派給 **adtarget** 欄。
+在此使用案例中，Google工作表會填入兩家餐廳的訂位百分比 **`Restaurant1`** 和 **`Restaurant2`**. 根據下列的值套用公式： `Restaurant1` 和 `Restaurant2` 而且，根據公式，值1或2會指派給 **adtarget** 欄。
 
 如果 **`Restaurant1`** > **`Restaurant2`**，然後 **AdTarget** 已指派值 **1** 否則 **adtarget** 已指派值 **2**. 值1產生 *牛排食品* 選項和值二會顯示 *泰國菜* 選項。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >您應該已設定您的 **ContextHub** **設定** 使用通道 **屬性** > **個人化** 標籤。
+   >您的 **ContextHub** **設定** 使用通道 **屬性** > **個人化** 索引標籤此時應該已經設定。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

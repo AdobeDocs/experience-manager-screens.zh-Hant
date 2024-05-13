@@ -10,10 +10,10 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-一個 ***體驗片段*** 是一組一或多個元件，包括可在頁面中參考的內容和版面。 體驗片段可以包含任何元件，例如一個或多個元件，這些元件可以包含段落系統中被參考到完整體驗或由第三個端點請求的任何內容。
+一個 ***體驗片段*** 是一組一或多個元件，包括可在頁面中參考的內容和版面。 體驗片段可以包含任何元件。 例如，它可包含一或多個元件，這些元件可包含段落系統中被參考至完整體驗或由第三個端點請求的任何內容。
 
 
 ## 在AEM Screens中使用體驗片段 {#using-experience-fragments-in-aem-screens}
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 以下工作流程以為例，示範如何使用中的體驗片段 `We.Retail` 在Sites中。 您可以選取網頁，並在其中一個專案的AEM Screens頻道中使用該內容。
 
-### 必要條件  {#pre-requisites}
+### 必要條件 {#pre-requisites}
 
 **使用頻道建立示範專案**
 
@@ -92,7 +92,7 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   附註：若要按一下較簡單的選項，請按一下欄位右側的核取記號，以開啟選取對話方塊。
+   若要選取較簡單的選項，請按一下欄位右側的核取記號，以開啟選取對話方塊。
 
 1. **建立體驗片段的即時副本**
 
@@ -121,7 +121,7 @@ A **TestChannel** 已新增至您的 **示範專案**.\
 
    1. 按一下 **離線設定** 標籤，如下圖所示。
 
-   您可以新增 **使用者端資料庫** (Java™和css)和 **靜態檔案** 至您的體驗片段。
+   您可以新增 **使用者端資料庫** (Java™和CSS)和 **靜態檔案** 至您的體驗片段。
 
    以下範例顯示新增使用者端程式庫和字型作為靜態檔案的一部分到您的體驗片段。  ![片段](assets/fragment.gif)
 

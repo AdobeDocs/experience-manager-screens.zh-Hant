@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ SmartSync可將伺服器負載/儲存及網路流量降至最低，以降低成�
 
 * **使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合**
 
-本節說明如何使用AEM SPA編輯器以REACT (或Angular)內嵌互動式單頁應用程式。 編輯器可由AEM中的商務專業人員設定。 同時也說明如何將互動式應用程式與離線Adobe Analytics整合。
+本節說明如何使用AEM SPA編輯器以REACT (或Angular)內嵌互動式單頁應用程式。 AEM中的商務專家可以設定編輯器。 同時也說明如何將互動式應用程式與離線Adobe Analytics整合。
 
 另請參閱 **[使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)** 以取得更多詳細資料。
 

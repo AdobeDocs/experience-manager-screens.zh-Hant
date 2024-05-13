@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 * *獲得比透過UI手動選取更好的效能*
 * *可讓客戶從自己的系統匯出位置，並輕鬆地將位置直接匯入AEM*
 
-這樣在初始專案設定期間或將現有AEM Screens擴充到新位置時，就能節省時間和金錢。
+在初始專案設定期間或將現有AEM Screens擴充到新位置時，此程式可節省時間和金錢。
 
 ## 架構概述 {#architectural-overview}
 
@@ -51,14 +51,14 @@ ht-degree: 1%
 | **屬性** | **說明** |
 |---|---|
 | ***`path {string*}`*** | 位置的資源路徑 |
-| ***`[./jcr:title] {string*}`*** | 要使用的範本名稱（也就是位置） *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | 要使用的範本名稱(即 *screens/core/templates/location*) |
 | ***`template {string}`*** | 用於頁面的選用標題 |
 | ***`[./jcr:description] {string}`*** | 用於頁面的選擇性說明 |
 
 因此，試算表(CSV/XLS)檔案需要下列欄：
 
 * **路徑 {string}**  — 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾(即 *`/foo`* 已匯入至 *`/content/screens/<project>/locations/foo`*)
-* **範本 {string}**  — 用於新位置的範本，目前唯一允許值為「location」，但未來將擴充至所有Screens範本(`display`， `sequencechannel`，等等)
+* **範本 {string}**  — 用於新位置的範本，目前唯一允許值為「location」，但此值日後會擴充至所有Screens範本(`display`， `sequencechannel`，等等)
 * **[。/*] {string}**  — 要在位置設定的任何選擇性屬性(即 `./jcr:title`， `./jcr:description`， `./foo, ./bar`)。 目前的版本不允許篩選。
 
 >[!NOTE]

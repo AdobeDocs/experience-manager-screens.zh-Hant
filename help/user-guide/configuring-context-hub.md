@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 1%
 
 **區段**  — 要針對指定規則播放的資產版本。 例如，如果溫度低於華氏50度，則熒幕會顯示熱飲的影像，否則會顯示冷飲。
 
-下圖以視覺化方式呈現ContextHub設定與活動、受眾和管道的一致性。
+下圖以視覺化方式呈現ContextHub設定與「活動」、「對象」和「管道」的對應情形。
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## 先決條件 {#preconditions}
 
-開始為AEM Screens專案設定Context Hub Configurations之前，請先設定Google Sheets （以供示範之用）。
+開始為AEM Screens專案設定ContextHub設定前，請先設定Google Sheets （以供示範之用）。
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 您可以將資料存放區設定為本機I/O事件或本機資料庫事件。
 
-下列資產層級資料觸發器範例會示範本機資料庫事件，此事件設定了資料存放區，例如Excel工作表，此工作表可讓您使用ContextHub設定和AEM Screens通道的區段路徑。
+下列資產層級資料觸發器範例會示範本機資料庫事件。 事件會設定資料存放區（例如Excel工作表），供您使用ContextHub設定和AEM Screens通道的區段路徑。
 
 在您設定 `google` 工作表正確無誤，如下列範例所示：
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->以下特定範例會展示Google工作表作為資料存放區，在值大於100或小於50時觸發資產變更。
+>以下特定範例將Google工作表示範為當值高於100或低於50時觸發資產變更的資料存放區。
 
 ## 步驟2：設定存放區設定 {#step-setting-store-configurations}
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 
       >[!CAUTION]
       >
-      >如果您在全域資料夾之外（例如，在您自己的專案資料夾中）建立Google Sheets存放區設定，則目標定位無法立即運作。
+      >如果您建立Google工作表來將設定儲存於全域資料夾之外（例如，在您自己的專案資料夾中），則定位無法立即運作。
 
 1. **設定商店分段**
 
@@ -166,7 +166,7 @@ ht-degree: 1%
 
    1. 從您的AEM執行個體瀏覽至 **個人化** > **受眾** > **畫面**.
 
-   1. 按一下 **建立** > **建立內容中心區段。** 此 **新ContextHub區段** 對話方塊開啟。
+   1. 按一下 **建立** > **建立ContextHub區段。** 此 **新ContextHub區段** 對話方塊開啟。
 
    1. 輸入 **標題** 作為 `**Higherthan50**` 並按一下 **建立**. 同樣地，建立另一個標題為 `**Lowerthan50**`.
 
@@ -219,7 +219,7 @@ ht-degree: 1%
 
 ## 步驟5：在活動中建立區段 {#step-setting-up-audience-segmentation}
 
-在您設定資料存放區並定義活動（品牌和區域）後，請遵循下列步驟以在活動中建立區段。
+在您設定資料存放區並定義活動（品牌和區域）後，請依照下列步驟在活動中建立區段。
 
 1. **在活動中建立區段**
 
@@ -304,7 +304,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >使用ContextHub和區段路徑，您最初會在此儲存您的ContextHub設定和區段。
+      >使用ContextHub和區段路徑，您最初儲存您的ContextHub設定和區段時可使用此路徑。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >如果您已正確設定所有專案，請檢視 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
+      >如果您已正確設定所有專案，則會看到 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub21.png)
 

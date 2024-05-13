@@ -9,16 +9,16 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
 
 # 視訊播放設定及疑難排解 {#video-playback-configuration-and-troubleshooting}
 
-上傳影片至DAM並將其新增至您的頻道時，您可能會遇到影片無法在AEM Screens Player中播放的問題。
+上傳影片至DAM並新增至您的頻道時，您可能會遇到影片無法在AEM Screens Player中播放的問題。
 
 以下章節說明如何在您的頻道中針對播放視訊進行除錯和疑難排解。
 
@@ -33,19 +33,19 @@ ht-degree: 1%
 
 應該有不同的轉譯（MP4或M4V）。
 
-如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
+如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝FFMPEG。
 
 >[!CAUTION]
 >
->如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝ffmpeg。
+>如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝FFMPEG。
 >
->按一下 [此處](https://www.ffmpeg.org/download.html) 以安裝ffmpeg。
+>按一下 [此處](https://www.ffmpeg.org/download.html) 以安裝FFMPEG。
 
 ## 視訊資產 {#video-assets}
 
 如果您在視訊底下沒有看到來源屬性，可能是視訊沒有獲得轉解碼。 如果視訊正確轉碼，就會顯示在控制面板中，如下所示：
 
-檢查是否已安裝ffmpeg以及視訊設定檔。
+檢查是否已安裝FFMPEG以及視訊設定檔。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. 上傳測試視訊並按一下 **確定** 以便您開始轉碼。
 
-   如果轉碼後的視訊失敗，請展開ffmpeg輸出來瞭解ffmpeg主控台輸出中的任何錯誤。
+   如果轉碼視訊失敗，請展開FFMPEG輸出以瞭解FFMPEG主控台輸出中的任何錯誤。
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 使用 **網頁播放器** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 驗證瀏覽器（Chrome和Safari）中的播放。 Chrome可在Android™裝置上使用，而Safari可在OS X和iOS瀏覽器上使用。
 
-如果影片無法在Safari上執行，則無法在OS X和iOS播放器中執行。 這可能是編碼問題，因此必須對視訊重新編碼。
+如果影片無法在Safari上執行，則無法在OS X和iOS播放器中執行。 此問題可能是編碼問題，因此必須對視訊重新編碼。
 
 若要使用DAM工作流程來建立FullHD轉譯，請執行以下操作：
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要進一步瞭解在Chrome中使用新自動播放原則提供良好使用者體驗的最佳實務，請參閱以下檔案： *自動播放原則變更* 在 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>若要進一步瞭解在Chrome中使用新自動播放原則以獲得良好使用者體驗的最佳實務。 另請參閱 *自動播放原則變更* 在 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### 跨多個播放器同步視訊 {#syncing-video-across-multiple-players}
 

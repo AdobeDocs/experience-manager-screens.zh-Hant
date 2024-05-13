@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    **排程頻率**  — 指定此監視器應傳送電子郵件的時間（例如，下午5:00或17:00）或頻率（例如，1）。
 
-   **Ping逾時**  — 這指定間隔（以分鐘為單位），之後裝置應視為無法連線。
+   **Ping逾時**  — 此欄位會指定間隔（分鐘），在此間隔後裝置應視為無法連線。
 
    **SMTP伺服器**  — 指定用於傳送電子郵件的SMTP伺服器。
 
@@ -91,11 +91,14 @@ ht-degree: 0%
 
 存取該連結會直接將您導覽至裝置控制面板。
 
-只有當至少有一部裝置在指定的ping逾時期間未執行ping動作，且在產生電子郵件時仍未執行ping動作時，才會傳送電子郵件。
+只有符合以下條件時才傳送電子郵件：
+
+* 至少有一個裝置在指定的ping逾時期間未執行ping動作，而且
+* 在產生電子郵件時仍未發出Ping。
 
 ### 範例使用案例 {#example-use-cases}
 
-以下範例說明一些可作為參考的情況，以便從Screens裝置電子郵件監視服務設定屬性。
+以下範例說明一些案例，以供從Screens裝置電子郵件監視服務設定屬性時參考。
 
 **案例1**
 
@@ -103,4 +106,4 @@ ht-degree: 0%
 
 **案例2**
 
-您已將排程頻率設為1，並將Ping逾時設為60。 然後，如果您的AEM Screens裝置未在一天的任何特定時間執行一次Ping操作，您會收到電子郵件通知，確認裝置未使用中。
+您已將排程頻率設為1，並將Ping逾時設為60。 然後，如果您的AEM Screens裝置未在一天中的任意特定時間立即ping通，您會收到電子郵件通知，確認裝置處於非使用狀態。

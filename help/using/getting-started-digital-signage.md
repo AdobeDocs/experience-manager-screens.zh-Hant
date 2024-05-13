@@ -2,9 +2,9 @@
 title: 數位招牌基本概念 [!UICONTROL AEM Screens]
 description: 瞭解數位看板專案的基本概念。
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 在深入探討AEM Screens實施最佳實務之前，務必要將專案視為數位招牌專案，而非傳統的軟體開發。
 
-本節提供在AEM Screens專案實作前具有關鍵性的主要關鍵元素的相關建議。
+本節提供對於AEM Screens專案實作至關重要的主要關鍵元素的相關建議。
 
 ## 數位招牌的關鍵元素 {#key-elements}
 
@@ -47,7 +47,7 @@ ht-degree: 0%
    安裝包括：
    * 顯示：橫向或縱向
    * 如何掛載熒幕？
-      * 縱向與橫向
+      * 縱向與橫向比較
       * 完整外殼
       * 蓋板
    * 夾具支援
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. **環境**
 
-   環境著重於：
+   環境強調：
    * 顯示位置？
       * 內部與外部
       * 無法聯絡或直接公開

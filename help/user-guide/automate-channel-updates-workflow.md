@@ -1,5 +1,5 @@
 ---
-title: 使用工作流程自動化AEM Screens頻道的資產更新
+title: 使用工作流程來自動更新AEM Screens頻道的資產
 description: 瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並動態將其指派至Screens頻道。
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -7,24 +7,24 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
 
-# 使用工作流程自動化AEM Screens頻道的資產更新 {#automate-channel-updates-workflow}
+# 使用工作流程來自動更新AEM Screens頻道的資產 {#automate-channel-updates-workflow}
 
-瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並動態將其指派至Screens頻道。 在此範例中，將影像新增至特定資料夾時，會觸發套用動態文字覆蓋（浮水印程式）的工作流程，並將影像指派至Screens色版。 從這個範例中學到的經驗教訓可以應用於各種自動化情境。
+瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並動態將其指派至Screens頻道。 在此範例中，將影像新增至特定資料夾時會觸發工作流程。 工作流程會套用動態文字覆蓋（浮水印程式），並將影像指派給Screens頻道。 從這個範例中學到的經驗教訓可以應用於各種自動化情境。
 
 ## 先決條件 {#prerequisites}
 
 若要完成本教學課程，您需要下列專案：
 
 1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65)
-1. [AEM Service Pack 8或更新版本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+1. [AEM Service Pack 8或更新版本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)
 1. [AEM 6.5 Screens FP7或更新版本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
 
 ## 快速設定 {#quick-setup}
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 ## 工作流程模型 {#workflow-model}
 
-已建立自訂資料夾中繼資料結構，以擷取應新增影像的目標Screens頻道。 使用兩個工作流程模型來自動化資產處理。 此 **DAM更新資產** 修改工作流程以呼叫自訂工作流程 **Screens示範資產處理** ，可檢查資產的容納資料夾以決定目標Screens頻道。 此 **Screens示範資產處理** 工作流程也負責將浮水印套用至影像。
+已建立自訂資料夾中繼資料結構，以擷取應新增影像的目標Screens頻道。 使用兩個工作流程模型來自動化資產處理。 此 **DAM更新資產** 編輯工作流程以呼叫自訂工作流程**Screens示範資產處理，可檢查資產的容納資料夾以決定目標Screens頻道。 此 **Screens示範資產處理** 工作流程也負責將浮水印套用至影像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

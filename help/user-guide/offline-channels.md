@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -77,14 +77,14 @@ Screens播放器使用 ***ContentSync*** 技術。
 
 請依照下列步驟測試ContentSync設定：
 
-1. 開啟 `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. 在清單中按一下您的設定
-1. 按一下清除快取
-1. 按一下更新快取
-1. 按一下「下載完整部分」
-1. 解壓縮zip檔案
-1. 在擷取的資料夾中啟動本機伺服器
-1. 開啟您的開始頁面並檢查您的應用程式狀態
+1. 開啟 `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. 在清單中按一下您的設定。
+1. 按一下 **清除快取**.
+1. 按一下 **更新快取**.
+1. 按一下 **下載完整部分**.
+1. 解壓縮zip檔案。
+1. 在擷取的資料夾中啟動本機伺服器。
+1. 開啟您的開始頁面，並檢查您的應用程式狀態。
 
 ## 啟用頻道的離線設定 {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Screens播放器使用 ***ContentSync*** 技術。
 
 >[!NOTE]
 >
->若要進一步瞭解自訂離線資源處理常式的範本，以及中的最低需求 `pom.xml` 有關特定專案，請參閱 [自訂處理常式的範本](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 在 **為AEM Screens開發自訂元件**.
+>瞭解自訂離線資源處理常式的範本。 此外，進一步瞭解 `pom.xml` 專案的。 另請參閱 [自訂處理常式的範本](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 在 **為AEM Screens開發自訂元件**.
