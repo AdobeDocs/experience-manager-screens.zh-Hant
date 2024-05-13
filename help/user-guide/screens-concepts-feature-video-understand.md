@@ -7,9 +7,9 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. Screens播放器
 
-若要下載AEM Screens Player，請按一下 [此處](https://download.macromedia.com/screens/). 此外，AEM Screens也適用於 [Google Play商店](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+若要下載AEM Screens Player，請按一下 [此處](https://download.macromedia.com/screens/). 此外，您也可以在以下位置使用AEM Screens： [Google Play商店](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 以下影片詳細說明如何建立新管道、撰寫新內容，以及將管道新增至可重複使用的排程。 大致上來說，它會遵循 [Screens Kickstart指南](kickstart-for-aem-screens.md).
 

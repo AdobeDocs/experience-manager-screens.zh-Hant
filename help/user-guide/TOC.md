@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用數位簽署解決方案，發佈動�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 11%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 11%
    + [第4部分：專案管理與部署](project-management-and-deployment.md)
    + [第5部分：支援考量事項](support-considerations.md)
 + 設定和管理 {#administering}
-   + [Screens伺服器設定](configuring-screens-introduction.md)
+   + [設定Screens伺服器](configuring-screens-introduction.md)
    + [設定Dispatcher設定](dispatcher-configurations-aem-screens.md)
    + [安裝 Screens 播放器](installing-screens-player.md)
    + [連線Screens播放器](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [從ContentSync轉換為SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器復寫至發佈伺服器](replicating-data-triggers.md)
-   + [設定Screens復寫代理](configure-screens-replication.md)
+   + [在Screens上設定復寫代理](configure-screens-replication.md)
    + 使用者端特有的考量事項 {#installing-client}
       + [Chrome作業系統播放器](implementing-chrome-os-player.md)
       + [使用Chrome播放器作為疑難排解的擴充功能](using-chrome-player-as-an-extension.md)
@@ -112,7 +112,7 @@ ht-degree: 11%
    + [建立MultiZone配置圖的自訂範本](creating-custom-templates-multizone-layouts.md)
    + [套用文字覆蓋圖的自訂品牌和樣式](custom-branding-text-overlays.md)
    + [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md)
-+ 疑難排解和常見問答( FAQ) {#troubleshooting}
++ 疑難排解和常見問題( FAQs) {#troubleshooting}
    + [AEM Screens常見問題集](aem-screens-faqs.md)
    + [疑難排解裝置控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)

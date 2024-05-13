@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 「內容指派報表」不僅可讓您預覽所選AEM Screens專案中的所有頻道、資產、顯示區和裝置，並提供您專案的高層級結構。
 
 
-### 必要條件  {#pre-reqs}
+### 必要條件 {#pre-reqs}
 
 下載「內容指派報表」之前，請確定您已設定包含頻道、位置和裝置的AEM Screens專案。
 如需更多詳細資訊，請參閱下列資源：
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. 下載的試算表包含兩個標籤，例如 **位置** 和 **內容**. 「位置」標籤會顯示四欄，例如 **位置**， **顯示區**， **頻道**、和 **裝置** ，可用來進一步調查與您的AEM Screens專案相關的這四個實體。
+1. 下載的試算表包含兩個標籤，例如 **位置** 和 **內容**. 「位置」標籤會顯示四欄，例如 **位置**， **顯示區**， **頻道**、和 **裝置** 這些區段可用於調查與您的AEM Screens專案相關的四個實體。
 
    ![影像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
