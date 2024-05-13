@@ -4,9 +4,9 @@ description: 瞭解如何設定Screens復寫代理。
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 目標 {#objective}
 
-Screens復寫代理程式負責帶入命令資料，例如 *使用者*， *密碼*， *rebootSchedule*， *maxNumberOfLogFilesToKeep*，以及發佈到作者的更多這類值。 您必須進行此設定，讓作者可以顯示裝置Ping。
+Screens復寫代理程式負責帶入命令資料，例如 *使用者*， *密碼*， *rebootSchedule*， *maxNumberOfLogFilesToKeep*，以及發佈到作者的更多這類值。 請務必設定此代理程式，讓作者可以顯示裝置Ping。
 
 >[!NOTE]
 >若要深入瞭解Screens復寫代理，請參閱 [Screens復寫代理和命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -104,7 +104,7 @@ Screens復寫代理程式負責帶入命令資料，例如 *使用者*， *密�
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 在作者上搜尋所有AEM Screens復寫代理，然後按一下連結，如下圖所示。
+1. 在作者上搜尋所有AEM Screens復寫代理程式，然後按一下連結，如下圖所示。
 
    >[!NOTE]
    >搜尋所有AEM Screens復寫代理。 Screens復寫代理程式名稱包含字母 **S** 在標題中。

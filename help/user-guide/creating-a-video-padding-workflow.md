@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 下列使用案例涉及將視訊（範例： 1280 x 720）放置在顯示為1920 x 1080的通道中，並將視訊放置在0x0 （左上方）。 視訊不應以任何方式延伸或修改，且請勿使用 **封面** 在視訊元件中。
 
-視訊會以物件的形式顯示，從畫素1到畫素1280 （橫跨畫素1），以及從畫素1到畫素720 （朝下），而色版的其餘部分則是預設顏色。
+視訊會以物件的形式顯示，從畫素1到畫素1280 （橫跨畫素1），以及從畫素1到畫素720 （朝下）。 色版的其餘部分為預設顏色。
 
 ## 先決條件 {#prerequisites}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 按一下 **模型** > **建立** > **建立模型**. 輸入 **標題** (as **視訊轉譯**)和 **名稱** 在 **新增工作流程模型**. 按一下 **完成** 以新增工作流程模型。
+1. 按一下 **模型** > **建立** > **建立模型**. 輸入 **標題** (例如 **視訊轉譯**)和 **名稱** 在 **新增工作流程模型**. 按一下 **完成** 以新增工作流程模型。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 

@@ -5,9 +5,9 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 本頁可協助您瞭解分別發佈這些設定所需的手動步驟。
 
-這基本上歸結為手動發佈：
+此過程基本上取決於手動發佈以下內容：
 
 1. ContextHub存放區和UI模組設定
 1. 個人化對象
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. 按一下 **下一個** 和 **發佈**.
 
-### 復寫活動  {#replicating-activities}
+### 復寫活動 {#replicating-activities}
 
 1. 導覽至您的AEM執行個體> **個人化** > **活動** 或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 以直接導覽。
 
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 如果復寫ContextHub設定時測試連線失敗，請遵循以下章節以疑難排解問題：
 
-1. 導覽至工具> **部署** > **分佈** > **發佈代理程式**.
+1. 瀏覽至 **工具** > **部署** > **分佈** > **發佈代理程式**.
 
-1. 按一下 **編輯** 並確保中的端點URL **匯入工具端點** 欄位也指向發佈代理程式中的發佈伺服器URL。
+1. 按一下 **編輯** ，並確認端點URL位於 **匯入工具端點** 欄位也指向發佈代理程式中的發佈伺服器URL。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則必須使用不同的使用者名稱和密碼來設定發佈代理程式。

@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 下節將說明如何使用ACL來分隔專案，以便每個個人或團隊處理自己的專案。
 
-身為AEM管理員，您想要確保專案的團隊成員不會干預其他專案，並根據專案要求指派特定角色給每個使用者。
+身為AEM管理員，您想要確保專案的團隊成員不會干預其他專案。 每個使用者都會根據專案需求獲派特定角色。
 
 ## 設定許可權 {#setting-up-permissions}
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 | `/content/screens/<project>` | 全部 | 移除/content/screens底下所有其他專案的存取權。 |
 | `/content/screens/svc` | 讀取 | 提供註冊服務的存取權。 |
 | `/libs/screens` | 讀取 | 提供DCC的存取權。 |
-| `/var/contentsync/content/screens/` | 全部 | 可讓您更新專案的離線內容。 |
+| `/var/contentsync/content/screens/` | 全部 | 協助您更新專案的離線內容。 |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ ht-degree: 2%
   </tr>
   <tr>
    <td>Screens播放器<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>所有播放器和所有播放器/裝置會自動分組為貢獻者成員。</td>
+   <td>所有播放器和所有播放器/裝置會自動成為貢獻者成員。</td>
    <td><p> 貢獻者成員</p> </td>
   </tr>
  </tbody>

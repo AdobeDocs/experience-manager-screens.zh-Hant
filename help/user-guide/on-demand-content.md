@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >預設會勾選所有方塊，您必須手動取消勾選方塊才能發佈專案中的所有模組。
+   >依預設，所有方塊都會勾選，您必須手動取消勾選方塊以發佈專案中的所有模組。
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
    >    1. 如果作者在選取「 」後未完成復寫程式（內容仍上傳至發佈執行個體），工作流程將無法運作 **發佈** 管理工作流程中的按鈕。
 
    >[!CAUTION]
-   >如果身為作者或內容建立者，您想要檢視附加至作者例項的裝置變更，請按一下 **更新離線內容** 從頻道控制面板中或透過選取專案。 在此情況下，更新離線內容僅會在作者執行個體中執行。
+   >作為內容建立者，如果您想檢視附加至製作例項的裝置變更，請按一下 **更新離線內容** 從頻道控制面板中或選取專案。 在此情況下，離線內容的更新只會在Author例項中執行。
 
 1. 導覽至專案並按一下 **更新離線內容** 從動作列移除。 這個動作會將相同的命令轉送給發佈執行個體，因此離線ZIP也會在發佈執行個體上建立。
 

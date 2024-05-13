@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >此 **TestTransition** 頻道中已經有很少的資產（影像和影片）。 例如， **TestTransition** 頻道包含三個影像和兩個影片，如下所示：
+   >此 **TestTransition** 頻道中已有一些資產（影像和影片）。 例如， **TestTransition** 頻道包含三個影像和兩個影片，如下所示：
 
    ![image2](assets/transitions2.png)
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >將轉變新增至管道中的資產之前，請務必不要在循序管道中的第一個資產之前新增轉變。 管道中的第一個專案必須是資產，而非轉變。
+   >將轉變新增至頻道中的資產之前，請務必不要在循序頻道中的第一個資產之前新增轉變。 管道中的第一個專案必須是資產，而非轉變。
 
    ![image3](assets/transitions3.png)
 
@@ -54,6 +54,6 @@ ht-degree: 0%
    >
    >依預設，轉變元件的屬性，例如 **型別** 設為 **淡化** 和 **持續時間** 設為 *1600毫秒*. 此外，不建議將轉換持續時間設定為超過套用到的資產。
 
-1. 此外，如果您新增 **內嵌順序** 元件（包括順序色版）至此色版編輯器，您可以在結尾新增轉變元件。 這可確保內容以正確順序播放，如下圖所示：
+1. 此外，如果您新增 **內嵌順序** 元件（包括順序色版）至此色版編輯器，您可以在結尾新增轉變元件。 這麼做可確保內容以正確順序播放，如下圖所示：
 
    ![image3](assets/transitions5.png)

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 您可以從播放器檢視所需的輸出，或只要選取「 」 **預覽** 從編輯器中。
 
-輸出會示範多區域配置如何播放 *10000毫秒* 然後切換到播放持續時間的單一區域版面 *3000毫秒* 然後切換回多區域版面配置。
+輸出會示範多區域配置如何播放 *10000毫秒*. 然後，它會切換為播放持續時間的單一區域配置 *3000毫秒*. 最後，它會切換回多區域版面配置。
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

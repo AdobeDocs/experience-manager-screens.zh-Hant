@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '704'
 ht-degree: 4%
 
 ---
@@ -41,17 +41,17 @@ A ***即時副本*** 是特定網站內容的復本，其中會維持與原始�
 
 或者，您也可以參閱下列步驟，瞭解建立頻道新即時副本的視覺表示。
 
-下列範例顯示如何建立即時副本(***IdleLiveCopy***)用於 ***閒置頻道*** 將目的地資料夾設為 ***頻道***.
+下列範例顯示如何建立即時副本(***IdleLiveCopy***)用於 ***閒置頻道*** 目標資料夾為 ***頻道***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
 ## 檢視即時副本管道的內容 {#viewing-content-of-the-live-copy-channel}
 
-即時副本是已存在的管道副本。
+即時副本是現有的管道副本。
 
 若要檢視即時副本的內容，請參閱下列步驟：
 
-1. 導覽至Screens專案，然後按一下您最初建立即時副本的位置，如上節所示。 (在此，選擇位置為 **頻道** 資料夾)
+1. 導覽至Screens專案，然後按一下您最初建立即時副本的位置，如上節所示。 (在此，地點被選為 **頻道** 資料夾)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ A ***即時副本*** 是特定網站內容的復本，其中會維持與原始�
 
 模式 **即時副本狀態**，如下圖所示，可讓您檢視頻道中所有資產的關係狀態。
 
-1. 按一下 **編輯** 以便您選擇 **即時副本狀態** 和檢視您的頻道內容與原始頻道（產生即時副本的來源）的關聯。
+1. 按一下 **編輯** 以便您選擇 **即時副本狀態**. 您也可以檢視頻道內容與產生即時副本之原始頻道的關聯。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 

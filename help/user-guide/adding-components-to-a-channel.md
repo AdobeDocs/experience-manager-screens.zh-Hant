@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1417'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ Channel元件具有以下屬性：
 
 >[!NOTE]
 >
->若要深入瞭解內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在製作畫面區段下。
+>若要深入瞭解內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在「製作畫面」區段下。
 
 內嵌序列可讓您在現有管道中新增內嵌序列管道（包含其他資產）。
 
@@ -157,7 +157,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期完全執行。 另一個可能的值是 <strong>單一</strong>. 每次執行時，這類值只會顯示一個子序列專案。 例如，第一個回圈上的第一個專案，以及第二個回圈上的第二個專案。</td>
+   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期完全執行。 另一個可能的值是 <strong>單一</strong>. 這樣的值在每次執行時只會顯示一個子序列專案。 例如，第一個回圈上的第一個專案，以及第二個回圈上的第二個專案。</td>
   </tr>
  </tbody>
 </table>
@@ -166,7 +166,7 @@ Channel元件具有以下屬性：
 
 動態內嵌序列可讓您新增與上述類似的序列，但頻道角色除外。
 
-若要瞭解內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在製作畫面區段下。
+若要深入瞭解內嵌序列，請參閱 [內嵌順序](embedded-sequences.md) 在「製作畫面」區段下。
 
 動態內嵌序列具有以下屬性：
 
@@ -186,7 +186,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>策略</em></strong></td>
-   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期完全執行。 另一個可能的值是 <strong>單一</strong>. 每次執行時，這類值只會顯示子序列的一個專案。 例如，第一個回圈上的第一個專案，以及第二個回圈上的第二個專案。</td>
+   <td>將其設為 <strong>原始</strong> 或 <strong>單一</strong>. 將值設為 <strong>原始</strong> 表示子序號會在父序號的每個週期完全執行。 另一個可能的值是 <strong>單一</strong>. 這樣的值在每次執行時只會顯示子序列的一個專案。 例如，第一個回圈上的第一個專案，以及第二個回圈上的第二個專案。</td>
   </tr>
  </tbody>
 </table>
@@ -206,7 +206,7 @@ Channel元件具有以下屬性：
 | ***持續時間*** | 選取在頻道中播放的體驗片段的整個期間。 |
 | **離線設定** |
 | ***使用者端資料庫*** | JavaScript和CSS檔案。 |
-| ***靜態檔案*** | 您可以新增為離線設定至體驗片段的靜態檔案。 |
+| ***靜態檔案*** | 您可以新增為體驗片段的離線設定的靜態檔案。 |
 
 >[!NOTE]
 >
@@ -293,7 +293,7 @@ Channel元件具有以下屬性：
   </tr>
   <tr>
    <td><strong><em>啟用結束日期</em></strong></td>
-   <td>說明轉變何時可以啟用的時間戳記。</td>
+   <td>時間戳記會提供說明，直到轉變可以啟動為止。</td>
   </tr>
   <tr>
    <td><strong><em>計劃</em></strong></td>
