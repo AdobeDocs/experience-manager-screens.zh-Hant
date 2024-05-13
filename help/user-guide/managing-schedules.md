@@ -1,6 +1,6 @@
 ---
 title: 建立和管理排程
-description: 瞭解可將管道組織成可重複使用的群組的排程，這樣您就不必針對要顯示內容的每個顯示分別重複其指派。
+description: 瞭解可將管道組織成可重複使用的群組的排程，如此您就不必個別重複其指派。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # 建立和管理排程 {#creating-and-managing-schedules}
 
-**時程表** 在AEM Screens中，您可以將管道組織成可重複使用的群組，如此您就不必針對您想要顯示內容的每個顯示分別重複其指派。
+**時程表** AEM Screens可讓您將管道組織成可重複使用的群組。 如此一來，您就不必針對要顯示內容的每個顯示分別重複指定任務。
 
 排程，與合併時 ***日時段分割***，可讓您設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示設定的。
 

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    ![資產](assets/single-takeover4.png)
 
-1. 設定管道的位置和顯示。 例如，下列專案 **大廳** 位置和  **MainLobbyDisplay** 已為此專案設定顯示。
+1. 設定管道的位置和顯示。 例如，下列專案 **大廳** 位置和 **MainLobbyDisplay** 已為此專案設定顯示。
 
    ![資產](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ ht-degree: 0%
      >[!NOTE]
      >優先順序可以是高於正常播放頻道優先順序值的任何值。
    * **支援的事件**：按一下 **閒置畫面** 和 **計時器**.
-   * **排程**：輸入您要此頻道執行顯示的排程文字。 例如，此處的文字可讓內容在12月31日凌晨12:00前播放2分鐘到凌晨12:01。此文字在 **排程** 本範例中提及的是 *12月31日23:58之後以及1月1日00.01之前*.
+   * **排程**：輸入您想要此頻道在顯示上執行的排程文字。 例如，此處的文字可讓內容在12月31日凌晨12:00前播放2分鐘到凌晨12:01。此文字在 **排程** 本範例中提及的是 *12月31日23:58之後以及1月1日00.01之前*.
 
      ![資產](assets/single-takeover8.png)
 
-     瀏覽至顯示區，從 **SingleUseTover** > **位置** > **大廳** > **MainLobbyDisplay** 並按一下 **儀表板** ，以便您檢視指派的管道及其優先順序，如下所示。
+     瀏覽至顯示區，從 **SingleUseTover** > **位置** > **大廳** > **MainLobbyDisplay**. 按一下 **儀表板** ，以便您檢視指派的管道及其優先順序，如下所示。
 
      >[!NOTE]
      >強制將接管管道的優先順序設定為最高。

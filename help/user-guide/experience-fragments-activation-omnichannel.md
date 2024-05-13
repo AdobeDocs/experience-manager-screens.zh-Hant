@@ -1,7 +1,7 @@
 ---
 title: 體驗片段啟用
 description: 此使用案例範例可協助您瞭解與AEM Screens相關的體驗片段啟用。
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 在AEM Screens專案中實作體驗片段 {#experience-fragments-implementation}
 
-當您建立了體驗片段並套用至您的AEM Screens專案時， **示範專案** 您可以根據需求增強體驗片段。
+當您建立了體驗片段並套用至您的AEM Screens專案時， **示範專案**，您就可以根據自己的需求增強體驗片段。
 
 ### 增加文字大小 {#increasing-text-size}
 

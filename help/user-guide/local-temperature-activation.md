@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >您應該已設定您的 **ContextHub** **設定** 使用通道 **屬性** > **個人化** 標籤。
+   >您的 **ContextHub** **設定** 使用通道 **屬性** > **個人化** 索引標籤應已設定。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ ht-degree: 0%
 1. **檢查預覽**
 
    1. 按一下 **預覽。** 此外，請開啟Google工作表並更新其值。
-   1. 將值變更為小於50。 您應該能夠檢視冷飲的影像。 如果「Google工作表」中的值為50或更大，您應該會看到熱飲的影像。
+   1. 將值變更為小於50。 您可以檢視冷飲的影像。 如果「Google工作表」中的值為50或更大，您應該會看到熱飲的影像。
 
    ![result3](assets/result3.gif)

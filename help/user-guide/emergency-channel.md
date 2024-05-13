@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 使用案例說明 {#use-case-description}
 
-本節說明使用案例範例，著重於建立和管理緊急通道，如果存在先決條件，內容作者可從順序通道切換。
+本節說明使用案例範例。 它強調建立和管理緊急通道，內容作者可以在有先決條件時從順序通道切換。
 
 ### 先決條件 {#preconditions}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. **建立位置**
 
-   1. 瀏覽至 **位置** 資料夾。
+   1. 導覽至 **位置** 資料夾。
    1. 按一下 **建立** 並從動作列建立標題為的位置 **儲存** 從精靈中。
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ ht-degree: 0%
 
 此 **緊急通道** 會持續顯示其內容，直到內容作者將優先順序值重設為1為止。
 
-當內容作者收到緊急狀況已清除的指示時，他們應更新的 **MainAdChannel** 這會使正常播放繼續。
+當內容作者收到緊急狀況已清除的指示時，他們應更新的 **MainAdChannel**. 這樣做會導致恢復正常播放。

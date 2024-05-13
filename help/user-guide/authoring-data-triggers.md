@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您已正確設定所有專案，請檢視 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
+   >如果您已正確設定所有專案，則會看到 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

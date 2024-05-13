@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 3%
@@ -47,8 +47,8 @@ AEM元件可用來保留、格式化及轉譯可在網頁上使用的內容。
 
 | **Component** | **客戶庫** |
 |---|---|
-| *cq.screens.components.edit* | CSS和JS （必須在編寫期間載入） |
-| *cq.screens.components.production* | CSS和JS （頻道執行時必須載入） |
+| *cq.screens.components.edit* | 在編寫期間必須載入的CSS和JS |
+| *cq.screens.components.production* | 通道執行時須載入的CSS和JS |
 | *cq.screens.components* | 共用的CSS和JS |
 
 >[!NOTE]

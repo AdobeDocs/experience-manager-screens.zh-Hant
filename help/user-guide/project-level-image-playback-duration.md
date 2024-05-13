@@ -2,9 +2,9 @@
 title: 專案層級影像播放持續時間
 description: 瞭解如何在專案層級定義影像播放持續時間。
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
