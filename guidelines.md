@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ Adobe 會要求協助撰寫其說明文件須遵守特定風格準則。
 在文章中，一律稱全名以提及產品 **Adobe Experience Manager** 第一次使用時。 此後，可稱為 **AEM**.
 
 除非在類別名稱或提及 AEM 歷史等無法避免的情況下，否則不應使用 Day、Day Software、CQ 和 CRX。
+
