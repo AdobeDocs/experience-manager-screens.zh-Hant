@@ -3,9 +3,9 @@ title: 在Screens Cloud上標籤
 description: 本頁說明如何在Screens Cloud上建立、管理及使用標籤。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 建立和管理標籤 {#create-and-manage-tags}
 
-![視訊建立標籤](assets/tagging/create-tag.mp4).
+![建立標籤](assets/tagging/create-tag.gif).
 
 使用相同的動作選單重新命名標籤或刪除標籤。
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 在「顯示和播放器」上使用建立的標籤。 您最多可以使用30個標籤來標籤一個。
 
-![影片管理標籤指派](assets/tagging/assign-tags-to-players.mp4).
+![管理標籤指派](assets/tagging/assign-tags-to-players.gif).
 
 ## 依標籤篩選 {#filter-by-tags}
 
 選取標籤以篩選顯示區或播放器清單。
 
-![依標籤的視訊篩選](assets/tagging/filter-by-tags.mp4).
+![依標籤篩選](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
