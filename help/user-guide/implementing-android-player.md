@@ -1,5 +1,5 @@
 ---
-title: 實作Android&trade；播放器
+title: 實作Android&trade； Player
 description: 瞭解Android&trade； Watchdog的實作，此解決方案可讓您將Android&trade；播放器從當機中復原。
 contentOwner: Jyotika syal
 content-type: reference
@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 ### 為AEM Screens 6.5.5 Service Pack設定環境 {#fp-environment-setup}
 
 >[!NOTE]
->如果您使用AEM Screens 6.5.5 Service Pack，請為Android™播放器設定環境。
+>如果您使用Android 6.5.5 Service Pack，請為AEM Screens™播放器設定環境。
 
 設定 **登入權杖Cookie的SameSite屬性** 從 **鬆散** 至 **無** 從 **Adobe Experience Manager Web主控台設定** 在所有AEM作者和發佈執行個體上。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 臨機方法 {#ad-hoc-method}
 
-臨機操作方法可讓您安裝最新的Android™播放器(*.exe*)。 造訪 [**AEM 6.5播放器下載**](https://download.macromedia.com/screens/) 頁面。
+臨機操作方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪 [**AEM 6.5播放器下載**](https://download.macromedia.com/screens/) 頁面。
 
 下載應用程式後，請依照播放器上的步驟完成隨選安裝：
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 由於Android™的架構，重新啟動裝置需要應用程式具有系統許可權。 使用製造商的簽署金鑰簽署應用程式，否則監視程式可以重新啟動播放器應用程式，而不會重新啟動裝置。
 
-### Android™的招牌 `apks` 使用製造商金鑰 {#signage-of-android-apks-using-manufacturer-keys}
+### Android的招牌™ `apks` 使用製造商金鑰 {#signage-of-android-apks-using-manufacturer-keys}
 
 若要存取Android的某些特殊許可權API™例如 *PowerManager* 或 *Hdmicontrolservices*，簽署Android™ `apk` 使用製造商的金鑰。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 >
 >您應先安裝Android™ SDK，再執行下列步驟。
 
-請依照下列步驟，使用製造商的金鑰簽署Android™應用程式：
+請依照下列步驟，使用製造商的金鑰簽署Android™ apk：
 
 1. 從Google Play或下載應用程式 [AEM Screens播放器下載](https://download.macromedia.com/screens/) 頁面
 1. 向製造商取得平台金鑰，以便您取得 *pk8* 和 *pem* 檔案
@@ -90,9 +90,9 @@ ht-degree: 0%
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 安裝 ***aemscreensaligned.apk*** 在裝置上使用adb安裝
 
-## 瞭解Android™ Watchdog服務 {#android-watchdog-services}
+## 瞭解Android™監視程式服務 {#android-watchdog-services}
 
-跨Android看門狗服務是使用實作為Cordova外掛程式 *AlarmManager*.
+跨Android™監視程式服務是使用實作為Cordova外掛程式 *AlarmManager*.
 
 下圖顯示監視程式服務的實作：
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 大量布建Android™ Player {#bulk-provision-android-player}
 
-大量推出Android™播放器時，需要布建播放器以指向AEM執行個體並設定其他屬性，而不需在管理員UI中手動輸入。
+大量推出Android™播放器時，需要布建播放器以指向AEM執行個體，並設定其他屬性，而不需在管理員UI中手動輸入。
 
 >[!NOTE]
 >Android™播放器42.0.372提供此功能。
@@ -120,7 +120,7 @@ ht-degree: 0%
 1. 以名稱建立設定JSON檔案 `player-config.default.json`.
 檢視 [JSON原則範例](#example-json) 以及說明各種 [原則屬性](#policy-attributes).
 
-1. 使用MDM、ADB或Android™ Studio檔案總管將此原則JSON檔案拖放至 *sdcard* Android™裝置上的資料夾。
+1. 使用MDM、ADB或Android™ Studio檔案總管將此原則JSON檔案拖放至 *sdcard* Android ™資料夾。
 
 1. 部署檔案時，請使用MDM安裝播放器應用程式。
 
@@ -170,13 +170,13 @@ ht-degree: 0%
 >[!NOTE]
 >所有Android™裝置都有 `*sdcard*` 資料夾(無論是 `*sdcard*` 是否插入。 部署時，此檔案會與「下載」資料夾位於相同層級。 有些MDM （例如Samsung Knox）可能會看到這種情況 *sdcard* 資料夾位置為 *內部儲存*.
 
-## 使用企業行動性管理大量布建Android™ Player {#bulk-provisioning}
+## 使用企業行動管理大量布建Android™ Player {#bulk-provisioning}
 
-大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 使用EMM （企業行動管理）解決方案，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、MobileIron或Samsung Knox，讓您可從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
+大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 使用EMM （企業行動管理）解決方案，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、MobileIron或Samsung Knox，讓您可從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以允許遠端布建。
 
 ## 命名Android™ Player {#name-android}
 
-您可以指派好記的裝置名稱給您的Android™播放器，然後將指派的裝置名稱傳送給AEM (Adobe Experience Manager)。 此功能不僅可讓您為Android™播放器命名，也可讓您輕鬆指派適當的內容。
+您可以指派好記的裝置名稱給您的Android™播放器，然後將指派的裝置名稱傳送給AEM (Adobe Experience Manager)。 此功能不僅可讓您為Android™播放器命名，也可讓您輕鬆指派適當內容。
 
 >[!NOTE]
 >您只能在註冊之前選擇播放器名稱。 播放器註冊後，播放器名稱就無法再變更。
@@ -202,6 +202,6 @@ ht-degree: 0%
 
 此外，您也應該向EMM供應商洽詢AppConfig支援。 最受歡迎的內容，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)， [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)， [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)， [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)， [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、和 [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) 其他支援此產業標準。
 
-### 使用Screens遙控器 {#using-remote-control}
+### 使用Screens遠端控制 {#using-remote-control}
 
-AEM Screens提供遠端控制功能。 若要進一步瞭解此功能，請前往這裡： [熒幕遙控器](implementing-remote-control.md)
+AEM Screens提供遠端控制功能。 若要進一步瞭解此功能，請前往這裡： [Screens遠端控制](implementing-remote-control.md)

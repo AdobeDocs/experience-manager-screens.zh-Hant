@@ -3,7 +3,7 @@ title: 在Screens Cloud上標籤
 description: 本頁說明如何在Screens Cloud上建立、管理及使用標籤。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 簡介 {#introduction}
 
-使用者可以在Screens Cloud上建立標籤，並使用它們來分類顯示器和播放器。
+使用者可以在Screens Cloud上建立標籤，並使用它們來分類顯示和播放器。
 
 ## 建立和管理標籤 {#create-and-manage-tags}
 
@@ -49,5 +49,5 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
-> 在Screens Cloud上定義的標籤與AEM中定義的標籤無關/同步。
+> Screens Cloud上定義的標籤與AEM中定義的標籤並無關連/同步。
 > 
