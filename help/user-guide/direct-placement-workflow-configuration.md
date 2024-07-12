@@ -22,21 +22,21 @@ ht-degree: 1%
 
 直接放置工作流程設定會將AEM Screens專案頻道對應至資產中的特定資料夾，並可在該資料夾中放置任何資產。 Adobe建議您觸發大量離線更新，以完成發佈。
 
-或者，身為內容作者，您可以手動按一下 **更新離線內容**.
+或者，作為內容作者，您可以手動按一下&#x200B;**更新離線內容**。
 
 >[!NOTE]
 >
->若要瞭解如何使用大量離線更新，請參閱 [內容更新即服務](/help/user-guide/content-update-as-a-service.md).
+>若要瞭解如何使用大量離線更新，請參閱[內容更新即服務](/help/user-guide/content-update-as-a-service.md)。
 
 ## 設定直接放置工作流程 {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->開始設定前，請先安裝 `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. 安裝套件後，您應該能夠從AEM執行個體>工具（圖示） >檢視及存取套件 **工作流程** > **工作流程模型**.
+>開始設定之前，請先安裝`[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`。 安裝封裝後，您應該能夠從AEM執行個體>工具（圖示） > **工作流程** > **工作流程模型**&#x200B;檢視及存取它。
 
 請依照下列步驟設定直接放置工作流程：
 
-1. 從您的AEM執行個體瀏覽至AEM Screens，並建立標題為 **資產工作流程**.
+1. 從您的AEM執行個體瀏覽至AEM Screens，並建立標題為&#x200B;**資產工作流程**&#x200B;的Screens專案。
 
-1. 建立標題為 **Workflow-Assets** 在 **頻道** 資料夾。
+1. 在&#x200B;**管道**&#x200B;資料夾下建立標題為&#x200B;**工作流程 — Assets**&#x200B;的管道。
 

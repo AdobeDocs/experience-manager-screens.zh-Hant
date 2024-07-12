@@ -26,23 +26,23 @@ ht-degree: 2%
 
 下列步驟摘要說明為專案設定ACL的程式：
 
-1. 登入AEM並導覽至 **工具** > **安全性**.
+1. 登入AEM並導覽至&#x200B;**工具** > **安全性**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 按一下 **群組** 並輸入ID （例如Acme）。
+1. 按一下&#x200B;**群組**&#x200B;並輸入ID （例如Acme）。
 
-   或者，使用此連結， `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   或者，使用此連結`http://localhost:4502/libs/granite/security/content/groupadmin.html`。
 
-   接下來，按一下 **儲存**.
+   接著，按一下&#x200B;**儲存**。
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 按一下 **貢獻者** ，然後按兩下。
+1. 按一下清單中的&#x200B;**參與者**，然後按兩下。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 新增 **Acme** （您建立的專案） **新增成員至群組**. 按一下「**儲存**」。
+1. 將&#x200B;**Acme** （您建立的專案）新增至&#x200B;**新增成員至群組**。 按一下「**儲存**」。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,13 +50,13 @@ ht-degree: 2%
    >
    >如果您希望專案團隊成員註冊播放器（包括為每個播放器建立使用者），請尋找群組使用者管理員，並將ACME群組新增到使用者管理員
 
-1. 新增處理的所有使用者 **Acme** 專案至 **Acme** 群組。
+1. 將處理&#x200B;**Acme**&#x200B;專案的所有使用者新增至&#x200B;**Acme**&#x200B;群組。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 設定群組的許可權 **Acme** 使用此 `(http://localhost:4502/useradmin)`.
+1. 使用此`(http://localhost:4502/useradmin)`設定群組&#x200B;**Acme**&#x200B;的許可權。
 
-   按一下群組 **Acme** 並按一下 **許可權**.
+   按一下群組&#x200B;**Acme**&#x200B;並按一下&#x200B;**許可權**。
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -83,9 +83,9 @@ ht-degree: 2%
 
 例如，您可以建立下列專案特定群組：
 
-* 畫面專案管理員
-* Screens專案操作員（註冊播放器，以及管理位置和裝置）
-* 畫面專案使用者（處理頻道、排程和頻道指派）
+* Screens專案管理員
+* Screens專案操作者（註冊播放器，以及管理位置和裝置）
+* Screens專案使用者（處理頻道、時程表和頻道指派）
 
 下表摘要列出具有AEM Screens專案說明和許可權的群組：
 
@@ -132,7 +132,7 @@ ht-degree: 2%
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens播放器<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
+   <td>Screens Players<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>所有播放器和所有播放器/裝置會自動成為貢獻者成員。</td>
    <td><p> 貢獻者成員</p> </td>
   </tr>

@@ -20,12 +20,12 @@ ht-degree: 0%
 實施AEM Screens數位看板解決方案前，請先考量下列元素：
 
 * **位置**
-* **MediaZones**
-* **顯示區**
-* **正在排程**
+* **媒體區域**
+* **個顯示區**
+* **排程**
 * **預覽內容**
 
-若要進一步瞭解這些術語，請參閱 [字彙表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+若要進一步瞭解這些術語，請參閱[字彙表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary)。
 
 >[!NOTE]
 >
@@ -46,13 +46,13 @@ AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使�
 
 * [建立AEM Screens專案](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
 * [建立管道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [新增元件和資產至管道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [新增元件和資產至通道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
 * [建立排程](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
 * [建立位置](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
 * [建立顯示區](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [將色版指定給顯示區](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [指派頻道給顯示區](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [在AEM Screens播放器中檢視內容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [在AEM Screens Player中檢視內容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->您也可以從CSV/XLS試算表將一組位置大量匯入您的AEM Screens專案。 另請參閱 [從檔案新增專案匯入工具](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).
+>您也可以從CSV/XLS試算表將一組位置大量匯入您的AEM Screens專案。 請參閱檔案](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的[新專案匯入工具。

@@ -21,10 +21,10 @@ ht-degree: 3%
 
 AEM Screens已發行AEM 6.5 Feature Pack 8。
 
-若要下載AEM Screens 6.5.8版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP8**.
+您可以使用您的Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.8版的最新Feature Pack。 瀏覽至&#x200B;**Adobe Experience Manager**&#x200B;索引標籤並搜尋&#x200B;**Screens**，以取得標題為&#x200B;**AEM 6.5 Screens FP8**&#x200B;的最新功能套件。
 
 >[!IMPORTANT]
->安裝AEM 6.5 Feature Pack 8的最低版本，以便在您安裝套件後讓AMS聯結器運作 `screens-cloud-ams-pkg-0.0.20`， `screens-cloud-ams-pkg-0.0.16`，以及 `screens core bundles`.
+>安裝AEM 6.5 Feature Pack 8的最低版本，以便在您安裝封裝`screens-cloud-ams-pkg-0.0.20`、`screens-cloud-ams-pkg-0.0.16`和`screens core bundles`之後讓AMS聯結器運作。
 
 ## 發行日期 {#release-date}
 
@@ -34,9 +34,9 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 
 * **在AEM Screens頻道中鎖定頁面**
 
-  AEM Screens現在支援 *鎖定頁面*，實作於AEM Sites。 Adobe Experience Manager (AEM)可讓您鎖定頁面，不讓其他人編輯內容。 當您對某個特定頁面進行大量編輯，或必須凍結頁面一段時間時，此功能非常有用。
+  AEM Screens現在支援&#x200B;*鎖定頁面*，如已在AEM Sites中實作。 Adobe Experience Manager (AEM)可讓您鎖定頁面，不讓其他人編輯內容。 當您對某個特定頁面進行大量編輯，或必須凍結頁面一段時間時，此功能非常有用。
 
-* **命名AEM Screens播放器裝置**
+* **命名AEM Screens Player裝置**
 
   AEM Screens播放器現在包含將裝置名稱傳送至Adobe Experience Manager (AEM)的功能。
 根據預設，當使用大量註冊來註冊裝置時，系統產生的使用者名稱會輸入在標題欄位中。 另外，客戶可能會使用資產標籤或其他易記名稱，以便在AEM中可見，且更易於指派適當內容。
@@ -69,4 +69,4 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。

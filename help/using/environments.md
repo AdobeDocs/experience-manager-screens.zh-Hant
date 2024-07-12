@@ -1,5 +1,5 @@
 ---
-title: 環境 [!UICONTROL AEM Screens]
+title: '[!UICONTROL AEM Screens]的環境'
 description: 進一步瞭解AEM Screens專案的環境。
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 環境 {#environments}
 
-預先判斷使用者端具有和預期您會使用的AEM環境，兩者皆適用於 *開發* 和 *部署*.
+預先判斷使用者端有哪些AEM環境，以及您預期要使用哪些，同時用於&#x200B;*開發*&#x200B;和&#x200B;*部署*。
 
 >[!NOTE]
 >

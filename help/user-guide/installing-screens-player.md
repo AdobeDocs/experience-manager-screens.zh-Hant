@@ -17,23 +17,23 @@ ht-degree: 1%
 
 本頁說明如何安裝AEM Screens Player。
 
-## 可用的Screens播放器 {#available-players}
+## 可用的Screens Player {#available-players}
 
-AEM Screens Player適用於Android™、Chrome作業系統及Windows。
+AEM Screens Player適用於Android™、Chrome作業系統和Windows。
 
-若要下載 **AEM Screens Player**，造訪 [AEM 6.5播放器下載](https://download.macromedia.com/screens/) 頁面。
+若要下載&#x200B;**AEM Screens Player**，請造訪[AEM 6.5播放器下載](https://download.macromedia.com/screens/)頁面。
 
 >[!NOTE]
 >
->下載最新播放器後(*.exe*)，請依照播放器上的步驟操作，以完成隨選安裝：
+>下載最新的播放器(*.exe*)之後，請依照播放器上的步驟進行，以便完成臨機安裝：
 >
 >1. 長按左上角以開啟「管理」面板。
->1. 瀏覽至 **設定** 從左側動作功能表，然後輸入AEM執行個體的位置地址。 **伺服器** 並按一下 **儲存**.
->1. 按一下 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
+>1. 從左側動作功能表瀏覽至&#x200B;**組態**，並在&#x200B;**伺服器**&#x200B;中輸入AEM執行個體的位置位址，然後按一下&#x200B;**儲存**。
+>1. 按一下左側動作功能表的&#x200B;**註冊**&#x200B;連結，然後依照下列步驟完成裝置註冊程式。
 
 ## 基本播放監視 {#playback-monitoring}
 
-播放器會報告各種播放量度，每種 `ping` 預設為30秒。 根據這些量度，它可以偵測各種邊緣情況，例如停滯體驗、空白畫面和排程問題。 它可讓我們瞭解裝置的問題並進行疑難排解，為您加快調查和修正措施。
+播放器會報告每個`ping`預設為30秒的各種播放量度。 根據這些量度，它可以偵測各種邊緣情況，例如停滯體驗、空白畫面和排程問題。 它可讓我們瞭解裝置的問題並進行疑難排解，為您加快調查和修正措施。
 
 AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
@@ -45,15 +45,15 @@ AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
 ### 瞭解屬性 {#understand-properties}
 
-下列屬性包含在每個 `ping`：
+下列屬性包含在每個`ping`中：
 
 | 屬性 | 說明 |
 |---|---|
-| id {string} | 播放器識別碼 |
+| 識別碼{string} | 播放器識別碼 |
 | activeChannel {string} | 目前播放管道路徑，或若未排定任何專案，則為null |
 | activeElements {string} | 以逗號分隔的字串，目前所有播放順序頻道中可見的元素（多區域版面配置中有多個） |
 | isDefaultContent {boolean} | 如果播放頻道被視為預設或遞補頻道（即優先順序為1且沒有排程），則為true |
-| hasContentChange {boolean} | 如果內容在過去5分鐘內變更，則為true ；否則為false |
+| hasContentChanged {boolean} | 如果內容在過去5分鐘內變更，則為true ；否則為false |
 | lastContentChange {string} | 上次內容變更的時間戳記 |
 
 >[!NOTE]
@@ -61,7 +61,7 @@ AEM Screens Player中的基本播放監視可讓您進行下列工作：
 >
 >| 屬性 | 說明 |
 >|---|---|
->| isContentRender {boolean} | 如果GPU可以確認正在播放實際內容（根據畫素分析），則為true |
+>| isContentRendering {boolean} | 如果GPU可以確認正在播放實際內容（根據畫素分析），則為true |
 
 ### 限制 {#limitations}
 
@@ -69,7 +69,7 @@ AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
 * 播放器會向伺服器報告自己的播放狀態，因此需要使用中的連線。
 
-* 此 `isContentRendering` 檢查GPU的屬性會耗費更多資源，預設為啟用，且需要播放器偏好設定中的明確選擇加入。 Adobe建議您不要在生產環境中的影片中使用。
+* 檢查GPU的`isContentRendering`屬性在預設情況下會更耗用資源，而且需要播放器偏好設定中的明確選擇加入。 Adobe建議您不要在生產環境中的影片中使用。
 
 * 此功能僅支援序列頻道，尚未涵蓋互動式頻道(SPA)使用案例。
 
@@ -79,8 +79,8 @@ AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
 如需深入資訊，請參閱下列主題：
 
-* 若要下載Android™ Player，請造訪 **Google Play**. 若要瞭解如何實作Android™ Watchdog，請參閱 [實作Android™播放器](implementing-android-player.md).
+* 若要下載Android™ Player，請造訪&#x200B;**Google Play**。 若要瞭解如何實作Android™ Watchdog，請參閱[實作Android™播放器](implementing-android-player.md)。
 
-* 若要實作Chrome作業系統播放器，請參閱 [Chrome管理主控台](implementing-chrome-os-player.md) 以取得詳細資訊。
+* 若要實作Chrome OS Player，請參閱[Chrome管理主控台](implementing-chrome-os-player.md)以取得詳細資訊。
 
-* 若要設定AEM Screens Windows Player，請參閱 [實作Windows Player](implementing-windows-player.md).
+* 若要設定AEM Screens Windows Player，請參閱[實作Windows Player](implementing-windows-player.md)。

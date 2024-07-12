@@ -30,11 +30,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->下載最新的Windows Player之後(*.exe*)，從 [AEM 6.4播放器下載](https://download.macromedia.com/screens/) 請依照播放器上的步驟完成隨選安裝：
+>從[AEM 6.4 Player下載](https://download.macromedia.com/screens/)頁面下載最新的Windows Player (*.exe*)之後，請依照播放器上的步驟完成隨選安裝：
 >
 >1. 長按左上角以開啟「管理」面板。
->1. 瀏覽至 **設定** 從左側動作功能表，然後輸入AEM執行個體的位置地址。 **伺服器** 並按一下 **儲存**.
->1. 按一下 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
+>1. 從左側動作功能表瀏覽至&#x200B;**組態**，並在&#x200B;**伺服器**&#x200B;中輸入AEM執行個體的位置位址，然後按一下&#x200B;**儲存**。
+>1. 按一下左側動作功能表的&#x200B;**註冊**&#x200B;連結，然後依照下列步驟完成裝置註冊程式。
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -43,21 +43,21 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. 在AEM中，導覽至 **裝置** 資料夾。
+1. 在AEM中，導覽至您專案的&#x200B;**裝置**&#x200B;資料夾。
 
    >[!NOTE]
    >
-   >若要取得在AEM儀表板中建立畫面專案的詳細資訊，請參閱 [建立和管理Screens專案](creating-a-screens-project.md).
+   >若要取得有關在AEM儀表板中建立Screens專案的詳細資訊，請參閱[建立和管理Screens專案](creating-a-screens-project.md)。
 
-1. 按一下 **裝置管理員** 按鈕。
+1. 按一下動作列中的&#x200B;**裝置管理員**&#x200B;按鈕。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 按一下 **裝置註冊** 按鈕。
+1. 按一下右上角的&#x200B;**裝置註冊**&#x200B;按鈕。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 按一下所需的裝置（與步驟1相同），然後按一下 **註冊裝置**.
+1. 按一下所需的裝置（與步驟1相同），然後按一下&#x200B;**註冊裝置**。
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -65,54 +65,54 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 在您的裝置中，檢查 **註冊代碼**.
+1. 在您的裝置中，檢查&#x200B;**註冊代碼**。
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果 **註冊代碼** 兩台機器上的相同，請按一下 **驗證** AEM按鈕，如步驟(6)所示。
-1. 為裝置設定所要的名稱，然後按一下 **註冊**.
+1. 如果兩部電腦上的&#x200B;**註冊代碼**&#x200B;相同，請按一下AEM中的&#x200B;**驗證**&#x200B;按鈕，如步驟(6)所示。
+1. 設定想要的裝置名稱，然後按一下&#x200B;**註冊**。
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 按一下 **完成** 以完成註冊程式。
+1. 按一下&#x200B;**完成**&#x200B;以完成註冊程式。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >此 **註冊新專案** 可讓您註冊新裝置。
+   >**註冊新裝置**&#x200B;可讓您註冊新裝置。
    >
-   >此 **指派顯示區** 可讓您直接將裝置新增至顯示器。
+   >**指派顯示區**&#x200B;可讓您直接將裝置新增至顯示區。
 
-   如果您按一下 **完成**，將裝置指派給顯示器。
+   如果您按一下&#x200B;**完成**，請將裝置指派給顯示器。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >若要進一步瞭解如何建立和管理Screens專案的顯示器，請參閱 [建立和管理顯示器](managing-displays.md).
+   >若要進一步瞭解如何建立和管理Screens專案的顯示器，請參閱[建立和管理顯示器](managing-displays.md)。
 
 ### 將裝置指派給顯示器 {#assigning-device-to-a-display}
 
 如果您尚未將裝置指派給顯示區，請依照下列步驟，將裝置指派給AEM Screens專案中的顯示區：
 
-1. 按一下裝置，然後按一下 **指派裝置** 從動作列移除。
+1. 按一下裝置，然後按一下動作列中的&#x200B;**指派裝置**。
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 按一下顯示的路徑 **顯示器/裝置設定路徑**.
+1. 按一下&#x200B;**顯示/裝置設定路徑**&#x200B;中的顯示路徑。
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 按一下 **指派** 當您按一下路徑時。
+1. 按一下路徑時，請按一下&#x200B;**指派**。
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 按一下 **完成** 成功指派裝置後，如下圖所示。
+1. 裝置指派成功後，按一下&#x200B;**完成**，如下圖所示。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   您也可以選取「 」，檢視顯示控制面板 **完成**.
+   您也可以選取&#x200B;**完成**&#x200B;來檢視顯示儀表板。
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -120,9 +120,9 @@ ht-degree: 0%
 
 將裝置註冊到播放器後，您就可以從「裝置管理員」UI檢視所有裝置。
 
-1. 例如，從您的AEM Screens專案導覽至「裝置管理員UI」 。 **DemoScreens** > **裝置**.
+1. 從您的AEM Screens專案導覽至裝置管理員UI，例如&#x200B;**DemoScreens** > **裝置**。
 
-1. 按一下 **裝置** 資料夾並按一下 **裝置管理員** 從動作列移除。
+1. 按一下&#x200B;**裝置**&#x200B;資料夾，然後從動作列按一下&#x200B;**裝置管理員**。
 
    ![影像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ ht-degree: 0%
 
    或，
 
-   選取 `/` （正斜線）以叫用搜尋功能。
+   選取`/` （正斜線）以叫用搜尋功能。
 
    ![影像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### 搜尋功能的限制 {#limitations}
 
-* 使用者可以搜尋中現有的任何單字 *裝置ID* 或 *裝置名稱*.
+* 使用者可以搜尋&#x200B;*裝置識別碼*&#x200B;或&#x200B;*裝置名稱*&#x200B;中的任何文字。
 
   >[!NOTE]
-  >建議您以多個字詞來建立裝置名稱，例如 *`Boston Store Lobby`* 而不是單一的 *`BostonStoreLobby`*.
+  >建議您以多個單字（例如&#x200B;*`Boston Store Lobby`*）來建立裝置名稱，而非以單一&#x200B;*`BostonStoreLobby`*&#x200B;來建立。
 
-* 如果您建立了裝置名稱，例如 *`Boston Store Lobby`*，會搜尋任何單字 *`boston`*， *`store`*，或 *`lobby`*. 但是，如果裝置名稱為 *`BostonStoreLobby`*，然後搜尋 *`boston`* 未顯示任何結果。
+* 如果您已建立&#x200B;*`Boston Store Lobby`*&#x200B;之類的裝置名稱，它會搜尋任何單字&#x200B;*`boston`*、*`store`*&#x200B;或&#x200B;*`lobby`*。 但是，如果裝置名稱為&#x200B;*`BostonStoreLobby`*，則搜尋&#x200B;*`boston`*&#x200B;不會顯示任何結果。
 
-* 萬用字元， `*` 支援搜尋。 如果您想要尋找所有名稱開頭為的裝置 *`boston`*，您可以使用*`boston`**。
+* 萬用字元`*`支援搜尋。 如果您想要尋找名稱以&#x200B;*`boston`*&#x200B;開頭的所有裝置，可以使用*`boston`**。
 
-* 如果裝置名稱為 *`BostonStoreLobby`* 並搜尋 *`boston`* 不會傳回結果，然後使用 *`boston`**會在您的搜尋條件中傳回結果。
+* 如果裝置名稱為&#x200B;*`BostonStoreLobby`*&#x200B;且搜尋&#x200B;*`boston`*&#x200B;未傳回結果，則在搜尋條件中使用&#x200B;*`boston`**會傳回結果。
 
 ## 裝置註冊的限制 {#limitations-on-device-registration}
 
 系統範圍的使用者密碼限制可能會導致裝置註冊失敗。 裝置註冊會使用隨機產生的密碼來建立裝置使用者。
 
-如果 *AuthorizableActionProvider* 設定會限制密碼，建立裝置使用者可能會失敗。
+如果&#x200B;*AuthorizableActionProvider*&#x200B;設定限制密碼，建立裝置使用者可能會失敗。
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他資源 {#additional-resources}
 
-若要進一步瞭解AEM Screens Player，請參閱 [AEM Screens Player](working-with-screens-player.md).
+若要深入瞭解AEM Screens Player，請參閱[AEM Screens Player](working-with-screens-player.md)。

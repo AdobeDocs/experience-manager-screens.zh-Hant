@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 先決條件 {#prereqs}
 
-在依照下列步驟啟用頻道中的目標定位之前，請先瞭解 [在AEM Screens中設定的重要條款](configuring-context-hub.md) 需要瞭解AEM Screens中的ContextHub和鎖定目標。
+在依照下列步驟在管道中啟用鎖定目標之前，請先瞭解在AEM Screens中設定所需的[重要條款](configuring-context-hub.md)，以瞭解AEM Screens中的ContextHub和鎖定目標。
 
 >[!IMPORTANT]
 >
@@ -43,17 +43,17 @@ ht-degree: 1%
 
 請依照下列步驟，在您的管道中啟用目標定位。
 
-1. 導覽至其中一個AEM Screens管道。 下列步驟示範如何使用啟用鎖定目標 **DataDrivenRetail** *（順序頻道）* 在AEM Screens頻道中建立。
+1. 導覽至其中一個AEM Screens管道。 下列步驟示範如何使用在AEM Screens頻道中建立的&#x200B;**DataDrivenRetail** *（順序頻道）*&#x200B;來啟用鎖定目標。
 
-1. 按一下頻道 **DataDrivenRetail** 並按一下 **屬性** 從動作列移除。
+1. 按一下頻道&#x200B;**DataDrivenRetail**，然後從動作列按一下&#x200B;**屬性**。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 按一下 **個人化** 標籤，讓您能夠設定ContextHub設定，然後按一下ContextHub和區段路徑。
+1. 按一下&#x200B;**Personalization**&#x200B;標籤，以便您可以設定ContextHub設定，然後按一下ContextHub和區段路徑。
 
-   1. 按一下 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並按一下 **按一下**.
+   1. 按一下&#x200B;**ContextHub路徑**&#x200B;做為&#x200B;**libs** > **設定** > **cloudsettings** > **預設** > **ContextHub設定**，然後按一下&#x200B;**按一下**。
 
-   1. 按一下 **區段路徑** 作為 **conf** > **`We.Retail`** > **設定** > **wcm** > **區段** 並按一下 **按一下**.
+   1. 按一下&#x200B;**區段路徑**&#x200B;做為&#x200B;**conf** > **`We.Retail`** > **設定** > **wcm** > **區段**，然後按一下&#x200B;**按一下**。
 
    1. 按一下&#x200B;**「儲存並關閉」**。
 
@@ -63,22 +63,22 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 瀏覽並按一下 **DataDrivenRetail** 從 **DataDrivenAssets** > **頻道** 並按一下 **編輯** 從動作列移除。 在管道編輯器中拖放資產。
+1. 瀏覽並按一下&#x200B;**DataDrivenAssets** > **管道**&#x200B;中的&#x200B;**DataDrivenRetail**，然後按一下動作列中的&#x200B;**編輯**。 在管道編輯器中拖放資產。
 
    >[!NOTE]
    >
-   >如果您已正確設定所有專案，則會看到 **目標定位** 選項時（位於編輯器的下拉式清單中，如下圖所示）。
+   >如果您已正確設定所有專案，您會在編輯器的下拉式清單中看到&#x200B;**鎖定目標**&#x200B;選項，如下圖所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 按一下 **目標定位**.
+1. 按一下&#x200B;**鎖定目標**。
 
-1. 按一下 **品牌** 和 **活動** 從下拉式功能表，然後按一下 **開始定位**.
+1. 從下拉式功能表按一下&#x200B;**品牌**&#x200B;和&#x200B;**活動**，然後按一下&#x200B;**開始鎖定目標**。
 
 ### 瞭解更多：範例使用案例 {#learn-more-example-use-cases}
 
 為您的AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發的資產如何在不同產業中扮演重要角色：
 
-1. **[零售詳細目錄目標啟動](retail-inventory-activation.md)**
+1. **[零售庫存目標啟動](retail-inventory-activation.md)**
 1. **[旅行中心溫度啟用](local-temperature-activation.md)**
-1. **[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
+1. **[旅館預訂啟用](hospitality-reservation-activation.md)**

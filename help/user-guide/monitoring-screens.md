@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 疑難排解裝置控制中心 {#troubleshooting-device-control-center}
 
-您可以使用裝置控制面板，監控及疑難排解AEM Screens Player活動和裝置的效能。 此頁面提供如何監視和疑難排解Screens播放器和指派之裝置的感知效能問題的相關資訊。
+您可以使用裝置控制面板，監控及疑難排解AEM Screens Player活動和裝置的效能。 此頁面提供如何監督及疑難排解Screens播放器和指派裝置感知效能問題的相關資訊。
 
 ## 從裝置控制中心進行監控和疑難排解 {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -29,9 +29,9 @@ ht-degree: 1%
 
 請依照下列步驟，導覽至裝置控制面板：
 
-1. 從您的專案導覽至裝置控制面板，例如 ***測試專案*** > ***裝置***.
+1. 從您的專案導覽至裝置儀表板，例如，***測試專案*** > ***裝置***。
 
-   按一下 **裝置** 和 **裝置管理員** 從動作列移除。
+   從動作列按一下&#x200B;**裝置**&#x200B;和&#x200B;**裝置管理員**。
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 按一下裝置(**NewTestDevice**)並按一下 **儀表板** 從動作列移除。
+1. 按一下裝置(**NewTestDevice**)，然後從動作列按一下&#x200B;**儀表板**。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -49,60 +49,60 @@ ht-degree: 1%
 
 ### 監視裝置活動 {#monitor-device-activity}
 
-此 **活動** 面板會顯示您的AEM Screens Player最後一次Ping的時間戳記。 最後一個ping對應到裝置上次連線伺服器的時間。
+**活動**&#x200B;面板會以時間戳記顯示AEM Screens Player的最後一次Ping。 最後一個ping對應到裝置上次連線伺服器的時間。
 
 ![chlimage_1](assets/chlimage_1.png)
 
-此外，按一下 **收集記錄** 從的右上角 **活動** 面板以檢視播放器的記錄檔。
+此外，按一下&#x200B;**活動**&#x200B;面板右上角的&#x200B;**收集記錄**&#x200B;以檢視播放器的記錄。
 
 ### 更新裝置詳細資料 {#update-device-details}
 
-檢查 **裝置詳細資料** 面板，讓您檢視裝置IP、儲存空間使用量、韌體版本，以及裝置的播放器運作時間。
+檢查&#x200B;**裝置詳細資料**&#x200B;面板，以便檢視裝置的裝置IP、儲存空間使用量、韌體版本和播放器運作時間。
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-此外，按一下 **清除快取** 和 **更新** 以清除裝置的快取並更新 [韌體](screens-glossary.md) 版本。
+此外，按一下&#x200B;**清除快取**&#x200B;和&#x200B;**更新**&#x200B;以清除裝置的快取，並從此面板分別更新[韌體](screens-glossary.md)版本。
 
-此外，按一下 **...** 從右上角 **裝置詳細資料** 面板以重新啟動或重新整理播放器的狀態。
+此外，從&#x200B;**裝置詳細資料**&#x200B;面板的右上角，按一下&#x200B;**...**&#x200B;以重新啟動或重新整理您的播放器狀態。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### 更新裝置資訊 {#update-device-information}
 
-檢查 **裝置資訊** 面板。 您可以在此處檢視設定更新、裝置型號、裝置作業系統和殼層資訊。
+檢查&#x200B;**裝置資訊**&#x200B;面板。 您可以在此處檢視設定更新、裝置型號、裝置作業系統和殼層資訊。
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-此外，按一下(**...**)，以檢視屬性或更新裝置。
+另外，按一下[裝置資訊]面板右上角的(**...**)以檢視內容或更新裝置。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-按一下 **屬性** 以便您檢視 **裝置屬性** 對話方塊。 您可以編輯裝置標題或選擇設定更新的選項，如下所示 **手動** 或 **自動**.
+按一下「**內容**」，檢視「**裝置內容**」對話方塊。 您可以編輯裝置標題，或選擇以&#x200B;**手動**&#x200B;或&#x200B;**自動**&#x200B;更新組態的選項。
 
 >[!NOTE]
 >
->若要進一步瞭解與裝置的自動或手動更新相關聯的事件，請參閱區段 ***從裝置控制面板自動與手動更新*** 在 [管理管道](managing-channels.md).
+>若要深入瞭解與裝置的自動或手動更新相關的事件，請參閱[管理管道](managing-channels.md)中裝置控制面板&#x200B;***的***&#x200B;自動與手動更新一節。
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
 ### 檢視播放器熒幕擷圖 {#view-player-screenshot}
 
-您可以從裝置檢視播放器熒幕擷圖 **播放器熒幕擷圖** 面板。
+您可以從&#x200B;**播放器熒幕擷圖**&#x200B;面板檢視裝置上的播放器熒幕擷圖。
 
-按一下(**...**)，並按一下 **重新整理熒幕擷圖** 以檢視執行中播放器的快照。
+按一下「播放器熒幕擷取畫面」面板右上角的(**...**)，然後按一下「重新整理熒幕擷取畫面」**，以檢視執行中播放器的快照。**
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
 ### 管理偏好設定 {#manage-preferences}
 
-此 **偏好設定** 面板可讓使用者變更的偏好設定 **管理員UI**， **頻道切換器**、和 **遠端偵錯** 適用於裝置。
+**偏好設定**&#x200B;面板可讓使用者變更裝置的&#x200B;**管理員UI**、**頻道切換器**&#x200B;和&#x200B;**遠端偵錯**&#x200B;的偏好設定。
 
 >[!NOTE]
->若要深入瞭解這些選項，請參閱 [AEM Screens Player](working-with-screens-player.md).
+>若要深入瞭解這些選項，請參閱[AEM Screens Player](working-with-screens-player.md)。
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-此外，按一下 **設定** 從右上角更新裝置偏好設定。 您可以更新下列偏好設定：
+此外，按一下右上角的&#x200B;**設定**&#x200B;以更新裝置偏好設定。 您可以更新下列偏好設定：
 
 * **伺服器URL**
 * **解析度**
@@ -126,12 +126,12 @@ ht-degree: 1%
 
 啟用空白反向連結以允許裝置將資料發佈至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。
 
-目前，其中部分功能僅適用於 *Apache Sling查閱者篩選器允許空白* 會在OSGi設定中啟用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
+目前只有在OSGi設定中啟用&#x200B;*Apache Sling反向連結篩選允許空白*&#x200B;時，才能使用其中的部分功能。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
 
 請依照下列步驟，啟用Apache Sling查閱者篩選器允許空白
 
-1. 瀏覽至 **Adobe Experience Manager Web主控台設定**，也就是 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. 檢查 **allow.empty** 選項。
+1. 導覽至&#x200B;**Adobe Experience Manager Web主控台組態**，也就是`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
+1. 核取&#x200B;**allow.empty**&#x200B;選項。
 1. 按一下「**儲存**」。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
@@ -142,10 +142,10 @@ ht-degree: 1%
 
 AEM提供下列專案的內建監控：
 
-* *心率* 每5秒顯示一次，表示AEM Screens Player運作中。
-* *熒幕擷圖* 從「播放器」，顯示在播放器上顯示的內容。
-* 此 *AEM Screens播放器韌體* 版本已安裝在播放器上。
-* *可用儲存空間* 在播放器上。
+* 每5秒&#x200B;*心率*&#x200B;一次，指出AEM Screens Player運作中。
+* 播放器中的&#x200B;*熒幕擷圖*，顯示播放器上顯示的內容。
+* 播放器上已安裝&#x200B;*AEM Screens播放器韌體*&#x200B;版本。
+* 播放器上的&#x200B;*可用儲存空間*。
 
 使用協力廠商軟體進行遠端監控的Recommendations：
 
@@ -158,4 +158,4 @@ AEM提供下列專案的內建監控：
 
 #### 其他資源 {#additional-resources}
 
-另請參閱 [視訊播放設定及疑難排解](troubleshoot-videos.md) 如果您想要對頻道中播放的視訊進行除錯和疑難排解。
+如果您想要在您的頻道中偵錯和疑難排解播放的視訊，請參閱[視訊播放設定和疑難排解](troubleshoot-videos.md)。

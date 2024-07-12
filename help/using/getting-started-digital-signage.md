@@ -1,5 +1,5 @@
 ---
-title: 數位招牌基本概念 [!UICONTROL AEM Screens]
+title: '[!UICONTROL AEM Screens]的數位看板基本概念'
 description: 瞭解數位看板專案的基本概念。
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 數位招牌的關鍵元素 {#key-elements}
 
-此 *關鍵元素* 在數位招牌專案中：
+數位招牌專案中的&#x200B;*關鍵元素*&#x200B;為：
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    硬體定義哪些硬體元件最適合數位看板專案實作：
    * 裝置是否有足夠的儲存空間來執行離線的所有體驗變化？
-   * 您是否允許視訊纜線型別和長度？ 而且裝置是否同時支援所需的解析度(HD、FullHD、 `4K`、等)和我計畫部署的視訊轉碼器（h.264、h.265等）
+   * 您是否允許視訊纜線型別和長度？ 而且裝置是否同時支援所需的解析度（HD、FullHD、`4K`等）和我計畫部署的視訊轉碼器（h.264、h.265等）
    * 使用實體銅線
    * 熒幕大小
    * 畫面數量

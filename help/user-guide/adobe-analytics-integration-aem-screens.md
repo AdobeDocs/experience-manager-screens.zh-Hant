@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要存取其中任一個Feature Pack，請聯絡Adobe支援並要求存取權。 若要下載AEM Screens的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
+>若要存取其中任一個Feature Pack，請聯絡Adobe支援並要求存取權。 您可以使用您的Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens的最新Feature Pack。
 
 本節涵蓋下列主題：
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-***AEM Screens*** 使用Adobe Analytics，而透過它，您可以實現市場上獨一無二的功能 — 跨管道分析，協助將位置中顯示的內容與其他資料來源建立關聯。
+***AEM Screens***&#x200B;使用Adobe Analytics，您可以透過它達成市場上獨一無二的功能 — 跨管道分析，協助將位置中顯示的內容與其他資料來源建立關聯。
 
 AEM Screens提供與Adobe Analytics的現成整合，並為您提供播放證明。
 
@@ -48,7 +48,7 @@ AEM Screens提供與Adobe Analytics的現成整合，並為您提供播放證明
 * 可以建立回饋迴路，以追蹤一段時間內的播放事件
 * 可讓系統根據內容作者定義的成功標準編輯內容和版面
 
-因此，Adobe Analytics與AEM Screens的整合會強制進行下列作業 *目標*：
+Adobe Analytics與AEM Screens的整合因此會強制下列&#x200B;*目標*：
 
 * 實現數位招牌實作的投資報酬率
 * 整合Analytics，作為日後啟用收集和分析使用資訊的基礎
@@ -65,7 +65,7 @@ AEM Screens客戶想要瞭解內容在何時顯示，以及顯示時間（彙總
 
 Adobe Analytics設定可從OSGi主控台進行設定。
 
-瀏覽至 **Adobe Experience Manager Web主控台設定** 以便為AEM Screens設定Adobe Analytics。
+導覽至&#x200B;**Adobe Experience Manager Web主控台組態**，以便為AEM Screens設定Adobe Analytics。
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -73,13 +73,13 @@ Adobe Analytics設定可從OSGi主控台進行設定。
 
 >[!CAUTION]
 >
->在設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
+>設定屬性之前，請連絡您的Adobe關係管理員以建立票證，取得&#x200B;**Analytics API金鑰**&#x200B;和&#x200B;**Analytics專案**&#x200B;以搭配AEM Screens使用。
 
 ### 設定屬性 {#configuring-the-properties}
 
 >[!CAUTION]
 >
->在設定屬性之前，請聯絡您的Adobe關係管理員以建立票證以取得 **Analytics API金鑰** 和 **分析專案** 與AEM Screens搭配使用。
+>設定屬性之前，請連絡您的Adobe關係管理員以建立票證，取得&#x200B;**Analytics API金鑰**&#x200B;和&#x200B;**Analytics專案**&#x200B;以搭配AEM Screens使用。
 
 下錶針對為AEM Screens設定Adobe Analytics的屬性及其說明提供重點說明：
 
@@ -92,7 +92,7 @@ Adobe Analytics設定可從OSGi主控台進行設定。
   <tr>
    <td><strong>Analytics URL</strong></td>
    <td>從播放器發佈分析資料的URL。 <br>
-   針對開發/階段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>用於生產</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
+   用於開發/階段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>用於生產</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API金鑰</strong></td>
@@ -115,7 +115,7 @@ Adobe Analytics設定可從OSGi主控台進行設定。
 
 >[!NOTE]
 >
->根據預設， **Analytics傳送頻率** 為15分鐘。
+>依預設，**Analytics傳送頻率**&#x200B;為15分鐘。
 
 #### 在AEM Screens中使用Adobe Analytics服務 {#using-adobe-analytics-service-in-aem-screens}
 
@@ -125,4 +125,4 @@ Analytics事件會離線儲存在indexedDB中，並在稍後加入區塊並傳�
 
 >[!NOTE]
 >
->若要進一步瞭解 ***排序*** 和 ***事件的標準資料模型***，請參閱 **[為AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**.
+>若要進一步瞭解&#x200B;***排序***&#x200B;和事件&#x200B;***的***&#x200B;標準資料模型，請參閱&#x200B;**[為AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。

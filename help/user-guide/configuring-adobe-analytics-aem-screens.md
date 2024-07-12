@@ -28,12 +28,12 @@ ht-degree: 10%
 
 本節涵蓋下列主題：
 
-* **使用AEM Screens在Adobe Analytics中排序**
+* 使用AEM Screens在Adobe Analytics中進行&#x200B;**排序**
 * **使用離線Adobe Analytics傳送自訂事件**
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-此 ***排序程式*** 從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送含有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存至索引DB，並進一步放入物件存放區。 它會根據管理員設定的排程剪下物件存放區的資料，然後進一步將資料傳輸到區塊存放區。 它會嘗試在連線時傳送最大數量的資料。
+***排序程式***&#x200B;以啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送含有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存至索引DB，並進一步放入物件存放區。 它會根據管理員設定的排程剪下物件存放區的資料，然後進一步將資料傳輸到區塊存放區。 它會嘗試在連線時傳送最大數量的資料。
 
 ### 排序圖表 {#sequencing-diagram}
 
@@ -99,7 +99,7 @@ ht-degree: 10%
    <td>建議</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>工作流程名稱（畫面）</td> 
+   <td>工作流程名稱(Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ ht-degree: 10%
    <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 —  <strong>播放器已傳送</strong></td> 
+   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 — <strong>已傳送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -175,7 +175,7 @@ ht-degree: 10%
   </tr>
   <tr>
    <td> </td> 
-   <td>計數</td> 
+   <td>數量</td> 
    <td>event.count</td> 
    <td>可選</td> 
    <td>數字</td> 
@@ -234,10 +234,10 @@ ht-degree: 10%
    <td> </td> 
    <td>字串</td> 
    <td> </td> 
-   <td>失敗說明<br /> </td> 
+   <td>失敗描述<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>來源/原始產品</em></strong></td> 
+   <td><strong><em>Source/原始產品</em></strong></td> 
    <td>名稱</td> 
    <td>source.name</td> 
    <td>必要</td> 

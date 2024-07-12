@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens已發行AEM 6.5 Feature Pack 10。
 
-若要下載AEM Screens 6.5.10版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP10**.
+您可以使用您的Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.10版的最新Feature Pack。 瀏覽至&#x200B;**Adobe Experience Manager**&#x200B;索引標籤並搜尋&#x200B;**Screens**，以取得標題為&#x200B;**AEM 6.5 Screens FP10**&#x200B;的最新功能套件。
 
 ## 發行日期 {#release-date}
 
@@ -29,7 +29,7 @@ AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
 
 ### 新增功能 {#what-is-new}
 
-* Android™應用程式更新現在鎖定在Android™ 11 （API層級30）。 目前Android™播放器位於Target API Level 29。
+* Android™應用程式更新現在將目標鎖定於Android™ 11 （API層級30）。 目前Android™播放器處於Target API Level 29。
 
 * 顯示預覽卡在先前的播放器設定
 
@@ -69,4 +69,4 @@ AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。

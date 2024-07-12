@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens通知服務*** 說明監視裝置活動。
+***AEM Screens通知服務***&#x200B;說明監視裝置活動。
 
 本節涵蓋下列主題：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-***AEM Screens通知服務*** 如果AEM Screens Player未在可設定的時間ping通，管理員即可收到電子郵件。
+***AEM Screens Notifications Service***&#x200B;可讓AEM Screens Player在可以設定的時間內未執行Ping命令，管理員即可收到電子郵件。
 
 此服務可在OSGi Web主控台中設定。
 
@@ -46,44 +46,44 @@ ht-degree: 0%
 
 請依照下列步驟設定電子郵件通知設定：
 
-1. 開啟 **Adobe Experience Manager Web主控台設定**.
-1. 開啟 **Screens裝置電子郵件監視服務**.
+1. 開啟&#x200B;**Adobe Experience Manager Web主控台組態**。
+1. 開啟&#x200B;**Screens裝置電子郵件監視服務**。
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. 定義下列欄位，以便您設定電子郵件的設定：
 
-   **裝置路徑** 輸入要監視的畫面專案路徑。 路徑通常為 `/home/users/screens/<Name of your project>`.
+   **裝置路徑**&#x200B;輸入要監視的Screens專案路徑。 路徑通常是`/home/users/screens/<Name of your project>`。
 
-   例如，如果您的專案為 **`We.Retail`**，使用專案路徑作為 ***/home/users/screens/we-retail***.
+   例如，如果您的專案是&#x200B;**`We.Retail`**，請將專案路徑用為&#x200B;***/home/users/screens/we-retail***。
 
    >[!NOTE]
    >
    >指定裝置使用者所在的專案路徑。
 
-   **排程頻率**  — 指定此監視器應傳送電子郵件的時間（例如，下午5:00或17:00）或頻率（例如，1）。
+   **排程頻率** — 指定時間（例如，下午5:00或17:00）或此監視器應傳送電子郵件的頻率（例如，1）。
 
-   **Ping逾時**  — 此欄位會指定間隔（分鐘），在此間隔後裝置應視為無法連線。
+   **Ping逾時** — 此欄位會指定間隔（分鐘），在此間隔後裝置應視為無法連線。
 
-   **SMTP伺服器**  — 指定用於傳送電子郵件的SMTP伺服器。
+   **SMTP伺服器** — 指定用於傳送電子郵件的SMTP伺服器。
 
-   **SMTP連線埠**  — 輸入SMTP連線埠。
+   **SMTP連線埠** — 輸入SMTP連線埠。
 
-   **使用TLS**  — 傳輸層安全性(TLS)可讓您使用與SMTP伺服器的安全通訊。
+   **使用TLS** — 傳輸層安全性(TLS)可讓您使用與SMTP伺服器的安全通訊。
 
    Adobe建議您使用TLS來安全地連線到公司郵件伺服器。 請洽詢您的郵件管理員以取得適當的值。
 
-   **使用者名稱**  — 指定傳送電子郵件的使用者名稱。
+   **使用者名稱** — 指定用於傳送電子郵件的使用者名稱。
 
-   **密碼**  — 指定傳送電子郵件的密碼。
+   **密碼** — 指定傳送電子郵件的密碼。
 
-   **收件者**  — 指定收件者的電子郵件地址。
+   **收件者** — 指定收件者的電子郵件地址。
 
    >[!NOTE]
    >
    >您只能輸入一個電子郵件地址。 若要傳送大量電子郵件，請使用相關使用者建立群組或通訊群組清單。
 
-1. 按一下 **儲存** 若要透過電子郵件為AEM Screens裝置設定監視器活動。
+1. 按一下&#x200B;**儲存**，透過電子郵件為您的AEM Screens裝置設定監視器活動。
 
 ## 電子郵件通知 {#email-notification}
 

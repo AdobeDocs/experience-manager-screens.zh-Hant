@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens已發行AEM 6.5 Feature Pack 7。
 
-若要下載AEM Screens 6.5.7版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP7**.
+您可以使用您的Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.7版的最新Feature Pack。 瀏覽至&#x200B;**Adobe Experience Manager**&#x200B;索引標籤並搜尋&#x200B;**Screens**，以取得標題為&#x200B;**AEM 6.5 Screens FP7**&#x200B;的最新功能套件。
 
 ## 發行日期 {#release-date}
 
@@ -33,27 +33,27 @@ AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
   手動大量註冊數千個播放器不僅費時費力，而且增加了時間和成本。 為簡化此程式，「自動註冊播放器」功能可讓您在AEM中指定預先共用金鑰。 此金鑰可透過設定檔案或行動裝置管理(MDM)解決方案布建至播放器。
 
-  另請參閱 [自動註冊播放器](/help/user-guide/auto-registration-players.md) 以取得更多詳細資料。
+  如需詳細資訊，請參閱[自動註冊播放器](/help/user-guide/auto-registration-players.md)。
 
 
-* **使用企業行動性管理大量布建Android™ Player**
+* **使用Enterprise Mobility Management大量布建Android™播放器**
 
-  大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 強烈建議使用EMM （企業行動管理）解決方案，例如 `VMWare Airwatch`， `MobileIron`，或 `Samsung Knox` 從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以便允許遠端布建。
+  大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 強烈建議使用EMM （企業行動管理）解決方案，例如`VMWare Airwatch`、`MobileIron`或`Samsung Knox`，從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以允許遠端布建。
 
-  另請參閱 [使用企業行動性管理大量布建Android™ Player](/help/user-guide/implementing-android-player.md#implementation) 以取得更多詳細資料。
+  如需詳細資訊，請參閱[使用Enterprise Mobility Management大量布建Android™ Player](/help/user-guide/implementing-android-player.md#implementation)。
 
 
 ### 錯誤修正 {#bug-fixes}
 
-* 提升運算效能 `clientlib` 和 `asset hashes`.
+* 改善計算`clientlib`和`asset hashes`的效能。
 
 * 如果快取未失效，SmartSync移轉將會中斷播放器。
 
-* 如果工作分派 *OfflineConfig*.
+* 如果工作分派有&#x200B;*OfflineConfig*，則未建立離線快取。
 
-* 更新 `Tizen` 因為不支援反向連結原則strict-origin-when-cross-origin而中斷的播放器。
+* 因為不支援反向連結原則strict-origin-when-cross-origin，所以中斷的`Tizen`播放器更新。
 
-* 變更指派的頻道排程 *重複* 欄位損壞UI。
+* 變更指派頻道的排程&#x200B;*重複*&#x200B;欄位已中斷UI。
 
 * 更新離線內容失敗，發生查詢例外。
 
@@ -71,4 +71,4 @@ AEM Screens Feature Pack 202103的發行日期為2021年3月5日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。

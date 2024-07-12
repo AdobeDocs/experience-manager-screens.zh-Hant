@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens已發行AEM 6.5 Feature Pack 6。
 
-若要下載AEM Screens 6.5.6版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP6**.
+您可以使用您的Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.6版的最新Feature Pack。 瀏覽至&#x200B;**Adobe Experience Manager**&#x200B;索引標籤並搜尋&#x200B;**Screens**，以取得標題為&#x200B;**AEM 6.5 Screens FP6**&#x200B;的最新功能套件。
 
 ## 發行日期 {#release-date}
 
@@ -29,21 +29,21 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
 ### 新增功能 {#what-is-new}
 
-* **內容指派報表**
+* **內容指派報告**
 
-  「內容指派報表」功能可讓AEM Screens管理員或作者匯出 *內容指派報表* （以試算表格式顯示）。
-另請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
+  內容指派報告功能可讓AEM Screens管理員或作者以試算表格式匯出&#x200B;*內容指派報告*。
+如需詳細資訊，請參閱[內容指派報告](/help/user-guide/content-assignment-report.md)。
 
 
-* **Tizen Player**
+* **Tizen播放器**
 
   AEM Screens 6.5.6版的最新Feature Pack已引入稱為Tizen播放器的新播放器。
-另請參閱 [實作Tizen播放器](/help/user-guide/tizen-player.md) 以取得更多詳細資料。
+如需詳細資訊，請參閱[實作Tizen播放器](/help/user-guide/tizen-player.md)。
 
-* **從「裝置管理員」搜尋功能**
+* 裝置管理員&#x200B;**搜尋功能**
 
   AEM Screens 6.5.6版的最新Feature Pack現已提供裝置管理員UI中的新搜尋功能。
-另請參閱 [從「裝置管理員」搜尋裝置](/help/user-guide/device-registration.md#search-device) 以取得更多詳細資料。
+如需詳細資訊，請參閱[從裝置管理員搜尋裝置](/help/user-guide/device-registration.md#search-device)。
 
 * **預設Ping間隔**
 
@@ -61,4 +61,4 @@ AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。

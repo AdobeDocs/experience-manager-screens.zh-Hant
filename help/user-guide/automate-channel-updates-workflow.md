@@ -1,6 +1,6 @@
 ---
 title: 使用工作流程來自動更新AEM Screens頻道的資產
-description: 瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並動態將其指派至Screens頻道。
+description: 瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並以動態方式將其指派至Screens頻道。
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 使用工作流程來自動更新AEM Screens頻道的資產 {#automate-channel-updates-workflow}
 
-瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並動態將其指派至Screens頻道。 在此範例中，將影像新增至特定資料夾時會觸發工作流程。 工作流程會套用動態文字覆蓋（浮水印程式），並將影像指派給Screens頻道。 從這個範例中學到的經驗教訓可以應用於各種自動化情境。
+瞭解如何建立工作流程，以自動處理上傳至Adobe Experience Manager的資產，並以動態方式將其指派至Screens頻道。 在此範例中，將影像新增至特定資料夾時會觸發工作流程。 工作流程會套用動態文字覆蓋（浮水印程式），並將影像指派給Screens色版。 從這個範例中學到的經驗教訓可以應用於各種自動化情境。
 
 ## 先決條件 {#prerequisites}
 
@@ -38,19 +38,19 @@ ht-degree: 0%
 
 ## 工作流程模型 {#workflow-model}
 
-已建立自訂資料夾中繼資料結構，以擷取應新增影像的目標Screens頻道。 使用兩個工作流程模型來自動化資產處理。 此 **DAM更新資產** 編輯工作流程以呼叫自訂工作流程**Screens示範資產處理，可檢查資產的容納資料夾以決定目標Screens頻道。 此 **Screens示範資產處理** 工作流程也負責將浮水印套用至影像。
+已建立自訂資料夾中繼資料結構，以擷取應新增影像的目標Screens管道。 使用兩個工作流程模型來自動化資產處理。 **DAM更新資產**&#x200B;工作流程已編輯為呼叫自訂工作流程**Screens示範資產處理功能，可檢查資產的容納資料夾以決定目標Screens頻道。 **Screens示範資產處理**&#x200B;工作流程也負責將浮水印套用至影像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
 ## 自訂工作流程處理步驟 {#workflow-process-step}
 
-Inspect作為一部分使用的兩個自訂工作流程處理步驟 **Screens示範資產處理** 工作流程。
+Inspect的兩個自訂工作流程處理步驟，用作&#x200B;**Screens示範資產處理**&#x200B;工作流程的一部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-此 `AssetProcessingCheck.java` 自訂工作流程是對工作流程的裝載執行檢查的程式。 它會判斷裝載是否為資產，以及容納資料夾是否已設定為指向AEM Screens頻道。 如果滿足需求，流程步驟會持續存在兩個屬性， `screen-channel` 和 `asset-path`，至工作流程的中繼資料。
+`AssetProcessingCheck.java`自訂工作流程是對工作流程的裝載執行檢查的程式。 它會判斷裝載是否為資產，以及容納資料夾是否已設定為指向AEM Screens頻道。 如果符合需求，程式步驟會將兩個屬性`screen-channel`和`asset-path`保留在工作流程的中繼資料中。
 
-此 `AddAssetToChannel.java` 自訂工作流程是一個程式步驟，會檢查工作流程的中繼資料並更新AEM Screens頻道以參考影像。
+`AddAssetToChannel.java`自訂工作流程是一個程式步驟，會檢查工作流程的中繼資料並更新AEM Screens頻道以參考影像。
 
 1. 下載原始程式碼： **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. 使用您最愛的IDE解壓縮並檢視程式碼。

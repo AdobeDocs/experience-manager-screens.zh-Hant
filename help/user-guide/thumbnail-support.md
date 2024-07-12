@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 導覽至現有的AEM Screens頻道或建立頻道。
 
-1. 按一下頻道，然後按一下 **編輯** 從動作列移除。
+1. 按一下頻道，然後從動作列按一下&#x200B;**編輯**。
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,19 +40,19 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. 按一下視訊，然後按一下 *扳手* 圖示。
+1. 按一下視訊並按一下&#x200B;*扳手*&#x200B;圖示。
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. 此 **視訊** 對話方塊開啟，您可以在其中檢視 **縮圖** 拖放區域。
+1. **視訊**&#x200B;對話方塊開啟，您可以在其中檢視&#x200B;**縮圖**&#x200B;拖放區域。
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. 將影像從資產選擇器拖放至 **縮圖** 放置區域並按一下 **完成**.
+1. 將影像從資產選擇器拖放至&#x200B;**縮圖**&#x200B;拖放區域，然後按一下&#x200B;**完成**。
 
    ![影像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. 按一下 **預覽**.
+1. 按一下&#x200B;**預覽**。
 
 1. 若已在元件上設定視訊，則會播放視訊。 如果沒有，且已設定縮圖，則會播放縮圖。 否則，元件會視為未設定並略過。
 

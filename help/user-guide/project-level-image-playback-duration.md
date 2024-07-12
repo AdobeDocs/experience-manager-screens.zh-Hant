@@ -20,15 +20,15 @@ ht-degree: 1%
 
 使用此功能之前，請將專案設定為開始實作此功能的先決條件。 例如，
 
-1. 建立AEM Screens專案(在此範例中， **ProjectLevelPlayback**)。
-1. 建立順序頻道為 **PlayBackChannel** 在 **頻道** 資料夾。
-1. 新增內容至 **PlayBackChannel**.
+1. 建立AEM Screens專案（在此範例中為&#x200B;**ProjectLevelPlayback**）。
+1. 在&#x200B;**頻道**&#x200B;資料夾下，將順序頻道建立為&#x200B;**PlayBackChannel**。
+1. 將內容新增至&#x200B;**PlayBackChannel**。
 
-   ![資產](assets/image_playback1.png)
+   ![個資產](assets/image_playback1.png)
 
-   例如，下列影像將展示新增至 **PlayBackChannel** 編輯者：
+   例如，下列影像展示新增至&#x200B;**PlayBackChannel**&#x200B;編輯器的影像：
 
-   ![資產](assets/image_playback2.png)
+   ![個資產](assets/image_playback2.png)
 
 ## 編輯專案層級影像播放持續時間指派 {#editing-project-level-image-playback-duration-assignment}
 
@@ -39,18 +39,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您想要更新影像或頻道層級的播放持續時間，請參閱 [頻道層級影像播放持續時間](channel-level-image-playback.md).
+>如果您想要更新影像或頻道層級的播放持續時間，請參閱[頻道層級的影像播放持續時間](channel-level-image-playback.md)。
 
 請依照下列步驟瞭解如何更新專案層級的影像播放持續時間：
 
-1. 導覽至您的專案 **ProjectLevelPlayback** 並按一下 **屬性** 從動作列移除。
-   ![資產](assets/image_playback3.png)
+1. 導覽至您的專案&#x200B;**ProjectLevelPlayback**，然後按一下動作列中的&#x200B;**屬性**。
+   ![個資產](assets/image_playback3.png)
 
 1. 按一下色版中的所有影像，然後按一下左上方的扳手圖示（如下圖所示），即可開啟「色版層級設定」對話方塊。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. 此 **頁面** 對話方塊開啟。
+1. **頁面**&#x200B;對話方塊開啟。
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   編輯 **持續時間** 從8000 （毫秒）到3000 （毫秒），即3秒。 選取右上方的核取標籤 **頁面** 對話方塊，以儲存您的變更。
+   編輯&#x200B;**持續時間**，從8000 （毫秒）到3000 （毫秒），即3秒。 選取&#x200B;**頁面**&#x200B;對話方塊右上方的核取記號，以儲存您的變更。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

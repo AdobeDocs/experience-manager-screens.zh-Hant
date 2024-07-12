@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ## 重要考量 {#important-considerations}
 
-* 永遠來源 ***商業*** 或 ***工業*** PC播放器及顯示面板或投影機的等級元件。
+* 電腦播放器及顯示面板或投影機的&#x200B;***Commercial***&#x200B;或&#x200B;***Industrial***&#x200B;等級的元件，一律提供來源。
 
 * 永遠與數位看板市場的供應商互動。
 * 請務必考量環境因素，例如環境溫度和相對濕度。
@@ -46,7 +46,7 @@ ht-degree: 3%
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>主機板</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI<br />乙太網路/無線，<br /> 2xUSB</td>
    <td>
     <ul>
      <li>標準全熒幕循環<br /> </li>
@@ -60,10 +60,10 @@ ht-degree: 3%
    <td>128 GB</td>
    <td>主機板</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI、HDMI<br />乙太網路/無線、<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>單一來源動態內容</li>
+     <li>單一Source動態內容</li>
      <li>簡單互動式</li>
      <li>1-3區域配置</li>
     </ul> </td>
@@ -75,12 +75,12 @@ ht-degree: 3%
    <td>256 GB</td>
    <td>專用圖形GPU</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 4個USB</td>
+   <td>DVI、HDMI<br />乙太網路/無線、<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4個或更多內容區域，同時播放視訊</li>
      <li>多頁互動式</li>
-     <li>多來源資料觸發器</li>
+     <li>多Source資料觸發器</li>
     </ul> </td>
   </tr>
  </tbody>

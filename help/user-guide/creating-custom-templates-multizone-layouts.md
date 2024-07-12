@@ -34,67 +34,67 @@ ht-degree: 1%
 
    | **配置名稱** | **說明** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 三區域橫向配置可讓您建立三個區域：<br>*區域1是水平與垂直畫面的20% （從左側算起）<br>*區域2為水準熒幕的80%與垂直熒幕的20%向右對齊<br>*區域3是水準熒幕的100%和垂直熒幕的80%。 外觀比例為16:9 |
+   | `Left20-LandscapeHD3Zone` | 三區域橫向配置可讓您建立三個區域： <br>*區域1是水準熒幕與垂直熒幕的20%，從左側<br>*區域2是水準熒幕的80%，垂直熒幕的20%是向右對齊<br>*區域3是水準熒幕的100%與垂直熒幕的80%。 外觀比例為16:9 |
    | `Upper20-PortraitHD2Zone` | 雙區直向範本從上到下佔熒幕的20%，外觀比例為16:9 |
    | `Right20-LandscapeSD3Zone` | 三區範本從右側涵蓋熒幕的20%，外觀比例為4:3 |
 
    >[!IMPORTANT]
    >自訂配置中定義的區域可能與整個配置的整體外觀比例不符。 本檔案遵循的命名慣例會指定自訂配置整體之外觀比例。
 
-## 範例使用案例 `Left20-LandscapeHD3Zone` 版面 {#custom-template-one}
+## 使用案例`Left20-LandscapeHD3Zone`配置範例 {#custom-template-one}
 
-請依照以下章節建立自訂範本 *`Left20-LandscapeHD3Zone`* 設定下：
+請依照下列章節內容，使用下列設定來建立自訂範本&#x200B;*`Left20-LandscapeHD3Zone`*：
 
-* **`Left20`**  — 左側的頂部區域涵蓋水平與垂直熒幕大小的20%。
-* **`Landscape`**  — 熒幕方向。
-* **`HD`**  — 外觀比例為16:9。
-* **`3Zone`**  — 三個顯示區域。
+* **`Left20`** — 左側的頂部區域涵蓋水平與垂直熒幕大小的20%。
+* **`Landscape`** — 熒幕方向。
+* **`HD`** — 外觀比例為16:9。
+* **`3Zone`** — 三個顯示區域。
 
 ## 多區域配置的視覺化表示法 {#multi-layout-visual-one}
 
-此 `Left20-LandscapeHD3Zone` 「配置」可讓您在專案中建立下列多區域配置：
+`Left20-LandscapeHD3Zone`配置可讓您在專案中建立下列多區域配置：
 
 ![影像](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
-## 建立 `Left20-LandscapeHD3Zone` 版面 {#landscape-layout-one}
+## 建立`Left20-LandscapeHD3Zone`配置 {#landscape-layout-one}
 
-請依照下列步驟建立 `Left20-LandscapeHD3Zone` AEM Screens專案的配置。
+請依照下列步驟，為AEM Screens專案建立`Left20-LandscapeHD3Zone`配置。
 
-1. 建立標題為的AEM Screens專案 **`customtemplate`**.
+1. 建立標題為&#x200B;**`customtemplate`**&#x200B;的AEM Screens專案。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. 瀏覽至 **CRXDE Lite** 從您的AEM執行個體>工具> **CRXDE Lite**.
+1. 從您的AEM執行個體> 「工具」 > **CRXDE Lite**&#x200B;瀏覽至&#x200B;**CRXDE Lite**。
 
-1. 在下建立資料夾 **應用程式** 標題為 **`customtemplate`**. 同樣地，建立另一個名為 **範本** 在 **`customtemplate`**，如下圖所示。
+1. 在&#x200B;**應用程式**&#x200B;下建立標題為&#x200B;**`customtemplate`**&#x200B;的資料夾。 同樣地，在「**`customtemplate`**」下建立另一個標題為「**範本**」的資料夾，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >按一下 **全部儲存** 每次建立、編輯內容或將內容複製到任何節點時，都會從CRXDE Lite中的動作列複製內容。 否則，您無法認可更新。
+   >每次建立、編輯內容或將內容複製到任何節點時，按一下CRXDE Lite中動作列的「儲存全部&#x200B;****」。 否則，您無法認可更新。
 
-1. 複製左方欄範本來源 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 至 `/apps/customtemplate/template`.
+1. 將lbar-left範本從`/libs/screens/core/templates/splitscreenchannel/lbar-left`複製到`/apps/customtemplate/template`。
 
-1. 重新命名複製的 **左欄** (`/apps/customtemplate/template`)至 **my-custom-layout**.
+1. 將複製的&#x200B;**lbar-left** (`/apps/customtemplate/template`)重新命名為&#x200B;**my-custom-layout**。
    ![影像](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. 瀏覽至 `/apps/customtemplate/template/my-custom-layout` 並更新屬性 **`jcr:description`** 至 *範本`Left20-LandscapeHD3Zone`* 和 **`jcr:title`** 至 *`Left20-LandscapeHD3Zone`*.
+1. 瀏覽至`/apps/customtemplate/template/my-custom-layout`並將屬性&#x200B;**`jcr:description`**&#x200B;更新為&#x200B;`Left20-LandscapeHD3Zone`*的*&#x200B;範本及&#x200B;**`jcr:title`**&#x200B;的&#x200B;*`Left20-LandscapeHD3Zone`*。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
-1. 導覽至 **`offline-config`** 節點來源 `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` 並更新 **`jcr:title`** 至 *`Left20-LandscapeHD3Zone`*.
+1. 從`/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config`導覽至&#x200B;**`offline-config`**&#x200B;節點，並將&#x200B;**`jcr:title`**&#x200B;更新為&#x200B;*`Left20-LandscapeHD3Zone`*。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
-1. 導覽至 *`jcr:content`* 屬性 **my-custom-template** 從 `/apps/customtemplate/template/my-custom-layout/jcr:content` 並更新 **`cq:cssClass`** 屬性，方便您使用 **aem-Layout my-custom-layout**.
+1. 從`/apps/customtemplate/template/my-custom-layout/jcr:content`瀏覽至&#x200B;**my-custom-template**&#x200B;的&#x200B;*`jcr:content`*&#x200B;屬性，並更新&#x200B;**`cq:cssClass`**&#x200B;屬性，以便您可以使用&#x200B;**aem-Layout my-custom-layout**。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. 參照您複製lbar左側範本的步驟(4)，您可以檢視下方的三個回應式格點 `my-custom-layout/jcr:content`. 將自訂css類別新增至 *`cq:cssClass`* 屬性，例如， *my-custom-layout-top-left* 的 *r1c1* 節點。
+1. 參考您複製lbar左側範本的步驟(4)，您可以在`my-custom-layout/jcr:content`下檢視三個回應式格線。 在&#x200B;*`cq:cssClass`*&#x200B;屬性中的每個回應式格線中新增自訂css類別，例如&#x200B;*r1c1*&#x200B;節點的&#x200B;*my-custom-layout-top-left*。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   同樣地，新增 *my-custom-layout-top-right* 的 *r1c2* 和 *my-custom-layout-bottom* 的 *r2c1* 節點。
+   同樣地，為&#x200B;*r1c2*&#x200B;新增&#x200B;*my-custom-layout-top-right*，並為&#x200B;*r2c1*&#x200B;節點新增&#x200B;*my-custom-layout-bottom*。
 
    >[!NOTE]
    >這些自訂類別用於css，以設定這些回應式格點的寬度/高度。
@@ -102,13 +102,13 @@ ht-degree: 1%
    >[!NOTE]
    >您可以根據所要的格點總數來新增或移除回應式格點。 在此範例中，第一列中有兩個網格，第二列有一個網格，因此總共有三個回應式網格(r1c1、r1c2、r2c1)。
 
-1. 複製 `/libs/settings/wcm/designs/screens` 至 `/apps/settings/wcm/designs/` 並將複製的設計重新命名為 **custom-template-designs**.
+1. 將`/libs/settings/wcm/designs/screens`複製到`/apps/settings/wcm/designs/`，並將複製的設計重新命名為&#x200B;**custom-template-designs**。
 
-1. 瀏覽至 `/apps/settings/wcm/designs/custom-template-designs` 並更新屬性 *`jcr:title`* 之 **custom-template-designs** 至 **customtemplate-design**.
+1. 瀏覽至`/apps/settings/wcm/designs/custom-template-designs`並將&#x200B;**custom-template-designs**&#x200B;的屬性&#x200B;*`jcr:title`*&#x200B;更新為&#x200B;**customtemplate-design**。
 
-1. 瀏覽至 `/apps/settings/wcm/designs/custom-template-designs` 並建立static.css檔案。
+1. 瀏覽至`/apps/settings/wcm/designs/custom-template-designs`並建立檔案static.css。
 
-1. 將內容複製到 `static.css` 檔案：
+1. 將內容複製到`static.css`檔案：
 
    ```shell
        /*my-custom-layout styles*/
@@ -131,7 +131,7 @@ ht-degree: 1%
    >[!NOTE]
    >您可以更新百分比以符合自訂範本的要求。
 
-1. 瀏覽至 `/apps/<project>/templates/my-custom-layout/jcr:content` 並更新屬性 *`cq:designPath`* 至 `/apps/settings/wcm/designs/customtemplate-designs` 以便載入在static.css中設定的樣式。
+1. 導覽至`/apps/<project>/templates/my-custom-layout/jcr:content`並將屬性&#x200B;*`cq:designPath`*&#x200B;更新為`/apps/settings/wcm/designs/customtemplate-designs`，以便載入在static.css中設定的樣式。
 
    >[!NOTE]
    >輸入所有樣式，而非複製或貼上，因為這樣可能會導致空白字元導致css樣式問題。
@@ -140,11 +140,11 @@ ht-degree: 1%
 
 請依照下列步驟，在您的AEM Screens專案中使用上述自訂範本：
 
-1. 導覽至您在步驟(1)中建立的Screens專案，然後按一下 **頻道** 資料夾。
+1. 導覽至您在步驟(1)中建立的Screens專案，然後按一下「**管道**」資料夾。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. 按一下 **建立** 然後按一下範本 **`Left20-LandscapeHD3Zone`** 從 **建立** 精靈。
+1. 從動作列按一下&#x200B;**建立**，然後從&#x200B;**建立**&#x200B;精靈按一下範本&#x200B;**`Left20-LandscapeHD3Zone`**。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
@@ -156,7 +156,7 @@ ht-degree: 1%
 
 您可以將影像作為背景圖層插入版面：
 
-您可以調整CSS規則以使用「data-uri」並直接內嵌影像(`Base64` (encoded)，位於您於中建立的CSS檔案中（步驟13）， *static.css*.
+您可以調整CSS規則以使用&quot;data-uri&quot;，並直接內嵌您於（步驟13） *static.css*&#x200B;中建立之CSS檔案中的影像（`Base64`編碼）。
 
 此安排如下：
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -169,6 +169,6 @@ ht-degree: 1%
 
 ## 更新背景顏色 {#updating-color}
 
-若要變更背景顏色，請將下列程式碼新增至xml檔案（步驟13）， *static.css*.
+若要變更背景顏色，請將下列程式碼新增至xml檔案（步驟13），*static.css*。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`

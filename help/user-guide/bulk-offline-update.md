@@ -50,7 +50,7 @@ ht-degree: 0%
 請依照下列步驟，對AEM Screens專案使用大量離線更新：
 
 1. 導覽至您的AEM Screens專案。
-1. 按一下專案，然後按一下 **更新離線內容** 以手動更新頻道內容。
+1. 按一下專案，然後從動作列按一下&#x200B;**更新離線內容**，以手動更新頻道內容。
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -65,14 +65,14 @@ ht-degree: 0%
 
 1. 新增下列屬性：
 
-   **專案路徑** 指定AEM Screens專案的路徑。 路徑通常為 `/content/screens/<Name of your project>`.
+   **專案路徑**&#x200B;指定您的AEM Screens專案路徑。 路徑通常是`/content/screens/<Name of your project>`。
 
-   *例如*， `/content/screens/we-retail`. 您可以選取AEM Screens底下的任何專案（不要按一下圖示），在URL中找到此路徑。
+   *例如*，`/content/screens/we-retail`。 您可以選取AEM Screens底下的任何專案（不要按一下圖示），在URL中找到此路徑。
 
    >[!NOTE]
    >
    >指定相對於您管道的專案路徑。
 
-   **排程頻率** 指定時間，例如，下午5:00或17:00，此服務應在此時間更新離線內容。
+   **排程頻率**&#x200B;指定時間，例如，下午5:00或17:00，此服務應在此時間更新離線內容。
 
-1. 按一下 **儲存** 以儲存您的設定。 您的內容會在指定時間更新。
+1. 按一下[儲存]儲存您的設定。 ****&#x200B;您的內容會在指定時間更新。

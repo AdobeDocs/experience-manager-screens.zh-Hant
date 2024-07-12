@@ -26,13 +26,13 @@ AEM元件可用來保留、格式化及轉譯可在網頁上使用的內容。
 
 ## 製作管道 {#authoring-channels}
 
-色版是內容傳送至一組顯示器的中心物件。 因此，內容作者通常會在編輯器中開啟管道，以新增或修改內容。 因為頻道是***`cq:Page`不***，它遵循相同的傳統UX模式，在通道上新增和變更元件。
+色版是內容傳送至一組顯示器的中心物件。 因此，內容作者通常會在編輯器中開啟管道，以新增或修改內容。 由於通道是***`cq:Page`***，因此遵循相同的傳統UX模式在通道上新增和變更元件。
 
 不過，由於管道內的元件通常會以全熒幕呈現，因此在嘗試編輯單一元件或撰寫新訂單時，編寫體驗會受影響。 因此，管道需仰賴選取器來呈現元件的不同檢視。 製作環境會使用編輯選擇器來啟動自訂色版轉譯。
 
 例如 `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-使用者在編輯時不必將選擇器新增到URL。 使用者端邏輯正在接聽層切換事件，並在通道具有專用資源型別時新增選取器 *screens/core/components/channel*.
+使用者在編輯時不必將選擇器新增到URL。 使用者端邏輯正在接聽層切換事件，如果通道具有專用資源型別&#x200B;*screens/core/components/channel*，則新增選取器。
 
 ## 演算元件 {#rendering-components}
 
@@ -45,7 +45,7 @@ AEM元件可用來保留、格式化及轉譯可在網頁上使用的內容。
 
 內建元件使用下列使用者端程式庫類別：
 
-| **Component** | **客戶庫** |
+| **Component** | **使用者端資料庫** |
 |---|---|
 | *cq.screens.components.edit* | 在編寫期間必須載入的CSS和JS |
 | *cq.screens.components.production* | 通道執行時須載入的CSS和JS |

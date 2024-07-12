@@ -24,12 +24,12 @@ ht-degree: 1%
 
 ## DAM轉譯 {#dam-renditions}
 
-上傳視訊至管道後，AEM應開始為其建立一些轉譯。 您可以在「資產」下檢視您的影片。
+上傳視訊至管道後，AEM應開始為其建立一些轉譯。 您可以在Assets下檢視影片。
 
 若要觀看影片：
 
-1. 導覽至您的影片，例如 `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 按一下視訊並展開左上角功能表，然後按一下 **轉譯**.
+1. 導覽至您的視訊，例如`http://localhost:4502/assets.html/content/dam/we-retail/en/videos`。
+1. 按一下視訊並展開左上角的功能表，然後按一下&#x200B;**轉譯**。
 
 應該有不同的轉譯（MP4或M4V）。
 
@@ -39,9 +39,9 @@ ht-degree: 1%
 >
 >如果沒有轉譯，請確定您已在執行AEM的作業系統上安裝FFMPEG。
 >
->按一下 [此處](https://www.ffmpeg.org/download.html) 以安裝FFMPEG。
+>按一下[這裡](https://www.ffmpeg.org/download.html)以安裝FFMPEG。
 
-## 視訊資產 {#video-assets}
+## 影片Assets {#video-assets}
 
 如果您在視訊底下沒有看到來源屬性，可能是視訊沒有獲得轉解碼。 如果視訊正確轉碼，就會顯示在控制面板中，如下所示：
 
@@ -51,11 +51,11 @@ ht-degree: 1%
 
 ### 正在檢查視訊設定檔 {#checking-video-profile}
 
-1. 導覽至 **視訊設定檔**，也就是 `http://localhost:4502/etc/dam/video.html` 並按一下 **上傳測試視訊**.
+1. 導覽至&#x200B;**視訊設定檔**，也就是`http://localhost:4502/etc/dam/video.html`，然後按一下&#x200B;**上傳測試視訊**。
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 上傳測試視訊並按一下 **確定** 以便您開始轉碼。
+1. 上傳測試視訊並按一下&#x200B;**確定**，您就可以開始轉碼。
 
    如果轉碼視訊失敗，請展開FFMPEG輸出以瞭解FFMPEG主控台輸出中的任何錯誤。
 
@@ -73,28 +73,28 @@ ht-degree: 1%
 
 如果視訊元件未正確設定，請檢查頁面設計中的設定檔清單。
 
-1. 導覽至您的頻道，然後按一下 **設計** 模式。
+1. 導覽至您的頻道，然後按一下&#x200B;**設計**&#x200B;模式。
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. 按一下視訊並開啟 **編輯** 對話方塊。 開啟 **設定檔** 標籤。
+1. 按一下視訊並開啟&#x200B;**編輯**&#x200B;對話方塊。 開啟&#x200B;**設定檔**&#x200B;標籤。
 
    >[!NOTE]
    >按一下不同的設定檔（至少應有「高品質H.264」設定檔）。
 
 ### 在網頁播放器中檢查視訊 {#checking-the-video-in-the-web-player}
 
-使用 **網頁播放器** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 驗證瀏覽器（Chrome和Safari）中的播放。 Chrome可在Android™裝置上使用，而Safari可在OS X和iOS瀏覽器上使用。
+使用&#x200B;**網頁播放器** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`驗證瀏覽器(Chrome和Safari)中的播放。 Chrome可在Android™裝置上使用，而Safari則可作為OS X和iOS瀏覽器。
 
 如果影片無法在Safari上執行，則無法在OS X和iOS播放器中執行。 此問題可能是編碼問題，因此必須對視訊重新編碼。
 
 若要使用DAM工作流程來建立FullHD轉譯，請執行以下操作：
 
-1. 導覽至 *工作流程模型管理員* 即 `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. 按一下 **畫面更新資產** 模型。
-1. 按一下 **開始工作流程** 從動作列移除。
-1. 從 **執行工作流程** 對話方塊中，按一下 **裝載**.
-1. 按一下 **執行**.
+1. 導覽至&#x200B;*工作流程模型管理員* （即`http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`）。
+1. 按一下&#x200B;**Screens更新資產**&#x200B;模型。
+1. 按一下動作列中的&#x200B;**開始工作流程**。
+1. 在&#x200B;**執行工作流程**&#x200B;對話方塊中，按一下&#x200B;**承載**&#x200B;中的視訊資產。
+1. 按一下&#x200B;**執行**。
 
 >[!NOTE]
 >
@@ -106,14 +106,14 @@ ht-degree: 1%
 
 請依照下列步驟，針對Google的自動播放原則標幟問題進行疑難排解：
 
-1. 瀏覽至 ***chrome://flags/#autoplay-policy***
-1. 變更 **自動播放原則** 從 **預設** 至 **不需要使用者手勢**
+1. 導覽至&#x200B;***chrome://flags/#autoplay-policy***
+1. 將&#x200B;**自動播放原則**&#x200B;從&#x200B;**預設**&#x200B;變更為&#x200B;**不需要使用者手勢**
 
 1. 重新啟動網頁瀏覽器並更新播放器
 
 >[!NOTE]
 >
->若要進一步瞭解在Chrome中使用新自動播放原則以獲得良好使用者體驗的最佳實務。 另請參閱 *自動播放原則變更* 在 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>進一步瞭解Chrome中新的自動播放原則的最佳實務，以便獲得良好的使用者體驗。 在`https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`檢視&#x200B;*自動播放原則變更*。
 
 ### 跨多個播放器同步視訊 {#syncing-video-across-multiple-players}
 
@@ -137,18 +137,18 @@ ht-degree: 1%
 
 1. 導覽至您的管道作者，然後按一下順序元件，如下圖所示。
 1. 開啟其設定對話方塊。
-1. 編輯 **策略** 並新增絕對。
+1. 編輯&#x200B;**策略**&#x200B;並新增絕對。
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    >[!NOTE]
    >播放器的作業系統必須有相同的時鐘。
 
-**在OS X上對齊時鐘** 請依照下列步驟在OS X上對齊時鐘：
+**在OS X上對齊時鐘**&#x200B;請依照下列步驟在OS X上對齊時鐘：
 
-1. 開啟 **日期與時間** 每個OS X盒的偏好設定
-1. 檢查 **自動設定日期和時間**
-1. 在下拉式清單中貼上值0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com或直接執行 *sudo ntpdate -u -v 0.pool.ntp.org*
+1. 開啟每個OS X方塊上的&#x200B;**日期與時間**&#x200B;偏好設定
+1. 檢查&#x200B;**自動設定日期和時間**
+1. 在下拉式清單中貼上值0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com，或直接執行&#x200B;*sudo ntpdate -u -v 0.pool.ntp.org*
 1. 啟動2個以上的播放器
 
 播放器開始新的對齊順序可能需要一些時間。

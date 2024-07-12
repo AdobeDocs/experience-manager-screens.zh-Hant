@@ -50,7 +50,7 @@ ht-degree: 0%
 
 AEM Screens包含裝置控制中心模組，可管理Screens播放器應用程式端點。
 
-它是指任何 *播放器* 已安裝Screens播放器應用程式並註冊至AEM執行個體的硬體裝置。
+它是指任何已安裝Screens播放器應用程式並註冊到AEM執行個體的&#x200B;*播放器*硬體裝置。
 此模組可讓您：
 
 1. 監視播放器應用程式錯誤記錄
@@ -58,7 +58,7 @@ AEM Screens包含裝置控制中心模組，可管理Screens播放器應用程�
 1. 管理內容下載
 1. 管理應用程式重新啟動問題
 
-若要深入瞭解 ***裝置控制中心***，請參閱 [疑難排解裝置控制中心](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 在 **AEM Screens使用手冊**.
+若要深入瞭解&#x200B;***裝置控制中心***，請參閱&#x200B;**AEM Screens使用手冊**&#x200B;中的[裝置控制中心疑難排解](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)。
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ AEM Screens包含裝置控制中心模組，可管理Screens播放器應用程�
 >
 > Adobe建議使用專屬的協力廠商裝置管理平台進行所有部署。
 
-選擇的特定平台取決於多種因素，包括 ***目標作業系統***， ***專案需求***、和 ***端點數目***.
+所選的特定平台取決於數個因素，包括&#x200B;***目標作業系統***、***專案需求***&#x200B;以及&#x200B;***端點數目***。
 
 以下是幾個範例：
 

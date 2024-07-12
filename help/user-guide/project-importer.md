@@ -29,8 +29,8 @@ ht-degree: 1%
 
 藉由讓作者提供試算表作為輸入檔案，並讓系統自動在後端建立位置樹，此功能：
 
-* *獲得比透過UI手動選取更好的效能*
-* *可讓客戶從自己的系統匯出位置，並輕鬆地將位置直接匯入AEM*
+* *取得比透過UI手動選取更好的效能*
+* *讓客戶從自己的系統匯出位置，並直接在AEM中輕鬆匯入*
 
 在初始專案設定期間或將現有AEM Screens擴充到新位置時，此程式可節省時間和金錢。
 
@@ -51,19 +51,19 @@ ht-degree: 1%
 | **屬性** | **說明** |
 |---|---|
 | ***`path {string*}`*** | 位置的資源路徑 |
-| ***`[./jcr:title] {string*}`*** | 要使用的範本名稱(即 *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | 要使用的範本名稱（即&#x200B;*熒幕/核心/範本/位置*&#x200B;的位置） |
 | ***`template {string}`*** | 用於頁面的選用標題 |
 | ***`[./jcr:description] {string}`*** | 用於頁面的選擇性說明 |
 
 因此，試算表(CSV/XLS)檔案需要下列欄：
 
-* **路徑 {string}**  — 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾(即 *`/foo`* 已匯入至 *`/content/screens/<project>/locations/foo`*)
-* **範本 {string}**  — 用於新位置的範本，目前唯一允許值為「location」，但此值日後會擴充至所有Screens範本(`display`， `sequencechannel`，等等)
-* **[。/*] {string}**  — 要在位置設定的任何選擇性屬性(即 `./jcr:title`， `./jcr:description`， `./foo, ./bar`)。 目前的版本不允許篩選。
+* **路徑{string}** — 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾（也就是說，*`/foo`*&#x200B;已匯入至&#x200B;*`/content/screens/<project>/locations/foo`*）
+* **範本{string}** — 用於新位置的範本，目前唯一允許值為「location」，但此值已擴充至未來的所有Screens範本（`display`、`sequencechannel`等）
+* **[。/*] {string}** — 要設定在位置上的任何選擇性屬性（即，`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 目前的版本不允許篩選。
 
 >[!NOTE]
 >
->不符合上述條件的任何欄都會被忽略。 例如，如果您在工作表(CSV/XLS)檔案中定義了任何其他欄， **路徑**， **範本**， **標題**、和 **說明** 您的檔案會忽略這些欄位。 和 **專案匯入工具** 不會驗證這些用於將專案匯入AEM Screens專案的其他欄位。
+>不符合上述條件的任何欄都會被忽略。 例如，如果您的工作表(CSV/XLS)檔案中除了&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**&#x200B;以外還定義了任何其他欄，則會忽略這些欄位。 此外，**專案匯入工具**&#x200B;不會驗證這些用於將專案匯入至AEM Screens專案的其他欄位。
 
 ## 使用專案匯入工具 {#using-project-importer}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ### 先決條件 {#prerequisites}
 
-* 建立標題為的專案 **DemoProjectImport**
+* 建立標題為&#x200B;**DemoProjectImport**&#x200B;的專案
 
 * 使用您必須匯入的範例CSV或Excel檔案。
 
@@ -101,17 +101,17 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 按一下專案，**DemoProjectImporter **>** 建立 **>** 匯入位置**從側邊列。
+1. 按一下專案，** DemoProjectImporter **>**&#x200B;從側邊列建立&#x200B;**>**&#x200B;匯入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 此 **匯入** 精靈隨即顯示。 按一下包含位置的專案檔案，或按一下檔案(***最小檔案.xls***)您已從「 」下載 *必要條件* 區段。
+1. 顯示&#x200B;**匯入**&#x200B;精靈。 按一下含有位置的專案檔案，或按一下您從&#x200B;*先決條件*&#x200B;區段下載的檔案(***minimal-file.xls***)。
 
-   選取檔案後，按一下 **下一個**.
+   選取檔案後，按一下[下一步] ****。
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從匯入精靈中驗證檔案的內容（位置），然後按一下 **匯入**.
+1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。****
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

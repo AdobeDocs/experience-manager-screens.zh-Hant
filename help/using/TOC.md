@@ -41,7 +41,7 @@ ht-degree: 25%
 + 部署簡介 {#deployment-brief}
    + [AEM平台組態](aem-platform-configurations.md)
    + [專案分類與實作](project-taxonomy-implementation.md)
-   + 網路流量管理 {#manage-network-traffic}
+   + 網路流量管理{#manage-network-traffic}
       + [管理網路流量](/help/using/managing-network-traffic.md)
       + [直接網際網路網路（有線/無線）](/help/using/direct-internet-network.md)
       + [直接行動網路](/help/using/mobile-network.md)

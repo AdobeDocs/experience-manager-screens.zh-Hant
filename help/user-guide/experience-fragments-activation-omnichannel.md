@@ -24,15 +24,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >**必要條件
->您必須預先瞭解體驗片段的基本知識，以及如何在AEM Screens專案中使用體驗片段。 另請參閱 [使用體驗片段](/help/user-guide/experience-fragments-in-screens.md)
+>您必須預先瞭解體驗片段的基本知識，以及如何在AEM Screens專案中使用體驗片段。 檢視[使用體驗片段](/help/user-guide/experience-fragments-in-screens.md)
 
 ### 設定示範專案 {#demo-project-setup}
 
-建立標題為的專案 **示範專案** 和標題為的順序頻道 **TestChannel** 在您的AEM Screens中，如下圖所示。
+在您的AEM Screens中建立標題為&#x200B;**DemoProject**&#x200B;的專案和標題為&#x200B;**TestChannel**&#x200B;的順序頻道，如下圖所示。
 
 ### 在AEM Screens專案中實作體驗片段 {#experience-fragments-implementation}
 
-當您建立了體驗片段並套用至您的AEM Screens專案時， **示範專案**，您就可以根據自己的需求增強體驗片段。
+當您已建立體驗片段並將其套用至您的AEM Screens專案&#x200B;**DemoProject**&#x200B;時，您可以根據自己的需求增強體驗片段。
 
 ### 增加文字大小 {#increasing-text-size}
 

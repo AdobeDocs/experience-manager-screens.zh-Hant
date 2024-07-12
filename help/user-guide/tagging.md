@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->此 **標籤** 只有為您的租使用者啟用此功能時，才可使用。 請聯絡AEM Screens工程以將其啟用。
+>**標籤**&#x200B;功能只有在您的租使用者已啟用時才可用。 請聯絡AEM Screens工程以將其啟用。
 
 ## 簡介 {#introduction}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 建立和管理標籤 {#create-and-manage-tags}
 
-![建立標籤](assets/tagging/create-tag.gif).
+![建立標籤](assets/tagging/create-tag.gif)。
 
 使用相同的動作選單重新命名標籤或刪除標籤。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 在「顯示和播放器」上使用建立的標籤。
 
-![管理標籤指派](assets/tagging/assign-tags-to-players.gif).
+![管理標籤指派](assets/tagging/assign-tags-to-players.gif)。
 
 >[!NOTE]
 > 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 選取標籤以篩選顯示區或播放器清單。
 
-![依標籤篩選](assets/tagging/filter-by-tags.gif).
+![依標籤篩選](assets/tagging/filter-by-tags.gif)。
 
 >[!NOTE]
 > 

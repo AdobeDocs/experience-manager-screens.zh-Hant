@@ -15,13 +15,13 @@ ht-degree: 5%
 # Feature Pack 20240116發行說明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以透過取得最新版本資訊 [此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes).
+>Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
 
 ## 可用性 {#availability}
 
 AEM Screens已發行AEM 6.5 Feature Pack 11.2。
 
-若要下載AEM Screens 6.5.11.2版的最新Feature Pack，請前往 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5畫面FP11.2**.
+您可以使用您的Adobe ID，從[軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下載AEM Screens 6.5.11.2版的最新Feature Pack。 瀏覽至&#x200B;**Adobe Experience Manager**&#x200B;索引標籤並搜尋&#x200B;**Screens**，以取得標題為&#x200B;**AEM 6.5 Screens FP11.2**&#x200B;的最新功能套件。
 
 ## 發行日期 {#release-date}
 
@@ -33,10 +33,10 @@ AEM Screens Feature Pack 202204的發行日期為2024年1月16日。
 
 ### 錯誤修正 {#bug-fixes}
 
-* XSS問題位於 `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`. (SCRNS-3764)
+* `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`的XSS問題。 (SCRNS-3764)
 
-* XSS問題位於 `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
+* `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`的XSS問題。 (SCRNS-3906)
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens Player，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens播放器，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**。

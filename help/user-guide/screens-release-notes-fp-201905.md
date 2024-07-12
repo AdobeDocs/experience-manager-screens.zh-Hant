@@ -35,25 +35,25 @@ AEM Screens Feature Pack 201905的發行日期為2019年5月16日。
 
 「專案匯入工具」是AEM Screens中提供的功能，可讓您將CSV/XLS試算表的一組位置大量匯入至AEM Screens專案。
 
-另請參閱 **[從檔案新增專案匯入工具](project-importer.md)** 以取得更多詳細資料。
+如需詳細資訊，請參閱檔案&#x200B;](project-importer.md)**的**[&#x200B;新專案匯入工具。
 
 * **從ContentSync轉換為SmartSync**
 
 SmartSync可將伺服器負載/儲存及網路流量降至最低，以降低成本。
 
-另請參閱 **[從ContentSync轉換為SmartSync](smartsync.md)** 以取得更多詳細資料。
+如需詳細資訊，請參閱&#x200B;**[從ContentSync轉換為SmartSync](smartsync.md)**。
 
 * **緊急通道**
 
 此使用案例範例著重於建立和管理緊急通道，如果存在先決條件，內容作者可以從順序通道切換。
 
-另請參閱 **[緊急通道](emergency-channel.md)** 使用案例以取得更多詳細資料。
+如需詳細資訊，請參閱&#x200B;**[緊急通道](emergency-channel.md)**&#x200B;使用案例。
 
 * **使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合**
 
 本節說明如何使用AEM SPA編輯器以REACT (或Angular)內嵌互動式單頁應用程式。 AEM中的商務專家可以設定編輯器。 同時也說明如何將互動式應用程式與離線Adobe Analytics整合。
 
-另請參閱 **[使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)** 以取得更多詳細資料。
+如需詳細資訊，請參閱&#x200B;**[使用AEM SPA編輯器內嵌REACT應用程式及與AEM Screens Analytics整合](embedding-react-app.md)**。
 
 ### 已發行的AEM Screens Players
 
@@ -65,4 +65,4 @@ SmartSync可將伺服器負載/儲存及網路流量降至最低，以降低成�
 
 #### AEM Screens播放器下載
 
-若要下載最新的AEM Screens Player並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/)**.
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱&#x200B;**[AEM Screens播放器下載](https://download.macromedia.com/screens/)**。
