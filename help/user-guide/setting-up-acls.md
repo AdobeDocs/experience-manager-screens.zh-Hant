@@ -1,6 +1,6 @@
 ---
 title: 設定ACL
-description: 瞭解如何使用ACL來分隔專案，以便每個個人或團隊處理自己的專案。
+description: 瞭解如何使用存取控制清單(ACL)來區隔專案，讓每個人或團隊都能處理自己的專案。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
 
-# 設定ACL {#setting-up-acls}
+# 設定存取控制清單(ACL) {#setting-up-acls}
 
-下節將說明如何使用ACL來分隔專案，以便每個個人或團隊處理自己的專案。
+下節將說明如何使用存取控制清單(ACL)來分隔專案，以便每個個人或團隊處理自己的專案。
 
 身為AEM管理員，您想要確保專案的團隊成員不會干預其他專案。 每個使用者都會根據專案需求獲派特定角色。
 
