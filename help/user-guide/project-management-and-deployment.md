@@ -1,5 +1,5 @@
 ---
-title: 「第4部分：專案管理與部署」
+title: 第4部分：專案管理與部署
 description: 瞭解AEM Screens的專案管理和部署準備（專案前期生產、專案啟動、專案進度）。
 contentOwner: jsyal
 content-type: reference

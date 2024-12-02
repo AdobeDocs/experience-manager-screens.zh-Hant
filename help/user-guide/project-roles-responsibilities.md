@@ -1,5 +1,5 @@
 ---
-title: 「第1部分：專案角色與責任」
+title: 第1部分：專案角色與責任
 description: 在本教學課程中，瞭解數位招牌專案的銷售和專案生命週期中所需的角色、職責和時間線。
 feature: Overview
 role: User, Data Architect

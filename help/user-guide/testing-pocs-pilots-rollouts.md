@@ -1,5 +1,5 @@
 ---
-title: 「第3部分：測試、POC、試行方案及推出」
+title: 第3部分：測試、POC、試行方案及推出
 description: 瞭解整體專案計畫中涉及的關鍵術語，例如專案週期、圍繞硬體測試的動作、概念證明、試行方案和轉出。
 contentOwner: jsyal
 content-type: reference

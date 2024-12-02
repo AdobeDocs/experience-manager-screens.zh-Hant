@@ -1,5 +1,5 @@
 ---
-title: 「第2部分：限定範圍專案的考量事項」
+title: 第2部分：限定範圍專案的考量
 description: 瞭解AEM Screens中的內容策略、I/O層、資產型別和對象細分。 閱讀日間元件、業務營運需求及網站整備考量事項。
 contentOwner: jsyal
 content-type: reference

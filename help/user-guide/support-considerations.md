@@ -1,6 +1,6 @@
 ---
-title: 「第5部分：支援考量事項」
-description: 瞭解如何解決硬體、軟體和連線問題。 探索現場支援的成本估算與架構。 此外，瞭解如何管理SLA引數、操作預算和NOC移交。
+title: 第5部分：支援考量事項
+description: 瞭解如何解決硬體、軟體和連線問題。 探索現場支援的成本估算與架構。 此外，瞭解如何管理SLA引數、營運預算及NOC移交。
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 第5部分：支援考量事項 {#part-support-considerations}
 
-本頁著重說明五個部分系列的結尾部分，旨在協助團隊成員瞭解如何解決硬體、軟體和連線問題。 本階段探討現場支援的成本估算與架構。 此外，也說明如何管理SLA引數、作業預算和NOC移交。
+本頁著重說明五個部分系列的結尾部分，旨在協助團隊成員瞭解如何解決硬體、軟體和連線問題。 本階段探討現場支援的成本估算與架構。 此外，也說明SLA引數、營運預算及NOC移交的管理方式。
 
 ## 概觀 {#overview}
 
