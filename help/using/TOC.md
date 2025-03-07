@@ -48,7 +48,7 @@ ht-degree: 24%
       + [具有行動資料路由器和主動式網路元件的行動網路](/help/using/mobile-network-router.md)
       + [封閉式企業網路（有線/無線）](/help/using/enclosed-corporate-network.md)
    + [裝置設定](device-configurations.md)
-   + [測試與品質保證](testing-quality-assurance.md)
+   + [測試與品質Assurance](testing-quality-assurance.md)
    + [廠商互動策略](vendor-engagement.md)
 + 支援與維護 {#ongoing-support}
    + [支援與監控](support-monitoring.md)
