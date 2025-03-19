@@ -3,9 +3,9 @@ title: 在Screens Cloud上標籤
 description: 本頁說明如何在Screens Cloud上建立、管理及使用標籤。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
+source-git-commit: 2fb092c530ec335d754802a0a8af2b63ec8549d2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,9 @@ ht-degree: 0%
 ![管理標籤指派](assets/tagging/assign-tags-to-players.gif)。
 
 >[!NOTE]
->  
->一次最多可標籤30個專案。
+>
+> 顯示區或播放器最多可指派30個標籤。
+> 一次最多可標籤30個專案。
 
 ## 依標籤篩選 {#filter-by-tags}
 
