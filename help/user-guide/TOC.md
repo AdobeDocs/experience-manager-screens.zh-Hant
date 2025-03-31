@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用數位簽署解決方案，發佈動�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [AEM Screens安全性檢查清單](security-checklist.md)
    + [從ContentSync轉換為SmartSync](smartsync.md)
    + [從檔案新增專案匯入工具](project-importer.md)
-   + [將資料觸發器復寫至Publish伺服器](replicating-data-triggers.md)
+   + [將資料觸發器復寫至發佈伺服器](replicating-data-triggers.md)
    + [在Screens上設定復寫代理](configure-screens-replication.md)
    + 使用者端特定考量事項{#installing-client}
       + [Chrome作業系統播放器](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 11%
       + [雲端播放器](implementing-cloud-player.md)
       + [自動註冊播放器](auto-registration-players.md)
       + [使用遙控器](implementing-remote-control.md)
-   + 作者Publish {#author-publish}
+   + 作者發佈{#author-publish}
       + [Author-Publish架構概覽](author-publish-architecture-overview.md)
-      + [設定作者與Publish](author-and-publish.md)
+      + [設定作者和發佈](author-and-publish.md)
    + Analytics與AEM Screens {#analytics-integration}整合
       + [Adobe Analytics 整合](adobe-analytics-integration-aem-screens.md)
       + [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 11%
    + [離線頻道](offline-channels.md)
    + [擴充AEM Screens元件](extending-component-tutorial-develop.md)
    + [建立元件](creating-components.md)
-   + [使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)
+   + [使用AEM SPA Editor內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)
    + [在AEM Screens中設定ContextHub](configuring-context-hub.md)
    + [建立MultiZone配置圖的自訂範本](creating-custom-templates-multizone-layouts.md)
    + [套用文字覆蓋圖的自訂品牌和樣式](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [疑難排解裝置控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [Feature Pack 202401發行說明](release-notes-fp-20250215.md)
    + [Feature Pack 202401發行說明](release-notes-fp-202401.md)
    + [Feature Pack 20240116發行說明](release-notes-fp-20240116.md)
    + [Feature Pack 20240215發行說明](release-notes-fp-20240215.md)
