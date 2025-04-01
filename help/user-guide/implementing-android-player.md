@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # 實作Android™ Player {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
 
 本節說明如何設定Android™播放器。 它提供設定檔和可用選項的資訊，以及開發和測試使用哪些設定的建議。
 
@@ -40,7 +43,7 @@ ht-degree: 0%
 
 1. 使用`http://localhost:4502/system/console/configMgr`導覽至&#x200B;**Adobe Experience Manager Web主控台組態**。
 
-1. 搜尋&#x200B;*AdobeGranite權杖驗證處理常式*。
+1. 搜尋&#x200B;*Adobe Granite權杖驗證處理常式*。
 
 1. 將登入權杖Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設定為&#x200B;**None**。
    ![影像](/help/user-guide/assets/granite-updates.png)
@@ -55,7 +58,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 下載應用程式後，請依照播放器上的步驟完成隨選安裝：
 
 1. 長按左上角以開啟「管理」面板。
-1. 從左側動作功能表瀏覽至&#x200B;**組態**，並輸入您要連線的AEM執行個體的位置（位址），然後按一下&#x200B;**儲存**。
+1. 從左側動作功能表瀏覽至&#x200B;**設定**，並輸入您要連線的AEM執行個體位置（位址），然後按一下&#x200B;**儲存**。
 
 1. 從左側動作功能表瀏覽至&#x200B;**裝置** **註冊**&#x200B;連結，以便檢查裝置註冊程式的狀態。
 
@@ -86,7 +89,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 
 1. 使用尋找`~/Library/Android/sdk/build-tools -name "apksigner"`在Android™ SDK中尋找`apksigner`工具
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. 尋找Android™ SDK中zip對齊工具的路徑
+1. 在Android™ SDK中尋找Zip對齊工具的路徑
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 使用adb安裝將&#x200B;***aemscreensaligned.apk***&#x200B;安裝到裝置
 
@@ -124,7 +127,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 
 1. 部署檔案時，請使用MDM安裝播放器應用程式。
 
-1. 播放器應用程式啟動時，會讀取此設定檔，並指向適用的AEM伺服器（在其中註冊並接著控制）。
+1. 當播放器應用程式啟動時，會讀取此設定檔，並指向適用的AEM伺服器，在其中註冊並接著加以控制。
 
    >[!NOTE]
    >第一次啟動應用程式時，這個檔案是&#x200B;*唯讀*，無法用於後續設定。 如果在卸除設定檔之前啟動播放器，只需在裝置上解除安裝並重新安裝應用程式即可。
@@ -198,7 +201,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 1. 設定這些引數、儲存原則，並將其部署至裝置。
 
    >[!NOTE]
-   >裝置應該會同時接收應用程式和設定。 它應該以選取的設定指向正確的AEM伺服器。 如果您選擇設定大量註冊程式碼，並使其與AEM中的設定相同，則播放器應能自動註冊自身。 如果您設定了預設顯示，它也可以下載並顯示某些預設內容（稍後可視您的便利性進行變更）。
+   >裝置應該會同時接收應用程式和設定。 它應該以選取的設定指向正確的AEM伺服器。 如果您選擇設定大量註冊程式碼，並維持與AEM中設定的相同，播放器應該能自動註冊。 如果您設定了預設顯示，它也可以下載並顯示某些預設內容（稍後可視您的便利性進行變更）。
 
 此外，您也應該向EMM供應商洽詢AppConfig支援。 最受歡迎的[`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、[`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)、[`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)、[`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)、[`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)和[`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)等支援此產業標準。
 
