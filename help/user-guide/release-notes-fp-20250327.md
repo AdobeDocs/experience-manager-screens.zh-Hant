@@ -4,9 +4,10 @@ description: 深入瞭解於2025年3月27日發行的AEM Screens Feature Pack 20
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 9934df069cf7625b55d82cef58ee8fea08b585a1
+exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
+source-git-commit: 658acac989ed06f33dae10a6145ada31ff57811d
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,4 @@ AEM Screens Feature Pack 20250327的發行日期為2025年3月27日。
 
 ### 錯誤修正 {#bug-fixes}
 
-* Service Pack 21和Screens Feature Pack出現套件衝突。 (SCRNS-4638)
-
 * Screens Dashboard無法運作。 (SCRNS-4749)
-
