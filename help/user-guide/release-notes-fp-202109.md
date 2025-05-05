@@ -37,7 +37,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 * **基本播放監視**
 
   AEM Screens現在可支援基本播放監控。 播放器現在會報告每次ping （預設為30秒鐘）的各種播放量度。 它會根據量度偵測各種邊緣情況（停滯體驗、空白熒幕、排程問題等）。 此功能可讓團隊在遠端監視播放器是否正確播放內容，並改善對空白熒幕或現場中斷體驗的反應能力。 這也會降低向一般使用者顯示中斷體驗的風險。
-如需詳細資訊，請參閱[基本播放監視](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
+如需詳細資訊，請參閱[基本播放監視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
 
 * **內容指派報告的更新**
 
@@ -77,8 +77,8 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
    * 更新自訂元件。
 
 
-   * 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
-   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+   * 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
+   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 
 ### 錯誤修正 {#bug-fixes}

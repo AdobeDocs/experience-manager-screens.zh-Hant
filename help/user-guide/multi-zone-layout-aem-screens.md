@@ -40,8 +40,8 @@ ht-degree: 0%
 
 開始實作此功能之前，請確定您具備下列概念知識：
 
-* [建立AEM Screens專案](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [正在建立顯示區](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [建立AEM Screens專案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [正在建立顯示區](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [將頻道指派給顯示區](/help/user-guide/channel-assignment.md)
 
 ## 建立多區域配置 {#creating-multi-zone-layout}

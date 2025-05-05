@@ -58,7 +58,7 @@ AEM Screens包含裝置控制中心模組，可管理Screens播放器應用程�
 1. 管理內容下載
 1. 管理應用程式重新啟動問題
 
-若要深入瞭解&#x200B;***裝置控制中心***，請參閱&#x200B;**AEM Screens使用手冊**&#x200B;中的[裝置控制中心疑難排解](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)。
+若要深入瞭解&#x200B;***裝置控制中心***，請參閱&#x200B;**AEM Screens使用手冊**&#x200B;中的[裝置控制中心疑難排解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)。
 
 >[!CAUTION]
 >

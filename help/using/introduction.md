@@ -30,7 +30,7 @@ AEM Screens可讓您建立：
 
 >[!NOTE]
 >
->若要詳細瞭解AEM Screens專案開發與管理中的不同功能，請參閱&#x200B;**[AEM Screens使用手冊](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**。
+>若要詳細瞭解AEM Screens專案開發與管理中的不同功能，請參閱&#x200B;**[AEM Screens使用手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/aem-screens-introduction)**。
 
 ## AEM Sites與AEM Screens {#aem-sites-screens}
 

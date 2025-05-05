@@ -167,7 +167,7 @@ Windows Player中沒有視窗模式。 永遠處於全熒幕模式。
 
 1. 檢查您的Dispatcher設定是否允許`/filters`中的這些要求。
 
-   如需詳細資訊，請參閱[設定Screens篩選器](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
+   如需詳細資訊，請參閱[設定Screens篩選器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
 
 1. 檢查您的Dispatcher重寫規則是否正在將任何熒幕路徑重寫為其他路徑。
 
@@ -214,7 +214,7 @@ Windows Player中沒有視窗模式。 永遠處於全熒幕模式。
 ### 2.如何新增Oak索引資訊？ {#add-oak-index-info}
 
 AEM Screens會為產品使用的查詢建立索引定義。
-如果`error.log`中有任何&#x200B;*查詢周遊WARN*，請為您的查詢建立自訂索引。 如需詳細資訊，請參閱[設定索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+如果`error.log`中有任何&#x200B;*查詢周遊WARN*，請為您的查詢建立自訂索引。 如需詳細資訊，請參閱[設定索引](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您也可以在[Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他資源。
 
@@ -224,10 +224,10 @@ AEM Screens會為產品使用的查詢建立索引定義。
 若要啟用v3資訊清單，請執行下列動作：
 
 * 更新Dispatcher。
-如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
+如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
 
 * 更新自訂元件。
-如需詳細資訊，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+如需詳細資訊，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中停用ContentSync。
 
@@ -241,7 +241,7 @@ AEM Screens會為產品使用的查詢建立索引定義。
 
 ### 4.如果在套件screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心套件已安裝但未啟用，您應該怎麼做？
 
-安裝AEM 6.5 Feature Pack 8的最低版本，讓AMS聯結器正常運作。 請參閱[可用性](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以取得AEM Screens Feature Pack的最低版本。
+安裝AEM 6.5 Feature Pack 8的最低版本，讓AMS聯結器正常運作。 請參閱[可用性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以取得AEM Screens Feature Pack的最低版本。
 
 ### 5.如何在Screens中設定CQ Link Externalizer服務？
 

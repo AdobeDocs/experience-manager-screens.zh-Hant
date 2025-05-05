@@ -20,7 +20,7 @@ ht-degree: 4%
 Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep*），以及其他許多此類值從發佈到作者。 請務必設定此代理程式，讓作者可以顯示裝置Ping。
 
 >[!NOTE]
->若要深入瞭解Screens復寫代理程式，請參閱[Screens復寫代理程式與命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
+>若要深入瞭解Screens復寫代理程式，請參閱[Screens復寫代理程式與命令](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
 
 如果您要完成Screens復寫代理程式的設定，請完成這兩節：
 

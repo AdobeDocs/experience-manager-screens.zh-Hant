@@ -58,4 +58,4 @@ Adobe很樂意收到任何貢獻，如果您是在公共存放庫中，系統會
 
 ## 更多資訊
 
-如需 GitHub 製作平台使用方式的詳細資訊，請參閱 [Adobe 文件貢獻者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+如需 GitHub 製作平台使用方式的詳細資訊，請參閱 [Adobe 文件貢獻者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。

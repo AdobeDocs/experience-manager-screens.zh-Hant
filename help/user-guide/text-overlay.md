@@ -94,7 +94,7 @@ ht-degree: 1%
 
 為您的AEM Screens專案設定ContextHub設定。
 
-若要瞭解如何使用資料存放區來設定及管理資料導向資產變更，請參閱[在AEM Screens中設定ContextHub](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub)。
+若要瞭解如何使用資料存放區來設定及管理資料導向資產變更，請參閱[在AEM Screens中設定ContextHub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/configuring-context-hub)。
 
 在您設定專案所需的設定後，請依照下列步驟使用Google工作表中的值：
 
