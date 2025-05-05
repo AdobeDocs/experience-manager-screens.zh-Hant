@@ -101,17 +101,17 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 按一下專案，** DemoProjectImporter **>**&#x200B;從側邊列建立&#x200B;**>**&#x200B;匯入位置**。
+1. 按一下專案，**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B;從側邊列建立&#x200B;**>**&#x200B;匯入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
 1. 顯示&#x200B;**匯入**&#x200B;精靈。 按一下含有位置的專案檔案，或按一下您從&#x200B;*先決條件*&#x200B;區段下載的檔案(***minimal-file.xls***)。
 
-   選取檔案後，按一下[下一步] ****。
+   選取檔案後，按一下[下一步] **&#x200B;**。
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。****
+1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。**&#x200B;**
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

@@ -71,7 +71,7 @@ ht-degree: 1%
    ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >每次建立、編輯內容或將內容複製到任何節點時，按一下CRXDE Lite中動作列的「儲存全部&#x200B;****」。 否則，您無法認可更新。
+   >每次建立、編輯內容或將內容複製到任何節點時，按一下CRXDE Lite中動作列的「儲存全部&#x200B;**&#x200B;**」。 否則，您無法認可更新。
 
 1. 將lbar-left範本從`/libs/screens/core/templates/splitscreenchannel/lbar-left`複製到`/apps/customtemplate/template`。
 

@@ -55,4 +55,4 @@ AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使�
 * [在AEM Screens Player中檢視內容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->您也可以從CSV/XLS試算表將一組位置大量匯入您的AEM Screens專案。 請參閱檔案](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的[新專案匯入工具。
+>您也可以從CSV/XLS試算表將一組位置大量匯入您的AEM Screens專案。 請參閱檔案[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的新專案匯入工具。

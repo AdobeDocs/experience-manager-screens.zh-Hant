@@ -35,7 +35,7 @@ AEM Screens Feature Pack 201905的發行日期為2019年5月16日。
 
 「專案匯入工具」是AEM Screens中提供的功能，可讓您將CSV/XLS試算表的一組位置大量匯入至AEM Screens專案。
 
-如需詳細資訊，請參閱檔案&#x200B;](project-importer.md)**的**[&#x200B;新專案匯入工具。
+如需詳細資訊，請參閱檔案&#x200B;[&#128279;](project-importer.md)**的**&#x200B;新專案匯入工具。
 
 * **從ContentSync轉換為SmartSync**
 

@@ -54,7 +54,7 @@ ht-degree: 11%
    + 作者發佈{#author-publish}
       + [Author-Publish架構概覽](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
-   + Analytics與AEM Screens {#analytics-integration}整合
+   + Analytics與AEM Screens整合 {#analytics-integration}
       + [Adobe Analytics 整合](adobe-analytics-integration-aem-screens.md)
       + [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
 + 製作和使用案例範例{#authoring}
@@ -129,7 +129,7 @@ ht-degree: 11%
    + [Feature Pack 202204發行說明](release-notes-fp-202204.md)
    + [Feature Pack 202203發行說明](release-notes-fp-202203.md)
    + [Feature Pack 202112發行說明](release-notes-fp-202112.md)
-   + [Feature Pack 202109](release-notes-fp-202109.md)的發行說明
+   + [Feature Pack 202109的發行說明](release-notes-fp-202109.md)
    + [Feature Pack 202105發行說明](release-notes-fp-202105.md)
    + [Feature Pack 202103發行說明](release-notes-fp-202103.md)
    + [Feature Pack 202011發行說明](release-notes-fp-202011.md)

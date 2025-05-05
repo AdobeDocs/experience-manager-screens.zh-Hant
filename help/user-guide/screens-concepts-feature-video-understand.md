@@ -26,7 +26,7 @@ ht-degree: 0%
 
 若要觀看影片，您需要下列專案：
 
-1. **AEM 6.4**&#x200B;或**AEM 6.3*+ **Screens Feature Pack 1**
+1. **AEM 6.4**&#x200B;或&#x200B;**AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
 
 1. Screens播放器
 

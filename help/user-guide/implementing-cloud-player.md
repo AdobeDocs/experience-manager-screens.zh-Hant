@@ -44,14 +44,14 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 >
 >### Cloud Player安裝選項 {#cloud-player-install-option}
 >
-1. PWA的安裝選項也稱為「新增至主畫面」或A2HS功能。 支援從Web安裝PWA的方式因瀏覽器和平台而異。
-1. 每個瀏覽器都有不同的條件可檢查PWA應用程式是否可安裝。 一般而言，瀏覽器可以檢查（更多詳細資訊請參閱此處）：
+>1. PWA的安裝選項也稱為「新增至主畫面」或A2HS功能。 支援從Web安裝PWA的方式因瀏覽器和平台而異。
+>1. 每個瀏覽器都有不同的條件可檢查PWA應用程式是否可安裝。 一般而言，瀏覽器可以檢查（更多詳細資訊請參閱此處）：
 >
-* 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，即名稱、圖示、start_url、顯示
-* 如果應用程式的Service Worker檔案具有擷取事件監聽器
-* 應用程式必須透過https提供
+>* 如果應用程式具有資訊清單json檔案，且具備在平台上安裝應用程式所需的最低金鑰，即名稱、圖示、start_url、顯示
+>* 如果應用程式的Service Worker檔案具有擷取事件監聽器
+>* 應用程式必須透過https提供
 >
-1. 安裝選項可能會顯示在不同瀏覽器和裝置型別的不同位置。 有些瀏覽器可能會隱藏選項功能表列中的安裝圖示。
+>1. 安裝選項可能會顯示在不同瀏覽器和裝置型別的不同位置。 有些瀏覽器可能會隱藏選項功能表列中的安裝圖示。
 
 ## 大量布建雲端播放器 {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ Cloud Player的安裝可能因平台而異。 一般而言，任何具有現代�
 
 >[!NOTE]
 >
-## Chrome應用程式遭到Google淘汰
+>## Chrome應用程式遭到Google淘汰
 >
-1. Chrome作業系統硬體上的Chrome應用程式：
+>1. Chrome作業系統硬體上的Chrome應用程式：
 >
-Google已主動淘汰Chrome應用程式而改用PWA應用程式，並計畫移轉至2025年1月。 因此，Chrome作業系統上的AEM Screens Player應用程式將無法根據共用時間表正常運作。 Adobe敦促目前生產中使用Chrome Player的使用者規劃轉換至Screens Cloud Player的程式。
+>Google已主動淘汰Chrome應用程式而改用PWA應用程式，並計畫移轉至2025年1月。 因此，Chrome作業系統上的AEM Screens Player應用程式將無法根據共用時間表正常運作。 Adobe敦促目前生產中使用Chrome Player的使用者規劃轉換至Screens Cloud Player的程式。
 >
-1. Mac、Windows和Linux®上的Chrome擴充功能播放器：
+>1. Mac、Windows和Linux®上的Chrome擴充功能播放器：
 >
-由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 Adobe建議您轉換至其Screens Cloud Player，以符合所有開發和測試需求。
+>由於Google的淘汰程式，從Google Chrome 114版開始，不再支援Screens Chrome擴充功能播放器。 Adobe建議您轉換至其Screens Cloud Player，以符合所有開發和測試需求。
 
 ## 外部內容擷取的離線支援 {#offline-support}
 

@@ -42,7 +42,7 @@ Command Sync允許跨不同播放器同步處理播放。 播放器可播放不�
 若要深入瞭解健康情況檢查架構，請參閱[健康情況檢查架構](/help/user-guide/configuring-screens-introduction.md#health-check-framework)。
 
 * **預設轉變型別的更新**
-轉換元件（例如**Type**）的屬性現在設定為&#x200B;**淡化**，而&#x200B;**持續時間**&#x200B;預設為&#x200B;**1600毫秒**。
+轉換元件（例如&#x200B;**Type**）的屬性現在設定為&#x200B;**淡化**，而&#x200B;**持續時間**&#x200B;預設為&#x200B;**1600毫秒**。
 
   如需詳細資訊，請參閱[套用轉變](/help/user-guide/applying-transitions.md)使用案例。
 

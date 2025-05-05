@@ -154,7 +154,7 @@ ht-degree: 1%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. 按一下[下一步]****，然後按一下[儲存]****。
+   1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
 
       >[!NOTE]
       >跳過定義json的程式，並保留為空白。
@@ -173,6 +173,7 @@ ht-degree: 1%
       ![影像](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. 按一下區段`**Higherthan50**`，然後按一下動作列中的&#x200B;**屬性**。
+
       ![影像](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. 從&#x200B;**區段屬性**&#x200B;按一下&#x200B;**Personalization**&#x200B;索引標籤。 將&#x200B;**ContextHub路徑**&#x200B;設為`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`，將&#x200B;**區段路徑**&#x200B;設為`/conf/screens/settings/wcm/segments`，然後按一下&#x200B;**儲存**，如下圖所示。
@@ -239,7 +240,7 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 按一下[下一步]****，然後按一下[儲存]****。 `**ValueCheck50**`活動現在已建立並設定。
+   1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。 `**ValueCheck50**`活動現在已建立並設定。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
 

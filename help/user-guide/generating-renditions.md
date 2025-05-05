@@ -45,7 +45,7 @@ ht-degree: 0%
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
 1. 按一下「**處理序**」標籤。
-1. 在&#x200B;**引數**中輸入清單的Full HD設定檔，如下所示：
+1. 在&#x200B;**引數**&#x200B;中輸入清單的Full HD設定檔，如下所示：
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. 按一下&#x200B;**「確定」**。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 請依照下列步驟，手動產生Full HD轉譯：
 
-1. 按一下Adobe Experience Manager連結（左上方），然後按一下槌子圖示，這樣您就可以按一下[工具]，再按一下[工作流程]****。
+1. 按一下Adobe Experience Manager連結（左上方），然後按一下槌子圖示，這樣您就可以按一下[工具]，再按一下[工作流程]&#x200B;**&#x200B;**。
 
    按一下&#x200B;**模型**。
 

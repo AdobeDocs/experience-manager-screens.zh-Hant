@@ -30,7 +30,7 @@ Dispatcher是Adobe Experience Manager的快取或負載平衡工具，或兩者�
 ## 為資訊清單版本v2設定Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->下列Dispatcher設定僅適用於資訊清單版本v2。 請參閱資訊清單版本v3](#configuring-dispatcherv3)的[Dispatcher設定，以取得資訊清單版本v3。
+>下列Dispatcher設定僅適用於資訊清單版本v2。 請參閱資訊清單版本v3[&#128279;](#configuring-dispatcherv3)的Dispatcher設定，以取得資訊清單版本v3。
 
 AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行個體中的資源。 如果有多個發佈執行個體，請求應一律移至相同的發佈執行個體，使已驗證的工作階段對來自AEM Screens播放器或裝置的所有請求有效。
 
@@ -67,7 +67,7 @@ AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行
 
 ### 步驟2：設定Screens篩選器 {#step-configure-screens-filters}
 
-若要設定Screens篩選器，請將下列專案新增至***`/filter`***。
+若要設定Screens篩選器，請將下列專案新增至&#x200B;***`/filter`***。
 
 ```
 ## AEM Screens Filters

@@ -152,7 +152,7 @@ ht-degree: 0%
 
    1. 按一下「**儲存**」。
 
-   您可以從&#x200B;**StoreSchedule**儀表板檢視指派給顯示器的排程。
+   您可以從&#x200B;**StoreSchedule**&#x200B;儀表板檢視指派給顯示器的排程。
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **裝置註冊**

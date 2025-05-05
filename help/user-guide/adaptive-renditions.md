@@ -41,7 +41,7 @@ ht-degree: 2%
    >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。 請參閱Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md)的[發行說明，以取得最新Feature Pack的詳細資訊。
+   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。 請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。
    >若為現有專案，請確定Screens專案具有相關聯的&#x200B;**轉譯對應**&#x200B;設定。 如需詳細資訊，請參閱[將轉譯對應新增至現有專案](#rendition-mapping-existing)區段。
 
 ### 新增轉譯對應屬性至現有專案 {#rendition-mapping-existing}
@@ -85,7 +85,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 按一下「儲存全部」****，並注意您在&#x200B;**rendition-mapping**&#x200B;下建立的節點下的屬性。
+1. 按一下「儲存全部」**&#x200B;**，並注意您在&#x200B;**rendition-mapping**&#x200B;下建立的節點下的屬性。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

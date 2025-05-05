@@ -96,7 +96,7 @@ Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*passwor
 >在所有現有AEM Screens復寫代理程式上完成下列步驟。
 
 1. 導覽至您的AEM執行個體。
-1. 按一下[工具] > [部署] > [復寫] > [部署] **> [復寫]****。**
+1. 按一下[工具] > [部署] > [復寫] > [部署] **> [復寫]**&#x200B;**。**
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

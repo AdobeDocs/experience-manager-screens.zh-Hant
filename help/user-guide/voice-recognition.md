@@ -57,7 +57,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-emb-1.png)
 
-1. 導覽至每個管道並新增內容。 例如，瀏覽至&#x200B;**VoiceDemo** > **頻道** > **Main**，然後按一下頻道。 按一下動作列中的[編輯&#x200B;****]，然後依照您的需求新增內容（影像/影片）。 同樣地，新增內容至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道。
+1. 導覽至每個管道並新增內容。 例如，瀏覽至&#x200B;**VoiceDemo** > **頻道** > **Main**，然後按一下頻道。 按一下動作列中的[編輯&#x200B;**&#x200B;**]，然後依照您的需求新增內容（影像/影片）。 同樣地，新增內容至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道。
 
    管道現在包含資產（影像），如下圖所示。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-2.png)
 
-   如果您將「分割Screens」管道新增至專案，請導覽至&#x200B;**分割畫面**&#x200B;並拖放兩個內嵌序列。 新增路徑至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**頻道，如下圖所示。
+   如果您將「分割Screens」管道新增至專案，請導覽至&#x200B;**分割畫面**&#x200B;並拖放兩個內嵌序列。 新增路徑至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道，如下圖所示。
    ![影像](assets/voice-recognition/vr-emb-6.png)
 
 

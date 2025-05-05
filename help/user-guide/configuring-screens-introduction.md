@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![影像](assets/config/config-1.png)
 
-1. 按一下[儲存]以啟用&#x200B;*Http*&#x200B;服務。****
+1. 按一下[儲存]以啟用&#x200B;*Http*&#x200B;服務。**&#x200B;**
 
 #### 啟用AEM Screens的Touch UI {#enable-touch-ui-for-aem-screens}
 
