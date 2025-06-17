@@ -87,7 +87,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
        componentGroup="We.Retail Run - Content"/>
    ```
 
-   /apps/weretail-run/components/content/poster](assets/poster.png)的![屬性
+   /apps/weretail-run/components/content/poster![&#128279;](assets/poster.png)的屬性
 
    /apps/weretail-run/components/content/poster的屬性
 
@@ -333,7 +333,7 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
    * `allowProxy` | 布林值 | `true`
    * `categories` | 字串[] | `cq.screens.components`
 
-   /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)的![屬性
+   /apps/weretail-run/components/content/poster/clientlibs/shared![&#128279;](assets/2018-05-03_at_1026pm-1.png)的屬性
 
    /apps/weretail-run/components/content/poster/clientlibs/shared的屬性
 

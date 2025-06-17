@@ -62,8 +62,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >每次將第一個裝置新增到新的Screens專案時，都會建立使用者群組。
->>例如，如果專案節點名稱為&#x200B;*we-retail*，則使用者群組名稱為&#x200B;*screens-we-retail-devices*。
->>此群組已新增為&#x200B;**參與者**&#x200B;群組的成員，如下圖所示：
+>&#x200B;>例如，如果專案節點名稱為&#x200B;*we-retail*，則使用者群組名稱為&#x200B;*screens-we-retail-devices*。
+>&#x200B;>此群組已新增為&#x200B;**參與者**&#x200B;群組的成員，如下圖所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

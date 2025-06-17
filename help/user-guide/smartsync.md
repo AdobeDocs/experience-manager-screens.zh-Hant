@@ -85,7 +85,7 @@ SmartSync功能可為您的AEM Screens專案提供下列幾項優點：
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 按一下「儲存」****&#x200B;以啟用&#x200B;**Screens Offline Content Services**&#x200B;屬性，因此使用AEM Screens的SmartSync。
+1. 按一下「儲存」**&#x200B;**&#x200B;以啟用&#x200B;**Screens Offline Content Services**&#x200B;屬性，因此使用AEM Screens的SmartSync。
 1. 啟用SmartSync後，請瀏覽至您的專案，然後按一下&#x200B;**更新離線內容** *（從動作列），*，如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

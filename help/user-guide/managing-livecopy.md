@@ -125,7 +125,7 @@ ht-degree: 5%
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. 按一下[同步]****，然後按一下[儲存並關閉]****&#x200B;以導覽回到AEM儀表板。
+1. 按一下[同步]&#x200B;**&#x200B;**，然後按一下[儲存並關閉]&#x200B;**&#x200B;**&#x200B;以導覽回到AEM儀表板。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

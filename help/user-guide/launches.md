@@ -183,7 +183,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 建立啟動項後，您可以使用&#x200B;**編輯啟動項**&#x200B;選項，將頻道新增或移除至現有的啟動項。
 
-完成時，按一下[儲存]，導覽回&#x200B;**FutureLaunch**&#x200B;頻道。****
+完成時，按一下[儲存]，導覽回&#x200B;**FutureLaunch**&#x200B;頻道。**&#x200B;**
 
 ### 手動提升Screens啟動{#promote-the-screens-launch-manually}
 

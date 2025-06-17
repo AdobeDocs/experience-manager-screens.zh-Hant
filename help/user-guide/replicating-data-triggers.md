@@ -94,7 +94,7 @@ ht-degree: 1%
 
 1. 導覽至&#x200B;**工具** > **部署** > **發佈** > **發佈代理程式**。
 
-1. 按一下動作列中的&#x200B;**編輯**，並確定&#x200B;**Importer端點**欄位中的端點URL也指向發佈代理程式中的發佈伺服器URL。
+1. 按一下動作列中的&#x200B;**編輯**，並確定&#x200B;**Importer端點**&#x200B;欄位中的端點URL也指向發佈代理程式中的發佈伺服器URL。
    ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則必須使用不同的使用者名稱和密碼來設定發佈代理程式。
@@ -116,4 +116,4 @@ ht-degree: 1%
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 使用`(name=slingTransportSecretProvider)`更新`(name=default)`。
-   1. 按一下「儲存」****，然後再次從AEM執行個體的&#x200B;**散發代理程式**&#x200B;畫面執行測試連線。
+   1. 按一下「儲存」**&#x200B;**，然後再次從AEM執行個體的&#x200B;**散發代理程式**&#x200B;畫面執行測試連線。

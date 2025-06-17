@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
->>FeaturePack (FP) 11.5版相容於ServicePack (SP)，最高版本為21。
+>&#x200B;>FeaturePack (FP) 11.5版相容於ServicePack (SP)，最高版本為21。
 
 
 ## 可用性 {#availability}

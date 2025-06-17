@@ -114,7 +114,7 @@ ht-degree: 1%
    >
    >您也可以從顯示控制面板指派管道。 導覽至&#x200B;**頻道層級啟用** > **位置** > **區域** > **區域顯示**。 在動作列上，選取&#x200B;**儀表板**。 在&#x200B;**指派的管道和排程**&#x200B;面板中，按一下&#x200B;**+指派管道**。
 
-   同樣地，為顯示指派頻道&#x200B;**TargetedSinglePlay****：
+   同樣地，為顯示指派頻道&#x200B;**TargetedSinglePlay**&#x200B;**：
 
    1. 導覽至&#x200B;**頻道層級啟用** > **位置** > **地區** > **地區顯示**，然後按一下動作列中的&#x200B;**指派頻道**。
    1. 在&#x200B;**頻道指定任務**&#x200B;對話方塊中，按一下&#x200B;**依路徑參考頻道**。
@@ -146,8 +146,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >若要瞭解AEM Screen Player，請參閱下列資源：
->>[AEM Screens播放器下載](https://download.macromedia.com/screens/)
->>[使用AEM Screens Player](working-with-screens-player.md)
+>&#x200B;>[AEM Screens播放器下載](https://download.macromedia.com/screens/)
+>&#x200B;>[使用AEM Screens Player](working-with-screens-player.md)
 
 
 ## 在管道中處理Assets的週期 {#handling-recurrence-in-assets}
