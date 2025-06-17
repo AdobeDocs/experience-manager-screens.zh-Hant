@@ -31,4 +31,4 @@ ht-degree: 0%
 >
 >儘快識別應用程式所需的資料，以及資料的來源。 實施期間會進行更深入的探索。 不過，請務必在&#x200B;*Day Zero*&#x200B;期間花一些時間瞭解使用者端打算使用哪些資料。 瞭解該資料目前的儲存位置，以及建置的應用程式如何存取該資料。 在挑戰出現之前通知開發團隊有助於讓實施更順暢。
 
-觀看影片[專案範圍設定時的考量事項](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)。
+觀看影片[專案範圍設定時的考量事項](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)。

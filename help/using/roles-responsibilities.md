@@ -85,7 +85,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 
 >[!NOTE]
 >
->若要詳細瞭解數位看板專案的不同角色和責任以及目標對象，請造訪&#x200B;**[專案角色和責任](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
+>若要詳細瞭解數位看板專案的不同角色和責任以及目標對象，請造訪&#x200B;**[專案角色和責任](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
 
 
 ## 專案階段 {#project-stages}
@@ -100,7 +100,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 >
 >雖然本指南主要強調&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但要執行成功的數位告示牌專案，必須注意全部三個階段。
 >
->若要瞭解專案預先製作、專案啟動和專案進度，請觀看有關&#x200B;**[專案管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的影片。
+>若要瞭解專案預先製作、專案啟動和專案進度，請觀看有關&#x200B;**[專案管理和部署](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的影片。
 
 ## RACI圖表 {#raci-chart}
 

@@ -112,7 +112,7 @@ Screens需要三個復寫代理：
 1. 建立pub2的AEM Screens復寫代理程式。 複製pub1的Screens復寫代理程式，並將pub2的連線埠變更為指向4504。
 
    >[!NOTE]
-   >若要瞭解如何設定Screens復寫代理，請參閱[設定Screens復寫代理](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
+   >若要瞭解如何設定Screens復寫代理，請參閱[設定Screens復寫代理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
 
 #### 建立Screens反向復寫代理 {#creating-screens-reverse-replication-agents}
 
