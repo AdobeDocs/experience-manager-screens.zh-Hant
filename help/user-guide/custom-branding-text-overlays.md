@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
    >[!NOTE]
    >若要瞭解如何在管道編輯器中將文字覆蓋新增至您的資產，請參閱[文字覆蓋](/help/user-guide/text-overlay.md)。
 
-1. 從您的AEM執行個體>工具> **CRXDE Lite**&#x200B;瀏覽到CRXDE Lite。
+1. 從您的AEM執行個體>工具> **CRXDE Lite**&#x200B;導覽至CRXDE Lite。
 
 1. 在`/apps/settings/wcm/designs/<your-project>/`中建立自訂設計，例如，在此案例中，瀏覽至`/apps/settings/wcm/designs/customstyle/`
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 1. 導覽至標題為&#x200B;**DemoBrand** (在步驟(1)中建立)的頻道，然後在選取頻道後，從動作列按一下&#x200B;**內容**。
 
-1. 導覽至&#x200B;**進階**&#x200B;標籤，並檢查&#x200B;**設計**&#x200B;欄位。
+1. 導覽至&#x200B;**進階**&#x200B;標籤，並檢查&#x200B;**設計**欄位。
    ![影像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. 導覽至您CRXDE Lite的&#x200B;*static.css*&#x200B;檔案，然後新增字型（例如`font-family: "Lucida Console", Courier, monospace;`）至此檔案，如下所示。
+1. 導覽至您在CRXDE Lite中的&#x200B;*static.css*&#x200B;檔案，然後將`font-family: "Lucida Console", Courier, monospace;`等字型新增至此檔案，如下所示。
 
    ![影像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

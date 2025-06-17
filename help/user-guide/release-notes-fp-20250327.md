@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 658acac989ed06f33dae10a6145ada31ff57811d
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 3%
+source-wordcount: '219'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
->請使用FP11.6搭配SP(servicepack)版本22或更新版本。
+>>使用FP11.6搭配SP (servicepack) 22版或更新版本。
 
 ## 可用性 {#availability}
 
@@ -36,7 +36,7 @@ AEM Screens Feature Pack 20250327的發行日期為2025年3月27日。
 
 * 在AEM Screens Players上&#x200B;**更新**
    * Linux架構的AEM Screens Player已正式淘汰。 建議使用者移轉至AEM Screens支援的其他作業系統。
-   * Android型AEM Screens Player不會再有進一步的更新或增強功能。 建議使用者移轉至AEM Screens支援的替代作業系統。
+   * Android型AEM Screens Player不再有進一步的更新或增強功能。 建議使用者移轉至AEM Screens支援的替代作業系統。
 
 ### 錯誤修正 {#bug-fixes}
 

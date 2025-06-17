@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ AEM Screens提供可在Screens專案中使用的不同AEM元件。
 
 ### 新增元件 {#adding-a-new-component}
 
-AEM提供數個其他元件。 您一律可以新增其他元件（預設不包含）至專案，前提是這些元件與AEM Screens相容。
+AEM提供數種其他元件。 您一律可以新增其他元件（預設不包含）至專案，前提是這些元件與AEM Screens相容。
 
 下列範例說明如何將Livefyre元件新增至AEM Screens專案：
 
@@ -108,7 +108,7 @@ Channel元件具有以下屬性：
  </tbody>
 </table>
 
-### 內嵌頁面 {#embedded-page}
+### 嵌入頁面 {#embedded-page}
 
 **內嵌頁面**&#x200B;可讓您新增內嵌頁面至專案。 例如，它可以是網頁應用程式或產品目錄。
 
@@ -131,7 +131,7 @@ Channel元件具有以下屬性：
  </tbody>
 </table>
 
-### 內嵌順序 {#embedded-sequence}
+### 嵌入順序 {#embedded-sequence}
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ Channel元件具有以下屬性：
  </tbody>
 </table>
 
-### 動態內嵌序列 {#dynamic-embedded-sequence}
+### 動態嵌入序列 {#dynamic-embedded-sequence}
 
 動態內嵌序列可讓您新增與上述類似的序列，但頻道角色除外。
 
@@ -296,7 +296,7 @@ Channel元件具有以下屬性：
    <td>時間戳記會提供說明，直到轉變可以啟動為止。</td>
   </tr>
   <tr>
-   <td><strong><em>計劃</em></strong></td>
+   <td><strong><em>排程</em></strong></td>
    <td>新增預先定義的排程。</td>
   </tr>
  </tbody>

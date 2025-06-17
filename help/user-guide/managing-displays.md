@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 1. 從&#x200B;**建立**&#x200B;精靈按一下&#x200B;**顯示**，然後按一下&#x200B;**下一步**。
 1. 為您的顯示位置輸入您的&#x200B;**名稱**&#x200B;和&#x200B;**標題**。
 1. 在&#x200B;**顯示**&#x200B;標籤下，選擇配置的詳細資訊。 選擇所需的&#x200B;**解析度**，例如&#x200B;**Full HD**。 選擇水平與垂直裝置數量。
-1. 按一下&#x200B;**建立**。
+1. 按一下「**建立**」。
 
 顯示區(*StoreDisplay*)已建立並新增至位置(*SanJose*)。
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**裝置設定**&#x200B;作為必要的範本，然後按一下&#x200B;**下一步**。
 
-1. 視需要輸入屬性，然後按一下[建立]。**&#x200B;**
+1. 視需要輸入屬性，然後按一下[建立]。****
 
 裝置設定已建立並新增至目前的顯示（在下列示範中，新裝置設定為&#x200B;*DeviceConfig*）。
 

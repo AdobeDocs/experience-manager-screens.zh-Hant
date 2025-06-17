@@ -2,16 +2,16 @@
 title: 具有行動資料路由器和主動式網路元件的行動網路
 description: 此頁面說明具有行動資料路由器和主動式網路元件的行動網路
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # 具有行動資料路由器和主動式網路元件的行動網路 {#mobile-network-setup}
 
-AdobeAEM Screens Player也可以使用至少執行3G網路的行動或行動資料網路來連線。
+Adobe AEM Screens Player也可以使用至少執行3G網路的行動或行動資料網路來連線。
 
 在AEM Screens中，所需的內容會實際下載至播放器控制器或電腦，並正確儲存在基礎作業系統中。 因此，指定的頻寬只會影響初始下載時間和內容更新，不會影響一般播放顯示器的效能。
 
@@ -24,11 +24,11 @@ AdobeAEM Screens Player也可以使用至少執行3G網路的行動或行動資�
 
 ## 使用行動資料路由器和主動式網路元件將AEM Screens Player連線至行動網路 {#connecting-aem-screens-players}
 
-請依照下列步驟，確認此設定中的AEM熒幕播放器連線正確：
+請依照下列步驟，確認此設定中的AEM熒幕播放器有正確連線：
 
 此設定會使用專用的3/4/5G資料連結，透過直接網際網路存取，為每個AEM Screens控制器分配網際網路存取許可權。
 
-1. 請確定行動資料路由器已正確連線至行動資料網路，如作業系統所示。 此外，請確定每個AEM熒幕播放器均已連線至路由器網路。
+1. 請確定行動資料路由器已正確連線至行動資料網路，如作業系統所示。 此外，請確定每個AEM熒幕播放器皆已連線至路由器網路。
 1. 呼叫系統瀏覽器中的URL以測試網際網路連線。
 
    >[!NOTE]
@@ -69,7 +69,7 @@ AdobeAEM Screens Player也可以使用至少執行3G網路的行動或行動資�
 | 4G | 150 Mbps |
 | 5G | 1000 - 10000 Mbps |
 
-在考慮應使用哪個資料網路時，Adobe建議您回答下列問題：
+在考量應該使用哪個資料網路時，Adobe建議您回答下列問題：
 
 * 有多少使用者端連線到路由器？
 * 預期會有多少內容變更，平均檔案大小為何？
@@ -91,7 +91,7 @@ AdobeAEM Screens Player也可以使用至少執行3G網路的行動或行動資�
 
 例如，網路元件至少應符合100 Mbps標準，並符合網際網路存取/路由器規格所提供的頻寬。
 
-如果設想使用Wi-Fi解決方案將熒幕連線至網際網路連結，建議至少使用IEEE `802.11g`等現代Wi-Fi標準。 此標準支援最高54 Mbps的連線。 任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。 如果需要使用Wi-Fi中繼器，Adobe建議使用Google Nest Mesh Wi-Fi等網狀Wi-Fi存取點技術或類似技術。
+如果設想使用Wi-Fi解決方案將熒幕連線至網際網路連結，建議至少使用IEEE `802.11g`等現代Wi-Fi標準。 此標準支援最高54 Mbps的連線。 任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。 如果需要使用Wi-Fi中繼器，Adobe會推薦網狀架構Wi-Fi存取點技術，例如Google Nest Mesh Wi-Fi或類似技術。
 
 ## 下載媒體和Assets {#download}
 

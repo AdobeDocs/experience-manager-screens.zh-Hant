@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 # Feature Pack 202109發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
@@ -29,7 +29,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 ### 新增功能 {#what-is-new}
 
-* 影片的縮圖支援&#x200B;**&#x200B;**
+* 影片的縮圖支援&#x200B;****
 
   AEM Screens現在支援影片的縮圖支援。 內容作者會定義影片的縮圖，好讓影像可當做預留位置使用。 他們也會適當測試內容播放和目標定位，而由適當的團隊最終確定實際影片。 如果影片播放失敗，也可以使用該影像。
 如需詳細資訊，請參閱[影片的縮圖支援](/help/user-guide/thumbnail-support.md)。
@@ -37,7 +37,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 * **基本播放監視**
 
   AEM Screens現在可支援基本播放監控。 播放器現在會報告每次ping （預設為30秒鐘）的各種播放量度。 它會根據量度偵測各種邊緣情況（停滯體驗、空白熒幕、排程問題等）。 此功能可讓團隊在遠端監視播放器是否正確播放內容，並改善對空白熒幕或現場中斷體驗的反應能力。 這也會降低向一般使用者顯示中斷體驗的風險。
-如需詳細資訊，請參閱[基本播放監視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
+如需詳細資訊，請參閱[基本播放監視](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
 
 * **內容指派報告的更新**
 
@@ -58,7 +58,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
    * 清除作者和已發佈中的任何擱置離線內容工作。
 
-      * 在作者和Publish中導覽至CRXDE Lite。
+      * 在「作者」和「發佈」中導覽至CRXDE Lite。
 
       * 按一下「工具」>「查詢」。
 
@@ -77,8 +77,8 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
    * 更新自訂元件。
 
 
-   * 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
-   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+   * 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
+   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 
 ### 錯誤修正 {#bug-fixes}

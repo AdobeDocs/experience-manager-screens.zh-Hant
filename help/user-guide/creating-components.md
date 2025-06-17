@@ -9,26 +9,26 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 3%
+source-wordcount: '281'
+ht-degree: 1%
 
 ---
 
 # 建立元件 {#creating-components}
 
-AEM元件可用來保留、格式化及轉譯可在網頁上使用的內容。
+AEM元件可用來保留、格式化及轉譯可在您的網頁上使用的內容。
 
 >[!NOTE]
 >
 >若要瞭解建立AEM元件的詳細資訊，請參閱開發AEM元件。
 
-## 製作管道 {#authoring-channels}
+## 作者管道 {#authoring-channels}
 
-色版是內容傳送至一組顯示器的中心物件。 因此，內容作者通常會在編輯器中開啟管道，以新增或修改內容。 由於通道是&#x200B;***`cq:Page`***，因此遵循相同的傳統UX模式在通道上新增和變更元件。
+色版是內容傳送至一組顯示器的中心物件。 因此，內容作者通常會在編輯器中開啟管道，以新增或修改內容。 由於通道是***`cq:Page`***，因此遵循相同的傳統UX模式在通道上新增和變更元件。
 
-不過，由於管道內的元件通常會以全熒幕呈現，因此在嘗試編輯單一元件或撰寫新訂單時，編寫體驗會受影響。 因此，管道需仰賴選取器來呈現元件的不同檢視。 製作環境會使用編輯選擇器來啟動自訂色版轉譯。
+不過，由於管道內的元件通常會以全熒幕呈現，因此在嘗試編輯單一元件或撰寫新訂單時，編寫體驗會受影響。 因此，管道需仰賴選取器來呈現元件的不同檢視。 製作環境使用`edit`選擇器來啟動自訂管道呈現。
 
 例如 `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
@@ -53,4 +53,4 @@ AEM元件可用來保留、格式化及轉譯可在網頁上使用的內容。
 
 >[!NOTE]
 >
->若要開發自訂元件，請使用&#x200B;***[AEM Screens範例元件範本](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
+>若要開發自訂元件，請使用***[AEM Screens範例元件範本](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。

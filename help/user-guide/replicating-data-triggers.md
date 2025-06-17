@@ -1,20 +1,20 @@
 ---
-title: 將資料觸發器復寫至Publish伺服器
+title: 將資料觸發器復寫至發佈伺服器
 description: 瞭解如何將資料觸發器復寫至AEM Screens的發佈伺服器。
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
 
-# 將資料觸發器復寫至Publish伺服器 {#replicating-data-triggers}
+# 將資料觸發器復寫至發佈伺服器 {#replicating-data-triggers}
 
-使用ContextHub和AEM Targeting Engine根據作者/發佈設定中的資料觸發器自訂內容時，所有ContextHub和Personalization相關設定在發佈時不會自動與管道復寫。
+使用ContextHub和AEM鎖定目標引擎根據作者/發佈設定中的資料觸發器自訂內容時，所有ContextHub和Personalization相關設定在發佈時不會自動與管道復寫。
 
 本頁可協助您瞭解分別發佈這些設定所需的手動步驟。
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 1. Personalization對象
 1. Personalization活動
 
-## 將資料觸發器復寫至Publish伺服器的步驟 {#replicating-data-triggers-publish}
+## 將資料觸發程式複製到發佈伺服器的步驟 {#replicating-data-triggers-publish}
 
 請依照下列步驟，將資料觸發程式復寫至發佈伺服器。
 
 ### 步驟1：復寫ContextHub設定 {#replicating-contexthub-configurations}
 
-1. 導覽至&#x200B;**工具** > **部署** > **發佈** > **Publish代理程式**，然後按一下發佈代理程式，讓您可以設定您的設定。
+1. 瀏覽至&#x200B;**工具** > **部署** > **發佈** > **發佈代理程式**，然後按一下發佈代理程式，以便您可以設定設定。
 
    ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 按一下動作列中的&#x200B;**管理出版物**。
 
-1. 按一下&#x200B;**下一步**&#x200B;和&#x200B;**Publish**。
+1. 按一下&#x200B;**下一步**&#x200B;和&#x200B;**發佈**。
 
 ### 復寫活動 {#replicating-activities}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 1. 按一下動作列中的&#x200B;**管理出版物**。
 
-1. 按一下&#x200B;**下一步**&#x200B;和&#x200B;**Publish**。
+1. 按一下&#x200B;**下一步**&#x200B;和&#x200B;**發佈**。
 
 >[!IMPORTANT]
 >
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 如果復寫ContextHub設定時測試連線失敗，請遵循以下章節以疑難排解問題：
 
-1. 導覽至&#x200B;**工具** > **部署** > **發佈** > **Publish代理程式**。
+1. 導覽至&#x200B;**工具** > **部署** > **發佈** > **發佈代理程式**。
 
-1. 按一下動作列中的&#x200B;**編輯**，並確定&#x200B;**Importer端點**&#x200B;欄位中的端點URL也指向發佈代理程式中的發佈伺服器URL。
+1. 按一下動作列中的&#x200B;**編輯**，並確定&#x200B;**Importer端點**欄位中的端點URL也指向發佈代理程式中的發佈伺服器URL。
    ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則必須使用不同的使用者名稱和密碼來設定發佈代理程式。
@@ -102,7 +102,7 @@ ht-degree: 1%
    請遵循下列步驟：
 
    1. 導覽至「工具> **作業** > **網頁主控台** `http://localhost:4502/system/console/configMgr`，以便您可以開啟&#x200B;**Adobe Experience Manager網頁主控台畫面**。
-   1. 搜尋&#x200B;**Apache Sling散發傳輸認證 — 以使用者認證為基礎的DistributionTransportSecretProvider**
+   1. 搜尋&#x200B;**`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
@@ -116,4 +116,4 @@ ht-degree: 1%
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 使用`(name=slingTransportSecretProvider)`更新`(name=default)`。
-   1. 按一下&#x200B;**儲存**，然後從AEM執行個體的&#x200B;**散發代理程式**&#x200B;畫面再次執行測試連線。
+   1. 按一下「儲存」****，然後再次從AEM執行個體的&#x200B;**散發代理程式**&#x200B;畫面執行測試連線。

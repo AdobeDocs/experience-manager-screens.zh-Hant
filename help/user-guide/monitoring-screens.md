@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >您可以按一下下列任一記錄層級：
+>
 >* **停用**
 >* **偵錯**
 >* **資訊**
@@ -126,7 +127,7 @@ ht-degree: 1%
 
 啟用空白反向連結以允許裝置將資料發佈至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。
 
-目前只有在OSGi設定中啟用&#x200B;*Apache Sling反向連結篩選允許空白*&#x200B;時，才能使用其中的部分功能。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
+目前這些功能的部分功能只有在OSGi設定中啟用&#x200B;*`Apache Sling Referrer Filter Allow Empty`*&#x200B;時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
 
 請依照下列步驟，啟用Apache Sling查閱者篩選器允許空白
 
@@ -147,9 +148,9 @@ AEM提供下列專案的內建監控：
 * 播放器上已安裝&#x200B;*AEM Screens播放器韌體*&#x200B;版本。
 * 播放器上的&#x200B;*可用儲存空間*。
 
-使用協力廠商軟體進行遠端監控的Recommendations：
+使用協力廠商軟體進行遠端監控的建議：
 
-* 播放器中的CPU使用量。
+* 播放器中的CPU使用情形。
 * 檢查AEM Screens Player程式是否正在執行。
 * 遠端重新啟動/重新啟動播放器。
 * 即時通知。

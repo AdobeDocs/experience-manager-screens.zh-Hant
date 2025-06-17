@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 >[!IMPORTANT]
 >**OSGi組態設定**
->您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前，其中部分功能僅在OSGi設定中啟用Apache Sling反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
->請依照下列步驟來啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
+>>您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前這些功能中的某些功能，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
+>>請依照下列步驟來啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
 
 
 ## 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
-1. 透過AEM執行個體>槌子圖示> **作業** > **網頁主控台**，瀏覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
+1. 透過Adobe Experience Manager執行個體>槌子圖示> **作業** > **Web主控台**，瀏覽至&#x200B;**AEM Web主控台設定**。
 
    ![影像](assets/config/empty-ref1.png)
 
@@ -211,7 +211,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 1. 等候裝置傳送其註冊代碼，同時從您的Chrome裝置檢查&#x200B;**註冊代碼**。
    ![影像](assets/kickstart/demo-register3.png)
 
-1. 如果兩部電腦上的&#x200B;**註冊代碼**&#x200B;相同，請在AEM中按一下&#x200B;**驗證**。
+1. 如果兩部電腦上的&#x200B;**註冊代碼**&#x200B;相同，請按一下AEM中的&#x200B;**驗證**。
 
 1. 將裝置的所需名稱設定為&#x200B;**ChromeDeviceforDemo**，然後按一下&#x200B;**註冊**。
 

@@ -1,5 +1,5 @@
 ---
-title: 建立和管理排程
+title: 建立和管理時程表
 description: 瞭解可將管道組織成可重複使用的群組的排程，如此您就不必個別重複其指派。
 contentOwner: Jyotika Syal
 content-type: reference
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -24,7 +24,7 @@ AEM Screens中的&#x200B;**排程**&#x200B;可讓您將頻道組織成可重複�
 
 >[!NOTE]
 >
->此AEM Screens功能僅在您已安裝AEM 6.3 Sites Feature Pack 1時可用。 若要存取此Feature Pack，請聯絡Adobe支援並要求存取權。 取得必要許可權後，即可從「封裝共用」下載。
+>此AEM Screens功能僅在您已安裝AEM 6.3 Sites Feature Pack 1時可用。 若要存取此Feature Pack，請聯絡Adobe支援並請求存取權。 取得必要許可權後，即可從「封裝共用」下載。
 
 ## 建立排程 {#creating-a-schedule}
 
@@ -42,7 +42,7 @@ AEM Screens中的&#x200B;**排程**&#x200B;可讓您將頻道組織成可重複�
 您可以在專案中看到具有指定名稱和標題的排程資料夾。
 
 
-## 檢視控制面板 {#viewing-dashboard}
+## 檢視儀表板 {#viewing-dashboard}
 
 在專案中建立排程資料夾後，您就可以從排程儀表板檢視詳細資訊。
 
@@ -58,8 +58,8 @@ AEM Screens中的&#x200B;**排程**&#x200B;可讓您將頻道組織成可重複�
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **排程資訊面板**&#x200B;按一下[排程資訊面板]右上角的[內容]以檢視/變更排程的內容。
+   **排程資訊面板** — 按一下[排程資訊面板]右上角的[內容]以檢視/變更排程的內容。
 
-   **已指派的色版面板**&#x200B;從「已指派的色版」面板右上角，按一下「+指派色版」以開啟「色版指派」對話方塊。
+   **已指派的色版面板** — 從「已指派的色版」面板右上角，按一下「+指派色版」以開啟「色版指派」對話方塊。
 
-   **已指派的顯示面板**&#x200B;按一下[已指派的顯示面板]中的任何顯示，以開啟顯示控制面板。
+   **已指派的顯示面板** — 按一下[已指派的顯示面板]中的任何顯示，以開啟顯示控制面板。

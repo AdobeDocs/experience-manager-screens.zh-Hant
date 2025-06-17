@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 2%
   >[!NOTE]
   >使用第二個或第三個選項可能會導致指派上定義的排程時間稍微延遲。 原因是因為播放器會等待專案或序列的結尾（在指定的時間後），再重新整理。 延遲取決於專案的播放持續時間。
 
-### 計劃 {#schedule-channel}
+### 排程 {#schedule-channel}
 
 排程可讓您在頻道應出現的時間，以文字提供說明。 它也可讓您定義要顯示的管道的開始日期（**啟用從**）和結束日期（**啟用到**）。
 
@@ -128,7 +128,7 @@ DayParting是指將一天分割為時段，並指定在所需時間播放哪些�
    <td><strong>管道</strong></td>
    <td><strong>角色</strong></td>
    <td><strong>優先順序</strong></td>
-   <td><strong>計劃</strong></td>
+   <td><strong>排程</strong></td>
   </tr>
   <tr>
    <td>LiveConcert</td>
@@ -174,5 +174,5 @@ DayParting是指將一天分割為時段，並指定在所需時間播放哪些�
 >
 > 若要深入瞭解DayParting，請參閱下列章節：
 >
->* [在Assets中處理週期](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [在頻道中處理Assets的週期](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [在Assets中處理週期](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [在頻道中處理Assets的週期](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 在系統上執行播放器時，導覽至`http://localhost:24502`。 檢查是否已正確下載所有內容。
 * 檢查資產，確保已建立適當的轉譯並播放正確的轉譯。
 * 檢查是否有任何排程內容，以及時間是否正確。 檢查播放器中設定的時間是否正確。
-* Inspect播放器主控台會記錄並檢查是否有任何錯誤。 按一下滑鼠右鍵並檢查以檢視主控台記錄檔。 如果您使用Windows Player，請按`CTRL + ALT +I`開啟開發主控台以檢視記錄檔。
+* 檢查播放器主控台記錄檔，並檢查是否有任何錯誤。 按一下滑鼠右鍵並檢查以檢視主控台記錄檔。 如果您使用Windows Player，請按`CTRL + ALT +I`開啟開發主控台以檢視記錄檔。
 
 ### 2.如何透過建立預設頻道或排程來解決AEM Screens中的灰幕問題？
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 按一下頻道，然後從動作列導覽至頻道屬性。 檢查&#x200B;**頻道**&#x200B;標籤下的&#x200B;**開發人員模式（強制頻道上線）**，讓頻道上線。
 
-### 3. 「頻道角色」欄位有何用途？ {#what-is-the-use-of-the-channel-role-field}
+### &#x200B;3. 「頻道角色」欄位有何用途？ {#what-is-the-use-of-the-channel-role-field}
 
 管道角色是實際執行管道的抽象概念，可讓作者直接專注於一般體驗。 您可以將之視為可在頻道內容（顯示或排程）中唯一識別該頻道的標籤種類。
 
@@ -79,15 +79,15 @@ ht-degree: 0%
 
 ### 1.如果發現端點（例如裝置上線和註冊請求），我就能編寫許多裝置的指令碼並註冊這些裝置。 除了鎖定至分支Wi-Fi，是否還能保護這些要求？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
-目前僅可在作者執行個體上註冊。 雖然註冊服務未經過驗證，但它只會在AEM中建立擱置中的裝置，實際上並不會註冊裝置或指派任何顯示器。
+目前僅可在作者執行個體上註冊。 雖然註冊服務未經過驗證，但它只會在AEM中建立擱置中的裝置，實際上並不註冊裝置或指派任何顯示器。
 
-若要註冊裝置(在AEM中建立裝置的使用者)，請向AEM驗證並手動遵循註冊精靈以完成註冊。 理論上，惡意使用者可能會建立多個擱置中的裝置，但如果沒有AEM登入，則無法註冊任何裝置。
+若要註冊裝置(在AEM中建立裝置的使用者)，請向AEM驗證並手動按照註冊精靈完成註冊。 理論上，惡意使用者可能會建立多個擱置中的裝置，但如果沒有AEM登入，就無法註冊任何裝置。
 
-### 2.是否有方法透過某種形式的驗證將HTTPGET請求轉換為HTTPPOST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2.是否有其他方式可將HTTP GET請求轉換為具有某種驗證形式的HTTP POST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
-註冊要求是POST要求。
+註冊要求為POST要求。
 
-建議您從工作階段取得裝置ID，而非以引數傳遞。 這麼做會清除伺服器記錄、瀏覽器快取等。 這不是安全問題。 語義。 當伺服器上沒有狀態變更時使用GET，而狀態變更時使用POST。
+建議您從工作階段取得裝置ID，而非以引數傳遞。 這麼做會清除伺服器記錄、瀏覽器快取等。 這不是安全問題。 語義。 當伺服器上沒有狀態變更時，會使用GET；當有狀態變更時，則會使用POST。
 
 ### 3.是否可以拒絕裝置註冊要求？ {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -115,17 +115,17 @@ ht-degree: 0%
 
 如果播放器找不到AEM Screens伺服器DNS，就可能會發生此問題。 您可以嘗試使用IP位址進行連線。 若要取得伺服器的IP，請使用： *arp &lt;server_dns_name>*。
 
-### 4. AMS建議在所有裝置上實作Android™監視程式嗎？ APK是否包含Watchdog (Cordova)外掛程式？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### &#x200B;4. AMS建議在所有裝置上實作Android™監視程式嗎？ APK是否包含Watchdog (Cordova)外掛程式？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 使用純Android™ API的跨平台Android™監視程式已經是apk的一部分。 不需要其他軟體。 不過，視您使用的裝置而定，您可以視需要放棄apk以取得完整電源週期(`Powermanager` api)的系統許可權。 如果它沒有使用製造商金鑰辭職，它會退出並重新啟動應用程式，但不會重新啟動電源。
 
 如需如何實作Android™ Player的詳細資訊，請參閱&#x200B;[**實作Android™ Player**](implementing-android-player.md)。
 
-### 5.Adobe/AMS建議使用哪些協力廠商遠端監控和警示工具（軟體）來監控每個裝置？ {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### &#x200B;5. Adobe/AMS建議使用哪些協力廠商遠端監控和警示工具（軟體）來監控每個裝置？ {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 根據您希望在監視和警報中移除的內容，如果裝置一段時間未發出偵測訊號，AEM Screens Notifications服務會通知您。 協力廠商工具取決於您的作業系統(OS)、其功能以及客戶的特定需求。
 
-如需您可以在何處監視裝置活動的詳細資訊，請參閱&#x200B;[**AEM Screen Notifications Service**](screens-notifications-service.md)。
+如需您可以在何處監視裝置活動的詳細資訊，請參閱&#x200B;[**AEM Screen通知服務**](screens-notifications-service.md)。
 
 ## AEM Screens 播放器
 
@@ -167,7 +167,7 @@ Windows Player中沒有視窗模式。 永遠處於全熒幕模式。
 
 1. 檢查您的Dispatcher設定是否允許`/filters`中的這些要求。
 
-   如需詳細資訊，請參閱[設定Screens篩選器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
+   如需詳細資訊，請參閱[設定Screens篩選器](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
 
 1. 檢查您的Dispatcher重寫規則是否正在將任何熒幕路徑重寫為其他路徑。
 
@@ -207,14 +207,14 @@ Windows Player中沒有視窗模式。 永遠處於全熒幕模式。
 
 1. ***停用Livefyre輪詢程式：***
 
-   * 在CRXDE Lite中，導覽至`/etc/importers/polling/livefyre-poller/jcr:content`。
+   * 在CRXDE Lite中導覽至`/etc/importers/polling/livefyre-poller/jcr:content`。
    * 新增屬性&#x200B;*已啟用*&#x200B;型別&#x200B;*布林值*。
    * 將&#x200B;**Enabled屬性**&#x200B;設為&#x200B;**false**。
 
 ### 2.如何新增Oak索引資訊？ {#add-oak-index-info}
 
 AEM Screens會為產品使用的查詢建立索引定義。
-如果`error.log`中有任何&#x200B;*查詢周遊WARN*，請為您的查詢建立自訂索引。 如需詳細資訊，請參閱[設定索引](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+如果`error.log`中有任何&#x200B;*查詢周遊WARN*，請為您的查詢建立自訂索引。 如需詳細資訊，請參閱[設定索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您也可以在[Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他資源。
 
@@ -224,10 +224,10 @@ AEM Screens會為產品使用的查詢建立索引定義。
 若要啟用v3資訊清單，請執行下列動作：
 
 * 更新Dispatcher。
-如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
+如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
 
 * 更新自訂元件。
-如需詳細資訊，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+如需詳細資訊，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中停用ContentSync。
 
@@ -241,7 +241,7 @@ AEM Screens會為產品使用的查詢建立索引定義。
 
 ### 4.如果在套件screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心套件已安裝但未啟用，您應該怎麼做？
 
-安裝AEM 6.5 Feature Pack 8的最低版本，讓AMS聯結器正常運作。 請參閱[可用性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以取得AEM Screens Feature Pack的最低版本。
+安裝AEM 6.5 Feature Pack 8的最低版本，讓AMS聯結器正常運作。 請參閱[可用性](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以取得AEM Screens Feature Pack的最低版本。
 
 ### 5.如何在Screens中設定CQ Link Externalizer服務？
 

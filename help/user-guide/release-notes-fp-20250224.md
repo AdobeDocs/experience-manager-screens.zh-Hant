@@ -4,9 +4,10 @@ description: 進一步瞭解2025年2月24日發行的AEM Screens Feature Pack 20
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 5%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
->FeaturePack (FP) 11.5版相容於ServicePack (SP)，最高版本為21。
+>>FeaturePack (FP) 11.5版相容於ServicePack (SP)，最高版本為21。
 
 
 ## 可用性 {#availability}
@@ -35,4 +36,4 @@ AEM Screens Feature Pack 20250224的發行日期為2025年2月24日。
 ### 錯誤修正 {#bug-fixes}
 
 * Service Pack 21和Screens Feature Pack出現套件衝突。 (SCRNS-4638)
-* /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js的Vuln修正(SCRNS-4607)
+* `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js`的弱點修正(SCRNS-4607)

@@ -10,9 +10,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -35,14 +35,14 @@ ht-degree: 1%
 >[!NOTE]
 >如果您使用AEM Screens 6.5.5 Service Pack，請設定Windows Player環境。
 
-從&#x200B;**Adobe Experience Manager Web Console將登入權杖Cookie**&#x200B;的&#x200B;**SameSite屬性從** Lax **設定為** None **所有AEM作者和發佈執行個體上的設定**。
+從&#x200B;**Adobe Experience Manager Web Console將登入權杖Cookie**&#x200B;的&#x200B;**SameSite屬性從** Lax **設定為** None **在所有AEM作者和發佈執行個體上設定**。
 
 請遵循下列步驟：
 
 1. 導覽至&#x200B;**Adobe Experience Manager Web Console
 使用`http://localhost:4502/system/console/configMgr`的組態**。
 
-1. 搜尋&#x200B;*AdobeGranite權杖驗證處理常式*。
+1. 搜尋&#x200B;*Adobe Granite權杖驗證處理常式*。
 
 1. 將登入權杖Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設定為&#x200B;**None**。
    ![影像](/help/user-guide/assets/granite-updates.png)
@@ -56,7 +56,7 @@ ht-degree: 1%
 下載應用程式後，請依照播放器上的步驟完成隨選安裝：
 
 1. 長按左上角以開啟「管理」面板。
-1. 從左側動作功能表瀏覽至&#x200B;**組態**，並輸入您要連線的AEM執行個體的位置（位址），然後按一下&#x200B;**儲存**。
+1. 從左側動作功能表瀏覽至&#x200B;**設定**，並輸入您要連線的AEM執行個體位置（位址），然後按一下&#x200B;**儲存**。
 1. 從左側動作功能表瀏覽至&#x200B;**裝置** **註冊**&#x200B;連結，以便檢查裝置註冊程式的狀態。
 
 >[!NOTE]
@@ -125,10 +125,10 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 | 解析度 | 裝置的解析度。 |
 | rebootSchedule | 重新啟動播放器的排程。 |
 | enableAdminUI | 啟用管理員UI來設定站台上的裝置。 在完全設定並投入生產後，設為false。 |
-| enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定並投入生產後，請考慮將設為false 。 |
-| enableactivityui | 啟用，以便顯示下載和同步等活動的進度。 啟用以進行疑難排解，並在完全設定後停用。 |
-| cloudMode | 若您希望Windows Player連線至Screensas a Cloud Service，請設為true。 設為false可連線至AMS或內部部署AEM。 |
-| cloudToken | 註冊Token以註冊Screensas a Cloud Service。 |
+| enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定並在生產環境中後，請考慮將其設為false 。 |
+| enableactivityui | 啟用，以便顯示活動的進度，例如下載和同步。 啟用以進行疑難排解，並在完全設定後停用。 |
+| cloudMode | 如果您希望Windows Player連線至Screens as a Cloud Service，請設為true。 設為false可連線至AMS或內部部署AEM。 |
+| cloudToken | 註冊Token以註冊Screens as a Cloud Service。 |
 
 #### 原則JSON檔案範例 {#example-policy-json-file}
 
@@ -149,7 +149,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 >[!CAUTION]
 >
->Adobe建議使用裝置管理解決方案來啟用Windows的Kiosk。 如果您沒有裝置管理解決方案可啟用Kiosk模式，請依照下列步驟進行。 此方法使用Windows 10 Enterprise和Edu中可用的殼層啟動器功能。 您也可以套用Microsoft針對非UWP應用程式建議的任何其他方法來啟用Kiosk，尤其是在其他Windows版本上。
+>Adobe建議使用裝置管理解決方案來啟用Windows專用的Kiosk。 如果您沒有裝置管理解決方案可啟用Kiosk模式，請依照下列步驟進行。 此方法使用Windows 10 Enterprise和Edu中可用的殼層啟動器功能。 您也可以套用Microsoft針對非UWP應用程式建議的任何其他方法來啟用Kiosk，尤其是在其他Windows版本上。
 
 請依照下列步驟啟用Kiosk模式：
 
@@ -159,11 +159,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 1. 啟用殼層啟動器。
 
-   如需詳細資訊，請參閱Microsoft® Windows支援的&#x200B;**[殼層啟動器](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)**&#x200B;頁面中的&#x200B;***設定殼層啟動器***。
+   如需詳細資訊，請參閱Microsoft® Windows支援的&#x200B;**[殼層啟動器](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;頁面中的&#x200B;***設定殼層啟動器***。
 
 1. 建立一個非管理使用者（如果您還沒有的話），以用於Kiosk。 可以是本機或網域使用者。
 1. 從[AEM Screens Player下載](https://download.macromedia.com/screens/)頁面為該Kiosk使用者安裝Windows Player。
-1. 如需詳細資訊，請參閱[使用Shell啟動器建立Windows 10資訊站](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune)以修改您的PowerShell指令碼。
+1. 如需詳細資訊，請參閱[使用Shell啟動器建立Windows 10資訊站](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune)以修改您的PowerShell指令碼。
 
    修改PowerShell指令碼，讓您可以用您建立的使用者名稱取代使用者名稱。 請確定應用程式可執行檔的路徑正確無誤。 這會將自訂殼層設定為Kiosk使用者的Windows Player應用程式，並將其他使用者的預設設定為explorer.exe。
 
@@ -182,7 +182,7 @@ Windows Player的預設安裝路徑為：
 
 >[!NOTE]
 >
->在某些Windows環境中，PowerShell指令碼可能會受到原則的限制（尤其是未簽署的指令碼）。 若要執行指令碼，請暫時停用並重新啟用此限制以執行指令碼。 開啟PowerShell視窗並使用這些指令。
+>有些Windows環境會依原則限制PowerShell指令碼，尤其是未簽署的指令碼。 若要執行指令碼，請暫時停用並重新啟用此限制以執行指令碼。 開啟PowerShell視窗並使用這些指令。
 >
 >*`set-executionpolicy unrestricted`* — 暫時移除限制。
 >

@@ -2,9 +2,9 @@
 title: 封閉式企業網路
 description: 封閉式企業網路
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## 將AEM Screens Player連線至直接網際網路存取
 
-請依照下列步驟，確認此設定中的AEM熒幕播放器連線正確：
+請依照下列步驟，確認此設定中的AEM熒幕播放器有正確連線：
 
-1. 請確定每個AEM Screen播放器都已連線至路由器網路。
+1. 請確定每個AEM熒幕播放器皆已連線至路由器網路。
 1. 呼叫系統瀏覽器中的URL以測試網際網路連線。
 
    >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 0%
 公司網路有數個連線的裝置，被分割成不同的子網路，並擁有備援或多工的網際網路連線，以提供足夠的效能供數千個同時存取之用。
 此結構已簡化，且適合大部分使用者端可用環境的情況。
 
-如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議至少使用類似`IEEE 802.11g`的現代Wi-Fi標準。 此標準支援最高54 Mbps的連線。 任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。 如果需要使用Wi-Fi中繼器，Adobe建議使用Google Nest Mesh Wi-Fi等網狀Wi-Fi存取點技術或類似技術。
+如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議至少使用類似`IEEE 802.11g`的現代Wi-Fi標準。 此標準支援最高54 Mbps的連線。 任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。 如果需要使用Wi-Fi中繼器，Adobe會推薦網狀架構Wi-Fi存取點技術，例如Google Nest Mesh Wi-Fi或類似技術。
 其他Wi-Fi重複技術最終會導致整個網路的頻寬大幅減少。
 
 ## 下載媒體和Assets {#download}

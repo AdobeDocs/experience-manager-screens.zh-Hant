@@ -2,9 +2,9 @@
 title: AEM Screens專案角色與責任
 description: 瞭解AEM Screens專案角色和責任。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### Adobe {#adobe-audience}
 
-Adobe包括AdobeManaged Services資源，例如CSE （客戶成功工程師）和Adobe支援。
+Adobe包含Adobe Managed Services資源，例如CSE （客戶成功工程師）和Adobe支援。
 
 ### AEM實作人員 {#aem-implementors}
 
@@ -53,7 +53,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 
 按一下正確的硬體合作夥伴非常重要。 下列問題必須考慮：
 
-1. 服務等級合約的條款為何？
+1. service level agreement的術語為何？
 
 1. 何謂全球涵蓋範圍？
 
@@ -76,7 +76,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 
 創意和內容管理可能如下所示：
 
-* 創意機構或，
+* Creative Agency或，
 * 品牌管理員
 
 ### 專案經理 {#project-managers}
@@ -85,7 +85,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 
 >[!NOTE]
 >
->若要詳細瞭解數位看板專案的不同角色和責任以及目標對象，請造訪&#x200B;**[專案角色和責任](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
+>若要詳細瞭解數位看板專案的不同角色和責任以及目標對象，請造訪&#x200B;**[專案角色和責任](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
 
 
 ## 專案階段 {#project-stages}
@@ -100,7 +100,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 >
 >雖然本指南主要強調&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但要執行成功的數位告示牌專案，必須注意全部三個階段。
 >
->若要瞭解專案預先製作、專案啟動和專案進度，請觀看有關&#x200B;**[專案管理和部署](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的影片。
+>若要瞭解專案預先製作、專案啟動和專案進度，請觀看有關&#x200B;**[專案管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的影片。
 
 ## RACI圖表 {#raci-chart}
 
@@ -114,7 +114,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 
 * **負責人**：完成工作所需完成的工作。
 
-* **負責**：委派者工作，且是完成任務前最後稽核的一方。
+* **負責**：委派工作，並且是完成任務前最後稽核的一方。
 
 * **已諮詢**：檢閱任務或交付專案以提供輸入。
 
@@ -187,7 +187,7 @@ AEM實作者通常會在一段時間內分階段將自訂功能部署到位置�
 
 下表總結了&#x200B;**第二天：啟動後支援RACI圖表**：
 
-| **階段** | **作者** | **開發人員** | **技術人員** |
+| **階段** | **製作者** | **開發人員** | **技術人員** |
 |---|---|---|---|
 | *第二天：啟動後支援* |
 | 角色與責任協定 | RA | RA | RA |

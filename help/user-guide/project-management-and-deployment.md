@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 第一個階段名為&#x200B;***Day Zero***。 此階段包含定義專案範圍時所需的所有售前和探索工作。 第二個階段&#x200B;***第一天***&#x200B;是指部署工作中包含的所有活動。 最後，***第2天***&#x200B;會參考所有進行中的作業和支援元素，作為整體解決方案的一部分。
 
-Day Zero活動包括售前、客戶探索、應用程式需求分析和專案範圍定義。 此階段也可以包括專案管理的初始參與和專案需求定義，為部署做準備。
+***Day Zero***&#x200B;的活動包含售前、使用者端探索、應用程式需求分析和專案範圍定義。 此階段也可以包括專案管理的初始參與和專案需求定義，為部署做準備。
 
-Day Zero包含八個主要步驟，涵蓋專案管理提升的所有層面：
+所有&#x200B;***Day Zero***&#x200B;都包含八個主要步驟，涵蓋專案管理加速發展的各個層面：
 
 * 定義工作範圍
 * 定義專案排程

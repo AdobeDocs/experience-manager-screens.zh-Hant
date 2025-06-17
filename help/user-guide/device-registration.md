@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >從[AEM 6.4 Player下載](https://download.macromedia.com/screens/)頁面下載最新的Windows Player (*.exe*)之後，請依照播放器上的步驟完成隨選安裝：
 >
 >1. 長按左上角以開啟「管理」面板。
->1. 從左側動作功能表瀏覽至&#x200B;**組態**，並在&#x200B;**伺服器**&#x200B;中輸入AEM執行個體的位置位址，然後按一下&#x200B;**儲存**。
+>1. 從左側動作功能表瀏覽至&#x200B;**設定**，並在&#x200B;**伺服器**&#x200B;中輸入AEM執行個體的位置位址，然後按一下&#x200B;**儲存**。
 >1. 按一下左側動作功能表的&#x200B;**註冊**&#x200B;連結，然後依照下列步驟完成裝置註冊程式。
 >
 

@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 在初始專案設定期間或將現有AEM Screens擴充到新位置時，此程式可節省時間和金錢。
 
-## 架構概述 {#architectural-overview}
+## 架構概觀 {#architectural-overview}
 
 下圖顯示Project Importer功能的架構概觀：
 
@@ -58,8 +58,8 @@ ht-degree: 1%
 因此，試算表(CSV/XLS)檔案需要下列欄：
 
 * **路徑{string}** — 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾（也就是說，*`/foo`*&#x200B;已匯入至&#x200B;*`/content/screens/<project>/locations/foo`*）
-* **範本{string}** — 用於新位置的範本，目前唯一允許值為「location」，但此值已擴充至未來的所有Screens範本（`display`、`sequencechannel`等）
-* **[。/*] {string}** — 要設定在位置上的任何選擇性屬性（即，`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 目前的版本不允許篩選。
+* **範本{string}** — 用於新位置的範本，目前唯一允許值為「location」，但此值已擴充至未來的所有`Screens`範本（`display`、`sequencechannel`等）
+* **[。/*] {string}** — 任何要在位置設定的選擇性屬性（亦即`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 目前的版本不允許篩選。
 
 >[!NOTE]
 >
@@ -101,17 +101,17 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 按一下專案，**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B;從側邊列建立&#x200B;**>**&#x200B;匯入位置**。
+1. 按一下專案，** DemoProjectImporter **>**&#x200B;從側邊列建立&#x200B;**>**&#x200B;匯入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
 1. 顯示&#x200B;**匯入**&#x200B;精靈。 按一下含有位置的專案檔案，或按一下您從&#x200B;*先決條件*&#x200B;區段下載的檔案(***minimal-file.xls***)。
 
-   選取檔案後，按一下[下一步] **&#x200B;**。
+   選取檔案後，按一下[下一步] ****。
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。**&#x200B;**
+1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。****
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

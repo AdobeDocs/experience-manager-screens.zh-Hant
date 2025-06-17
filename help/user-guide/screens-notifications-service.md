@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 定義下列欄位，以便您設定電子郵件的設定：
 
-   **裝置路徑**&#x200B;輸入要監視的Screens專案路徑。 路徑通常是`/home/users/screens/<Name of your project>`。
+   **裝置路徑** — 輸入要監視的Screens專案路徑。 路徑通常是`/home/users/screens/<Name of your project>`。
 
    例如，如果您的專案是&#x200B;**`We.Retail`**，請將專案路徑用為&#x200B;***/home/users/screens/we-retail***。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    **使用TLS** — 傳輸層安全性(TLS)可讓您使用與SMTP伺服器的安全通訊。
 
-   Adobe建議您使用TLS來安全地連線到公司郵件伺服器。 請洽詢您的郵件管理員以取得適當的值。
+   Adobe建議您使用TLS以安全地連線至公司郵件伺服器。 請洽詢您的郵件管理員以取得適當的值。
 
    **使用者名稱** — 指定用於傳送電子郵件的使用者名稱。
 

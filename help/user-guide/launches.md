@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 因此，3小時56分鐘(14160秒)。
 
-因此，每當您排程任何即時啟動時，促銷活動都會透過考量此位移提前開始。 在上述方程式中，大多數專案不會花費太多時間。 知道伺服器和任何播放器之間的最大時間差異時，您可以針對此位移使用適當的猜測。
+因此，每當您排程任何即時啟動時，促銷活動都會透過考量此位移提前開始。 在上述方程式中，大多數專案不會花費太多時間。 當您知道伺服器和任何播放器之間的最大時間差異時，就可以很清楚的猜測這個位移。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ ht-degree: 0%
 1. 導覽至CRXDE Lite，然後導覽至`/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`。
 1. 按一下滑鼠右鍵並複製檔案。
 1. 瀏覽至`/apps/system/config`，然後按一下滑鼠右鍵並貼上。
-1. 連按兩下`/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`，以便您可以在編輯器中以CRXDE Lite開啟檔案。 它必須顯示路徑&#x200B;*/content/screens/*&#x200B;的寬限期為&#x200B;**86400**。 將該值變更為&#x200B;**600**。
+1. 連按兩下`/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`，以便在CRXDE Lite的編輯器中開啟檔案。 它必須顯示路徑&#x200B;*/content/screens/*&#x200B;的寬限期為&#x200B;**86400**。 將該值變更為&#x200B;**600**。
 
 現在，文字檔案中的內容看起來應該類似於：
 
@@ -123,7 +123,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    按一下頻道/頻道之後，按一下&#x200B;**下一步**。
 
 
-1. 輸入&#x200B;**啟動項標題**&#x200B;作為&#x200B;**SummerPromotions**，您不需要設定&#x200B;**啟動日期**，如下圖所示。 按一下&#x200B;**建立**。
+1. 輸入&#x200B;**啟動項標題**&#x200B;作為&#x200B;**SummerPromotions**，您不需要設定&#x200B;**啟動日期**，如下圖所示。 按一下「**建立**」。
 
    >[!NOTE]
    >
@@ -183,7 +183,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 建立啟動項後，您可以使用&#x200B;**編輯啟動項**&#x200B;選項，將頻道新增或移除至現有的啟動項。
 
-完成時，按一下[儲存]，導覽回&#x200B;**FutureLaunch**&#x200B;頻道。**&#x200B;**
+完成時，按一下[儲存]，導覽回&#x200B;**FutureLaunch**&#x200B;頻道。****
 
 ### 手動提升Screens啟動{#promote-the-screens-launch-manually}
 

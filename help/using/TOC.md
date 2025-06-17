@@ -1,24 +1,24 @@
 ---
 cloud: Experience Cloud
-user-guide-title: AEM Screens 專案的最佳實務指南
+user-guide-title: AEM Screens專案的最佳作法
 breadcrumb-title: AEM Screens 最佳作法指南
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 24%
+source-wordcount: '131'
+ht-degree: 7%
 
 ---
 
 
-# AEM Screens 專案的最佳實務指南 {#using}
+# AEM Screens專案的最佳作法 {#using}
 
 + [關於本指南](about-guide.md)
 + 概觀 {#overview}
@@ -41,7 +41,7 @@ ht-degree: 24%
 + 部署簡介 {#deployment-brief}
    + [AEM平台組態](aem-platform-configurations.md)
    + [專案分類與實作](project-taxonomy-implementation.md)
-   + 網路流量管理{#manage-network-traffic}
+   + 網路流量管理 {#manage-network-traffic}
       + [管理網路流量](/help/using/managing-network-traffic.md)
       + [直接網際網路網路（有線/無線）](/help/using/direct-internet-network.md)
       + [直接行動網路](/help/using/mobile-network.md)

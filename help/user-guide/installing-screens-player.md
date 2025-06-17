@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ AEM Screens Player適用於Android™、Chrome作業系統和Windows。
 >下載最新的播放器(*.exe*)之後，請依照播放器上的步驟進行，以便完成臨機安裝：
 >
 >1. 長按左上角以開啟「管理」面板。
->1. 從左側動作功能表瀏覽至&#x200B;**組態**，並在&#x200B;**伺服器**&#x200B;中輸入AEM執行個體的位置位址，然後按一下&#x200B;**儲存**。
+>1. 從左側動作功能表瀏覽至&#x200B;**設定**，並在&#x200B;**伺服器**&#x200B;中輸入AEM執行個體的位置位址，然後按一下&#x200B;**儲存**。
 >1. 按一下左側動作功能表的&#x200B;**註冊**&#x200B;連結，然後依照下列步驟完成裝置註冊程式。
 
 ## 基本播放監視 {#playback-monitoring}
@@ -70,7 +70,7 @@ AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
 * 播放器會向伺服器報告自己的播放狀態，因此需要使用中的連線。
 
-* 檢查GPU的`isContentRendering`屬性在預設情況下會更耗用資源，而且需要播放器偏好設定中的明確選擇加入。 Adobe建議您不要在生產環境中的影片中使用。
+* 檢查GPU的`isContentRendering`屬性在預設情況下會更耗用資源，而且需要播放器偏好設定中的明確選擇加入。 Adobe建議您不要將其用於生產環境中的影片。
 
 * 此功能僅支援序列頻道，尚未涵蓋互動式頻道(SPA)使用案例。
 

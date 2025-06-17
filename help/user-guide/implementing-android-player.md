@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 
 ### Android的招牌™ `apks`使用製造商金鑰 {#signage-of-android-apks-using-manufacturer-keys}
 
-若要存取Android的某些授權API™例如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*，請使用製造商的金鑰簽署Android™ `apk`。
+若要存取Android™的某些特殊許可權API （例如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*），請使用製造商的金鑰簽署Android™ `apk`。
 
 >[!CAUTION]
 >
@@ -130,7 +130,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 1. 當播放器應用程式啟動時，會讀取此設定檔，並指向適用的AEM伺服器，在其中註冊並接著加以控制。
 
    >[!NOTE]
-   >第一次啟動應用程式時，這個檔案是&#x200B;*唯讀*，無法用於後續設定。 如果在卸除設定檔之前啟動播放器，只需在裝置上解除安裝並重新安裝應用程式即可。
+   >第一次啟動應用程式時，這個檔案是&#x200B;*唯讀*，無法用於後續設定。 如果在卸除設定檔案之前啟動播放器，只需在裝置上解除安裝並重新安裝應用程式即可。
 
 ### 原則屬性 {#policy-attributes}
 
@@ -143,7 +143,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 | *rebootSchedule* | 重新開機的排程適用於所有平台。 |
 | *enableAdminUI* | 啟用管理員UI來設定站台上的裝置。 設定為&#x200B;*false*，前提是它已完全設定並投入生產。 |
 | *啟用OSD* | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 請考慮在完全設定後和生產中將其設定為&#x200B;*false*。 |
-| *enableActivityUI* | 如果想要顯示下載和同步等活動的進度，請啟用此選項。 啟用以進行疑難排解，並在完全設定後停用。 |
+| *enableActivityUI* | 如果想要顯示活動的進度（例如下載和同步），請啟用此選項。 啟用以進行疑難排解，並在完全設定後停用。 |
 | *enableNativeVideo* | 如果您想要使用原生硬體加速來播放視訊(僅限Android™)，請啟用此選項。 |
 
 ### JSON原則範例 {#example-json}

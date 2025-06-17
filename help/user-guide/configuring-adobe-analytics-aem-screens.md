@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 10%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 10%
    <td><strong>區段</strong></td> 
    <td><strong>屬性標籤</strong></td> 
    <td><strong>屬性名稱/金鑰</strong></td> 
-   <td><strong>必填</strong></td> 
+   <td><strong>必要</strong></td> 
    <td><strong>資料類型</strong></td> 
    <td><strong>屬性型別</strong><br /> </td> 
    <td><strong>說明</strong></td> 
@@ -108,7 +108,7 @@ ht-degree: 10%
    <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 — <strong>已傳送播放器</strong></td> 
+   <td>主要類別(案頭、行動裝置、網頁、程式、SDK、服務、生態系統) — 事件型別分組 — <strong>已傳送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -175,7 +175,7 @@ ht-degree: 10%
   </tr>
   <tr>
    <td> </td> 
-   <td>數量</td> 
+   <td>計數</td> 
    <td>event.count</td> 
    <td>可選</td> 
    <td>數字</td> 
@@ -198,7 +198,7 @@ ht-degree: 10%
    <td>AA的必要專案</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>Adobe Analytics對自訂頁面名稱的支援</td> 
+   <td>支援Adobe Analytics中的自訂頁面名稱</td> 
   </tr>
   <tr>
    <td> </td> 

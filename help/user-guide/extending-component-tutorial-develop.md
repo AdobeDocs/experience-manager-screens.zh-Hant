@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 1%
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本機開發環境
 
-教學課程步驟和熒幕擷取畫面使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE也可以用來完成本教學課程。 有關使用IDE [搭配AEM開發的詳細資訊，請參閱此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+教學課程步驟和熒幕擷取畫面使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE也可以用來完成本教學課程。 有關使用IDE以[使用AEM進行開發的詳細資訊，請參閱此處](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 ## 專案設定 {#project-setup}
 
-Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 為了加快教學課程，已使用[AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關[使用Maven AEM Project Archetype建立專案的更多詳細資訊，請參閱此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 為了加快教學課程，已使用[AEM專案原型13](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關[使用Maven AEM專案原型建立專案的更多詳細資訊，請參閱此處](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 1. 使用&#x200B;**CRX封裝管理** `http://localhost:4502/crx/packmgr/index.jsp)r:`下載並安裝下列封裝
 
@@ -87,7 +87,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
        componentGroup="We.Retail Run - Content"/>
    ```
 
-   /apps/weretail-run/components/content/poster![&#128279;](assets/poster.png)的屬性
+   /apps/weretail-run/components/content/poster](assets/poster.png)的![屬性
 
    /apps/weretail-run/components/content/poster的屬性
 
@@ -133,7 +133,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
 
    已將對話方塊從`/libs/wcm/foundation/components/image/cq:dialog`複製到`/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image`元件是WCM Foundation `image`元件的超型別。 因此，`poster`元件會從兩者繼承功能。 海報元件的對話方塊是由Screens和Foundation對話方塊的組合所組成。 **Sling Resource Merger**&#x200B;的功能可用來隱藏從超級型別元件繼承的不相關對話方塊欄位和索引標籤。
+   AEM Screens `image`元件是WCM Foundation `image`元件的超型別。 因此，`poster`元件會從兩者繼承功能。 海報元件的對話方塊是由Screens和Foundation對話方塊的組合所組成。 **`Sling Resource Merger`**&#x200B;的功能可用來隱藏從超級型別元件繼承的不相關對話方塊欄位和索引標籤。
 
 1. 以下列以XML表示的變更更新`/apps/weretail-run/components/content/poster`下方的`cq:dialog`：
 
@@ -284,7 +284,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
 
    標誌也會以覆蓋圖的形式納入元件中。 在此範例中，` We.Retail`標誌的路徑在DAM中以硬式編碼。 視使用案例而定，更合理的做法是建立對話方塊欄位，將標誌路徑設為動態填入值。
 
-   另請注意，元件會使用BEM （區塊元素修飾元）記號。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是[AEM核心元件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)所使用的記號。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   另請注意，元件會使用BEM （區塊元素修飾元）記號。 BEM是CSS編碼慣例，可讓您更輕鬆地建立可重複使用的元件。 BEM是[AEM的核心元件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)所使用的記號。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. 在`/apps/weretail-run/components/content/poster`下建立名為`edit.html.`的檔案
 
@@ -308,13 +308,13 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
    </div>
    ```
 
-   直接在上方可以看到海報元件的&#x200B;**編輯**&#x200B;標籤。 HTL指令碼會覆寫`/libs/screens/core/components/content/image/edit.html`。 此標籤類似於`production.html`標籤，並在影像上方顯示標題和說明。
+   可直接在上方看到海報元件的&#x200B;**已編輯**&#x200B;標籤。 HTL指令碼會覆寫`/libs/screens/core/components/content/image/edit.html`。 此標籤類似於`production.html`標籤，並在影像上方顯示標題和說明。
 
    已新增`aem-Screens-editWrapper`，因此元件不會在編輯器中呈現全熒幕。 `data-emptytext`屬性可確保當沒有填入影像或內容時顯示預留位置。
 
 ## 建立使用者端程式庫 {#clientlibs}
 
-使用者端資料庫提供一種機制，可整理和管理AEM實施所需的CSS和JavaScript檔案。 如需有關使用[使用者端資料庫的詳細資訊，請參閱此處。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+使用者端資料庫提供一種機制，可整理和管理AEM實作所需的CSS和JavaScript檔案。 如需有關使用[使用者端資料庫的詳細資訊，請參閱此處。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同。 已建立兩組使用者端程式庫，一組用於編輯模式，另一組用於預覽/生產模式。
 
@@ -333,13 +333,13 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
    * `allowProxy` | 布林值 | `true`
    * `categories` | 字串[] | `cq.screens.components`
 
-   /apps/weretail-run/components/content/poster/clientlibs/shared![&#128279;](assets/2018-05-03_at_1026pm-1.png)的屬性
+   /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)的![屬性
 
    /apps/weretail-run/components/content/poster/clientlibs/shared的屬性
 
    `categories`屬性是識別使用者端程式庫的字串。 `cq.screens.components`類別同時用於編輯和預覽/生產模式。 因此，`shared` clientlib中定義的任何CSS/JS都會以所有模式載入。
 
-   最好不要在生產環境中直接向`/apps`公開任何路徑。 `allowProxy`屬性可確保透過前置詞`/etc.clientlibs`參考使用者端程式庫CSS和JS。 有關[allowProxy屬性的詳細資訊可在此處找到。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   最好不要在生產環境中直接向`/apps`公開任何路徑。 `allowProxy`屬性可確保透過前置詞`/etc.clientlibs`參考使用者端程式庫CSS和JS。 有關[allowProxy屬性的詳細資訊可在此處找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 在共用資料夾下建立名為`css.txt`的檔案。
 
@@ -355,7 +355,7 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   本教學課程不直接撰寫CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一種常用的CSS預先編譯器，支援CSS變數、mixin和函式。 AEM使用者端程式庫原生支援LESS編譯。 可以使用Sass或其他預先編譯程式，但必須在AEM外部編譯。
+   本教學課程不直接撰寫CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一種常用的CSS預先編譯器，支援CSS變數、mixin和函式。 AEM使用者端程式庫原生支援LESS編譯。 您可以使用Sass或其他預先編譯程式，但必須在AEM之外編譯它們。
 
 1. 以下列專案填入`/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less`：
 
@@ -412,7 +412,7 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
 
    >[!NOTE]
    >
-   >GoogleWeb Fonts用於字型系列。 Web Fonts需要網際網路連線，而且並非所有AEM Screens實作都有可靠的連線。 離線模式的Planning是AEM Screens部署的重要考量。
+   >Google Web Fonts用於字型系列。 Web Fonts需要網際網路連線，而且並非所有AEM Screens實作都有可靠的連線。 離線模式的Planning是AEM Screens部署的重要考量。
 
 1. 複製`shared`使用者端程式庫資料夾。 貼上為同層級，並將其重新命名為`production`。
 

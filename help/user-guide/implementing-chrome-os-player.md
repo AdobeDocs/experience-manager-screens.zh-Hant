@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 請依照下列步驟設定Chrome管理主控台：
 
-1. 註冊Chrome管理主控台。 您必須取得Chrome管理主控台的授權。 如需詳細資訊，請連絡[Google支援](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995)以管理Chrome裝置設定。
+1. 註冊Chrome管理主控台。 您必須取得Chrome管理主控台的授權。 如需詳細資訊，請連絡[Google支援](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995)以管理Chrome裝置設定。
 1. 將您的Chrome作業系統裝置註冊至網域，並等待15分鐘讓裝置與Chrome管理控制檯同步。 若要進一步瞭解如何註冊Chrome裝置，請按一下[這裡](https://support.google.com/chrome/a/answer/1360534?hl=en)。
 1. Chrome網站商店提供Chrome Player。
 
@@ -143,10 +143,10 @@ AEM Screens Player是啟用Kiosk的應用程式，也可啟用Chrome作業系統
 | 解析度 | 裝置的解析度。 |
 | rebootSchedule | 重新啟動播放器的排程。 |
 | enableAdminUI | 啟用管理員UI來設定站台上的裝置。 在完全設定並投入生產後，設為false。 |
-| enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定並投入生產後，請考慮將設為false 。 |
-| enableactivityui | 啟用，以便顯示下載和同步等活動的進度。 啟用以進行疑難排解，並在完全設定後停用。 |
-| cloudMode | 如果您希望Chrome Player連線至Screensas a Cloud Service，請設為true。 設為false可連線至AMS或內部部署AEM。 |
-| cloudToken | 註冊Token以註冊Screensas a Cloud Service。 |
+| enableOSD | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定並在生產環境中後，請考慮將其設為false 。 |
+| enableactivityui | 啟用，以便顯示活動的進度，例如下載和同步。 啟用以進行疑難排解，並在完全設定後停用。 |
+| cloudMode | 如果您希望Chrome Player連線至Screens as a Cloud Service，請設為true。 設為false可連線至AMS或內部部署AEM。 |
+| cloudToken | 註冊Token以註冊Screens as a Cloud Service。 |
 
 >[!NOTE]
 >

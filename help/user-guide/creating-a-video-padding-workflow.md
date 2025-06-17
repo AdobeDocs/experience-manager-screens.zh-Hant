@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 本節涵蓋下列主題：
 
 * **概觀**
-* **必備條件**
+* **先決條件**
 * **建立視訊填補工作流程**
    * **建立工作流程**
    * **在AEM Screens專案中使用工作流程**
@@ -80,7 +80,7 @@ ht-degree: 0%
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. 按一下&#x200B;**引數**&#x200B;標籤。
-1. 在&#x200B;**命令列 — 步驟屬性**&#x200B;對話方塊中，在&#x200B;**Mime型別** （如&#x200B;***video/mp4***）中輸入格式，並將命令輸入為(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920：height=1080：x=0：y=0：color=black&quot; cq5dam.video.fullhd-hp.mp4***)。 此命令會在&#x200B;**命令**&#x200B;欄位中啟動工作流程。
+1. 在&#x200B;**命令列 — 步驟屬性**&#x200B;對話方塊中，在&#x200B;**Mime型別** （如&#x200B;***video/mp4***）中輸入格式，並以(***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***)輸入命令。 此命令會在&#x200B;**命令**&#x200B;欄位中啟動工作流程。
 
    請參閱以下附註中&#x200B;**Mime型別**&#x200B;和&#x200B;**命令**&#x200B;的詳細資料。
 

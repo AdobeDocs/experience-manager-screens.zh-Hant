@@ -1,6 +1,6 @@
 ---
-title: 作者與Publish架構概覽
-description: AEM Screens架構類似於傳統AEM Sites架構。 內容會在AEM編寫執行個體上編寫，然後轉送復寫到多個發佈執行個體。
+title: 製作與發佈架構概覽
+description: AEM Screens架構類似於傳統AEM Sites架構。 內容是在AEM製作執行個體上製作，然後轉送復寫到多個發佈執行個體。
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,18 +9,18 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# 作者與Publish架構概覽 {#author-and-publish-architectural-overview}
+# 製作與發佈架構概覽 {#author-and-publish-architectural-overview}
 
 本頁面主要說明下列主題：
 
-* **Publish伺服器簡介**
+* **發佈伺服器簡介**
 * **架構概觀**
 * **註冊程式**
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此AEM Screens功能僅在您已安裝AEM 6.4 Screens Feature Pack 2時可用。 若要存取此Feature Pack，請聯絡Adobe支援並要求存取權。 取得許可權後，請從「封裝共用」下載。
+>此AEM Screens功能僅在您已安裝AEM 6.4 Screens Feature Pack 2時可用。 若要存取此Feature Pack，請聯絡Adobe支援並請求存取權。 取得許可權後，請從「封裝共用」下載。
 
 ## 簡介 {#introduction}
 
-AEM Screens架構類似於傳統AEM Sites架構。 內容會在AEM編寫執行個體上編寫，然後轉送復寫到多個發佈執行個體。 AEM Screens上的裝置現在可以透過負載平衡器連線至AEM發佈陣列。 可以新增多個AEM發佈執行個體以繼續擴充發佈陣列。
+AEM Screens架構類似於傳統AEM Sites架構。 內容是在AEM製作執行個體上製作，然後轉送復寫到多個發佈執行個體。 AEM Screens上的裝置現在可以透過負載平衡器連線至AEM發佈陣列。 可以新增多個AEM發佈執行個體，以繼續擴充發佈陣列。
 
 *例如*，AEM Screens內容作者會在特定裝置的編寫系統上發出命令。 該裝置已設定為與發佈伺服器陣列互動。 或者，與AEM Screens內容作者互動，後者取得已設定為與發佈伺服器陣列互動之裝置的相關資訊。
 
@@ -71,15 +71,15 @@ AEM Screens架構類似於傳統AEM Sites架構。 內容會在AEM編寫執行�
 
 ### Screens復寫代理和命令 {#screens-replication-agents-and-commands}
 
-自訂Screens專用的復寫代理程式是用來從Author例項傳送命令至AEM Screens裝置。 AEM Publish執行個體可作為中介，將這些命令轉送至裝置。
+自訂Screens專用的復寫代理程式是用來從Author例項傳送命令至AEM Screens裝置。 AEM發佈執行個體可作為中介，將這些命令轉送至裝置。
 
 此工作流程可讓作者繼續管理裝置，例如傳送裝置更新，以及從作者環境擷取熒幕擷圖。 AEM Screens復寫代理程式具有自訂傳輸設定，例如標準復寫代理。
 
-### Publish執行個體之間的傳訊 {#messaging-between-publish-instances}
+### 發佈執行個體之間的傳訊 {#messaging-between-publish-instances}
 
 通常命令只適用於傳送至裝置。 然而，在負載平衡的發佈架構中，裝置連線的發佈執行個體不明。
 
-因此，製作執行個體會將訊息傳送至所有Publish執行個體。 不過，之後只應將單一訊息轉送至裝置。 為確保傳訊功能正確無誤，發佈執行個體之間必須通訊。 此通訊是使用&#x200B;*Apache ActiveMQ Artemis*&#x200B;達成。 每個發佈執行個體都會使用Oak型Sling探索服務，放置於鬆散耦合的拓撲中。 ActiveMQ的設定方式讓每個發佈執行個體都可以通訊並建立單一訊息佇列。 AEM Screens裝置透過負載平衡器輪詢AEM發佈陣列，並從佇列頂端挑選命令。
+因此，作者執行個體會將訊息傳送給所有發佈執行個體。 不過，之後只應將單一訊息轉送至裝置。 為確保傳訊功能正確無誤，發佈執行個體之間必須通訊。 此通訊是使用&#x200B;*Apache ActiveMQ Artemis*&#x200B;達成。 每個發佈執行個體都會使用Oak型Sling探索服務，放置於鬆散耦合的拓撲中。 ActiveMQ的設定方式讓每個發佈執行個體都可以通訊並建立單一訊息佇列。 AEM Screens裝置透過負載平衡器輪詢AEM發佈陣列，並從佇列頂端挑選命令。
 
 ### 反向複寫 {#reverse-replication}
 
@@ -90,22 +90,22 @@ AEM Screens架構類似於傳統AEM Sites架構。 內容會在AEM編寫執行�
 * 此內容中的反向復寫僅適用於裝置提供的二進位資料（例如記錄檔和熒幕擷取畫面）。 擷取非二進位資料的輪詢。
 * 從AEM製作執行個體反向復寫輪詢會擷取回應，並將其儲存至製作執行個體。
 
-### 輪詢Publish執行個體 {#polling-of-publish-instances}
+### 輪詢發佈執行個體 {#polling-of-publish-instances}
 
 製作執行個體必須能夠輪詢動裝置，才能取得心率並瞭解連線裝置的健康狀態。
 
-裝置ping負載平衡器並路由至發佈執行個體。 然後裝置狀態會由AEM發佈執行個體透過為所有使用中裝置提供的@ **api/screens-dcc/devices/static**&#x200B;和&#x200B;**api/screens-dcc/devices/&lt;device_id>/status.json**&#x200B;提供的Publish API公開。
+裝置ping負載平衡器並路由至發佈執行個體。 之後，AEM發佈執行個體會透過為所有使用中裝置提供的@ **api/screens-dcc/devices/static**&#x200B;發佈應用程式開發介面，以及為單一裝置提供的&#x200B;**api/screens-dcc/devices/&lt;device_id>/status.json**，來公開裝置的狀態。
 
 製作執行個體輪詢所有發佈執行個體，並將裝置狀態回應合併為單一狀態。 在作者上輪詢的排程工作是`com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob`，可以根據cron運算式進行設定。
 
 ## 註冊 {#registration}
 
-註冊會繼續源自AEM編寫執行個體。 AEM Screens裝置指向作者例項且註冊完成。
+註冊作業會持續源自AEM作者例項。 AEM Screens裝置指向作者例項且註冊完成。
 
-在AEM製作環境中註冊裝置後，裝置設定和管道/排程指派會複製到AEM發佈執行個體。 AEM Screens裝置設定接著會更新，以指向AEM發佈伺服器陣列前面的負載平衡器。 此安排旨在一次性設定。 Screens裝置成功連線至發佈環境後，即可繼續接收源自製作環境的命令。 應該不需要直接將AEM Screens裝置連線到AEM作者環境。
+在AEM製作環境中註冊裝置後，裝置設定和管道/排程指派會複製到AEM發佈執行個體。 AEM Screens裝置設定接著會更新，以指向AEM發佈伺服器陣列前的負載平衡器。 此安排旨在一次性設定。 Screens裝置成功連線至發佈環境後，即可繼續接收源自製作環境的命令。 應該不需要直接將AEM Screens裝置連線到AEM作者環境。
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
 ### 後續步驟 {#the-next-steps}
 
-當您瞭解AEM Screens中作者與發佈設定的架構設計時，如需詳細資訊，請參閱[為AEM Screens設定作者與Publish ](author-and-publish.md)。
+當您瞭解AEM Screens中作者與發佈設定的架構設計時，如需詳細資訊，請參閱[設定AEM Screens的作者與發佈](author-and-publish.md)。

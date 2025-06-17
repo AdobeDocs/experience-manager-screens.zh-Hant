@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 新增下列屬性：
 
-   **專案路徑**&#x200B;指定您的AEM Screens專案路徑。 路徑通常是`/content/screens/<Name of your project>`。
+   **專案路徑** — 指定AEM Screens專案的路徑。 路徑通常是`/content/screens/<Name of your project>`。
 
    *例如*，`/content/screens/we-retail`。 您可以選取AEM Screens底下的任何專案（不要按一下圖示），在URL中找到此路徑。
 
@@ -69,6 +69,6 @@ ht-degree: 0%
    >
    >指定相對於您管道的專案路徑。
 
-   **排程頻率**&#x200B;指定時間，例如，下午5:00或17:00，此服務應在此時間更新離線內容。
+   **排程頻率** — 指定此服務應該更新離線內容的時間，例如，下午5:00或17:00。
 
-1. 按一下「儲存&#x200B;**&#x200B;**」，以便儲存您的設定。 您的所有內容都會在指定的時間更新。
+1. 按一下「儲存&#x200B;****」，以便儲存您的設定。 您的所有內容都會在指定的時間更新。

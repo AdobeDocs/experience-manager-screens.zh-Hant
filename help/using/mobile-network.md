@@ -2,9 +2,9 @@
 title: 直接行動網路
 description: 瞭解AEM Screens中的直接行動網路設定。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ AEM Screens Player也可以使用至少執行3G網路的行動或行動資料網
 
 ## 將AEM Screens Player連線至直接行動網路
 
-請依照下列步驟，確認此設定中的AEM熒幕播放器連線正確：
+請依照下列步驟，確認此設定中的AEM熒幕播放器有正確連線：
 
-1. 請確定每個AEM Screen播放器都連線到路由器的網路。
+1. 請確定每個AEM熒幕播放器皆已連線至路由器的網路。
 
 1. 呼叫系統瀏覽器中的URL以測試網際網路連線。
 

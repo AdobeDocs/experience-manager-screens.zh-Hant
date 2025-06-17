@@ -4,9 +4,10 @@ description: 深入瞭解於2025年3月27日發行的AEM Screens Feature Pack 20
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
+exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
->Adobe建議您搭配SP(servicepack) >= 21使用FP11.6。
+>>Adobe建議您搭配SP(servicepack) >= 21使用FP11.6。
 
 ## 可用性 {#availability}
 
@@ -35,10 +36,10 @@ AEM Screens Feature Pack 20250327的發行日期為2025年3月27日。
 
 * 在AEM Screens Players上&#x200B;**更新**
    * Linux架構的AEM Screens Player已正式淘汰。 建議使用者移轉至AEM Screens支援的其他作業系統。
-   * Android型AEM Screens Player不會再有進一步的更新或增強功能。 建議使用者移轉至AEM Screens支援的替代作業系統。
+   * Android型AEM Screens Player不再有進一步的更新或增強功能。 建議使用者移轉至AEM Screens支援的替代作業系統。
 
 ### 錯誤修正 {#bug-fixes}
 
 * Service Pack 21和Screens Feature Pack出現套件衝突。 (SCRNS-4638)
 
-* Screens儀表板無法運作。 (SCRNS-4749)
+* Screens Dashboard無法運作。 (SCRNS-4749)

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 7%
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 從清單中按一下未指派的裝置，然後按一下動作列中的&#x200B;**指派裝置**。
+1. 從清單中按一下未指派的裝置，然後在動作列中按一下&#x200B;**指派裝置**。
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >每次將第一個裝置新增到新的Screens專案時，都會建立使用者群組。
->例如，如果專案節點名稱為&#x200B;*we-retail*，則使用者群組名稱為&#x200B;*screens-we-retail-devices*。
->此群組已新增為&#x200B;**參與者**&#x200B;群組的成員，如下圖所示：
+>>例如，如果專案節點名稱為&#x200B;*we-retail*，則使用者群組名稱為&#x200B;*screens-we-retail-devices*。
+>>此群組已新增為&#x200B;**參與者**&#x200B;群組的成員，如下圖所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

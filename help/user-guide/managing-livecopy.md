@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >檢視即時副本管道的內容時，您在功能表中檢視了一個額外的專案，名稱為&#x200B;**即時副本狀態**。 如需更多詳細資訊，請參閱以下區段。
+   >檢視即時副本管道的內容時，您在功能表中檢視了一個額外的專案，名稱為&#x200B;**即時副本狀態**。 如需詳細資訊，請參閱下一節。
 
 ### 檢視即時副本的屬性 {#viewing-properties-of-a-live-copy}
 
@@ -93,7 +93,7 @@ ht-degree: 4%
 
 您也可以取消即時副本的繼承，讓內容獨立於原始分支。
 
-下列範例顯示您在編輯模式中按一下影像，然後按一下右上角的取消繼承符號。
+下列範例顯示您在編輯模式中按一下影像，然後按一下右上方的&#x200B;**取消繼承**&#x200B;圖示。
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -125,7 +125,7 @@ ht-degree: 4%
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. 按一下&#x200B;**同步**，然後按一下&#x200B;**儲存並關閉**&#x200B;以導覽回AEM儀表板。
+1. 按一下[同步]****，然後按一下[儲存並關閉]****&#x200B;以導覽回到AEM儀表板。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->有時候，您可以將作者功能（例如管理資產和建立管道）與管理功能（例如註冊播放器）分開。 在這種情況下，請建立兩個群組，並將作者群組新增至貢獻者，並將管理員群組新增至貢獻者和使用者管理員。
+>有時候，您可以將作者功能（例如管理資產和建立管道）與管理功能（例如註冊播放器）分開。 在這種情況下，請建立兩個群組，並將作者的群組新增至貢獻者，並將管理員群組新增至貢獻者和使用者管理員。
 
 ### 建立群組 {#creating-groups}
 

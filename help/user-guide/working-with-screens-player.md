@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 從偏好設定面板啟用&#x200B;**管理員UI**，可讓使用者從Screens Player開啟管理員設定。 此外，如果您從裝置控制面板停用此選項，使用者將無法從播放器開啟Admin UI 。
 
-若要從Screens Player檢視Admin UI，請在觸控式AEM Screens Player上按一下左上角以開啟「管理員」功能表，或使用滑鼠來開啟。 完成註冊並載入通道後，資訊便會顯示。
+若要從Screens Player檢視Admin UI，請在觸控式AEM Screens Player上按一下左上角以開啟「管理員」功能表，或使用滑鼠來開啟。 完成註冊並載入管道後，資訊便會顯示。
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 您可以針對AEM Screens Player （硬體和軟體）相關的各種問題進行疑難排解：
 
-| **個問題** | **Recommendations** |
+| **個問題** | **建議** |
 |---|---|
 | 播放器儲存空間已滿 | 消除不必要的檔案 |
 | 播放器網路中斷 | 使用Cat-5或Cat-6纜。 若使用Wifi，請縮短路由器與播放器裝置的距離 |
