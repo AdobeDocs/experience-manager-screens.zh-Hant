@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用數位簽署解決方案，發佈動�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '556'
 ht-degree: 11%
 
 ---
@@ -19,18 +19,18 @@ ht-degree: 11%
 # AEM Screens使用手冊 {#user-guide}
 
 + [Screens簡介](aem-screens-introduction.md)
-+ 概覽和Kickstart指南{#overview}
++ 概覽和Kickstart指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
    + [Screens最佳作法指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/using/about-guide)
    + [主要條款](screens-glossary.md)
    + [Screens術語和概念](screens-concepts-feature-video-understand.md)
-+ 數位看板網路基本知識{#digital-signage-network}
++ 數位看板網路基本需知 {#digital-signage-network}
    + [第1部分：專案角色與責任](project-roles-responsibilities.md)
    + [第2部分：限定範圍專案的考量](project-considerations.md)
    + [第3部分：測試、POC、試行方案及推出](testing-pocs-pilots-rollouts.md)
    + [第4部分：專案管理與部署](project-management-and-deployment.md)
    + [第5部分：支援考量事項](support-considerations.md)
-+ 設定和管理{#administering}
++ 設定和管理 {#administering}
    + [設定Screens伺服器](configuring-screens-introduction.md)
    + [設定Dispatcher設定](dispatcher-configurations-aem-screens.md)
    + [安裝 Screens 播放器](installing-screens-player.md)
@@ -42,7 +42,7 @@ ht-degree: 11%
    + [從檔案新增專案匯入工具](project-importer.md)
    + [將資料觸發器復寫至發佈伺服器](replicating-data-triggers.md)
    + [在Screens上設定復寫代理](configure-screens-replication.md)
-   + 使用者端特定考量事項{#installing-client}
+   + 使用者端特有的考量事項 {#installing-client}
       + [Chrome作業系統播放器](implementing-chrome-os-player.md)
       + [使用Chrome Player作為疑難排解的擴充功能](using-chrome-player-as-an-extension.md)
       + [Android](implementing-android-player.md)
@@ -51,22 +51,22 @@ ht-degree: 11%
       + [雲端播放器](implementing-cloud-player.md)
       + [自動註冊播放器](auto-registration-players.md)
       + [使用遙控器](implementing-remote-control.md)
-   + 作者發佈{#author-publish}
+   + 作者發佈 {#author-publish}
       + [Author-Publish架構概覽](author-publish-architecture-overview.md)
       + [設定作者和發佈](author-and-publish.md)
    + Analytics與AEM Screens整合 {#analytics-integration}
       + [Adobe Analytics 整合](adobe-analytics-integration-aem-screens.md)
       + [使用AEM Screens設定Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
-+ 製作和使用案例範例{#authoring}
-   + 設定Screens專案{#setting-up-projects}
++ 製作和使用案例範例 {#authoring}
+   + 設定Screens專案 {#setting-up-projects}
       + [建立和管理專案](creating-a-screens-project.md)
       + [建立和管理管道](managing-channels.md)
       + [建立和管理顯示器](managing-displays.md)
       + [建立和管理位置](managing-locations.md)
       + [建立和管理排程](managing-schedules.md)
       + [管理裝置](managing-devices.md)
-      + 指派管道{#assigning-channels}
-         + [頻道指定任務](channel-assignment-latest-fp.md)
+      + 指派管道 {#assigning-channels}
+         + [頻道指派](channel-assignment-latest-fp.md)
          + [頻道指定任務：舊版AEM Screens Feature Pack](channel-assignment.md)
    + 使用核心產品功能 {#product-features}
       + [文字重疊](text-overlay.md)
@@ -88,13 +88,13 @@ ht-degree: 11%
       + [使用標記](tagging.md)
       + [語音辨識](voice-recognition.md)
       + [內容指派報表](content-assignment-report.md)
-      + [影片的縮圖支援](thumbnail-support.md)
+      + [支援影片縮圖](thumbnail-support.md)
       + [在AEM Screens中使用最適化轉譯](using-adaptive-renditions.md)
-   + 管理內容更新{#content-updates}
+   + 管理內容更新 {#content-updates}
       + [隨選內容更新](on-demand-content.md)
       + [內容即服務更新](content-update-as-a-service.md)
       + [使用Screens Launch更新內容](launches.md)
-   + 使用案例範例{#use-case-examples}
+   + 使用案例範例 {#use-case-examples}
       + [緊急通道](emergency-channel.md)
       + [旅行中心溫度啟用](local-temperature-activation.md)
       + [Hospitality Reservation Activation](hospitality-reservation-activation.md)
@@ -103,7 +103,7 @@ ht-degree: 11%
       + [多區域到單一區域轉換](multizone-to-singlezone.md)
       + [單次使用接管管道](single-use-takeover-channel.md)
       + [永久使用接管管道](perpetual-takeover-channel.md)
-+ 開發人員和API資源{#developing}
++ 開發人員和API資源 {#developing}
    + [REST API](rest-api.md)
    + [為AEM Screens開發自訂元件](developing-custom-component-tutorial-develop.md)
    + [離線頻道](offline-channels.md)
@@ -114,11 +114,12 @@ ht-degree: 11%
    + [建立MultiZone配置圖的自訂範本](creating-custom-templates-multizone-layouts.md)
    + [套用文字覆蓋圖的自訂品牌和樣式](custom-branding-text-overlays.md)
    + [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md)
-+ 疑難排解與常見問答集{#troubleshooting}
++ 疑難排解和常見問題( FAQs) {#troubleshooting}
    + [AEM Screens常見問題集](aem-screens-faqs.md)
    + [疑難排解裝置控制中心](monitoring-screens.md)
    + [視訊播放設定](troubleshoot-videos.md)
 + 發行說明 {#release-notes}
+   + [Feature Pack 20251007發行說明](release-notes-fp-20251007.md)
    + [Feature Pack 20250327發行說明](release-notes-fp-20250327.md)
    + [Feature Pack 20250224發行說明](release-notes-fp-20250224.md)
    + [Feature Pack 20240715發行說明](release-notes-fp-20240715.md)
@@ -129,7 +130,7 @@ ht-degree: 11%
    + [Feature Pack 202204發行說明](release-notes-fp-202204.md)
    + [Feature Pack 202203發行說明](release-notes-fp-202203.md)
    + [Feature Pack 202112發行說明](release-notes-fp-202112.md)
-   + [Feature Pack 202109的發行說明](release-notes-fp-202109.md)
+   + [Feature Pack 202109](release-notes-fp-202109.md)的發行說明
    + [Feature Pack 202105發行說明](release-notes-fp-202105.md)
    + [Feature Pack 202103發行說明](release-notes-fp-202103.md)
    + [Feature Pack 202011發行說明](release-notes-fp-202011.md)
