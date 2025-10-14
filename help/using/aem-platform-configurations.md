@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如果只有一個Author和一個Publish，您只能按照[在AEM Screens中設定Author和Publish ](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)頁面中&#x200B;**在Author**&#x200B;上設定Replication Agent下的步驟操作。
+>如果只有一個Author和一個Publish，您只能按照[在AEM Screens中設定Author和Publish &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)頁面中&#x200B;**在Author**&#x200B;上設定Replication Agent下的步驟操作。
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 
