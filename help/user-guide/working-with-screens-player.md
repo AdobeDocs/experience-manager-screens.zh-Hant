@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -144,6 +144,10 @@ AEM Screens Player有兩種型別的更新：
 
 ## 播放器裝置的硬體選擇准則 {#hardware-selection-guidelines-for-player-device}
 
+>[!NOTE]
+>
+>**已棄用：**&#x200B;此硬體選擇指引已棄用，不應用於新部署。 硬體規格與建議應由合格的AV整合商根據您的特定部署需求與使用案例提供。
+
 下節提供Screens專案的硬體選擇准則：
 
 * 電腦播放器及顯示面板或投影機的&#x200B;***Commercial***&#x200B;或&#x200B;***Industrial***&#x200B;等級的元件，一律提供來源。
@@ -163,7 +167,7 @@ AEM Screens Player有兩種型別的更新：
    <td>記憶體</td>
    <td>儲存固態硬碟</td>
    <td>GPU</td>
-   <td>顯示區</td>
+   <td>顯示</td>
    <td>I/O</td>
    <td>典型使用案例</td>
   </tr>
