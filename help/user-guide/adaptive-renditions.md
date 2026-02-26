@@ -88,7 +88,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 按一下「儲存全部」****，並注意您在&#x200B;**rendition-mapping**&#x200B;下建立的節點下的屬性。
+1. 按一下「儲存全部」**&#x200B;**，並注意您在&#x200B;**rendition-mapping**&#x200B;下建立的節點下的屬性。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
