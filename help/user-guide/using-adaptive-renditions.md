@@ -48,7 +48,7 @@ ht-degree: 0%
    ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >請參閱[隨選內容更新](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
+   >請參閱[隨選內容更新](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
 
 ## 移轉策略 {#migration-strategy}
 
