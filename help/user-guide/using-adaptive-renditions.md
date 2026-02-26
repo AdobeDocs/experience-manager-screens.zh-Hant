@@ -2,9 +2,9 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 瞭解如何在AEM Screens中使用最適化轉譯。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,14 @@ ht-degree: 0%
 
 ## 簡介 {#introduction}
 
+>[!CAUTION]
+>只有AEM內部部署(AEM 6.x)支援此功能。 AEM as a Cloud Service不支援此功能。
+
 最適化轉譯可讓裝置根據客戶定義的規則，自動針對裝置按一下最佳轉譯。 裝置會根據這些規則，自動下載並播放最適當的資產轉譯。 它可讓客戶專注於設計&#x200B;*主要*&#x200B;體驗。
 
 ## 目標 {#objective}
 
-作為AEM Scrßens內容作者，您現在可以設定要自動下載和播放的特定於裝置的資產轉譯，而不必手動建立所有內容變化。
+身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設為自動下載和播放，而不需要手動建立所有內容變數。
 開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道了。
 
 >[!IMPORTANT]
@@ -45,7 +48,7 @@ ht-degree: 0%
    ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >請參閱[隨選內容更新](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至Publish至裝置。
+   >請參閱[隨選內容更新](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
 
 ## 移轉策略 {#migration-strategy}
 
