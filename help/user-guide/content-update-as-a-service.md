@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,8 @@ ht-degree: 0%
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. 
+-->
 
 ## 概觀 {#overview}
 
@@ -69,6 +70,6 @@ ht-degree: 0%
    >
    >指定相對於您管道的專案路徑。
 
-   **排程頻率** — 指定此服務應該更新離線內容的時間，例如，下午5:00或17:00。
+   **排程頻率** — 指定此服務應更新離線內容的時間，例如，下午5:00或17:00。
 
-1. 按一下「儲存&#x200B;**&#x200B;**」，以便儲存您的設定。 您的所有內容都會在指定的時間更新。
+1. 按一下「儲存&#x200B;****」，以便儲存您的設定。 您的所有內容都會在指定的時間更新。

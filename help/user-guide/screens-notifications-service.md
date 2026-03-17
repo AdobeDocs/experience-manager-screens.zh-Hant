@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ ht-degree: 0%
 * **電子郵件通知**
 * **範例使用案例**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## 概觀 {#overview}
 
@@ -61,7 +63,7 @@ ht-degree: 0%
    >
    >指定裝置使用者所在的專案路徑。
 
-   **排程頻率** — 指定時間（例如，下午5:00或17:00）或此監視器應傳送電子郵件的頻率（例如，1）。
+   **排程頻率** — 指定時間（例如，下午5:00或17:00）或頻率（例如，1），此監視器應在此時間傳送電子郵件。
 
    **Ping逾時** — 此欄位會指定間隔（分鐘），在此間隔後裝置應視為無法連線。
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
 **案例1**
 
-您設定排程頻率為凌晨1:00，Ping逾時為60。 接著，如果您的AEM Screens裝置在下午12:00到1:00之間未執行Ping命令，您會收到電子郵件通知，確認裝置未使用中。
+您已將排程頻率設定為上午1:00，並將Ping逾時設定為60。 接著，如果您的AEM Screens裝置在下午12:00到下午1:00之間未執行Ping命令，您會收到電子郵件通知，確認裝置未使用中。
 
 **案例2**
 

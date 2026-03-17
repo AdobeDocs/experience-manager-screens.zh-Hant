@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 1%
+source-wordcount: '1490'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +29,14 @@ ht-degree: 1%
 * 多資產啟用
 * 通用開始時間的全域覆寫
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## 概觀 {#overview}
 
@@ -81,7 +83,7 @@ ht-degree: 1%
 
 您可以根據需求，排程資產以每日、每週或每月為特定間隔重複傳送。
 
-假設您只想在星期五下午1:00至晚上10:00顯示影像。 您可以使用&#x200B;**啟用**&#x200B;索引標籤來設定您資產所需的週期性間隔。
+假設您只想在星期五下午1:00至下午10:00顯示影像。您可以使用&#x200B;**啟用**&#x200B;索引標籤，設定您資產所需的週期性間隔。
 
 ### 日時段分割 {#day-parting}
 
@@ -100,14 +102,14 @@ ht-degree: 1%
 
 | **運算式** | **解釋** |
 |---|---|
-| 上午8:00之前 | 頻道中的資產會在每天上午8:00之前播放 |
-| 下午2:00以後 | 頻道中的資產會在每天下午2:00之後播放 |
-| 下午 00:15 過後和 下午 00:45 之前 | 頻道中的資產會在每天下午12:15之後播放30分鐘 |
-| 12:15之前以及12:45之後 | 頻道中的資產會在每天中午12:15之前播放，也會在下午12:45之後播放。 |
+| 上午8:00之前 | 頻道中的資產每天上午8:00點之前播放 |
+| 下午2:00之後 | 頻道中的資產會在每天下午2:00點之後播放 |
+| 在12:15之後和12:45之前 | 頻道中的資產會在每天下午12:15後播放30分鐘 |
+| 在12:15之前，也在12:45之後 | 頻道中的資產會在每天下午12:15之前播放，也會在下午12:45之後播放。 |
 
 >[!NOTE]
 >
->您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*上午./P.M.* （下午2:00）。
+>您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*A.M./P.M.* （下午2:00）。
 
 ### 周劃分 {#week-parting}
 
@@ -175,11 +177,11 @@ ht-degree: 1%
 | **運算式** | **解釋** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | 從1月到三月底，星期一和星期三上午6點至下午6點在頻道中播放資產 |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00之後開始播放，並持續播放1月2日的一整天，直到1月3日凌晨3:00 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00之後開始播放程式，繼續播放至1月2日凌晨3:00，然後在1月2日下午2:00重新開始播放，並繼續播放至1月3日凌晨3:00 |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00之後開始播放，並持續播放1月2日的一整天，直到1月3日上午3:00 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00後開始播放，繼續播放至1月2日上午3:00，然後於1月2日下午2:00再次開始播放，並繼續播放至1月3日上午3:00 |
 
 >[!NOTE]
->在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。 此外，您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*上午./P.M.* （下午2:00）。
+>在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。 此外，您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*A.M./P.M.* （2:00下午）。
 
 
 ## 多資產啟用 {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ ht-degree: 1%
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***多資產啟用***&#x200B;可讓使用者按一下多個資產，並將播放排程套用至所有選取的資產。
 
@@ -236,7 +239,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 1. 在管道編輯器中，按一下要套用其排程的資產。
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)

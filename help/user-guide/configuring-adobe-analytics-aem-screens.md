@@ -10,21 +10,23 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '631'
 ht-degree: 10%
 
 ---
 
 # 使用AEM Screens設定Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
 
-<!-- OBSOLETE NOTE>
+<!--
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. 
+-->
 
 本節涵蓋下列主題：
 
@@ -108,7 +110,7 @@ ht-degree: 10%
    <td>必要</td> 
    <td>字串</td> 
    <td> </td> 
-   <td>主要類別(案頭、行動裝置、網頁、程式、SDK、服務、生態系統) — 事件型別分組 — <strong>已傳送播放器</strong></td> 
+   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 — <strong>已傳送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -122,7 +124,7 @@ ht-degree: 10%
   <tr>
    <td> </td> 
    <td>事件/動作型別</td> 
-   <td>event.type</td> 
+   <td>eventtype</td> 
    <td>必要</td> 
    <td>字串</td> 
    <td> </td> 

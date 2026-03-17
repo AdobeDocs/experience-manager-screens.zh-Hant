@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
    | **配置名稱** | **說明** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | 三區域橫向配置可讓您建立三個區域： <br>*區域1是水準熒幕與垂直熒幕的20%，從左側<br>*區域2是水準熒幕的80%，垂直熒幕的20%是向右對齊<br>*區域3是水準熒幕的100%與垂直熒幕的80%。 外觀比例為16:9 |
-   | `Upper20-PortraitHD2Zone` | 雙區直向範本從上到下佔熒幕的20%，外觀比例為16:9 |
+   | `Upper20-PortraitHD2Zone` | 雙區域直向範本，從上到下覆蓋熒幕的20%，外觀比例為16:9 |
    | `Right20-LandscapeSD3Zone` | 三區範本從右側涵蓋熒幕的20%，外觀比例為4:3 |
 
    >[!IMPORTANT]
@@ -64,14 +64,14 @@ ht-degree: 1%
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. 從您的AEM執行個體> 「工具」 > **CRXDE Lite**&#x200B;瀏覽至&#x200B;**CRXDE Lite**。
+1. 從您的CRXDE Lite執行個體> 「工具」 > **CRXDE Lite**&#x200B;導覽至&#x200B;**AEM**。
 
 1. 在&#x200B;**應用程式**&#x200B;下建立標題為&#x200B;**`customtemplate`**&#x200B;的資料夾。 同樣地，在「**`customtemplate`**」下建立另一個標題為「**範本**」的資料夾，如下圖所示。
 
    ![影像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >每次建立、編輯內容或將內容複製到任何節點時，按一下CRXDE Lite中動作列的「儲存全部&#x200B;**&#x200B;**」。 否則，您無法認可更新。
+   >每次建立、編輯內容或將內容複製到任何節點時，按一下CRXDE Lite動作列中的&#x200B;**儲存全部**。 否則，您無法認可更新。
 
 1. 將lbar-left範本從`/libs/screens/core/templates/splitscreenchannel/lbar-left`複製到`/apps/customtemplate/template`。
 

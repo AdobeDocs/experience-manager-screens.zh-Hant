@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 * 在數位看板產業發展的這個階段，遠端裝置管理、服務檯可用性及現場技術人員支援等需求實際上已刻不容緩。 除了此基本需求之外，音訊視訊整合經銷商也應該探索主動式與被動式監控與支援模式之間的成本變數。
 * 為了準備長期的成功，最重要的是與音訊 — 視訊整合商建立第2天支援等級協定（也稱為「S.L.A.」）。 SLA詳細說明部署後支援的服務，並幫助設定使用者端期望。
 * 成功管理多個網路時所使用的關鍵資源是知識庫。 SharePoint是此型別資源的熱門平台。 知識庫包含預先撰寫的問答稿，供NOC代理程式遵循，確保傳入問題的解決請求以一致的方式處理。 知識庫通常包含系統組態和場地位置的參考資料。 知識庫有時可包含硬體剪裁表及系統軟體的參考資料。
-* 監控和管理功能主要取決於媒體播放器作業系統和熒幕功能。 Windows作業系統提供最詳盡的詳細資訊。 對於在Android™或iOS裝置上執行的部署，會使用行動裝置管理（也稱為MDM）。
+* 監控和管理功能主要取決於媒體播放器作業系統和熒幕功能。 Windows作業系統提供最詳盡的詳細資訊。 對於在™或iOS裝置上執行的部署，會使用行動裝置管理（也稱為MDM）。
 * 有些熒幕製造商提供不受媒體播放器影響的熒幕監視功能，有些則需外接裝置。
 * 音訊與視訊整合經銷商採用多種技術，確保解決方案保持彈性，以最佳方式滿足一般使用者端的需求。
 

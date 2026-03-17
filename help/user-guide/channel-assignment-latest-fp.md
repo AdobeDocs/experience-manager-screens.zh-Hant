@@ -5,14 +5,14 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
 
-# 頻道指定任務 {#channel-assignment}
+# 頻道指派 {#channel-assignment}
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ ht-degree: 2%
 
    ![影像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### 將頻道指派到顯示器 {#assigning-channel-to-display}
+### 將管道指派到顯示器 {#assigning-channel-to-display}
 
 專案設定完成後，將頻道指派給顯示區，以檢視內容。
 
@@ -138,7 +138,7 @@ ht-degree: 2%
 
 ### 優先順序 {#priority-channel}
 
-當有多個指派符合播放條件時，優先順序可用於排序指派。 值最高的總是優先於較低的值。 例如，如果有兩個管道A和B。A的優先順序為1，而B的優先順序為2，則會顯示管道B，因為其優先順序高於A。
+當有多個指派符合播放條件時，優先順序可用於排序指派。 值最高的總是優先於較低的值。 例如，如果有兩個管道A和B。 A的優先順序為1，而B的優先順序為2，則會顯示管道B，因為其優先順序高於A。
 
 >[!NOTE]
 >
@@ -210,18 +210,18 @@ ht-degree: 2%
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
-| 早餐 | 每日 | 上午6:00 | 上午11:00 |
-| 午餐 | 每日 | 上午11:00 | 下午3:00 |
-| 晚餐 | 每日 | 下午3:00 | 晚上8:00 |
+| 早餐 | 每日 | 上午6:00 | 上午11點:00 |
+| 午餐 | 每日 | 上午11點:00 | 下午3:00 |
+| 晚餐 | 每日 | 下午3:00 | 下午8:00 |
 
 #### 在一週中的特定日播放內容 {#playing-content-on-a-particular-day-of-the-week}
 
-此範例說明在賭場中實作的DayParting，其中從每個週末的8:00 P.M.到10:00 P.M.的直播活動會持續到每個週末的10:00 P.M.並可於晚上10:00 P.M.到凌晨1:00 A.M.的晚餐功能表提供特殊優惠。
+此範例顯示實作於娛樂場的DayParting，每個週末從晚上8:00至晚上10:00進行現場活動，並且晚餐功能表於晚上10:00至上午1:00提供特別優惠。
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
-| 週末 | 每週：週六和週日 | 晚上8:00 | 晚上10:00 |
-| 特殊優惠 | 每日：星期一到星期五 | 晚上10:00 | 上午1:00 |
+| 週末 | 每週：週六和週日 | 下午8:00 | 下午10:00 |
+| 特殊優惠 | 每日：星期一到星期五 | 下午10:00 | 上午1:00 |
 
 >[!NOTE]
 >
