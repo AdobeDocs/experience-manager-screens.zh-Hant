@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 926946c00f83d9125059815918da928ede6dc162
+source-git-commit: 01f26d940627133208c3b93a9b004e4404776ed4
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 13%
+source-wordcount: '209'
+ht-degree: 12%
 
 ---
 
@@ -38,4 +38,4 @@ AEM Screens Feature Pack 20260318的發行日期為2026年3月18日。
 * /libs/screens/dcc/components/clientlibs/deviceregistration/scripts.js上的XSS問題(SCRNS-4856)
 * /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.assignChannel.js的XSS問題(SCRNS-5068)
 * /libs/screens/dcc/components/importreview/clientlibs/js/script.js上的XSS問題(SCRNS-5100)
-* XSS問題： /libs/screens/dcc/components/dashboard/clientlibs/heartbeat.js
+* /libs/screens/dcc/components/dashboard/clientlibs/heartbeat.js上的XSS問題(SCRNS-5073)
