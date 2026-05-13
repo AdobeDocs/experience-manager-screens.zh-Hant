@@ -9,9 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: 890
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建議使用裝置管理解決方案(例如Chrome管理主控台)來部署及管理Chrome作業系統裝置。 雖然本檔案提供Chrome管理主控台的實作，但其他廠商也聲稱提供類似的功能。 請連絡裝置管理軟體的廠商。
+>建議使用裝置管理解決方案（例如Chrome管理主控台）來部署及管理Chrome作業系統裝置。 雖然本檔案提供Chrome管理主控台的實作，但其他廠商也聲稱提供類似的功能。 請連絡裝置管理軟體的廠商。
 
 ## 命名Chrome作業系統播放器 {#name-chrome}
 
@@ -54,7 +59,7 @@ ht-degree: 0%
    ![影像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome播放器必須註冊企業註冊，且Chrome播放器必須透過Chrome Management Console部署，否則資產ID會傳回空白(例如Chrome作為擴充功能)。 裝置名稱僅在註冊時記錄。 Adobe Experience Manager (AEM)不會擷取未來的變更。
+   >Chrome播放器必須註冊企業註冊，且Chrome播放器必須透過Chrome Management Console部署，否則資產ID會傳回空白（例如Chrome作為擴充功能）。 裝置名稱僅在註冊時記錄。 Adobe Experience Manager (AEM)不會擷取未來的變更。
 
 ### 啟用資訊站模式 {#enabling-kiosk-mode}
 
@@ -101,7 +106,7 @@ AEM Screens Player是啟用Kiosk的應用程式，也可啟用Chrome作業系統
 1. 按一下應用程式&#x200B;**AEM Screens Player**。
 1. 按一下&#x200B;**資訊站設定**，然後按一下您的組織（*如果使用測試環境*）。
 1. 按一下&#x200B;**上傳組態檔**&#x200B;並上傳組態原則（*JSon檔案*）。
-1. 按一下「**儲存**」。重新啟動裝置，以便同步處理原則。
+1. 按一下「**儲存**」。 重新啟動裝置，以便同步處理原則。
 
 >[!NOTE]
 >

@@ -10,10 +10,16 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: 1109
+ht-degree: 1%
 
 ---
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 1. 若要建立專案，請按一下&#x200B;**建立Screens專案**。
 1. 將標題輸入為&#x200B;**DemoProject**。
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 **DemoProject**&#x200B;已新增至您的AEM Screens。
 
@@ -101,13 +107,13 @@ ht-degree: 0%
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c.從&#x200B;**建立即時副本**&#x200B;精靈按一下&#x200B;**ScreensFragment**，然後按一下&#x200B;**下一步**。
+   c. 從&#x200B;**建立即時副本**&#x200B;精靈按一下&#x200B;**ScreensFragment**，然後按一下&#x200B;**下一步**。
 
-   d.輸入&#x200B;**Title**&#x200B;和&#x200B;**Name**&#x200B;作為&#x200B;**Screens**。
+   d. 輸入&#x200B;**Title**&#x200B;和&#x200B;**Name**&#x200B;作為&#x200B;**Screens**。
 
-   e.按一下&#x200B;**建立**，以便您建立即時副本。
+   e. 按一下「**建立**」，即可建立即時副本。
 
-   f.按一下&#x200B;**完成**，以便移回&#x200B;**ScreensFragment**&#x200B;頁面。
+   f. 按一下「**完成**」，即可移回&#x200B;**ScreensFragment**&#x200B;頁面。
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +127,7 @@ ht-degree: 0%
 
    1. 按一下「**離線設定**」標籤，如下圖所示。
 
-   您可以將&#x200B;**使用者端資料庫** (Java™和CSS)和&#x200B;**靜態檔案**&#x200B;新增至您的體驗片段。
+   您可以將&#x200B;**使用者端資料庫** （Java™和CSS）和&#x200B;**靜態檔案**&#x200B;新增至您的體驗片段。
 
    以下範例顯示新增使用者端程式庫和字型作為靜態檔案的一部分到您的體驗片段。  ![片段](assets/fragment.gif)
 
@@ -135,19 +141,19 @@ ht-degree: 0%
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e.按一下&#x200B;**體驗片段**&#x200B;元件，然後按一下左上角（扳手）圖示，以開啟&#x200B;**體驗片段**&#x200B;對話方塊。
+   e. 按一下&#x200B;**體驗片段**&#x200B;元件，然後按一下左上角（扳手）圖示，即可開啟&#x200B;**體驗片段**&#x200B;對話方塊。
 
-   f.按一下您在&#x200B;**路徑**&#x200B;中的&#x200B;*步驟3*&#x200B;中建立之片段的&#x200B;**Screens**&#x200B;即時副本。
+   f. 按一下您在&#x200B;**路徑**&#x200B;中的&#x200B;*步驟3*&#x200B;中建立之片段的&#x200B;**Screens**&#x200B;即時副本。
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f.按一下您在&#x200B;**體驗片段**&#x200B;中的&#x200B;*步驟3*&#x200B;中建立之片段的&#x200B;**Screens**&#x200B;即時副本。
+   f. 按一下您在&#x200B;**體驗片段**&#x200B;中的&#x200B;*步驟3*&#x200B;中建立之片段的&#x200B;**Screens**&#x200B;即時副本。
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h.輸入&#x200B;**持續時間**&#x200B;的毫秒數。
+   h. 輸入&#x200B;**持續時間**&#x200B;的毫秒數。
 
-   i.從&#x200B;**體驗片段**&#x200B;對話方塊按一下&#x200B;**離線設定**，以便您可以定義使用者端程式庫和靜態檔案。
+   i. 從&#x200B;**體驗片段**&#x200B;對話方塊按一下&#x200B;**離線設定**，以便您可以定義使用者端程式庫和靜態檔案。
 
    >[!NOTE]
    >
@@ -155,7 +161,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j.按一下核取記號，以便完成處理。
+   j. 按一下核取記號，即可完成程式。
 
 ### 驗證結果 {#validating-the-result}
 

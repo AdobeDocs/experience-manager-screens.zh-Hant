@@ -5,9 +5,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -52,7 +57,7 @@ ChromeOS播放器可在開發人員模式中安裝為Chrome瀏覽器外掛程式
    > 如果上述URL無法運作，表示播放器未指派顯示區，或內容未成功下載。 檢查網路索引標籤，瞭解播放器設定JSON，瞭解播放器是否取得正確的詳細資料，以及下載內容中是否有任何網路問題。
 
 1. 以滑鼠右鍵按一下並檢查Chrome播放器的三層。
-   **偵錯內容**：在內容上按一下滑鼠右鍵並檢查，以偵錯執行中的內容(內容功能表中應有一個名為「Inspect」的專案)
+   **偵錯內容**：用滑鼠右鍵按一下並檢查內容，以偵錯執行中的內容（內容功能表中應有一個名為「Inspect」的專案）
 
    **偵錯韌體**：開啟管理UI，然後按一下滑鼠右鍵並檢查以偵錯韌體（播放器）代碼。 （應該會有一個選項來檢查及檢查背景頁面，並模擬瀏覽器重新啟動。）
 

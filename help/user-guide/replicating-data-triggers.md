@@ -5,9 +5,15 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/T4JzIag-O6iz5ACtvG4mbsv-8pj0nHVKV08zwb2K9HE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: 515
 ht-degree: 1%
 
 ---
@@ -94,7 +100,7 @@ ht-degree: 1%
 
 1. 導覽至&#x200B;**工具** > **部署** > **發佈** > **發佈代理程式**。
 
-1. 按一下動作列中的&#x200B;**編輯**，並確定&#x200B;**Importer端點**&#x200B;欄位中的端點URL也指向發佈代理程式中的發佈伺服器URL。
+1. 按一下動作列中的&#x200B;**編輯**，並確定&#x200B;**Importer端點**欄位中的端點URL也指向發佈代理程式中的發佈伺服器URL。
    ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您未使用預設的管理員認證，則必須使用不同的使用者名稱和密碼來設定發佈代理程式。
@@ -110,10 +116,10 @@ ht-degree: 1%
 
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. 按一下&#x200B;**儲存**
+   1. 按一下「**儲存**」
    1. 使用`Cmd +F`搜尋&#x200B;**Apache Sling Distribution Agent - Forward Agents Factory**&#x200B;以開啟設定並搜尋&#x200B;**傳輸機密提供者**。
 
       ![影像1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 使用`(name=slingTransportSecretProvider)`更新`(name=default)`。
-   1. 按一下「儲存」**&#x200B;**，然後再次從AEM執行個體的&#x200B;**散發代理程式**&#x200B;畫面執行測試連線。
+   1. 按一下「儲存」****，然後再次從AEM執行個體的&#x200B;**散發代理程式**&#x200B;畫面執行測試連線。

@@ -5,9 +5,14 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: 579
 ht-degree: 2%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 2%
 
 Experience Manager Screens是功能強大的網頁式解決方案，可讓您建立專屬的數位功能表面板、產品推薦器、背景生活風格影像，以擴大客戶互動。 它可協助您將統一且實用的品牌體驗從同一個Experience Manager平台傳送至實體場所，例如商店、飯店、銀行、醫療保健和教育機構等。 Screens提供許多獨特的應用程式。 例如，互動式顯示、尋找方式、品牌化，以及根據客戶和員工的部署網域為您的環境增添氣氛。
 
-使用Experience Manager Screens建立和管理應用程式既簡單又直覺。 *應用程式*&#x200B;會主控客戶或實作合作夥伴為Experience Manager Screens建置的網頁。*位置*&#x200B;管理預先定義的階層並包含&#x200B;*顯示器*。 每個顯示器都會有一個控制面板顯示附加的不同裝置和熒幕。 在&#x200B;*管道*&#x200B;中管理Experience Manager Screens的內容。 Experience Manager Screens Player會將頻道內呈現的內容轉譯至顯示器。
+使用Experience Manager Screens建立和管理應用程式既簡單又直覺。 *應用程式*&#x200B;會主控客戶或實作合作夥伴為Experience Manager Screens建置的網頁。 *位置*&#x200B;管理預先定義的階層並包含&#x200B;*顯示器*。 每個顯示器都會有一個控制面板顯示附加的不同裝置和熒幕。 在&#x200B;*管道*&#x200B;中管理Experience Manager Screens的內容。 Experience Manager Screens Player會將頻道內呈現的內容轉譯至顯示器。
 
 若要瞭解與Experience Manager Screens相關的關鍵術語，請參閱[字彙表](screens-glossary.md)。
 
@@ -57,7 +62,7 @@ Experience Manager Screens是功能強大的網頁式解決方案，可讓您建
 
 * **引導式實作Essentials**
 
-  遵循引導式學習路徑&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hant?launch=AEM-7a)**，其中涵蓋Experience Manager Screens支援的基礎和進階功能。
+  遵循引導式學習路徑&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**，其中涵蓋Experience Manager Screens支援的基礎和進階功能。
 
 * **Experience Manager Screens專案最佳作法指南**
 

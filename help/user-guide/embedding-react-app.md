@@ -1,6 +1,6 @@
 ---
 title: 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合
-description: 瞭解如何使用AEM SPA編輯器使用REACT (或Angular)內嵌互動式單頁應用程式。
+description: 瞭解如何使用AEM SPA編輯器，透過REACT （或Angular）內嵌互動式單頁應用程式。
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,28 +10,32 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: 688
 ht-degree: 0%
 
 ---
 
 # 使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-您可以使用REACT (或Angular)內嵌互動式單頁應用程式。 您可以使用AEM SPA編輯器來執行此操作，由AEM中的商務專業人士進行設定。 您也可以瞭解如何將互動式應用程式與離線Adobe Analytics整合。
+您可以使用REACT （或Angular）內嵌互動式單頁應用程式。 做法是使用AEM中業務專業人士設定的AEM SPA編輯器。 您也可以瞭解如何將互動式應用程式與離線Adobe Analytics整合。
 
-## 使用AEM SPA編輯器 {#using-the-aem-spa-editor}
+## 使用AEM SPA Editor {#using-the-aem-spa-editor}
 
-請依照下列步驟使用AEM SPA編輯器：
+請依照下列步驟使用AEM SPA Editor：
 
 1. 在[https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)複製AEM SPA Editor存放庫
 
    >[!NOTE]
    >
-   >此原型會建立最低限度的Adobe Experience Manager專案，作為您專屬SPA專案的起點。 使用此原型時必須提供的屬性可讓您根據需要命名此專案的所有部分。
+   >此原型會建立最低限度的Adobe Experience Manager專案，作為您自己的SPA專案起點。 使用此原型時必須提供的屬性可讓您根據需要命名此專案的所有部分。
 
-1. 若要建立AEM SPA編輯器原型專案，請依照讀我檔案的說明操作：
+1. 若要建立AEM SPA Editor原型專案，請依照Readme說明操作：
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -77,7 +81,7 @@ ht-degree: 0%
    >
    >請務必在指派頻道給顯示區時新增使用者互動事件。
 
-1. 按一下動作列中的[編輯&#x200B;**&#x200B;**]，以便編輯頻道內容。
+1. 按一下動作列中的[編輯&#x200B;****]，以便編輯頻道內容。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 

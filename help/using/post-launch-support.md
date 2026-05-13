@@ -1,19 +1,22 @@
 ---
 title: 啟動後支援
 description: 瞭解最佳實務指南中的AEM Screens啟動後支援。
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: 390
+ht-degree: 3%
 
 ---
-
 
 # 啟動後支援 {#post-launch-support}
 
 請勿忽視早期階段的啟動後支援。
 
-確定網站會獲得硬體供應商的充分支援，對於其業務營運非常重要。**音訊 — 視訊整合商**&#x200B;應與業務利害關係人密切合作，找出不同方面所需的需求。
+確定網站會獲得硬體供應商的充分支援，對於其業務營運非常重要。 **音訊 — 視訊整合商**應與業務利害關係人密切合作，找出不同方面所需的需求。
 在啟動後支援期間，請考量下列需求：
 
 * 遠端裝置管理
@@ -21,11 +24,11 @@ ht-degree: 4%
 * 現場技術人員支援
 * 裝置管理（保固支援與備用裝置儲存）
 
-此外，為了準備長期成功，最重要的是與音訊/視訊整合商合作建立第2天服務等級協定(SLA)。 SLA應詳細說明所有部署後支援服務，以協助準確設定使用者端期望。
+此外，為了準備長期成功，最重要的是與音訊 — 視訊整合商合作建立第2天Service level agreement (SLA)。 SLA應詳細說明所有部署後支援服務，以協助準確設定使用者端期望。
 
 >[!NOTE]
 >
->及早定義作業預算中包含的作業引數，並與AEM實作人員及音訊視訊整合者協調責任。
+>及早定義作業預算中包含的作業引數，並與AEM實作者和音訊視訊整合者協調責任。
 >
 >* 部署是否為Advertising網路，許多利害關係人都與營利網路連結？ 與公司通訊網路相比，此狀況可能會要求較短的解析時間範圍。
 >* 一般使用者端主管領導能否高度瞭解此應用程式？ 能見度高的網站可能適合不同的處理方式。

@@ -7,13 +7,16 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
+TQID: https://experienceleague.adobe.com/I--6jVCUWNNGosI-eK-qCAVnVSW3O6lPeFmowhjOJyg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: 161
 ht-degree: 0%
 
 ---
-
 
 # AEM Screens概觀影片 {#aem-screens-overview-video}
 
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 若要觀看影片，您需要下列專案：
 
-1. **AEM 6.4**&#x200B;或&#x200B;**AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
+1. **AEM 6.4**&#x200B;或&#x200B;** AEM 6.3*+ **Screens Feature Pack 1**
 
 1. Screens播放器
 
@@ -41,4 +44,3 @@ ht-degree: 0%
 以下影片說明位置、顯示和裝置設定的建立。 此影片也會說明註冊裝置和將裝置指派給顯示器的步驟。 大致上遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的後半部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
-

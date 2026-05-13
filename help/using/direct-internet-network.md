@@ -2,16 +2,20 @@
 title: 直接網際網路存取
 description: 直接網際網路存取
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # 直接網際網路網路（有線/無線） {#direct-internet-access}
 
-「直接網際網路連線」包含進入存取點，可供使用者存取網際網路，以連線至AEM Screens必須連線的AEMCloud Service。
+直接網際網路包含一個進入存取點，讓使用者得以存取網際網路，以連線AEM Screens必須連線的AEM雲端服務。
 
 用於AEM Screens通訊的標準連線埠包括：
 
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 * `http (TCP Port 80)`，如果您的特定使用案例不需要該層級的安全性。
 
-連線埠可能會因您的專用AEM組態設定的設定而有所不同。 在此設定中，所有裝置都直接連線到您的網際網路路由器，如下圖所示。
+連線埠可能會因您的專用AEM組態設定的設定而異。 在此設定中，所有裝置都直接連線到您的網際網路路由器，如下圖所示。
 
 ![](/help/assets/direct-access-2.png)
 
@@ -28,9 +32,9 @@ ht-degree: 0%
 
 ## 將AEM Screens Player連線至直接網際網路存取
 
-請依照下列步驟，確認此設定中的AEM熒幕播放器連線正確：
+請依照下列步驟，確認此設定中的AEM熒幕播放器有正確連線：
 
-1. 請確定每個AEM Screen播放器都連線到路由器的網路。
+1. 請確定每個AEM熒幕播放器皆已連線至路由器的網路。
 1. 呼叫系統瀏覽器中的URL以測試網際網路連線。
 
    >[!NOTE]
@@ -76,7 +80,7 @@ LAN網路通常至少會符合100-Mbps的網路，因此有足夠的頻寬來連
 
 >[!NOTE]
 >
->如果需要使用Wi-Fi中繼器，Adobe會推薦網狀的Wi-Fi存取點，例如Google Nest Mesh Wi-Fi或類似裝置。 其他Wi-Fi重複技術最終會導致整個網路的頻寬大幅減少。
+>若需要Wi-Fi中繼器，Adobe會推薦網狀架構Wi-Fi存取點，例如Google Nest Mesh Wi-Fi或類似功能。 其他Wi-Fi重複技術最終會導致整個網路的頻寬大幅減少。
 
 ## 下載媒體和Assets {#download}
 

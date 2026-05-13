@@ -10,9 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/C8FAKzAKUjdochkR96MShKiu2Ig-g-9BDnoX09g4xnM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: 454
 ht-degree: 0%
 
 ---
@@ -44,7 +51,7 @@ ht-degree: 0%
 
 1. **根據需求設定對象中的區段**
 
-   1. 導覽至您對象中的區段(如需詳細資訊，請參閱&#x200B;**[在AEM Screens中設定ContextHub](configuring-context-hub.md)**&#x200B;頁面中的&#x200B;***步驟2：設定對象細分***)。
+   1. 導覽至您對象中的區段（如需詳細資訊，請參閱&#x200B;**[在AEM Screens中設定ContextHub](configuring-context-hub.md)**&#x200B;頁面中的&#x200B;***步驟2：設定對象細分***）。
 
    1. 按一下&#x200B;**工作表A1 1**&#x200B;並按一下&#x200B;**編輯**。
 
@@ -84,7 +91,7 @@ ht-degree: 0%
 
 1. **正在檢查預覽**
 
-   1. 按一下「**預覽」。**&#x200B;也請開啟您的Google工作表並更新其值。
+   1. 按一下&#x200B;**預覽。** 此外，請開啟Google工作表並更新其值。
    1. 將值變更為小於50。 您可以檢視冷飲的影像。 如果「Google工作表」中的值為50或更大，您應該會看到熱飲的影像。
 
    ![結果3](assets/result3.gif)

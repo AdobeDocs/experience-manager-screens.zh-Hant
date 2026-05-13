@@ -10,9 +10,14 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 781
 ht-degree: 1%
 
 ---
@@ -73,7 +78,7 @@ ht-degree: 1%
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-另外，按一下[裝置資訊]面板右上角的(**...**)以檢視內容或更新裝置。
+此外，按一下(**...**) 從「裝置資訊」面板的右上角，檢視屬性或更新裝置。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -89,7 +94,7 @@ ht-degree: 1%
 
 您可以從&#x200B;**播放器熒幕擷圖**&#x200B;面板檢視裝置上的播放器熒幕擷圖。
 
-按一下「播放器熒幕擷取畫面」面板右上角的(**...**)，然後按一下「重新整理熒幕擷取畫面」**，以檢視執行中播放器的快照。**
+按一下(**...**) 播放器熒幕擷圖面板右上角，然後按一下&#x200B;**重新整理熒幕擷圖**&#x200B;以檢視執行中播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -133,7 +138,7 @@ ht-degree: 1%
 
 1. 導覽至&#x200B;**Adobe Experience Manager Web主控台組態**，也就是`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
 1. 核取&#x200B;**allow.empty**&#x200B;選項。
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

@@ -10,9 +10,14 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: 1155
 ht-degree: 1%
 
 ---
@@ -40,14 +45,14 @@ ht-degree: 1%
 請遵循下列步驟：
 
 1. 導覽至&#x200B;**Adobe Experience Manager Web Console
-使用`http://localhost:4502/system/console/configMgr`的組態**。
+使用`http://localhost:4502/system/console/configMgr`設定**。
 
 1. 搜尋&#x200B;*Adobe Granite權杖驗證處理常式*。
 
 1. 將登入權杖Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設定為&#x200B;**None**。
    ![影像](/help/user-guide/assets/granite-updates.png)
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 ### 臨機方法 {#ad-hoc-method}
 
@@ -159,7 +164,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 1. 啟用殼層啟動器。
 
-   如需詳細資訊，請參閱Microsoft® Windows支援的&#x200B;**[殼層啟動器](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;頁面中的&#x200B;***設定殼層啟動器***。
+   如需詳細資訊，請參閱® Windows支援的&#x200B;**[殼層啟動器](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;頁面中的&#x200B;***設定殼層啟動器***。
 
 1. 建立一個非管理使用者（如果您還沒有的話），以用於Kiosk。 可以是本機或網域使用者。
 1. 從[AEM Screens Player下載](https://download.macromedia.com/screens/)頁面為該Kiosk使用者安裝Windows Player。

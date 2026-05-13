@@ -6,9 +6,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/Lu1KYTTaDEiaC1xP4k0V8KqDVoe5gIzqkut-JB0G4fg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: 506
 ht-degree: 1%
 
 ---
@@ -80,7 +85,7 @@ AEM Screens Player中的基本播放監視可讓您進行下列工作：
 
 如需深入資訊，請參閱下列主題：
 
-* 若要下載Android™ Player，請造訪&#x200B;**Google Play**。 若要瞭解如何實作Android™ Watchdog，請參閱[實作Android™播放器](implementing-android-player.md)。
+* 若要下載™ Player，請造訪&#x200B;**Google Play**。 若要瞭解如何實作™ Watchdog，請參閱[實作Android™播放器](implementing-android-player.md)。
 
 * 若要實作Chrome OS Player，請參閱[Chrome管理主控台](implementing-chrome-os-player.md)以取得詳細資訊。
 

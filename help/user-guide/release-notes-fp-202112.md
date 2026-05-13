@@ -5,17 +5,21 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/jtzPyVOZWrsZO436hL54W42VsLQa8QuU0-5sAEK8q78
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: 340
+ht-degree: 5%
 
 ---
 
 # Feature Pack 202112發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
@@ -29,7 +33,7 @@ AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
 
 ### 新增功能 {#what-is-new}
 
-* Android™應用程式更新現在將目標鎖定於Android™ 11 （API層級30）。 目前Android™播放器處於Target API Level 29。
+* ™應用程式更新現在將目標鎖定於Android™ 11 （API層級30）。 目前™播放器處於Target API Level 29。
 
 * 顯示預覽卡在先前的播放器設定
 
@@ -64,7 +68,7 @@ AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
 * Chrome OS
 * Windows
 * Tizen
-* Android™
+* ™
 * Linux®
 
 #### AEM Screens播放器下載

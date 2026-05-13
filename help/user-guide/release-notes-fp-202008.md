@@ -5,10 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: 355
+ht-degree: 3%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
@@ -54,19 +58,19 @@ AEM Screens Feature Pack 202008的發行日期為2020年9月3日。
 
 如果您使用AEM Screens 6.5.5 Service Pack，請為Windows或Android™ Player設定環境。
 
-從&#x200B;**Adobe Experience Manager Web Console將登入權杖Cookie**&#x200B;的&#x200B;**SameSite屬性從** Lax **設定為** None **所有AEM作者和發佈執行個體上的設定**。
+從&#x200B;**Adobe Experience Manager Web Console將登入權杖Cookie**&#x200B;的&#x200B;**SameSite屬性從** Lax **設定為** None **在所有AEM作者和發佈執行個體上設定**。
 
 * 如需詳細資訊，請參閱[實作Windows 10 Player](implementing-windows-player.md#fp-environment-setup)。
 
-* 如需詳細資訊，請參閱[實作Android™ Player](implementing-android-player.md#fp-environment-setup)。
+* 如需詳細資訊，請參閱[實作™ Player](implementing-android-player.md#fp-environment-setup)。
 
 ### 已發行的AEM Screens Players
 
-下列AEM Screens Player已針對AEM Screens發行AEM 6.5 Feature Pack 5。
+下列AEM Screens Player已針對AEM Screens發行的AEM 6.5 Feature Pack 5發行。
 
 * Chrome作業系統
 * Windows
-* Android™
+* ™
 
 #### AEM Screens播放器下載
 

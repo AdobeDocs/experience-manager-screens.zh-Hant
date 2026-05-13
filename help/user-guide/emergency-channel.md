@@ -9,10 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/v0I1gmu10jscAJFcZGWu3g7X27BUNXIuyTGfKpPwUvA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 0%
+source-wordcount: 717
+ht-degree: 1%
 
 ---
 
@@ -65,7 +71,7 @@ ht-degree: 0%
 1. **正在建立緊急通道**
 
    1. 按一下&#x200B;**頻道**&#x200B;資料夾。
-   1. 按一下&#x200B;**建立**。
+   1. 按一下「**建立**」。
    1. 從精靈按一下&#x200B;**順序頻道**，並建立標題為&#x200B;**緊急頻道**&#x200B;的頻道。
 
    >[!NOTE]
@@ -114,7 +120,7 @@ ht-degree: 0%
       1. 按一下&#x200B;**MainAdChannel**&#x200B;的路徑
       1. 將&#x200B;**優先順序**&#x200B;設為2
       1. 將支援的事件設定為&#x200B;**初始載入**&#x200B;和&#x200B;**閒置畫面**。
-      1. 按一下&#x200B;**儲存**
+      1. 按一下「**儲存**」
 
       同樣地，請再次執行相同的步驟來指派&#x200B;**緊急通道**&#x200B;並設定其&#x200B;**優先順序**。
 
@@ -133,7 +139,7 @@ ht-degree: 0%
 
    1. 將支援的事件設定為&#x200B;**初始載入**、**閒置畫面**&#x200B;和&#x200B;**使用者互動**
 
-   1. 按一下&#x200B;**儲存**
+   1. 按一下「**儲存**」
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -150,9 +156,9 @@ ht-degree: 0%
 
    1. 按一下排程的路徑（例如，**EmergencyChannel** > **排程** >**StoreSchedule**）。
 
-   1. 按一下「**儲存**」。
+   1. 按一下&#x200B;**儲存**。
 
-   您可以從&#x200B;**StoreSchedule**&#x200B;儀表板檢視指派給顯示器的排程。
+   您可以從&#x200B;**StoreSchedule**儀表板檢視指派給顯示器的排程。
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **裝置註冊**

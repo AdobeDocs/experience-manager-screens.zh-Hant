@@ -5,9 +5,15 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/61R-NNkhkgGx2S0KOeteDn674PiOpX5k4YOVKBmQZIs
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -52,7 +58,7 @@ ht-degree: 0%
 
    ![影像1](assets/command-sync/command-sync2-1.png)
 
-1. 建立位置&#x200B;**大廳**，然後在&#x200B;**位置**&#x200B;資料夾中建立標題為&#x200B;**大廳顯示**&#x200B;的顯示，如下圖所示。
+1. 建立位置&#x200B;**大廳**，然後在&#x200B;**位置**&#x200B;資料夾中建立標題為&#x200B;**大廳顯示**的顯示，如下圖所示。
    ![影像1](assets/command-sync/command-sync3-1.png)
 
 1. 將頻道&#x200B;**ChannelLobby**&#x200B;指派給您的&#x200B;**LobbyDisplay**。 您現在可以從顯示控制面板檢視指派給顯示的管道。
@@ -91,7 +97,7 @@ ht-degree: 0%
 ### 設定主要 {#setting-up-primary}
 
 1. 從&#x200B;**CommandSyncDemo** > **位置** > **大廳** > **大廳顯示**&#x200B;瀏覽至顯示儀表板。 然後，從動作列按一下&#x200B;**儀表板**。
-請注意&#x200B;**裝置**&#x200B;面板中的兩個裝置（Chrome和Windows Player），如下列所示：
+請注意**裝置**面板中的兩個裝置（Chrome和Windows Player），如下列所示：
    ![影像1](assets/command-sync/command-sync10-1.png)
 
 1. 從&#x200B;**裝置**&#x200B;面板，按一下您要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設定為主要裝置。 按一下&#x200B;**設定為主要裝置**。
@@ -109,7 +115,7 @@ ht-degree: 0%
 ### 正在與主要播放器同步 {#sync-up-primary}
 
 1. 將Chrome裝置設為主要裝置後，請同步處理其他裝置（在此例中為Windows Player），以便與主要裝置同步。
-從&#x200B;**裝置**&#x200B;面板按一下其他裝置（在此例中是Windows Player），然後按一下&#x200B;**同步處理至主要裝置**。
+從**裝置**&#x200B;面板按一下其他裝置（在此例中是Windows Player），然後按一下&#x200B;**同步處理至主要裝置**。
 
    ![影像1](assets/command-sync/command-sync13-1.png)
 
@@ -135,7 +141,7 @@ ht-degree: 0%
 
 1. 瀏覽至&#x200B;**裝置**&#x200B;面板，然後按一下裝置。
 
-1. 按一下[取消同步處理裝置]&#x200B;**&#x200B;**，即可從主要裝置取消同步處理使用者端。
+1. 按一下[取消同步處理裝置]****，即可從主要裝置取消同步處理使用者端。
 
    ![影像1](assets/command-sync/command-sync15-1.png)
 

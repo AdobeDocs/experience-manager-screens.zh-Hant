@@ -5,9 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 290
 ht-degree: 2%
 
 ---
@@ -16,9 +21,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
-AEM Screens已發行AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2，並提供下列詳細資料。
+AEM Screens已發行AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2 ，其中包含下列詳細資訊。
 
 ## 發行日期 {#release-date}
 
@@ -53,7 +58,7 @@ AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
 
 * Chrome OS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens播放器下載
 

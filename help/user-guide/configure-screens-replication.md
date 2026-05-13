@@ -4,10 +4,15 @@ description: 瞭解如何設定Screens復寫代理。
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 4%
+source-wordcount: 485
+ht-degree: 5%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 4%
 Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep*），以及其他許多此類值從發佈到作者。 請務必設定此代理程式，讓作者可以顯示裝置Ping。
 
 >[!NOTE]
->若要深入瞭解Screens復寫代理程式，請參閱[Screens復寫代理程式與命令](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
+>若要深入瞭解Screens復寫代理程式，請參閱[Screens復寫代理程式與命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
 
 如果您要完成Screens復寫代理程式的設定，請完成這兩節：
 
@@ -69,7 +74,7 @@ Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*passwor
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. 按一下&#x200B;**「儲存並關閉」**。
+1. 按一下「**儲存並關閉**」。
 
 1. 按一下&#x200B;**`screens-receiver-user`**，然後按一下動作列中的&#x200B;**啟動**。
 
@@ -96,7 +101,7 @@ Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*passwor
 >在所有現有AEM Screens復寫代理程式上完成下列步驟。
 
 1. 導覽至您的AEM執行個體。
-1. 按一下[工具] > [部署] > [復寫] > [部署] **> [復寫]**&#x200B;**。**
+1. 按一下[工具] > [部署] > [復寫] > [部署] **> [復寫]****。**
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
@@ -111,7 +116,7 @@ Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*passwor
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
    ![影像](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
