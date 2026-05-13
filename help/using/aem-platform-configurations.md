@@ -3,9 +3,13 @@ title: AEM平台組態
 description: 頁面說明AEM平台組態
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 545
@@ -31,7 +35,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->如果只有一個Author和一個Publish，您只能按照[在AEM Screens中設定Author和Publish ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)頁面中&#x200B;**在Author**&#x200B;上設定Replication Agent下的步驟操作。
+>如果只有一個Author和一個Publish，您只能按照[在AEM Screens中設定Author和Publish &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)頁面中&#x200B;**在Author**&#x200B;上設定Replication Agent下的步驟操作。
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 

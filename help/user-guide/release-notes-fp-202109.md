@@ -6,9 +6,13 @@ role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
 TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 977
@@ -33,7 +37,7 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
 ### 新增功能 {#what-is-new}
 
-* 影片的縮圖支援&#x200B;****
+* 影片的縮圖支援&#x200B;**&#x200B;**
 
   AEM Screens現在支援影片的縮圖支援。 內容作者會定義影片的縮圖，好讓影像可當做預留位置使用。 他們也會適當測試內容播放和目標定位，而由適當的團隊最終確定實際影片。 如果影片播放失敗，也可以使用該影像。
 如需詳細資訊，請參閱[影片的縮圖支援](/help/user-guide/thumbnail-support.md)。

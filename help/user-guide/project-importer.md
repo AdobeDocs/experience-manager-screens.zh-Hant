@@ -11,9 +11,13 @@ role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 623
@@ -111,11 +115,11 @@ ht-degree: 1%
 
 1. 顯示&#x200B;**匯入**&#x200B;精靈。 按一下含有位置的專案檔案，或按一下您從&#x200B;*先決條件*&#x200B;區段下載的檔案(***minimal-file.xls***)。
 
-   選取檔案後，按一下[下一步] ****。
+   選取檔案後，按一下[下一步] **&#x200B;**。
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。****
+1. 從[匯入]精靈確認檔案（位置）的內容，然後按一下[匯入]。**&#x200B;**
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
