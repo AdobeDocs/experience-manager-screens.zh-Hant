@@ -2,9 +2,15 @@
 title: 裝置規格
 description: 瞭解更多有關AEM Screens的裝置規格。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/nRZXWarHxFk1wgwR5YLLNcxx3OKs-fWKq1U9uB7yeBw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 * 顯示裝置上必須安裝哪些軟體和作業系統？
 
-* 播放器是否需要網際網路連線，才能與AEM伺服器同步處理畫面？
+* 播放器是否需要網際網路連線，才能將畫面與AEM伺服器同步？
 
 * 播放器上的內容何時更新？
 

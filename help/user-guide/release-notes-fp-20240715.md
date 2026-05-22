@@ -5,10 +5,20 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+TQID: https://experienceleague.adobe.com/iBrvF7rb4cVg2oyd8Oot3HJmjgv-Vg7jgLdy2ba6hZs
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: 170
+ht-degree: 15%
 
 ---
 
@@ -16,7 +26,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
->&#x200B;>FeaturePack (FP) 11.4版相容於ServicePack (SP)，最高版本為20。
+>FeaturePack (FP) 11.4版相容於ServicePack (SP)，最高版本為20。
 
 
 ## 可用性 {#availability}

@@ -2,9 +2,15 @@
 title: 轉換至平台
 description: 瞭解AEM Screens中的轉換至平台。
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+TQID: https://experienceleague.adobe.com/xefeUV4bgG-I7zVOGcAnNkcdx1Y-XQfmAr2bFT5nFN0
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
@@ -13,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此活動的典型利害關係人是AEM實作人員。
+>此活動的一般利害關係人是AEM實作人員。
 
 隨著您的專案從策略性願景邁向線框化現實，您應該準備好在AEM中實際建立Screens專案以供您部署。
 
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 * 用於建立內容分組的&#x200B;**體驗片段**。
 * 用於建立文字變化的&#x200B;**內容片段**。
-* **Context Hub**，用於建立外部資料存放區，SPA適用於互動式體驗。
+* **Context Hub**，用於建立外部資料存放區、互動式體驗的SPA。
 * 網路警示的&#x200B;**OSGi服務**。
 * 用於Creative Cloud來源的&#x200B;**資產連結**。
 * 資產配置的&#x200B;**網路資料夾**。

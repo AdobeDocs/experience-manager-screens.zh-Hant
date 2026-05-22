@@ -10,9 +10,17 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -59,7 +67,7 @@ ht-degree: 1%
 
 * **路徑{string}** — 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾（也就是說，*`/foo`*&#x200B;已匯入至&#x200B;*`/content/screens/<project>/locations/foo`*）
 * **範本{string}** — 用於新位置的範本，目前唯一允許值為「location」，但此值已擴充至未來的所有`Screens`範本（`display`、`sequencechannel`等）
-* **[。/*] {string}** — 任何要在位置設定的選擇性屬性（亦即`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 目前的版本不允許篩選。
+* **[./*] {string}** — 任何要設定在位置上的選擇性屬性（即，`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 目前的版本不允許篩選。
 
 >[!NOTE]
 >
@@ -74,7 +82,7 @@ ht-degree: 1%
 >限制:
 >
 >* 目前版本不支援CSV/XLS/XLSX副檔名以外的檔案。
->* 對於匯入的檔案和任何以「」開頭的檔案，不存在屬性篩選。「/」已匯入。
+>* 匯入的檔案不存在屬性篩選，且任何以「。/」開頭的檔案皆已匯入。
 >
 
 ### 先決條件 {#prerequisites}
@@ -101,7 +109,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 按一下專案，**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B;從側邊列建立&#x200B;**>**&#x200B;匯入位置**。
+1. 按一下專案，**DemoProjectImporter**>**從側邊列建立**>**匯入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

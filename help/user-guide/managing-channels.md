@@ -5,9 +5,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/tMZVrwGVdqEg0NbOKvBMO5-dKLG1k1kiNT8E8xU9msc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: 1256
 ht-degree: 3%
 
 ---
@@ -117,7 +133,7 @@ ht-degree: 3%
 
 「色版資訊」面板說明色版屬性，以及色版的預覽。 此外，它可提供頻道為離線或線上狀態的相關資訊。
 
-按一下&#x200B;**頻道資訊**&#x200B;動作列中的(**...**)，即可檢視內容、編輯內容或更新頻道的快取（離線內容）。
+按一下(**...**) 從&#x200B;**頻道資訊**&#x200B;動作列，您可以檢視內容、編輯內容或更新頻道的快取（離線內容）。
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,7 +149,7 @@ ht-degree: 3%
 1. **將頻道設定為離線**
    1. 按一下頻道，然後從動作列按一下&#x200B;**內容**
    1. 導覽至&#x200B;**頻道**&#x200B;標籤，並確定取消勾選&#x200B;**開發人員模式（強制頻道上線）**&#x200B;選項
-   1. 按一下&#x200B;**儲存並關閉**
+   1. 按一下「**儲存並關閉**」
 1. **更新離線內容**
    1. 按一下頻道，然後從動作列按一下&#x200B;**儀表板**
    1. 瀏覽至&#x200B;**頻道資訊**&#x200B;面板，然後按一下&#x200B;*...*

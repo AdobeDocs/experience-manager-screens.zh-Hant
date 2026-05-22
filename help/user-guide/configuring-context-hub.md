@@ -10,10 +10,23 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 1%
+source-wordcount: 1476
+ht-degree: 2%
 
 ---
 
@@ -108,7 +121,7 @@ ht-degree: 1%
    >1. 將`cloudsettings1`重新命名為`cloudsettings`並儲存。
    >1. 請注意，`/conf/screens/settings/cloudsettings`有`jcr:primaryType`做為`sling:Folder`。
    >
-   >在升級之前或之後，請依照作者和Publish中的這些步驟操作。
+   >升級之前或之後，請依照「作者」和「發佈」中的這些步驟操作。
 
    1. 輸入&#x200B;**標題**&#x200B;作為&#x200B;**Google工作表**，**儲存名稱**&#x200B;作為&#x200B;**`googlesheets`**，且&#x200B;**儲存型別**&#x200B;作為&#x200B;**c`ontexthub.generic-jsonp`**，然後按一下&#x200B;**下一步**。
 
@@ -166,14 +179,13 @@ ht-degree: 1%
 
    1. 從您的AEM執行個體瀏覽至&#x200B;**Personalization** > **對象** > **畫面**。
 
-   1. 按一下「**建立** > **建立ContextHub區段」。** **新ContextHub區段**&#x200B;對話方塊開啟。
+   1. 按一下「**建立**」>「**建立ContextHub區段」。** **新ContextHub區段**&#x200B;對話方塊開啟。
 
    1. 輸入&#x200B;**標題**&#x200B;作為`**Higherthan50**`，然後按一下&#x200B;**建立**。 同樣地，建立另一個標題為`**Lowerthan50**`的區段。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. 按一下區段`**Higherthan50**`，然後按一下動作列中的&#x200B;**屬性**。
-
       ![影像](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. 從&#x200B;**區段屬性**&#x200B;按一下&#x200B;**Personalization**&#x200B;索引標籤。 將&#x200B;**ContextHub路徑**&#x200B;設為`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`，將&#x200B;**區段路徑**&#x200B;設為`/conf/screens/settings/wcm/segments`，然後按一下&#x200B;**儲存**，如下圖所示。
@@ -203,7 +215,7 @@ ht-degree: 1%
       >
       >已知問題：
       >若要新增區域，請從URL移除主要網址，例如
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **在您的品牌中建立區域**
 
@@ -269,7 +281,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >AEM會將您的區段顯示為綠色，以驗證Google工作表中的資料。
+      >AEM會將您的區段顯示為綠色，以驗證Google工作表上的資料。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub18.png)
 
@@ -301,7 +313,7 @@ ht-degree: 1%
    1. 將&#x200B;**ContextHub路徑**&#x200B;設定為`/conf/screens/settings/wcm/segments`並將&#x200B;**區段路徑**&#x200B;設定為`/conf/screens/settings/wcm/segments`。
    1. 從下拉式清單中將品牌設定為&#x200B;**ScreensBrand**，並將&#x200B;**區域參考**&#x200B;設定為&#x200B;**ScreensValue**。
 
-   1. 按一下&#x200B;**「儲存並關閉」**。
+   1. 按一下「**儲存並關閉**」。
 
       >[!NOTE]
       >

@@ -1,6 +1,6 @@
 ---
 title: 設定和部署AEM Screens
-description: AEM Screens Player適用於Android&amp；trade；、Chrome作業系統、iOS和Windows。 瞭解AEM Screens的設定和部署。
+description: AEM Screens Player適用於Android&trade；、Chrome作業系統、iOS和Windows。 瞭解AEM Screens的設定和部署。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,17 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -37,7 +45,7 @@ ht-degree: 1%
 
 請依照下列步驟，檢查這兩個重要設定是否已為AEM Screens啟用：
 
-1. 導覽至[Adobe Experience Manager Web主控台Sling健康狀態檢查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)。
+1. 導覽至[Adobe Experience Manager Web主控台Sling健康狀態檢查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)。
 
    ![個資產](assets/health-check1.png)
 
@@ -64,7 +72,7 @@ ht-degree: 1%
 
 #### 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
-1. 透過AEM執行個體>槌子圖示> **作業** > **網頁主控台**，瀏覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
+1. 透過Adobe Experience Manager執行個體>槌子圖示> **作業** > **Web主控台**，瀏覽至&#x200B;**AEM Web主控台設定**。
 
    ![影像](assets/config/empty-ref1.png)
 
@@ -81,13 +89,13 @@ ht-degree: 1%
 
 #### Apache Felix Jetty型HTTP服務 {#allow-apache-felix-service}
 
-1. 透過AEM執行個體>槌子圖示> **作業** > **網頁主控台**，瀏覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
+1. 透過Adobe Experience Manager執行個體>槌子圖示> **作業** > **Web主控台**，瀏覽至&#x200B;**AEM Web主控台設定**。
 
    ![影像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web主控台組態**&#x200B;開啟。 搜尋Apache Felix Jetty型HTTP服務。
 
-   若要搜尋此屬性，請按下&#x200B;**Command+F** (針對&#x200B;**Mac**)和&#x200B;**Control+F** （針對&#x200B;**Windows**）。
+   若要搜尋此屬性，請按下&#x200B;**Command+F** （針對&#x200B;**Mac**）和&#x200B;**Control+F** （針對&#x200B;**Windows**）。
 
 1. 核取&#x200B;**啟用HTTP**&#x200B;選項，如下圖所示。
 
@@ -99,7 +107,7 @@ ht-degree: 1%
 
 AEM Screens需要TOUCH UI，無法搭配Adobe Experience Manager (AEM)的Classic UI使用。
 
-1. 瀏覽至`*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
+1. 導覽至 `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. 請確定&#x200B;**預設編寫UI模式**&#x200B;設定為&#x200B;**觸控式**，如下圖所示
 
 或者，您也可以使用yourAuthorInstance *>*&#x200B;工具（槌子圖示） > **作業** > **Web主控台**&#x200B;執行相同的設定，並搜尋&#x200B;**WCM編寫UI模式服務**。
@@ -128,9 +136,9 @@ AEM Screens需要TOUCH UI，無法搭配Adobe Experience Manager (AEM)的Classic
 
 請依照下列步驟設定&#x200B;***DeviceServiceImpl***：
 
-1. 透過您的AEM執行個體>槌子圖示> **作業** > **網頁主控台**，瀏覽至&#x200B;**Adobe Experience Manager Web主控台設定**。
+1. 透過您的Adobe Experience Manager執行個體>槌子圖示> **作業** > **網頁主控台**，瀏覽至&#x200B;**AEM Web主控台設定**。
 
-1. **Adobe Experience Manager Web主控台組態**&#x200B;開啟。 搜尋`*deviceservice*`。 若要搜尋屬性，請按下&#x200B;**Command+F** (適用於macOS)和&#x200B;**Control+F** (適用於Microsoft® Windows)。
+1. **Adobe Experience Manager Web主控台組態**&#x200B;開啟。 搜尋`*deviceservice*`。 若要搜尋屬性，請按下&#x200B;**Command+F** （適用於macOS）和&#x200B;**Control+F** （適用於Microsoft® Windows）。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 

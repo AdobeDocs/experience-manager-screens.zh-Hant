@@ -5,10 +5,22 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: 662
+ht-degree: 2%
 
 ---
 
@@ -143,7 +155,7 @@ Screens播放器使用已驗證的工作階段，因此Dispatcher不會快取`ch
 
   ![影像](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### 篩選條件 {#filter-v3}
+### 篩選器 {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -175,7 +187,7 @@ Screens播放器使用已驗證的工作階段，因此Dispatcher不會快取`ch
 
 * 所有AEM Screens播放器都會使用已驗證的工作階段來連線至AEM （作者/發佈）。 Dispatcher不會快取這些URL，因此您應該啟用它們。
 
-* 將`statfileslevel "10"`新增至`publish_farm.any`中的`/cache`區段
+* 將`statfileslevel "10"`新增至中的`/cache`區段 `publish_farm.any`
 此規則支援快取docroot中的最多10個層級，並在內容發佈時據以失效，而不是讓所有內容失效。 您可以根據內容結構的深度，隨時變更此層級
 
 * 新增下列至`/invalidate section in publish_farm.any`

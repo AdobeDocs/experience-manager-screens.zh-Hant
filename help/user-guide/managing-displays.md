@@ -9,9 +9,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 664
 ht-degree: 1%
 
 ---
@@ -102,7 +116,7 @@ ht-degree: 1%
 
 **顯示資訊**&#x200B;面板提供顯示屬性。
 
-按一下「**顯示資訊**」面板右上角的(**...**)，即可檢視內容並預覽顯示。
+按一下(**...**) 在&#x200B;**顯示資訊**&#x200B;面板的右上角，您可以檢視屬性並預覽顯示。
 
 
 #### 檢視屬性 {#viewing-properties}
@@ -123,7 +137,7 @@ ht-degree: 1%
 
 **DEVICES**&#x200B;面板提供裝置組態的資訊。
 
-按一下&#x200B;**裝置**&#x200B;面板右上角的(**...**)，您可以新增裝置設定並更新裝置。
+按一下(**...**) 位於&#x200B;**裝置**&#x200B;面板的右上角，您可以新增裝置設定和更新裝置。
 
 此外，按一下裝置設定即可檢視屬性、指派裝置，或完全刪除裝置。
 

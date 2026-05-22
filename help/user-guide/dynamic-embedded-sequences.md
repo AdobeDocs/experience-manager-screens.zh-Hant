@@ -9,9 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: 2489
 ht-degree: 1%
 
 ---
@@ -157,7 +174,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   請依照上述步驟進行，以便您可以在&#x200B;**區域B**&#x200B;下建立頻道並顯示在&#x200B;**`Store 3`**&#x200B;和&#x200B;**`Store 4`**&#x200B;中。 再次確認在建立頻道&#x200B;**`Store3Channel`**&#x200B;和&#x200B;**`Store4Channel`**&#x200B;時，您使用相同的&#x200B;**Name**&#x200B;作為&#x200B;**存放區**。
+   請依照上述步驟進行，以便您可以在&#x200B;**區域B**&#x200B;下建立頻道並顯示在&#x200B;**`Store 3`**&#x200B;和&#x200B;**`Store 4`**&#x200B;中。再次強調，在建立頻道&#x200B;**`Store3Channel`**&#x200B;和&#x200B;**`Store4Channel`**&#x200B;時，請確定您分別使用相同的&#x200B;**Name**&#x200B;作為&#x200B;**存放區**。
 
    下圖顯示&#x200B;**`Store 3`**&#x200B;中的顯示和色版。
 
@@ -203,7 +220,7 @@ ht-degree: 1%
    1. 按一下&#x200B;**頻道路徑**，就像&#x200B;**示範** > ***頻道*** > ***全域***。
    1. 輸入&#x200B;**頻道角色**，就像&#x200B;**GlobalAdSegment**&#x200B;一樣。
    1. 按一下&#x200B;**支援的事件**，例如&#x200B;**初始載入**、**閒置畫面**&#x200B;和&#x200B;**使用者互動**。
-   1. 按一下「**儲存**」。
+   1. 按一下&#x200B;**儲存**。
 
    **依地區角色指派頻道：**
 
@@ -211,7 +228,7 @@ ht-degree: 1%
    1. 在[頻道指定任務]對話方塊中，按一下[依名稱&#x200B;**參考頻道**]。
    1. 輸入&#x200B;**頻道名稱**&#x200B;作為&#x200B;**區域***。
    1. 輸入&#x200B;**頻道角色**&#x200B;作為&#x200B;**RegionAdSegment**。
-   1. 按一下「**儲存**」。
+   1. 按一下&#x200B;**儲存**。
 
    **依儲存區的角色指派頻道：**
 
@@ -219,7 +236,7 @@ ht-degree: 1%
    1. 在[頻道指定任務]對話方塊中，按一下[依名稱&#x200B;**參考頻道**]。
    1. 輸入&#x200B;**頻道名稱**&#x200B;作為&#x200B;**存放區**。
    1. 輸入&#x200B;**頻道角色**&#x200B;作為&#x200B;**StoreAdSegment**。
-   1. 按一下「**儲存**」。
+   1. 按一下&#x200B;**儲存**。
 
    下圖顯示依路徑及依角色指派的色版。
 
@@ -247,7 +264,7 @@ ht-degree: 1%
    1. 從動作列按一下&#x200B;**儀表板**。
    1. 在儀表板上，從&#x200B;**指派的管道和排程**&#x200B;面板按一下&#x200B;**...**，然後按一下&#x200B;**+指派排程**。
    1. 按一下排程的路徑（例如，**示範** > **排程** > **AdSchedule**）。
-   1. 按一下「**儲存**」。
+   1. 按一下&#x200B;**儲存**。
 
 ## 檢視結果 {#viewing-the-results}
 
@@ -374,7 +391,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   下列顯示區域使用者同時可以存取&#x200B;**區域A**&#x200B;和&#x200B;**區域B**。 此外，可存取所有四個存放區，即&#x200B;**存放區1**、**存放區2**、**存放區3**&#x200B;和&#x200B;**存放區4**，但無法存取&#x200B;**全域**&#x200B;頻道。
+   下列顯示區域使用者同時可以存取&#x200B;**區域A**&#x200B;和&#x200B;**區域B**。此外，可存取所有四個存放區，即&#x200B;**存放區1**、**存放區2**、**存放區3**&#x200B;和&#x200B;**存放區4**，但無法存取&#x200B;**全域**&#x200B;頻道。
 
    ![區域](assets/region.gif)
 

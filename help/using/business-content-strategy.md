@@ -2,9 +2,18 @@
 title: AEM Screens的業務內容策略
 description: 瞭解更多有關AEM Screens的行銷和業務內容策略。
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -17,7 +26,7 @@ ht-degree: 0%
 
 內容是促進參與的主要因素。 在售前階段，定義業務內容策略很重要。 該策略會考慮應用程式如何使用硬體、軟體和連線資源，為客戶提供預期價值。
 
-明確定義的商業內容策略可設定建立、發佈及追蹤內容使用與購買者歷程相關的路徑。 也會考量銷售漏斗中的行銷接觸點。 在正確的時間將正確的訊息傳達給正確的客戶至關重要。
+明確定義的商業內容策略可設定建立、發佈及追蹤內容使用與購買者歷程相關的路徑。 也會考量銷售funnel中的行銷接觸點。 在正確的時間將正確的訊息傳達給正確的客戶至關重要。
 
 請考慮Screens應用程式如何協助達成此策略，並判斷KPI，協助評估應用程式交付該內容的成功。
 
@@ -33,7 +42,7 @@ ht-degree: 0%
 * 與受眾互動的理想時機為何？
 * 誰將建立內容？
 * 目標對象為何應該關注內容？
-* 內容能協助他們解決哪些問題？ (例如，Screens應用程式是否可協助客戶找到最適合穿在攀登高山時穿的鞋子，或最適合新家使用的器具？)
+* 內容能協助他們解決哪些問題？ （例如，Screens應用程式是否可協助客戶找到最適合穿在攀登高山時穿的鞋子，或最適合新家使用的器具？）
 * 客戶如何與應用程式互動或使用者體驗如何？
 * 您的更新與升級策略為何？
 * 您預期建立新必要內容的頻率為何？

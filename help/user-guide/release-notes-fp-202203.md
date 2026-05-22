@@ -5,17 +5,29 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/m0rJPL5kmeDseNjbTxl0hScACf7C7QQ9BaMrvzb55wI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: 287
+ht-degree: 6%
 
 ---
 
 # Feature Pack 202112發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe建議您升級至最新版Adobe Experience Manager (AEM)。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
+>Adobe建議您升級至Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
@@ -39,7 +51,7 @@ AEM Screens Feature Pack 202203的發行日期為2022年3月25日。
 
 * 以直向模式擷取熒幕擷圖時，Windows Player當機。 此錯誤現已修正。
 
-* Screens SPA頻道造成Windows Player出現白色熒幕。 此錯誤現已修正。
+* Screens SPA頻道導致Windows Player出現白色熒幕。 此錯誤現已修正。
 
 * *wcmmode*&#x200B;引數已從發佈執行個體上的所有Screens要求中移除。
 
@@ -54,7 +66,7 @@ AEM Screens Feature Pack 202203的發行日期為2022年3月25日。
 * Chrome OS
 * Windows
 * Tizen
-* Android™
+* ™
 * Linux®
 * iOS
 

@@ -2,10 +2,18 @@
 title: AEM平台組態
 description: 頁面說明AEM平台組態
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 3%
+source-wordcount: 545
+ht-degree: 4%
 
 ---
 
@@ -31,7 +39,7 @@ ht-degree: 3%
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 
-Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AEM 的 Dispatcher 也有助於保護您的 AEM 伺服器不受攻擊。因此，您可以將Dispatcher搭配企業級網頁伺服器使用，以提高AEM執行個體的安全性。
+Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AEM 的 Dispatcher 也有助於保護您的 AEM 伺服器不受攻擊。 因此，您可以將Dispatcher搭配企業級網頁伺服器使用，以提高AEM執行個體的安全性。
 
 請參閱&#x200B;**[AEM Screens的Dispatcher設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**，其中強調為AEM Screens專案設定Dispatcher的指引。
 
@@ -40,7 +48,7 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 請依照適當作業系統（通常是RHEL）的步驟安裝FFMpeg：
 
 1. 如果透過啟用EPEL和RPMFusion進行安裝，您可以安裝所有的gstreamer轉碼器，以擴大對FFmpeg轉換的支援
-1. 如果AAC轉碼器標示為實驗性，ffmpeg轉換會失敗。 若要避免此問題，請新增`-strict -2`至視訊設定檔(`/etc/dam/video` (在AEM 6.3中)並移至`/libs/settings/dam/video in AEM 6.4`)
+1. 如果AAC轉碼器標示為實驗性，ffmpeg轉換會失敗。 若要避免此問題，請新增`-strict -2`至視訊設定檔(`/etc/dam/video` （在AEM 6.3中）並移至`/libs/settings/dam/video in AEM 6.4`)
 
    >[!NOTE]
    >
@@ -49,7 +57,7 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
 ## 密碼限制 {#password-restrictions}
 
-必須在AMS執行個體上停用AEM的密碼原則。 也可以使用Screens裝置服務&#x200B;*com.adobe.cq.screens.device.impl.DeviceService*，在Web主控台中交替進行設定
+必須在AMS執行個體上停用AEM的密碼原則。 您也可以使用Screens裝置服務&#x200B;*com.adobe.cq.screens.device.impl.DeviceService，在Web主控台中交替設定此專案*
 請參閱[在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)中的&#x200B;**密碼限制**&#x200B;區段
 
 ## 設定環境 {#setting-up-environments}

@@ -5,16 +5,27 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/uvCRS49L6CQbah4AKFwRdhGN-pvKnTWtNMN8CnFojIQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
 
 # 自動註冊播放器 {#auto-registration}
 
-手動大量註冊數千個播放器可能會變得繁瑣並增加時間和成本。 為簡化此程式，大量註冊功能可讓您指定AEM中的預先共用金鑰，此金鑰可透過設定檔案或行動裝置管理(MDM)解決方案布建至播放器。
+手動大量註冊數千個播放器可能會變得繁瑣並增加時間和成本。 為簡化此程式，大量註冊功能可讓您在AEM中指定預先共用金鑰，可透過設定檔案或行動裝置管理(MDM)解決方案將其布建至播放器。
 
 ## 實作播放器自動註冊 {#bulk-registering-implementation}
 
@@ -42,13 +53,13 @@ ht-degree: 0%
 
 請參考以下章節，以考量安全性的一些最佳實務：
 
-* 確保註冊代碼不會受損 — 在開始大量註冊之前先在AEM中設定代碼，完成後，清除該欄位並儲存在AEM中。
+* 確保註冊代碼不會受損 — 在開始大量註冊之前，先在AEM中設定代碼，完成後，清除該欄位，並儲存在AEM中。
 
 * 您可以設定路徑`/bin/screens/registration`，使其只能從已知的IP範圍存取（如果可能）。
 
 * 考慮使用MDM以設定布建播放器。
 
-* 播放器與AEM的通訊一律使用`HTTPS`而非`HTTP`。
+* 永遠使用`HTTPS`而非`HTTP`與AEM進行播放器通訊。
 
   >[!NOTE]
   >預設顯示指派目前僅適用於大量註冊。 當註冊代碼不可用時，它無法用於手動註冊。

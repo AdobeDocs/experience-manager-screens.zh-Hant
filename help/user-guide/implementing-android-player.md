@@ -1,6 +1,6 @@
 ---
-title: 實作Android&amp；trade；播放器
-description: 瞭解Android&amp；trade； Watchdog的實作，此解決方案可讓您從當機狀態復原Android&amp；trade；播放器。
+title: 實作Android&trade； Player
+description: 瞭解Android&trade； Watchdog的實作，此解決方案可讓您將Android&trade；播放器從當機中復原。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,23 +10,36 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: 1550
 ht-degree: 0%
 
 ---
 
-# 實作Android™ Player {#implementing-android-player}
+# 實作™ Player {#implementing-android-player}
 
 >[!CAUTION]
 >Android型AEM Screens Player已正式淘汰。 建議使用者移轉至AEM Screens支援的其他作業系統。
 
-本節說明如何設定Android™播放器。 它提供設定檔和可用選項的資訊，以及開發和測試使用哪些設定的建議。
+本節說明如何設定™播放器。 它提供設定檔和可用選項的資訊，以及開發和測試使用哪些設定的建議。
 
 此外，**Watchdog**&#x200B;是讓播放器從當機復原的解決方案。 應用程式必須向看門狗服務註冊自己，然後定期傳送訊息給處於使用狀態的服務。 如果監視程式服務未在規定的時間內收到保持連線訊息，則服務會嘗試重新啟動裝置。 如此可完全復原（如果它有足夠的許可權）或重新啟動應用程式。
 
-## 安裝Android™ Player {#installing-android-player}
+## 安裝™ Player {#installing-android-player}
 
 若要實作適用於AEM Screens的Android™ Player，請安裝適用於AEM Screens的Android™ Player。
 
@@ -37,7 +50,7 @@ ht-degree: 0%
 >[!NOTE]
 >如果您使用Android 6.5.5 Service Pack，請為AEM Screens™播放器設定環境。
 
-在所有AEM作者和發佈執行個體上，將登入權杖Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設定為&#x200B;**None** (從&#x200B;**Adobe Experience Manager Web主控台設定**)。
+在所有AEM作者和發佈執行個體上，將登入權杖Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設定為&#x200B;**None** （從&#x200B;**Adobe Experience Manager Web主控台設定**）。
 
 請遵循下列步驟：
 
@@ -48,12 +61,12 @@ ht-degree: 0%
 1. 將登入權杖Cookie **的** SameSite屬性從&#x200B;**Lax**&#x200B;設定為&#x200B;**None**。
    ![影像](/help/user-guide/assets/granite-updates.png)
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 
 ### 臨機方法 {#ad-hoc-method}
 
-Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;[**AEM 6.5播放器下載**](https://download.macromedia.com/screens/)頁面。
+Ad-Hoc方法可讓您安裝最新的™ Player (*.exe*)。 造訪&#x200B;[**AEM 6.5播放器下載**](https://download.macromedia.com/screens/)頁面。
 
 下載應用程式後，請依照播放器上的步驟完成隨選安裝：
 
@@ -68,34 +81,34 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 >
 >如果&#x200B;**狀態**&#x200B;是&#x200B;**未註冊**，您可以使用&#x200B;**權杖**&#x200B;來註冊裝置。
 
-## 實作Android™ Watchdog {#implementing-android-watchdog}
+## 實作™ Watchdog {#implementing-android-watchdog}
 
-由於Android™的架構，重新啟動裝置需要應用程式具有系統許可權。 使用製造商的簽署金鑰簽署應用程式，否則監視程式可以重新啟動播放器應用程式，而不會重新啟動裝置。
+由於™的架構，重新啟動裝置需要應用程式具有系統許可權。 使用製造商的簽署金鑰簽署應用程式，否則監視程式可以重新啟動播放器應用程式，而不會重新啟動裝置。
 
 ### Android的招牌™ `apks`使用製造商金鑰 {#signage-of-android-apks-using-manufacturer-keys}
 
-若要存取Android™的某些特殊許可權API （例如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*），請使用製造商的金鑰簽署Android™ `apk`。
+若要存取™的某些特殊許可權API （例如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*），請使用製造商的金鑰簽署Android™ `apk`。
 
 >[!CAUTION]
 >
 >先決條件：
 >
->您應先安裝Android™ SDK，再執行下列步驟。
+>您應先安裝™ SDK，再執行下列步驟。
 
-請依照下列步驟，使用製造商的金鑰簽署Android™ apk：
+請依照下列步驟，使用製造商的金鑰簽署™ apk：
 
 1. 從Google Play或[AEM Screens播放器下載](https://download.macromedia.com/screens/)頁面下載App
 1. 向製造商取得平台金鑰，以便取得&#x200B;*pk8*&#x200B;和&#x200B;*pem*&#x200B;檔案
 
-1. 使用尋找`~/Library/Android/sdk/build-tools -name "apksigner"`在Android™ SDK中尋找`apksigner`工具
+1. 使用尋找`~/Library/Android/sdk/build-tools -name "apksigner"`在™ SDK中尋找`apksigner`工具
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. 在Android™ SDK中尋找Zip對齊工具的路徑
+1. 在™ SDK中尋找Zip對齊工具的路徑
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 使用adb安裝將&#x200B;***aemscreensaligned.apk***&#x200B;安裝到裝置
 
-## 瞭解Android™監視程式服務 {#android-watchdog-services}
+## 瞭解™監視程式服務 {#android-watchdog-services}
 
-跨Android™監視程式服務是使用&#x200B;*AlarmManager*&#x200B;實作為Cordova外掛程式。
+跨™監視程式服務是使用&#x200B;*AlarmManager*&#x200B;實作為Cordova外掛程式。
 
 下圖顯示監視程式服務的實作：
 
@@ -107,23 +120,23 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 
 >[!NOTE]
 >
->在Android™中，*AlarmManager*&#x200B;是用來登入即使應用程式當機且其警報傳送與API 19 (Kitkat)不精確也能執行的&#x200B;*pendingIntents*。 在計時器的間隔與&#x200B;*AlarmManager的* *pendingIntent的*&#x200B;警報之間保留一些間距。
+>在™中，*AlarmManager*&#x200B;是用來登入即使應用程式當機且其警報傳送與API 19 (Kitkat)不精確也能執行的&#x200B;*pendingIntents*。 在計時器的間隔與&#x200B;*AlarmManager的* *pendingIntent的*&#x200B;警報之間保留一些間距。
 
-**3。 應用程式當機** — 如果當機，將不再重設向AlarmManager登入的pendingIntent for Reboot。 因此，它會執行重新開機或重新啟動應用程式（取決於Cordova外掛程式初始化時可用的許可權）。
+**3. 應用程式當機** — 如果當機，將不再重設向AlarmManager登入的pendingIntent for Reboot。 因此，它會執行重新開機或重新啟動應用程式（取決於Cordova外掛程式初始化時可用的許可權）。
 
-## 大量布建Android™ Player {#bulk-provision-android-player}
+## 大量布建™ Player {#bulk-provision-android-player}
 
-大量推出Android™播放器時，需要布建播放器以指向AEM執行個體，並設定其他屬性，而不需在管理員UI中手動輸入。
+大量推出™播放器時，需要布建播放器以指向AEM執行個體，並設定其他屬性，而不需在管理員UI中手動輸入。
 
 >[!NOTE]
->Android™播放器42.0.372提供此功能。
+>™播放器42.0.372提供此功能。
 
-請依照下列步驟，在Android™播放器中允許大量布建：
+請依照下列步驟，在™播放器中允許大量布建：
 
 1. 建立名稱為`player-config.default.json`的組態JSON檔案。
 請參閱[範例JSON原則](#example-json)和說明各種[原則屬性](#policy-attributes)之使用的表格。
 
-1. 使用MDM、ADB或Android™ Studio檔案總管將此原則JSON檔案拖放到Android™裝置上的&#x200B;*sdcard*&#x200B;資料夾。
+1. 使用MDM、ADB或™ Studio檔案總管將此原則JSON檔案拖放到Android™裝置上的&#x200B;*sdcard*&#x200B;資料夾。
 
 1. 部署檔案時，請使用MDM安裝播放器應用程式。
 
@@ -144,7 +157,7 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 | *enableAdminUI* | 啟用管理員UI來設定站台上的裝置。 設定為&#x200B;*false*，前提是它已完全設定並投入生產。 |
 | *啟用OSD* | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 請考慮在完全設定後和生產中將其設定為&#x200B;*false*。 |
 | *enableActivityUI* | 如果想要顯示活動的進度（例如下載和同步），請啟用此選項。 啟用以進行疑難排解，並在完全設定後停用。 |
-| *enableNativeVideo* | 如果您想要使用原生硬體加速來播放視訊(僅限Android™)，請啟用此選項。 |
+| *enableNativeVideo* | 如果您想要使用原生硬體加速來播放視訊（僅限™），請啟用此選項。 |
 
 ### JSON原則範例 {#example-json}
 
@@ -171,30 +184,30 @@ Ad-Hoc方法可讓您安裝最新的Android™ Player (*.exe*)。 造訪&#x200B;
 ```
 
 >[!NOTE]
->不論是否插入實際的`*sdcard*`，所有Android™裝置都有`*sdcard*`資料夾。 部署時，此檔案會與「下載」資料夾位於相同層級。 某些MDM （例如Samsung Knox）可能會看到此&#x200B;*sdcard*&#x200B;資料夾位置為&#x200B;*內部儲存空間*。
+>不論是否插入實際的`*sdcard*`，所有™裝置都有`*sdcard*`資料夾。 部署時，此檔案會與「下載」資料夾位於相同層級。 某些MDM （例如Samsung Knox）可能會看到此&#x200B;*sdcard*&#x200B;資料夾位置為&#x200B;*內部儲存空間*。
 
-## 使用企業行動管理大量布建Android™ Player {#bulk-provisioning}
+## 使用企業行動管理大量布建™ Player {#bulk-provisioning}
 
-大量部署Android™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 使用EMM （企業行動管理）解決方案，例如[`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、MobileIron或Samsung Knox，以便從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以允許遠端布建。
+大量部署™播放器時，手動向AEM註冊每個播放器會變得繁瑣起來。 使用EMM （企業行動管理）解決方案，例如[`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、MobileIron或Samsung Knox，以便從遠端布建和管理您的部署。 AEM Screens Android™播放器支援業界標準的EMM AppConfig，以允許遠端布建。
 
-## 命名Android™ Player {#name-android}
+## 命名™ Player {#name-android}
 
-您可以指派好記的裝置名稱給您的Android™播放器，然後將指派的裝置名稱傳送給AEM (Adobe Experience Manager)。 此功能不僅可讓您為Android™播放器命名，也可讓您輕鬆指派適當內容。
+您可以指派好記的裝置名稱給您的™播放器，然後將指派的裝置名稱傳送給AEM (Adobe Experience Manager)。 此功能不僅可讓您為™播放器命名，也可讓您輕鬆指派適當內容。
 
 >[!NOTE]
 >您只能在註冊之前選擇播放器名稱。 播放器註冊後，播放器名稱就無法再變更。
 
-請依照下列步驟，在Android™播放器中設定名稱：
+請依照下列步驟，在™播放器中設定名稱：
 
 1. 瀏覽至&#x200B;**設定** > **關於裝置**
-1. 編輯並設定您的裝置名稱，以命名您的Android™播放器
+1. 編輯並設定您的裝置名稱，以命名您的™播放器
 
-### 使用Enterprise Mobility Management實作Android™ Player的大量布建 {#implementation}
+### 使用Enterprise Mobility Management實作™ Player的大量布建 {#implementation}
 
-請依照下列步驟，在Android™ Player中允許大量布建：
+請依照下列步驟，在™ Player中允許大量布建：
 
-1. 確認您的Android™裝置支援Google Play服務。
-1. 使用您最愛的支援AppConfig的EMM解決方案註冊您的Android™播放器裝置。
+1. 確認您的™裝置支援Google Play服務。
+1. 使用您最愛的支援AppConfig的EMM解決方案註冊您的™播放器裝置。
 1. 登入您的EMM主控台，並從Google Play提取AEM Screens Player應用程式。
 1. 按一下Managed組態或相關選項。
 1. 您現在應該會看到可設定的播放器選項清單，例如伺服器和大量註冊代碼。

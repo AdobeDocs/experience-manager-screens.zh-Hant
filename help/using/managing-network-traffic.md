@@ -2,9 +2,18 @@
 title: 管理網路流量
 description: 此頁面說明「標準網路設定」及管理網路流量的方式。
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -25,7 +34,7 @@ ht-degree: 0%
 
 Proxy伺服器的優點在於，其快取可為所有使用者提供服務。 如果經常要求一或多個網際網路網站，這些網站可能會位於Proxy的快取中。 這類快取可進一步改善使用者回應時間。 Proxy也可以記錄其互動，以便用於疑難排解。
 
-當Proxy伺服器收到網際網路資源的要求時(例如網頁或連線到AEM Publisher)，它會掃描先前呼叫URL的本機快取。 如果找到頁面，會傳回給使用者，而不會將要求轉送至網際網路。 如果頁面不在快取中，Proxy伺服器會代表使用者充當使用者端，並向網際網路中的伺服器要求頁面。 傳回內容時，Proxy伺服器會將其與原始請求建立關聯，然後轉送給使用者。
+當Proxy伺服器收到網際網路資源的要求時（例如網頁或連線至AEM Publisher），它會掃描先前呼叫URL的本機快取。 如果找到頁面，會傳回給使用者，而不會將要求轉送至網際網路。 如果頁面不在快取中，Proxy伺服器會代表使用者充當使用者端，並向網際網路中的伺服器要求頁面。 傳回內容時，Proxy伺服器會將其與原始請求建立關聯，然後轉送給使用者。
 
 ## 瞭解標準網路設定 {#network-setups}
 

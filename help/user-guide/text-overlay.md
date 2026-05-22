@@ -10,9 +10,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/Vf9FDFJ9XI-vMFniqvL4jtq9afwXRRwNFnKyYjk-dBg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: 788
 ht-degree: 1%
 
 ---
@@ -42,7 +58,7 @@ ht-degree: 1%
 
 下節將說明如何在AEM Screens專案中使用文字覆蓋。
 
-**必備條件**
+**先決條件**
 
 在實作此功能之前，請確定您已設定專案作為開始實作文字覆蓋的先決條件。 例如，
 
@@ -90,7 +106,7 @@ ht-degree: 1%
 
 下節說明資料存放區中值的用法，例如，文字覆蓋元件中的google sheets 。
 
-**必備條件**
+**先決條件**
 
 為您的AEM Screens專案設定ContextHub設定。
 
@@ -106,7 +122,7 @@ ht-degree: 1%
 
    1. 按一下&#x200B;**區段路徑**&#x200B;做為&#x200B;**conf** > **熒幕** > **設定** > **wcm** > **區段**，然後按一下&#x200B;**選取**。
 
-   1. 按一下&#x200B;**「儲存並關閉」**。
+   1. 按一下「**儲存並關閉**」。
 
       >[!NOTE]
       >
@@ -124,7 +140,7 @@ ht-degree: 1%
 
    ![影像1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. 從&#x200B;**影像**&#x200B;對話方塊瀏覽至&#x200B;**ContextHub**&#x200B;索引標籤。 按一下&#x200B;**新增**。
+1. 從&#x200B;**影像**&#x200B;對話方塊瀏覽至&#x200B;**ContextHub**&#x200B;索引標籤。 按一下&#x200B;**「新增」**。
 
    >[!NOTE]
    >如果您尚未設定ContextHub組態，則會停用專案的此選項。

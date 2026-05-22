@@ -2,9 +2,15 @@
 title: 在AEM Screens中使用最適化轉譯
 description: 瞭解如何在AEM Screens中使用最適化轉譯。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: 584
 ht-degree: 0%
 
 ---
@@ -53,7 +59,7 @@ ht-degree: 0%
 ## 移轉策略 {#migration-strategy}
 
 >[!IMPORTANT]
->對於大型網路，Adobe建議逐步進行移轉，以降低風險。 原因是因為功能可能會引進資訊清單和檔案儲存格式的變更。 將`sling:configRef`新增至整個專案涉及將所有播放器更新至Feature Pack 6.5.9。如果您更新了某些播放器，請僅將`sling:configRef`新增到所有播放器都已更新至Feature Pack 6.5.9的顯示器、位置或頻道資料夾。
+>對於大型網路，Adobe建議逐步進行移轉，以降低風險。 原因是因為功能可能會引進資訊清單和檔案儲存格式的變更。 將`sling:configRef`新增至整個專案涉及將所有播放器更新至Feature Pack 6.5.9。 如果您更新了某些播放器，請僅將`sling:configRef`新增到所有播放器都已更新至Feature Pack 6.5.9的顯示器、位置或頻道資料夾。
 
 下圖說明大型網路的移轉策略：
 

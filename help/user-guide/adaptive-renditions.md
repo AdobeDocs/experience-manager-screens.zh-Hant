@@ -2,10 +2,16 @@
 title: 最適化轉譯架構概觀和設定
 description: 瞭解CRXDE Lite的架構概觀和設定，以在AEM Screens中使用最適化轉譯。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
+TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 2%
+source-wordcount: 672
+ht-degree: 4%
 
 ---
 
@@ -44,14 +50,14 @@ ht-degree: 2%
    >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到&#x200B;**預先填入的**&#x200B;轉譯對應`/conf/screens/sling:configs/rendition-mapping`節點結構。 請參閱Feature Pack 202109[的](/help/user-guide/release-notes-fp-202109.md)發行說明，以取得最新Feature Pack的詳細資訊。
+   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。 請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。
    >若為現有專案，請確定Screens專案具有相關聯的&#x200B;**轉譯對應**&#x200B;設定。 如需詳細資訊，請參閱[將轉譯對應新增至現有專案](#rendition-mapping-existing)區段。
 
 ### 新增轉譯對應屬性至現有專案 {#rendition-mapping-existing}
 
 1. 導覽至&#x200B;**CRXDE Lite**。
 
-1. 將指向`sling:configRef`的`/conf/screens`屬性新增至專案內容節點，以明確定義轉譯對映關聯，如下圖所示。
+1. 將指向`/conf/screens`的`sling:configRef`屬性新增至專案內容節點，以明確定義轉譯對映關聯，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -60,12 +66,12 @@ ht-degree: 2%
 
 請依照下列步驟，在「轉譯對應」下新增節點：
 
-1. 從`/conf/screens/sling:configs/rendition-mapping`CRXDE Lite **瀏覽至此路徑**。
+1. 從&#x200B;**CRXDE Lite**&#x200B;瀏覽至此路徑`/conf/screens/sling:configs/rendition-mapping`。
 1. 在&#x200B;**轉譯對應**&#x200B;下建立節點。 用滑鼠右鍵按一下&#x200B;**轉譯對應**，然後按一下&#x200B;**建立** > **建立節點**，如下圖所示。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 在&#x200B;**建立節點**&#x200B;對話方塊中，輸入對應規則（例如&#x200B;**規則1**）的&#x200B;**名稱**&#x200B;以及節點&#x200B;**`nt:unstructured`**&#x200B;型別&#x200B;**為**。 按一下&#x200B;**「確定」**。
+1. 在&#x200B;**建立節點**&#x200B;對話方塊中，輸入對應規則（例如&#x200B;**規則1**）的&#x200B;**名稱**&#x200B;以及節點&#x200B;**型別**&#x200B;為&#x200B;**`nt:unstructured`**。 按一下&#x200B;**「確定」**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -75,7 +81,7 @@ ht-degree: 2%
    >[!NOTE]
    >請參閱[使用媒體查詢語法](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)以瞭解更多資訊。
 
-   按一下您建立的&#x200B;**規則1**，然後在&#x200B;**值**&#x200B;的&#x200B;**名稱**&#x200B;和&#x200B;**（方向:landscape）**&#x200B;中輸入&#x200B;**運算式**，如下所示。 按一下&#x200B;**新增**。
+   按一下您建立的&#x200B;**規則1**，然後在&#x200B;**值**&#x200B;的&#x200B;**名稱**&#x200B;和&#x200B;**（方向:landscape）**&#x200B;中輸入&#x200B;**運算式**，如下所示。 按一下&#x200B;**「新增」**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -84,7 +90,7 @@ ht-degree: 2%
    >[!NOTE]
    >如果運算式的計算結果為true，則在pattern屬性中定義的值會符合新的資產轉譯，並會選取該值。
 
-   若要新增模式屬性，請按一下您建立的&#x200B;**規則1**，然後在&#x200B;**名稱**&#x200B;中輸入&#x200B;**模式**，在&#x200B;**值**&#x200B;中輸入&#x200B;**橫向**，如下所示。 按一下&#x200B;**新增**。
+   若要新增模式屬性，請按一下您建立的&#x200B;**規則1**，然後在&#x200B;**名稱**&#x200B;中輸入&#x200B;**模式**，在&#x200B;**值**&#x200B;中輸入&#x200B;**橫向**，如下所示。 按一下&#x200B;**「新增」**。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 

@@ -10,9 +10,24 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/IkYpLkG1zlxS5-YmCsyXLryXc7AsnZmuHj66Dh7NJSc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -41,7 +56,7 @@ ht-degree: 0%
 開始實作此功能之前，請確定您具備下列概念知識：
 
 * [建立AEM Screens專案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [正在建立顯示區](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [建立顯示](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [將頻道指派給顯示區](/help/user-guide/channel-assignment.md)
 
 ## 建立多區域配置 {#creating-multi-zone-layout}
@@ -147,7 +162,7 @@ ht-degree: 0%
    1. 按一下&#x200B;**大廳**&#x200B;顯示，然後從動作列按一下&#x200B;**指派頻道**。
    1. 在&#x200B;**管道路徑**&#x200B;中輸入&#x200B;**MultiZone**&#x200B;管道的路徑。
    1. 將&#x200B;**支援的事件**&#x200B;設定為&#x200B;**初始載入**、**閒置畫面**&#x200B;和&#x200B;**計時器**。
-   1. 按一下「**儲存**」。
+   1. 按一下&#x200B;**儲存**。
 
       ![影像](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. 同樣地，將其他兩個內嵌管道（**`Zone1`**&#x200B;和&#x200B;**`Zone2`**）指派給這個顯示器。
@@ -175,7 +190,6 @@ ht-degree: 0%
 
    1. 如果標題符合裝置Token，請按一下裝置，然後按一下動作列中的&#x200B;**註冊裝置**。
    1. 如果註冊代碼符合Screens播放器&#x200B;**裝置註冊**&#x200B;標籤中的代碼，請按一下動作列中的&#x200B;**驗證**。
-
       ![影像](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. 輸入&#x200B;**標題**&#x200B;作為&#x200B;**`Chrome-Device1`**，然後按一下&#x200B;**登入**。
    1. 按一下&#x200B;**指派顯示區**，然後按一下裝置設定的路徑。
