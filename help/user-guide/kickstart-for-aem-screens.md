@@ -6,18 +6,13 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1295
+source-wordcount: 1203
 ht-degree: 2%
 
 ---
@@ -38,8 +33,8 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 >[!IMPORTANT]
 >**OSGi組態設定**
->您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前這些功能中的某些功能，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
->請依照下列步驟來啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
+>您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。目前這些功能中的部分，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才可使用。儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
+>請依照下列步驟啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
 
 
 ## 允許空的反向連結請求 {#allow-empty-referrer-requests}
@@ -183,7 +178,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
    您也可以按一下&#x200B;**啟用期間**&#x200B;和&#x200B;**週期排程**。
 
    >[!NOTE]
-   >*遞回排程*可讓您設定頻道的遞回排程。 您可以為通道設定多個週期排程。
+   >*遞回排程*可讓您設定頻道的遞回排程。您可以為通道設定多個週期排程。
    >如需詳細資訊，請參閱[遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
 
 1. 設定您的偏好設定後，按一下&#x200B;**儲存**。
