@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 2241
+source-wordcount: 2200
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
 
 若要註冊裝置（在AEM中建立裝置的使用者），請向AEM驗證並手動按照註冊精靈完成註冊。 理論上，惡意使用者可能會建立多個擱置中的裝置，但如果沒有AEM登入，就無法註冊任何裝置。
 
-### &#x200B;2. 是否有辦法將HTTP GET請求轉換為具有某種驗證形式的HTTP POST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### &#x200B;2. 是否有辦法將HTTP GET要求轉換為具有某種驗證形式的HTTP POST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 註冊要求為POST要求。
 
@@ -229,7 +229,7 @@ Windows Player中沒有視窗模式。 永遠處於全熒幕模式。
 ### &#x200B;2. 如何新增Oak索引資訊？ {#add-oak-index-info}
 
 AEM Screens會為產品使用的查詢建立索引定義。
-如果`error.log`中有任何&#x200B;*查詢周遊WARN*，請為您的查詢建立自訂索引。 如需詳細資訊，請參閱[設定索引](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+如果`error.log`中有任何&#x200B;*查詢周遊WARN*，請為您的查詢建立自訂索引。如需詳細資訊，請參閱[設定索引](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您也可以在[Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他資源。
 

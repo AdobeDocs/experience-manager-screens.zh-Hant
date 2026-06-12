@@ -17,7 +17,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1295
+source-wordcount: 1203
 ht-degree: 2%
 
 ---
@@ -38,8 +38,8 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 
 >[!IMPORTANT]
 >**OSGi組態設定**
->您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前這些功能中的某些功能，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
->請依照下列步驟來啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
+>您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。目前這些功能中的部分，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才可使用。儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
+>請依照下列步驟啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
 
 
 ## 允許空的反向連結請求 {#allow-empty-referrer-requests}
@@ -183,7 +183,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
    您也可以按一下&#x200B;**啟用期間**&#x200B;和&#x200B;**週期排程**。
 
    >[!NOTE]
-   >*遞回排程*可讓您設定頻道的遞回排程。 您可以為通道設定多個週期排程。
+   >*遞回排程*可讓您設定頻道的遞回排程。您可以為通道設定多個週期排程。
    >如需詳細資訊，請參閱[遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
 
 1. 設定您的偏好設定後，按一下&#x200B;**儲存**。

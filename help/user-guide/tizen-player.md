@@ -17,7 +17,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1128
 ht-degree: 1%
 
 ---
@@ -107,8 +107,8 @@ ht-degree: 1%
 
 此功能可讓您在遠端設定Tizen播放器，並視需要集中更新這些設定。 您只需要用來裝載Tizen應用程式`(wgt and xml file)`的`HTTP`伺服器，以及用來以適當的引數儲存`config.json`的文字編輯器。
 
-請確定您已在Tizen裝置上設定URL啟動器位址。 按一下「首頁」按鈕> URL啟動器設定。
-在裝載Tizen應用程式的`HTTP`伺服器上，將檔案`config.json`放在與`wgt`檔案相同的位置。 檔案名稱必須是 `config.json`。
+請確定您已在Tizen裝置上設定URL啟動器位址。按一下「首頁」按鈕> URL啟動器設定。
+在裝載Tizen應用程式的`HTTP`伺服器上，將檔案`config.json`放在與`wgt`檔案相同的位置。檔案名稱必須是`config.json`。
 Tizen播放器會在啟動時（以及每次重新開機）安裝並套用`config.json`檔案中的設定。
 
 ### JSON原則範例 {#example-json}
@@ -128,8 +128,8 @@ Tizen播放器會在啟動時（以及每次重新開機）安裝並套用`confi
 下表摘要列出這些原則及其功能。
 
 >[!NOTE]
->播放器的管理員UI原則設定會嚴格強制執行，且不會手動覆寫。 若要允許特定原則的手動播放器設定，請勿在原則設定中指定原則。
->例如，如果您要允許手動設定重新開機排程，請勿在原則設定中指定索引鍵`rebootSchedule`。 每次播放器重新載入時都會讀取原則設定。
+>播放器的管理員UI原則設定會嚴格強制執行，且不會手動覆寫。若要允許特定原則的手動播放器設定，請勿在原則設定中指定原則。
+>例如，如果您要允許手動設定重新開機排程，請勿在原則設定中指定索引鍵`rebootSchedule`。每次播放器重新載入時都會讀取原則設定。
 
 | **原則名稱** | **用途** |
 |---|---|

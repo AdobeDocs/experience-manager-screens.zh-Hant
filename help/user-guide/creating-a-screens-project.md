@@ -24,8 +24,8 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 1%
+source-wordcount: 290
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >**導覽提示：**
->您也可以使用游標鍵來瀏覽AEM中的不同資料夾。 此外，按一下特定圖元後，按空格鍵可編輯或檢視該特定資料夾的屬性。
+>您也可以使用游標鍵，在AEM中瀏覽不同的資料夾。此外，按一下特定圖元後，按空格鍵可編輯或檢視該特定資料夾的屬性。
 
 ## 建立新的Screens專案
 
