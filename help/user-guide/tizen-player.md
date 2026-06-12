@@ -6,10 +6,15 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 1128
@@ -61,7 +66,7 @@ ht-degree: 1%
 
 1. 導覽至您的Samsung裝置並開啟。
 1. 從裝置的遠端按一下&#x200B;**功能表**&#x200B;按鈕，然後從左側導覽列向下捲動至&#x200B;**系統**。
-1. 向下捲動，然後按一下&#x200B;**透過**&#x200B;播放選項，並將其變更為&#x200B;**URL啟動器**選項。
+1. 向下捲動，然後按一下&#x200B;**透過**&#x200B;播放選項，並將其變更為&#x200B;**URL啟動器**&#x200B;選項。
    ![影像](/help/user-guide/assets/tizen/rms-2.png)
 1. 設定URL啟動器時，從遠端按下&#x200B;**Home**&#x200B;按鈕。
 1. 導覽至&#x200B;**URL啟動器設定**，並輸入您的本機主機伺服器的IP位址，然後按一下&#x200B;**完成**。
@@ -150,9 +155,9 @@ Tizen播放器會在啟動時（以及每次重新開機）安裝並套用`confi
 
 1. 導覽至伺服器位址，並輸入MagicInfo URL存取，然後按&#x200B;**完成**。
 
-1. 設定TLS （如有必要）。 瀏覽至連線埠，然後按一下伺服器的連線埠號碼，再按一下[儲存]。****
+1. 設定TLS （如有必要）。 瀏覽至連線埠，然後按一下伺服器的連線埠號碼，再按一下[儲存]。**&#x200B;**
 
-1. 導覽至&#x200B;**裝置**&#x200B;標籤，然後檢查您設定的裝置。 找到裝置時，按一下核取方塊，然後按一下[核准]。****
+1. 導覽至&#x200B;**裝置**&#x200B;標籤，然後檢查您設定的裝置。 找到裝置時，按一下核取方塊，然後按一下[核准]。**&#x200B;**
 
    >![影像](/help/user-guide/assets/tizen/rms-3.png)
 
