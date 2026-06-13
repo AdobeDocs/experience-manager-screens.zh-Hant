@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1974
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Screens需要三個復寫代理：
 #### 步驟3：設定ActiveMQ Artemis叢集 {#step-setup-activemq-artemis-cluster}
 
 此步驟可讓您為ActiveMQ Artemis叢集建立加密密碼。
-拓撲中所有發佈執行個體的叢集使用者和密碼必須相同。 必須加密ActiveMQ Artemis設定的密碼。 因為每個執行個體都有自己的加密金鑰，所以必須使用「加密支援」來建立加密的密碼字串。 接著，加密密碼便可用於ActiveMQ的OSGi設定。
+拓撲中所有發佈執行個體的叢集使用者和密碼必須相同。必須加密ActiveMQ Artemis設定的密碼。因為每個執行個體都有自己的加密金鑰，所以必須使用「加密支援」來建立加密的密碼字串。接著，加密密碼便可用於ActiveMQ的OSGi設定。
 
 在每個發佈執行個體上：
 
@@ -166,7 +166,7 @@ Screens需要三個復寫代理：
 
 >[!NOTE]
 >
->密碼的開頭和結尾應該要有大括弧。 例如：
+>密碼的開頭和結尾應該要有大括弧。例如：
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 步驟4：啟動ActiveMQ Artemis叢集 {#step-activate-activemq-artemis-cluster}
