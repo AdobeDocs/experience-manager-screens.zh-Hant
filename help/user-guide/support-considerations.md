@@ -21,14 +21,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: 677
 ht-degree: 0%
 
 ---
 
 # 第5部分：支援考量事項 {#part-support-considerations}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本頁著重說明五個部分系列的結尾部分，旨在協助團隊成員瞭解如何解決硬體、軟體和連線問題。 本階段探討現場支援的成本估算與架構。 此外，也說明SLA引數、營運預算及NOC移交的管理方式。
 

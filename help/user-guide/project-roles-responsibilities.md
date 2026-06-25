@@ -21,14 +21,17 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: 536
 ht-degree: 0%
 
 ---
 
 # 第1部分：專案角色與責任 {#part-project-roles-and-responsibilities}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本頁反白顯示5部分系列的第1部分。 它旨在協助專案團隊成員在數位招牌專案的銷售和專案生命週期中，更清楚瞭解所需的角色、職責和時間表。
 

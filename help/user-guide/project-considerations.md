@@ -25,14 +25,17 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 703
 ht-degree: 0%
 
 ---
 
 # 第2部分：限定範圍專案的考量 {#part-considerations-as-projects-are-scoped}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 此頁面主要說明第2部分（共5部分），旨在協助團隊成員更瞭解成功部署AEM Screens的售前環節。
 

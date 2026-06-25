@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: 289
 ht-degree: 0%
 
 ---
 
 # Analytics與AEM Screens {#analytics-screens}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >
@@ -32,4 +35,4 @@ AEM Screens可以在本機擷取每個播放器裝置執行的每個可追蹤事
 在回饋回圈使用案例中，您不需要關注視覺化報表或控制面板，而是想要定義AEM可針對內容修改執行的規則。 透過使用和處理特定時段的所有Screens播放器事件資料，您可以定義評估image1與image2效能的規則。 結合銷售資料與播放資料，AEM可判斷image1對銷售的影響較大，並自動指示所有播放器使用image1。
 
 使用分析的第二個使用案例是透過報表和儀表板處理播放事件和使用資料，以供人類消耗。
-您可以使用此資料建立互動式體驗的熱度圖，以透過應用程式決定偏好的歷程圖。 您也可以選擇建立控制面板，以圖形化方式解譯消費者與應用程式互動的次數。
+您可以使用此資料建立互動式體驗的熱度圖，以透過應用程式決定偏好的歷程圖。您也可以選擇建立控制面板，以圖形化方式解譯消費者與應用程式互動的次數。

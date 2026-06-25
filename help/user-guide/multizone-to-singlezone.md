@@ -19,16 +19,19 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 2%
+source-wordcount: 467
+ht-degree: 1%
 
 ---
 
 # 多區域到單一區域轉換 {#multizone-to-singlezone-use-case}
 
 ## 使用案例說明 {#use-case-description}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本節說明使用案例範例，著重說明如何設定與單一區域版面配置色版交替的多區域版面配置色版。 多區域管道有循序排列的影像/視訊資產，並顯示您如何設定可從多區域切換為單一區域，反之亦然。
 

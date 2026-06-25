@@ -18,14 +18,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 743
 ht-degree: 0%
 
 ---
 
 # 命令同步 {#command-sync}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下頁面說明如何使用「命令同步」。 Command Sync允許跨不同播放器同步處理播放。 播放器可播放不同內容，但每個資產必須具有相同的持續時間。
 
@@ -68,7 +71,7 @@ ht-degree: 0%
 1. 建立位置&#x200B;**大廳**，然後在&#x200B;**位置**&#x200B;資料夾中建立標題為&#x200B;**大廳顯示**&#x200B;的顯示，如下圖所示。
    ![影像1](assets/command-sync/command-sync3-1.png)
 
-1. 將頻道&#x200B;**ChannelLobby**&#x200B;指派給您的&#x200B;**LobbyDisplay**。 您現在可以從顯示控制面板檢視指派給顯示的管道。
+1. 將頻道&#x200B;**ChannelLobby**&#x200B;指派給您的&#x200B;**LobbyDisplay**。您現在可以從顯示控制面板檢視指派給顯示的管道。
    ![影像1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -84,7 +87,7 @@ ht-degree: 0%
    >
    >若要瞭解如何註冊裝置，請參閱[裝置註冊](/help/user-guide/device-registration.md)
 
-1. 為了示範，此範例會將Chrome裝置和Windows Player顯示為兩個不同的裝置。 兩個裝置都指向相同的顯示器。
+1. 為了示範，此範例會將Chrome裝置和Windows Player顯示為兩個不同的裝置。兩個裝置都指向相同的顯示器。
    ![影像1](assets/command-sync6.png)
 
 ### 更新頻道設定
@@ -103,7 +106,7 @@ ht-degree: 0%
 
 ### 設定主要 {#setting-up-primary}
 
-1. 從&#x200B;**CommandSyncDemo** > **位置** > **大廳** > **大廳顯示**&#x200B;瀏覽至顯示儀表板。 然後，從動作列按一下&#x200B;**儀表板**。
+1. 從&#x200B;**CommandSyncDemo** > **位置** > **大廳** > **大廳顯示**&#x200B;瀏覽至顯示儀表板。然後，從動作列按一下&#x200B;**儀表板**。
 請注意&#x200B;**裝置**&#x200B;面板中的兩個裝置（Chrome和Windows Player），如下列所示：
    ![影像1](assets/command-sync/command-sync10-1.png)
 

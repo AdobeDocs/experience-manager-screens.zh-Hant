@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 543
 ht-degree: 4%
 
 ---
 
 # AEM平台組態 {#platform-configurations}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >
@@ -70,7 +73,7 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
 除了上述內容，請識別任何開發套件(例如WCM Core
 元件)或所需的協力廠商工具組（例如SAP Hybris）。
-在本機開發環境中安裝相同的軟體套件。 指示您的使用者端在其所有QA、Stage及生產伺服器上採用相同的設定。 不相符的伺服器設定會在部署和測試時造成問題。
+在本機開發環境中安裝相同的軟體套件。指示您的使用者端在其所有QA、Stage及生產伺服器上採用相同的設定。不相符的伺服器設定會在部署和測試時造成問題。
 
 >[!NOTE]
 >

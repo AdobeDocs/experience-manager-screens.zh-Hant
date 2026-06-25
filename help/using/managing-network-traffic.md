@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: 532
 ht-degree: 0%
 
 ---
 
 # 管理網路流量 {#managing-network-traffic}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 網路設定可以有各種結構。 本節說明組織內最常用的網路設定和一般化作法。
 
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >**AEM Screens網路需求**
->AEM Screens直接與AEM as a Cloud Service通訊，因此必須在兩個節點之間建立穩定連線。 對於商業網際網路存取，防火牆是必要的。 身為客戶，請瞭解在這些防火牆和其他與IT安全性相關的網路元件中必須開啟哪些通訊連線埠。
+>AEM Screens會直接與AEM as a Cloud Service通訊，因此必須在兩個節點之間建立穩定連線。對於商業網際網路存取，防火牆是必要的。身為客戶，請瞭解在這些防火牆和其他與IT安全性相關的網路元件中必須開啟哪些通訊連線埠。
 
 ## Proxy伺服器概述 {#proxy-servers}
 

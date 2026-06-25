@@ -24,14 +24,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 593
 ht-degree: 0%
 
 ---
 
 # 第3部分：測試、POC、試行方案及推出 {#part-testing-pocs-pilots-rollouts}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本頁著重說明第3部分（共5部分），旨在協助團隊成員進一步瞭解關鍵術語，以確保在推出之前能開發出成功的解決方案。
 

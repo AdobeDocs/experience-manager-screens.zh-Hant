@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: 1464
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 2%
 設定顯示後，將頻道指派給顯示以檢視您的內容。
 
 此頁面顯示指派管道給您的顯示器、瞭解管道屬性和DayParting。
+
+此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >
@@ -200,7 +202,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >您可以將多個週期性排程新增到您的頻道。
->週期排程引入&#x200B;*DayParting*。 您可以設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示器設定的排程。
+>週期排程引入&#x200B;*DayParting*。您可以設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示器設定的排程。
 
 您可以設定下列選項：
 

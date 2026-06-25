@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 660
 ht-degree: 0%
 
 ---
 
 # 封閉式企業網路（有線/無線） {#enclosed-corporate-networks}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 內嵌式企業網路設定適用於小型、大型及企業企業。 理論上可能會更複雜，邏輯設定如下圖所示。
 
@@ -59,7 +62,7 @@ ht-degree: 0%
 ### 廣域網路 {#wan-connection}
 
 除了網路連線能力外，網際網路連線的效能還必須提供足夠的頻寬，才能順暢地運作AEM Screens內容更新。
-*足夠的頻寬*&#x200B;取決於連線的AEM Screens數目。 這也取決於網路上其他消費者的使用情況，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
+*足夠的頻寬*&#x200B;取決於連線的AEM Screens數目。這也取決於網路上其他消費者的使用情況，例如智慧型手機、平板電腦、收銀機、電腦或來賓Wi-Fi網路。
 
 >[!NOTE]
 >
@@ -78,7 +81,7 @@ ht-degree: 0%
 公司網路有數個連線的裝置，被分割成不同的子網路，並擁有備援或多工的網際網路連線，以提供足夠的效能供數千個同時存取之用。
 此結構已簡化，且適合大部分使用者端可用環境的情況。
 
-如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議至少使用類似`IEEE 802.11g`的現代Wi-Fi標準。 此標準支援最高54 Mbps的連線。 任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。 如果需要使用Wi-Fi中繼器，Adobe會推薦網狀架構Wi-Fi存取點技術，例如Google Nest Mesh Wi-Fi或類似技術。
+如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議至少使用類似`IEEE 802.11g`的現代Wi-Fi標準。此標準支援最高54 Mbps的連線。任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。如果需要使用Wi-Fi中繼器，Adobe會推薦網狀架構Wi-Fi存取點技術，例如Google Nest Mesh Wi-Fi或類似技術。
 其他Wi-Fi重複技術最終會導致整個網路的頻寬大幅減少。
 
 ## 下載媒體和Assets {#download}

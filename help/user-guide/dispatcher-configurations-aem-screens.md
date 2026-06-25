@@ -17,14 +17,17 @@ level_v2:
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 702
 ht-degree: 2%
 
 ---
 
 # 適用於AEM Screens的Dispatcher設定{#dispatcher-configurations-for-aem-screens}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 Dispatcher是Adobe Experience Manager的快取或負載平衡工具，或兩者皆有。
 

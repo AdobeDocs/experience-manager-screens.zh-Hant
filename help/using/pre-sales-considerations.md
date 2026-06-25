@@ -12,20 +12,23 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: 252
 ht-degree: 0%
 
 ---
 
 # 限定範圍專案的考量 {#pre-sales-considerations}
 
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+
 >[!NOTE]
 >此活動的一般利害關係人是行銷/業務策略師。
 
-此階段包含完整定義專案範圍所需的所有售前和探索工作。 在`Day Zero`上完成的工作為專案奠定了基礎，並直接影響應用程式的整體成功。
-在此階段，主要廠商會被識別並彙集在一起，協助制定專案計畫。 在此階段中，客戶公司內部的重要專案利害關係人也必須建立加入機制。 這些利害關係人包括銷售主管、行銷經理和IT團隊。 這些人在應用程式的開發及持續維護中都有重要角色。
+此階段包含完整定義專案範圍所需的所有售前和探索工作。在`Day Zero`上完成的工作為專案奠定了基礎，並直接影響應用程式的整體成功。
+在此階段，主要廠商會被識別並彙集在一起，協助制定專案計畫。在此階段中，客戶公司內部的重要專案利害關係人也必須建立加入機制。這些利害關係人包括銷售主管、行銷經理和IT團隊。這些人在應用程式的開發及持續維護中都有重要角色。
 
 ## 主要交付專案 {#key-deliverables}
 

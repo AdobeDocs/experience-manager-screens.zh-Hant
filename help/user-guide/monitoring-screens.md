@@ -21,14 +21,17 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: 827
 ht-degree: 1%
 
 ---
 
 # 疑難排解裝置控制中心 {#troubleshooting-device-control-center}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 您可以使用裝置控制面板，監控及疑難排解AEM Screens Player活動和裝置的效能。 此頁面提供如何監督及疑難排解Screens播放器和指派裝置感知效能問題的相關資訊。
 

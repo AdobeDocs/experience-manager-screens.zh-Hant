@@ -8,14 +8,17 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: 703
 ht-degree: 4%
 
 ---
 
 # 最適化轉譯：架構概觀和設定 {#adaptive-renditions}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 ## 簡介 {#introduction}
 
@@ -50,7 +53,7 @@ ht-degree: 4%
    >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。 請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。
+   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。
    >若為現有專案，請確定Screens專案具有相關聯的&#x200B;**轉譯對應**&#x200B;設定。 如需詳細資訊，請參閱[將轉譯對應新增至現有專案](#rendition-mapping-existing)區段。
 
 ### 新增轉譯對應屬性至現有專案 {#rendition-mapping-existing}

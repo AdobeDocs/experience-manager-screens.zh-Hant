@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 690
-ht-degree: 53%
+source-wordcount: 736
+ht-degree: 49%
 
 ---
 
 # AEM Screens簡介 {#introduction}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 **AEM Screens**&#x200B;是數位看板解決方案，可讓您製作、發佈和播放動態的互動式數位體驗。 它涉及不同型別的場地內顯示熒幕，配合全方位的全頻道數位行銷策略。
 

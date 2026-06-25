@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 706
 ht-degree: 0%
@@ -20,6 +20,9 @@ ht-degree: 0%
 ---
 
 # 直接網際網路網路（有線/無線） {#direct-internet-access}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 直接網際網路包含一個進入存取點，讓使用者得以存取網際網路，以連線AEM Screens必須連線的AEM雲端服務。
 
@@ -82,7 +85,7 @@ Direct Internet Network在邏輯上分為兩個區塊：
 區域網路(LAN)的效能，除了網路的連線能力外，還在於提供足夠的頻寬來運作AEM Screens。
 
 LAN網路通常至少會符合100-Mbps的網路，因此有足夠的頻寬來連線許多與系統有良好效能的裝置。
-如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議至少使用類似`IEEE 802.11g`的現代Wi-Fi標準。 此標準支援最高54 Mbps的連線。 任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。
+如果設想使用Wi-Fi解決方案將AEM Screens連線至網際網路連結，建議至少使用類似`IEEE 802.11g`的現代Wi-Fi標準。此標準支援最高54 Mbps的連線。任何&#x200B;*較新*&#x200B;的標準（如`802.11h-n`）品質較佳。
 
 >[!NOTE]
 >

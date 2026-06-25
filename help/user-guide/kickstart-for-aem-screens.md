@@ -15,14 +15,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1249
 ht-degree: 2%
 
 ---
 
 # Kickstart指南 {#kickstart-guide}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐步引導您設定基本的數位看板體驗，以及新增內容（例如資產和/或視訊）至每個管道，並進一步將內容發佈至AEM Screens播放器。
 

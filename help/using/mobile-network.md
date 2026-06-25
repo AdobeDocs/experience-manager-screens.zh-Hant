@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: 837
 ht-degree: 0%
 
 ---
 
 # 直接行動網路 {#mobile-network-setup}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 AEM Screens Player也可以使用至少執行3G網路的行動或行動資料網路來連線。
 
@@ -69,7 +72,7 @@ AEM Screens Player也可以使用至少執行3G網路的行動或行動資料網
 在考量應該使用哪個資料網路時，請考慮以下事項：
 
 可用的網路速度取決於特定的行動資料提供者計畫，以及可到達的AEM Screens控制器位置處的可用涵蓋範圍。
-進行此設定時，除了可用的頻寬外，有些行動資料提供者計畫也會限制在特定時間內通過連線的可用資料量。 您必須確保資料及頻寬量有足夠的容量。
+進行此設定時，除了可用的頻寬外，有些行動資料提供者計畫也會限制在特定時間內通過連線的可用資料量。您必須確保資料及頻寬量有足夠的容量。
 後續作業中，所需的資料包至少必須是：
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
