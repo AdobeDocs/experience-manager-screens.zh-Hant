@@ -20,7 +20,7 @@ ht-degree: 49%
 # AEM Screens簡介 {#introduction}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 **AEM Screens**&#x200B;是數位看板解決方案，可讓您製作、發佈和播放動態的互動式數位體驗。 它涉及不同型別的場地內顯示熒幕，配合全方位的全頻道數位行銷策略。
 

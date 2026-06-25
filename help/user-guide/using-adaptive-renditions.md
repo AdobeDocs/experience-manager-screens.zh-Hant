@@ -20,7 +20,7 @@ ht-degree: 0%
 ## 簡介 {#introduction}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >只有AEM內部部署(AEM 6.x)支援此功能。 AEM as a Cloud Service不支援此功能。
@@ -57,7 +57,7 @@ ht-degree: 0%
    ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >請參閱[隨選內容更新](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
+   >請參閱[隨選內容更新](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
 
 ## 移轉策略 {#migration-strategy}
 

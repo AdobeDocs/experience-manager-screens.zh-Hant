@@ -24,7 +24,7 @@ ht-degree: 4%
 # 設定Screens復寫代理 {#configuring-screens-replication-agent}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下頁面說明如何設定Screens復寫代理程式。
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 Screens復寫代理程式負責將命令資料（例如&#x200B;*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep*），以及其他許多此類值從發佈到作者。 請務必設定此代理程式，讓作者可以顯示裝置Ping。
 
 >[!NOTE]
->若要深入瞭解Screens復寫代理程式，請參閱[Screens復寫代理程式與命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
+>若要深入瞭解Screens復寫代理程式，請參閱[Screens復寫代理程式與命令](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
 
 如果您要完成Screens復寫代理程式的設定，請完成這兩節：
 

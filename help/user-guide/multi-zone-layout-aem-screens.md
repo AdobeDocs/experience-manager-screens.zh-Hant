@@ -35,7 +35,7 @@ ht-degree: 0%
 # 多區域配置 {#multi-zone-layout}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下頁面說明多區域配置的使用方式，並涵蓋下列主題：
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 開始實作此功能之前，請確定您具備下列概念知識：
 
-* [建立AEM Screens專案](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [建立顯示](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [建立AEM Screens專案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [建立顯示](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [將頻道指派給顯示區](/help/user-guide/channel-assignment.md)
 
 ## 建立多區域配置 {#creating-multi-zone-layout}

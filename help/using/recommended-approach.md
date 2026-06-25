@@ -24,7 +24,7 @@ ht-degree: 0%
 # 建議做法 {#recommended-approach}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 最佳實務是將任何企業層級的AEM Screens專案視為一項長期事業。 專案持續時間可能為一年以上，尤其是如果解決方案允許複雜的使用者互動，或部署至各種裝置和位置。
 
