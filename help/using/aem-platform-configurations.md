@@ -3,21 +3,20 @@ title: AEM平台組態
 description: 頁面說明AEM平台組態
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 543
 ht-degree: 4%
 
 ---
 
 # AEM平台組態 {#platform-configurations}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >
@@ -27,21 +26,21 @@ ht-degree: 4%
 
 ## 伺服器設定 {#server-configurations}
 
-若要設定伺服器設定，請參閱[伺服器設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration)。
+若要設定伺服器設定，請參閱[伺服器設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration)。
 
 ## Author-Publish {#author-publish}
 
-請參閱[在AEM Screens中設定作者與發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)。
+請參閱[在AEM Screens中設定作者與發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)。
 
 >[!NOTE]
 >
->如果只有一個Author和一個Publish，您只能按照[在AEM Screens中設定Author和Publish &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)頁面中&#x200B;**在Author**&#x200B;上設定Replication Agent下的步驟操作。
+>如果只有一個Author和一個Publish，您只能按照[在AEM Screens中設定Author和Publish ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)頁面中&#x200B;**在Author**&#x200B;上設定Replication Agent下的步驟操作。
 
 ## Dispatcher 設定 {#dispatcher-configurations}
 
 Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AEM 的 Dispatcher 也有助於保護您的 AEM 伺服器不受攻擊。 因此，您可以將Dispatcher搭配企業級網頁伺服器使用，以提高AEM執行個體的安全性。
 
-請參閱&#x200B;**[AEM Screens的Dispatcher設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**，其中強調為AEM Screens專案設定Dispatcher的指引。
+請參閱&#x200B;**[AEM Screens的Dispatcher設定](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**，其中強調為AEM Screens專案設定Dispatcher的指引。
 
 ## 安裝FFMpeg和視訊轉譯 {#installing-ffmpeg}
 
@@ -52,13 +51,13 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
    >[!NOTE]
    >
-   >`-strict -2`必須是引數清單中的最後一個引數。 此外，在AEM 6.4中，將&#x200B;*/libs/settings/dam/video*&#x200B;底下的節點複製到&#x200B;*/conf/global/settings/dam/video*，如[Video Renditions](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions)中所述。
+   >`-strict -2`必須是引數清單中的最後一個引數。 此外，在AEM 6.4中，將&#x200B;*/libs/settings/dam/video*&#x200B;底下的節點複製到&#x200B;*/conf/global/settings/dam/video*，如[Video Renditions](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions)中所述。
 1. 確認已進行視訊轉換，且正在建立轉譯。
 
 ## 密碼限制 {#password-restrictions}
 
 必須在AMS執行個體上停用AEM的密碼原則。 您也可以使用Screens裝置服務&#x200B;*com.adobe.cq.screens.device.impl.DeviceService，在Web主控台中交替設定此專案*
-請參閱[在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)中的&#x200B;**密碼限制**&#x200B;區段
+請參閱[在AEM Screens中設定作者和發佈](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)中的&#x200B;**密碼限制**&#x200B;區段
 
 ## 設定環境 {#setting-up-environments}
 
@@ -70,7 +69,7 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
 除了上述內容，請識別任何開發套件(例如WCM Core
 元件)或所需的協力廠商工具組（例如SAP Hybris）。
-在本機開發環境中安裝相同的軟體套件。 指示您的使用者端在其所有QA、Stage及生產伺服器上採用相同的設定。 不相符的伺服器設定會在部署和測試時造成問題。
+在本機開發環境中安裝相同的軟體套件。指示您的使用者端在其所有QA、Stage及生產伺服器上採用相同的設定。不相符的伺服器設定會在部署和測試時造成問題。
 
 >[!NOTE]
 >
@@ -80,4 +79,4 @@ Dispatcher是Adobe Experience Manager的快取與負載平衡工具。 使用 AE
 
 設定ACL說明如何區隔專案，讓每個個人或團隊處理自己的專案。
 
-如需詳細資訊，請參閱[設定ACL](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/setting-up-acls)。
+如需詳細資訊，請參閱[設定ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls)。

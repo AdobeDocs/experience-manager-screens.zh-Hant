@@ -3,19 +3,19 @@ title: 透視效果
 description: 瞭解如何在AEM Screens專案中使用線框。
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 TQID: https://experienceleague.adobe.com/vZIM1FREMXC5FemQIbC5F5O27wTU6acsRyv5GP5zDEw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: 212
 ht-degree: 0%
 
 ---
 
 # 透視效果 {#wireframes}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >此活動的一般利害關係人是行銷/業務策略師。
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 這有助於將專案從原型階段更接近實際部署階段。
 
-從&#x200B;**資產層級檢視**，您應該建立定義各種內容配置選項和內容群組的線框。 這項工作有助於定義當組成群組時，多個內容片段的外觀。
+從&#x200B;**資產層級檢視**，您應該建立定義各種內容配置選項和內容群組的線框。這項工作有助於定義當組成群組時，多個內容片段的外觀。
 通常，您會在此活動中使用實際的生產就緒圖形、影像和視訊。
 
 從&#x200B;**頻道層級檢視**，您應該建立線框，顯示內容頻道在整個體驗中如何連結在一起，包括內嵌頻道的播放策略。 您也可以檢閱當資料觸發程式參與時可能發生的管道轉變。

@@ -11,28 +11,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d2e10d71-5715-46fe-bd3d-cbd7df1343d6id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1584
+source-wordcount: 1630
 ht-degree: 0%
 
 ---
 
 # 使用Screens Launch更新內容 {#launches}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 內容作者可以建立管道的未來版本，並進一步設定此啟動的上線日期。 此功能可讓內容在指定的上線日期在裝置或播放器中上線。
 
@@ -198,7 +192,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 建立啟動項後，您可以使用&#x200B;**編輯啟動項**&#x200B;選項，將頻道新增或移除至現有的啟動項。
 
-完成時，按一下[儲存]，導覽回&#x200B;**FutureLaunch**&#x200B;頻道。**&#x200B;**
+完成時，按一下[儲存]，導覽回&#x200B;**FutureLaunch**&#x200B;頻道。****
 
 ### 手動提升Screens啟動{#promote-the-screens-launch-manually}
 

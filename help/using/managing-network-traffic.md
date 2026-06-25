@@ -3,22 +3,20 @@ title: 管理網路流量
 description: 此頁面說明「標準網路設定」及管理網路流量的方式。
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: 532
 ht-degree: 0%
 
 ---
 
 # 管理網路流量 {#managing-network-traffic}
+
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 網路設定可以有各種結構。 本節說明組織內最常用的網路設定和一般化作法。
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >**AEM Screens網路需求**
->AEM Screens直接與AEM as a Cloud Service通訊，因此必須在兩個節點之間建立穩定連線。 對於商業網際網路存取，防火牆是必要的。 身為客戶，請瞭解在這些防火牆和其他與IT安全性相關的網路元件中必須開啟哪些通訊連線埠。
+>AEM Screens會直接與AEM as a Cloud Service通訊，因此必須在兩個節點之間建立穩定連線。對於商業網際網路存取，防火牆是必要的。身為客戶，請瞭解在這些防火牆和其他與IT安全性相關的網路元件中必須開啟哪些通訊連線埠。
 
 ## Proxy伺服器概述 {#proxy-servers}
 

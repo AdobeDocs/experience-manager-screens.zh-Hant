@@ -7,33 +7,29 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 857
 ht-degree: 1%
 
 ---
 
 # 永久接管管道 {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+
 以下頁面將展示一個使用案例，著重於設定專案，說明如何建立會在特定日期及時間持續播放的永久TakeOver管道。
 
 ## 使用案例說明 {#use-case-description}
 
-此使用案例說明如何為顯示或顯示群組建立&#x200B;*從正常播放頻道中接管*的頻道。 接管會持續在特定日期和時間。
-例如，有一個永久TakeOver頻道，每個星期五從上午9:00到上午10:00播放。在此期間，不應播放其他頻道。 下列範例示範如何建立永久接管管道，讓內容可在每週三下午2:00到下午4:00播放兩小時。
+此使用案例說明如何為顯示或顯示群組建立&#x200B;*從正常播放頻道中接管*的頻道。接管會持續在特定日期和時間。
+例如，有一個永久TakeOver頻道，每個星期五從上午9:00到上午10:00播放。在此期間，不應播放其他頻道。下列範例示範如何建立永久接管管道，讓內容可在每週三下午2:00到下午4:00播放兩小時。
 
 ### 先決條件 {#preconditions}
 
