@@ -3,8 +3,11 @@ title: 最適化轉譯架構概觀和設定
 description: 瞭解CRXDE Lite的架構概觀和設定，以在AEM Screens中使用最適化轉譯。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 703
@@ -50,7 +53,7 @@ ht-degree: 4%
    >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。請參閱Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md)的[發行說明，以取得最新Feature Pack的詳細資訊。
+   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。
    >若為現有專案，請確定Screens專案具有相關聯的&#x200B;**轉譯對應**&#x200B;設定。 如需詳細資訊，請參閱[將轉譯對應新增至現有專案](#rendition-mapping-existing)區段。
 
 ### 新增轉譯對應屬性至現有專案 {#rendition-mapping-existing}
@@ -94,7 +97,7 @@ ht-degree: 4%
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 按一下「儲存全部」****，並注意您在&#x200B;**rendition-mapping**&#x200B;下建立的節點下的屬性。
+1. 按一下「儲存全部」**&#x200B;**，並注意您在&#x200B;**rendition-mapping**&#x200B;下建立的節點下的屬性。
 
    ![影像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

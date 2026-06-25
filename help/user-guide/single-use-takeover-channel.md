@@ -7,11 +7,18 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 672
@@ -103,7 +110,7 @@ ht-degree: 1%
      >優先順序可以是高於正常播放頻道優先順序值的任何值。
    * **支援的事件**：按一下&#x200B;**閒置畫面**&#x200B;和&#x200B;**計時器**。
    * **排程**：輸入要讓此頻道在顯示上執行的排程文字。 例如，此文字可讓內容在12月31日凌晨12:00前2分鐘播放至凌晨12:01。
-此範例中提到的**排程**&#x200B;中的文字是&#x200B;*在12月31日23:58之後，也在1月1日00.01*&#x200B;之前。
+此範例中提到的&#x200B;**排程**&#x200B;中的文字是&#x200B;*在12月31日23:58之後，也在1月1日00.01*&#x200B;之前。
 
      ![資產](assets/single-takeover8.png)
 

@@ -3,8 +3,11 @@ title: 啟動後支援
 description: 瞭解最佳實務指南中的AEM Screens啟動後支援。
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 396
@@ -19,7 +22,7 @@ ht-degree: 0%
 
 請勿忽視早期階段的啟動後支援。
 
-確保網站獲得硬體供應商的充分支援，對於其業務營運而言至關重要。**音訊 — 視訊整合商**應與業務利害關係人密切合作，找出不同方面所需的需求。
+確保網站獲得硬體供應商的充分支援，對於其業務營運而言至關重要。**音訊 — 視訊整合商**&#x200B;應與業務利害關係人密切合作，找出不同方面所需的需求。
 在啟動後支援期間，請考量下列需求：
 
 * 遠端裝置管理
