@@ -31,7 +31,7 @@ ht-degree: 1%
 ## 使用案例說明 {#use-case-description}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本節說明使用案例範例，著重說明如何設定與單一區域版面配置色版交替的多區域版面配置色版。 多區域管道有循序排列的影像/視訊資產，並顯示您如何設定可從多區域切換為單一區域，反之亦然。
 

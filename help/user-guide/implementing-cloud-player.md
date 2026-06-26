@@ -28,7 +28,7 @@ ht-degree: 0%
 # 實作Cloud Player {#implementing-cloud-player}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 AEM Screens傳統上會針對各種平台（包括ChromeOS、Windows、Android™和`Tizen`）提供獨特的原生播放器應用程式。 然而，為因應使用者不斷變化的需求，Adobe推出了創新解決方案 — AEM Screens Cloud Player。
 

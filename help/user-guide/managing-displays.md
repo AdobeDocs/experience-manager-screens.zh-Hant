@@ -33,7 +33,7 @@ ht-degree: 1%
 # 建立和管理顯示器 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 顯示器是彼此相鄰放置之熒幕的虛擬群組。 顯示相對於安裝是永久性的。 它是內容作者搭配使用的物件，且一律會參照為邏輯顯示，而不是其實體計數器部分。
 
