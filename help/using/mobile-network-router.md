@@ -3,9 +3,13 @@ title: 具有行動資料路由器和主動式網路元件的行動網路
 description: 此頁面說明具有行動資料路由器和主動式網路元件的行動網路
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
 TQID: https://experienceleague.adobe.com/uKyl9w97xF0m6W9kj-PTAbIgt5HtZRAgkOUCstAuti4
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1114

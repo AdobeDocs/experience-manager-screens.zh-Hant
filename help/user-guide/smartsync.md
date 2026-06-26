@@ -10,10 +10,15 @@ role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
 TQID: https://experienceleague.adobe.com/hxV3PSzivkechOrO-jmc0NfJ8OH8LccD4-VBXUv8EtE
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 498
@@ -93,7 +98,7 @@ SmartSync功能可為您的AEM Screens專案提供下列幾項優點：
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 按一下「儲存」****&#x200B;以啟用&#x200B;**Screens Offline Content Services**&#x200B;屬性，因此使用AEM Screens的SmartSync。
+1. 按一下「儲存」**&#x200B;**&#x200B;以啟用&#x200B;**Screens Offline Content Services**&#x200B;屬性，因此使用AEM Screens的SmartSync。
 1. 啟用SmartSync後，請瀏覽至您的專案，然後按一下&#x200B;**更新離線內容** *（從動作列），*，如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
