@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -165,8 +165,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要瞭解AEM Screen Player，請參閱下列資源：>[AEM Screens Player下載](https://download.macromedia.com/screens/)
->[使用AEM Screens Player](working-with-screens-player.md)
+>若要瞭解AEM Screen Player，請參閱下列資源：AEM Screens Player下載使用AEM Screens Player&rbrack;(working-with-screens-player.md)
 
 
 ## 在管道中處理Assets的週期 {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。 此外，您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*A.M./P.M.* （2:00下午）。
+

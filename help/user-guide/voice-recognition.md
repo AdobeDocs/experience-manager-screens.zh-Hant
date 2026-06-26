@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-2.png)
 
-   如果您將「分割Screens」管道新增至專案，請導覽至&#x200B;**分割畫面**&#x200B;並拖放兩個內嵌序列。新增路徑至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道，如下圖所示。
-   ![影像](assets/voice-recognition/vr-emb-6.png)
+   如果您將「分割Screens」管道新增至專案，請導覽至&#x200B;**分割畫面**&#x200B;並拖放兩個內嵌序列。 新增路徑至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道，如下圖所示。   ![影像](assets/voice-recognition/vr-emb-6.png)
 
 
 ### 設定管道標籤 {#setting-tags}
@@ -204,3 +203,4 @@ ht-degree: 2%
 分割Screens頻道的&#x200B;**所需輸出**
 
 **主要**&#x200B;頻道正在播放其內容。 不過，當您同時使用關鍵字&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;的文字時，例如&#x200B;*我想檢視熱飲和冷飲的功能表*，頻道會播放&#x200B;**SplitScreen**&#x200B;頻道的內容。 如果您說&#x200B;*回到主功能表*，它將會回復到&#x200B;**Main**&#x200B;頻道。
+

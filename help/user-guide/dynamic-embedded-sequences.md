@@ -26,9 +26,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2532
+source-wordcount: 2539
 ht-degree: 1%
 
 ---
@@ -91,8 +91,7 @@ ht-degree: 1%
 * 在&#x200B;**管道**&#x200B;資料夾下建立&#x200B;**全域**&#x200B;管道。
 * 新增內容至您的&#x200B;**全域**&#x200B;頻道（*檢查&#x200B;**Resources.zip**&#x200B;以取得相關資產*）。
 
-下列影像顯示&#x200B;**管道**&#x200B;資料夾中具有&#x200B;**全域**&#x200B;管道的&#x200B;**示範**&#x200B;專案。
-![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
+下列影像顯示&#x200B;**管道**&#x200B;資料夾中具有&#x200B;**全域**&#x200B;管道的&#x200B;**示範**&#x200B;專案。![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### 資源 {#resources}
 
@@ -418,3 +417,4 @@ ht-degree: 1%
 >[!NOTE]
 >
 >若要深入瞭解設定許可權，請參閱[設定ACL](setting-up-acls.md)。
+

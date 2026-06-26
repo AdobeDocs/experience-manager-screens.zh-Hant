@@ -17,9 +17,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -40,8 +40,7 @@ ht-degree: 2%
 
 ### 必要條件 {#pre-reqs}
 
-下載「內容指派報表」之前，請確定您已設定包含頻道、位置和裝置的AEM Screens專案。
-如需更多詳細資訊，請參閱下列資源：
+下載「內容指派報表」之前，請確定您已設定包含頻道、位置和裝置的AEM Screens專案。如需更多詳細資訊，請參閱下列資源：
 
 1. [建立和管理專案](/help/user-guide/creating-a-screens-project.md)
 1. [建立和管理管道](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ ht-degree: 2%
 1. 從&#x200B;**管道**&#x200B;資料行選取任何管道會開啟&#x200B;**內容**&#x200B;標籤。 接著，系統會直接將您導覽至該頻道，並提供與該特定頻道相關聯的資產（影像和影片）資訊。
 
    ![影像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

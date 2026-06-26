@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 322
 ht-degree: 0%
@@ -74,3 +74,4 @@ ht-degree: 0%
 1. 此外，如果您將&#x200B;**內嵌順序**&#x200B;元件（包含順序頻道）新增至此頻道編輯器，則可以在結尾新增轉變元件。 這麼做可確保內容以正確順序播放，如下圖所示：
 
    ![影像3](assets/transitions5.png)
+

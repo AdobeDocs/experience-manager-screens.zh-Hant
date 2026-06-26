@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 936
 ht-degree: 0%
@@ -169,3 +169,4 @@ AEM Screens Player是啟用Kiosk的應用程式，也可啟用Chrome作業系統
 ### 使用Screens遠端控制 {#using-remote-control}
 
 AEM Screens提供遠端控制功能。 若要深入瞭解此功能，請前往下列位置： [Screens遙控器](implementing-remote-control.md)
+

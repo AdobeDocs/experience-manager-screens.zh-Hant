@@ -15,7 +15,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 0%
@@ -80,3 +80,4 @@ ChromeOS播放器可在開發人員模式中安裝為Chrome瀏覽器外掛程式
 1. 在與舊資料夾相同的位置解壓縮新的zip
 1. 啟動Chrome並導覽至`chrome://extensions`
 1. 核取播放器圖示，然後按一下重新整理或重新載入按鈕
+

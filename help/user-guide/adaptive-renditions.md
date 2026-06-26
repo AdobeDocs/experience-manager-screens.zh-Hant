@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 4%
 
 ---
@@ -53,8 +53,7 @@ ht-degree: 4%
    >![影像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。
-   >若為現有專案，請確定Screens專案具有相關聯的&#x200B;**轉譯對應**&#x200B;設定。 如需詳細資訊，請參閱[將轉譯對應新增至現有專案](#rendition-mapping-existing)區段。
+   >如果您已安裝最新的Feature Pack 202109，則會在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`預先填入的&#x200B;**轉譯對應**&#x200B;節點結構。 請參閱Feature Pack 202109[&#128279;](/help/user-guide/release-notes-fp-202109.md)的發行說明，以取得最新Feature Pack的詳細資訊。   >若為現有專案，請確定Screens專案具有相關聯的&#x200B;**轉譯對應**&#x200B;設定。 如需詳細資訊，請參閱[將轉譯對應新增至現有專案](#rendition-mapping-existing)區段。
 
 ### 新增轉譯對應屬性至現有專案 {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ ht-degree: 4%
 ## 後續步驟 {#next-steps}
 
 新增轉譯對應屬性和規則後，身為內容作者，您可以設定資產。 您可以使用最適化轉譯，也可以移轉大型網路的裝置，以便在AEM Screens管道中使用此功能。 如需詳細資訊，請參閱[在AEM Screens中使用最適化轉譯](/help/user-guide/using-adaptive-renditions.md)。
+

@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 0%
@@ -54,3 +54,4 @@ ht-degree: 0%
    * 檢查&#x200B;*顯示器*&#x200B;是否已開機。
    * 檢查&#x200B;*電腦*&#x200B;是否已開機且正在傳送訊號。
    * 按一下滑鼠右鍵，檢查並檢查&#x200B;*適用的記錄*。
+

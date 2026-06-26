@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -69,3 +69,4 @@ ht-degree: 0%
 
 * **瞭解自訂整合的範圍**：
 具有觸控熒幕互動、動作感應器或RFID的互動式元件需要在實作方法進行重要的自訂開發。 投影片、視訊廣告或靜態功能表可以圖形內容或HTML的形式在Screens頻道上傳送。
+

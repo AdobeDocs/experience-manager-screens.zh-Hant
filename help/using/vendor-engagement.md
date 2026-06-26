@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 * 確認所有交付專案的傳遞&#x200B;*前置時間*。 建立部署計畫，將所有前置時間向後調整，從第一次必要安裝的一個或多個所需安裝日期開始。
 
 完成所有先前的步驟後，您現在應該已準備好執行完整的&#x200B;*第1*&#x200B;天部署計畫。
+

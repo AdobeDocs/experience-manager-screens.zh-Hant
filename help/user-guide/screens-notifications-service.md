@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 0%
@@ -128,3 +128,4 @@ OBSOLETE NOTE>
 **案例2**
 
 您已將排程頻率設為1，並將Ping逾時設為60。 然後，如果您的AEM Screens裝置未在一天中的任意特定時間立即ping通，您會收到電子郵件通知，確認裝置處於非使用狀態。
+

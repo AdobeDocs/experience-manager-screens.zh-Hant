@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 6%
@@ -52,3 +52,4 @@ ht-degree: 6%
    * *[第3部分：測試、POC、試行方案及轉出](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*：強調說明第3部分（共5部分），旨在協助團隊成員更清楚瞭解主要術語。 這些術語對於確保在推出之前開發成功的解決方案至關重要。 涵蓋有關硬體實驗室測試與效能驗證、概念證明（也稱為POC）和實驗計畫的動作。
    * *[第4部分：專案管理和部署](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：強調專案管理和部署準備的5部分系列第4部分。 它也會定義音訊視訊整合商在專案管理和部署準備方面所負責的關鍵因素。 涵蓋專案前期生產、專案啟動和專案進度。
    * *[第5部分：支援考量](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*：重點說明五個部分系列的結尾部分，旨在協助團隊成員瞭解如何解決硬體、軟體和連線問題。 本階段探討現場支援的成本估算與架構。 本檔案也會說明SLA引數、營運預算及NOC移交的管理方式。
+

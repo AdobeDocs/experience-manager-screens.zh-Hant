@@ -14,7 +14,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 1%
@@ -170,7 +170,7 @@ ht-degree: 1%
 您可以調整CSS規則以使用&quot;data-uri&quot;，並直接內嵌您於（步驟13） *static.css*&#x200B;中建立之CSS檔案中的影像（`Base64`編碼）。
 
 此安排如下：
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+
 
 或者，您可以遵循下列步驟：
 
@@ -183,3 +183,4 @@ ht-degree: 1%
 若要變更背景顏色，請將下列程式碼新增至xml檔案（步驟13），*static.css*。
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

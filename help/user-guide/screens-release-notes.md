@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 298
 ht-degree: 2%
@@ -66,3 +66,4 @@ AEM Screens Feature Pack 201809的發行日期為2018年10月1日。
 #### AEM Screens播放器下載
 
 若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱[AEM Screens播放器下載](https://download.macromedia.com/screens/)。
+

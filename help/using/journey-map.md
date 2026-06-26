@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -38,3 +38,4 @@ UX Journey Map能以視覺效果呈現訪客如何在實體空間中移動以及
 
 >[!NOTE]
 > 在試行期間開始收集分析，這樣您就能協助業務團隊對照他們嘗試達成的特定量度，驗證解決方案是否成功。 了解試行方案的執行方式，有助於業務團隊決定必須作出哪些改進。
+

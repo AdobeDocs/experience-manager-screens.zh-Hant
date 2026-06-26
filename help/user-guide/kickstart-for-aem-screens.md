@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 2%
 
 ---
@@ -40,9 +40,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 >下列教學課程會示範如何在Chrome作業系統播放器中播放您的頻道內容。
 
 >[!IMPORTANT]
->**OSGi組態設定**
->您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。目前這些功能中的部分，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才可使用。儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
->請依照下列步驟啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
+>**OSGi組態設定您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前這些功能中的某些功能，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。請依照下列步驟來啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
 
 
 ## 允許空的反向連結請求 {#allow-empty-referrer-requests}
@@ -186,8 +184,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
    您也可以按一下&#x200B;**啟用期間**&#x200B;和&#x200B;**週期排程**。
 
    >[!NOTE]
-   >*遞回排程*可讓您設定頻道的遞回排程。您可以為通道設定多個週期排程。
-   >如需詳細資訊，請參閱[遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
+   >*遞回排程*&#x200B;可讓您設定頻道的遞回排程。 您可以為通道設定多個週期排程。   >如需詳細資訊，請參閱[遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
 
 1. 設定您的偏好設定後，按一下&#x200B;**儲存**。
 
@@ -253,3 +250,4 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 恭喜您現在在AEM Screens頻道中播放內容！
 
 ![影像](assets/kickstart/demo-video-screens.gif)
+

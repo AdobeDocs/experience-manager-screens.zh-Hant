@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 6%
+source-wordcount: 288
+ht-degree: 5%
 
 ---
 
@@ -79,12 +79,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->每次將第一個裝置新增到新的Screens專案時，都會建立使用者群組。
->例如，如果專案節點名稱為&#x200B;*we-retail*，則使用者群組名稱為&#x200B;*screens-we-retail-devices*。
->此群組已新增為&#x200B;**參與者**&#x200B;群組的成員，如下圖所示：
+>每次將第一個裝置新增到新的Screens專案時，都會建立使用者群組。例如，如果專案節點名稱為&#x200B;*we-retail*，則使用者群組名稱為&#x200B;*screens-we-retail-devices*。此群組已新增為&#x200B;**參與者**&#x200B;群組的成員，如下圖所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### 後續步驟 {#the-next-steps}
 
 在您熟悉指派通道給顯示區之後，請參閱t[監視與疑難排解](monitoring-screens.md)。
+

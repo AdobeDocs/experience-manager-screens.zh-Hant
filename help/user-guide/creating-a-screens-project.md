@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -40,8 +40,7 @@ ht-degree: 1%
 或者，您可以直接導覽至： `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**導覽提示：**
->您也可以使用游標鍵，在AEM中瀏覽不同的資料夾。此外，按一下特定圖元後，按空格鍵可編輯或檢視該特定資料夾的屬性。
+>**導覽提示：您也可以使用游標鍵來瀏覽AEM中的不同資料夾。 此外，按一下特定圖元後，按空格鍵可編輯或檢視該特定資料夾的屬性。
 
 ## 建立新的Screens專案
 
@@ -92,3 +91,4 @@ ht-degree: 1%
 ### 後續步驟 {#the-next-steps}
 
 當您建立自己的專案時，請參閱[頻道管理](managing-channels.md)以建立和管理您頻道中的內容。
+

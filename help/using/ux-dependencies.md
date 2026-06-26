@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 0%
@@ -50,3 +50,4 @@ UX相依性會定義內容的策略化位置及方式，使其最具影響力。
 1. 單一顯示器是否需要多部裝置（例如多區域、超大型主機板）？
 
 1. 亮度、溫度及季節等環境考量因素為何？
+

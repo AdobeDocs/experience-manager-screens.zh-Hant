@@ -18,9 +18,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: 872
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 0%
 
    **瞭解包含子系對話方塊**
 
-   上述步驟說明如何發佈整個內容。如果您想要使用其他三個可用的替代方案，則必須核取該特定選項。
-例如，下列影像顯示如何只管理和更新專案中已修改的頁面：
-   ![影像](assets/author-publish-manage.png)
+   上述步驟說明如何發佈整個內容。 如果您想要使用其他三個可用的替代方案，則必須核取該特定選項。例如，下列影像顯示如何只管理和更新專案中已修改的頁面：   ![影像](assets/author-publish-manage.png)
 
    請依照下列說明操作，以瞭解可用的選項：
 
@@ -143,3 +141,4 @@ ht-degree: 0%
 如果您已重新指定裝置，請在裝置重新指定至新顯示後，發佈初始顯示和新顯示。
 
 同樣地，如果您已重新指定管道，一旦管道重新指定給新顯示時，請發佈初始顯示和新顯示。
+

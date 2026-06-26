@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 0%
 
 ## 目標 {#objective}
 
-身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設為自動下載和播放，而不需要手動建立所有內容變數。
-開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道了。
+身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設為自動下載和播放，而不需要手動建立所有內容變數。開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道了。
 
 >[!IMPORTANT]
 >開始在AEM Screens頻道中使用最適化轉譯之前，Adobe建議您瞭解此功能的架構概觀和設定。 請參閱[最適化轉譯：架構概觀與設定](/help/user-guide/adaptive-renditions.md)。
@@ -79,3 +78,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >完成移轉後，請務必移除頻道、顯示區和位置中的所有設定參照，並將單一設定參照新增至專案內容節點。
+

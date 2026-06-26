@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 2%
+source-wordcount: 1537
+ht-degree: 3%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 2%
       >
       >已知問題：
       >若要新增區域，請從URL移除主要網址，例如
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **在您的品牌中建立區域**
 
@@ -230,8 +230,7 @@ ht-degree: 2%
 
    1. 從&#x200B;**建立頁面**&#x200B;精靈按一下&#x200B;**區域**，然後按一下&#x200B;**下一步**。
 
-   1. 輸入&#x200B;**Title**&#x200B;作為&#x200B;**ScreensValue**，然後按一下&#x200B;**建立**。
-會在您的品牌中建立一個區域。
+   1. 輸入&#x200B;**Title**&#x200B;作為&#x200B;**ScreensValue**，然後按一下&#x200B;**建立**。會在您的品牌中建立一個區域。
 
 ## 步驟5：在活動中建立區段 {#step-setting-up-audience-segmentation}
 
@@ -339,3 +338,4 @@ ht-degree: 2%
 1. **[零售庫存目標啟動](retail-inventory-activation.md)**
 1. **[旅行中心溫度啟用](local-temperature-activation.md)**
 1. **[旅館預訂啟用](hospitality-reservation-activation.md)**
+

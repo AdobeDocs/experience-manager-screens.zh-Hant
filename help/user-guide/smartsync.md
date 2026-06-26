@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 498
 ht-degree: 1%
@@ -102,3 +102,4 @@ SmartSync功能可為您的AEM Screens專案提供下列幾項優點：
 1. 啟用SmartSync後，請瀏覽至您的專案，然後按一下&#x200B;**更新離線內容** *（從動作列），*，如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
+

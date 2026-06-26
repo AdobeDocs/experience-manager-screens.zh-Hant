@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 **順序頻道** — 順序頻道是可讓您編寫的頁面，其中包含以投影片放映方式逐一顯示的元件。
 
 **區域** — 區域是用作頻道主要可定址實體的顯示區段。 在顯示器跨越多個熒幕的情況下，定義區域以符合熒幕尺寸是有利的，尤其是當熒幕顯示顯著的實體邊框時。
+
