@@ -3,14 +3,11 @@ title: 原型
 description: 本頁說明AEM Screens專案的原型
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 TQID: https://experienceleague.adobe.com/lamHvFwIJ-zSu5h0OejB84AaBOP4iSNJNS48RkvZ6MQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 196
+source-wordcount: 310
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 # 使用者體驗原型設計 {#prototypes}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >
@@ -28,8 +25,7 @@ ht-degree: 0%
 
 在這個專案的階段，您應該更關注核心功能，而較少關注精簡實際的UX。
 
-一般會在此階段使用範例或FPO內容。它可協助專案經理和主要利害關係人找出UX流程中的任何重大缺口，以及與播放和相關觸發事件有關的任何時間問題。
-此階段也會揭示資產定位、規模和大小的潛在問題。
+一般會在此階段使用範例或FPO內容。 它可協助專案經理和主要利害關係人找出UX流程中的任何重大缺口，以及與播放和相關觸發事件有關的任何時間問題。此階段也會揭示資產定位、規模和大小的潛在問題。
 
 透過建立體驗的原型，您可以模擬如何使用內容的各種情境。 您可以模擬可能會發生的互動，以及哪些外部資料相依性可能會對體驗的預期流程造成中斷。
 
@@ -37,5 +33,5 @@ ht-degree: 0%
 
 
 >[!NOTE]
-> 在UX設計階段，請確認UI設計擷取的資料是否受到充分支援。
-> 例如，並非所有決策者都熟悉其產品資料庫的資料結構。他們可以選擇其UX解決方案上的描述項，這些描述項不是資料層中的主要欄位。及早識別可能需要操控資料的位置，並將資料傳達給使用者端，以免日後產生誤解。如果使用者端在開發開始後決定擴展或變更UI標籤，則需更加努力來適應這些變更。
+> 在UX設計階段，請確認UI設計擷取的資料是否受到充分支援。例如，並非所有決策者都熟悉其產品資料庫的資料結構。 他們可以選擇其UX解決方案上的描述項，這些描述項不是資料層中的主要欄位。 及早識別可能需要操控資料的位置，並將資料傳達給使用者端，以免日後產生誤解。 如果使用者端在開發開始後決定擴展或變更UI標籤，則需更加努力來適應這些變更。
+

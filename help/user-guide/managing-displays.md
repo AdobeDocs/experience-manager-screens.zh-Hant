@@ -10,20 +10,12 @@ role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 710
 ht-degree: 1%
@@ -33,7 +25,7 @@ ht-degree: 1%
 # 建立和管理顯示器 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 顯示器是彼此相鄰放置之熒幕的虛擬群組。 顯示相對於安裝是永久性的。 它是內容作者搭配使用的物件，且一律會參照為邏輯顯示，而不是其實體計數器部分。
 
@@ -85,7 +77,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**裝置設定**&#x200B;作為必要的範本，然後按一下&#x200B;**下一步**。
 
-1. 視需要輸入屬性，然後按一下[建立]。**&#x200B;**
+1. 視需要輸入屬性，然後按一下[建立]。****
 
 裝置設定已建立並新增至目前的顯示（在下列示範中，新裝置設定為&#x200B;*DeviceConfig*）。
 
@@ -151,3 +143,4 @@ ht-degree: 1%
 當您完成建立位置的顯示時，請為顯示指派頻道。
 
 如需詳細資訊，請參閱[指派管道](channel-assignment.md)。
+

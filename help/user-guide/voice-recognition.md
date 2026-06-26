@@ -6,25 +6,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 2%
 # AEM Screens中的語音辨識 {#voice-recognition}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!IMPORTANT]
 >
@@ -77,7 +67,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-emb-1.png)
 
-1. 導覽至每個管道並新增內容。 例如，瀏覽至&#x200B;**VoiceDemo** > **頻道** > **Main**，然後按一下頻道。 按一下動作列中的[編輯&#x200B;**&#x200B;**]，然後依照您的需求新增內容（影像/影片）。 同樣地，新增內容至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道。
+1. 導覽至每個管道並新增內容。 例如，瀏覽至&#x200B;**VoiceDemo** > **頻道** > **Main**，然後按一下頻道。 按一下動作列中的[編輯&#x200B;****]，然後依照您的需求新增內容（影像/影片）。 同樣地，新增內容至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道。
 
    管道現在包含資產（影像），如下圖所示。
 
@@ -93,8 +83,7 @@ ht-degree: 2%
 
    ![影像](assets/voice-recognition/vr-2.png)
 
-   如果您將「分割Screens」管道新增至專案，請導覽至&#x200B;**分割畫面**&#x200B;並拖放兩個內嵌序列。新增路徑至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道，如下圖所示。
-   ![影像](assets/voice-recognition/vr-emb-6.png)
+   如果您將「分割Screens」管道新增至專案，請導覽至&#x200B;**分割畫面**&#x200B;並拖放兩個內嵌序列。 新增路徑至&#x200B;**ColdInvests**&#x200B;和&#x200B;**HotInvests**&#x200B;頻道，如下圖所示。   ![影像](assets/voice-recognition/vr-emb-6.png)
 
 
 ### 設定管道標籤 {#setting-tags}
@@ -204,3 +193,4 @@ ht-degree: 2%
 分割Screens頻道的&#x200B;**所需輸出**
 
 **主要**&#x200B;頻道正在播放其內容。 不過，當您同時使用關鍵字&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;的文字時，例如&#x200B;*我想檢視熱飲和冷飲的功能表*，頻道會播放&#x200B;**SplitScreen**&#x200B;頻道的內容。 如果您說&#x200B;*回到主功能表*，它將會回復到&#x200B;**Main**&#x200B;頻道。
+

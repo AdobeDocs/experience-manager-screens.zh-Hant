@@ -9,12 +9,9 @@ docset: aem65
 targetaudience: target-audience new
 exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
 TQID: https://experienceleague.adobe.com/I--6jVCUWNNGosI-eK-qCAVnVSW3O6lPeFmowhjOJyg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 0%
@@ -28,13 +25,13 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 ## 製作管道和排程 — 第1部分 {#channels-and-schedules-part-2}
 
 若要觀看影片，您需要下列專案：
 
-1. **AEM 6.4**&#x200B;或&#x200B;**&#x200B; AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
+1. **AEM 6.4**&#x200B;或&#x200B;** AEM 6.3*+ **Screens Feature Pack 1**
 
 1. Screens播放器
 
@@ -49,3 +46,4 @@ ht-degree: 0%
 以下影片說明位置、顯示和裝置設定的建立。 此影片也會說明註冊裝置和將裝置指派給顯示器的步驟。 大致上遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的後半部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+

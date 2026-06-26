@@ -3,14 +3,11 @@ title: 在AEM Screens中使用最適化轉譯
 description: 瞭解如何在AEM Screens中使用最適化轉譯。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 0%
 
 ---
@@ -20,7 +17,7 @@ ht-degree: 0%
 ## 簡介 {#introduction}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >只有AEM內部部署(AEM 6.x)支援此功能。 AEM as a Cloud Service不支援此功能。
@@ -29,8 +26,7 @@ ht-degree: 0%
 
 ## 目標 {#objective}
 
-身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設為自動下載和播放，而不需要手動建立所有內容變數。
-開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道了。
+身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設為自動下載和播放，而不需要手動建立所有內容變數。開發人員新增轉譯對應屬性和規則後，您就可以將轉譯對應套用至資產，然後將其納入AEM Screens管道了。
 
 >[!IMPORTANT]
 >開始在AEM Screens頻道中使用最適化轉譯之前，Adobe建議您瞭解此功能的架構概觀和設定。 請參閱[最適化轉譯：架構概觀與設定](/help/user-guide/adaptive-renditions.md)。
@@ -57,7 +53,7 @@ ht-degree: 0%
    ![影像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >請參閱[隨選內容更新](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
+   >請參閱[隨選內容更新](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，深入瞭解如何管理出版物，以及如何將內容更新從作者傳送至發佈裝置。
 
 ## 移轉策略 {#migration-strategy}
 
@@ -79,3 +75,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >完成移轉後，請務必移除頻道、顯示區和位置中的所有設定參照，並將單一設定參照新增至專案內容節點。
+

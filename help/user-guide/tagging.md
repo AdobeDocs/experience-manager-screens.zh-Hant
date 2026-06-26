@@ -3,9 +3,9 @@ title: 在Screens Cloud上標籤
 description: 本頁說明如何在Screens Cloud上建立、管理及使用標籤。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 在Screens Cloud上標籤 {#tagging-on-Screens-Cloud}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >
@@ -41,8 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 顯示區或播放器最多可指派30個標籤。
-> 一次最多可標籤30個專案。
+> 顯示區或播放器最多可指派30個標籤。一次最多可標籤30個專案。
 
 ## 依標籤篩選 {#filter-by-tags}
 
@@ -54,3 +53,4 @@ ht-degree: 0%
 > 
 > Screens Cloud上定義的標籤與AEM中定義的標籤並無關連/同步。
 > 
+

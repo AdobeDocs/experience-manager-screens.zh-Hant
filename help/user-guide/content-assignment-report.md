@@ -6,20 +6,14 @@ role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 TQID: https://experienceleague.adobe.com/Pwq3ebRrbCufXFMk7R-FJj90xq4b7gLOcLvslch2L5o
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -27,7 +21,7 @@ ht-degree: 2%
 # 內容指派報表 {#content-assignment-report}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 內容指派報告功能可讓AEM Screens管理員或作者以試算表格式匯出&#x200B;*內容指派報告*。
 
@@ -40,8 +34,7 @@ ht-degree: 2%
 
 ### 必要條件 {#pre-reqs}
 
-下載「內容指派報表」之前，請確定您已設定包含頻道、位置和裝置的AEM Screens專案。
-如需更多詳細資訊，請參閱下列資源：
+下載「內容指派報表」之前，請確定您已設定包含頻道、位置和裝置的AEM Screens專案。如需更多詳細資訊，請參閱下列資源：
 
 1. [建立和管理專案](/help/user-guide/creating-a-screens-project.md)
 1. [建立和管理管道](/help/user-guide/managing-channels.md)
@@ -76,3 +69,4 @@ ht-degree: 2%
 1. 從&#x200B;**管道**&#x200B;資料行選取任何管道會開啟&#x200B;**內容**&#x200B;標籤。 接著，系統會直接將您導覽至該頻道，並提供與該特定頻道相關聯的資產（影像和影片）資訊。
 
    ![影像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

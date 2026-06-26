@@ -6,23 +6,14 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 2%
 
 ---
@@ -37,7 +28,7 @@ ht-degree: 2%
 
 此頁面顯示指派管道給您的顯示器、瞭解管道屬性和DayParting。
 
-此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >
@@ -201,8 +192,7 @@ ht-degree: 2%
 週期性排程表可讓您設定內容的週期性排程表。 按一下「**+新增排程**」以將週期排程新增到您的頻道。
 
 >[!NOTE]
->您可以將多個週期性排程新增到您的頻道。
->週期排程引入&#x200B;*DayParting*。您可以設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示器設定的排程。
+>您可以將多個週期性排程新增到您的頻道。週期排程引入&#x200B;*DayParting*。 您可以設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示器設定的排程。
 
 您可以設定下列選項：
 
@@ -243,3 +233,4 @@ ht-degree: 2%
 >[!NOTE]
 >
 >此外，您也可以為每個管道定義&#x200B;***優先順序***。 例如，如果為同一天和時間或同一月設定兩個管道，則優先順序較高的管道會先播放。 優先順序的最小值可以設為0。
+

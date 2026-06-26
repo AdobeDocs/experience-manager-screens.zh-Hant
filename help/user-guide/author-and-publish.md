@@ -3,17 +3,12 @@ title: 在AEM Screens中設定作者和發佈執行個體
 description: 瞭解如何為AEM Screens設定作者執行個體和發佈執行個體。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -23,7 +18,7 @@ ht-degree: 0%
 本頁面主要說明下列主題：
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 * **設定作者與發佈執行個體**
 * **正在設定發佈拓撲**
@@ -65,7 +60,7 @@ ht-degree: 0%
 
 Screens需要三個復寫代理：
 
-1. **預設復寫代理程式&#x200B;***（指定為&#x200B;***標準復寫代理程式**）
+1. **預設復寫代理程式&#x200B;***（指定為***標準復寫代理程式**）
 1. **Screens復寫代理程式**
 1. **反向復寫代理程式**
 
@@ -89,7 +84,7 @@ Screens需要三個復寫代理：
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. 用滑鼠右鍵按一下復寫代理程式，然後按一下[開啟]&#x200B;**以編輯設定。**
+1. 用滑鼠右鍵按一下復寫代理程式，然後按一下[開啟]**以編輯設定。**
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
@@ -123,7 +118,7 @@ Screens需要三個復寫代理：
 1. 建立pub2的AEM Screens復寫代理程式。 複製pub1的Screens復寫代理程式，並將pub2的連線埠變更為指向4504。
 
    >[!NOTE]
-   >若要瞭解如何設定Screens復寫代理，請參閱[設定Screens復寫代理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
+   >若要瞭解如何設定Screens復寫代理，請參閱[設定Screens復寫代理](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
 
 #### 建立Screens反向復寫代理 {#creating-screens-reverse-replication-agents}
 
@@ -155,8 +150,7 @@ Screens需要三個復寫代理：
 
 #### 步驟3：設定ActiveMQ Artemis叢集 {#step-setup-activemq-artemis-cluster}
 
-此步驟可讓您為ActiveMQ Artemis叢集建立加密密碼。
-拓撲中所有發佈執行個體的叢集使用者和密碼必須相同。必須加密ActiveMQ Artemis設定的密碼。因為每個執行個體都有自己的加密金鑰，所以必須使用「加密支援」來建立加密的密碼字串。接著，加密密碼便可用於ActiveMQ的OSGi設定。
+此步驟可讓您為ActiveMQ Artemis叢集建立加密密碼。拓撲中所有發佈執行個體的叢集使用者和密碼必須相同。 必須加密ActiveMQ Artemis設定的密碼。 因為每個執行個體都有自己的加密金鑰，所以必須使用「加密支援」來建立加密的密碼字串。 接著，加密密碼便可用於ActiveMQ的OSGi設定。
 
 在每個發佈執行個體上：
 
@@ -169,8 +163,7 @@ Screens需要三個復寫代理：
 
 >[!NOTE]
 >
->密碼的開頭和結尾應該要有大括弧。例如：
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>密碼的開頭和結尾應該要有大括弧。 例如：
 
 #### 步驟4：啟動ActiveMQ Artemis叢集 {#step-activate-activemq-artemis-cluster}
 
@@ -202,7 +195,7 @@ Screens需要三個復寫代理：
 
 例如，下列影像會顯示在ActiveMQ Artemis伺服器的成功設定上。
 
-如果您沒有從&#x200B;*/system/console/mq*&#x200B;看到下列組態，請瀏覽至&#x200B;*/system/console/mq*，然後按一下[重新啟動]&#x200B;**以重新啟動代理人。**
+如果您沒有從&#x200B;*/system/console/mq*&#x200B;看到下列組態，請瀏覽至&#x200B;*/system/console/mq*，然後按一下[重新啟動]**以重新啟動代理人。**
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -239,7 +232,7 @@ Screens需要三個復寫代理：
 1. 按一下&#x200B;**註冊裝置**。
 1. 按一下&#x200B;**裝置註冊**。
 1. 按一下您要註冊的裝置，然後按一下&#x200B;**註冊裝置**。
-1. 驗證註冊代碼，然後按一下[驗證]。**&#x200B;**
+1. 驗證註冊代碼，然後按一下[驗證]。****
 1. 輸入裝置的標題，然後按一下&#x200B;**註冊**。
 
 #### 步驟3：指派要顯示的裝置 {#step-assigning-the-device-to-display}

@@ -6,18 +6,13 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 2%
 
 ---
@@ -25,7 +20,7 @@ ht-degree: 2%
 # Kickstart指南 {#kickstart-guide}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐步引導您設定基本的數位看板體驗，以及新增內容（例如資產和/或視訊）至每個管道，並進一步將內容發佈至AEM Screens播放器。
 
@@ -40,9 +35,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 >下列教學課程會示範如何在Chrome作業系統播放器中播放您的頻道內容。
 
 >[!IMPORTANT]
->**OSGi組態設定**
->您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。目前這些功能中的部分，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才可使用。儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。
->請依照下列步驟啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
+>**OSGi組態設定您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前這些功能中的某些功能，只有在OSGi設定中啟用`Apache Sling`反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會使這些功能的部分功能無法運作。請依照下列步驟來啟用&#x200B;***Apache Sling反向連結篩選允許空白***：
 
 
 ## 允許空的反向連結請求 {#allow-empty-referrer-requests}
@@ -186,8 +179,7 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
    您也可以按一下&#x200B;**啟用期間**&#x200B;和&#x200B;**週期排程**。
 
    >[!NOTE]
-   >*遞回排程*可讓您設定頻道的遞回排程。您可以為通道設定多個週期排程。
-   >如需詳細資訊，請參閱[遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
+   >*遞回排程*&#x200B;可讓您設定頻道的遞回排程。 您可以為通道設定多個週期排程。   >如需詳細資訊，請參閱[遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
 
 1. 設定您的偏好設定後，按一下&#x200B;**儲存**。
 
@@ -253,3 +245,4 @@ AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐
 恭喜您現在在AEM Screens頻道中播放內容！
 
 ![影像](assets/kickstart/demo-video-screens.gif)
+

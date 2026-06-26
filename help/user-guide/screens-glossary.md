@@ -6,14 +6,10 @@ role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 TQID: https://experienceleague.adobe.com/7wZWJnsszMHUi8OvOnUHVrJIotg0CE395r0yPlu-6-A
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -23,7 +19,7 @@ ht-degree: 0%
 # 字彙表 {#glossary}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 **應用程式頻道** — 應用程式頻道顯示開發人員建立的應用程式，顯示互動式內容。
 
@@ -48,3 +44,4 @@ ht-degree: 0%
 **順序頻道** — 順序頻道是可讓您編寫的頁面，其中包含以投影片放映方式逐一顯示的元件。
 
 **區域** — 區域是用作頻道主要可定址實體的顯示區段。 在顯示器跨越多個熒幕的情況下，定義區域以符合熒幕尺寸是有利的，尤其是當熒幕顯示顯著的實體邊框時。
+

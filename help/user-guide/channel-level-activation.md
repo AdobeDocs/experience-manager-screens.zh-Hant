@@ -7,25 +7,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -33,7 +23,7 @@ ht-degree: 0%
 # 頻道層級啟用 {#channel-level-activation-single-event-playback}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本頁說明在管道中使用的資產的管道層級啟用。
 
@@ -134,7 +124,7 @@ ht-degree: 0%
    >
    >您也可以從顯示控制面板指派管道。 導覽至&#x200B;**頻道層級啟用** > **位置** > **區域** > **區域顯示**。 在動作列上，選取&#x200B;**儀表板**。 在&#x200B;**指派的管道和排程**&#x200B;面板中，按一下&#x200B;**+指派管道**。
 
-   同樣地，為顯示指派頻道&#x200B;**TargetedSinglePlay**&#x200B;**：
+   同樣地，為顯示指派頻道&#x200B;**TargetedSinglePlay****：
 
    1. 導覽至&#x200B;**頻道層級啟用** > **位置** > **地區** > **地區顯示**，然後按一下動作列中的&#x200B;**指派頻道**。
    1. 在&#x200B;**頻道指定任務**&#x200B;對話方塊中，按一下&#x200B;**依路徑參考頻道**。
@@ -165,8 +155,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要瞭解AEM Screen Player，請參閱下列資源：>[AEM Screens Player下載](https://download.macromedia.com/screens/)
->[使用AEM Screens Player](working-with-screens-player.md)
+>若要瞭解AEM Screen Player，請參閱下列資源：AEM Screens Player下載使用AEM Screens Player](working-with-screens-player.md)
 
 
 ## 在管道中處理Assets的週期 {#handling-recurrence-in-assets}
@@ -287,3 +276,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。 此外，您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*A.M./P.M.* （2:00下午）。
+
