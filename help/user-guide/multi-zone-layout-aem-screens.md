@@ -13,29 +13,35 @@ exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 TQID: https://experienceleague.adobe.com/IkYpLkG1zlxS5-YmCsyXLryXc7AsnZmuHj66Dh7NJSc
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 0%
-
 ---
-
 # 多區域配置 {#multi-zone-layout}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下頁面說明多區域配置的使用方式，並涵蓋下列主題：
 
@@ -52,14 +58,15 @@ ht-degree: 0%
 根據專案需求，您有時需要在通道中擁有多個區域，並將它們編輯為一個完整的單位。 例如，具有相關社群媒體摘要的產品序列，在單一頻道上的三個獨立區域中執行。
 
 >[!NOTE]
+>
 >在多區域管道中，由於潛在的衝突和意外行為，不建議進行資產層級排程。 如果資產層級排程是必要的，請建立個別的順序管道，並在該管道內套用排程邏輯。 接下來，將順序頻道嵌入到多區域頻道中。
 
 ### 先決條件 {#prerequisites}
 
 開始實作此功能之前，請確定您具備下列概念知識：
 
-* [建立AEM Screens專案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [建立顯示](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [建立AEM Screens專案](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [建立顯示](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [將頻道指派給顯示區](/help/user-guide/channel-assignment.md)
 
 ## 建立多區域配置 {#creating-multi-zone-layout}
@@ -73,7 +80,7 @@ ht-degree: 0%
 
 1. 從&#x200B;**建立**&#x200B;精靈按一下&#x200B;**1x2拆分畫面頻道**。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;並輸入&#x200B;**標題**&#x200B;作為&#x200B;**MultiZone**。
+1. 按一下[下一步]****&#x200B;並輸入&#x200B;**標題**&#x200B;作為&#x200B;**MultiZone**。
 
 1. 按一下&#x200B;**建立**&#x200B;以完成頻道建立。
 
