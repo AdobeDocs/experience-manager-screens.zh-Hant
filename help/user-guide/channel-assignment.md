@@ -44,7 +44,7 @@ ht-degree: 1%
 
 此頁面顯示指派管道給顯示器。
 
-此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >您可以將多個色版指派給顯示器。
@@ -200,6 +200,6 @@ DayParting是指將一天分割為時段，並指定在所需時間播放哪些�
 >
 > 若要深入瞭解DayParting，請參閱下列章節：
 >
->* [在Assets中處理週期](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [在頻道中處理Assets的週期](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [在Assets中處理週期](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [在頻道中處理Assets的週期](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
 
