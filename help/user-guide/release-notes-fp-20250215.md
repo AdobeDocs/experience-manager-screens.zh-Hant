@@ -8,22 +8,26 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 TQID: https://experienceleague.adobe.com/q6KAClMHbAULOEumQlx5-FdaaVmAcMOCL8m6KWIB458
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 10%
-
 ---
-
 # Feature Pack 20250327發行說明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe建議您升級至6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以從[這裡](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)取得最新版本資訊。
+> 
 >Adobe建議您搭配SP(servicepack) >= 21使用FP11.6。
 
 ## 可用性 {#availability}
@@ -43,8 +47,8 @@ AEM Screens Feature Pack 20250327的發行日期為2025年3月27日。
 * 此版本修正SP22及更高版本的卡片檢視問題。
 
 * 在AEM Screens Players上&#x200B;**更新**
-   * Linux架構的AEM Screens Player已正式淘汰。 建議使用者移轉至AEM Screens支援的其他作業系統。
-   * Android型AEM Screens Player不再有進一步的更新或增強功能。 建議使用者移轉至AEM Screens支援的替代作業系統。
+  * Linux架構的AEM Screens Player已正式淘汰。 建議使用者移轉至AEM Screens支援的其他作業系統。
+  * Android型AEM Screens Player不再有進一步的更新或增強功能。 建議使用者移轉至AEM Screens支援的替代作業系統。
 
 ### 錯誤修正 {#bug-fixes}
 

@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 2%
-
 ---
-
 # 頻道指派 {#channel-assignment}
 
 >[!IMPORTANT]
@@ -171,7 +178,8 @@ ht-degree: 2%
 ### 中斷方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
-> 此選項僅適用於<!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4。
+>
+>此選項僅適用於<!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4。
 
 身為內容作者，您可以指定頻道何時中斷。 如此可讓您選擇剪下非關鍵性內容。 但您也可以選擇讓重要內容完整播放，然後再因排程而縮短播放時間。
 
@@ -180,13 +188,15 @@ ht-degree: 2%
 * **立即** — 每當排程啟動或收到更新時，您可以中斷播放並立即重新整理或播放新內容
 * **目前專案的結尾** — 當新的排程啟動或收到更新時，您可以選擇等待序列中的目前專案完成播放。 之後，您才能重新整理或播放新內容。
 
-  >[!NOTE]
-  >依預設，會選取此選項。
+>[!NOTE]
+>
+>依預設，會選取此選項。
 
 * **在順序結尾** — 當新的排程啟動或收到更新時，您可以選擇等待整個順序結束。 接著，您可以在所要的序列之前，回圈回到第一個元素、重新整理或播放新內容。
 
-  >[!NOTE]
-  >使用第二個或第三個選項可能會導致指派上定義的排程時間稍微延遲。 原因是因為播放器會等待專案或序列的結尾（在指定的時間後），再重新整理。 延遲取決於專案的播放持續時間。
+>[!NOTE]
+>
+>使用第二個或第三個選項可能會導致指派上定義的排程時間稍微延遲。 原因是因為播放器會等待專案或序列的結尾（在指定的時間後），再重新整理。 延遲取決於專案的播放持續時間。
 
 下列屬性是從&#x200B;**頻道指定任務**&#x200B;對話方塊中的&#x200B;**排程**&#x200B;選項設定的。
 
@@ -201,7 +211,8 @@ ht-degree: 2%
 週期性排程表可讓您設定內容的週期性排程表。 按一下「**+新增排程**」以將週期排程新增到您的頻道。
 
 >[!NOTE]
->您可以將多個週期性排程新增到您的頻道。週期排程引入&#x200B;*DayParting*。 您可以設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示器設定的排程。
+>您可以將多個週期性排程新增到您的頻道。
+>週期排程引入&#x200B;*DayParting*。 您可以設定在一天中的特定時間執行多個管道的全域排程，並重複使用一次為所有的顯示器設定的排程。
 
 您可以設定下列選項：
 
@@ -209,8 +220,8 @@ ht-degree: 2%
 * **重複** — 選擇排程是執行&#x200B;**每日**、**每週**、**每月**&#x200B;或&#x200B;**每年**。
 * **開始** — 排程的開始時間。
 * **結束** — 排程的結束時間。 您可以依時間或持續時間進行設定。
-   * **時間** — 排程在指定的時間結束。
-   * **期間** — 排程會以小時或分鐘為單位在特定期間內執行。
+  * **時間** — 排程在指定的時間結束。
+  * **期間** — 排程會以小時或分鐘為單位在特定期間內執行。
 
 ### 日時段分割 {#dayparting}
 
@@ -226,18 +237,18 @@ ht-degree: 2%
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
-| 早餐 | 每日 | 上午6:00 | 上午11點:00 |
-| 午餐 | 每日 | 上午11點:00 | 下午3:00 |
-| 晚餐 | 每日 | 下午3:00 | 下午8:00 |
+| 早餐 | 每日 | 上午6:00 | 上午11:00 |
+| 午餐 | 每日 | 上午11:00 | 下午3:00 |
+| 晚餐 | 每日 | 下午3:00 | 晚上8:00 |
 
 #### 在一週中的特定日播放內容 {#playing-content-on-a-particular-day-of-the-week}
 
-此範例顯示實作於娛樂場的DayParting，每個週末從晚上8:00至晚上10:00進行現場活動，並且晚餐功能表於晚上10:00至上午1:00提供特別優惠。
+此範例說明在賭場中實作的DayParting，其中從每個週末的8:00 P.M.到10:00 P.M.的直播活動會持續到每個週末的10:00 P.M.並可於晚上10:00 P.M.到凌晨1:00 A.M.的晚餐功能表提供特殊優惠。
 
 | **名稱** | **重複** | **啟動** | **結束** |
 |---|---|---|---|
-| 週末 | 每週：週六和週日 | 下午8:00 | 下午10:00 |
-| 特殊優惠 | 每日：星期一到星期五 | 下午10:00 | 上午1:00 |
+| 週末 | 每週：週六和週日 | 晚上8:00 | 晚上10:00 |
+| 特殊優惠 | 每日：星期一到星期五 | 晚上10:00 | 上午1:00 |
 
 >[!NOTE]
 >

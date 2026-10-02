@@ -8,28 +8,36 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1295'
 ht-degree: 1%
-
 ---
-
 # 頻道指派 {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >本節重點說明AEM 6.5.5 Screens版本之前Feature Pack的管道指派和排程。
 
 設定顯示後，將頻道指派給顯示以檢視您的內容。
@@ -78,6 +86,7 @@ ht-degree: 1%
 當有多個指派符合播放條件時，優先順序可用於排序指派。 值最高的總是優先於較低的值。 例如，如果有兩個管道A和B。 A的優先順序為1，而B的優先順序為2，則會顯示管道B，因為其優先順序高於A。
 
 >[!NOTE]
+>
 >如上所述，在&#x200B;**頻道指定任務**&#x200B;對話方塊中，頻道的優先順序設定為數字（最小值為1）。 此外，指派的管道會根據遞減優先順序排序。
 
 ### 支援的事件 {#supported-events-channel}
@@ -131,13 +140,13 @@ DayParting是指將一天分割為時段，並指定在所需時間播放哪些�
 
 | **頻道** | **角色** | **優先順序** | **排程** |
 |---|---|---|---|
-| Menu_A | 早餐 |  | 在6:00之後和11:00之前 |
-| Menu_B | 午餐 |  | 在11:00之後和在15:00之前 |
-| Menu_C | 晚餐 |  | 15:00之後和20:00之前 |
+| Menu_A | 早餐 |  | 6:00之後及11:00之前 |
+| Menu_B | 午餐 |  | 11:00之後及15:00之前 |
+| Menu_C | 晚餐 |  | 15:00之後及20:00之前 |
 
 #### 在一週中的特定日播放內容 {#playing-content-on-a-particular-day-of-the-week}
 
-此範例顯示每週末的直播活動從晚上8:00到晚上10:00在娛樂場中達成的dayParting，以及晚上10:00到凌晨1:00晚餐功能表提供的特別優惠。
+此範例說明在賭場中達成的dayParting，即每個週末從晚上8:00到晚上10:00都舉行現場活動，並且晚餐功能表在下午10:00到凌晨1:00都提供特別優惠。
 
 <table>
  <tbody>

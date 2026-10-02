@@ -8,25 +8,31 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: '1559'
 ht-degree: 0%
-
 ---
-
 # 資產層級啟用 {#asset-level-scheduling}
 
 >[!IMPORTANT]
@@ -40,10 +46,10 @@ ht-degree: 0%
 * 啟用時間
 * 單一事件播放
 * 在Assets中處理週期
-   * 日時段分割
-   * 周劃分
-   * MonthParting
-   * 零件組合
+  * 日時段分割
+  * 周劃分
+  * MonthParting
+  * 零件組合
 * 多資產啟用
 * 通用開始時間的全域覆寫
 
@@ -101,7 +107,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 您可以根據需求，排程資產以每日、每週或每月為特定間隔重複傳送。
 
-假設您只想在星期五下午1:00至下午10:00顯示影像。您可以使用&#x200B;**啟用**&#x200B;索引標籤，設定您資產所需的週期性間隔。
+假設您只想在星期五下午1:00至晚上10:00顯示影像。您可以使用&#x200B;**啟用**&#x200B;索引標籤來設定您資產所需的週期性間隔。
 
 ### 日時段分割 {#day-parting}
 
@@ -120,14 +126,14 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 | **運算式** | **解釋** |
 |---|---|
-| 上午8:00之前 | 頻道中的資產每天上午8:00點之前播放 |
-| 下午2:00之後 | 頻道中的資產會在每天下午2:00點之後播放 |
-| 在12:15之後和12:45之前 | 頻道中的資產會在每天下午12:15後播放30分鐘 |
-| 在12:15之前，也在12:45之後 | 頻道中的資產會在每天下午12:15之前播放，也會在下午12:45之後播放。 |
+| 上午8:00之前 | 頻道中的資產會在每天上午8:00之前播放 |
+| 下午2:00以後 | 頻道中的資產會在每天下午2:00之後播放 |
+| 12:15之後及12:45之前 | 頻道中的資產會在每天下午12:15之後播放30分鐘 |
+| 12:15之前以及12:45之後 | 頻道中的資產會在每天中午12:15之前播放，也會在下午12:45之後播放。 |
 
 >[!NOTE]
 >
->您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*A.M./P.M.* （下午2:00）。
+>您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*上午./P.M.* （下午2:00）。
 
 ### 周劃分 {#week-parting}
 
@@ -175,6 +181,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | `on February-July` | 資產會從2月到7月底在頻道中播放 |
 
 >[!NOTE]
+>
 >在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。
 
 ### 零件組合 {#combined-parting}
@@ -183,8 +190,9 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 1. 輸入開始日期/時間和結束/日期時間後，您可以使用運算式或自然文字版本來指定週期性排程。
 
-   >[!NOTE]
-   >您可以略過或包含&#x200B;**啟用起始日期**&#x200B;與&#x200B;**啟用結束日期**&#x200B;欄位，並根據您的需求將運算式新增至[排程]欄位。
+>[!NOTE]
+>
+>&#x200B;>您可以略過或包含&#x200B;**啟用起始日期**&#x200B;與&#x200B;**啟用結束日期**&#x200B;欄位，並根據您的需求將運算式新增至[排程]欄位。
 
 1. 在&#x200B;**排程**&#x200B;中輸入運算式，您的資產會以特定的日期和時間間隔顯示。
 
@@ -195,11 +203,12 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | **運算式** | **解釋** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | 從1月到三月底，星期一和星期三上午6點至下午6點在頻道中播放資產 |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00之後開始播放，並持續播放1月2日的一整天，直到1月3日上午3:00 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00後開始播放，繼續播放至1月2日上午3:00，然後於1月2日下午2:00再次開始播放，並繼續播放至1月3日上午3:00 |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00之後開始播放，並持續播放1月2日的一整天，直到1月3日凌晨3:00 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 頻道中的資產在1月1日下午2:00之後開始播放程式，繼續播放至1月2日凌晨3:00，然後在1月2日下午2:00重新開始播放，並繼續播放至1月3日凌晨3:00 |
 
 >[!NOTE]
->在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。 此外，您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*A.M./P.M.* （2:00下午）。
+>
+>在定義一週的天數與月份時，您既可以使用短手記號與全名記號，例如，週一/週一，以及一月/一月。 此外，您也可以使用&#x200B;_軍用時間_&#x200B;記號(14:00)，而非&#x200B;*上午./P.M.* （下午2:00）。
 
 
 ## 多資產啟用 {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. 若要全域覆寫，請在資產的&#x200B;**時區覆寫**&#x200B;區段中輸入啟用時間。 如果您沒有在此區域輸入任何內容，則套用的時區是播放器的時區。
-
-
-
