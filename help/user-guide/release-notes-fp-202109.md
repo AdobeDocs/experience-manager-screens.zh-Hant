@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
+TQID: 'https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '989'
 ht-degree: 1%
-
 ---
-
 # Feature Pack 202109發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,17 +45,17 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 * 影片的縮圖支援&#x200B;**&#x200B;**
 
   AEM Screens現在支援影片的縮圖支援。 內容作者會定義影片的縮圖，好讓影像可當做預留位置使用。 他們也會適當測試內容播放和目標定位，而由適當的團隊最終確定實際影片。 如果影片播放失敗，也可以使用該影像。
-如需詳細資訊，請參閱[影片的縮圖支援](/help/user-guide/thumbnail-support.md)。
+  如需詳細資訊，請參閱[影片的縮圖支援](/help/user-guide/thumbnail-support.md)。
 
 * **基本播放監視**
 
   AEM Screens現在可支援基本播放監控。 播放器現在會報告每次ping （預設為30秒鐘）的各種播放量度。 它會根據量度偵測各種邊緣情況（停滯體驗、空白熒幕、排程問題等）。 此功能可讓團隊在遠端監視播放器是否正確播放內容，並改善對空白熒幕或現場中斷體驗的反應能力。 這也會降低向一般使用者顯示中斷體驗的風險。
-如需詳細資訊，請參閱[基本播放監視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
+  如需詳細資訊，請參閱[基本播放監視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
 
 * **內容指派報告的更新**
 
   內容指派報告現已最佳化並改善，並擁有增強的使用者體驗。 可下載的報表會顯示改良的播放器相關實體。 這類實體包括位置、顯示器和一個試算表標籤中的裝置。 它也包括內容提供者資訊，例如其他索引標籤中的管道和資產。
-如需詳細資訊，請參閱[內容指派報告](/help/user-guide/content-assignment-report.md)。
+  如需詳細資訊，請參閱[內容指派報告](/help/user-guide/content-assignment-report.md)。
 
 * **最適化轉譯**
 
@@ -64,29 +69,29 @@ AEM Screens Feature Pack 202109的發行日期為2021年9月23日。
 
   您現在可以為資訊清單版本v3設定Dispatcher 。 若要啟用v3資訊清單，請執行下列動作：
 
-   * 清除作者和已發佈中的任何擱置離線內容工作。
+  * 清除作者和已發佈中的任何擱置離線內容工作。
 
-      * 在「作者」和「發佈」中導覽至CRXDE Lite。
+    * 在「作者」和「發佈」中導覽至CRXDE Lite。
 
-      * 按一下「工具」>「查詢」。
+    * 按一下「工具」>「查詢」。
 
-      * 在查詢中使用`/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`。
+    * 在查詢中使用`/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`。
 
-      * 這會列出佇列中目前正在執行或擱置的所有離線內容工作。
+    * 這會列出佇列中目前正在執行或擱置的所有離線內容工作。
 
-      * 等到查詢傳回的離線內容工作已不存在。
+    * 等到查詢傳回的離線內容工作已不存在。
 
-   * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中停用ContentSync。
+  * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中停用ContentSync。
 
-   * 在`/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`中啟用SmartSync。
+  * 在`/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`中啟用SmartSync。
 
-   * 更新Dispatcher。
+  * 更新Dispatcher。
 
-   * 更新自訂元件。
+  * 更新自訂元件。
 
 
-   * 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
-   * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+  * 如需詳細資訊，請參閱[為資訊清單版本v3](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)設定Dispatcher。
+  * 如果您使用自訂元件做為v3資訊清單的一部分，請參閱[自訂處理常式的範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 
 ### 錯誤修正 {#bug-fixes}
