@@ -9,30 +9,37 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+TQID: 'https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Accessibility
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1892
+source-wordcount: '1892'
 ht-degree: 2%
-
 ---
-
 # 擴充AEM Screens元件
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 下列教學課程會逐步解說擴充現成可用的AEM Screens元件的步驟和最佳作法。 影像元件會延伸以新增可編寫的文字覆蓋。
 
@@ -56,17 +63,17 @@ ht-degree: 2%
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本機開發環境
 
-教學課程步驟和熒幕擷取畫面使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE也可以用來完成本教學課程。 有關使用IDE以[使用AEM進行開發的詳細資訊，請參閱此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+教學課程步驟和熒幕擷取畫面使用CRXDE-Lite執行。 [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE也可以用來完成本教學課程。 有關使用IDE以[使用AEM進行開發的詳細資訊，請參閱此處](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 ## 專案設定 {#project-setup}
 
-Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 為了加快教學課程，已使用[AEM專案原型13](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關[使用Maven AEM專案原型建立專案的更多詳細資訊，請參閱此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 為了加快教學課程，已使用[AEM專案原型13](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關[使用Maven AEM專案原型建立專案的更多詳細資訊，請參閱此處](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 1. 使用&#x200B;**CRX封裝管理** `http://localhost:4502/crx/packmgr/index.jsp)r:`下載並安裝下列封裝
 
    [取得檔案](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack;取得檔案
+   [取得檔案](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **或者**&#x200B;如果搭配使用Eclipse或其他IDE，請下載下列來源套件。 使用Maven命令將專案部署到本機AEM執行個體：
 
    **`mvn -PautoInstallPackage clean install`**
@@ -103,7 +110,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
        componentGroup="We.Retail Run - Content"/>
    ```
 
-   /apps/weretail-run/components/content/poster![&#128279;](assets/poster.png)的屬性
+   /apps/weretail-run/components/content/poster](assets/poster.png)的![屬性
 
    /apps/weretail-run/components/content/poster的屬性
 
@@ -330,7 +337,7 @@ Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 �
 
 ## 建立使用者端程式庫 {#clientlibs}
 
-使用者端資料庫提供一種機制，可整理和管理AEM實作所需的CSS和JavaScript檔案。 如需使用[用戶端程式庫的更多資訊，請參閱這裡。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+使用者端資料庫提供一種機制，可整理和管理AEM實作所需的CSS和JavaScript檔案。 如需使用[用戶端程式庫的更多資訊，請參閱這裡。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同。 已建立兩組使用者端程式庫，一組用於編輯模式，另一組用於預覽/生產模式。
 
@@ -349,13 +356,13 @@ AEM Screens元件在編輯模式與預覽/生產模式中的轉譯方式不同�
    * `allowProxy` |布林值 | `true`
    * `categories` |字串[] | `cq.screens.components`
 
-   /apps/weretail-run/components/content/poster/clientlibs/shared![&#128279;](assets/2018-05-03_at_1026pm-1.png)的屬性
+   /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)的![屬性
 
    /apps/weretail-run/components/content/poster/clientlibs/shared的屬性
 
    `categories`屬性是識別使用者端程式庫的字串。 `cq.screens.components`類別同時用於編輯和預覽/生產模式。 因此，`shared` clientlib中定義的任何CSS/JS都會以所有模式載入。
 
-   最好不要在生產環境中直接向`/apps`公開任何路徑。 `allowProxy`屬性可確保透過前置詞`/etc.clientlibs`參考使用者端程式庫CSS和JS。 有關[allowProxy屬性的詳細資訊可在此處找到。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   最好不要在生產環境中直接向`/apps`公開任何路徑。 `allowProxy`屬性可確保透過前置詞`/etc.clientlibs`參考使用者端程式庫CSS和JS。 有關[allowProxy屬性的詳細資訊可在此處找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 在共用資料夾下建立名為`css.txt`的檔案。
 

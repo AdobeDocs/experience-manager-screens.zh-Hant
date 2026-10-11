@@ -10,30 +10,37 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+TQID: 'https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1537'
 ht-degree: 3%
-
 ---
-
 # 在AEM Screens中設定ContextHub {#configuring-contexthub-in-aem-screens}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本節著重於使用資料存放區建立和管理資料導向資產變更。
 
@@ -170,7 +177,7 @@ ht-degree: 3%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+   1. 按一下[下一步]****，然後按一下[儲存]****。
 
       >[!NOTE]
       >跳過定義json的程式，並保留為空白。
@@ -230,7 +237,8 @@ ht-degree: 3%
 
    1. 從&#x200B;**建立頁面**&#x200B;精靈按一下&#x200B;**區域**，然後按一下&#x200B;**下一步**。
 
-   1. 輸入&#x200B;**Title**&#x200B;作為&#x200B;**ScreensValue**，然後按一下&#x200B;**建立**。會在您的品牌中建立一個區域。
+   1. 輸入&#x200B;**Title**&#x200B;作為&#x200B;**ScreensValue**，然後按一下&#x200B;**建立**。
+      會在您的品牌中建立一個區域。
 
 ## 步驟5：在活動中建立區段 {#step-setting-up-audience-segmentation}
 
@@ -254,7 +262,7 @@ ht-degree: 3%
 
    ![影像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。 `**ValueCheck50**`活動現在已建立並設定。
+   1. 按一下[下一步]****，然後按一下[儲存]****。 `**ValueCheck50**`活動現在已建立並設定。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
 

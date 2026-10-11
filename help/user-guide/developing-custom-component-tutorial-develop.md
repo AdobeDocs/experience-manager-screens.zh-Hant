@@ -9,28 +9,35 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+TQID: 'https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Content structure
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2414
+source-wordcount: '2414'
 ht-degree: 2%
-
 ---
-
 # 為AEM Screens開發自訂元件 {#developing-a-custom-component-for-aem-screens}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 下列教學課程將逐步說明為AEM Screens建立自訂元件的步驟。 AEM Screens會重複使用其他AEM產品的許多現有設計模式與技術。 本教學課程著重說明針對AEM Screens進行開發時的差異和特殊考量事項。
 
@@ -46,21 +53,21 @@ ht-degree: 2%
 
 1. [AEM 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)加上最新的Screens Feature Pack。
 
-1. [AEM Screens 播放器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
+1. [AEM Screens 播放器](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. 本機開發環境
 
-教學課程步驟和熒幕擷取畫面使用&#x200B;**CRXDE-Lite**&#x200B;執行。 您也可以使用IDE來完成本教學課程。 有關使用IDE開發[與AEM的詳細資訊，請在此處找到。](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
+教學課程步驟和熒幕擷取畫面使用&#x200B;**CRXDE-Lite**&#x200B;執行。 您也可以使用IDE來完成本教學課程。 有關使用IDE開發[與AEM的詳細資訊，請在此處找到。](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
 
 
 ## 專案設定 {#project-setup}
 
-Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 為了加快教學課程，已使用[AEM專案原型13](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關[使用Maven AEM專案原型建立專案的更多詳細資訊，請參閱此處](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+Screens專案的原始程式碼通常會作為多模組Maven專案來管理。 為了加快教學課程，已使用[AEM專案原型13](https://github.com/adobe/aem-project-archetype)預先產生專案。 有關[使用Maven AEM專案原型建立專案的更多詳細資訊，請參閱此處](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 1. 使用[CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp)下載並安裝下列套件：
 
    [取得檔案](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   &lbrack;取得檔案
+   [取得檔案](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **選擇性**&#x200B;如果使用Eclipse或其他IDE，請下載下列來源套件。 使用Maven命令將專案部署到本機AEM執行個體：
 
    **`mvn -PautoInstallPackage clean install`**
@@ -126,7 +133,7 @@ AEM Screens有一些有趣的限制，不適用於傳統WCM Sites元件。
        componentGroup="We.Retail Run - Content"
    ```
 
-   /apps/weretail-run/components/content/helloworld![&#128279;](assets/2018-04-28_at_4_23pm.png)的屬性
+   /apps/weretail-run/components/content/helloworld](assets/2018-04-28_at_4_23pm.png)的![屬性
 
    /apps/weretail-run/components/content/helloworld的屬性
 
@@ -150,7 +157,7 @@ AEM Screens有一些有趣的限制，不適用於傳統WCM Sites元件。
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   根據目前使用的[編寫模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-64/authoring/authoring/author-environment-tools)，Screens元件需要兩種不同的轉譯：
+   根據目前使用的[編寫模式](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/authoring/author-environment-tools)，Screens元件需要兩種不同的轉譯：
 
    1. **生產**：預覽或發佈模式(wcmmode=disabled)
    1. **編輯**：用於所有其他編寫模式，也就是編輯、設計、支架、開發人員……
@@ -304,7 +311,7 @@ AEM Screens元件在編輯模式與預覽 — 生產模式中的轉譯方式不�
 
    * `categories`|字串[] | `cq.screens.components`
 
-   /apps/weretail-run/components/content/helloworld/clientlibs/shared![&#128279;](assets/2018-05-03_at_1026pm.png)的屬性
+   /apps/weretail-run/components/content/helloworld/clientlibs/shared](assets/2018-05-03_at_1026pm.png)的![屬性
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared的屬性
 
@@ -358,7 +365,7 @@ AEM Screens元件在編輯模式與預覽 — 生產模式中的轉譯方式不�
 
    這麼做可確保只在「預覽 — 生產」模式中載入樣式。
 
-   ![&#x200B; /apps/weretail-run/components/content/helloworld/clientlibs/production的屬性](assets/2018-04-30_at_5_04pm.png)
+   ![ /apps/weretail-run/components/content/helloworld/clientlibs/production的屬性](assets/2018-04-30_at_5_04pm.png)
 
    `/apps/weretail-run/components/content/helloworld/clientlibs/production`的屬性。
 
@@ -397,7 +404,7 @@ AEM Screens元件在編輯模式與預覽 — 生產模式中的轉譯方式不�
 
 ## 建立設計頁面 {#design-page}
 
-AEM Screens使用[靜態頁面範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static)和[設計設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-64/authoring/siteandpage/default-components-designmode)進行全域變更。 設計設定常用於設定通道上Parsys的允許元件。 最佳實務是以應用程式專屬的方式儲存這些設定。
+AEM Screens使用[靜態頁面範本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static)和[設計設定](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/siteandpage/default-components-designmode)進行全域變更。 設計設定常用於設定通道上Parsys的允許元件。 最佳實務是以應用程式專屬的方式儲存這些設定。
 
 在`We.Retail` Run Design頁面下方會建立以儲存`We.Retail` Run專案專屬的所有設定。
 
@@ -592,7 +599,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 
 ## 完成的程式碼 {#finished-code}
 
-以下是教學課程中完成的程式碼。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是編譯的AEM套件。 **SRC-screens-weretail-run-0.0.1.zip &#x200B;** 是可以使用Maven部署的未編譯原始程式碼。
+以下是教學課程中完成的程式碼。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是編譯的AEM套件。 **SRC-screens-weretail-run-0.0.1.zip **是可以使用Maven部署的未編譯原始程式碼。
 
 [取得檔案](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

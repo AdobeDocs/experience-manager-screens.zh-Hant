@@ -10,25 +10,30 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
+TQID: 'https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 360
+source-wordcount: '360'
 ht-degree: 1%
-
 ---
-
 # Feature Pack 201905發行說明 {#release-notes-for-feature-pack}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >
@@ -46,7 +51,7 @@ AEM Screens Feature Pack 201905的發行日期為2019年5月16日。
 
 「專案匯入工具」是AEM Screens中提供的功能，可讓您將CSV/XLS試算表的一組位置大量匯入至AEM Screens專案。
 
-如需詳細資訊，請參閱檔案&#x200B;[&#128279;](project-importer.md)**的**&#x200B;新專案匯入工具。
+如需詳細資訊，請參閱檔案&#x200B;](project-importer.md)**的**[&#x200B;新專案匯入工具。
 
 * **從ContentSync轉換為SmartSync**
 

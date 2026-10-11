@@ -6,25 +6,30 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
+TQID: 'https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 1%
-
 ---
-
 # 文字覆蓋圖的自訂品牌和樣式 {#creating-custom-branding-styling}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 瞭解如何在AEM Screens頻道中，針對套用至資產的文字覆蓋圖套用自訂品牌和樣式。
 
@@ -80,7 +85,7 @@ ht-degree: 1%
 
 1. 導覽至標題為&#x200B;**DemoBrand** (在步驟(1)中建立)的頻道，然後在選取頻道後，從動作列按一下&#x200B;**內容**。
 
-1. 導覽至&#x200B;**進階**&#x200B;標籤，並檢查&#x200B;**設計**&#x200B;欄位。
+1. 導覽至&#x200B;**進階**&#x200B;標籤，並檢查&#x200B;**設計**欄位。
    ![影像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]

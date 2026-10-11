@@ -6,25 +6,30 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+TQID: 'https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '943'
 ht-degree: 1%
-
 ---
-
 # 建立MultiZone配置圖的自訂範本 {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 此頁面說明如何建立多區域版面的自訂範本。
 
@@ -46,7 +51,7 @@ ht-degree: 1%
    | **配置名稱** | **說明** |
    |---|---|
    | `Left20-LandscapeHD3Zone` | 三區域橫向配置可讓您建立三個區域： <br>*區域1是水準熒幕與垂直熒幕的20%，從左側<br>*區域2是水準熒幕的80%，垂直熒幕的20%是向右對齊<br>*區域3是水準熒幕的100%與垂直熒幕的80%。 外觀比例為16:9 |
-   | `Upper20-PortraitHD2Zone` | 雙區域直向範本，從上到下覆蓋熒幕的20%，外觀比例為16:9 |
+   | `Upper20-PortraitHD2Zone` | 雙區直向範本從上到下佔熒幕的20%，外觀比例為16:9 |
    | `Right20-LandscapeSD3Zone` | 三區範本從右側涵蓋熒幕的20%，外觀比例為4:3 |
 
    >[!IMPORTANT]
@@ -170,7 +175,7 @@ ht-degree: 1%
 您可以調整CSS規則以使用&quot;data-uri&quot;，並直接內嵌您於（步驟13） *static.css*&#x200B;中建立之CSS檔案中的影像（`Base64`編碼）。
 
 此安排如下：
-
+`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 或者，您可以遵循下列步驟：
 

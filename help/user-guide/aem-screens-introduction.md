@@ -5,27 +5,40 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+TQID: 'https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 2%
-
 ---
-
 # 什麼是Adobe Experience Manager Screens？{#what-is-aem-screens}
 
 >[!IMPORTANT]
->此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此內容對AEM內部部署/AMS （AEM 6.5LTS和AEM 6.5）有效。 如需AEM as a Cloud Service Screens內容，請參閱[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 **Experience Manager Screens** — 數位看板解決方案，可讓您在完整的數位行銷平台上，發佈包含不同熒幕型別的動態與互動式數位體驗與互動。
 
@@ -70,7 +83,7 @@ Experience Manager Screens是功能強大的網頁式解決方案，可讓您建
 
 * **引導式實作Essentials**
 
-  遵循引導式學習路徑&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hant?launch=AEM-7a)**，其中涵蓋Experience Manager Screens支援的基礎和進階功能。
+  遵循引導式學習路徑&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**，其中涵蓋Experience Manager Screens支援的基礎和進階功能。
 
 * **Experience Manager Screens專案最佳作法指南**
 

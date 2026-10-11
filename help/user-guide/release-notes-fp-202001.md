@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-TQID: https://experienceleague.adobe.com/J-tjGLbbC0TT77elnAghVAyDx5nLjv8-ShcJKEv-EyE
+TQID: 'https://experienceleague.adobe.com/J-tjGLbbC0TT77elnAghVAyDx5nLjv8-ShcJKEv-EyE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '322'
 ht-degree: 4%
-
 ---
-
 # Feature Pack 202001發行說明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -50,7 +55,7 @@ Command Sync允許跨不同播放器同步處理播放。 播放器可播放不�
 若要深入瞭解健康情況檢查架構，請參閱[健康情況檢查架構](/help/user-guide/configuring-screens-introduction.md#health-check-framework)。
 
 * **預設轉變型別的更新**
-轉換元件（例如&#x200B;**Type**）的屬性現在設定為&#x200B;**淡化**，而&#x200B;**持續時間**&#x200B;預設為&#x200B;**1600毫秒**。
+轉換元件（例如**Type**）的屬性現在設定為&#x200B;**淡化**，而&#x200B;**持續時間**&#x200B;預設為&#x200B;**1600毫秒**。
 
   如需詳細資訊，請參閱[套用轉變](/help/user-guide/applying-transitions.md)使用案例。
 
