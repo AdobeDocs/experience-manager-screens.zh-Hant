@@ -177,7 +177,7 @@ ht-degree: 3%
 
       ![影像](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. 按一下[下一步]****，然後按一下[儲存]****。
+   1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
 
       >[!NOTE]
       >跳過定義json的程式，並保留為空白。
@@ -262,7 +262,7 @@ ht-degree: 3%
 
    ![影像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 按一下[下一步]****，然後按一下[儲存]****。 `**ValueCheck50**`活動現在已建立並設定。
+   1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。 `**ValueCheck50**`活動現在已建立並設定。
 
       ![影像](/help/user-guide/assets/context-hub/context-hub16.png)
 
